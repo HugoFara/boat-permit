@@ -1,0 +1,74 @@
+{
+  "drafts": [
+    {
+      "ref": "ONI art. 142",
+      "questions": [
+        {
+          "stem": "Worauf bezieht sich die in ONI Art. 142 definierte «Risikoanalyse»?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Auf eine Analyse im Sinne von Artikel 2 Buchstabe d der Schiffbauverordnung (SBV)", "correct": true},
+            {"text": "Auf einen Bericht im Sinne von Artikel 17 Absatz 3 SBV", "correct": false},
+            {"text": "Auf Regeln im Sinne von Artikel 5 SBV", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 142 Bst. a ist die Risikoanalyse eine Analyse im Sinne von Art. 2 Bst. d der Schiffbauverordnung."
+        },
+        {
+          "stem": "Wie wird der Begriff «Sachverständiger» in ONI Art. 142 bestimmt?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Als eine Person im Sinne von Artikel 5a Absatz 1 Buchstabe a SBV", "correct": true},
+            {"text": "Als ein Bericht im Sinne von Artikel 2 Buchstabe f SBV", "correct": false},
+            {"text": "Als eine Analyse im Sinne von Artikel 2 Buchstabe d SBV", "correct": false}
+          ],
+          "explanation": "Gemäss ONI Art. 142 Bst. c ist ein Sachverständiger eine Person im Sinne von Art. 5a Abs. 1 Bst. a SBV."
+        },
+        {
+          "stem": "Welche Aussage zu den in ONI Art. 142 definierten Begriffen ist FALSCH?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Die Sorgfaltsregeln sind Regeln im Sinne von Artikel 2 Buchstabe d SBV", "correct": true},
+            {"text": "Der Sicherheitsbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe e und 17 Absatz 3 SBV", "correct": false},
+            {"text": "Der Sachverständigenprüfbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe f SBV", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 142 Bst. e sind die Sorgfaltsregeln Regeln im Sinne von Art. 5 SBV, nicht von Art. 2 Bst. d."
+        }
+      ]
+    },
+    {
+      "ref": "RNL art. 71",
+      "questions": [
+        {
+          "stem": "Was bedeutet «Fahrt bei unsichtigem Wetter» nach RNL Art. 71?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Schifffahrt bei Tag und bei Nacht bei Nebel, Dunst, Schneetreiben oder schwerem Regenfall", "correct": true},
+            {"text": "Schifffahrt ausschliesslich bei Tageslicht unter eingeschränkter Sicht", "correct": false},
+            {"text": "Schifffahrt nur bei Nacht ohne ausreichende Beleuchtung", "correct": false}
+          ],
+          "explanation": "RNL Art. 71 definiert die Fahrt bei unsichtigem Wetter als Schifffahrt bei Tag und bei Nacht bei Nebel, Dunst, Schneetreiben sowie schwerem Regenfall."
+        },
+        {
+          "stem": "Welche Wetterbedingungen werden in RNL Art. 71 ausdrücklich als unsichtiges Wetter genannt?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Nebel und Schneetreiben", "correct": true},
+            {"text": "Starker Wind und hoher Wellengang", "correct": false},
+            {"text": "Gewitter und Blitzschlag", "correct": false}
+          ],
+          "explanation": "RNL Art. 71 nennt ausdrücklich Nebel, Dunst, Schneetreiben und schweren Regenfall; Wind, Wellen und Gewitter werden nicht erwähnt."
+        },
+        {
+          "stem": "Welche Aussage zur Definition der Fahrt bei unsichtigem Wetter nach RNL Art. 71 trifft NICHT zu?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Sie gilt nur tagsüber, nicht jedoch in der Nacht", "correct": true},
+            {"text": "Sie umfasst auch andere Umstände, die die Sichtverhältnisse in gleicher Weise einschränken", "correct": false},
+            {"text": "Sie schliesst die Schifffahrt bei Dunst ein", "correct": false}
+          ],
+          "explanation": "Nach RNL Art. 71 gilt die Definition sowohl bei Tag als auch bei Nacht, nicht nur tagsüber."
+        }
+      ]
+    }
+  ]
+}

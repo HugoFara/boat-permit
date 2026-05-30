@@ -51,12 +51,7 @@ def _langs(args) -> list[str]:
 def cmd_fetch(args):
     srcs = _select(args.only)
     langs = _langs(args)
-    man = {}
-    if "fr" in langs:                       # FR pulls every source (law + refs)
-        man.update(fetch.fetch_all(srcs, force=args.force))
-    extra = [l for l in langs if l != "fr"]  # DE/IT pull only the law sources
-    if extra:
-        man.update(fetch.fetch_fedlex_langs(extra, srcs, force=args.force))
+    man = fetch.fetch_for_langs(langs, srcs, force=args.force)
     for sid, m in man.items():
         n_img = len(m.get("files", {}).get("images", {})) if "files" in m else 0
         tail = f" (+{n_img} images)" if n_img else ""
@@ -82,11 +77,7 @@ def cmd_build(args):
     srcs = _select(args.only)
     langs = _langs(args)
     print("→ fetch")
-    if "fr" in langs:
-        fetch.fetch_all(srcs, force=args.force)
-    extra = [l for l in langs if l != "fr"]
-    if extra:
-        fetch.fetch_fedlex_langs(extra, srcs, force=args.force)
+    fetch.fetch_for_langs(langs, srcs, force=args.force)
     print("→ parse")
     parsed = parse_stage.parse_all(srcs, langs=tuple(langs))
     print("→ normalize")

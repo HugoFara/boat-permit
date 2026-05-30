@@ -1,0 +1,204 @@
+{
+  "drafts": [
+    {
+      "ref": "ONI art. 40c",
+      "questions": [
+        {
+          "stem": "Wann darf die Atemalkoholprobe mit einem Testgerät durchgeführt werden?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Frühestens 20 Minuten nach dem Trinkende oder nach einer Mundspülung gemäss Herstellerangaben.", "correct": true},
+            {"text": "Frühestens 60 Minuten nach dem Trinkende, ohne Ausnahme.", "correct": false},
+            {"text": "Sofort, sobald die kontrollierte Person das Trinken beendet hat.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 40c Abs. 1 ist die Probe frühestens 20 Minuten nach Trinkende oder nach einer Mundspülung zulässig."
+        },
+        {
+          "stem": "Ab welchem tieferen Messwert gilt bei Führern eines motorisierten Schiffs die Angetrunkenheit als erwiesen (mit unterschriftlicher Anerkennung)?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Bei 0,25 mg/l und mehr, aber weniger als 0,40 mg/l.", "correct": true},
+            {"text": "Bei 0,25 mg/l und mehr, aber weniger als 0,55 mg/l.", "correct": false},
+            {"text": "Bei 0,05 mg/l und mehr, aber weniger als 0,40 mg/l.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 40c Abs. 5 Bst. a gilt bei motorisierten Schiffen der Bereich 0,25 bis unter 0,40 mg/l."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 148g",
+      "questions": [
+        {
+          "stem": "Welche Aussage zur CE-Kennzeichnung von Sportbooten trifft nach diesem Artikel zu?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Die Pflicht zum Anbringen der CE-Kennzeichnung gilt nicht; eine bereits vorschriftsgemäss angebrachte darf belassen werden.", "correct": true},
+            {"text": "Die CE-Kennzeichnung muss zwingend an jedem Sportboot angebracht werden.", "correct": false},
+            {"text": "Eine bereits angebrachte CE-Kennzeichnung muss vor Inverkehrbringen entfernt werden.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 148g Abs. 2 besteht keine CE-Kennzeichnungspflicht, eine bereits angebrachte darf belassen werden."
+        },
+        {
+          "stem": "In welcher Sprache sind den zuständigen Behörden die Unterlagen vorzulegen?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "In einer schweizerischen Amtssprache oder in Englisch.", "correct": true},
+            {"text": "Ausschliesslich in Deutsch.", "correct": false},
+            {"text": "In einer beliebigen EU-Amtssprache.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 148g Abs. 6 sind die Unterlagen in einer schweizerischen Amtssprache oder in Englisch vorzulegen."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 150",
+      "questions": [
+        {
+          "stem": "Wie gross ist in der Regel die Besatzung eines Güterschiffs mit Maschinenantrieb und einer Tragfähigkeit bis 1000 t?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "1 Matrose.", "correct": true},
+            {"text": "2 Matrosen.", "correct": false},
+            {"text": "3 Matrosen.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 150 Abs. 2 Bst. a beträgt die Besatzung bei einer Tragfähigkeit bis 1000 t in der Regel 1 Matrose."
+        },
+        {
+          "stem": "Welche Bedingung muss für die Verminderung der Besatzung um einen Matrosen NICHT erfüllt sein?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Die Fahrzeit zwischen Abgangs- und Zielort darf höchstens 90 Minuten betragen.", "correct": true},
+            {"text": "Das Schiff hat eine Tragfähigkeit von weniger als 350 t und es herrschen gute Sichtverhältnisse bei Tag.", "correct": false},
+            {"text": "Im Steuerstand befindet sich ein betriebsbereites Funkgerät mit ständigem Kontakt zu einer Landstelle.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 150 Abs. 4 Bst. b darf die Fahrzeit höchstens 45 Minuten, nicht 90 Minuten, betragen."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 144",
+      "questions": [
+        {
+          "stem": "Wie gross ist der Freibord eines Güterschiffs mit festem, durchgehendem Deck ohne Decksprung und ohne Aufbauten in Zone 2?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "30 cm.", "correct": true},
+            {"text": "15 cm.", "correct": false},
+            {"text": "100 cm.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 144 Abs. 2 Bst. a beträgt der Freibord für Zone 2 bei solchen Schiffen 30 cm."
+        },
+        {
+          "stem": "Welche Lastannahme ist für die krängenden Momente bei der Freibordberechnung vorgesehen?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Ein seitlicher Winddruck von 0,25 kN/m².", "correct": true},
+            {"text": "Ein seitlicher Winddruck von 2,5 kN/m².", "correct": false},
+            {"text": "Ein seitlicher Winddruck von 0,05 kN/m².", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 144 Abs. 7 Bst. a ist ein seitlicher Winddruck von 0,25 kN/m² anzusetzen."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 143a",
+      "questions": [
+        {
+          "stem": "Wann gilt der rechnerische Nachweis der ausreichenden Stabilität eines beladenen Güterschiffs als erbracht?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Wenn der Krängungswinkel 5 Grad nicht übersteigt und Seite Deck an der tiefsten Stelle nicht eintaucht.", "correct": true},
+            {"text": "Wenn der Krängungswinkel 15 Grad nicht übersteigt.", "correct": false},
+            {"text": "Wenn die metazentrische Höhe 0,50 m nicht unterschreitet.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 143a Abs. 2 darf der Krängungswinkel 5 Grad nicht übersteigen und Seite Deck nicht eintauchen."
+        },
+        {
+          "stem": "Welchen Wert darf die metazentrische Höhe des betriebsbereiten, beladenen Schiffes nicht unterschreiten?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "1,00 m.", "correct": true},
+            {"text": "0,25 m.", "correct": false},
+            {"text": "5,00 m.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 143a Abs. 2 darf die metazentrische Höhe 1,00 m nicht unterschreiten."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 134",
+      "questions": [
+        {
+          "stem": "Welche Mindestauftriebskraft müssen Einzelrettungsmittel grundsätzlich aufweisen?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Mindestens 75 N.", "correct": true},
+            {"text": "Mindestens 100 N.", "correct": false},
+            {"text": "Mindestens 750 N.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 134 Abs. 2 müssen Einzelgeräte mindestens 75 N Auftrieb haben."
+        },
+        {
+          "stem": "Welche Aussage zu den Rettungsgeräten nach diesem Artikel trifft NICHT zu?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Aufblasbare Rettungswesten werden nicht anerkannt.", "correct": true},
+            {"text": "Vergnügungsschiffe und Sportboote mit mehr als 30 kW Antriebsleistung benötigen zusätzlich ein Rettungswurfgerät.", "correct": false},
+            {"text": "Auf Schiffen muss für jede Person ein Einzelrettungsmittel oder ein Platz in einem Sammelrettungsmittel vorhanden sein.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 134 Abs. 2bis werden aufblasbare Rettungswesten anerkannt, wenn der Aufblasvorgang automatisch oder von Hand ausgelöst wird."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 91a",
+      "questions": [
+        {
+          "stem": "Wer benötigt nach diesem Artikel einen schweizerischen Führerausweis?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Personen, die seit mehr als zwölf Monaten in der Schweiz Wohnsitz haben.", "correct": true},
+            {"text": "Alle Touristen, die ein Schiff für einen Tag mieten.", "correct": false},
+            {"text": "Personen, die seit mehr als drei Monaten in der Schweiz Wohnsitz haben.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 91a Abs. 1 Bst. a benötigen Personen mit Wohnsitz in der Schweiz seit mehr als zwölf Monaten einen schweizerischen Ausweis."
+        },
+        {
+          "stem": "Welche Voraussetzungen muss der Antragsteller beim Erwerb des schweizerischen Ausweises erfüllen?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Die medizinischen Voraussetzungen nach Art. 82 sowie das Mindestalter für die jeweilige Kategorie.", "correct": true},
+            {"text": "Eine erneute theoretische und praktische Prüfung in allen Fällen.", "correct": false},
+            {"text": "Ausschliesslich den Nachweis eines Wohnsitzes im Ausstellerstaat.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 91a Abs. 4 muss der Antragsteller die medizinischen Voraussetzungen nach Art. 82 und das Mindestalter erfüllen."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 146",
+      "questions": [
+        {
+          "stem": "Mit welchen Schotten müssen Güterschiffe nach diesem Artikel mindestens versehen sein?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Mit einem Kollisionsschott und zwei Maschinenraumschotten.", "correct": true},
+            {"text": "Mit zwei Kollisionsschotten und einem Maschinenraumschott.", "correct": false},
+            {"text": "Mit einem einzigen Kollisionsschott und keinem Maschinenraumschott.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 146 Abs. 2 sind mindestens ein Kollisionsschott und zwei Maschinenraumschotten erforderlich."
+        },
+        {
+          "stem": "Welche Anforderung gilt für das Kollisionsschott?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Es muss wasserdicht sein, von Bordwand zu Bordwand reichen und darf keine Türen oder Öffnungen enthalten.", "correct": true},
+            {"text": "Es darf mit verschliessbaren wasserdichten Türen versehen sein.", "correct": false},
+            {"text": "Es muss nur bis zur halben Schiffshöhe geführt werden.", "correct": false}
+          ],
+          "explanation": "Nach ONI Art. 146 Abs. 5 muss das Kollisionsschott wasserdicht von Bordwand zu Bordwand reichen und ohne Öffnungen sein."
+        }
+      ]
+    }
+  ]
+}

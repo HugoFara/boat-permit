@@ -1,0 +1,154 @@
+{
+  "drafts": [
+    {
+      "ref": "RNL art. 86f",
+      "questions": [
+        {
+          "stem": "Welche Auftriebskraft müssen Sammelrettungsmittel an Bord eines Fahrgastschiffes im Süsswasser pro Person mindestens aufweisen?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Mindestens 750 N pro Person", "correct": true},
+            {"text": "Mindestens 75 N pro Person", "correct": false},
+            {"text": "Mindestens 100 N pro Person", "correct": false}
+          ],
+          "explanation": "Nach RNL art. 86f müssen Sammelrettungsmittel im Süsswasser pro Person eine Auftriebskraft von mindestens 750 N haben."
+        },
+        {
+          "stem": "Welche Anforderungen gelten gemäss RNL art. 86f für Sammelrettungsmittel auf Fahrgastschiffen?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Sie müssen resistent gegen Öl und Erdölderivate sein und Temperaturen bis einschliesslich 50 °C aushalten.", "correct": true},
+            {"text": "Sie müssen mit einer Leine am Schiff befestigt werden können, damit sie nicht abtreiben.", "correct": true},
+            {"text": "Sie müssen ausschliesslich leuchtend gelb gefärbt sein und dürfen keine Beschriftung tragen.", "correct": false}
+          ],
+          "explanation": "RNL art. 86f verlangt Öl-/Temperaturresistenz und eine am Schiff befestigbare Leine; die Mittel sollen jedoch rückstrahlend orangefarbig und beschriftet sein."
+        }
+      ]
+    },
+    {
+      "ref": "RNL art. 64",
+      "questions": [
+        {
+          "stem": "Einem manövrierunfähigen Schiff, das die Zeichen nach Artikel 33 oder 38 führt, müssen ausweichen:",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Alle Schiffe", "correct": true},
+            {"text": "Nur die Segelschiffe und Ruderboote", "correct": false},
+            {"text": "Nur die Güterschiffe und Schleppverbände", "correct": false}
+          ],
+          "explanation": "Nach RNL art. 64 Abs. 1 müssen alle Schiffe einem manövrierunfähigen Schiff mit den Zeichen nach Art. 33 oder 38 ausweichen."
+        },
+        {
+          "stem": "Welche Aussage zur Vorrangregelung nach RNL art. 64 trifft NICHT zu?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Segelbretter und Drachensegelbretter haben Vorrang vor allen anderen Schiffen.", "correct": true},
+            {"text": "Den Fahrgastschiffen mit Vorrang und den Schleppverbänden müssen alle anderen Schiffe ausweichen.", "correct": false},
+            {"text": "Ruderboote müssen allen Schiffen mit Maschinenantrieb ausweichen, ausgenommen bestimmten vorrangigen Schiffen.", "correct": false}
+          ],
+          "explanation": "Nach RNL art. 64 Abs. 2 Bst. f müssen Segelbretter und Drachensegelbretter allen anderen Schiffen ausweichen, haben also keinen Vorrang."
+        }
+      ]
+    },
+    {
+      "ref": "RNL art. 62",
+      "questions": [
+        {
+          "stem": "Zwei Schiffe fahren auf kreuzendem Kurs, sodass die Gefahr eines Zusammenstosses nicht auszuschliessen ist. Welches Schiff muss ausweichen?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Das Schiff, das das andere auf seiner Steuerbordseite hat", "correct": true},
+            {"text": "Das Schiff, das das andere auf seiner Backbordseite hat", "correct": false},
+            {"text": "Das jeweils grössere und schnellere Schiff", "correct": false}
+          ],
+          "explanation": "Nach RNL art. 62 Bst. b muss das Schiff ausweichen, welches das andere auf seiner Steuerbordseite hat."
+        },
+        {
+          "stem": "Wie ist die Begegnung zweier Schiffe auf entgegengesetztem oder nahezu entgegengesetztem Kurs nach RNL art. 62 grundsätzlich zu regeln?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Jedes Schiff hält nach Steuerbord, sodass sie Backbord an Backbord aneinander vorbeifahren.", "correct": true},
+            {"text": "Jedes Schiff hält nach Backbord, sodass sie Steuerbord an Steuerbord vorbeifahren.", "correct": false},
+            {"text": "Beide Schiffe müssen sofort anhalten und das jeweils andere passieren lassen.", "correct": false}
+          ],
+          "explanation": "Nach RNL art. 62 Bst. c muss jedes Schiff nach Steuerbord halten, um Backbord an Backbord vorbeizufahren."
+        }
+      ]
+    },
+    {
+      "ref": "RNL art. 86a",
+      "questions": [
+        {
+          "stem": "Auf welchem Kanal muss die Sprechfunkanlage eines Fahrgastschiffes nach RNL art. 86a für den Seenotruf senden können?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Kanal 16", "correct": true},
+            {"text": "Kanal 12", "correct": false},
+            {"text": "Kanal K", "correct": false}
+          ],
+          "explanation": "Nach RNL art. 86a Abs. 1 Bst. c ist Kanal 16 der Kanal für den Seenotruf, während Kanal 12 für den Betrieb und Kanal K für die Koordination der Rettungskräfte dient."
+        },
+        {
+          "stem": "Welche Aussage zur Ausrüstung von Fahrgastschiffen nach RNL art. 86a ist korrekt?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Die Pflicht zur Ausrüstung mit Radargerät und Wendeanzeiger gilt nur für Schiffe in internationaler Fahrt.", "correct": true},
+            {"text": "Das Radargerät und der Wendeanzeiger sind für alle Fahrgastschiffe ausnahmslos vorgeschrieben.", "correct": false},
+            {"text": "Die interne Sprechverbindung darf von allen Fahrgästen frei benutzt werden.", "correct": false}
+          ],
+          "explanation": "Nach RNL art. 86a Abs. 2 gelten Radargerät und Wendeanzeiger nur für Schiffe in internationaler Fahrt; die interne Sprechverbindung ist dem Bordpersonal vorbehalten."
+        }
+      ]
+    },
+    {
+      "ref": "RNL art. 16",
+      "questions": [
+        {
+          "stem": "Was ist nach RNL art. 16 für Wettfahrten, Festlichkeiten und sonstige Veranstaltungen auf dem Wasser erforderlich, die zu Ansammlungen von Schiffen führen können?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Eine Bewilligung der zuständigen Behörde", "correct": true},
+            {"text": "Nur eine mündliche Anmeldung bei der Hafenmeisterei", "correct": false},
+            {"text": "Keine Bewilligung, solange weniger als zehn Schiffe teilnehmen", "correct": false}
+          ],
+          "explanation": "Nach RNL art. 16 Abs. 1 bedürfen solche Veranstaltungen der Bewilligung der zuständigen Behörde."
+        },
+        {
+          "stem": "Unter welcher Voraussetzung wird eine Bewilligung für eine Veranstaltung auf dem Wasser nach RNL art. 16 erteilt?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Wenn die vorgeschriebene Haftpflichtversicherung abgeschlossen ist.", "correct": true},
+            {"text": "Wenn die Veranstaltung ausschliesslich auf schweizerischem Gebiet stattfindet.", "correct": false},
+            {"text": "Wenn ausschliesslich motorlose Schiffe teilnehmen.", "correct": false}
+          ],
+          "explanation": "Nach RNL art. 16 Abs. 2 Bst. b wird die Bewilligung nur erteilt, wenn die vorgeschriebene Haftpflichtversicherung abgeschlossen ist."
+        }
+      ]
+    },
+    {
+      "ref": "RNL art. 3",
+      "questions": [
+        {
+          "stem": "Was muss die verantwortliche Person im Steuerstand während der Fahrt eines Fahrgastschiffes nach RNL art. 3 ständig tun?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Die Sprechfunkanlage nach Art. 86a auf Kanal 16 (Seenot) auf Empfang geschaltet halten", "correct": true},
+            {"text": "Die Sprechfunkanlage auf Kanal 12 (Betrieb) auf Empfang geschaltet halten", "correct": false},
+            {"text": "Die Sprechfunkanlage ausgeschaltet lassen, um Ablenkung zu vermeiden", "correct": false}
+          ],
+          "explanation": "Nach RNL art. 3 Abs. 3 muss die Sprechfunkanlage während der Fahrt ständig auf Kanal 16 (Seenot) auf Empfang geschaltet sein."
+        },
+        {
+          "stem": "Welche Aussage zu den Pflichten der Personen an Bord nach RNL art. 3 ist FALSCH?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Übrige an Bord befindliche Personen müssen den Anweisungen des Schiffsführers nicht Folge leisten.", "correct": true},
+            {"text": "Die Besatzungsmitglieder haben die Anweisungen des Schiffsführers zu befolgen und zur Einhaltung des Reglements beizutragen.", "correct": false},
+            {"text": "Die Besatzung muss dafür sorgen, dass die Anzahl der Personen an Bord bekannt ist und nötigenfalls den Rettungsdiensten mitgeteilt werden kann.", "correct": false}
+          ],
+          "explanation": "Nach RNL art. 3 Abs. 2 müssen auch alle übrigen Personen an Bord die Anweisungen des Schiffsführers im Interesse der Sicherheit befolgen."
+        }
+      ]
+    }
+  ]
+}

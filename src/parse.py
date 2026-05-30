@@ -29,20 +29,26 @@ def _manifest(source_id: str, lang: str = "fr") -> dict:
 
 
 def parse_source(src: Source, lang: str = "fr") -> list[KnowledgeUnit]:
-    return _PARSERS[src.kind](src, _manifest(src.id, lang))
+    # fedlex: the requested language's manifestation lives under a per-lang subdir
+    # for non-fr (data/raw/<id>/<lang>/); language-specific sources (wikipedia/html)
+    # are cached flat in their own language.
+    if src.kind == "fedlex":
+        return _PARSERS[src.kind](src, _manifest(src.id, lang))
+    return _PARSERS[src.kind](src, _manifest(src.id))
 
 
 def parse_all(sources: list[Source] | None = None,
               langs: tuple[str, ...] = ("fr",)) -> dict[str, list[KnowledgeUnit]]:
-    """Parse the selected sources in each requested language. FR parses every
-    source; non-FR languages parse only the law (fedlex) sources, whose other
-    official-language manifestations were fetched into data/raw/<id>/<lang>/.
-    Keyed by '<id>' for FR (legacy) and '<id>@<lang>' otherwise."""
+    """Parse the selected sources for the requested languages. Law (fedlex) acts
+    are parsed once per language; language-specific sources (Wikipedia/HTML) are
+    parsed only when their own `lang` is requested. Keyed '<id>' (fr law /
+    lang-specific source) or '<id>@<lang>' (non-fr law)."""
     out: dict[str, list[KnowledgeUnit]] = {}
     for src in (sources or SOURCES):
-        for lang in langs:
-            if lang != "fr" and src.kind != "fedlex":
-                continue
-            key = src.id if lang == "fr" else f"{src.id}@{lang}"
-            out[key] = parse_source(src, lang)
+        if src.kind == "fedlex":
+            for lang in langs:
+                key = src.id if lang == "fr" else f"{src.id}@{lang}"
+                out[key] = parse_source(src, lang)
+        elif src.lang in langs:
+            out[src.id] = parse_source(src)
     return out

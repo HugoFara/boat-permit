@@ -13,6 +13,258 @@
   },
   "questions": [
     {
+      "id": "q-oni-de-oniart142-1b69a547-32a86bb7",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Worauf bezieht sich die in ONI Art. 142 definierte «Risikoanalyse»?",
+      "choices": [
+        {
+          "text": "Auf eine Analyse im Sinne von Artikel 2 Buchstabe d der Schiffbauverordnung (SBV)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Auf einen Bericht im Sinne von Artikel 17 Absatz 3 SBV",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Auf Regeln im Sinne von Artikel 5 SBV",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_142-1b69a547",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 142 Bst. a ist die Risikoanalyse eine Analyse im Sinne von Art. 2 Bst. d der Schiffbauverordnung.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart142-1b69a547-550309bf",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Welche Aussage zu den in ONI Art. 142 definierten Begriffen ist FALSCH?",
+      "choices": [
+        {
+          "text": "Die Sorgfaltsregeln sind Regeln im Sinne von Artikel 2 Buchstabe d SBV",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der Sicherheitsbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe e und 17 Absatz 3 SBV",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Sachverständigenprüfbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe f SBV",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_142-1b69a547",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 142 Bst. e sind die Sorgfaltsregeln Regeln im Sinne von Art. 5 SBV, nicht von Art. 2 Bst. d.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart142-1b69a547-623a0164",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Wie wird der Begriff «Sachverständiger» in ONI Art. 142 bestimmt?",
+      "choices": [
+        {
+          "text": "Als eine Person im Sinne von Artikel 5a Absatz 1 Buchstabe a SBV",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Als ein Bericht im Sinne von Artikel 2 Buchstabe f SBV",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Als eine Analyse im Sinne von Artikel 2 Buchstabe d SBV",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_142-1b69a547",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Gemäss ONI Art. 142 Bst. c ist ein Sachverständiger eine Person im Sinne von Art. 5a Abs. 1 Bst. a SBV.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart142-3888cde0-10795716",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "In base a queste definizioni, l'«analisi dei rischi» è un'analisi ai sensi di quale disposizione?",
+      "choices": [
+        {
+          "text": "Dell'articolo 2 lettera d dell'ordinanza del 14 marzo 1994",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Dell'articolo 2 lettera f OCB",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Dell'articolo 5 OCB",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_142-3888cde0",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 142 lett. a definisce l'analisi dei rischi come un'analisi ai sensi dell'articolo 2 lettera d dell'ordinanza del 14 marzo 1994.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart142-3888cde0-97c3b2e5",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Quale tra le seguenti affermazioni NON corrisponde alle definizioni date dall'articolo?",
+      "choices": [
+        {
+          "text": "L'obbligo di diligenza è il rapporto sulla sicurezza di cui all'articolo 17 capoverso 3 OCB",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il rapporto di perizia è un rapporto ai sensi dell'articolo 2 lettera f OCB",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "L'obbligo di diligenza sono regole ai sensi dell'articolo 5 OCB",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_142-3888cde0",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 142 lett. e definisce l'obbligo di diligenza come regole ai sensi dell'articolo 5 OCB, non come un rapporto sulla sicurezza.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart142-3888cde0-f3ac7113",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Secondo le definizioni dell'articolo, chi è il «perito»?",
+      "choices": [
+        {
+          "text": "Una persona ai sensi dell'articolo 5a capoverso 1 lettera a OCB",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L'autorità competente che approva il rapporto sulla sicurezza",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il responsabile dell'obbligo di diligenza definito all'articolo 17 OCB",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_142-3888cde0",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 142 lett. c definisce il perito come una persona ai sensi dell'articolo 5a capoverso 1 lettera a OCB.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart142-d5cfcfd2-817324cd",
       "theme": "definitions",
       "kind": "definition_mc",
@@ -181,6 +433,132 @@
       ]
     },
     {
+      "id": "q-rnl-de-rnlart71-b854fa2a-b68dcea4",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Was bedeutet «Fahrt bei unsichtigem Wetter» nach RNL Art. 71?",
+      "choices": [
+        {
+          "text": "Schifffahrt bei Tag und bei Nacht bei Nebel, Dunst, Schneetreiben oder schwerem Regenfall",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Schifffahrt ausschliesslich bei Tageslicht unter eingeschränkter Sicht",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Schifffahrt nur bei Nacht ohne ausreichende Beleuchtung",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_71-b854fa2a",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Art. 71 definiert die Fahrt bei unsichtigem Wetter als Schifffahrt bei Tag und bei Nacht bei Nebel, Dunst, Schneetreiben sowie schwerem Regenfall.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart71-b854fa2a-ff9a2b74",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Welche Wetterbedingungen werden in RNL Art. 71 ausdrücklich als unsichtiges Wetter genannt?",
+      "choices": [
+        {
+          "text": "Nebel und Schneetreiben",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Starker Wind und hoher Wellengang",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Gewitter und Blitzschlag",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_71-b854fa2a",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Art. 71 nennt ausdrücklich Nebel, Dunst, Schneetreiben und schweren Regenfall; Wind, Wellen und Gewitter werden nicht erwähnt.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart71-1ace0b9a-dca94200",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Quale tra le seguenti condizioni rientra nella definizione di navigazione in tempo di foschia?",
+      "choices": [
+        {
+          "text": "La navigazione con nevischio o piogge tempestose",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La navigazione con vento forte ma cielo sereno",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La navigazione di notte con buona visibilità",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_71-1ace0b9a",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 71 include espressamente nevischio, neve e piogge tempestose tra le condizioni della navigazione in tempo di foschia.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlart71-ba2d9252-53949420",
       "theme": "definitions",
       "kind": "definition_mc",
@@ -302,6 +680,931 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart16-74e86be7-071665c8",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Was ist nach RNL art. 16 für Wettfahrten, Festlichkeiten und sonstige Veranstaltungen auf dem Wasser erforderlich, die zu Ansammlungen von Schiffen führen können?",
+      "choices": [
+        {
+          "text": "Eine Bewilligung der zuständigen Behörde",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nur eine mündliche Anmeldung bei der Hafenmeisterei",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Keine Bewilligung, solange weniger als zehn Schiffe teilnehmen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_16-74e86be7",
+        "ref": "RNL art. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach RNL art. 16 Abs. 1 bedürfen solche Veranstaltungen der Bewilligung der zuständigen Behörde.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart16-74e86be7-af0e8d46",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Unter welcher Voraussetzung wird eine Bewilligung für eine Veranstaltung auf dem Wasser nach RNL art. 16 erteilt?",
+      "choices": [
+        {
+          "text": "Wenn die vorgeschriebene Haftpflichtversicherung abgeschlossen ist.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Wenn die Veranstaltung ausschliesslich auf schweizerischem Gebiet stattfindet.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn ausschliesslich motorlose Schiffe teilnehmen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_16-74e86be7",
+        "ref": "RNL art. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach RNL art. 16 Abs. 2 Bst. b wird die Bewilligung nur erteilt, wenn die vorgeschriebene Haftpflichtversicherung abgeschlossen ist.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart3-600d0f45-6ef88aa7",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Was muss die verantwortliche Person im Steuerstand während der Fahrt eines Fahrgastschiffes nach RNL art. 3 ständig tun?",
+      "choices": [
+        {
+          "text": "Die Sprechfunkanlage nach Art. 86a auf Kanal 16 (Seenot) auf Empfang geschaltet halten",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Die Sprechfunkanlage auf Kanal 12 (Betrieb) auf Empfang geschaltet halten",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Sprechfunkanlage ausgeschaltet lassen, um Ablenkung zu vermeiden",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_3-600d0f45",
+        "ref": "RNL art. 3",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach RNL art. 3 Abs. 3 muss die Sprechfunkanlage während der Fahrt ständig auf Kanal 16 (Seenot) auf Empfang geschaltet sein.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart62-788b1b04-67bd6da0",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Wie ist die Begegnung zweier Schiffe auf entgegengesetztem oder nahezu entgegengesetztem Kurs nach RNL art. 62 grundsätzlich zu regeln?",
+      "choices": [
+        {
+          "text": "Jedes Schiff hält nach Steuerbord, sodass sie Backbord an Backbord aneinander vorbeifahren.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Jedes Schiff hält nach Backbord, sodass sie Steuerbord an Steuerbord vorbeifahren.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Beide Schiffe müssen sofort anhalten und das jeweils andere passieren lassen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_62-788b1b04",
+        "ref": "RNL art. 62",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach RNL art. 62 Bst. c muss jedes Schiff nach Steuerbord halten, um Backbord an Backbord vorbeizufahren.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart62-788b1b04-caa30eaf",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Zwei Schiffe fahren auf kreuzendem Kurs, sodass die Gefahr eines Zusammenstosses nicht auszuschliessen ist. Welches Schiff muss ausweichen?",
+      "choices": [
+        {
+          "text": "Das Schiff, das das andere auf seiner Steuerbordseite hat",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Das Schiff, das das andere auf seiner Backbordseite hat",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das jeweils grössere und schnellere Schiff",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_62-788b1b04",
+        "ref": "RNL art. 62",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach RNL art. 62 Bst. b muss das Schiff ausweichen, welches das andere auf seiner Steuerbordseite hat.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart64-68c3bed8-3998983b",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Welche Aussage zur Vorrangregelung nach RNL art. 64 trifft NICHT zu?",
+      "choices": [
+        {
+          "text": "Segelbretter und Drachensegelbretter haben Vorrang vor allen anderen Schiffen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Den Fahrgastschiffen mit Vorrang und den Schleppverbänden müssen alle anderen Schiffe ausweichen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ruderboote müssen allen Schiffen mit Maschinenantrieb ausweichen, ausgenommen bestimmten vorrangigen Schiffen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_64-68c3bed8",
+        "ref": "RNL art. 64",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach RNL art. 64 Abs. 2 Bst. f müssen Segelbretter und Drachensegelbretter allen anderen Schiffen ausweichen, haben also keinen Vorrang.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart64-68c3bed8-4dd610b6",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Einem manövrierunfähigen Schiff, das die Zeichen nach Artikel 33 oder 38 führt, müssen ausweichen:",
+      "choices": [
+        {
+          "text": "Alle Schiffe",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nur die Segelschiffe und Ruderboote",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nur die Güterschiffe und Schleppverbände",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_64-68c3bed8",
+        "ref": "RNL art. 64",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach RNL art. 64 Abs. 1 müssen alle Schiffe einem manövrierunfähigen Schiff mit den Zeichen nach Art. 33 oder 38 ausweichen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart86a-04ed09d4-1c39bb0b",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Auf welchem Kanal muss die Sprechfunkanlage eines Fahrgastschiffes nach RNL art. 86a für den Seenotruf senden können?",
+      "choices": [
+        {
+          "text": "Kanal 16",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Kanal 12",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kanal K",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_86a-04ed09d4",
+        "ref": "RNL art. 86a",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach RNL art. 86a Abs. 1 Bst. c ist Kanal 16 der Kanal für den Seenotruf, während Kanal 12 für den Betrieb und Kanal K für die Koordination der Rettungskräfte dient.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart86a-04ed09d4-3701aebf",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Welche Aussage zur Ausrüstung von Fahrgastschiffen nach RNL art. 86a ist korrekt?",
+      "choices": [
+        {
+          "text": "Die Pflicht zur Ausrüstung mit Radargerät und Wendeanzeiger gilt nur für Schiffe in internationaler Fahrt.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Das Radargerät und der Wendeanzeiger sind für alle Fahrgastschiffe ausnahmslos vorgeschrieben.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die interne Sprechverbindung darf von allen Fahrgästen frei benutzt werden.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_86a-04ed09d4",
+        "ref": "RNL art. 86a",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach RNL art. 86a Abs. 2 gelten Radargerät und Wendeanzeiger nur für Schiffe in internationaler Fahrt; die interne Sprechverbindung ist dem Bordpersonal vorbehalten.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart86f-e3384396-88b307f6",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Welche Anforderungen gelten gemäss RNL art. 86f für Sammelrettungsmittel auf Fahrgastschiffen?",
+      "choices": [
+        {
+          "text": "Sie müssen resistent gegen Öl und Erdölderivate sein und Temperaturen bis einschliesslich 50 °C aushalten.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sie müssen mit einer Leine am Schiff befestigt werden können, damit sie nicht abtreiben.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sie müssen ausschliesslich leuchtend gelb gefärbt sein und dürfen keine Beschriftung tragen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_86f-e3384396",
+        "ref": "RNL art. 86f",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 86f verlangt Öl-/Temperaturresistenz und eine am Schiff befestigbare Leine; die Mittel sollen jedoch rückstrahlend orangefarbig und beschriftet sein.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart86f-e3384396-e263c9c5",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Welche Auftriebskraft müssen Sammelrettungsmittel an Bord eines Fahrgastschiffes im Süsswasser pro Person mindestens aufweisen?",
+      "choices": [
+        {
+          "text": "Mindestens 750 N pro Person",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mindestens 75 N pro Person",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mindestens 100 N pro Person",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_86f-e3384396",
+        "ref": "RNL art. 86f",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach RNL art. 86f müssen Sammelrettungsmittel im Süsswasser pro Person eine Auftriebskraft von mindestens 750 N haben.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart16-a9ac4e80-18a14feb",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Quale affermazione NON è corretta riguardo al rilascio dell'autorizzazione per una manifestazione nautica?",
+      "choices": [
+        {
+          "text": "L'autorizzazione è sempre rilasciata anche senza assicurazione di responsabilità civile",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Deve essere garantita la sicurezza dei partecipanti",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La manifestazione non deve comportare grave pregiudizio per la qualità delle acque",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_16-a9ac4e80",
+        "ref": "RNL art. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo il RNL art. 16 par. 2 lett. b, l'autorizzazione è accordata solo se è stata conclusa l'assicurazione di responsabilità civile prescritta.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart16-a9ac4e80-c4a782cf",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "A quale condizione sono soggette le gare di velocità e le feste nautiche che possono originare concentrazioni di navi?",
+      "choices": [
+        {
+          "text": "All'autorizzazione dell'autorità competente",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A una semplice notifica preventiva alla polizia",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "All'esclusivo consenso degli altri navigatori presenti",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_16-a9ac4e80",
+        "ref": "RNL art. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo il RNL art. 16 par. 1, tali manifestazioni sono soggette ad autorizzazione dell'autorità competente.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart62-1c86fded-5da12a4d",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Quando due navi seguono rotte che s'incrociano con pericolo d'abbordo, quale deve scostarsi?",
+      "choices": [
+        {
+          "text": "La nave che scorge l'altra da dritta",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La nave che scorge l'altra da sinistra",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La nave più grande delle due",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_62-1c86fded",
+        "ref": "RNL art. 62",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo il RNL art. 62 lett. b, deve scostarsi la nave che scorge l'altra da dritta.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart62-1c86fded-faf14f78",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Quando due navi procedono con rotte direttamente opposte con pericolo d'abbordo, come devono comportarsi?",
+      "choices": [
+        {
+          "text": "Ognuna deve accostare a dritta per passare a sinistra dell'altra",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ognuna deve accostare a sinistra per passare a dritta dell'altra",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Entrambe devono mantenere rotta e velocità invariate",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_62-1c86fded",
+        "ref": "RNL art. 62",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo il RNL art. 62 lett. c, con rotte opposte ognuna deve accostare a dritta per passare a sinistra dell'altra.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart64-661f0135-525d5d41",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "In caso di incrocio o sorpasso, da quali navi devono scostarsi le tavole a vela e i kite surf?",
+      "choices": [
+        {
+          "text": "Da tutte le altre navi",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Soltanto dalle navi passeggeri prioritarie",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Soltanto dai velieri e dalle navi a remi",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_64-661f0135",
+        "ref": "RNL art. 64",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo il RNL art. 64 par. 2 lett. f, le tavole a vela e i kite surf devono scostarsi da tutte le altre navi.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart64-661f0135-87536a01",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Quale affermazione NON è corretta riguardo agli obblighi di scostarsi previsti dal RNL art. 64?",
+      "choices": [
+        {
+          "text": "Le navi passeggeri prioritarie devono scostarsi da tutte le navi a vela",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ogni nave deve scostarsi dalle navi senza manovrabilità che portano la segnaletica prevista",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le navi a motore (salvo le eccezioni elencate) devono scostarsi dalle navi a remi",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_64-661f0135",
+        "ref": "RNL art. 64",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo il RNL art. 64 par. 2, le navi passeggeri prioritarie non sono tenute a scostarsi dai velieri, contrariamente a quanto affermato.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart84-484a2a91-117f6ecd",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Riguardo all'ordine di accesso agli impianti d'approdo, quale affermazione è corretta?",
+      "choices": [
+        {
+          "text": "I passeggeri che si imbarcano possono accedere solo dopo che i passeggeri che sbarcano l'hanno lasciato, salvo impianti con entrate e uscite indipendenti",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "I passeggeri che si imbarcano hanno sempre la precedenza su quelli che sbarcano",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nessun passeggero può salire o scendere senza che la nave sia spenta",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_84-484a2a91",
+        "ref": "RNL art. 84",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo il RNL art. 84 par. 4, chi si imbarca accede solo dopo che sono sbarcati gli altri, salvo impianti con entrate e uscite indipendenti.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart84-484a2a91-f0a2117e",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Dove sono permessi l'imbarco e lo sbarco dei passeggeri?",
+      "choices": [
+        {
+          "text": "Solo alle installazioni autorizzate a quest'uopo dall'autorità competente",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "In qualsiasi punto della riva ritenuto sicuro dal conduttore",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ovunque, purché la nave proceda a velocità ridotta",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_84-484a2a91",
+        "ref": "RNL art. 84",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo il RNL art. 84 par. 1, imbarco e sbarco sono permessi solo alle installazioni autorizzate dall'autorità competente.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart86a-74856c53-bd989238",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "A quali navi si applicano esclusivamente gli obblighi relativi all'apparecchio radar e all'indicatore di velocità di virata?",
+      "choices": [
+        {
+          "text": "Alle navi che effettuano corse internazionali",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A tutte le navi passeggeri senza eccezioni",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Soltanto alle navi con equipaggio di una sola persona",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_86a-74856c53",
+        "ref": "RNL art. 86a",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo il RNL art. 86a par. 2, le prescrizioni su radar e indicatore di virata si applicano solo alle navi che effettuano corse internazionali.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart86f-66bd3178-8e020fbc",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Quali requisiti devono soddisfare i mezzi di salvataggio collettivi pneumatici a bordo delle navi passeggeri?",
+      "choices": [
+        {
+          "text": "Constare di almeno due camere d'aria separate",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Gonfiarsi esclusivamente in modo automatico, mai a mano",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Essere costituiti da un'unica camera d'aria rinforzata",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_86f-66bd3178",
+        "ref": "RNL art. 86f",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo il RNL art. 86f par. 3 lett. a, i mezzi pneumatici devono constare di almeno due camere d'aria separate.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart86f-66bd3178-c2f89110",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Quale spinta idrostatica minima per persona, in acqua dolce, devono avere i mezzi di salvataggio collettivi a bordo di una nave passeggeri?",
+      "choices": [
+        {
+          "text": "Almeno 750 N per persona",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Almeno 75 N per persona",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Almeno 100 N per persona",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_86f-66bd3178",
+        "ref": "RNL art. 86f",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo il RNL art. 86f par. 2 lett. b, devono avere una spinta idrostatica di almeno 750 N per persona in acqua dolce.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
       "correct": [
         0
       ]
@@ -809,6 +2112,1350 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart134-3ddc1ad3-3bd9c496",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Welche Mindestauftriebskraft müssen Einzelrettungsmittel grundsätzlich aufweisen?",
+      "choices": [
+        {
+          "text": "Mindestens 75 N.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mindestens 100 N.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mindestens 750 N.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_134-3ddc1ad3",
+        "ref": "ONI art. 134",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 134 Abs. 2 müssen Einzelgeräte mindestens 75 N Auftrieb haben.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart134-3ddc1ad3-3e50abae",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Welche Aussage zu den Rettungsgeräten nach diesem Artikel trifft NICHT zu?",
+      "choices": [
+        {
+          "text": "Aufblasbare Rettungswesten werden nicht anerkannt.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Vergnügungsschiffe und Sportboote mit mehr als 30 kW Antriebsleistung benötigen zusätzlich ein Rettungswurfgerät.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Auf Schiffen muss für jede Person ein Einzelrettungsmittel oder ein Platz in einem Sammelrettungsmittel vorhanden sein.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_134-3ddc1ad3",
+        "ref": "ONI art. 134",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 134 Abs. 2bis werden aufblasbare Rettungswesten anerkannt, wenn der Aufblasvorgang automatisch oder von Hand ausgelöst wird.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart143a-2b95f4ff-382aba0c",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Wann gilt der rechnerische Nachweis der ausreichenden Stabilität eines beladenen Güterschiffs als erbracht?",
+      "choices": [
+        {
+          "text": "Wenn der Krängungswinkel 5 Grad nicht übersteigt und Seite Deck an der tiefsten Stelle nicht eintaucht.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Wenn der Krängungswinkel 15 Grad nicht übersteigt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn die metazentrische Höhe 0,50 m nicht unterschreitet.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_143a-2b95f4ff",
+        "ref": "ONI art. 143a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 143a Abs. 2 darf der Krängungswinkel 5 Grad nicht übersteigen und Seite Deck nicht eintauchen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart143a-2b95f4ff-98c15c02",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Welchen Wert darf die metazentrische Höhe des betriebsbereiten, beladenen Schiffes nicht unterschreiten?",
+      "choices": [
+        {
+          "text": "1,00 m.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "0,25 m.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "5,00 m.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_143a-2b95f4ff",
+        "ref": "ONI art. 143a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 143a Abs. 2 darf die metazentrische Höhe 1,00 m nicht unterschreiten.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart144-f8acab15-209beeb7",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Wie gross ist der Freibord eines Güterschiffs mit festem, durchgehendem Deck ohne Decksprung und ohne Aufbauten in Zone 2?",
+      "choices": [
+        {
+          "text": "30 cm.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "15 cm.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "100 cm.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_144-f8acab15",
+        "ref": "ONI art. 144",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 144 Abs. 2 Bst. a beträgt der Freibord für Zone 2 bei solchen Schiffen 30 cm.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart144-f8acab15-84fb7cfe",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Welche Lastannahme ist für die krängenden Momente bei der Freibordberechnung vorgesehen?",
+      "choices": [
+        {
+          "text": "Ein seitlicher Winddruck von 0,25 kN/m².",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ein seitlicher Winddruck von 2,5 kN/m².",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ein seitlicher Winddruck von 0,05 kN/m².",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_144-f8acab15",
+        "ref": "ONI art. 144",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 144 Abs. 7 Bst. a ist ein seitlicher Winddruck von 0,25 kN/m² anzusetzen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart146-3d8b5ade-c7c82446",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Welche Anforderung gilt für das Kollisionsschott?",
+      "choices": [
+        {
+          "text": "Es muss wasserdicht sein, von Bordwand zu Bordwand reichen und darf keine Türen oder Öffnungen enthalten.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Es darf mit verschliessbaren wasserdichten Türen versehen sein.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es muss nur bis zur halben Schiffshöhe geführt werden.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_146-3d8b5ade",
+        "ref": "ONI art. 146",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 146 Abs. 5 muss das Kollisionsschott wasserdicht von Bordwand zu Bordwand reichen und ohne Öffnungen sein.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart146-3d8b5ade-fa3be72e",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Mit welchen Schotten müssen Güterschiffe nach diesem Artikel mindestens versehen sein?",
+      "choices": [
+        {
+          "text": "Mit einem Kollisionsschott und zwei Maschinenraumschotten.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mit zwei Kollisionsschotten und einem Maschinenraumschott.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mit einem einzigen Kollisionsschott und keinem Maschinenraumschott.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_146-3d8b5ade",
+        "ref": "ONI art. 146",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 146 Abs. 2 sind mindestens ein Kollisionsschott und zwei Maschinenraumschotten erforderlich.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart148g-51d988c7-1a160fbf",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "In welcher Sprache sind den zuständigen Behörden die Unterlagen vorzulegen?",
+      "choices": [
+        {
+          "text": "In einer schweizerischen Amtssprache oder in Englisch.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ausschliesslich in Deutsch.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "In einer beliebigen EU-Amtssprache.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_148g-51d988c7",
+        "ref": "ONI art. 148g",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 148g Abs. 6 sind die Unterlagen in einer schweizerischen Amtssprache oder in Englisch vorzulegen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart148g-51d988c7-3b86dd03",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Welche Aussage zur CE-Kennzeichnung von Sportbooten trifft nach diesem Artikel zu?",
+      "choices": [
+        {
+          "text": "Die Pflicht zum Anbringen der CE-Kennzeichnung gilt nicht; eine bereits vorschriftsgemäss angebrachte darf belassen werden.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Die CE-Kennzeichnung muss zwingend an jedem Sportboot angebracht werden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Eine bereits angebrachte CE-Kennzeichnung muss vor Inverkehrbringen entfernt werden.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_148g-51d988c7",
+        "ref": "ONI art. 148g",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 148g Abs. 2 besteht keine CE-Kennzeichnungspflicht, eine bereits angebrachte darf belassen werden.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart150-7991254d-7b0b0a46",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Welche Bedingung muss für die Verminderung der Besatzung um einen Matrosen NICHT erfüllt sein?",
+      "choices": [
+        {
+          "text": "Die Fahrzeit zwischen Abgangs- und Zielort darf höchstens 90 Minuten betragen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Das Schiff hat eine Tragfähigkeit von weniger als 350 t und es herrschen gute Sichtverhältnisse bei Tag.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Im Steuerstand befindet sich ein betriebsbereites Funkgerät mit ständigem Kontakt zu einer Landstelle.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_150-7991254d",
+        "ref": "ONI art. 150",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 150 Abs. 4 Bst. b darf die Fahrzeit höchstens 45 Minuten, nicht 90 Minuten, betragen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart150-7991254d-a24f2a97",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Wie gross ist in der Regel die Besatzung eines Güterschiffs mit Maschinenantrieb und einer Tragfähigkeit bis 1000 t?",
+      "choices": [
+        {
+          "text": "1 Matrose.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "2 Matrosen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "3 Matrosen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_150-7991254d",
+        "ref": "ONI art. 150",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 150 Abs. 2 Bst. a beträgt die Besatzung bei einer Tragfähigkeit bis 1000 t in der Regel 1 Matrose.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart40c-8ee7753a-37d99d93",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Ab welchem tieferen Messwert gilt bei Führern eines motorisierten Schiffs die Angetrunkenheit als erwiesen (mit unterschriftlicher Anerkennung)?",
+      "choices": [
+        {
+          "text": "Bei 0,25 mg/l und mehr, aber weniger als 0,40 mg/l.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bei 0,25 mg/l und mehr, aber weniger als 0,55 mg/l.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bei 0,05 mg/l und mehr, aber weniger als 0,40 mg/l.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_40c-8ee7753a",
+        "ref": "ONI art. 40c",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 40c Abs. 5 Bst. a gilt bei motorisierten Schiffen der Bereich 0,25 bis unter 0,40 mg/l.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart40c-8ee7753a-c4c766d5",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Wann darf die Atemalkoholprobe mit einem Testgerät durchgeführt werden?",
+      "choices": [
+        {
+          "text": "Frühestens 20 Minuten nach dem Trinkende oder nach einer Mundspülung gemäss Herstellerangaben.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Frühestens 60 Minuten nach dem Trinkende, ohne Ausnahme.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sofort, sobald die kontrollierte Person das Trinken beendet hat.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_40c-8ee7753a",
+        "ref": "ONI art. 40c",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 40c Abs. 1 ist die Probe frühestens 20 Minuten nach Trinkende oder nach einer Mundspülung zulässig.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart91a-e93d0fd1-03b92a7d",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Welche Voraussetzungen muss der Antragsteller beim Erwerb des schweizerischen Ausweises erfüllen?",
+      "choices": [
+        {
+          "text": "Die medizinischen Voraussetzungen nach Art. 82 sowie das Mindestalter für die jeweilige Kategorie.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Eine erneute theoretische und praktische Prüfung in allen Fällen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ausschliesslich den Nachweis eines Wohnsitzes im Ausstellerstaat.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_91a-e93d0fd1",
+        "ref": "ONI art. 91a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 91a Abs. 4 muss der Antragsteller die medizinischen Voraussetzungen nach Art. 82 und das Mindestalter erfüllen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart91a-e93d0fd1-d01042a2",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Wer benötigt nach diesem Artikel einen schweizerischen Führerausweis?",
+      "choices": [
+        {
+          "text": "Personen, die seit mehr als zwölf Monaten in der Schweiz Wohnsitz haben.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Alle Touristen, die ein Schiff für einen Tag mieten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Personen, die seit mehr als drei Monaten in der Schweiz Wohnsitz haben.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_91a-e93d0fd1",
+        "ref": "ONI art. 91a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 91a Abs. 1 Bst. a benötigen Personen mit Wohnsitz in der Schweiz seit mehr als zwölf Monaten einen schweizerischen Ausweis.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart123-27b61473-30f7aa27",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "In base all'art. 123 ONI, nel caso di impianti per carburanti volatili, dove devono giungere le tubazioni di riempimento?",
+      "choices": [
+        {
+          "text": "Al ponte o fuori bordo.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Direttamente nel compartimento delle macchine.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nella sentina, sotto la linea di galleggiamento.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_123-27b61473",
+        "ref": "ONI art. 123",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 123 cpv. 6 lett. b ONI prescrive che le tubazioni di riempimento giungano al ponte o fuori bordo.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart123-27b61473-5f821af7",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Secondo l'art. 123 ONI, come devono essere i serbatoi per il carburante a bordo?",
+      "choices": [
+        {
+          "text": "Isolati, fissati solidamente e, se necessario, muniti di paratie frangiflutti.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Liberi di muoversi nello scafo per compensare il rollio.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Privi di raccordi accessibili per ragioni di sicurezza.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_123-27b61473",
+        "ref": "ONI art. 123",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 123 cpv. 2 ONI richiede serbatoi isolati, fissati solidamente e, se necessario, con paratie frangiflutti.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart134-018ae4b2-4b0fd991",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "In base all'art. 134 ONI, su quali natanti motorizzati deve trovarsi, oltre ai mezzi di salvataggio, anche un salvagente con sagola di lancio galleggiante di almeno 10 m?",
+      "choices": [
+        {
+          "text": "Sulle imbarcazioni da diporto e sportive motorizzate con potenza di propulsione superiore a 30 kW.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Su tutti i battelli a remi senza eccezioni.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Solo sui battelli a vela con superficie velica inferiore a 15 m2.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_134-018ae4b2",
+        "ref": "ONI art. 134",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 134 cpv. 5 ONI richiede tale salvagente sulle imbarcazioni motorizzate con potenza superiore a 30 kW (e sui velieri oltre 15 m2).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart134-018ae4b2-bb23949a",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Secondo l'art. 134 ONI, quale spinta idrostatica minima devono avere i mezzi di salvataggio individuali?",
+      "choices": [
+        {
+          "text": "Almeno 75 N.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Almeno 750 N.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Almeno 100 N.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_134-018ae4b2",
+        "ref": "ONI art. 134",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 134 cpv. 2 ONI fissa la spinta idrostatica dei mezzi di salvataggio individuali ad almeno 75 N.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart143a-bffebba6-34b0a04e",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Secondo l'art. 143a ONI, quale altezza metacentrica minima deve avere il battello per il trasporto di merci pronto all'esercizio e a pieno carico?",
+      "choices": [
+        {
+          "text": "Non inferiore a 1,00 m.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Non inferiore a 0,50 m.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Non inferiore a 2,50 m.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_143a-bffebba6",
+        "ref": "ONI art. 143a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 143a cpv. 2 ONI prescrive un'altezza metacentrica non inferiore a 1,00 m.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart143a-bffebba6-a88ccf51",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "In base all'art. 143a ONI, quale delle seguenti affermazioni sulla prova di stabilità NON è corretta?",
+      "choices": [
+        {
+          "text": "L'angolo d'inclinazione trasversale a pieno carico con i carichi esterni indicati può superare liberamente i 15 gradi.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La stabilità è comprovata se l'angolo d'inclinazione trasversale non supera 5 gradi.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Per i momenti di sbandamento deve valere una pressione laterale del vento di 0,25 kN/m2.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_143a-bffebba6",
+        "ref": "ONI art. 143a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 143a cpv. 2 ONI limita a 5 gradi l'angolo d'inclinazione, quindi i 15 gradi non sono ammessi.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart146-0f36b80c-00fafb36",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Secondo l'art. 146 ONI, di quante paratie devono disporre almeno i battelli per il trasporto di merci?",
+      "choices": [
+        {
+          "text": "Almeno una paratia di collisione e due paratie per il compartimento delle macchine.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Almeno cinque paratie stagne lungo tutto lo scafo.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nessuna paratia, salvo richiesta dell'autorità.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_146-0f36b80c",
+        "ref": "ONI art. 146",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 146 cpv. 2 ONI prescrive almeno una paratia di collisione e due paratie per il compartimento delle macchine.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart146-0f36b80c-cc02452f",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "In base all'art. 146 ONI, quale affermazione sulla paratia di collisione NON è corretta?",
+      "choices": [
+        {
+          "text": "La paratia di collisione può avere porte e boccaporti per facilitare il passaggio.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La paratia di collisione deve essere stagna e andare da sponda a sponda.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La paratia di collisione deve estendersi dal fondo del natante al ponte.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_146-0f36b80c",
+        "ref": "ONI art. 146",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 146 cpv. 5 ONI vieta porte, boccaporti, passi d'uomo o altre aperture nella paratia di collisione.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart148-b10213bd-7057f7fd",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "In base all'art. 148 ONI, quale obbligo hanno le imprese che gestiscono battelli per il trasporto di merci utilizzati principalmente per oltre 12 persone?",
+      "choices": [
+        {
+          "text": "Devono disporre di un piano d'emergenza per mettere tempestivamente in sicurezza le persone a bordo.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Devono rinunciare a trasportare qualsiasi merce a bordo.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sono esonerate da qualsiasi misura di sicurezza per i passeggeri.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_148-b10213bd",
+        "ref": "ONI art. 148",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 148 cpv. 5 ONI impone a tali imprese di disporre di un piano d'emergenza per la messa in sicurezza delle persone a bordo.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart148-b10213bd-ea30eb1f",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Secondo l'art. 148 ONI, quali disposizioni si applicano alla costruzione e all'attrezzatura dei battelli per passeggeri?",
+      "choices": [
+        {
+          "text": "Le disposizioni dell'ordinanza del 14 marzo 1994.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Esclusivamente le norme tecniche della direttiva UE sulle imbarcazioni da diporto.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nessuna disposizione specifica oltre alle regole generali di navigazione.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_148-b10213bd",
+        "ref": "ONI art. 148",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 148 cpv. 1 ONI rinvia alle disposizioni dell'ordinanza del 14 marzo 1994 per i battelli per passeggeri.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart148g-b68ea8e2-0144e088",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "In base all'art. 148g ONI, in quale lingua deve essere fornita alle autorità competenti la documentazione necessaria alla valutazione di un'imbarcazione sportiva?",
+      "choices": [
+        {
+          "text": "In una lingua ufficiale svizzera o in inglese.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Esclusivamente nella lingua del Paese di fabbricazione dell'imbarcazione.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Solo in francese o in tedesco, mai in inglese.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_148g-b68ea8e2",
+        "ref": "ONI art. 148g",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 148g cpv. 6 ONI richiede la documentazione in una lingua ufficiale svizzera o in inglese.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart148g-b68ea8e2-810c5d20",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Secondo l'art. 148g ONI, come viene gestito l'obbligo di apporre la marcatura CE sulle imbarcazioni sportive?",
+      "choices": [
+        {
+          "text": "L'obbligo di apporre la marcatura CE non viene applicato, ma se è già stata apposta secondo le prescrizioni UE può essere mantenuta.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La marcatura CE è obbligatoria su tutte le imbarcazioni sportive immesse in commercio in Svizzera.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La marcatura CE già apposta secondo le prescrizioni UE deve essere obbligatoriamente rimossa.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_148g-b68ea8e2",
+        "ref": "ONI art. 148g",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 148g cpv. 2 ONI stabilisce che l'obbligo di marcatura CE non si applica, ma una CE già apposta secondo l'UE può essere mantenuta.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart150-a2b201a5-6f3369bd",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "In base all'art. 150 ONI, per rinunciare a un marinaio su battelli con capacità di carico inferiore a 350 t in buona visibilità diurna, quale durata massima di navigazione tra partenza e arrivo è ammessa?",
+      "choices": [
+        {
+          "text": "Non più di 45 minuti.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Non più di 90 minuti.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Non più di 30 minuti.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_150-a2b201a5",
+        "ref": "ONI art. 150",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 150 cpv. 4 lett. b ONI fissa a 45 minuti il tempo massimo di navigazione tra partenza e arrivo.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart150-a2b201a5-ef579645",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Secondo l'art. 150 ONI, di norma quanti marinai compongono l'equipaggio di un battello motorizzato per il trasporto di merci con capacità di carico oltre 1000 t?",
+      "choices": [
+        {
+          "text": "2 marinai.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "1 marinaio.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "3 marinai.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_150-a2b201a5",
+        "ref": "ONI art. 150",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 150 cpv. 2 lett. a ONI prevede 2 marinai per i battelli motorizzati oltre 1000 t di capacità di carico.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart163-7b811adf-07e76332",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "In base all'art. 163 ONI, in quale caso l'autorità competente può autorizzare il traino simultaneo di più di due sciatori nautici?",
+      "choices": [
+        {
+          "text": "In determinati settori a scopo di allenamento.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ovunque sul lago durante il fine settimana.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Soltanto di notte e con buona visibilità.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_163-7b811adf",
+        "ref": "ONI art. 163",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 163 cpv. 1 lett. b ONI consente in determinati settori a scopo di allenamento il traino di più di due sciatori.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart163-7b811adf-86aeabf8",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Secondo l'art. 163 ONI, quale condizione vale per le deroghe non espressamente elencate nel capoverso 1?",
+      "choices": [
+        {
+          "text": "Possono essere consentite soltanto con l'accordo dell'Ufficio federale dei trasporti.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Possono essere decise autonomamente dal conduttore del natante.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sono sempre vietate in qualsiasi circostanza.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_163-7b811adf",
+        "ref": "ONI art. 163",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 163 cpv. 3 ONI subordina le altre deroghe all'accordo dell'Ufficio federale dei trasporti.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
       "correct": [
         0
       ]
@@ -1991,6 +4638,767 @@
       ]
     },
     {
+      "id": "q-matelotagewpde-matelotagekreuzknotennach-2d2fde10",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Welche Aussagen zum Kreuzknoten treffen gemäss dem Text zu?",
+      "choices": [
+        {
+          "text": "Beim Verbinden von Leinen ungleicher Stärke neigt er zum Kippen in den Ankerstich",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Statt seiner sollte ein Schotstek verwendet werden",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nach Belastung lässt er sich stets mühelos von Hand lösen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__kreuzknoten__nachteile-9c8a0a24",
+        "ref": "Matelotage — Kreuzknoten : Nachteile",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+        "as_of": "265196307",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Kreuzknoten : Nachteile nennt das Kippen in den Ankerstich, empfiehlt den Schotstek und weist darauf hin, dass er sich oft nur mit Werkzeug lösen lässt.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagekreuzknotennach-5a8260a8",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Aus welchem Dokument wurde der Kreuzknoten aufgrund von Sicherheitsbedenken gestrichen?",
+      "choices": [
+        {
+          "text": "Aus der Feuerwehr-Dienstvorschrift",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Aus dem Ashley-Buch der Knoten",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Aus der Berufsfischerei-Verordnung",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__kreuzknoten__nachteile-9c8a0a24",
+        "ref": "Matelotage — Kreuzknoten : Nachteile",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+        "as_of": "265196307",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Matelotage — Kreuzknoten : Nachteile wurde der Kreuzknoten aus der Feuerwehr-Dienstvorschrift gestrichen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagekreuzknotennach-71c5feee",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Was sagt das Ashley-Buch der Knoten über den Kreuzknoten als Verbindungsknoten?",
+      "choices": [
+        {
+          "text": "Er sollte unter keinen Umständen zum Verbinden von Seilen verwendet werden",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Er ist der sicherste Knoten zum Zusammenbinden zweier Enden",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Er kippt bei Seilen mit ungleichem Durchmesser besonders selten um",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__kreuzknoten__nachteile-9c8a0a24",
+        "ref": "Matelotage — Kreuzknoten : Nachteile",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+        "as_of": "265196307",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Kreuzknoten : Nachteile zitiert Ashley, wonach er unter keinen Umständen zum Verbinden von Seilen genutzt werden und gemieden werden sollte.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagekreuzknotenverw-25d2ea30",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Wie lässt sich der noch nicht belastete Kreuzknoten gemäss dem Text lösen?",
+      "choices": [
+        {
+          "text": "Durch Zusammenschieben der Enden oder durch Auseinanderziehen zweier Enden derselben Bucht",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nur mit Hilfe eines Werkzeugs",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ausschliesslich durch Erhitzen des Seils",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__kreuzknoten__verwendung-c4f51c1b",
+        "ref": "Matelotage — Kreuzknoten : Verwendung",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+        "as_of": "265196307",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Kreuzknoten : Verwendung beschreibt, dass der unbelastete Knoten durch Zusammenschieben oder Auseinanderziehen der Enden derselben Bucht gelöst werden kann.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagekreuzknotenverw-3a791f2e",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Welche Angaben zur Knotenfestigkeit des Kreuzknotens stimmen mit dem Text überein?",
+      "choices": [
+        {
+          "text": "Sie beträgt etwa 45 %",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bei geschlagenem Polypropylen-Tauwerk liegt sie bei etwa 36 bis 42 %",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bei geflochtenem Polypropylen-Seil erreicht sie rund 90 %",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__kreuzknoten__verwendung-c4f51c1b",
+        "ref": "Matelotage — Kreuzknoten : Verwendung",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+        "as_of": "265196307",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Kreuzknoten : Verwendung gibt etwa 45 % und bei geschlagenem Polypropylen 36 bis 42 % an, während geflochtenes Polypropylen nur 37 % erreicht.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagekreuzknotenverw-8d9bffca",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Wofür eignet sich der Kreuzknoten gemäss dem Text?",
+      "choices": [
+        {
+          "text": "Als Bindeknoten zum Verschnüren von Paketen oder Bündeln",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Zum Verbinden zweier Kletter- oder Sicherungsseile",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Als alleiniger Anseilknoten beim Klettern",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__kreuzknoten__verwendung-c4f51c1b",
+        "ref": "Matelotage — Kreuzknoten : Verwendung",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+        "as_of": "265196307",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Kreuzknoten : Verwendung nennt ihn als Bindeknoten für Pakete oder Bündel, hält ihn aber zum Verbinden zweier Seile für ungeeignet.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagepalstekklettern-392daadb",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Welche Aussage zum Palstek beim Klettern ist gemäss dem Text FALSCH?",
+      "choices": [
+        {
+          "text": "Nach dem Weltcup 1992 in St. Pölten durfte weiterhin uneingeschränkt mit dem Palstek angeseilt werden",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der Palstek diente bis Anfang der 1970er Jahre als verlässlicher Anseilknoten",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Doppelter Palstek und Bulin 1.5 werden zum Anseilen häufig verwendet",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__palstek__klettern-82bdeab9",
+        "ref": "Matelotage — Palstek : Klettern",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Palstek",
+        "as_of": "266678182",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Palstek : Klettern hält fest, dass nach dem Weltcup 1992 nur noch mit Achterknoten angeseilt werden durfte.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagepalstekklettern-c49fab21",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Welches Verhalten zeigt der Palstek gemäss dem Text unter Ringbelastung?",
+      "choices": [
+        {
+          "text": "Er öffnet sich bei mehreren ungleich gerichteten Kräften an der Schlaufe bei 1,5 bis 1,6 kN",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Er hält jeder Ringbelastung ohne Aufziehen stand",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Er wird unter Ringbelastung fester und lässt sich danach nicht mehr lösen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__palstek__klettern-82bdeab9",
+        "ref": "Matelotage — Palstek : Klettern",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Palstek",
+        "as_of": "266678182",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Palstek : Klettern nennt das Aufziehen unter Ringbelastung bei 1,5 bis 1,6 kN durch ungleich gerichtete Kräfte an der Schlaufe.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagepalstekklettern-f7fda93a",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Welcher Knoten wurde gemäss dem Text als Ersatz für den Palstek zum Anseilen eingeführt?",
+      "choices": [
+        {
+          "text": "Der Achterknoten",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der Kreuzknoten",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Schotstek",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__palstek__klettern-82bdeab9",
+        "ref": "Matelotage — Palstek : Klettern",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Palstek",
+        "as_of": "266678182",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Palstek : Klettern nennt den Achterknoten als Ersatz, der grosse Festigkeit hat und sich auch unter Ringbelastung nicht öffnet.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpit-matelotagegassadamantepré-0ee8958e",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "In base al testo, quali affermazioni sulla gassa d'amante sono corrette?",
+      "choices": [
+        {
+          "text": "Può essere eseguita velocemente anche con una sola mano.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Può essere sciolta facilmente anche quando il cavo è bagnato.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "È il nodo che meglio di ogni altro preserva la resistenza iniziale del cavo quando se ne uniscono due.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_it-matelotage__gassa_damante__présentation-5d288985",
+        "ref": "Matelotage — Gassa d'amante : Présentation",
+        "source": "Wikipedia (IT) — nodi marinareschi",
+        "url": "https://it.wikipedia.org/wiki/Gassa_d'amante",
+        "as_of": "144152286",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo Matelotage — Gassa d'amante : Présentation, la gassa si esegue anche con una mano e si scioglie facilmente da bagnata, mentre per unire due cime altri nodi ne preservano meglio la resistenza.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-matelotagewpit-matelotagegassadamantepré-1bf63ce9",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Quale affermazione sulla gassa d'amante usata in arrampicata NON è corretta secondo il testo?",
+      "choices": [
+        {
+          "text": "In arrampicata si utilizza sempre una gassa d'amante semplice.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ha la tendenza ad allentarsi e slegarsi quando è scarica e agitata.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "È facile da slegare anche dopo essere stata caricata e stretta da una caduta.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_it-matelotage__gassa_damante__présentation-5d288985",
+        "ref": "Matelotage — Gassa d'amante : Présentation",
+        "source": "Wikipedia (IT) — nodi marinareschi",
+        "url": "https://it.wikipedia.org/wiki/Gassa_d'amante",
+        "as_of": "144152286",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo Matelotage — Gassa d'amante : Présentation, proprio per la tendenza ad allentarsi da scarica, in arrampicata non viene mai usata la gassa d'amante semplice.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpit-matelotagegassadamantepré-8714e56e",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Secondo il testo, quale caratteristica contraddistingue la gassa d'amante?",
+      "choices": [
+        {
+          "text": "È un nodo ad occhiello che non è scorsoio.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "È un nodo scorsoio che si stringe progressivamente sotto carico.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "È un nodo bloccante che non può mai essere sciolto.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_it-matelotage__gassa_damante__présentation-5d288985",
+        "ref": "Matelotage — Gassa d'amante : Présentation",
+        "source": "Wikipedia (IT) — nodi marinareschi",
+        "url": "https://it.wikipedia.org/wiki/Gassa_d'amante",
+        "as_of": "144152286",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo Matelotage — Gassa d'amante : Présentation, la gassa è un nodo ad occhiello, non scorsoio, che non si stringe mai troppo.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpit-matelotagenodobarcaiolopr-45c31569",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Secondo il testo, quale affermazione descrive correttamente la natura del nodo barcaiolo?",
+      "choices": [
+        {
+          "text": "È un nodo bloccante usato per fissare una corda a un punto di ancoraggio.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "È uno strumento di assicurazione dinamica che permette lo scorrimento dei due capi.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "È un nodo ad occhiello che non si stringe mai troppo.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_it-matelotage__nodo_barcaiolo__présentation-4ce0f7e7",
+        "ref": "Matelotage — Nodo barcaiolo : Présentation",
+        "source": "Wikipedia (IT) — nodi marinareschi",
+        "url": "https://it.wikipedia.org/wiki/Nodo_barcaiolo",
+        "as_of": "150576297",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo Matelotage — Nodo barcaiolo : Présentation, il barcaiolo è un nodo bloccante usato per fissare una corda a un punto di ancoraggio, mentre lo scorrimento dinamico è proprio del mezzo barcaiolo.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpit-matelotagenodobarcaiolopr-7ca72ad2",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Quale affermazione sul nodo barcaiolo NON è corretta secondo il testo?",
+      "choices": [
+        {
+          "text": "Il mezzo barcaiolo è un nodo bloccante identico al barcaiolo.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "In nautica è anche noto come nodo parlato.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "In ambito scout viene chiamato nodo paletto.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_it-matelotage__nodo_barcaiolo__présentation-4ce0f7e7",
+        "ref": "Matelotage — Nodo barcaiolo : Présentation",
+        "source": "Wikipedia (IT) — nodi marinareschi",
+        "url": "https://it.wikipedia.org/wiki/Nodo_barcaiolo",
+        "as_of": "150576297",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo Matelotage — Nodo barcaiolo : Présentation, il mezzo barcaiolo non è un nodo bloccante bensì uno strumento di assicurazione dinamica, perciò non va confuso con il barcaiolo.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpit-matelotagenodobarcaiolopr-877b71f1",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "In base al testo, quali sono caratteristiche del nodo barcaiolo?",
+      "choices": [
+        {
+          "text": "È di facile e rapida esecuzione.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Può essere sciolto anche se la corda è bagnata o ha subito forte trazione.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Una volta eseguito non consente più di variare la distanza dal punto di ancoraggio.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_it-matelotage__nodo_barcaiolo__présentation-4ce0f7e7",
+        "ref": "Matelotage — Nodo barcaiolo : Présentation",
+        "source": "Wikipedia (IT) — nodi marinareschi",
+        "url": "https://it.wikipedia.org/wiki/Nodo_barcaiolo",
+        "as_of": "150576297",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo Matelotage — Nodo barcaiolo : Présentation, il barcaiolo è facile e rapido, si scioglie anche bagnato o dopo forte trazione, e permette di variare la distanza senza scioglierlo.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart146a-66b77936-da5c9e8a",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "In base all'articolo, quali affermazioni sulla riduzione di peso dell'ancora di prua sono corrette?",
+      "choices": [
+        {
+          "text": "Sui laghi è ammessa una riduzione massima del 50 per cento se il peso era stato calcolato per acque correnti.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L'autorità competente può richiedere l'allungamento della catena dell'ancora.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "È ammessa la somma di più riduzioni di peso usando ancore ad alta tenuta.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_146a-66b77936",
+        "ref": "ONI art. 146a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo ONI art. 146a cpv. 2, è ammessa una riduzione massima del 50% sui laghi e l'autorità può allungare la catena, ma non è ammessa la somma di più riduzioni con ancore ad alta tenuta.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart146a-66b77936-db085d54",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Secondo l'articolo, a cosa devono corrispondere il numero e il peso delle ancore nonché diametro e lunghezza della catena?",
+      "choices": [
+        {
+          "text": "Alle prescrizioni di una società di classificazione riconosciuta dall'Ufficio federale dei trasporti.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Alle preferenze del costruttore del natante.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Alle norme valide unicamente per le acque correnti.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_146a-66b77936",
+        "ref": "ONI art. 146a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo ONI art. 146a cpv. 1, tali elementi devono corrispondere alle prescrizioni di una società di classificazione riconosciuta dall'UFT.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart146a-66b77936-db846803",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Quale affermazione sull'estremità della catena dell'ancora NON è corretta secondo l'articolo?",
+      "choices": [
+        {
+          "text": "Può rimanere libera e non fissata allo scafo.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Deve essere saldamente fissata allo scafo del natante.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il suo fissaggio allo scafo è un requisito previsto dall'articolo.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_146a-66b77936",
+        "ref": "ONI art. 146a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo ONI art. 146a cpv. 3, l'estremità della catena dell'ancora deve essere saldamente fissata allo scafo del natante.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-meteovents-météosuisselabise-22689f11-190b00bf",
       "theme": "meteorologie",
       "kind": "meteo_mc",
@@ -2450,6 +5858,973 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpde-météobiseprésentation-0e4a3f42-2a472d8d",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Wo erreicht die Bise ihre grössten Stärken?",
+      "choices": [
+        {
+          "text": "Im Genferseeraum, mit Mittelwinden um 60 km/h und Böen über 100 km/h (bise noire).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Am Bodensee, wo sie regelmässig über 8 Beaufort erreicht.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "In den Hochalpen, wo sie als warmer Talwind auftritt.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_de-météo__bise__présentation-0e4a3f42",
+        "ref": "Météo — Bise : Présentation",
+        "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+        "url": "https://de.wikipedia.org/wiki/Bise",
+        "as_of": "255748921",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Météo — Bise : Présentation erreicht sie wegen der Kanalisierung ihre grössten Stärken im Genferseeraum mit Böen über 100 km/h.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpde-météobiseprésentation-0e4a3f42-68c55fd0",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Welche Aussage zur Bise trifft gemäss dem Text NICHT zu?",
+      "choices": [
+        {
+          "text": "Am Bodensee ist die Bise stärker als im Genferseeraum.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Im Sommer bedeutet eine Bisenlage meist schönes Wetter mit kühlen Temperaturen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Im Winter liegt in niederen Lagen häufig Hochnebel oder starker Dunst.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_de-météo__bise__présentation-0e4a3f42",
+        "ref": "Météo — Bise : Présentation",
+        "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+        "url": "https://de.wikipedia.org/wiki/Bise",
+        "as_of": "255748921",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Météo — Bise : Présentation ist die Bise am Bodensee schwächer, nicht stärker als im Genferseeraum.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpde-météobiseprésentation-0e4a3f42-d1379c18",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Aus welcher Richtung weht die Bise und welche Eigenschaften hat sie?",
+      "choices": [
+        {
+          "text": "Aus Norden, Nordosten oder Osten, schneidend kalt, trocken und aufhellend.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Aus Südwesten, warm, feucht und bewölkungsbringend.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Aus Westen, mild und mit anhaltendem Regen verbunden.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_de-météo__bise__présentation-0e4a3f42",
+        "ref": "Météo — Bise : Présentation",
+        "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+        "url": "https://de.wikipedia.org/wiki/Bise",
+        "as_of": "255748921",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Météo — Bise : Présentation weht sie aus Norden, Nordosten oder Osten und ist schneidend kalt, trocken und aufhellend.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpde-météoföhnföhneffekteangeländes-451a2e5b",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Welche Auswirkungen haben diese Föhneffekte an Geländestufen?",
+      "choices": [
+        {
+          "text": "Auflösung tiefer Wolkenschichten bei deutlich verbesserter Sicht und höheren Temperaturen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Starke Zunahme der Windgeschwindigkeit auf Sturmstärke.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bildung dichten Nebels und deutliches Absinken der Temperatur.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_de-météo__föhn__föhneffekte_an_geländestufen_mittel-e6d99a13",
+        "ref": "Météo — Föhn : Föhneffekte an Geländestufen, Mittelgebirgen",
+        "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+        "url": "https://de.wikipedia.org/wiki/Föhn",
+        "as_of": "265635909",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Météo — Föhn : Föhneffekte an Geländestufen kommt es zur Auflösung tiefer Wolkenschichten bei besserer Sicht und höheren Temperaturen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpde-météoföhnföhneffekteangeländes-6a24fefb",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Welche Aussage zu diesen Föhneffekten trifft gemäss dem Text NICHT zu?",
+      "choices": [
+        {
+          "text": "Die Windgeschwindigkeit nimmt dabei stark zu.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Die Effekte treten grossräumig auf und sind nicht auf einzelne Täler begrenzt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es bildet sich eine starke, aber nur wenige hundert Meter flache Temperaturinversion.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_de-météo__föhn__föhneffekte_an_geländestufen_mittel-e6d99a13",
+        "ref": "Météo — Föhn : Föhneffekte an Geländestufen, Mittelgebirgen",
+        "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+        "url": "https://de.wikipedia.org/wiki/Föhn",
+        "as_of": "265635909",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Météo — Föhn : Föhneffekte an Geländestufen nimmt die Windgeschwindigkeit nur unwesentlich zu, nicht stark.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpde-météoföhnföhneffekteangeländes-a4964ac7",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Wann treten schwächere Föhneffekte im Lee niedrigerer Geländestufen typischerweise auf?",
+      "choices": [
+        {
+          "text": "Bei starker Warmluftadvektion in den Wintermonaten.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bei starker Sonneneinstrahlung an heissen Sommertagen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ausschliesslich bei Gewittern im Frühling.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_de-météo__föhn__föhneffekte_an_geländestufen_mittel-e6d99a13",
+        "ref": "Météo — Föhn : Föhneffekte an Geländestufen, Mittelgebirgen",
+        "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+        "url": "https://de.wikipedia.org/wiki/Föhn",
+        "as_of": "265635909",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Météo — Föhn : Föhneffekte an Geländestufen treten solche Effekte typischerweise bei starker Warmluftadvektion in den Wintermonaten auf.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpde-météojoranjoranstatique-a8264b-3931e896",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Wie verhält sich der Joran statique typischerweise in seinem Verlauf?",
+      "choices": [
+        {
+          "text": "Er beginnt mit schweren Böen aus wechselnder Richtung.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Er verstetigt sich nach einiger Zeit bei drei bis sechs Beaufort aus Nordwest.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Er weht von Beginn an gleichmässig und konstant aus Süden.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_de-météo__joran__joran_statique-a8264b44",
+        "ref": "Météo — Joran : Joran statique",
+        "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+        "url": "https://de.wikipedia.org/wiki/Joran",
+        "as_of": "219703445",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Météo — Joran : Joran statique beginnt er mit schweren Böen aus wechselnder Richtung und verstetigt sich später bei drei bis sechs Beaufort aus Nordwest.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-meteowpde-météojoranjoranstatique-a8264b-55612c89",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Zu welcher Jahreszeit und Tageszeit ist der Joran statique typischerweise zu beobachten?",
+      "choices": [
+        {
+          "text": "Meist zwischen Mai und Juli am frühen Abend.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Vor allem im Hochwinter (Dezember bis Februar) am Morgen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ganzjährig vorwiegend um die Mittagszeit.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_de-météo__joran__joran_statique-a8264b44",
+        "ref": "Météo — Joran : Joran statique",
+        "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+        "url": "https://de.wikipedia.org/wiki/Joran",
+        "as_of": "219703445",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Météo — Joran : Joran statique ist er ein Fallwind, der meist zwischen Mai und Juli am frühen Abend auftritt.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpde-météojoranjoranstatique-a8264b-5e1c04bd",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Welche Aussage zum Joran statique ist gemäss dem Text FALSCH?",
+      "choices": [
+        {
+          "text": "Bei Bise (Ostwind) kommt es häufiger zu Joran.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Er entsteht meistens, wenn tagsüber ruhige, schwachwindige Wetterlagen vorherrschten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der betroffene Südfuss des Jura erstreckt sich über 170 km.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_de-météo__joran__joran_statique-a8264b44",
+        "ref": "Météo — Joran : Joran statique",
+        "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+        "url": "https://de.wikipedia.org/wiki/Joran",
+        "as_of": "219703445",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Météo — Joran : Joran statique kommt es bei Bise gerade seltener zu Joran, weshalb diese Aussage falsch ist.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpde-météovaudaireprésentation-15f3-07b484a4",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Durch wie viele verschiedene meteorologische Ursachen kann der Vaudaire hervorgerufen werden?",
+      "choices": [
+        {
+          "text": "Durch drei verschiedene meteorologische Ursachen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Durch genau eine einzige Ursache, nämlich Föhn.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch fünf verschiedene Ursachen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_de-météo__vaudaire__présentation-15f3655d",
+        "ref": "Météo — Vaudaire : Présentation",
+        "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+        "url": "https://de.wikipedia.org/wiki/Vaudaire",
+        "as_of": "211014174",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Météo — Vaudaire : Présentation kann der Wind durch drei verschiedene meteorologische Ursachen hervorgerufen werden.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpde-météovaudaireprésentation-15f3-a417c824",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Aus welcher Richtung und über welchen Weg fliesst der Vaudaire zum Genfersee?",
+      "choices": [
+        {
+          "text": "Aus südlicher Richtung aus den Alpen durch das Rhonetal und das Chablais über das Seebecken.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Aus nördlicher Richtung über den Jura ins Mittelland.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Aus östlicher Richtung entlang des Bodensees.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_de-météo__vaudaire__présentation-15f3655d",
+        "ref": "Météo — Vaudaire : Présentation",
+        "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+        "url": "https://de.wikipedia.org/wiki/Vaudaire",
+        "as_of": "211014174",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Météo — Vaudaire : Présentation fliesst er aus südlicher Richtung aus den Alpen durch das Rhonetal und das Chablais über das Seebecken.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavonioformazione-da71309-21b0f627",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Secondo il testo, quali sono le caratteristiche del vento di favonio (Föhn) quando arriva a valle sul versante sottovento?",
+      "choices": [
+        {
+          "text": "È un vento caldo e secco, a volte tempestoso, che favorisce giornate soleggiate",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "È un vento freddo e umido che porta nebbia persistente",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "È un vento debole e fresco che non incide sulle temperature",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__formazione-da71309f",
+        "ref": "Météo — Favonio : Formazione",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Formazione», l'aria ricade a valle più calda e secca, dando origine a un vento caldo a volte tempestoso che favorisce giornate soleggiate.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavonioformazione-da71309-a792d872",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Cosa accade alla corrente d'aria mentre scende sul versante opposto sottovento?",
+      "choices": [
+        {
+          "text": "Si scalda per compressione adiabatica, di circa 10 °C ogni 1000 m in discesa",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Si raffredda per espansione, di circa 10 °C ogni 1000 m in discesa",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mantiene una temperatura costante perché non perde più umidità",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__formazione-da71309f",
+        "ref": "Météo — Favonio : Formazione",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Formazione», nella discesa l'aria si scalda per compressione adiabatica secondo il gradiente adiabatico secco, di circa 10 °C ogni 1000 m.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavonioformazione-da71309-be6be58d",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Cosa si forma sul versante sopravento secondo il testo?",
+      "choices": [
+        {
+          "text": "Lo Stau, creato dalle correnti umide ascendenti, con nubi, pioggia e neve",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un cielo sereno e soleggiato con aria secca",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un vento caldo e secco discendente",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__formazione-da71309f",
+        "ref": "Météo — Favonio : Formazione",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Formazione», dal versante sopravento si ha lo Stau, creato dalle correnti umide ascendenti che causano nubi, pioggia e neve.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavoniosvizzera-25cabf16-0c983688",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Quale conseguenza ebbero, dal XV secolo, gli incendi provocati o alimentati dal favonio a Glarona, Altdorf e Meiringen?",
+      "choices": [
+        {
+          "text": "Portarono a creare norme e istituzioni di polizia edilizia e del fuoco",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Portarono all'abbandono definitivo di quei villaggi",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Portarono al divieto totale di navigazione sui laghi",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__svizzera-25cabf16",
+        "ref": "Météo — Favonio : Svizzera",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Svizzera», gli incendi a Glarona, Altdorf e Meiringen portarono dal XV secolo a creare norme e istituzioni di polizia edilizia e del fuoco.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavoniosvizzera-25cabf16-6bdabd3f",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Secondo il testo, quale minaccia rappresentavano un tempo in Svizzera le tempeste dovute al favonio?",
+      "choices": [
+        {
+          "text": "Una minaccia per la navigazione, ad esempio lungo i laghi di Uri e Walenstadt",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Una minaccia per la produzione agricola di pianura",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Una minaccia per le linee ferroviarie di montagna",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__svizzera-25cabf16",
+        "ref": "Météo — Favonio : Svizzera",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Svizzera», le tempeste dovute al favonio costituivano una minaccia per la navigazione lungo i laghi di Uri e Walenstadt.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavoniosvizzera-25cabf16-a1eeeca6",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Perché villaggi come Sisikon e Quarten erano costretti a mantenere una certa autarchia?",
+      "choices": [
+        {
+          "text": "Perché erano raggiungibili solo per via lacustre",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Perché erano isolati da frequenti valanghe",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Perché non disponevano di alcun porto",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__svizzera-25cabf16",
+        "ref": "Météo — Favonio : Svizzera",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Svizzera», Sisikon e Quarten erano raggiungibili solo per via lacustre, e dovevano quindi mantenere una certa autarchia.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavonioventianaloghi-76dc-ad4384a7",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Secondo il testo, con quale nome è noto in Argentina lo stesso fenomeno del favonio?",
+      "choices": [
+        {
+          "text": "Zonda",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Chinook",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Halny",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__venti_analoghi-76dc3a1e",
+        "ref": "Météo — Favonio : Venti analoghi",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Venti analoghi», in Argentina il fenomeno è noto come zonda.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavonioventianaloghi-76dc-cf83516a",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Quale affermazione NON è corretta secondo il testo sui nomi assunti dal fenomeno nel mondo?",
+      "choices": [
+        {
+          "text": "In Nuova Zelanda, a Christchurch, è chiamato halny",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "In Israele è chiamato sharav o hamsin",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nella California del Sud è noto come «venti di Santa Ana»",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__venti_analoghi-76dc3a1e",
+        "ref": "Météo — Favonio : Venti analoghi",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Venti analoghi», a Christchurch in Nuova Zelanda è chiamato Nor'wester, mentre halny è il nome usato nei Carpazi.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavonioventianaloghi-76dc-dc92cf84",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Come viene chiamato il fenomeno analogo al favonio sulle Montagne Rocciose?",
+      "choices": [
+        {
+          "text": "Chinook",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sharav",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nor'wester",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__venti_analoghi-76dc3a1e",
+        "ref": "Météo — Favonio : Venti analoghi",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Venti analoghi», sulle Montagne Rocciose il fenomeno è chiamato chinook.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météoventodicadutacaratteristi-1d722287",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Cosa afferma il testo riguardo all'effetto del vento prima che superi la catena montuosa?",
+      "choices": [
+        {
+          "text": "Non incide sulle temperature, se non in base alla natura della massa d'aria a cui è associato",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Provoca sempre un brusco aumento delle temperature",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Determina un raffreddamento immediato delle valli sottovento",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__vento_di_caduta__caratteristiche-39eb3a34",
+        "ref": "Météo — Vento di caduta : Caratteristiche",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Vento_di_caduta",
+        "as_of": "148043215",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Vento di caduta : Caratteristiche», prima di superare la catena montuosa il vento non incide sulle temperature, se non in base alla natura della massa d'aria associata.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météoventodicadutacaratteristi-62a7c2b4",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Quale affermazione NON è corretta riguardo ai venti di caduta provenienti dai quadranti settentrionali?",
+      "choices": [
+        {
+          "text": "Provocano nubi e precipitazioni persistenti sul versante sottovento",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Possono determinare temporanee condizioni di cielo sereno e temperature in aumento",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "All'arrivo della massa d'aria fredda che li segue viene meno l'effetto sulle temperature, pur permanendo clima secco",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__vento_di_caduta__caratteristiche-39eb3a34",
+        "ref": "Météo — Vento di caduta : Caratteristiche",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Vento_di_caduta",
+        "as_of": "148043215",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Vento di caduta : Caratteristiche», i venti settentrionali determinano cielo sereno e temperature in aumento, non nubi e precipitazioni persistenti.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météoventodicadutacaratteristi-e1877ae9",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Secondo il testo, quali condizioni crea il vento di caduta una volta valicate le vette?",
+      "choices": [
+        {
+          "text": "Condizioni atmosferiche stabili, con aria molto secca",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Condizioni atmosferiche perturbate, con aria molto umida",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nebbia fitta e precipitazioni continue",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__vento_di_caduta__caratteristiche-39eb3a34",
+        "ref": "Météo — Vento di caduta : Caratteristiche",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Vento_di_caduta",
+        "as_of": "148043215",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Vento di caduta : Caratteristiche», una volta valicate le vette il vento crea condizioni atmosferiche stabili, con aria molto secca.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
       "correct": [
         0
       ]

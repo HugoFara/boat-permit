@@ -12,6 +12,7 @@ from __future__ import annotations
 import datetime as _dt
 import json
 import os
+import time
 import urllib.parse
 
 import requests
@@ -35,8 +36,19 @@ def _raw_path(source_id: str, *parts: str) -> str:
 
 
 def _get(url: str, **kw) -> requests.Response:
+    """GET with polite retry/backoff on rate-limiting (429) and transient 5xx —
+    Wikipedia in particular throttles bursts."""
     headers = {**HEADERS, **kw.pop("headers", {})}
-    r = requests.get(url, headers=headers, timeout=60, **kw)
+    delay = 2.0
+    for attempt in range(5):
+        r = requests.get(url, headers=headers, timeout=60, **kw)
+        if r.status_code in (429, 503) and attempt < 4:
+            wait = float(r.headers.get("Retry-After", delay))
+            time.sleep(wait)
+            delay *= 2
+            continue
+        r.raise_for_status()
+        return r
     r.raise_for_status()
     return r
 
@@ -160,9 +172,12 @@ def fetch_wikipedia(src: Source, force: bool = False) -> dict:
         with open(manifest_path, encoding="utf-8") as fh:
             return json.load(fh)
 
+    api = f"https://{src.lang}.wikipedia.org/w/api.php"   # language edition
     pages = {}
-    for title in src.titles:
-        r = _get(WP_API, params={
+    for i, title in enumerate(src.titles):
+        if i:
+            time.sleep(1.0)            # be polite: one page/sec
+        r = _get(api, params={
             "action": "parse", "page": title, "prop": "text|revid",
             "format": "json", "redirects": 1, "formatversion": 2,
         })
@@ -178,7 +193,8 @@ def fetch_wikipedia(src: Source, force: bool = False) -> dict:
                         "real_title": p.get("title", title)}
 
     manifest = {
-        "source_id": src.id, "kind": src.kind, "retrieved": _today(),
+        "source_id": src.id, "kind": src.kind, "lang": src.lang,
+        "retrieved": _today(),
         "legal_version": "", "pages": pages, "canonical_url": src.url,
     }
     with open(manifest_path, "w", encoding="utf-8") as fh:
@@ -229,8 +245,6 @@ def fetch_all(sources: list[Source] | None = None, force: bool = False) -> dict[
 def fetch_fedlex_langs(langs: list[str], sources: list[Source] | None = None,
                        force: bool = False) -> dict[str, dict]:
     """Fetch the law (fedlex) sources in additional official languages (de/it).
-    Non-fedlex sources (Wikipedia/météo/cantonal) are FR-specific and skipped —
-    their language equivalents are separate pages, handled outside this path.
     Keyed '<id>/<lang>'."""
     out = {}
     for src in (sources or SOURCES):
@@ -238,4 +252,22 @@ def fetch_fedlex_langs(langs: list[str], sources: list[Source] | None = None,
             continue
         for lang in langs:
             out[f"{src.id}/{lang}"] = fetch_fedlex(src, force=force, lang=lang)
+    return out
+
+
+def fetch_for_langs(langs: list[str], sources: list[Source] | None = None,
+                    force: bool = False) -> dict[str, dict]:
+    """Fetch every source needed for the requested content languages. Law
+    (fedlex) acts are fetched once per language (same act, different manifestation);
+    language-specific sources (Wikipedia/HTML) are fetched only when their own
+    `lang` is requested. Keyed '<id>' (fr law / lang-specific source) or
+    '<id>/<lang>' (non-fr law)."""
+    out = {}
+    for src in (sources or SOURCES):
+        if src.kind == "fedlex":
+            for lang in langs:
+                key = src.id if lang == "fr" else f"{src.id}/{lang}"
+                out[key] = fetch_fedlex(src, force=force, lang=lang)
+        elif src.lang in langs:
+            out[src.id] = fetch_source(src, force=force)
     return out

@@ -1,0 +1,144 @@
+{
+  "drafts": [
+    {
+      "ref": "Météo — Favonio : Formazione",
+      "questions": [
+        {
+          "stem": "Secondo il testo, quali sono le caratteristiche del vento di favonio (Föhn) quando arriva a valle sul versante sottovento?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "È un vento caldo e secco, a volte tempestoso, che favorisce giornate soleggiate", "correct": true},
+            {"text": "È un vento freddo e umido che porta nebbia persistente", "correct": false},
+            {"text": "È un vento debole e fresco che non incide sulle temperature", "correct": false}
+          ],
+          "explanation": "Secondo «Météo — Favonio : Formazione», l'aria ricade a valle più calda e secca, dando origine a un vento caldo a volte tempestoso che favorisce giornate soleggiate."
+        },
+        {
+          "stem": "Cosa accade alla corrente d'aria mentre scende sul versante opposto sottovento?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Si scalda per compressione adiabatica, di circa 10 °C ogni 1000 m in discesa", "correct": true},
+            {"text": "Si raffredda per espansione, di circa 10 °C ogni 1000 m in discesa", "correct": false},
+            {"text": "Mantiene una temperatura costante perché non perde più umidità", "correct": false}
+          ],
+          "explanation": "Secondo «Météo — Favonio : Formazione», nella discesa l'aria si scalda per compressione adiabatica secondo il gradiente adiabatico secco, di circa 10 °C ogni 1000 m."
+        },
+        {
+          "stem": "Cosa si forma sul versante sopravento secondo il testo?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Lo Stau, creato dalle correnti umide ascendenti, con nubi, pioggia e neve", "correct": true},
+            {"text": "Un cielo sereno e soleggiato con aria secca", "correct": false},
+            {"text": "Un vento caldo e secco discendente", "correct": false}
+          ],
+          "explanation": "Secondo «Météo — Favonio : Formazione», dal versante sopravento si ha lo Stau, creato dalle correnti umide ascendenti che causano nubi, pioggia e neve."
+        }
+      ]
+    },
+    {
+      "ref": "Météo — Vento di caduta : Caratteristiche",
+      "questions": [
+        {
+          "stem": "Secondo il testo, quali condizioni crea il vento di caduta una volta valicate le vette?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Condizioni atmosferiche stabili, con aria molto secca", "correct": true},
+            {"text": "Condizioni atmosferiche perturbate, con aria molto umida", "correct": false},
+            {"text": "Nebbia fitta e precipitazioni continue", "correct": false}
+          ],
+          "explanation": "Secondo «Météo — Vento di caduta : Caratteristiche», una volta valicate le vette il vento crea condizioni atmosferiche stabili, con aria molto secca."
+        },
+        {
+          "stem": "Cosa afferma il testo riguardo all'effetto del vento prima che superi la catena montuosa?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Non incide sulle temperature, se non in base alla natura della massa d'aria a cui è associato", "correct": true},
+            {"text": "Provoca sempre un brusco aumento delle temperature", "correct": false},
+            {"text": "Determina un raffreddamento immediato delle valli sottovento", "correct": false}
+          ],
+          "explanation": "Secondo «Météo — Vento di caduta : Caratteristiche», prima di superare la catena montuosa il vento non incide sulle temperature, se non in base alla natura della massa d'aria associata."
+        },
+        {
+          "stem": "Quale affermazione NON è corretta riguardo ai venti di caduta provenienti dai quadranti settentrionali?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Provocano nubi e precipitazioni persistenti sul versante sottovento", "correct": true},
+            {"text": "Possono determinare temporanee condizioni di cielo sereno e temperature in aumento", "correct": false},
+            {"text": "All'arrivo della massa d'aria fredda che li segue viene meno l'effetto sulle temperature, pur permanendo clima secco", "correct": false}
+          ],
+          "explanation": "Secondo «Météo — Vento di caduta : Caratteristiche», i venti settentrionali determinano cielo sereno e temperature in aumento, non nubi e precipitazioni persistenti."
+        }
+      ]
+    },
+    {
+      "ref": "Météo — Favonio : Venti analoghi",
+      "questions": [
+        {
+          "stem": "Secondo il testo, con quale nome è noto in Argentina lo stesso fenomeno del favonio?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Zonda", "correct": true},
+            {"text": "Chinook", "correct": false},
+            {"text": "Halny", "correct": false}
+          ],
+          "explanation": "Secondo «Météo — Favonio : Venti analoghi», in Argentina il fenomeno è noto come zonda."
+        },
+        {
+          "stem": "Come viene chiamato il fenomeno analogo al favonio sulle Montagne Rocciose?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Chinook", "correct": true},
+            {"text": "Sharav", "correct": false},
+            {"text": "Nor'wester", "correct": false}
+          ],
+          "explanation": "Secondo «Météo — Favonio : Venti analoghi», sulle Montagne Rocciose il fenomeno è chiamato chinook."
+        },
+        {
+          "stem": "Quale affermazione NON è corretta secondo il testo sui nomi assunti dal fenomeno nel mondo?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "In Nuova Zelanda, a Christchurch, è chiamato halny", "correct": true},
+            {"text": "In Israele è chiamato sharav o hamsin", "correct": false},
+            {"text": "Nella California del Sud è noto come «venti di Santa Ana»", "correct": false}
+          ],
+          "explanation": "Secondo «Météo — Favonio : Venti analoghi», a Christchurch in Nuova Zelanda è chiamato Nor'wester, mentre halny è il nome usato nei Carpazi."
+        }
+      ]
+    },
+    {
+      "ref": "Météo — Favonio : Svizzera",
+      "questions": [
+        {
+          "stem": "Secondo il testo, quale minaccia rappresentavano un tempo in Svizzera le tempeste dovute al favonio?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Una minaccia per la navigazione, ad esempio lungo i laghi di Uri e Walenstadt", "correct": true},
+            {"text": "Una minaccia per la produzione agricola di pianura", "correct": false},
+            {"text": "Una minaccia per le linee ferroviarie di montagna", "correct": false}
+          ],
+          "explanation": "Secondo «Météo — Favonio : Svizzera», le tempeste dovute al favonio costituivano una minaccia per la navigazione lungo i laghi di Uri e Walenstadt."
+        },
+        {
+          "stem": "Perché villaggi come Sisikon e Quarten erano costretti a mantenere una certa autarchia?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Perché erano raggiungibili solo per via lacustre", "correct": true},
+            {"text": "Perché erano isolati da frequenti valanghe", "correct": false},
+            {"text": "Perché non disponevano di alcun porto", "correct": false}
+          ],
+          "explanation": "Secondo «Météo — Favonio : Svizzera», Sisikon e Quarten erano raggiungibili solo per via lacustre, e dovevano quindi mantenere una certa autarchia."
+        },
+        {
+          "stem": "Quale conseguenza ebbero, dal XV secolo, gli incendi provocati o alimentati dal favonio a Glarona, Altdorf e Meiringen?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Portarono a creare norme e istituzioni di polizia edilizia e del fuoco", "correct": true},
+            {"text": "Portarono all'abbandono definitivo di quei villaggi", "correct": false},
+            {"text": "Portarono al divieto totale di navigazione sui laghi", "correct": false}
+          ],
+          "explanation": "Secondo «Météo — Favonio : Svizzera», gli incendi a Glarona, Altdorf e Meiringen portarono dal XV secolo a creare norme e istituzioni di polizia edilizia e del fuoco."
+        }
+      ]
+    }
+  ]
+}

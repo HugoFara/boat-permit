@@ -1,0 +1,109 @@
+{
+  "drafts": [
+    {
+      "ref": "Matelotage — Nodo barcaiolo : Présentation",
+      "questions": [
+        {
+          "stem": "Secondo il testo, quale affermazione descrive correttamente la natura del nodo barcaiolo?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "È un nodo bloccante usato per fissare una corda a un punto di ancoraggio.", "correct": true},
+            {"text": "È uno strumento di assicurazione dinamica che permette lo scorrimento dei due capi.", "correct": false},
+            {"text": "È un nodo ad occhiello che non si stringe mai troppo.", "correct": false}
+          ],
+          "explanation": "Secondo Matelotage — Nodo barcaiolo : Présentation, il barcaiolo è un nodo bloccante usato per fissare una corda a un punto di ancoraggio, mentre lo scorrimento dinamico è proprio del mezzo barcaiolo."
+        },
+        {
+          "stem": "In base al testo, quali sono caratteristiche del nodo barcaiolo?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "È di facile e rapida esecuzione.", "correct": true},
+            {"text": "Può essere sciolto anche se la corda è bagnata o ha subito forte trazione.", "correct": true},
+            {"text": "Una volta eseguito non consente più di variare la distanza dal punto di ancoraggio.", "correct": false}
+          ],
+          "explanation": "Secondo Matelotage — Nodo barcaiolo : Présentation, il barcaiolo è facile e rapido, si scioglie anche bagnato o dopo forte trazione, e permette di variare la distanza senza scioglierlo."
+        },
+        {
+          "stem": "Quale affermazione sul nodo barcaiolo NON è corretta secondo il testo?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Il mezzo barcaiolo è un nodo bloccante identico al barcaiolo.", "correct": true},
+            {"text": "In nautica è anche noto come nodo parlato.", "correct": false},
+            {"text": "In ambito scout viene chiamato nodo paletto.", "correct": false}
+          ],
+          "explanation": "Secondo Matelotage — Nodo barcaiolo : Présentation, il mezzo barcaiolo non è un nodo bloccante bensì uno strumento di assicurazione dinamica, perciò non va confuso con il barcaiolo."
+        }
+      ]
+    },
+    {
+      "ref": "Matelotage — Gassa d'amante : Présentation",
+      "questions": [
+        {
+          "stem": "Secondo il testo, quale caratteristica contraddistingue la gassa d'amante?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "È un nodo ad occhiello che non è scorsoio.", "correct": true},
+            {"text": "È un nodo scorsoio che si stringe progressivamente sotto carico.", "correct": false},
+            {"text": "È un nodo bloccante che non può mai essere sciolto.", "correct": false}
+          ],
+          "explanation": "Secondo Matelotage — Gassa d'amante : Présentation, la gassa è un nodo ad occhiello, non scorsoio, che non si stringe mai troppo."
+        },
+        {
+          "stem": "In base al testo, quali affermazioni sulla gassa d'amante sono corrette?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Può essere eseguita velocemente anche con una sola mano.", "correct": true},
+            {"text": "Può essere sciolta facilmente anche quando il cavo è bagnato.", "correct": true},
+            {"text": "È il nodo che meglio di ogni altro preserva la resistenza iniziale del cavo quando se ne uniscono due.", "correct": false}
+          ],
+          "explanation": "Secondo Matelotage — Gassa d'amante : Présentation, la gassa si esegue anche con una mano e si scioglie facilmente da bagnata, mentre per unire due cime altri nodi ne preservano meglio la resistenza."
+        },
+        {
+          "stem": "Quale affermazione sulla gassa d'amante usata in arrampicata NON è corretta secondo il testo?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "In arrampicata si utilizza sempre una gassa d'amante semplice.", "correct": true},
+            {"text": "Ha la tendenza ad allentarsi e slegarsi quando è scarica e agitata.", "correct": false},
+            {"text": "È facile da slegare anche dopo essere stata caricata e stretta da una caduta.", "correct": false}
+          ],
+          "explanation": "Secondo Matelotage — Gassa d'amante : Présentation, proprio per la tendenza ad allentarsi da scarica, in arrampicata non viene mai usata la gassa d'amante semplice."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 146a",
+      "questions": [
+        {
+          "stem": "Secondo l'articolo, a cosa devono corrispondere il numero e il peso delle ancore nonché diametro e lunghezza della catena?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Alle prescrizioni di una società di classificazione riconosciuta dall'Ufficio federale dei trasporti.", "correct": true},
+            {"text": "Alle preferenze del costruttore del natante.", "correct": false},
+            {"text": "Alle norme valide unicamente per le acque correnti.", "correct": false}
+          ],
+          "explanation": "Secondo ONI art. 146a cpv. 1, tali elementi devono corrispondere alle prescrizioni di una società di classificazione riconosciuta dall'UFT."
+        },
+        {
+          "stem": "In base all'articolo, quali affermazioni sulla riduzione di peso dell'ancora di prua sono corrette?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Sui laghi è ammessa una riduzione massima del 50 per cento se il peso era stato calcolato per acque correnti.", "correct": true},
+            {"text": "L'autorità competente può richiedere l'allungamento della catena dell'ancora.", "correct": true},
+            {"text": "È ammessa la somma di più riduzioni di peso usando ancore ad alta tenuta.", "correct": false}
+          ],
+          "explanation": "Secondo ONI art. 146a cpv. 2, è ammessa una riduzione massima del 50% sui laghi e l'autorità può allungare la catena, ma non è ammessa la somma di più riduzioni con ancore ad alta tenuta."
+        },
+        {
+          "stem": "Quale affermazione sull'estremità della catena dell'ancora NON è corretta secondo l'articolo?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Può rimanere libera e non fissata allo scafo.", "correct": true},
+            {"text": "Deve essere saldamente fissata allo scafo del natante.", "correct": false},
+            {"text": "Il suo fissaggio allo scafo è un requisito previsto dall'articolo.", "correct": false}
+          ],
+          "explanation": "Secondo ONI art. 146a cpv. 3, l'estremità della catena dell'ancora deve essere saldamente fissata allo scafo del natante."
+        }
+      ]
+    }
+  ]
+}

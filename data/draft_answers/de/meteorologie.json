@@ -1,0 +1,144 @@
+{
+  "drafts": [
+    {
+      "ref": "Météo — Joran : Joran statique",
+      "questions": [
+        {
+          "stem": "Zu welcher Jahreszeit und Tageszeit ist der Joran statique typischerweise zu beobachten?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Meist zwischen Mai und Juli am frühen Abend.", "correct": true},
+            {"text": "Vor allem im Hochwinter (Dezember bis Februar) am Morgen.", "correct": false},
+            {"text": "Ganzjährig vorwiegend um die Mittagszeit.", "correct": false}
+          ],
+          "explanation": "Laut Météo — Joran : Joran statique ist er ein Fallwind, der meist zwischen Mai und Juli am frühen Abend auftritt."
+        },
+        {
+          "stem": "Wie verhält sich der Joran statique typischerweise in seinem Verlauf?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Er beginnt mit schweren Böen aus wechselnder Richtung.", "correct": true},
+            {"text": "Er verstetigt sich nach einiger Zeit bei drei bis sechs Beaufort aus Nordwest.", "correct": true},
+            {"text": "Er weht von Beginn an gleichmässig und konstant aus Süden.", "correct": false}
+          ],
+          "explanation": "Laut Météo — Joran : Joran statique beginnt er mit schweren Böen aus wechselnder Richtung und verstetigt sich später bei drei bis sechs Beaufort aus Nordwest."
+        },
+        {
+          "stem": "Welche Aussage zum Joran statique ist gemäss dem Text FALSCH?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Bei Bise (Ostwind) kommt es häufiger zu Joran.", "correct": true},
+            {"text": "Er entsteht meistens, wenn tagsüber ruhige, schwachwindige Wetterlagen vorherrschten.", "correct": false},
+            {"text": "Der betroffene Südfuss des Jura erstreckt sich über 170 km.", "correct": false}
+          ],
+          "explanation": "Laut Météo — Joran : Joran statique kommt es bei Bise gerade seltener zu Joran, weshalb diese Aussage falsch ist."
+        }
+      ]
+    },
+    {
+      "ref": "Météo — Bise : Présentation",
+      "questions": [
+        {
+          "stem": "Aus welcher Richtung weht die Bise und welche Eigenschaften hat sie?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Aus Norden, Nordosten oder Osten, schneidend kalt, trocken und aufhellend.", "correct": true},
+            {"text": "Aus Südwesten, warm, feucht und bewölkungsbringend.", "correct": false},
+            {"text": "Aus Westen, mild und mit anhaltendem Regen verbunden.", "correct": false}
+          ],
+          "explanation": "Laut Météo — Bise : Présentation weht sie aus Norden, Nordosten oder Osten und ist schneidend kalt, trocken und aufhellend."
+        },
+        {
+          "stem": "Wo erreicht die Bise ihre grössten Stärken?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Im Genferseeraum, mit Mittelwinden um 60 km/h und Böen über 100 km/h (bise noire).", "correct": true},
+            {"text": "Am Bodensee, wo sie regelmässig über 8 Beaufort erreicht.", "correct": false},
+            {"text": "In den Hochalpen, wo sie als warmer Talwind auftritt.", "correct": false}
+          ],
+          "explanation": "Laut Météo — Bise : Présentation erreicht sie wegen der Kanalisierung ihre grössten Stärken im Genferseeraum mit Böen über 100 km/h."
+        },
+        {
+          "stem": "Welche Aussage zur Bise trifft gemäss dem Text NICHT zu?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Am Bodensee ist die Bise stärker als im Genferseeraum.", "correct": true},
+            {"text": "Im Sommer bedeutet eine Bisenlage meist schönes Wetter mit kühlen Temperaturen.", "correct": false},
+            {"text": "Im Winter liegt in niederen Lagen häufig Hochnebel oder starker Dunst.", "correct": false}
+          ],
+          "explanation": "Laut Météo — Bise : Présentation ist die Bise am Bodensee schwächer, nicht stärker als im Genferseeraum."
+        }
+      ]
+    },
+    {
+      "ref": "Météo — Vaudaire : Présentation",
+      "questions": [
+        {
+          "stem": "Aus welcher Richtung und über welchen Weg fliesst der Vaudaire zum Genfersee?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Aus südlicher Richtung aus den Alpen durch das Rhonetal und das Chablais über das Seebecken.", "correct": true},
+            {"text": "Aus nördlicher Richtung über den Jura ins Mittelland.", "correct": false},
+            {"text": "Aus östlicher Richtung entlang des Bodensees.", "correct": false}
+          ],
+          "explanation": "Laut Météo — Vaudaire : Présentation fliesst er aus südlicher Richtung aus den Alpen durch das Rhonetal und das Chablais über das Seebecken."
+        },
+        {
+          "stem": "Durch wie viele verschiedene meteorologische Ursachen kann der Vaudaire hervorgerufen werden?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Durch drei verschiedene meteorologische Ursachen.", "correct": true},
+            {"text": "Durch genau eine einzige Ursache, nämlich Föhn.", "correct": false},
+            {"text": "Durch fünf verschiedene Ursachen.", "correct": false}
+          ],
+          "explanation": "Laut Météo — Vaudaire : Présentation kann der Wind durch drei verschiedene meteorologische Ursachen hervorgerufen werden."
+        },
+        {
+          "stem": "Welche Aussage zum Vaudaire ist gemäss dem Text FALSCH?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Der Vaudaire ist stets ein schwacher, harmloser Wind ohne Schäden.", "correct": true},
+            {"text": "Bei einer über den Alpenkamm strömenden Grosswetterlage kann er als Föhn warm und trocken erscheinen.", "correct": false},
+            {"text": "Er kann erhebliche Sachschäden an den Schiffen auf dem See anrichten.", "correct": false}
+          ],
+          "explanation": "Laut Météo — Vaudaire : Présentation ist er ein kräftiger bis stürmischer Wind, der erhebliche Schäden anrichten kann, also nicht harmlos."
+        }
+      ]
+    },
+    {
+      "ref": "Météo — Föhn : Föhneffekte an Geländestufen, Mittelgebirgen",
+      "questions": [
+        {
+          "stem": "Wann treten schwächere Föhneffekte im Lee niedrigerer Geländestufen typischerweise auf?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Bei starker Warmluftadvektion in den Wintermonaten.", "correct": true},
+            {"text": "Bei starker Sonneneinstrahlung an heissen Sommertagen.", "correct": false},
+            {"text": "Ausschliesslich bei Gewittern im Frühling.", "correct": false}
+          ],
+          "explanation": "Laut Météo — Föhn : Föhneffekte an Geländestufen treten solche Effekte typischerweise bei starker Warmluftadvektion in den Wintermonaten auf."
+        },
+        {
+          "stem": "Welche Auswirkungen haben diese Föhneffekte an Geländestufen?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Auflösung tiefer Wolkenschichten bei deutlich verbesserter Sicht und höheren Temperaturen.", "correct": true},
+            {"text": "Starke Zunahme der Windgeschwindigkeit auf Sturmstärke.", "correct": false},
+            {"text": "Bildung dichten Nebels und deutliches Absinken der Temperatur.", "correct": false}
+          ],
+          "explanation": "Laut Météo — Föhn : Föhneffekte an Geländestufen kommt es zur Auflösung tiefer Wolkenschichten bei besserer Sicht und höheren Temperaturen."
+        },
+        {
+          "stem": "Welche Aussage zu diesen Föhneffekten trifft gemäss dem Text NICHT zu?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Die Windgeschwindigkeit nimmt dabei stark zu.", "correct": true},
+            {"text": "Die Effekte treten grossräumig auf und sind nicht auf einzelne Täler begrenzt.", "correct": false},
+            {"text": "Es bildet sich eine starke, aber nur wenige hundert Meter flache Temperaturinversion.", "correct": false}
+          ],
+          "explanation": "Laut Météo — Föhn : Föhneffekte an Geländestufen nimmt die Windgeschwindigkeit nur unwesentlich zu, nicht stark."
+        }
+      ]
+    }
+  ]
+}

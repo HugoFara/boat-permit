@@ -1,0 +1,154 @@
+{
+  "drafts": [
+    {
+      "ref": "RNL art. 86f",
+      "questions": [
+        {
+          "stem": "Quale spinta idrostatica minima per persona, in acqua dolce, devono avere i mezzi di salvataggio collettivi a bordo di una nave passeggeri?",
+          "polarity": "affirmative",
+          "choices": [
+            { "text": "Almeno 750 N per persona", "correct": true },
+            { "text": "Almeno 75 N per persona", "correct": false },
+            { "text": "Almeno 100 N per persona", "correct": false }
+          ],
+          "explanation": "Secondo il RNL art. 86f par. 2 lett. b, devono avere una spinta idrostatica di almeno 750 N per persona in acqua dolce."
+        },
+        {
+          "stem": "Quali requisiti devono soddisfare i mezzi di salvataggio collettivi pneumatici a bordo delle navi passeggeri?",
+          "polarity": "affirmative",
+          "choices": [
+            { "text": "Constare di almeno due camere d'aria separate", "correct": true },
+            { "text": "Gonfiarsi esclusivamente in modo automatico, mai a mano", "correct": false },
+            { "text": "Essere costituiti da un'unica camera d'aria rinforzata", "correct": false }
+          ],
+          "explanation": "Secondo il RNL art. 86f par. 3 lett. a, i mezzi pneumatici devono constare di almeno due camere d'aria separate."
+        }
+      ]
+    },
+    {
+      "ref": "RNL art. 64",
+      "questions": [
+        {
+          "stem": "In caso di incrocio o sorpasso, da quali navi devono scostarsi le tavole a vela e i kite surf?",
+          "polarity": "affirmative",
+          "choices": [
+            { "text": "Da tutte le altre navi", "correct": true },
+            { "text": "Soltanto dalle navi passeggeri prioritarie", "correct": false },
+            { "text": "Soltanto dai velieri e dalle navi a remi", "correct": false }
+          ],
+          "explanation": "Secondo il RNL art. 64 par. 2 lett. f, le tavole a vela e i kite surf devono scostarsi da tutte le altre navi."
+        },
+        {
+          "stem": "Quale affermazione NON è corretta riguardo agli obblighi di scostarsi previsti dal RNL art. 64?",
+          "polarity": "negative",
+          "choices": [
+            { "text": "Le navi passeggeri prioritarie devono scostarsi da tutte le navi a vela", "correct": true },
+            { "text": "Ogni nave deve scostarsi dalle navi senza manovrabilità che portano la segnaletica prevista", "correct": false },
+            { "text": "Le navi a motore (salvo le eccezioni elencate) devono scostarsi dalle navi a remi", "correct": false }
+          ],
+          "explanation": "Secondo il RNL art. 64 par. 2, le navi passeggeri prioritarie non sono tenute a scostarsi dai velieri, contrariamente a quanto affermato."
+        }
+      ]
+    },
+    {
+      "ref": "RNL art. 62",
+      "questions": [
+        {
+          "stem": "Quando due navi seguono rotte che s'incrociano con pericolo d'abbordo, quale deve scostarsi?",
+          "polarity": "affirmative",
+          "choices": [
+            { "text": "La nave che scorge l'altra da dritta", "correct": true },
+            { "text": "La nave che scorge l'altra da sinistra", "correct": false },
+            { "text": "La nave più grande delle due", "correct": false }
+          ],
+          "explanation": "Secondo il RNL art. 62 lett. b, deve scostarsi la nave che scorge l'altra da dritta."
+        },
+        {
+          "stem": "Quando due navi procedono con rotte direttamente opposte con pericolo d'abbordo, come devono comportarsi?",
+          "polarity": "affirmative",
+          "choices": [
+            { "text": "Ognuna deve accostare a dritta per passare a sinistra dell'altra", "correct": true },
+            { "text": "Ognuna deve accostare a sinistra per passare a dritta dell'altra", "correct": false },
+            { "text": "Entrambe devono mantenere rotta e velocità invariate", "correct": false }
+          ],
+          "explanation": "Secondo il RNL art. 62 lett. c, con rotte opposte ognuna deve accostare a dritta per passare a sinistra dell'altra."
+        }
+      ]
+    },
+    {
+      "ref": "RNL art. 86a",
+      "questions": [
+        {
+          "stem": "Quale canale di radiotelefonia è destinato alle navi in difficoltà secondo l'equipaggiamento delle navi passeggeri?",
+          "polarity": "affirmative",
+          "choices": [
+            { "text": "Il canale 16", "correct": true },
+            { "text": "Il canale 12", "correct": false },
+            { "text": "Il canale K", "correct": false }
+          ],
+          "explanation": "Secondo il RNL art. 86a par. 1 lett. c, il canale 16 è quello della nave in difficoltà."
+        },
+        {
+          "stem": "A quali navi si applicano esclusivamente gli obblighi relativi all'apparecchio radar e all'indicatore di velocità di virata?",
+          "polarity": "affirmative",
+          "choices": [
+            { "text": "Alle navi che effettuano corse internazionali", "correct": true },
+            { "text": "A tutte le navi passeggeri senza eccezioni", "correct": false },
+            { "text": "Soltanto alle navi con equipaggio di una sola persona", "correct": false }
+          ],
+          "explanation": "Secondo il RNL art. 86a par. 2, le prescrizioni su radar e indicatore di virata si applicano solo alle navi che effettuano corse internazionali."
+        }
+      ]
+    },
+    {
+      "ref": "RNL art. 16",
+      "questions": [
+        {
+          "stem": "A quale condizione sono soggette le gare di velocità e le feste nautiche che possono originare concentrazioni di navi?",
+          "polarity": "affirmative",
+          "choices": [
+            { "text": "All'autorizzazione dell'autorità competente", "correct": true },
+            { "text": "A una semplice notifica preventiva alla polizia", "correct": false },
+            { "text": "All'esclusivo consenso degli altri navigatori presenti", "correct": false }
+          ],
+          "explanation": "Secondo il RNL art. 16 par. 1, tali manifestazioni sono soggette ad autorizzazione dell'autorità competente."
+        },
+        {
+          "stem": "Quale affermazione NON è corretta riguardo al rilascio dell'autorizzazione per una manifestazione nautica?",
+          "polarity": "negative",
+          "choices": [
+            { "text": "L'autorizzazione è sempre rilasciata anche senza assicurazione di responsabilità civile", "correct": true },
+            { "text": "Deve essere garantita la sicurezza dei partecipanti", "correct": false },
+            { "text": "La manifestazione non deve comportare grave pregiudizio per la qualità delle acque", "correct": false }
+          ],
+          "explanation": "Secondo il RNL art. 16 par. 2 lett. b, l'autorizzazione è accordata solo se è stata conclusa l'assicurazione di responsabilità civile prescritta."
+        }
+      ]
+    },
+    {
+      "ref": "RNL art. 84",
+      "questions": [
+        {
+          "stem": "Dove sono permessi l'imbarco e lo sbarco dei passeggeri?",
+          "polarity": "affirmative",
+          "choices": [
+            { "text": "Solo alle installazioni autorizzate a quest'uopo dall'autorità competente", "correct": true },
+            { "text": "In qualsiasi punto della riva ritenuto sicuro dal conduttore", "correct": false },
+            { "text": "Ovunque, purché la nave proceda a velocità ridotta", "correct": false }
+          ],
+          "explanation": "Secondo il RNL art. 84 par. 1, imbarco e sbarco sono permessi solo alle installazioni autorizzate dall'autorità competente."
+        },
+        {
+          "stem": "Riguardo all'ordine di accesso agli impianti d'approdo, quale affermazione è corretta?",
+          "polarity": "affirmative",
+          "choices": [
+            { "text": "I passeggeri che si imbarcano possono accedere solo dopo che i passeggeri che sbarcano l'hanno lasciato, salvo impianti con entrate e uscite indipendenti", "correct": true },
+            { "text": "I passeggeri che si imbarcano hanno sempre la precedenza su quelli che sbarcano", "correct": false },
+            { "text": "Nessun passeggero può salire o scendere senza che la nave sia spenta", "correct": false }
+          ],
+          "explanation": "Secondo il RNL art. 84 par. 4, chi si imbarca accede solo dopo che sono sbarcati gli altri, salvo impianti con entrate e uscite indipendenti."
+        }
+      ]
+    }
+  ]
+}

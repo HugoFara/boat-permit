@@ -1,0 +1,204 @@
+{
+  "drafts": [
+    {
+      "ref": "ONI art. 148g",
+      "questions": [
+        {
+          "stem": "Secondo l'art. 148g ONI, come viene gestito l'obbligo di apporre la marcatura CE sulle imbarcazioni sportive?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "L'obbligo di apporre la marcatura CE non viene applicato, ma se è già stata apposta secondo le prescrizioni UE può essere mantenuta.", "correct": true},
+            {"text": "La marcatura CE è obbligatoria su tutte le imbarcazioni sportive immesse in commercio in Svizzera.", "correct": false},
+            {"text": "La marcatura CE già apposta secondo le prescrizioni UE deve essere obbligatoriamente rimossa.", "correct": false}
+          ],
+          "explanation": "L'art. 148g cpv. 2 ONI stabilisce che l'obbligo di marcatura CE non si applica, ma una CE già apposta secondo l'UE può essere mantenuta."
+        },
+        {
+          "stem": "In base all'art. 148g ONI, in quale lingua deve essere fornita alle autorità competenti la documentazione necessaria alla valutazione di un'imbarcazione sportiva?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "In una lingua ufficiale svizzera o in inglese.", "correct": true},
+            {"text": "Esclusivamente nella lingua del Paese di fabbricazione dell'imbarcazione.", "correct": false},
+            {"text": "Solo in francese o in tedesco, mai in inglese.", "correct": false}
+          ],
+          "explanation": "L'art. 148g cpv. 6 ONI richiede la documentazione in una lingua ufficiale svizzera o in inglese."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 150",
+      "questions": [
+        {
+          "stem": "Secondo l'art. 150 ONI, di norma quanti marinai compongono l'equipaggio di un battello motorizzato per il trasporto di merci con capacità di carico oltre 1000 t?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "2 marinai.", "correct": true},
+            {"text": "1 marinaio.", "correct": false},
+            {"text": "3 marinai.", "correct": false}
+          ],
+          "explanation": "L'art. 150 cpv. 2 lett. a ONI prevede 2 marinai per i battelli motorizzati oltre 1000 t di capacità di carico."
+        },
+        {
+          "stem": "In base all'art. 150 ONI, per rinunciare a un marinaio su battelli con capacità di carico inferiore a 350 t in buona visibilità diurna, quale durata massima di navigazione tra partenza e arrivo è ammessa?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Non più di 45 minuti.", "correct": true},
+            {"text": "Non più di 90 minuti.", "correct": false},
+            {"text": "Non più di 30 minuti.", "correct": false}
+          ],
+          "explanation": "L'art. 150 cpv. 4 lett. b ONI fissa a 45 minuti il tempo massimo di navigazione tra partenza e arrivo."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 143a",
+      "questions": [
+        {
+          "stem": "Secondo l'art. 143a ONI, quale altezza metacentrica minima deve avere il battello per il trasporto di merci pronto all'esercizio e a pieno carico?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Non inferiore a 1,00 m.", "correct": true},
+            {"text": "Non inferiore a 0,50 m.", "correct": false},
+            {"text": "Non inferiore a 2,50 m.", "correct": false}
+          ],
+          "explanation": "L'art. 143a cpv. 2 ONI prescrive un'altezza metacentrica non inferiore a 1,00 m."
+        },
+        {
+          "stem": "In base all'art. 143a ONI, quale delle seguenti affermazioni sulla prova di stabilità NON è corretta?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "L'angolo d'inclinazione trasversale a pieno carico con i carichi esterni indicati può superare liberamente i 15 gradi.", "correct": true},
+            {"text": "La stabilità è comprovata se l'angolo d'inclinazione trasversale non supera 5 gradi.", "correct": false},
+            {"text": "Per i momenti di sbandamento deve valere una pressione laterale del vento di 0,25 kN/m2.", "correct": false}
+          ],
+          "explanation": "L'art. 143a cpv. 2 ONI limita a 5 gradi l'angolo d'inclinazione, quindi i 15 gradi non sono ammessi."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 134",
+      "questions": [
+        {
+          "stem": "Secondo l'art. 134 ONI, quale spinta idrostatica minima devono avere i mezzi di salvataggio individuali?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Almeno 75 N.", "correct": true},
+            {"text": "Almeno 750 N.", "correct": false},
+            {"text": "Almeno 100 N.", "correct": false}
+          ],
+          "explanation": "L'art. 134 cpv. 2 ONI fissa la spinta idrostatica dei mezzi di salvataggio individuali ad almeno 75 N."
+        },
+        {
+          "stem": "In base all'art. 134 ONI, su quali natanti motorizzati deve trovarsi, oltre ai mezzi di salvataggio, anche un salvagente con sagola di lancio galleggiante di almeno 10 m?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Sulle imbarcazioni da diporto e sportive motorizzate con potenza di propulsione superiore a 30 kW.", "correct": true},
+            {"text": "Su tutti i battelli a remi senza eccezioni.", "correct": false},
+            {"text": "Solo sui battelli a vela con superficie velica inferiore a 15 m2.", "correct": false}
+          ],
+          "explanation": "L'art. 134 cpv. 5 ONI richiede tale salvagente sulle imbarcazioni motorizzate con potenza superiore a 30 kW (e sui velieri oltre 15 m2)."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 163",
+      "questions": [
+        {
+          "stem": "Secondo l'art. 163 ONI, quale condizione vale per le deroghe non espressamente elencate nel capoverso 1?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Possono essere consentite soltanto con l'accordo dell'Ufficio federale dei trasporti.", "correct": true},
+            {"text": "Possono essere decise autonomamente dal conduttore del natante.", "correct": false},
+            {"text": "Sono sempre vietate in qualsiasi circostanza.", "correct": false}
+          ],
+          "explanation": "L'art. 163 cpv. 3 ONI subordina le altre deroghe all'accordo dell'Ufficio federale dei trasporti."
+        },
+        {
+          "stem": "In base all'art. 163 ONI, in quale caso l'autorità competente può autorizzare il traino simultaneo di più di due sciatori nautici?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "In determinati settori a scopo di allenamento.", "correct": true},
+            {"text": "Ovunque sul lago durante il fine settimana.", "correct": false},
+            {"text": "Soltanto di notte e con buona visibilità.", "correct": false}
+          ],
+          "explanation": "L'art. 163 cpv. 1 lett. b ONI consente in determinati settori a scopo di allenamento il traino di più di due sciatori."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 146",
+      "questions": [
+        {
+          "stem": "Secondo l'art. 146 ONI, di quante paratie devono disporre almeno i battelli per il trasporto di merci?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Almeno una paratia di collisione e due paratie per il compartimento delle macchine.", "correct": true},
+            {"text": "Almeno cinque paratie stagne lungo tutto lo scafo.", "correct": false},
+            {"text": "Nessuna paratia, salvo richiesta dell'autorità.", "correct": false}
+          ],
+          "explanation": "L'art. 146 cpv. 2 ONI prescrive almeno una paratia di collisione e due paratie per il compartimento delle macchine."
+        },
+        {
+          "stem": "In base all'art. 146 ONI, quale affermazione sulla paratia di collisione NON è corretta?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "La paratia di collisione può avere porte e boccaporti per facilitare il passaggio.", "correct": true},
+            {"text": "La paratia di collisione deve essere stagna e andare da sponda a sponda.", "correct": false},
+            {"text": "La paratia di collisione deve estendersi dal fondo del natante al ponte.", "correct": false}
+          ],
+          "explanation": "L'art. 146 cpv. 5 ONI vieta porte, boccaporti, passi d'uomo o altre aperture nella paratia di collisione."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 148",
+      "questions": [
+        {
+          "stem": "Secondo l'art. 148 ONI, quali disposizioni si applicano alla costruzione e all'attrezzatura dei battelli per passeggeri?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Le disposizioni dell'ordinanza del 14 marzo 1994.", "correct": true},
+            {"text": "Esclusivamente le norme tecniche della direttiva UE sulle imbarcazioni da diporto.", "correct": false},
+            {"text": "Nessuna disposizione specifica oltre alle regole generali di navigazione.", "correct": false}
+          ],
+          "explanation": "L'art. 148 cpv. 1 ONI rinvia alle disposizioni dell'ordinanza del 14 marzo 1994 per i battelli per passeggeri."
+        },
+        {
+          "stem": "In base all'art. 148 ONI, quale obbligo hanno le imprese che gestiscono battelli per il trasporto di merci utilizzati principalmente per oltre 12 persone?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Devono disporre di un piano d'emergenza per mettere tempestivamente in sicurezza le persone a bordo.", "correct": true},
+            {"text": "Devono rinunciare a trasportare qualsiasi merce a bordo.", "correct": false},
+            {"text": "Sono esonerate da qualsiasi misura di sicurezza per i passeggeri.", "correct": false}
+          ],
+          "explanation": "L'art. 148 cpv. 5 ONI impone a tali imprese di disporre di un piano d'emergenza per la messa in sicurezza delle persone a bordo."
+        }
+      ]
+    },
+    {
+      "ref": "ONI art. 123",
+      "questions": [
+        {
+          "stem": "Secondo l'art. 123 ONI, come devono essere i serbatoi per il carburante a bordo?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Isolati, fissati solidamente e, se necessario, muniti di paratie frangiflutti.", "correct": true},
+            {"text": "Liberi di muoversi nello scafo per compensare il rollio.", "correct": false},
+            {"text": "Privi di raccordi accessibili per ragioni di sicurezza.", "correct": false}
+          ],
+          "explanation": "L'art. 123 cpv. 2 ONI richiede serbatoi isolati, fissati solidamente e, se necessario, con paratie frangiflutti."
+        },
+        {
+          "stem": "In base all'art. 123 ONI, nel caso di impianti per carburanti volatili, dove devono giungere le tubazioni di riempimento?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Al ponte o fuori bordo.", "correct": true},
+            {"text": "Direttamente nel compartimento delle macchine.", "correct": false},
+            {"text": "Nella sentina, sotto la linea di galleggiamento.", "correct": false}
+          ],
+          "explanation": "L'art. 123 cpv. 6 lett. b ONI prescrive che le tubazioni di riempimento giungano al ponte o fuori bordo."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "drafts": [
+    {
+      "ref": "Matelotage — Kreuzknoten : Nachteile",
+      "questions": [
+        {
+          "stem": "Aus welchem Dokument wurde der Kreuzknoten aufgrund von Sicherheitsbedenken gestrichen?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Aus der Feuerwehr-Dienstvorschrift", "correct": true},
+            {"text": "Aus dem Ashley-Buch der Knoten", "correct": false},
+            {"text": "Aus der Berufsfischerei-Verordnung", "correct": false}
+          ],
+          "explanation": "Laut Matelotage — Kreuzknoten : Nachteile wurde der Kreuzknoten aus der Feuerwehr-Dienstvorschrift gestrichen."
+        },
+        {
+          "stem": "Welche Aussagen zum Kreuzknoten treffen gemäss dem Text zu?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Beim Verbinden von Leinen ungleicher Stärke neigt er zum Kippen in den Ankerstich", "correct": true},
+            {"text": "Statt seiner sollte ein Schotstek verwendet werden", "correct": true},
+            {"text": "Nach Belastung lässt er sich stets mühelos von Hand lösen", "correct": false}
+          ],
+          "explanation": "Matelotage — Kreuzknoten : Nachteile nennt das Kippen in den Ankerstich, empfiehlt den Schotstek und weist darauf hin, dass er sich oft nur mit Werkzeug lösen lässt."
+        },
+        {
+          "stem": "Was sagt das Ashley-Buch der Knoten über den Kreuzknoten als Verbindungsknoten?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Er sollte unter keinen Umständen zum Verbinden von Seilen verwendet werden", "correct": true},
+            {"text": "Er ist der sicherste Knoten zum Zusammenbinden zweier Enden", "correct": false},
+            {"text": "Er kippt bei Seilen mit ungleichem Durchmesser besonders selten um", "correct": false}
+          ],
+          "explanation": "Matelotage — Kreuzknoten : Nachteile zitiert Ashley, wonach er unter keinen Umständen zum Verbinden von Seilen genutzt werden und gemieden werden sollte."
+        }
+      ]
+    },
+    {
+      "ref": "Matelotage — Kreuzknoten : Verwendung",
+      "questions": [
+        {
+          "stem": "Wofür eignet sich der Kreuzknoten gemäss dem Text?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Als Bindeknoten zum Verschnüren von Paketen oder Bündeln", "correct": true},
+            {"text": "Zum Verbinden zweier Kletter- oder Sicherungsseile", "correct": false},
+            {"text": "Als alleiniger Anseilknoten beim Klettern", "correct": false}
+          ],
+          "explanation": "Matelotage — Kreuzknoten : Verwendung nennt ihn als Bindeknoten für Pakete oder Bündel, hält ihn aber zum Verbinden zweier Seile für ungeeignet."
+        },
+        {
+          "stem": "Welche Angaben zur Knotenfestigkeit des Kreuzknotens stimmen mit dem Text überein?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Sie beträgt etwa 45 %", "correct": true},
+            {"text": "Bei geschlagenem Polypropylen-Tauwerk liegt sie bei etwa 36 bis 42 %", "correct": true},
+            {"text": "Bei geflochtenem Polypropylen-Seil erreicht sie rund 90 %", "correct": false}
+          ],
+          "explanation": "Matelotage — Kreuzknoten : Verwendung gibt etwa 45 % und bei geschlagenem Polypropylen 36 bis 42 % an, während geflochtenes Polypropylen nur 37 % erreicht."
+        },
+        {
+          "stem": "Wie lässt sich der noch nicht belastete Kreuzknoten gemäss dem Text lösen?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Durch Zusammenschieben der Enden oder durch Auseinanderziehen zweier Enden derselben Bucht", "correct": true},
+            {"text": "Nur mit Hilfe eines Werkzeugs", "correct": false},
+            {"text": "Ausschliesslich durch Erhitzen des Seils", "correct": false}
+          ],
+          "explanation": "Matelotage — Kreuzknoten : Verwendung beschreibt, dass der unbelastete Knoten durch Zusammenschieben oder Auseinanderziehen der Enden derselben Bucht gelöst werden kann."
+        }
+      ]
+    },
+    {
+      "ref": "Matelotage — Palstek : Klettern",
+      "questions": [
+        {
+          "stem": "Welches Verhalten zeigt der Palstek gemäss dem Text unter Ringbelastung?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Er öffnet sich bei mehreren ungleich gerichteten Kräften an der Schlaufe bei 1,5 bis 1,6 kN", "correct": true},
+            {"text": "Er hält jeder Ringbelastung ohne Aufziehen stand", "correct": false},
+            {"text": "Er wird unter Ringbelastung fester und lässt sich danach nicht mehr lösen", "correct": false}
+          ],
+          "explanation": "Matelotage — Palstek : Klettern nennt das Aufziehen unter Ringbelastung bei 1,5 bis 1,6 kN durch ungleich gerichtete Kräfte an der Schlaufe."
+        },
+        {
+          "stem": "Welcher Knoten wurde gemäss dem Text als Ersatz für den Palstek zum Anseilen eingeführt?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Der Achterknoten", "correct": true},
+            {"text": "Der Kreuzknoten", "correct": false},
+            {"text": "Der Schotstek", "correct": false}
+          ],
+          "explanation": "Matelotage — Palstek : Klettern nennt den Achterknoten als Ersatz, der grosse Festigkeit hat und sich auch unter Ringbelastung nicht öffnet."
+        },
+        {
+          "stem": "Welche Aussage zum Palstek beim Klettern ist gemäss dem Text FALSCH?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "Nach dem Weltcup 1992 in St. Pölten durfte weiterhin uneingeschränkt mit dem Palstek angeseilt werden", "correct": true},
+            {"text": "Der Palstek diente bis Anfang der 1970er Jahre als verlässlicher Anseilknoten", "correct": false},
+            {"text": "Doppelter Palstek und Bulin 1.5 werden zum Anseilen häufig verwendet", "correct": false}
+          ],
+          "explanation": "Matelotage — Palstek : Klettern hält fest, dass nach dem Weltcup 1992 nur noch mit Achterknoten angeseilt werden durfte."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "drafts": [
+    {
+      "ref": "ONI art. 142",
+      "questions": [
+        {
+          "stem": "Secondo le definizioni dell'articolo, chi è il «perito»?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Una persona ai sensi dell'articolo 5a capoverso 1 lettera a OCB", "correct": true},
+            {"text": "L'autorità competente che approva il rapporto sulla sicurezza", "correct": false},
+            {"text": "Il responsabile dell'obbligo di diligenza definito all'articolo 17 OCB", "correct": false}
+          ],
+          "explanation": "ONI art. 142 lett. c definisce il perito come una persona ai sensi dell'articolo 5a capoverso 1 lettera a OCB."
+        },
+        {
+          "stem": "In base a queste definizioni, l'«analisi dei rischi» è un'analisi ai sensi di quale disposizione?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Dell'articolo 2 lettera d dell'ordinanza del 14 marzo 1994", "correct": true},
+            {"text": "Dell'articolo 2 lettera f OCB", "correct": false},
+            {"text": "Dell'articolo 5 OCB", "correct": false}
+          ],
+          "explanation": "ONI art. 142 lett. a definisce l'analisi dei rischi come un'analisi ai sensi dell'articolo 2 lettera d dell'ordinanza del 14 marzo 1994."
+        },
+        {
+          "stem": "Quale tra le seguenti affermazioni NON corrisponde alle definizioni date dall'articolo?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "L'obbligo di diligenza è il rapporto sulla sicurezza di cui all'articolo 17 capoverso 3 OCB", "correct": true},
+            {"text": "Il rapporto di perizia è un rapporto ai sensi dell'articolo 2 lettera f OCB", "correct": false},
+            {"text": "L'obbligo di diligenza sono regole ai sensi dell'articolo 5 OCB", "correct": false}
+          ],
+          "explanation": "ONI art. 142 lett. e definisce l'obbligo di diligenza come regole ai sensi dell'articolo 5 OCB, non come un rapporto sulla sicurezza."
+        }
+      ]
+    },
+    {
+      "ref": "RNL art. 71",
+      "questions": [
+        {
+          "stem": "Secondo la definizione, la navigazione in tempo di foschia riguarda:",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "Sia la navigazione diurna sia quella notturna", "correct": true},
+            {"text": "Solo la navigazione notturna", "correct": false},
+            {"text": "Solo la navigazione diurna", "correct": false}
+          ],
+          "explanation": "RNL art. 71 precisa che è considerata navigazione in tempo di foschia, sia di giorno che di notte, ogni navigazione con visibilità ridotta."
+        },
+        {
+          "stem": "Quale tra le seguenti condizioni rientra nella definizione di navigazione in tempo di foschia?",
+          "polarity": "affirmative",
+          "choices": [
+            {"text": "La navigazione con nevischio o piogge tempestose", "correct": true},
+            {"text": "La navigazione con vento forte ma cielo sereno", "correct": false},
+            {"text": "La navigazione di notte con buona visibilità", "correct": false}
+          ],
+          "explanation": "RNL art. 71 include espressamente nevischio, neve e piogge tempestose tra le condizioni della navigazione in tempo di foschia."
+        },
+        {
+          "stem": "Quale affermazione sulla definizione di navigazione in tempo di foschia è FALSA?",
+          "polarity": "negative",
+          "choices": [
+            {"text": "La definizione si applica esclusivamente in presenza di nebbia", "correct": true},
+            {"text": "Vi rientra ogni condizione che limiti la visibilità allo stesso modo", "correct": false},
+            {"text": "Vi rientrano foschia, nebbia e neve", "correct": false}
+          ],
+          "explanation": "RNL art. 71 non si limita alla nebbia ma comprende foschia, nevischio, neve, piogge tempestose e qualsiasi altra condizione che limiti la visibilità allo stesso modo."
+        }
+      ]
+    }
+  ]
+}
