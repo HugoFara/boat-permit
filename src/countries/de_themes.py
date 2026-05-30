@@ -59,6 +59,47 @@ PERMIT_THEMES: dict[str, tuple[str, ...]] = {
     "Bodensee-D": _BINNEN_SEGELN,
 }
 
+# --- Bodensee-Schifferpatent exam blocks --------------------------------------
+# The BSO-seeded prose questions feed the Bodensee theory exam's Sachgebiete (the
+# official a–i structure lives in countries/de.py:_BODENSEE_ALLGEMEIN/_SEGELN).
+# These ids namespace cleanly against the federal SBF block ids (basis/
+# spezifisch_*), so the Bodensee and SBF pools coexist in one bank and each
+# permit draws only its own blocks. Keyed by ExamBlock.name -> block id:
+BODENSEE_BLOCK_NAME_TO_ID: dict[str, str] = {
+    "Allgemeines, Zulassung, Bau und Ausrüstung": "bodensee_allgemeines",
+    "Schallzeichen, Lichterführung, optische Signale": "bodensee_signale",
+    "Schifffahrtszeichen": "bodensee_zeichen",
+    "Ausweich- und Fahrregeln": "bodensee_fahrregeln",
+    "Umweltschutz und Seemannschaft": "bodensee_umwelt_seemannschaft",
+    "Wetterkunde und Navigation": "bodensee_wetter_navigation",
+    "Rheinstrecke (Alter Rhein/Seerhein)": "bodensee_rhein",
+    "Segeln allgemein": "bodensee_segeln_allgemein",
+    "Segeln Fahrregeln": "bodensee_segeln_fahrregeln",
+}
+
+# Which Bodensee Sachgebiet a prose question lands in, by its German theme. The
+# Rheinstrecke and Segeln sections need route-/sailing-specific content the BSO
+# articles don't supply, so no theme maps to them — those blocks stay unfilled
+# until seeded from a dedicated source.
+_BODENSEE_BLOCK_BY_THEME: dict[str, str] = {
+    "definitionen": "bodensee_allgemeines",
+    "recht_dokumente": "bodensee_allgemeines",
+    "lichter_signale": "bodensee_signale",
+    "schifffahrtszeichen": "bodensee_zeichen",
+    "verkehrsregeln": "bodensee_fahrregeln",
+    "seemannschaft": "bodensee_umwelt_seemannschaft",
+    "umweltschutz": "bodensee_umwelt_seemannschaft",
+    "wetterkunde": "bodensee_wetter_navigation",
+    "navigation": "bodensee_wetter_navigation",
+    "gezeiten": "bodensee_wetter_navigation",
+}
+
+
+def bodensee_block_for(theme: str) -> str:
+    """Exam-block id for a BSO-seeded prose question of the given theme ('' when
+    the theme has no Bodensee section yet)."""
+    return _BODENSEE_BLOCK_BY_THEME.get(theme, "")
+
 # A definitions article announces itself structurally — title "Begriffe(n)…" /
 # "Begriffsbestimmungen", or the text opening "Im Sinne dieser Verordnung …".
 # Detected before keyword rules so a term list enumerating buoys/lights isn't

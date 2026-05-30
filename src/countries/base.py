@@ -93,6 +93,11 @@ class Country:
     extension_themes: frozenset = frozenset()      # scaffolded ahead of a source
     references: tuple = ()                         # tuple[Reference, ...]
     legal_basis: str = ""
+    # Maps a prose-drafted question's theme -> the exam-block id it belongs to,
+    # for countries whose prose pool feeds a block-structured exam (DE: the BSO
+    # prose seeds the Bodensee-Schifferpatent Sachgebiete). None -> prose carries
+    # no block (CH point-scored, INT sourcing-only).
+    prose_block_for: Callable | None = None
 
     def region_manifest(self) -> list[dict]:
         """Regions for the player picker, primary scope first then by code."""

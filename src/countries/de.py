@@ -272,4 +272,6 @@ COUNTRY = Country(
     default_region=DEFAULT_REGION,
     references=REFERENCES,
     legal_basis=LEGAL_BASIS,
+    # BSO-seeded prose questions belong to the Bodensee-Schifferpatent Sachgebiete.
+    prose_block_for=de_themes.bodensee_block_for,
 )

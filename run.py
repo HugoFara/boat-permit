@@ -184,14 +184,18 @@ def _de_block_rules(country) -> dict:
     those with at least one enforceable per-block minimum (drops the sail-only
     Binnen permit, which the law scores on an overall total we don't model)."""
     from src.questions import elwis
+    from src.countries import de_themes
+    # ELWIS (federal SBF) block names + the BSO-seeded Bodensee Sachgebiet names,
+    # so both the catalogue permits and the Bodensee-Schifferpatent resolve.
+    name_to_id = {**elwis.BLOCK_NAME_TO_ID, **de_themes.BODENSEE_BLOCK_NAME_TO_ID}
     rules = {}
     for code, p in country.permits.items():
         e = p.exam
         if not (e.questions and e.blocks):
             continue
-        mapped = [{"block": elwis.BLOCK_NAME_TO_ID.get(b.name, b.name),
+        mapped = [{"block": name_to_id.get(b.name, b.name),
                    "count": b.count, "min_correct": b.min_correct} for b in e.blocks]
-        if not all(b["block"] in elwis.BLOCK_NAME_TO_ID.values() for b in mapped):
+        if not all(b["block"] in name_to_id.values() for b in mapped):
             continue
         if not any(b["min_correct"] > 0 for b in mapped):
             continue

@@ -59,6 +59,27 @@ def de_themes_permit_items():
     return T.PERMIT_THEMES.items()
 
 
+def test_bodensee_theme_block_map_is_consistent():
+    # Every theme that maps to a Bodensee block uses a real DE theme and a block id
+    # that the name->id map also yields (so questions and the exam structure agree).
+    ids = set(T.BODENSEE_BLOCK_NAME_TO_ID.values())
+    for theme, bid in T._BODENSEE_BLOCK_BY_THEME.items():
+        assert T.is_valid(theme), f"unknown theme {theme!r}"
+        assert bid in ids, f"theme {theme!r} -> {bid!r} not in BODENSEE_BLOCK_NAME_TO_ID"
+    assert T.bodensee_block_for("recht_dokumente") == "bodensee_allgemeines"
+    assert T.bodensee_block_for("__none__") == ""
+
+
+def test_bodensee_permits_resolve_to_block_ids():
+    # Both Bodensee permits' exam-block names must be in the name->id map, else
+    # run._de_block_rules silently drops them from the web player's permit picker.
+    from src.countries import de
+    for code in ("Bodensee-A", "Bodensee-D"):
+        for blk in de.PERMITS[code].exam.blocks:
+            assert blk.name in T.BODENSEE_BLOCK_NAME_TO_ID, \
+                f"{code}: block {blk.name!r} has no id"
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items())
              if k.startswith("test_") and callable(v)]

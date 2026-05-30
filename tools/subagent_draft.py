@@ -125,6 +125,10 @@ def cmd_ingest(lang: str, country):
             qs = prose.parse_drafts(json.dumps({"questions": d["questions"]}), unit)
             for q in qs:
                 st["drafted"] += 1
+                # Countries whose prose feeds a block-structured exam stamp the
+                # exam-block id by theme (DE: BSO prose -> Bodensee Sachgebiete).
+                if country.prose_block_for is not None:
+                    q.block = country.prose_block_for(q.theme)
                 if qschema.validate(q, is_valid_theme=valid):
                     st["invalid"] += 1
                     continue
