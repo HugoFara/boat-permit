@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Permis bateau Léman — examen théorique (entraînement)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app">
+
+  <!-- START -->
+  <section id="screen-start" class="screen">
+    <h1>Permis bateau — examen théorique</h1>
+    <p class="sub">Catégorie A (bateau à moteur) · Lac Léman</p>
+
+    <div id="loop-proof" class="banner">
+      <strong>Démo (preuve de concept).</strong> Cette version ne contient pour
+      l’instant que des questions de <em>signalisation</em>, générées
+      automatiquement à partir du droit fédéral (ONI/RNL). Ce n’est pas un examen
+      blanc représentatif&nbsp;: les autres thèmes (lois, météo, matelotage…)
+      seront ajoutés ultérieurement.
+    </div>
+
+    <div id="config-summary" class="config"></div>
+
+    <div class="actions">
+      <button id="btn-exam" class="primary">Examen blanc (chronométré)</button>
+      <button id="btn-practice">Entraînement libre</button>
+    </div>
+    <p class="fine">Source&nbsp;: ordonnances fédérales (domaine public). Aucune
+      question issue d’une banque sous licence.</p>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="screen-quiz" class="screen hidden">
+    <header class="quizbar">
+      <span id="progress"></span>
+      <span id="timer" class="timer hidden"></span>
+    </header>
+    <div id="question"></div>
+    <div class="actions">
+      <button id="btn-action" class="primary"></button>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="screen-results" class="screen hidden">
+    <h2>Résultat</h2>
+    <div id="score"></div>
+    <div class="actions">
+      <button id="btn-restart" class="primary">Recommencer</button>
+    </div>
+    <h3>Correction détaillée</h3>
+    <div id="review"></div>
+  </section>
+
+</main>
+<footer class="sitefoot">
+  Outil d’étude libre · construit à partir de sources primaires de droit ·
+  <span id="meta-foot"></span>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

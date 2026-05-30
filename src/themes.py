@@ -24,6 +24,28 @@ THEMES: dict[str, str] = {
 # Keyword heuristics, evaluated in priority order. The first theme whose pattern
 # matches the unit's searchable text wins, unless the unit carries an explicit
 # theme already (e.g. a prose source pinned by its parser).
+# A terminology article announces itself *structurally*, and we detect it before
+# the keyword rules so it isn't stolen by the generic signalisation match (a
+# definitions list naturally enumerates signal/buoy/light terms). Two anchored
+# signals, both high-precision:
+#  - the *title* ends in "Définition(s)" or is "Signification de quelques termes"
+#    (ONI art. 2, RNL art. 1, ONI art. 61/142);
+#  - the *text* opens with the canonical definitional lead-in.
+# Anchoring matters: it keeps genuine signalisation articles that merely *contain*
+# an inline definition (e.g. RNL art. 46 "on entend par: un son bref…") out.
+_DEF_TITLE = re.compile(
+    r"(^\s*d[eé]finitions?\b|d[eé]finitions?\s*$|"
+    r"signification de (quelques )?termes\s*$)", re.I)
+_DEF_TEXT_START = re.compile(
+    r"^\s*(\d+\s*)?(dans (la pr[eé]sente (ordonnance|convention)|"
+    r"le pr[eé]sent r[eè]glement)\s*:|au sens de la pr[eé]sente)", re.I)
+
+
+def _is_definitions(title: str, text: str) -> bool:
+    return bool(_DEF_TITLE.search(title or "")) or \
+        bool(_DEF_TEXT_START.match((text or "").lstrip()))
+
+
 _RULES: list[tuple[str, re.Pattern[str]]] = [
     # Storm-warning signals are a Météorologie exam topic, not Signalisation —
     # this narrow rule runs first so "avis de tempête / fort vent / feux d'alerte"
@@ -47,8 +69,10 @@ _RULES: list[tuple[str, re.Pattern[str]]] = [
         r"demi-cl[eé]|chaise)\b")),
     ("eaux_frontalieres", re.compile(
         r"\b(l[eé]man|fronti[eè]re|franco-suisse|france|eaux fronta)\b")),
-    ("definitions", re.compile(
-        r"\b(d[eé]finition|on entend par|au sens de la pr[eé]sente|terminologie)\b")),
+    # Note: there is no loose "definitions" keyword rule. A bare "définition" /
+    # "au sens de la présente" / "on entend par" fires inside procedural articles
+    # that merely *cite* a definition (e.g. ONI art. 84/91b on permits). Real
+    # terminology articles are caught up-front by the anchored _is_definitions().
 ]
 
 
@@ -61,6 +85,10 @@ def tag_theme(ref: str = "", title: str = "", text: str = "",
               default: str | None = None) -> str:
     """Return the best theme id for a unit. `default` (a source-level hint) is
     used as a fallback and also wins ties when no keyword rule fires."""
+    # High-precision structural check first: a genuine terminology article goes to
+    # Définitions even though its term list mentions signals, buoys, lights, etc.
+    if _is_definitions(title, text):
+        return "definitions"
     haystack = _norm(" ".join((ref, title, text)))
     for theme_id, pattern in _RULES:
         if pattern.search(haystack):

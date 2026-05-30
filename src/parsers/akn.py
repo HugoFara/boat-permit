@@ -126,7 +126,22 @@ def parse(src: Source, manifest: dict) -> list[KnowledgeUnit]:
             id=article_id, theme=theme, kind="article", ref=ref,
             title=full_title, text=body, assets=assets, cross_refs=cross, **prov))
 
-    units.extend(_parse_annexes(src, root, images, prefix, prov))
+    # Annex-level citation map: which articles cite "annexe N" (by number/roman),
+    # so each annex figure can deterministically link back to its governing
+    # article(s). Citations are annex-level in the law — finer per-figure links
+    # are a semantic-matching job left to the (reviewed) question stage.
+    annex_cites: dict[str, list[str]] = {}
+    art_by_num: dict[str, str] = {}
+    for u in units:
+        if u.kind != "article":
+            continue
+        for m in re.finditer(r"annexe\s+([0-9]+[a-z]*|[ivx]+)\b", u.text or "", re.I):
+            annex_cites.setdefault(m.group(1).lower(), []).append(u.id)
+        am = re.match(r"art\.\s*([0-9]+[a-z]*)", u.ref.split(" ", 1)[1] if " " in u.ref else "", re.I)
+        if am:
+            art_by_num[am.group(1).lower()] = u.id
+
+    units.extend(_parse_annexes(src, root, images, prefix, prov, annex_cites, art_by_num))
     return units
 
 
@@ -141,24 +156,103 @@ def _block(preface, name: str) -> str:
     return ""
 
 
-def _row_caption(tr) -> str:
-    """Caption for a figure row: text of the row's cells (the figure number cell
-    plus the description cell), footnotes stripped, normalized."""
-    clone = etree.fromstring(etree.tostring(tr))
+def _norm(s: str) -> str:
+    return re.sub(r"\s+", " ", (s or "")).replace("\xa0", " ").strip()
+
+
+def _p_texts(el) -> list[str]:
+    """Normalized text of each <p> under `el`, in order, footnotes stripped.
+    Reading per-<p> (instead of one raw itertext join) is what stops adjacent
+    cells gluing — e.g. <p>let. b</p><p>ballon vert</p> stays two strings, not
+    the run-together "let. bballon vert"."""
+    clone = etree.fromstring(etree.tostring(el))
     for note in clone.iter(AKN + "authorialNote"):
         note.getparent().remove(note)
-    parts = []
-    for td in clone.iter(AKN + "td"):
-        txt = re.sub(r"\s+", " ", "".join(td.itertext())).strip()
-        if txt:
-            parts.append(txt)
-    return " — ".join(parts)
+    return [t for p in clone.iter(AKN + "p") if (t := _norm("".join(p.itertext())))]
 
 
-def _parse_annexes(src: Source, root, images: dict, prefix: str, prov: dict
+# A paragraph that is only a reference label ("let. b", "ch. 4", "al. 2") is a
+# legal back-reference, not the figure's description — kept as a locator, not caption.
+_REF_LABEL = re.compile(r"^(let\.|ch\.|al\.|lettre|chiffre)(\s|$)", re.I)
+# Inline article citation inside an annex legend cell (RNL annexes do this), e.g.
+# "IV.2 Art. 42" -> article 42. These give precise per-figure article links.
+_ART_REF = re.compile(r"\bArt\.\s*(\d+[a-z]*)", re.I)
+_NUM_ONLY = re.compile(r"^\d+$")
+# Locator fragments that pollute a caption: abbreviations ("art. 24", "al. 1",
+# "let. c") and dotted section codes ("II.A.4", "A.10", "IV.2"). Stripped so the
+# caption keeps only the human description; the section code is case-sensitive so
+# it can't eat lowercase prose.
+_LOC_ABBR = re.compile(
+    r"\b(?:art|al|ch)\.\s*\d+[a-z]?\b|\blet\.\s*[a-z]+\b"
+    r"|\bchiffre\s*\d+\b|\blettre\s*[a-z]+\b", re.I)
+_LOC_SECTION = re.compile(r"\b[A-Z]{1,4}(?:\.\w+)+")
+
+
+def _clean_desc(p: str) -> str:
+    """Strip legal locator fragments from a description paragraph. Returns the
+    leftover prose (empty if the paragraph was nothing but a citation)."""
+    s = _LOC_ABBR.sub("", _LOC_SECTION.sub("", p))
+    if s == p:
+        return p.strip()                      # no locator present — leave untouched
+    return re.sub(r"\s{2,}", " ", re.sub(r"^[\s,;.:()«»–—-]+", "", s)).strip(" ,;.:()«»–—-")
+
+
+def _has_words(paras: list[str]) -> bool:
+    """True if any paragraph carries a real word (≥3 letters) — i.e. actual
+    description text, not a bare index/connector like "1a" or "ou"."""
+    return any(re.search(r"[A-Za-zÀ-ÿ]{3,}", p) for p in paras)
+
+
+def _figure_parts(td, img, row) -> tuple[str, str, list[str], str]:
+    """For one image, return (legend, ref_label, article_refs, description):
+      - legend: the index printed next to the image (Layout B/C: "<img> 13" -> "13";
+        Layout A images carry none -> "");
+      - ref_label: any "let. b / ch. 4" cross-reference text (a locator);
+      - article_refs: article numbers cited in the legend cell ("Art. 42" -> "42");
+      - description: the human caption (the answer text for a signal question).
+    Bare legend numbers are dropped (they belong to *some* image in the cell, not
+    to the description). The description comes from the image's own cell (Layout A)
+    or, when that cell holds only image(s)+number(s), from the sibling text cell."""
+    # The legend index sits in each image's own paragraph ("<img> 1a"); exclude
+    # every image legend in the cell so a sibling image's index can't pose as text.
+    legends = {_norm("".join(i.getparent().itertext())) for i in td.iter(AKN + "img")}
+    paras = [p for p in _p_texts(td) if p not in legends and not _NUM_ONLY.match(p)]
+    if not _has_words(paras):     # Layout B/C, or a bare connector cell ("ou")
+        sib_paras: list[str] = []
+        for sib in row.findall(AKN + "td"):
+            if sib is td or sib.find(".//" + AKN + "img") is not None:
+                continue
+            sib_paras += [p for p in _p_texts(sib) if not _NUM_ONLY.match(p)]
+        if _has_words(sib_paras):
+            paras = sib_paras
+    refs, arts, desc = [], [], []
+    for p in paras:
+        arts += _ART_REF.findall(p)
+        if _REF_LABEL.match(p):           # a pure "let. b / al. 2" locator
+            refs.append(p)
+            continue
+        cleaned = _clean_desc(p)          # drop any "art. 24, al. 1" / "II.A.4" debris
+        if _has_words([cleaned]):
+            desc.append(cleaned)
+    legend = _norm("".join(img.getparent().itertext()))        # "13" or ""
+    return legend, " ".join(refs), arts, "; ".join(desc)
+
+
+def _annex_token(annex_num: str) -> str:
+    """The citable token of an annex label ("Annexe 1a" -> "1a", "Annexe III" ->
+    "iii"), matching how articles cite it."""
+    m = re.search(r"annexe\s+([0-9]+[a-z]*|[ivx]+)", annex_num, re.I)
+    return m.group(1).lower() if m else ""
+
+
+def _parse_annexes(src: Source, root, images: dict, prefix: str, prov: dict,
+                   annex_cites: dict[str, list[str]], art_by_num: dict[str, str]
                    ) -> list[KnowledgeUnit]:
     """Walk annex <doc> elements and emit one annex_figure unit per referenced
-    figure, captioned from its table row. These carry the signal/buoyage diagrams."""
+    figure, captioned from its own table cell (per-image, not per-row). Each
+    figure links to its governing article — by the explicit "Art. N" in its
+    legend cell when present, else to whichever article(s) cite its annex — and
+    carries its annex legend index. These hold the signal/buoyage diagrams."""
     units: list[KnowledgeUnit] = []
     for doc in root.iter(AKN + "doc"):
         preface = doc.find(AKN + "preface")
@@ -168,29 +262,37 @@ def _parse_annexes(src: Source, root, images: dict, prefix: str, prov: dict
         if not annex_title:
             h = doc.find(".//" + AKN + "heading")
             annex_title = "".join(h.itertext()).strip() if h is not None else ""
+        cites = annex_cites.get(_annex_token(annex_num), [])
 
         seen_in_annex = 0
-        # rows that contain images, in document order
         for tr in doc.iter(AKN + "tr"):
-            row_imgs = [im for im in tr.iter(AKN + "img")
-                        if images.get(im.get("src"), {}).get("bytes", 0) >= _MIN_FIGURE_BYTES]
-            if not row_imgs:
-                continue
-            caption = _row_caption(tr)
-            for im in row_imgs:
-                seen_in_annex += 1
-                meta = images[im.get("src")]
-                asset_path = _stable_asset_path(src.id, meta["path"])
-                ref = f"{prefix} {annex_num} – fig. {seen_in_annex}"
-                cap = caption or f"{annex_num} – {annex_title}"
-                theme = themes.tag_theme(ref=ref, title=annex_title, text=cap,
-                                         default="signalisation")
-                units.append(KnowledgeUnit(
-                    id=make_id(src.id, ref), theme=theme, kind="annex_figure",
-                    ref=ref, title=f"{annex_num} — {annex_title}".strip(" —"),
-                    text=cap,
-                    assets=[Asset(type="image", path=asset_path, caption=cap)],
-                    cross_refs=[], **prov))
+            # Visit image-bearing cells in document order so each figure is
+            # captioned from its own cell, not the whole row.
+            for td in tr.findall(AKN + "td"):
+                row_imgs = [im for im in td.iter(AKN + "img")
+                            if images.get(im.get("src"), {}).get("bytes", 0) >= _MIN_FIGURE_BYTES]
+                for im in row_imgs:
+                    seen_in_annex += 1
+                    meta = images[im.get("src")]
+                    asset_path = _stable_asset_path(src.id, meta["path"])
+                    legend, ref_label, arts, desc = _figure_parts(td, im, tr)
+                    ref = f"{prefix} {annex_num} – fig. {seen_in_annex}"
+                    caption = desc or f"{annex_num} – {annex_title}".strip(" –")
+                    locator = ", ".join(
+                        x for x in (annex_num, f"ch. {legend}" if legend else "", ref_label)
+                        if x)
+                    text = f"{locator} — {desc}" if desc else locator
+                    # Prefer the precise article(s) named in the legend cell;
+                    # fall back to whichever article(s) cite this whole annex.
+                    cross = [art_by_num[n] for n in arts if n in art_by_num] or list(cites)
+                    theme = themes.tag_theme(ref=ref, title=annex_title, text=desc,
+                                             default="signalisation")
+                    units.append(KnowledgeUnit(
+                        id=make_id(src.id, ref), theme=theme, kind="annex_figure",
+                        ref=ref, title=f"{annex_num} — {annex_title}".strip(" —"),
+                        text=text,
+                        assets=[Asset(type="image", path=asset_path, caption=caption)],
+                        cross_refs=cross, **prov))
     return units
 
 

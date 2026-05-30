@@ -3,8 +3,21 @@ __pycache__/
 .venv/
 venv/
 
+# Private design handoff — never commit
+boat-exam-app-handoff.md
+
 # Regenerable pipeline outputs (rebuild with `python run.py build`)
 data/raw/
 data/assets/
 data/kb.sqlite
 data/kb.json
+
+# Phase-2 question bank (rebuild with `python run.py questions`)
+data/questions.sqlite
+data/questions.json
+
+# Static-player data bundle (rebuild with `python run.py web`).
+# Committed source: web/index.html, web/app.js, web/style.css.
+# For GitHub Pages "deploy from branch", un-ignore these or build them in CI.
+web/questions.json
+web/assets/

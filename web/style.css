@@ -1,0 +1,113 @@
+:root {
+  --fg: #1a2330;
+  --muted: #5b6675;
+  --accent: #15607a;
+  --accent-dark: #0e455a;
+  --ok: #1c7c3f;
+  --ok-bg: #e6f4ea;
+  --bad: #b3261e;
+  --bad-bg: #fbeae9;
+  --line: #d8dee6;
+  --card: #fff;
+  --bg: #f4f6f8;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+}
+#app { max-width: 720px; margin: 0 auto; padding: 24px 18px 48px; }
+.screen { animation: fade .2s ease; }
+.hidden { display: none !important; }
+@keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; } }
+
+h1 { font-size: 1.6rem; margin: .2em 0 .1em; }
+h2 { font-size: 1.4rem; }
+.sub { color: var(--muted); margin-top: 0; }
+.fine { color: var(--muted); font-size: .85rem; }
+
+.banner {
+  background: #fff7e6; border: 1px solid #f0d089; border-radius: 8px;
+  padding: 12px 14px; margin: 16px 0; font-size: .92rem;
+}
+.config {
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  padding: 12px 14px; margin: 16px 0; display: grid;
+  grid-template-columns: 1fr 1fr; gap: 6px 16px; font-size: .92rem;
+}
+.config b { color: var(--accent-dark); }
+
+.actions { display: flex; gap: 10px; flex-wrap: wrap; margin: 18px 0; }
+button {
+  font: inherit; padding: 11px 18px; border-radius: 8px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--card); color: var(--fg);
+}
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+button.primary:hover { background: var(--accent-dark); }
+button:disabled { opacity: .5; cursor: default; }
+
+.quizbar {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 14px; color: var(--muted); font-size: .9rem;
+}
+.timer { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--accent-dark); }
+.timer.low { color: var(--bad); }
+
+/* Figure box — identical size/background for every image, so resolution or
+   crop differences can never leak the answer. */
+.figure {
+  width: 100%; height: 220px; background: #fff; border: 1px solid var(--line);
+  border-radius: 8px; display: flex; align-items: center; justify-content: center;
+  margin-bottom: 14px; overflow: hidden;
+}
+.figure img { max-width: 90%; max-height: 90%; object-fit: contain; }
+
+.stem { font-size: 1.12rem; font-weight: 600; margin: 6px 0 14px; }
+.hint { color: var(--muted); font-size: .85rem; margin-bottom: 10px; }
+
+.choice {
+  display: flex; align-items: center; gap: 11px; padding: 12px 14px;
+  border: 1px solid var(--line); border-radius: 8px; margin-bottom: 9px;
+  background: var(--card); cursor: pointer; transition: border-color .12s;
+}
+.choice:hover { border-color: var(--accent); }
+.choice input { width: 18px; height: 18px; flex: 0 0 auto; }
+.choice.correct { background: var(--ok-bg); border-color: var(--ok); }
+.choice.wrong { background: var(--bad-bg); border-color: var(--bad); }
+.choice.locked { cursor: default; }
+
+.explain {
+  margin-top: 14px; padding: 12px 14px; border-left: 4px solid var(--accent);
+  background: #eef5f8; border-radius: 0 8px 8px 0; font-size: .94rem;
+}
+.explain .src { color: var(--muted); font-size: .85rem; margin-top: 6px; }
+.explain a { color: var(--accent-dark); }
+
+#score { font-size: 1.05rem; }
+.badge {
+  display: inline-block; padding: 6px 14px; border-radius: 999px;
+  font-weight: 700; margin: 8px 0;
+}
+.badge.pass { background: var(--ok-bg); color: var(--ok); }
+.badge.fail { background: var(--bad-bg); color: var(--bad); }
+.scoreline { margin: 4px 0; }
+.scoreline b { font-variant-numeric: tabular-nums; }
+
+.review-item {
+  border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px;
+  margin-bottom: 10px; background: var(--card); font-size: .92rem;
+}
+.review-item .q { font-weight: 600; }
+.review-item .mark { float: right; font-weight: 700; }
+.review-item .mark.ok { color: var(--ok); }
+.review-item .mark.no { color: var(--bad); }
+.review-item ul { margin: 8px 0 0; padding-left: 18px; }
+.review-item li.c { color: var(--ok); }
+.review-item li.x { color: var(--bad); text-decoration: line-through; }
+
+.sitefoot {
+  max-width: 720px; margin: 0 auto; padding: 16px 18px 40px;
+  color: var(--muted); font-size: .82rem; border-top: 1px solid var(--line);
+}
