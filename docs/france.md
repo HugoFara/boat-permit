@@ -103,32 +103,39 @@ provenance citation, and ships them behind the same review gate.
 ## Ingested law (Légifrance / DILA LEGI)
 
 France grounds its bank in the **actual statute**, not recall. `src/fr/legi.py`
-ingests the **Code des transports — 4ᵉ partie (navigation intérieure & transport
-fluvial)**, i.e. the RGP and the titre-de-navigation/sanctions regime, from the
-official **DILA LEGI** open data (the bulk `Freemium_legi_global_*.tar.gz` XML
-dump, Licence Ouverte / Etalab — no API credentials). It keeps every in-force
-(`VIGUEUR`) Part-4 article, tags it to a France theme, and writes article-level
-`KnowledgeUnit`s (reusing `src/schema.py`).
+ingests, from the official **DILA LEGI** open data (the bulk
+`Freemium_legi_global_*.tar.gz` XML dump — Licence Ouverte / Etalab, no API
+credentials), every in-force (`VIGUEUR`) article of the texts the bank cites and
+writes article-level `KnowledgeUnit`s (reusing `src/schema.py`). The dump carries
+both the consolidated **codes** and the non-codified **lois/décrets/arrêtés**
+(`TNC_en_vigueur/JORF`), so one download covers all of them:
+
+| `source_id` | text | articles |
+|---|---|---|
+| `code_transports` | Code des transports, 4ᵉ partie (navigation intérieure = the RGP) | 1160 |
+| `code_environnement` | Code de l'environnement, art. L.218-x (rejets des navires / MARPOL) | 90 |
+| `decret_2007` | Décret n° 2007-1167 (permis plaisance) | 40 |
+| `arrete_2007` | Arrêté du 28 sept. 2007 (référentiel) | 37 |
+| `division_245` | Arrêté du 10 fév. 2016 (Division 245 — eaux intérieures) | 19 |
 
 ```bash
-python -m src.fr.legi extract   # data/raw/legi/legi_global.tar.gz → article tree
-python -m src.fr.legi build     # → data/kb.fr.sqlite + src/fr/legi_kb.json (1160 arts)
+python -m src.fr.legi extract   # data/raw/legi/legi_global.tar.gz → article trees
+python -m src.fr.legi build     # → data/kb.fr.sqlite + src/fr/legi_kb.json (1346 arts)
 python -m src.fr.legi verify    # cross-check every seed citation vs the ingested law
 ```
 
-The durable corpus is **committed** at `src/fr/legi_kb.json` (≈1.6 MB, public-domain
-law), so the KB rebuilds and the verification runs **without** the 1.2 GB dump (which
-stays under `data/raw/`, git-ignored). `tests/test_legi.py` asserts every
-Code-des-transports article the seed cites exists in the ingested law — so a
-citation can't silently drift from the source. This already caught one error:
-`A.4241-48-12` (sailing-vessel lights) → `A.4241-48-13` (motorised small-craft
-lights). Each unit carries a deep per-article Légifrance URL
-(`/codes/article_lc/<LEGIARTI>`) and the in-force date.
+The durable corpus is **committed** at `src/fr/legi_kb.json` (public-domain law),
+so the KB rebuilds and the verification runs **without** the 1.2 GB dump (which
+stays under `data/raw/`, git-ignored). `tests/test_legi.py` asserts that every
+article the seed cites *in an ingested text* exists in the law — so a citation
+can't silently drift from the source. This already caught an error: `A.4241-48-12`
+(sailing-vessel lights) → `A.4241-48-13` (motorised small-craft lights). Each unit
+carries a deep per-article Légifrance URL and the in-force date.
 
-*Not yet ingested:* the Code de l'environnement (rejets) and the LODA texts (Décret
-2007-1167, Arrêté du 28 sept 2007, Divisions 240/245) live in separate DILA
-datasets; COLREG is ingested elsewhere via the `INT` universal-source layer. These
-are the natural next ingestion targets.
+*Verified out-of-band* (authorities LEGI doesn't carry): COLREG/RIPAM (ingested via
+the `INT` layer), CEVNI (UNECE), IALA R1001, ITU Radio Regs, SHOM, the EU Directive
+2013/53, the *arrêtés des préfets maritimes*, and Division 240 (annexed tables not
+cleanly in LEGI).
 
 ## Question scope & the common-core pool
 
