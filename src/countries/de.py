@@ -52,7 +52,7 @@ _GII_LICENCE = "Public domain — German federal law (§5(1) UrhG, freely reusab
 # the very same path as the Swiss law spine, so no new parser. A Verordnung is
 # public domain (§5(1) UrhG / gemeinfrei). This grounds the *law-seeded* Bodensee
 # question set: we author from the BSO and never need the (non-free) BSO question
-# catalogue. See docs/bodensee-licence-request.md for the parallel reference ask.
+# catalogue. A reference-copy request has been sent to the rights owners (pending).
 _BSO_LICENCE = ("Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 "
                 "(§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex.")
 
@@ -125,14 +125,39 @@ REFERENCES: tuple[Reference, ...] = (
              "privat (© A. Sieber, schifferpatent.org). Daher NICHT ingestiert. Plan: "
              "eigene Fragen aus der BSO (Source 'bso', §5(1) UrhG) ableiten und den "
              "Katalog nur intern zum Abgleich/Divergenz-Filter nutzen (Clean-Room). "
-             "Referenzexemplar beim Schifffahrtsamt angefragt — siehe "
-             "docs/bodensee-licence-request.md."),
+             "Referenzexemplar beim Schifffahrtsamt angefragt — Anfrage versandt, "
+             "Antwort der Rechteinhaber ausstehend."),
 )
 
 
 # --- recreational permits ------------------------------------------------------
 def _basis(count: int = 7, min_correct: int = 5) -> ExamBlock:
     return ExamBlock("Basisfragen", count, min_correct)
+
+
+# Bodensee-Schifferpatent theory exam — the Sachgebiete (sections) with their
+# per-section question counts and pass minima are the OFFICIAL structure published
+# by the Landratsamt Bodenseekreis (Schifferpatentprüfung). Kat A sits the
+# Allgemeiner Teil (sections a–g, 86 questions); Kat D adds the two sailing sections
+# (h–i, +27 → 113). The pass rule is a minimum in EVERY section with NO compensation
+# across sections ("ein Punkteausgleich … ist nicht möglich") — modelled exactly by
+# the per-block minima. 1 point per question. This is the exam *structure*; the
+# question pool is law-seeded from the BSO separately (see germany-extension memory).
+# Source: https://www.bodenseekreis.de/verkehr-wirtschaft/schifffahrt/
+#         bodenseeschifferpatent/schifferpatentpruefung/  (verified 2026-05-30)
+_BODENSEE_ALLGEMEIN: tuple[ExamBlock, ...] = (
+    ExamBlock("Allgemeines, Zulassung, Bau und Ausrüstung", 20, 16),
+    ExamBlock("Schallzeichen, Lichterführung, optische Signale", 10, 8),
+    ExamBlock("Schifffahrtszeichen", 15, 12),
+    ExamBlock("Ausweich- und Fahrregeln", 12, 9),
+    ExamBlock("Umweltschutz und Seemannschaft", 12, 9),
+    ExamBlock("Wetterkunde und Navigation", 10, 8),
+    ExamBlock("Rheinstrecke (Alter Rhein/Seerhein)", 7, 5),
+)
+_BODENSEE_SEGELN: tuple[ExamBlock, ...] = (
+    ExamBlock("Segeln allgemein", 20, 16),
+    ExamBlock("Segeln Fahrregeln", 7, 5),
+)
 
 
 PERMITS: dict[str, Permit] = {
@@ -198,18 +223,26 @@ PERMITS: dict[str, Permit] = {
     # German parallel to the project's shared-lake (Lac Léman) origin.
     "Bodensee-A": Permit(
         code="Bodensee-A", label="Bodensee-Schifferpatent Kategorie A (Motor)",
-        themes=de_themes.PERMIT_THEMES["Bodensee-A"], drive="motor",
-        exam=ExamRules(questions=0, time_limit_min=0, scoring="blocks",
-                       note="Trinationales BSO-Patent; Pflicht ab >4,4 kW. Eigene "
-                            "Prüfung der Anrainerstellen — nicht der Bund-SBF."),
-        note="Bodensee (DE/AT/CH); ausgestellt von den Landratsämtern am See."),
+        themes=de_themes.PERMIT_THEMES["Bodensee-A"], drive="motor", track="inland",
+        exam=ExamRules(questions=86, time_limit_min=60, scoring="blocks",
+                       blocks=_BODENSEE_ALLGEMEIN,
+                       note="Allgemeiner Teil: 86 Fragen in 7 Sachgebieten (a–g), "
+                            "60 min. Bestehen: Mindestpunktzahl in JEDEM Sachgebiet, "
+                            "kein Punkteausgleich. Quelle: Landratsamt Bodenseekreis."),
+        note="Trinationales BSO-Patent (DE/AT/CH); Pflicht ab Motorleistung "
+             ">4,4 kW. Ausgestellt von den Landratsämtern am See, eigene Prüfung "
+             "(nicht der Bund-SBF). Mindestalter 18."),
     "Bodensee-D": Permit(
         code="Bodensee-D", label="Bodensee-Schifferpatent Kategorie D (Segel)",
-        themes=de_themes.PERMIT_THEMES["Bodensee-D"], drive="sail",
-        exam=ExamRules(questions=0, time_limit_min=0, scoring="blocks",
-                       note="Trinationales BSO-Patent; Pflicht ab Segelfläche "
-                            ">12 m². Eigene Prüfung der Anrainerstellen."),
-        note="Bodensee (DE/AT/CH); ausgestellt von den Landratsämtern am See."),
+        themes=de_themes.PERMIT_THEMES["Bodensee-D"], drive="sail", track="inland",
+        exam=ExamRules(questions=113, time_limit_min=80, scoring="blocks",
+                       blocks=_BODENSEE_ALLGEMEIN + _BODENSEE_SEGELN,
+                       note="Allgemeiner Teil (a–g) + Segeln (h–i): 113 Fragen, "
+                            "80 min (60 + 20). Selbe Mindestpunktzahl-Regel je "
+                            "Sachgebiet, kein Punkteausgleich. Quelle: Landratsamt "
+                            "Bodenseekreis."),
+        note="Trinationales BSO-Patent (DE/AT/CH); Pflicht ab Segelfläche "
+             ">12 m². Ausgestellt von den Landratsämtern am See. Mindestalter 14."),
 }
 
 
