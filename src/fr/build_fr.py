@@ -21,7 +21,7 @@ import os
 from ..questions import schema as qschema
 from ..questions.schema import Question, Choice, Provenance, make_question_id, validate
 from .. import scope
-from . import sources_fr, exam_fr, themes_fr
+from . import sources_fr, exam_fr, themes_fr, derive_fr
 from .seed_fr import SEED
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
@@ -50,18 +50,24 @@ def _question(entry: dict, lang: str, idx: int) -> Question:
     # Stable id keyed on the source ref + the FR stem (so EN/FR variants of the
     # same item share a stem-derived suffix but differ by lang in the variant tag).
     unit_key = f"fr-{entry['source']}-{idx}"
+    gen = entry.get("generator", "seed:fr.v1")
+    # Questions derived from the ingested law point at the precise Légifrance
+    # article (deep per-article URL); hand-authored seeds use the source's URL.
+    art = entry.get("article") or {}
     return Question(
         id=make_question_id(unit_key, entry["fr"]["stem"], f"{lang}"),
         theme=entry["theme"], kind=_kind(entry["theme"]),
         stem=loc["stem"], choices=choices, lang=lang,
         polarity=entry.get("polarity", "affirmative"), points=1,
         explanation=loc.get("explanation", ""),
-        # Hand-authored and source-cited: approved so the public player serves them
-        # (the France seed file is itself the durable, version-controlled record).
-        review_status="approved", distractor_strategy="curated",
-        generator="seed:fr.v1",
+        # Served items are approved: hand-authored seeds (durable in seed_fr.py) or
+        # law-derived drafts that passed review (status flipped to "approved").
+        review_status="approved",
+        distractor_strategy="derived" if gen.startswith("derive") else "curated",
+        generator=gen,
         provenance=Provenance(
-            unit_id=unit_key, ref=entry["ref"], source=src.name, url=src.url,
+            unit_id=unit_key, ref=entry["ref"], source=src.name,
+            url=art.get("url") or src.url,
             as_of=src.as_of, licence=src.licence))
 
 
@@ -70,7 +76,10 @@ def build_questions() -> dict[str, dict[str, list[Question]]]:
     raises on the first invalid one (a bad seed never half-lands)."""
     out: dict[str, dict[str, list[Question]]] = {
         opt: {lg: [] for lg in LANGS} for opt in exam_fr.PROFILES}
-    for i, entry in enumerate(SEED):
+    # Hand-authored seeds first (stable ids), then any law-derived drafts that have
+    # been reviewed/approved (pending drafts are never served — the review gate).
+    entries = list(SEED) + derive_fr.approved_entries()
+    for i, entry in enumerate(entries):
         opt = entry["option"]
         if opt not in out:
             raise ValueError(f"seed {i}: unknown option {opt!r}")

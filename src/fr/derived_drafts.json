@@ -1,0 +1,1094 @@
+[
+  {
+    "option": "eaux_interieures",
+    "theme": "ecluses",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-53-26",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Dans une ouverture de pont ou de barrage portant le signal d'interdiction A.10, où la navigation est-elle autorisée ?",
+      "explanation": "Lorsqu'une ouverture de pont ou de barrage porte le signal d'interdiction A.10, la navigation est interdite en dehors de l'espace compris entre les deux panneaux constituant ce signal ; elle n'est donc admise qu'entre ces deux panneaux."
+    },
+    "en": {
+      "stem": "At a bridge or weir opening bearing prohibition sign A.10, where is navigation permitted?",
+      "explanation": "When a bridge or weir opening bears the prohibition sign A.10, navigation is forbidden outside the space between the two panels making up that sign; it is therefore allowed only between those two panels."
+    },
+    "choices": [
+      {
+        "fr": "Uniquement dans l'espace compris entre les deux panneaux constituant le signal",
+        "en": "Only in the space between the two panels making up the sign",
+        "correct": true
+      },
+      {
+        "fr": "Partout dans l'ouverture, sauf au centre du chenal",
+        "en": "Anywhere in the opening, except in the centre of the channel",
+        "correct": false
+      },
+      {
+        "fr": "De préférence entre les deux panneaux, mais sans interdiction ailleurs",
+        "en": "Preferably between the two panels, but without prohibition elsewhere",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-53-26",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909328"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "ecluses",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-53-32",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Lorsqu'un bateau bénéficiant d'un droit de priorité de passage aux écluses approche des garages d'écluses ou y stationne, comment doivent se comporter les autres bateaux ?",
+      "explanation": "Lorsque les bateaux disposant d'un droit de priorité de passage aux écluses s'approchent des garages des écluses ou y sont en stationnement, les autres bateaux doivent leur faciliter au maximum le passage."
+    },
+    "en": {
+      "stem": "When a vessel holding a right of priority at locks approaches the lock lay-bys or is moored there, how must the other vessels behave?",
+      "explanation": "When vessels holding a right of priority at locks approach the lock lay-bys or are moored there, the other vessels must facilitate their passage as much as possible."
+    },
+    "choices": [
+      {
+        "fr": "Ils doivent lui faciliter au maximum le passage",
+        "en": "They must facilitate its passage as much as possible",
+        "correct": true
+      },
+      {
+        "fr": "Ils conservent leur tour de passage dans l'ordre d'arrivée",
+        "en": "They keep their turn according to order of arrival",
+        "correct": false
+      },
+      {
+        "fr": "Ils doivent quitter immédiatement le garage de l'écluse",
+        "en": "They must immediately leave the lock lay-by",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-53-32",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909340"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "ecluses",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-54-9",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Pendant les périodes normales de navigation, quelle est la durée maximale pendant laquelle le gestionnaire peut exceptionnellement autoriser un bateau à stationner dans les garages d'écluses ?",
+      "explanation": "Le gestionnaire peut exceptionnellement autoriser le stationnement dans les garages d'écluses pendant les périodes normales de navigation sans que cette durée n'excède dix jours."
+    },
+    "en": {
+      "stem": "During normal navigation periods, what is the maximum duration for which the manager may exceptionally authorise a vessel to moor in lock lay-bys?",
+      "explanation": "The manager may exceptionally authorise mooring in lock lay-bys during normal navigation periods, provided this does not exceed a maximum of ten days."
+    },
+    "choices": [
+      {
+        "fr": "Dix jours",
+        "en": "Ten days",
+        "correct": true
+      },
+      {
+        "fr": "Trois jours",
+        "en": "Three days",
+        "correct": false
+      },
+      {
+        "fr": "Trente jours",
+        "en": "Thirty days",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-54-9",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909518"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "reglementation",
+    "source": "decret_2007",
+    "ref": "Décret 2007-1167, art. 1",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Comment se définit un « bateau de plaisance » ?",
+      "explanation": "Selon les définitions données, le « bateau de plaisance » s'entend de tout bateau ou navire, quel qu'en soit le type ou le mode de propulsion, qui est destiné à être utilisé à des fins de loisir ou de sport. La définition ne pose aucune condition de motorisation ni de taille."
+    },
+    "en": {
+      "stem": "How is a \"recreational craft\" (bateau de plaisance) defined?",
+      "explanation": "Under the definitions given, a \"recreational craft\" means any boat or ship, whatever its type or mode of propulsion, intended to be used for leisure or sport purposes. The definition sets no condition as to motorisation or size."
+    },
+    "choices": [
+      {
+        "fr": "Tout bateau ou navire, quel qu'en soit le type ou le mode de propulsion, destiné à des fins de loisir ou de sport",
+        "en": "Any boat or ship, whatever its type or mode of propulsion, intended for leisure or sport purposes",
+        "correct": true
+      },
+      {
+        "fr": "Uniquement un bateau motorisé destiné à des fins de loisir ou de sport",
+        "en": "Only a motorised boat intended for leisure or sport purposes",
+        "correct": false
+      },
+      {
+        "fr": "Tout bateau de moins de 20 mètres affecté au transport de passagers à titre commercial",
+        "en": "Any boat under 20 metres used to carry passengers on a commercial basis",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "1",
+      "source_id": "decret_2007",
+      "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000006266726"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "reglementation",
+    "source": "decret_2007",
+    "ref": "Décret 2007-1167, art. 10",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "À partir de quel âge une personne non titulaire d'un titre de conduite peut-elle pratiquer l'initiation à la conduite des véhicules nautiques à moteur ?",
+      "explanation": "Le texte réserve la pratique de l'initiation à la conduite des véhicules nautiques à moteur, ainsi que la randonnée encadrée par un moniteur diplômé, aux personnes âgées de plus de seize ans et non titulaires d'un titre de conduite, en eaux maritimes comme en eaux intérieures."
+    },
+    "en": {
+      "stem": "From what age may a person not holding a driving title take part in introductory training to operate motorised watercraft?",
+      "explanation": "The text reserves introductory training in operating motorised watercraft, as well as supervised touring led by a qualified instructor, to persons over sixteen years of age who do not hold a driving title, both in maritime and inland waters."
+    },
+    "choices": [
+      {
+        "fr": "Plus de seize ans",
+        "en": "Over sixteen years of age",
+        "correct": true
+      },
+      {
+        "fr": "Plus de dix-huit ans",
+        "en": "Over eighteen years of age",
+        "correct": false
+      },
+      {
+        "fr": "Plus de quatorze ans",
+        "en": "Over fourteen years of age",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "10",
+      "source_id": "decret_2007",
+      "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000006885162"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "reglementation",
+    "source": "decret_2007",
+    "ref": "Décret 2007-1167, art. 11",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Sur les voies et plans d'eau intérieurs figurant sur la liste arrêtée par le ministre, à quelle condition le conducteur d'un coche de plaisance nolisé est-il dispensé du permis de conduire des bateaux de plaisance ?",
+      "explanation": "Le texte dispense le conducteur d'un coche de plaisance nolisé du permis lorsqu'il est muni d'une attestation de conduite d'un coche de plaisance délivrée selon les dispositions arrêtées par le ministre chargé des transports, et ce sur les voies et plans d'eau dont la liste est arrêtée par ce ministre."
+    },
+    "en": {
+      "stem": "On the inland waterways and bodies of water listed by the minister, on what condition is the driver of a chartered houseboat exempt from the recreational-boat driving licence?",
+      "explanation": "The text exempts the driver of a chartered houseboat from the licence when holding a houseboat driving certificate issued in accordance with provisions set by the minister responsible for transport, on the waterways and bodies of water whose list is set by that minister."
+    },
+    "choices": [
+      {
+        "fr": "Lorsqu'il est muni d'une attestation de conduite d'un coche de plaisance délivrée selon les dispositions arrêtées par le ministre",
+        "en": "When holding a houseboat driving certificate issued in accordance with the provisions set by the minister",
+        "correct": true
+      },
+      {
+        "fr": "Lorsque la longueur du coche de plaisance est inférieure à quinze mètres",
+        "en": "When the houseboat's length is less than fifteen metres",
+        "correct": false
+      },
+      {
+        "fr": "Lorsqu'il est accompagné d'un titulaire du permis plaisance option eaux intérieures",
+        "en": "When accompanied by a holder of the recreational licence with the inland-waters endorsement",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "11",
+      "source_id": "decret_2007",
+      "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000006885164"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "regles_route",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-53-10",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "À quelle condition un rattrapant peut-il entreprendre un dépassement ?",
+      "explanation": "Le texte dispose que « le dépassement n'est autorisé que si le rattrapant s'est assuré que cette manœuvre peut avoir lieu sans danger ». La décision et la vérification de sécurité incombent donc au rattrapant avant d'engager la manœuvre."
+    },
+    "en": {
+      "stem": "Under what condition may an overtaking vessel begin to overtake?",
+      "explanation": "The text provides that overtaking is permitted only if the overtaking vessel has made sure that the manoeuvre can be carried out without danger. The responsibility to verify safety thus lies with the overtaking vessel before starting the manoeuvre."
+    },
+    "choices": [
+      {
+        "fr": "Seulement après s'être assuré que la manœuvre peut avoir lieu sans danger.",
+        "en": "Only after making sure that the manoeuvre can be carried out without danger.",
+        "correct": true
+      },
+      {
+        "fr": "Seulement après avoir reçu l'autorisation explicite du bateau rattrapé.",
+        "en": "Only after receiving explicit permission from the vessel being overtaken.",
+        "correct": false
+      },
+      {
+        "fr": "Dès que le bateau rattrapé a réduit sa vitesse.",
+        "en": "As soon as the vessel being overtaken has reduced its speed.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-53-10",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909233"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "regles_route",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-53-19",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Que prévoit la règle de base concernant les ancres, câbles ou chaînes en cours de navigation ?",
+      "explanation": "Le texte pose comme principe qu'« il est interdit de laisser traîner les ancres, câbles ou chaînes ». Cette interdiction connaît des exceptions (manœuvres, petits mouvements, navigation à la dérive autorisée, etc.), mais la règle de base est bien l'interdiction de les laisser traîner."
+    },
+    "en": {
+      "stem": "What does the basic rule provide concerning anchors, cables or chains during navigation?",
+      "explanation": "The text lays down the principle that it is prohibited to let anchors, cables or chains drag. This prohibition has exceptions (manoeuvres, small movements, authorised drifting, etc.), but the basic rule is indeed the prohibition on letting them drag."
+    },
+    "choices": [
+      {
+        "fr": "Il est en principe interdit de les laisser traîner.",
+        "en": "In principle, it is prohibited to let them drag.",
+        "correct": true
+      },
+      {
+        "fr": "Il est toujours autorisé de les laisser traîner pour ralentir le bateau.",
+        "en": "It is always permitted to let them drag in order to slow the vessel down.",
+        "correct": false
+      },
+      {
+        "fr": "Il est obligatoire de les laisser traîner lors de la navigation à la dérive.",
+        "en": "It is mandatory to let them drag when drifting.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-53-19",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909253"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "regles_route",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-53-2",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Quelle obligation s'impose aux bateaux rapides vis-à-vis des autres bateaux ?",
+      "explanation": "Le texte précise que « les bateaux rapides doivent laisser aux autres bateaux l'espace nécessaire pour suivre leur route et pour manœuvrer » et qu'« ils ne peuvent exiger que ceux-ci s'écartent en leur faveur ». Ils n'ont donc aucune priorité de passage et doivent eux-mêmes laisser l'espace nécessaire."
+    },
+    "en": {
+      "stem": "What obligation applies to high-speed craft with respect to other vessels?",
+      "explanation": "The text states that high-speed craft must leave other vessels the space needed to keep their course and to manoeuvre, and that they may not require those vessels to keep out of their way. They therefore have no right of way and must themselves leave the necessary space."
+    },
+    "choices": [
+      {
+        "fr": "Ils doivent laisser aux autres bateaux l'espace nécessaire pour suivre leur route et pour manœuvrer, sans pouvoir exiger qu'ils s'écartent en leur faveur.",
+        "en": "They must leave other vessels the space needed to keep their course and to manoeuvre, and may not require those vessels to keep out of their way.",
+        "correct": true
+      },
+      {
+        "fr": "Ils sont prioritaires et les autres bateaux doivent s'écarter de leur route.",
+        "en": "They have right of way and other vessels must keep clear of their course.",
+        "correct": false
+      },
+      {
+        "fr": "Ils peuvent exiger que les autres bateaux réduisent leur vitesse à leur approche.",
+        "en": "They may require other vessels to reduce speed as they approach.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-53-2",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909213"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "regles_route",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-53-25",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "À quelle condition un bac peut-il entreprendre la traversée de la voie de navigation intérieure ?",
+      "explanation": "Le texte indique que les bacs ne peuvent traverser qu'« après s'être assurés que le mouvement des autres bateaux permet d'effectuer la traversée sans danger et sans que ces autres bateaux soient obligés de modifier brusquement leur route ou leur vitesse »."
+    },
+    "en": {
+      "stem": "Under what condition may a ferry begin to cross the inland waterway?",
+      "explanation": "The text states that ferries may cross only after making sure that the movement of other vessels allows the crossing to be made without danger and without forcing those other vessels to make a sudden change in their course or speed."
+    },
+    "choices": [
+      {
+        "fr": "Seulement après s'être assuré que la traversée peut se faire sans danger et sans obliger les autres bateaux à modifier brusquement leur route ou leur vitesse.",
+        "en": "Only after making sure the crossing can be made without danger and without forcing other vessels to make a sudden change in course or speed.",
+        "correct": true
+      },
+      {
+        "fr": "À tout moment, car les bacs sont prioritaires sur les autres bateaux lors de la traversée.",
+        "en": "At any time, since ferries always have right of way over other vessels when crossing.",
+        "correct": false
+      },
+      {
+        "fr": "Seulement après avoir émis un son prolongé pour avertir tous les bateaux approchants.",
+        "en": "Only after sounding one prolonged blast to warn all approaching vessels.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-53-25",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909267"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "regles_route",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-53-37",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "À quelle distance minimale un bateau peut-il s'approcher de l'arrière d'un bateau portant la signalisation des bateaux en train de faire du dragage de mines ?",
+      "explanation": "Le texte impose que « les bateaux ne doivent pas s'approcher à moins de 1 000 m de l'arrière d'un bateau portant la signalisation des bateaux en train de faire du dragage de mines ». La distance minimale à respecter est donc de 1 000 m."
+    },
+    "en": {
+      "stem": "What minimum distance must a vessel keep from the stern of a vessel showing the signals for mine-clearance operations?",
+      "explanation": "The text requires that vessels must not approach within 1,000 m of the stern of a vessel showing the signals for vessels engaged in mine-clearance. The minimum distance to be kept is therefore 1,000 m."
+    },
+    "choices": [
+      {
+        "fr": "Pas à moins de 1 000 m de son arrière.",
+        "en": "Not within 1,000 m of its stern.",
+        "correct": true
+      },
+      {
+        "fr": "Pas à moins de 100 m de son arrière.",
+        "en": "Not within 100 m of its stern.",
+        "correct": false
+      },
+      {
+        "fr": "Pas à moins de 500 m de son arrière.",
+        "en": "Not within 500 m of its stern.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-53-37",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909354"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "securite",
+    "source": "division_245",
+    "ref": "Division 245, art. 1",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Cet arrêté s'applique notamment aux bateaux dont la longueur de coque est comprise dans quel intervalle ?",
+      "explanation": "Le texte s'applique aux bateaux d'une longueur de coque supérieure ou égale à 2,50 mètres et inférieure à 20 mètres (et dont le produit longueur × largeur × tirant d'eau est inférieur à 100 mètres cubes)."
+    },
+    "en": {
+      "stem": "This order applies in particular to vessels whose hull length falls within which range?",
+      "explanation": "The text applies to vessels with a hull length greater than or equal to 2.50 metres and less than 20 metres (and whose length × beam × draught product is under 100 cubic metres)."
+    },
+    "choices": [
+      {
+        "fr": "Supérieure ou égale à 2,50 mètres et inférieure à 20 mètres",
+        "en": "Greater than or equal to 2.50 metres and less than 20 metres",
+        "correct": true
+      },
+      {
+        "fr": "Supérieure ou égale à 5 mètres et inférieure à 24 mètres",
+        "en": "Greater than or equal to 5 metres and less than 24 metres",
+        "correct": false
+      },
+      {
+        "fr": "Inférieure à 2,50 mètres uniquement",
+        "en": "Less than 2.50 metres only",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "1",
+      "source_id": "division_245",
+      "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000032045426"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "securite",
+    "source": "division_245",
+    "ref": "Division 245, art. 11",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Pour utiliser un engin à sustentation hydropropulsé sur les eaux intérieures (hors lacs et plans d'eau fermés), quelle condition l'utilisateur doit-il remplir ?",
+      "explanation": "Le texte prévoit qu'en eaux intérieures l'utilisateur est titulaire du permis plaisance option eaux intérieures, ou bien qu'il est accompagné par un titulaire de ce permis. La pratique de nuit est exclue puisque ces engins effectuent une navigation diurne, et l'option eaux intérieures n'est dispensée que sur les lacs et plans d'eau fermés."
+    },
+    "en": {
+      "stem": "To use a hydrofoil-propelled craft on inland waters (other than lakes and closed bodies of water), what condition must the user meet?",
+      "explanation": "The text provides that on inland waters the user holds the recreational licence with the inland-waters endorsement, or else is accompanied by a holder of that licence. Night use is excluded because these craft operate only in daytime, and the inland-waters endorsement is waived only on lakes and closed bodies of water."
+    },
+    "choices": [
+      {
+        "fr": "Être titulaire du permis plaisance option eaux intérieures, ou être accompagné par un titulaire de ce permis",
+        "en": "Hold the recreational licence with the inland-waters endorsement, or be accompanied by a holder of that licence",
+        "correct": true
+      },
+      {
+        "fr": "Naviguer exclusivement de nuit, avec un feu de repérage allumé",
+        "en": "Navigate exclusively at night, with a marker light switched on",
+        "correct": false
+      },
+      {
+        "fr": "Détenir le permis plaisance option côtière, l'option eaux intérieures n'étant jamais exigée",
+        "en": "Hold the recreational licence with the coastal endorsement, the inland-waters endorsement never being required",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "11",
+      "source_id": "division_245",
+      "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000032045436"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "securite",
+    "source": "division_245",
+    "ref": "Division 245, art. 5",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "En « eaux intérieures abritées », quel équipement individuel de flottabilité l'armement de sécurité prévoit-il ?",
+      "explanation": "Le matériel d'armement exige, pour chaque personne embarquée, un équipement individuel de flottabilité conforme à l'annexe II (ou, si elle est effectivement portée, une combinaison ou un équipement de protection conforme à l'annexe III)."
+    },
+    "en": {
+      "stem": "In \"sheltered inland waters\", what individual buoyancy equipment does the required safety outfit provide for?",
+      "explanation": "The safety equipment requires, for each person aboard, an individual buoyancy device compliant with Annex II (or, if actually worn, a suit or protective equipment compliant with Annex III)."
+    },
+    "choices": [
+      {
+        "fr": "Un équipement individuel de flottabilité pour chaque personne embarquée",
+        "en": "An individual buoyancy device for each person aboard",
+        "correct": true
+      },
+      {
+        "fr": "Un seul équipement individuel de flottabilité partagé pour l'ensemble de l'équipage",
+        "en": "A single shared individual buoyancy device for the whole crew",
+        "correct": false
+      },
+      {
+        "fr": "Un radeau de survie gonflable homologué pour toutes les personnes embarquées",
+        "en": "An approved inflatable liferaft for all persons aboard",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "5",
+      "source_id": "division_245",
+      "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000032045430"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-48-16",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "De jour, quel signal un bac ne naviguant pas librement doit-il porter ?",
+      "explanation": "Le texte prévoit que, de jour, les bacs ne naviguant pas librement portent un ballon vert placé à une hauteur d'au moins 5 m. Les autres réponses confondent ce signal de jour avec des feux de nuit ou une marque inexistante."
+    },
+    "en": {
+      "stem": "By day, what signal must a ferry not navigating freely display?",
+      "explanation": "The text provides that, by day, ferries not navigating freely carry a green balloon placed at a height of at least 5 m. The other answers confuse this daytime signal with night lights or a non-existent mark."
+    },
+    "choices": [
+      {
+        "fr": "Un ballon vert placé à une hauteur d'au moins 5 m",
+        "en": "A green balloon placed at a height of at least 5 m",
+        "correct": true
+      },
+      {
+        "fr": "Un cône vert pointe en bas placé à au moins 3 m",
+        "en": "A green cone, point downwards, placed at least 3 m high",
+        "correct": false
+      },
+      {
+        "fr": "Un feu clair vert visible de tous les côtés",
+        "en": "A bright green light visible from all sides",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-48-16",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908960"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-48-2",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Sauf prescriptions contraires, quelle caractéristique les feux de signalisation prescrits doivent-ils présenter ?",
+      "explanation": "Le texte indique que, sauf prescriptions contraires, les feux prescrits doivent montrer une lumière continue et uniforme. Les variantes proposant une lumière intermittente ou de couleur changeante ne sont pas conformes à cette exigence."
+    },
+    "en": {
+      "stem": "Unless otherwise prescribed, what characteristic must the prescribed signalling lights display?",
+      "explanation": "The text states that, unless otherwise prescribed, the prescribed lights must show a continuous and uniform light. Options proposing a flashing or colour-changing light do not match this requirement."
+    },
+    "choices": [
+      {
+        "fr": "Une lumière continue et uniforme",
+        "en": "A continuous and uniform light",
+        "correct": true
+      },
+      {
+        "fr": "Une lumière à éclats réguliers",
+        "en": "A regularly flashing light",
+        "correct": false
+      },
+      {
+        "fr": "Une lumière dont la couleur change selon la direction",
+        "en": "A light whose colour changes depending on direction",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-48-2",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039023130"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-48-30",
+    "polarity": "negative",
+    "fr": {
+      "stem": "Parmi les moyens visuels suivants, lequel n'est PAS prévu pour qu'un bateau en détresse demande du secours ?",
+      "explanation": "Le texte énumère notamment un pavillon agité circulairement, des fusées projetant des étoiles rouges et un signal lumineux composé du groupe SOS en code Morse. Il ne mentionne pas un pavillon jaune hissé en tête de mât, qui ne figure donc pas parmi les signaux de détresse autorisés."
+    },
+    "en": {
+      "stem": "Among the following visual means, which is NOT provided for a vessel in distress to call for help?",
+      "explanation": "The text lists, among others, a flag waved in a circular motion, rockets throwing red stars, and a light signal made up of the SOS group in Morse code. It does not mention a yellow flag hoisted at the masthead, which is therefore not among the authorised distress signals."
+    },
+    "choices": [
+      {
+        "fr": "Un pavillon jaune hissé en tête de mât",
+        "en": "A yellow flag hoisted at the masthead",
+        "correct": true
+      },
+      {
+        "fr": "Des fusées ou bombes projetant des étoiles rouges lancées une à une à de courts intervalles",
+        "en": "Rockets or shells throwing red stars fired one at a time at short intervals",
+        "correct": false
+      },
+      {
+        "fr": "Un signal lumineux composé du groupe ...---... (SOS) du code Morse",
+        "en": "A light signal made up of the group ...---... (SOS) in Morse code",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-48-30",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908992"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-48-4",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Pour qu'un cylindre de signalisation soit considéré comme suffisamment visible, quelles dimensions minimales doit-il avoir ?",
+      "explanation": "Le texte précise que la condition de bonne visibilité est remplie lorsque les cylindres ont une hauteur d'au moins 0,80 m et un diamètre d'au moins 0,50 m. Les autres valeurs proposées correspondent à d'autres formes ou ne figurent pas dans l'article."
+    },
+    "en": {
+      "stem": "For a signalling cylinder to be considered sufficiently visible, what minimum dimensions must it have?",
+      "explanation": "The text specifies that the good-visibility condition is met when cylinders have a height of at least 0.80 m and a diameter of at least 0.50 m. The other figures proposed relate to different shapes or do not appear in the article."
+    },
+    "choices": [
+      {
+        "fr": "Une hauteur d'au moins 0,80 m et un diamètre d'au moins 0,50 m",
+        "en": "A height of at least 0.80 m and a diameter of at least 0.50 m",
+        "correct": true
+      },
+      {
+        "fr": "Une hauteur d'au moins 0,60 m et un diamètre d'au moins 0,60 m",
+        "en": "A height of at least 0.60 m and a diameter of at least 0.60 m",
+        "correct": false
+      },
+      {
+        "fr": "Une hauteur d'au moins 1,00 m et un diamètre d'au moins 0,80 m",
+        "en": "A height of at least 1.00 m and a diameter of at least 0.80 m",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-48-4",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908934"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-48-5",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "À quelle condition l'usage de feux ou signaux autres que ceux prévus par la réglementation sur la signalisation est-il admis ?",
+      "explanation": "Le texte interdit en principe d'utiliser des feux ou signaux autres que ceux mentionnés, mais admet, pour la communication entre bateaux ou entre bateaux et la terre, l'usage d'autres feux ou signaux à condition qu'ils ne prêtent pas à confusion avec ceux mentionnés. Les autres réponses ajoutent des conditions absentes du texte."
+    },
+    "en": {
+      "stem": "Under what condition is the use of lights or signals other than those provided for by the signalling rules permitted?",
+      "explanation": "The text generally forbids using lights or signals other than those mentioned, but permits, for communication between vessels or between a vessel and the shore, the use of other lights or signals provided they cannot be confused with those mentioned. The other answers add conditions not found in the text."
+    },
+    "choices": [
+      {
+        "fr": "Pour la communication entre bateaux ou entre bateaux et la terre, à condition qu'ils ne prêtent pas à confusion avec les feux ou signaux mentionnés",
+        "en": "For communication between vessels or between vessels and the shore, provided they cannot be confused with the lights or signals mentioned",
+        "correct": true
+      },
+      {
+        "fr": "Uniquement de nuit et après autorisation de l'autorité chargée de la police de la navigation",
+        "en": "Only at night and after authorisation from the authority responsible for navigation policing",
+        "correct": false
+      },
+      {
+        "fr": "Pour tout usage, dès lors que le bateau est en stationnement",
+        "en": "For any use, as long as the vessel is moored",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-48-5",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908936"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-49-2",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Vous conduisez un bateau qui n'est pas une menue embarcation. Que prévoit la réglementation concernant les signaux sonores réglementaires ?",
+      "explanation": "Tout bateau, à l'exception des menues embarcations, fait usage en cas de besoin des signaux sonores figurant au chapitre III de l'annexe 4. Pour ces bateaux, l'émission de ces signaux est une obligation, et non une simple faculté."
+    },
+    "en": {
+      "stem": "You are operating a vessel that is not a small craft. What does the regulation require regarding the prescribed sound signals?",
+      "explanation": "Every vessel, except small craft, must when needed use the sound signals set out in chapter III of annex 4. For such vessels the giving of these signals is an obligation, not a mere option."
+    },
+    "choices": [
+      {
+        "fr": "Il doit, en cas de besoin, faire usage des signaux sonores réglementaires.",
+        "en": "It must, when needed, use the prescribed sound signals.",
+        "correct": true
+      },
+      {
+        "fr": "Il n'a la faculté d'émettre ces signaux que s'il navigue de nuit.",
+        "en": "It may give these signals only when navigating at night.",
+        "correct": false
+      },
+      {
+        "fr": "Il est dispensé d'émettre tout signal sonore réglementaire.",
+        "en": "It is exempt from giving any prescribed sound signal.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-49-2",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909182"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-49-3",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "À quelle condition l'usage de signaux sonores autres que les signaux réglementaires est-il admis entre bateaux ou entre un bateau et la terre ?",
+      "explanation": "L'usage de signaux sonores autres que les signaux réglementaires est interdit, sauf, pour la communication entre bateaux ou entre un bateau et la terre, à la condition qu'ils ne prêtent pas à confusion avec les signaux réglementaires."
+    },
+    "en": {
+      "stem": "Under what condition is the use of sound signals other than the prescribed ones permitted between vessels or between a vessel and the shore?",
+      "explanation": "Using sound signals other than the prescribed ones is forbidden, except, for communication between vessels or between a vessel and the shore, provided they cannot be confused with the prescribed signals."
+    },
+    "choices": [
+      {
+        "fr": "À condition qu'ils ne prêtent pas à confusion avec les signaux réglementaires.",
+        "en": "Provided they cannot be confused with the prescribed signals.",
+        "correct": true
+      },
+      {
+        "fr": "À condition qu'ils soient émis uniquement à l'approche d'une écluse.",
+        "en": "Provided they are given only when approaching a lock.",
+        "correct": false
+      },
+      {
+        "fr": "À condition qu'ils soient plus puissants que les signaux réglementaires.",
+        "en": "Provided they are louder than the prescribed signals.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-49-3",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909184"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-51-1",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Où sont définis les signaux d'interdiction, d'obligation, de restriction, de recommandation et d'indication de la voie de navigation intérieure, ainsi que leur signification ?",
+      "explanation": "C'est l'annexe 5 qui définit les signaux d'interdiction, d'obligation, de restriction, de recommandation et d'indication, ainsi que les signaux auxiliaires de la voie de navigation intérieure et leur signification ; les conducteurs doivent s'y conformer."
+    },
+    "en": {
+      "stem": "Where are the prohibition, mandatory, restriction, recommendation and information signs of the inland waterway, together with their meaning, defined?",
+      "explanation": "It is annex 5 that defines the prohibition, mandatory, restriction, recommendation and information signs, as well as the auxiliary signs of the inland waterway and their meaning; boatmasters must comply with them."
+    },
+    "choices": [
+      {
+        "fr": "Dans l'annexe 5.",
+        "en": "In annex 5.",
+        "correct": true
+      },
+      {
+        "fr": "Dans l'annexe 7.",
+        "en": "In annex 7.",
+        "correct": false
+      },
+      {
+        "fr": "Dans l'annexe 8.",
+        "en": "In annex 8.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-51-1",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909199"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-51-2",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Où sont définies les règles de balisage applicables sur la voie de navigation intérieure, en amont du premier obstacle à la navigation des navires ?",
+      "explanation": "C'est l'annexe 8 qui définit les règles de balisage s'appliquant en amont du premier obstacle à la navigation des navires et qui précise dans quelles conditions les différentes marques de balisage sont utilisées."
+    },
+    "en": {
+      "stem": "Where are the buoyage rules applicable on the inland waterway, upstream of the first obstacle to seagoing-vessel navigation, defined?",
+      "explanation": "It is annex 8 that defines the buoyage rules applying upstream of the first obstacle to seagoing-vessel navigation and that specifies under what conditions the various buoyage marks are used."
+    },
+    "choices": [
+      {
+        "fr": "Dans l'annexe 8.",
+        "en": "In annex 8.",
+        "correct": true
+      },
+      {
+        "fr": "Dans l'annexe 5.",
+        "en": "In annex 5.",
+        "correct": false
+      },
+      {
+        "fr": "Dans l'annexe 4.",
+        "en": "In annex 4.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-51-2",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909202"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "voies_navigables",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-54-10",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "À une aire de stationnement signalée par le panneau B.12, quelle obligation s'impose à tous les bateaux ?",
+      "explanation": "À ces aires, tous les bateaux sont tenus de se raccorder à un point de raccordement au réseau électrique à terre opérationnel afin de couvrir intégralement leurs besoins en énergie électrique durant le stationnement."
+    },
+    "en": {
+      "stem": "At a berthing area marked by sign B.12, what obligation applies to all vessels?",
+      "explanation": "At such areas, all vessels must connect to an operational shore-side electrical connection point so as to fully cover their electrical energy needs during the stay."
+    },
+    "choices": [
+      {
+        "fr": "Se raccorder à un point de raccordement au réseau électrique à terre opérationnel pour couvrir intégralement leurs besoins en électricité durant le stationnement",
+        "en": "Connect to an operational shore-side electrical connection point to fully cover their electricity needs during the stay",
+        "correct": true
+      },
+      {
+        "fr": "Couper tout équipement électrique et rester totalement hors tension durant le stationnement",
+        "en": "Switch off all electrical equipment and remain completely powered down during the stay",
+        "correct": false
+      },
+      {
+        "fr": "Faire tourner leur groupe électrogène de bord pour alimenter le réseau à terre",
+        "en": "Run their onboard generator to feed power into the shore network",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-54-10",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039010767"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "voies_navigables",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-54-3",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Dans une section où l'ancrage est interdit de façon générale par un règlement particulier de police, dans quelles conditions un bateau peut-il néanmoins ancrer ?",
+      "explanation": "Dans les sections où l'ancrage est interdit de façon générale par un règlement particulier de police, les bateaux ne peuvent ancrer que dans les secteurs indiqués par le panneau d'autorisation E.6, et seulement du côté de la voie où ce panneau est placé."
+    },
+    "en": {
+      "stem": "In a section where anchoring is generally prohibited by a special policing regulation, under what conditions may a vessel nonetheless anchor?",
+      "explanation": "In sections where anchoring is generally prohibited by a special policing regulation, vessels may anchor only in the areas indicated by the authorisation sign E.6, and only on the side of the waterway where that sign is placed."
+    },
+    "choices": [
+      {
+        "fr": "Seulement dans les secteurs indiqués par le panneau E.6, et du côté de la voie où ce panneau est placé",
+        "en": "Only in the areas indicated by sign E.6, and on the side of the waterway where that sign is placed",
+        "correct": true
+      },
+      {
+        "fr": "Partout dans la section, à condition de signaler le bateau de nuit",
+        "en": "Anywhere in the section, provided the vessel is marked at night",
+        "correct": false
+      },
+      {
+        "fr": "Uniquement avec l'autorisation écrite préalable du gestionnaire",
+        "en": "Only with the prior written authorisation of the manager",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-54-3",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909506"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "voies_navigables",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-54-4",
+    "polarity": "negative",
+    "fr": {
+      "stem": "Pour l'amarrage ou le déhalage, lequel des éléments suivants un bateau N'EST-il PAS autorisé à utiliser ?",
+      "explanation": "Il est interdit de se servir, pour l'amarrage ou le déhalage, d'arbres, garde-corps, poteaux, bornes, colonnes, échelles métalliques, mains courantes, et de tout équipement non prévu pour l'amarrage ; une bitte d'amarrage est en revanche un équipement prévu à cet effet."
+    },
+    "en": {
+      "stem": "For mooring or warping, which of the following is a vessel NOT permitted to use?",
+      "explanation": "It is forbidden to use, for mooring or warping, trees, guardrails, posts, bollards (markers), columns, metal ladders, handrails, and any equipment not intended for mooring; a mooring bollard, by contrast, is equipment provided for that purpose."
+    },
+    "choices": [
+      {
+        "fr": "Une main courante ou une échelle métallique",
+        "en": "A handrail or a metal ladder",
+        "correct": true
+      },
+      {
+        "fr": "Une bitte d'amarrage prévue à cet effet",
+        "en": "A mooring bollard provided for that purpose",
+        "correct": false
+      },
+      {
+        "fr": "Un anneau d'amarrage aménagé sur le quai",
+        "en": "A mooring ring fitted on the quay",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-54-4",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909508"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "voies_navigables",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-54-5",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "À une aire de stationnement, en l'absence d'autres prescriptions, comment les bateaux doivent-ils se ranger ?",
+      "explanation": "À défaut d'autres prescriptions, les bateaux sont tenus de se ranger bord à bord en partant de la rive, du côté de la voie où le panneau est placé."
+    },
+    "en": {
+      "stem": "At a berthing/parking area, absent any other instructions, how must vessels arrange themselves?",
+      "explanation": "Failing other instructions, vessels must berth side by side starting from the bank, on the side of the waterway where the sign is placed."
+    },
+    "choices": [
+      {
+        "fr": "Bord à bord en partant de la rive, du côté de la voie où le panneau est placé",
+        "en": "Side by side starting from the bank, on the side of the waterway where the sign is placed",
+        "correct": true
+      },
+      {
+        "fr": "En une seule rangée alignée le long du milieu du chenal",
+        "en": "In a single row aligned along the middle of the channel",
+        "correct": false
+      },
+      {
+        "fr": "À couple en partant de la rive opposée au panneau",
+        "en": "Rafted together starting from the bank opposite the sign",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-54-5",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909510"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "voies_navigables",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-54-8",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Pour un bateau au stationnement et sans conducteur, à qui incombe la responsabilité de mettre en place la garde ou la surveillance requise ?",
+      "explanation": "Lorsque le bateau n'a pas de conducteur, la responsabilité de la mise en place de cette garde ou surveillance incombe au propriétaire, à l'armateur ou à un autre exploitant."
+    },
+    "en": {
+      "stem": "For a berthed vessel with no boatmaster aboard, who is responsible for setting up the required watch or supervision?",
+      "explanation": "Where the vessel has no boatmaster, responsibility for putting this watch or supervision in place falls on the owner, operator or other person running the vessel."
+    },
+    "choices": [
+      {
+        "fr": "Le propriétaire, l'armateur ou un autre exploitant",
+        "en": "The owner, operator or other person running the vessel",
+        "correct": true
+      },
+      {
+        "fr": "L'autorité chargée de la police de la navigation",
+        "en": "The authority in charge of navigation policing",
+        "correct": false
+      },
+      {
+        "fr": "Le gestionnaire du port ou de l'aire de stationnement",
+        "en": "The manager of the harbour or berthing area",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-54-8",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909516"
+    }
+  }
+]
