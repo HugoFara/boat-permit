@@ -82,14 +82,17 @@ class Question:
 
 @dataclass
 class ExamConfig:
-    """A cantonal exam profile. Defaults are Vaud/Léman, officially sourced."""
+    """A cantonal exam profile. Defaults are the intercantonal VKS standard the
+    Léman cantons apply — confirmed officially for Geneva (OCV, which delegates to
+    vks/schiffsfuehrerausweis.ch) and Vaud: 60 q, 180 pts, pass 165, 50 min. The
+    pass mark is national; the timer is the cantonal detail (Bern uses 45 min)."""
     questions: int = 60
     total_points: int = 180
     points_per_question: int = 3
     pass_points: int = 165
     time_limit_min: int = 50
     scoring: str = "all_or_nothing"   # | "partial"
-    canton_default: str = "VD/Léman"
+    canton_default: str = "Léman (GE/VD) · standard VKS"
 
 
 def make_question_id(unit_id: str, stem: str, variant: str = "") -> str:
