@@ -181,6 +181,3156 @@
       ]
     },
     {
+      "id": "q-oni-de-onianhang2fig31-14115477-4ae283e3",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Blaues Blinklicht",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Beschränkte Durchfahrtsbreite",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wehr",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_2__fig_31-14115477",
+        "ref": "ONI Anhang 2 – fig. 31",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image39.png",
+      "points": 3,
+      "explanation": "ONI Anhang 2 – fig. 31 — « Blaues Blinklicht ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang2fig39-e292fc59-37e7f212",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Schwenken einer roten Flagge",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Empfohlene Fahrrichtung",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Stelle zum Einwassern von Schiffen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_2__fig_39-e292fc59",
+        "ref": "ONI Anhang 2 – fig. 39",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image47.png",
+      "points": 3,
+      "explanation": "ONI Anhang 2 – fig. 39 — « Schwenken einer roten Flagge ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig10-ad80403a-311e041e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Schwenken einer roten Flagge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ankerverbot",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_10-ad80403a",
+        "ref": "ONI Anhang 4 – fig. 10",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image64.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 10 — « Ankerverbot ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig11-e479e4fd-beb5b891",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Festmacheverbot",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Verbotenes Stillliegen",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_11-e479e4fd",
+        "ref": "ONI Anhang 4 – fig. 11",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image65.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 11 — « Festmacheverbot ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig12-fa4f4581-72acc952",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Wendeverbot",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Überholverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Oder",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_12-fa4f4581",
+        "ref": "ONI Anhang 4 – fig. 12",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image66.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 12 — « Wendeverbot ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig13-61fd8aaa-b84ed4a7",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Schwenken einer roten Flagge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Blaues Blinklicht",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_13-61fd8aaa",
+        "ref": "ONI Anhang 4 – fig. 13",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image67.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 13 — « Verbot, schädlichen Wellenschlag oder Sog zu erzeugen ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig17-31e3f5d4-50981152",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Badeverbot",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Erlaubnis zum Ankern",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbotenes Stillliegen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_17-31e3f5d4",
+        "ref": "ONI Anhang 4 – fig. 17",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image71.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 17 — « Badeverbot ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig21-ed68c4ef-0d167fe4",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Verbotenes Stillliegen",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zur Durchfahrt",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Gebot, ein Schallzeichen zu geben",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_21-ed68c4ef",
+        "ref": "ONI Anhang 4 – fig. 21",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image75.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 21 — « Gebot, ein Schallzeichen zu geben ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig22-18141c92-b128ac79",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Gebot, besondere Vorsicht walten zu lassen",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nicht freifahrende Fähre",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Stelle zum Auswassern von Schiffen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_22-18141c92",
+        "ref": "ONI Anhang 4 – fig. 22",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image76.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 22 — « Gebot, besondere Vorsicht walten zu lassen ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig24-4d5c807d-3db008cc",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Erlaubnis zum Fahren mit Segelbrettern",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Beschränkte Durchfahrtsbreite",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_24-4d5c807d",
+        "ref": "ONI Anhang 4 – fig. 24",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image78.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 24 — « Beschränkte Durchfahrtsbreite ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig26-a9e360f1-eddec10b",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Sturmwarnung",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Begrenzte Wassertiefe",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_26-a9e360f1",
+        "ref": "ONI Anhang 4 – fig. 26",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image80.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 26 — « Begrenzte Wassertiefe ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig28-54fb1333-97550085",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Oder",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Überholverbot",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_28-54fb1333",
+        "ref": "ONI Anhang 4 – fig. 28",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image82.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 28 — « Oder ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig29-be8dd8b3-182f12bb",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Sturmwarnung",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Oder",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Wendeverbot",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_29-be8dd8b3",
+        "ref": "ONI Anhang 4 – fig. 29",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image83.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 29 — « Oder ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig3-55aa2cca-eeaf980e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Blaues Blinklicht",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Überholverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_3-55aa2cca",
+        "ref": "ONI Anhang 4 – fig. 3",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image57.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 3 — « Verbot der Durchfahrt für Schiffe mit Maschinenantrieb ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig32-45fa4e21-332102e0",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Erlaubnis zur Durchfahrt",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Festmacheverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zum Ankern",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_32-45fa4e21",
+        "ref": "ONI Anhang 4 – fig. 32",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image86.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 32 — « Erlaubnis zur Durchfahrt ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig33-d6990bbf-366fb7f2",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Stelle zum Einwassern von Schiffen",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Beschränkte Durchfahrtsbreite",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zum Stillliegen",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_33-d6990bbf",
+        "ref": "ONI Anhang 4 – fig. 33",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image87.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 33 — « Erlaubnis zum Stillliegen ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig34-09700582-8a4ebf2c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Schwenken einer roten Flagge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zum Ankern",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ankerverbot",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_34-09700582",
+        "ref": "ONI Anhang 4 – fig. 34",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image88.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 34 — « Erlaubnis zum Ankern ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig35-0b759a15-89e64ac0",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Gebot, ein Schallzeichen zu geben",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Festmacheverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zum Festmachen",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_35-0b759a15",
+        "ref": "ONI Anhang 4 – fig. 35",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image89.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 35 — « Erlaubnis zum Festmachen ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig36-250151e2-aea2341b",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Überholverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zum Wasserskifahren",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_36-250151e2",
+        "ref": "ONI Anhang 4 – fig. 36",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image90.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 36 — « Erlaubnis zum Wasserskifahren ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig37-59c35db5-35f2bb6a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Erlaubnis zum Fahren mit Segelbrettern",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Erlaubnis zum Festmachen",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot des Fahrens mit Segelschiffen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_37-59c35db5",
+        "ref": "ONI Anhang 4 – fig. 37",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image91.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 37 — « Erlaubnis zum Fahren mit Segelbrettern ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig38-8df80290-de20eae5",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Gebot, ein Schallzeichen zu geben",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Verbot des Begegnens und Überholens",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_38-8df80290",
+        "ref": "ONI Anhang 4 – fig. 38",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image92.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 38 — « Erlaubnis zum Fahren mit Drachensegelbrettern ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig39-c88555cf-82103529",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Verbot des Wasserskifahrens",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Empfohlene Fahrrichtung",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ankerverbot",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_39-c88555cf",
+        "ref": "ONI Anhang 4 – fig. 39",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image93.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 39 — « Empfohlene Fahrrichtung ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig4-aa588ca4-d84408c1",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Ankerverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot des Wasserskifahrens",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Starkwindwarnung",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_4-aa588ca4",
+        "ref": "ONI Anhang 4 – fig. 4",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image58.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 4 — « Verbot des Wasserskifahrens ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig40-a2157015-3e37fc71",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Badeverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nicht freifahrende Fähre",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Begrenzte Wassertiefe",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_40-a2157015",
+        "ref": "ONI Anhang 4 – fig. 40",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image94.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 40 — « Nicht freifahrende Fähre ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig41-4086f120-051d1fd5",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Überholverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sturmwarnung",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wehr",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_41-4086f120",
+        "ref": "ONI Anhang 4 – fig. 41",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image95.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 41 — « Wehr ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig42-66a32b7f-d69a6eaf",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Stelle zum Einwassern von Schiffen",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sturmwarnung",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zum Ankern",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_42-66a32b7f",
+        "ref": "ONI Anhang 4 – fig. 42",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image96.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 42 — « Stelle zum Einwassern von Schiffen ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig43-eb4d6fcb-3802bfef",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Wehr",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Stelle zum Auswassern von Schiffen",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Erlaubnis zum Ankern",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_43-eb4d6fcb",
+        "ref": "ONI Anhang 4 – fig. 43",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image97.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 43 — « Stelle zum Auswassern von Schiffen ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig44-976bdc47-f0818e3b",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Sturmwarnung",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ankerverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ende eines Verbotes oder Gebotes",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_44-976bdc47",
+        "ref": "ONI Anhang 4 – fig. 44",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image98.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 44 — « Ende eines Verbotes oder Gebotes ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig45-f7bab8ea-759a965c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Erlaubnis zum Wasserskifahren",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Hochspannungs-Freileitung",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Oder",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_45-f7bab8ea",
+        "ref": "ONI Anhang 4 – fig. 45",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image99.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 45 — « Hochspannungs-Freileitung ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig5-9f2afa60-7dca2b0f",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Verbot des Fahrens mit Segelschiffen",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Erlaubnis zur Durchfahrt",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Festmacheverbot",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_5-9f2afa60",
+        "ref": "ONI Anhang 4 – fig. 5",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image59.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 5 — « Verbot des Fahrens mit Segelschiffen ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig6-25cfa6de-c83cb172",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Hochspannungs-Freileitung",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot des Fahrens mit Segelbrettern",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Erlaubnis zum Stillliegen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_6-25cfa6de",
+        "ref": "ONI Anhang 4 – fig. 6",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image60.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 6 — « Verbot des Fahrens mit Segelbrettern ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig60-6d7e9e8d-d76d0181",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Gebot, ein Schallzeichen zu geben",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Hochspannungs-Freileitung",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Starkwindwarnung",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_60-6d7e9e8d",
+        "ref": "ONI Anhang 4 – fig. 60",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image115.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 60 — « Starkwindwarnung ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig61-20c82d8c-99a603cb",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Erlaubnis zum Wasserskifahren",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sturmwarnung",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Gebot, ein Schallzeichen zu geben",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_61-20c82d8c",
+        "ref": "ONI Anhang 4 – fig. 61",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image116.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 61 — « Sturmwarnung ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig7-1c0cdf91-de6d2f67",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Ende eines Verbotes oder Gebotes",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Blaues Blinklicht",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Überholverbot",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_7-1c0cdf91",
+        "ref": "ONI Anhang 4 – fig. 7",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image61.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 7 — « Überholverbot ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig8-5047d8b4-0dbee1d3",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Beschränkte Durchfahrtsbreite",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot des Begegnens und Überholens",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Stelle zum Einwassern von Schiffen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_8-5047d8b4",
+        "ref": "ONI Anhang 4 – fig. 8",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image62.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 8 — « Verbot des Begegnens und Überholens ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-de-onianhang4fig9-640557e6-a4481ba3",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Verbotenes Stillliegen",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Blaues Blinklicht",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot des Fahrens mit Segelbrettern",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_anhang_4__fig_9-640557e6",
+        "ref": "ONI Anhang 4 – fig. 9",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/oni/de/image63.png",
+      "points": 3,
+      "explanation": "ONI Anhang 4 – fig. 9 — « Verbotenes Stillliegen ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato2fig29-d439ecc2-2f966dbc",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Obbligo di osservare una prudenza particolare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Boe gialle che segnalino ciascun ancoraggio",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto per i natanti motorizzati",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_2__fig_29-d439ecc2",
+        "ref": "ONI Allegato 2 – fig. 29",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image37.png",
+      "points": 3,
+      "explanation": "ONI Allegato 2 – fig. 29 — « Boe gialle che segnalino ciascun ancoraggio ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato2fig31-464c2219-2531e1a9",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Luce blu intermittente",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Larghezza limitata del passaggio",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obbligo di fermarsi in determinate condizioni",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_2__fig_31-464c2219",
+        "ref": "ONI Allegato 2 – fig. 31",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image39.png",
+      "points": 3,
+      "explanation": "ONI Allegato 2 – fig. 31 — « Luce blu intermittente ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato2fig39-378256a3-2042b0c2",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Agitare una bandiera rossa",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto per i natanti motorizzati",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Fine di un divieto o di un obbligo",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_2__fig_39-378256a3",
+        "ref": "ONI Allegato 2 – fig. 39",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image47.png",
+      "points": 3,
+      "explanation": "ONI Allegato 2 – fig. 39 — « Agitare una bandiera rossa ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig10-835e8079-63163dcc",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto d’ancorare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obbligo di fermarsi in determinate condizioni",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Tavole a vela autorizzate",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_10-835e8079",
+        "ref": "ONI Allegato 4 – fig. 10",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image64.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 10 — « Divieto d’ancorare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig11-75d544b9-491f7d76",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto d’ormeggiare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto di incrociare e sorpassare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione di passaggio",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_11-75d544b9",
+        "ref": "ONI Allegato 4 – fig. 11",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image65.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 11 — « Divieto d’ormeggiare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig12-d3af78f5-0cb9e8e3",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Tavole a vela autorizzate",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di cagionare moto ondoso o risucchi",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di virare",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_12-d3af78f5",
+        "ref": "ONI Allegato 4 – fig. 12",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image66.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 12 — « Divieto di virare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig13-42943386-21183f76",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto di cagionare moto ondoso o risucchi",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Tavole a vela autorizzate",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di incrociare e sorpassare",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_13-42943386",
+        "ref": "ONI Allegato 4 – fig. 13",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image67.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 13 — « Divieto di cagionare moto ondoso o risucchi ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig14-1ea92f89-902853c7",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Kite surf autorizzati",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di navigare fuori dei limiti indicati",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_14-1ea92f89",
+        "ref": "ONI Allegato 4 – fig. 14",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image68.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 14 — « Divieto di navigare fuori dei limiti indicati ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig15-999fc0e3-b67883f4",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di navigare fuori dei limiti indicati",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorizzazione di passaggio",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_15-999fc0e3",
+        "ref": "ONI Allegato 4 – fig. 15",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image69.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 15 — « Divieto di navigare fuori dei limiti indicati ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig17-b35f0cfc-b4c37219",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Posto per toglieredall'acqua i natanti",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Linea ad alta tensione",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di balneazione",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_17-b35f0cfc",
+        "ref": "ONI Allegato 4 – fig. 17",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image71.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 17 — « Divieto di balneazione ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig18-b4419fe9-99ef7d3c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Agitare una bandiera rossa",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Raccomandazione di dirigersi nel senso della freccia",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_18-b4419fe9",
+        "ref": "ONI Allegato 4 – fig. 18",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image72.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 18 — « Obbligo di prendere la direzione indicata dalla freccia ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig19-99e41a9e-7e00d787",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto di cagionare moto ondoso o risucchi",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Luce blu intermittente",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obbligo di fermarsi in determinate condizioni",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_19-99e41a9e",
+        "ref": "ONI Allegato 4 – fig. 19",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image73.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 19 — « Obbligo di fermarsi in determinate condizioni ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig21-3528310b-5261f122",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Obbligo di emettere un segnale acustico",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Tavole a vela autorizzate",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di incrociare e sorpassare",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_21-3528310b",
+        "ref": "ONI Allegato 4 – fig. 21",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image75.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 21 — « Obbligo di emettere un segnale acustico ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig22-d9fdaf04-fc99bf6b",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Obbligo di osservare una prudenza particolare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorizzazione d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione di stazionare",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_22-d9fdaf04",
+        "ref": "ONI Allegato 4 – fig. 22",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image76.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 22 — « Obbligo di osservare una prudenza particolare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig24-ac05293b-d8b33b7b",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Autorizzazione d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Avviso di tempesta",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Larghezza limitata del passaggio",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_24-ac05293b",
+        "ref": "ONI Allegato 4 – fig. 24",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image78.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 24 — « Larghezza limitata del passaggio ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig26-55972ff8-14474319",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Profondità limitata dell’acqua",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto di cagionare moto ondoso o risucchi",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Avviso di tempesta",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_26-55972ff8",
+        "ref": "ONI Allegato 4 – fig. 26",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image80.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 26 — « Profondità limitata dell’acqua ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig3-a73dcb43-d0e88aa4",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Tavole a vela autorizzate",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto per i natanti motorizzati",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_3-a73dcb43",
+        "ref": "ONI Allegato 4 – fig. 3",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image57.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 3 — « Divieto per i natanti motorizzati ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig32-4708df2c-3bc804cc",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Autorizzazione di praticare lo sci nautico",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione di passaggio",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obbligo di fermarsi in determinate condizioni",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_32-4708df2c",
+        "ref": "ONI Allegato 4 – fig. 32",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image86.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 32 — « Autorizzazione di passaggio ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig33-89764333-a8baf23b",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Autorizzazione di stazionare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Posto per mettere in acqua i natanti",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_33-89764333",
+        "ref": "ONI Allegato 4 – fig. 33",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image87.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 33 — « Autorizzazione di stazionare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig34-909ec383-c7382ef8",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Autorizzazione di gettare l’ancora",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Luce blu intermittente",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_34-909ec383",
+        "ref": "ONI Allegato 4 – fig. 34",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image88.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 34 — « Autorizzazione di gettare l’ancora ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig35-350e74b4-7ca2fea7",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Kite surf autorizzati",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione d’ormeggiare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Fine di un divieto o di un obbligo",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_35-350e74b4",
+        "ref": "ONI Allegato 4 – fig. 35",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image89.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 35 — « Autorizzazione d’ormeggiare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig36-558493c2-7035b524",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Larghezza limitata del passaggio",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di cagionare moto ondoso o risucchi",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione di praticare lo sci nautico",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_36-558493c2",
+        "ref": "ONI Allegato 4 – fig. 36",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image90.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 36 — « Autorizzazione di praticare lo sci nautico ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig37-47aa6ab2-62c4f7c1",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Tavole a vela autorizzate",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Luce blu intermittente",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_37-47aa6ab2",
+        "ref": "ONI Allegato 4 – fig. 37",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image91.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 37 — « Tavole a vela autorizzate ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig38-ac80006e-251e253d",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Autorizzazione di praticare lo sci nautico",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di cagionare moto ondoso o risucchi",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kite surf autorizzati",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_38-ac80006e",
+        "ref": "ONI Allegato 4 – fig. 38",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image92.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 38 — « Kite surf autorizzati ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig39-6d6aa136-4597ac09",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Raccomandazione di dirigersi nel senso della freccia",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Luce blu intermittente",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Larghezza limitata del passaggio",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_39-6d6aa136",
+        "ref": "ONI Allegato 4 – fig. 39",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image93.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 39 — « Raccomandazione di dirigersi nel senso della freccia ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig4-03d50670-25e225b8",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Autorizzazione di passaggio",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto per lo sci nautico",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_4-03d50670",
+        "ref": "ONI Allegato 4 – fig. 4",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image58.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 4 — « Divieto per lo sci nautico ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig40-2d8b771d-8f219311",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto per lo sci nautico",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione di passaggio",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Chiatta di traghetto che non naviga liberamente",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_40-2d8b771d",
+        "ref": "ONI Allegato 4 – fig. 40",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image94.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 40 — « Chiatta di traghetto che non naviga liberamente ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig41-e99b4c30-c749330e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Autorizzazione di passaggio",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Fine di un divieto o di un obbligo",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Chiusa",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_41-e99b4c30",
+        "ref": "ONI Allegato 4 – fig. 41",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image95.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 41 — « Chiusa ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig42-3b39b3a8-50989cc8",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Autorizzazione di stazionare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Posto per mettere in acqua i natanti",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Chiatta di traghetto che non naviga liberamente",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_42-3b39b3a8",
+        "ref": "ONI Allegato 4 – fig. 42",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image96.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 42 — « Posto per mettere in acqua i natanti ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig43-e5d7aae6-43cbda3a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Posto per toglieredall'acqua i natanti",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Avviso di tempesta",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Luce blu intermittente",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_43-e5d7aae6",
+        "ref": "ONI Allegato 4 – fig. 43",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image97.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 43 — « Posto per toglieredall'acqua i natanti ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig44-722106bc-940da1e0",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Fine di un divieto o di un obbligo",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto per i natanti motorizzati",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Posto per mettere in acqua i natanti",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_44-722106bc",
+        "ref": "ONI Allegato 4 – fig. 44",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image98.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 44 — « Fine di un divieto o di un obbligo ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig45-c9bea26b-93ad1aea",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Autorizzazione di passaggio",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di balneazione",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Linea ad alta tensione",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_45-c9bea26b",
+        "ref": "ONI Allegato 4 – fig. 45",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image99.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 45 — « Linea ad alta tensione ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig5-335dcdab-7df81016",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto per i battelli a vela",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto di incrociare e sorpassare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_5-335dcdab",
+        "ref": "ONI Allegato 4 – fig. 5",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image59.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 5 — « Divieto per i battelli a vela ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig59-89e68d5a-2adfe02a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Avviso di vento forte",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Boe gialle che segnalino ciascun ancoraggio",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Luce blu intermittente",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_59-89e68d5a",
+        "ref": "ONI Allegato 4 – fig. 59",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image114.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 59 — « Avviso di vento forte ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig6-ebf0f5fd-c863912a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto di navigare con le tavole a vela",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto di cagionare moto ondoso o risucchi",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Avviso di tempesta",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_6-ebf0f5fd",
+        "ref": "ONI Allegato 4 – fig. 6",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image60.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 6 — « Divieto di navigare con le tavole a vela ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig60-cc44b32e-5f95a42e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Posto per toglieredall'acqua i natanti",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Raccomandazione di dirigersi nel senso della freccia",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Avviso di tempesta",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_60-cc44b32e",
+        "ref": "ONI Allegato 4 – fig. 60",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image115.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 60 — « Avviso di tempesta ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig7-73910d59-569ddd8a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto di navigare fuori dei limiti indicati",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di sorpasso",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto di cagionare moto ondoso o risucchi",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_7-73910d59",
+        "ref": "ONI Allegato 4 – fig. 7",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image61.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 7 — « Divieto di sorpasso ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig8-64b5d395-b8fdf3a4",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto di incrociare e sorpassare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto di stazionare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Luce blu intermittente",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_8-64b5d395",
+        "ref": "ONI Allegato 4 – fig. 8",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image62.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 8 — « Divieto di incrociare e sorpassare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniallegato4fig9-fce4cb0c-ad3ba8b0",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto di stazionare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Raccomandazione di dirigersi nel senso della freccia",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_allegato_4__fig_9-fce4cb0c",
+        "ref": "ONI Allegato 4 – fig. 9",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/oni/it/image63.png",
+      "points": 3,
+      "explanation": "ONI Allegato 4 – fig. 9 — « Divieto di stazionare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig1-466f4128-2087b471",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -2147,6 +5297,1644 @@
       "image": "assets/oni/image63.png",
       "points": 3,
       "explanation": "ONI Annexe 4 – fig. 9 — « Interdiction de stationner ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangifig34-77ba67c2-6a2033ce",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Oder eine rote und eine weisse Flagge",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Erlaubnis zum Festmachen",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zum Segelbrettfahren",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_i__fig_34-77ba67c2",
+        "ref": "RNL Anhang I – fig. 34",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image39.png",
+      "points": 3,
+      "explanation": "RNL Anhang I – fig. 34 — « Oder eine rote und eine weisse Flagge ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig1-e2f0a4e2-d94cc5af",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Gebot, besondere Vorsicht walten zu lassen",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot der Durchfahrt",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_1-e2f0a4e2",
+        "ref": "RNL Anhang III – fig. 1",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image50.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 1 — « Verbot der Durchfahrt ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig10-cc91d2a1-7062a02e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Verbot des Drachensegelbrettfahrens",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Zwei Lichtzeichen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_10-cc91d2a1",
+        "ref": "RNL Anhang III – fig. 10",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image59.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 10 — « Verbot, ausserhalb der angezeigten Fläche zu fahren ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig11-8f898cd9-b187d059",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Erlaubnis zum Ankern",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot des Segelbrettfahrens",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Zwei Lichtzeichen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_11-8f898cd9",
+        "ref": "RNL Anhang III – fig. 11",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image60.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 11 — « Verbot des Segelbrettfahrens ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig12-c541a971-3759c5ac",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Verbot des Segelbrettfahrens",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Zwei Lichtzeichen",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Badeverbot",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_12-c541a971",
+        "ref": "RNL Anhang III – fig. 12",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image61.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 12 — « Badeverbot ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig13-7175cb38-c8af35d7",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Erlaubnis zum Ankern",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Zwei Lichtzeichen",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot des Drachensegelbrettfahrens",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_13-7175cb38",
+        "ref": "RNL Anhang III – fig. 13",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image62.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 13 — « Verbot des Drachensegelbrettfahrens ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig16-bab2870d-174a9a2c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Gebot, besondere Vorsicht walten zu lassen",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Liegeverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zum Stillliegen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_16-bab2870d",
+        "ref": "RNL Anhang III – fig. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image65.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 16 — « Gebot, besondere Vorsicht walten zu lassen ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig18-599de8af-a1aaa572",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Erlaubnis zum Stillliegen",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Verbot der Durchfahrt",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Überholverbot",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_18-599de8af",
+        "ref": "RNL Anhang III – fig. 18",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image67.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 18 — « Erlaubnis zum Stillliegen ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig19-bf620217-30f3d799",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Erlaubnis zum Ankern",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Oder eine rote und eine weisse Flagge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Zwei Lichtzeichen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_19-bf620217",
+        "ref": "RNL Anhang III – fig. 19",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image68.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 19 — « Erlaubnis zum Ankern ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig2-1d7678a9-6557d8da",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Erlaubnis zum Festmachen",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Zwei Lichtzeichen",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Festmacheverbot",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_2-1d7678a9",
+        "ref": "RNL Anhang III – fig. 2",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image51.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 2 — « Zwei Lichtzeichen ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig20-ba4187b4-4f04f85a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Erlaubnis zum Festmachen",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Verbot des Drachensegelbrettfahrens",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zum Segelbrettfahren",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_20-ba4187b4",
+        "ref": "RNL Anhang III – fig. 20",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image69.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 20 — « Erlaubnis zum Festmachen ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig21-f858291b-bc812151",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Liegeverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zum Segelbrettfahren",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Erlaubnis zum Festmachen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_21-f858291b",
+        "ref": "RNL Anhang III – fig. 21",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image70.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 21 — « Erlaubnis zum Segelbrettfahren ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig22-ca7ff7cf-8d890606",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Erlaubnis zum Drachensegelbrettfahren",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Zwei Lichtzeichen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_22-ca7ff7cf",
+        "ref": "RNL Anhang III – fig. 22",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image71.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 22 — « Erlaubnis zum Drachensegelbrettfahren ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig5-7d473401-8473e81c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Überholverbot",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Erlaubnis zum Segelbrettfahren",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_5-7d473401",
+        "ref": "RNL Anhang III – fig. 5",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image54.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 5 — « Überholverbot ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig6-f13ad18b-2e75d87f",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Überholverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Liegeverbot",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Verbot des Segelbrettfahrens",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_6-f13ad18b",
+        "ref": "RNL Anhang III – fig. 6",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image55.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 6 — « Liegeverbot ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig7-e5689d81-20f6be02",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Ankerverbot",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Zwei Lichtzeichen",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Gebot, besondere Vorsicht walten zu lassen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_7-e5689d81",
+        "ref": "RNL Anhang III – fig. 7",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image56.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 7 — « Ankerverbot ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig8-9a78a476-85a9c51f",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Verbot des Segelbrettfahrens",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Festmacheverbot",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Verbot des Drachensegelbrettfahrens",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_8-9a78a476",
+        "ref": "RNL Anhang III – fig. 8",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image57.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 8 — « Festmacheverbot ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlanhangiiifig9-a1eafdcc-506f758a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Was bedeutet dieses Signal?",
+      "choices": [
+        {
+          "text": "Gebot, besondere Vorsicht walten zu lassen",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Liegeverbot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_anhang_iii__fig_9-a1eafdcc",
+        "ref": "RNL Anhang III – fig. 9",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/rnl/de/image58.png",
+      "points": 3,
+      "explanation": "RNL Anhang III – fig. 9 — « Verbot, ausserhalb der angezeigten Fläche zu fahren ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoifig34-1558c183-15828f24",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "O una bandiera rossa e una bandiera bianca",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto di balneazione",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione di stazionare",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_i__fig_34-1558c183",
+        "ref": "RNL Allegato I – fig. 34",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image39.png",
+      "points": 3,
+      "explanation": "RNL Allegato I – fig. 34 — « O una bandiera rossa e una bandiera bianca ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig1-acdad4c0-802c3c5c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di passaggio",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Kite surf autorizzati",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_1-acdad4c0",
+        "ref": "RNL Allegato III – fig. 1",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image50.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 1 — « Divieto di passaggio ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig10-b8888c2a-06f68666",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Autorizzazione di stazionare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di navigare fuori dai limiti indicati",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto per il kite surf",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_10-b8888c2a",
+        "ref": "RNL Allegato III – fig. 10",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image59.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 10 — « Divieto di navigare fuori dai limiti indicati ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig11-5378545b-3aae2a23",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Obbligo di non superare la velocità indicata (in km/h",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "O una bandiera rossa e una bandiera bianca",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto per le tavole a vela",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_11-5378545b",
+        "ref": "RNL Allegato III – fig. 11",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image60.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 11 — « Divieto per le tavole a vela ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig12-6970c02b-b9f0de2a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto di balneazione",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Tavole a vela autorizzate",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione di gettare l’ancora",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_12-6970c02b",
+        "ref": "RNL Allegato III – fig. 12",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image61.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 12 — « Divieto di balneazione ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig13-219f924d-08e1353e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto per il kite surf",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto per le tavole a vela",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_13-219f924d",
+        "ref": "RNL Allegato III – fig. 13",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image62.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 13 — « Divieto per il kite surf ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig14-eff38879-9f640e6a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obbligo di non superare la velocità indicata (in km/h",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_14-eff38879",
+        "ref": "RNL Allegato III – fig. 14",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image63.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 14 — « Obbligo di prendere la direzione indicata dalla freccia ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig15-494dba7a-4b3b652d",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto di stazionare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obbligo di non superare la velocità indicata (in km/h",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorizzazione d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_15-494dba7a",
+        "ref": "RNL Allegato III – fig. 15",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image64.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 15 — « Obbligo di non superare la velocità indicata (in km/h ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig16-9b714c0d-d211a2b5",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto per le tavole a vela",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obbligo di osservare una prudenza particolare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Kite surf autorizzati",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_16-9b714c0d",
+        "ref": "RNL Allegato III – fig. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image65.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 16 — « Obbligo di osservare una prudenza particolare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig18-e4a475cf-fb30a9a0",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Obbligo di osservare una prudenza particolare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione di stazionare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obbligo di non superare la velocità indicata (in km/h",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_18-e4a475cf",
+        "ref": "RNL Allegato III – fig. 18",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image67.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 18 — « Autorizzazione di stazionare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig19-f0af550e-d0f6cf2c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di stazionare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione di gettare l’ancora",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_19-f0af550e",
+        "ref": "RNL Allegato III – fig. 19",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image68.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 19 — « Autorizzazione di gettare l’ancora ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig2-ed21bb58-357acc5c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Due segnali luminosi",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto di balneazione",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto per le navi motorizzate",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_2-ed21bb58",
+        "ref": "RNL Allegato III – fig. 2",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image51.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 2 — « Due segnali luminosi ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig20-5b18a516-cfffe216",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Obbligo di osservare una prudenza particolare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione d’ormeggiare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto di passaggio",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_20-5b18a516",
+        "ref": "RNL Allegato III – fig. 20",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image69.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 20 — « Autorizzazione d’ormeggiare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig21-33d10d63-16271a4d",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto di gettare l’ancora",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di balneazione",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Tavole a vela autorizzate",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_21-33d10d63",
+        "ref": "RNL Allegato III – fig. 21",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image70.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 21 — « Tavole a vela autorizzate ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig22-54abb3e5-668c9c3a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Kite surf autorizzati",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Tavole a vela autorizzate",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_22-54abb3e5",
+        "ref": "RNL Allegato III – fig. 22",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image71.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 22 — « Kite surf autorizzati ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig3-45bc0adf-35b27d14",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto di balneazione",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto per le navi motorizzate",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "O una bandiera rossa e una bandiera bianca",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_3-45bc0adf",
+        "ref": "RNL Allegato III – fig. 3",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image52.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 3 — « Divieto per le navi motorizzate ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig5-1f8dade9-33c03247",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Autorizzazione di stazionare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorizzazione d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di sorpasso",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_5-1f8dade9",
+        "ref": "RNL Allegato III – fig. 5",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image54.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 5 — « Divieto di sorpasso ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig6-74f042ea-d47f9bf2",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto di stazionare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorizzazione d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di navigare fuori dai limiti indicati",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_6-74f042ea",
+        "ref": "RNL Allegato III – fig. 6",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image55.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 6 — « Divieto di stazionare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig7-f0c85a47-86d3998a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Obbligo di osservare una prudenza particolare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di gettare l’ancora",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Divieto di sorpasso",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_7-f0c85a47",
+        "ref": "RNL Allegato III – fig. 7",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image56.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 7 — « Divieto di gettare l’ancora ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig8-f60b19b8-ae4ef09f",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto d’ormeggiare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorizzazione d’ormeggiare",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto per il kite surf",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_8-f60b19b8",
+        "ref": "RNL Allegato III – fig. 8",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image57.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 8 — « Divieto d’ormeggiare ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlallegatoiiifig9-24babbd9-e831f271",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Che cosa significa questo segnale?",
+      "choices": [
+        {
+          "text": "Divieto di gettare l’ancora",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Divieto di navigare fuori dai limiti indicati",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Kite surf autorizzati",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_allegato_iii__fig_9-24babbd9",
+        "ref": "RNL Allegato III – fig. 9",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": "assets/rnl/it/image58.png",
+      "points": 3,
+      "explanation": "RNL Allegato III – fig. 9 — « Divieto di navigare fuori dai limiti indicati ».",
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",

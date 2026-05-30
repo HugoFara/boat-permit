@@ -22,14 +22,27 @@ _PARSERS = {
 }
 
 
-def _manifest(source_id: str) -> dict:
-    with open(os.path.join(RAW_DIR, source_id, "manifest.json"), encoding="utf-8") as fh:
+def _manifest(source_id: str, lang: str = "fr") -> dict:
+    sub = source_id if lang == "fr" else os.path.join(source_id, lang)
+    with open(os.path.join(RAW_DIR, sub, "manifest.json"), encoding="utf-8") as fh:
         return json.load(fh)
 
 
-def parse_source(src: Source) -> list[KnowledgeUnit]:
-    return _PARSERS[src.kind](src, _manifest(src.id))
+def parse_source(src: Source, lang: str = "fr") -> list[KnowledgeUnit]:
+    return _PARSERS[src.kind](src, _manifest(src.id, lang))
 
 
-def parse_all(sources: list[Source] | None = None) -> dict[str, list[KnowledgeUnit]]:
-    return {src.id: parse_source(src) for src in (sources or SOURCES)}
+def parse_all(sources: list[Source] | None = None,
+              langs: tuple[str, ...] = ("fr",)) -> dict[str, list[KnowledgeUnit]]:
+    """Parse the selected sources in each requested language. FR parses every
+    source; non-FR languages parse only the law (fedlex) sources, whose other
+    official-language manifestations were fetched into data/raw/<id>/<lang>/.
+    Keyed by '<id>' for FR (legacy) and '<id>@<lang>' otherwise."""
+    out: dict[str, list[KnowledgeUnit]] = {}
+    for src in (sources or SOURCES):
+        for lang in langs:
+            if lang != "fr" and src.kind != "fedlex":
+                continue
+            key = src.id if lang == "fr" else f"{src.id}@{lang}"
+            out[key] = parse_source(src, lang)
+    return out

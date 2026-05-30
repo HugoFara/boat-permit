@@ -27,7 +27,10 @@ _PUBLIC_DOMAIN_SOURCES = {"oni", "rnl"}
 
 GENERATOR = "tmpl:figure_recognition.v1"
 
-# Stem phrased to the signal family so it reads naturally.
+# Stem phrased to the signal family so it reads naturally. Signal-type detection
+# is French-keyword-based, so the typed stems only fire for FR figures; DE/IT use
+# the localized default (their captions classify as "autre"). Same diagram, asked
+# in the figure's own language.
 _STEM_BY_TYPE = {
     "interdiction": "Que signifie ce panneau ?",
     "autorisation": "Que signifie ce panneau ?",
@@ -37,7 +40,17 @@ _STEM_BY_TYPE = {
     "feu": "Que signifie cette signalisation lumineuse ?",
     "cloche": "Que signifie ce signal sonore ?",
 }
-_STEM_DEFAULT = "Que signifie ce signal ?"
+_STEM_DEFAULT_BY_LANG = {
+    "fr": "Que signifie ce signal ?",
+    "de": "Was bedeutet dieses Signal?",
+    "it": "Che cosa significa questo segnale?",
+}
+
+
+def _stem(sigtype: str, lang: str) -> str:
+    if lang == "fr":
+        return _STEM_BY_TYPE.get(sigtype, _STEM_DEFAULT_BY_LANG["fr"])
+    return _STEM_DEFAULT_BY_LANG.get(lang, _STEM_DEFAULT_BY_LANG["fr"])
 
 
 def _seed(uid: str) -> int:
@@ -68,13 +81,18 @@ def _normalize_caption(cap: str) -> str:
     return cap[:1].upper() + cap[1:] if cap else cap
 
 
+# Annex-title fallback prefixes, one per language (FR Annexe / DE Anhang / IT
+# Allegato) — a caption that is just the annex heading, not a signal's meaning.
+_ANNEX_PREFIXES = ("Annexe ", "Anhang ", "Allegato ")
+
+
 def _recognizable(caption: str) -> bool:
     """A caption usable as a clean multiple-choice option / answer: atomic,
     short, not the article-embedded fallback ('ONI art. 5 – figure 1') nor the
-    annex-title fallback ('Annexe 4 – Signaux …')."""
+    annex-title fallback ('Annexe 4 – Signaux …' / 'Anhang …' / 'Allegato …')."""
     if not caption or len(caption) > 55 or ";" in caption:
         return False
-    if re.match(r"^(ONI|RNL)\b.*figure\s*\d", caption) or caption.startswith("Annexe "):
+    if re.match(r"^(ONI|RNL)\b.*figure\s*\d", caption) or caption.startswith(_ANNEX_PREFIXES):
         return False
     return bool(re.search(r"[A-Za-zÀ-ÿ]{3,}", caption))
 
@@ -109,17 +127,17 @@ def _choose_two(answer: str, pool: list[str], seed: int) -> list[str]:
 def _load_figures(kb: sqlite3.Connection) -> list[dict]:
     kb.row_factory = sqlite3.Row
     rows = kb.execute(
-        """SELECT u.id, u.ref, u.theme, u.source_id, u.source_name, u.source_url,
-                  u.legal_version, u.licence, a.path, a.caption
+        """SELECT u.id, u.ref, u.theme, u.lang, u.source_id, u.source_name,
+                  u.source_url, u.legal_version, u.licence, a.path, a.caption
            FROM units u JOIN assets a ON a.unit_id = u.id
            WHERE u.kind = 'annex_figure'""").fetchall()
     figs = []
     for r in rows:
         figs.append(dict(
-            id=r["id"], ref=r["ref"], theme=r["theme"], source_id=r["source_id"],
-            source_name=r["source_name"], source_url=r["source_url"],
-            legal_version=r["legal_version"], licence=r["licence"],
-            image=r["path"], raw_caption=r["caption"],
+            id=r["id"], ref=r["ref"], theme=r["theme"], lang=r["lang"],
+            source_id=r["source_id"], source_name=r["source_name"],
+            source_url=r["source_url"], legal_version=r["legal_version"],
+            licence=r["licence"], image=r["path"], raw_caption=r["caption"],
             answer=_normalize_caption(r["caption"]), annex=_annex(r["ref"]),
             sigtype=_signal_type(r["caption"])))
     return figs
@@ -138,13 +156,17 @@ def build_figure_questions(kb: sqlite3.Connection) -> tuple[list[Question], dict
     # (tightest family first, widening on shortage).
     usable = [f for f in figs
               if f["source_id"] in _PUBLIC_DOMAIN_SOURCES and _recognizable(f["answer"])]
+    # Pools are keyed by language too, so a question's distractors are always in
+    # its own language (a German signal never gets a French distractor). FR keys
+    # are unchanged in effect — every FR figure shares lang='fr' — so the FR bank
+    # stays byte-identical.
     by_type: dict[tuple, list[str]] = {}
     by_annex: dict[tuple, list[str]] = {}
     by_theme: dict[tuple, list[str]] = {}
     for f in usable:
-        by_type.setdefault((f["source_id"], f["annex"], f["sigtype"]), []).append(f["answer"])
-        by_annex.setdefault((f["source_id"], f["annex"]), []).append(f["answer"])
-        by_theme.setdefault((f["source_id"], f["theme"]), []).append(f["answer"])
+        by_type.setdefault((f["lang"], f["source_id"], f["annex"], f["sigtype"]), []).append(f["answer"])
+        by_annex.setdefault((f["lang"], f["source_id"], f["annex"]), []).append(f["answer"])
+        by_theme.setdefault((f["lang"], f["source_id"], f["theme"]), []).append(f["answer"])
 
     questions: list[Question] = []
     for f in figs:
@@ -157,25 +179,26 @@ def build_figure_questions(kb: sqlite3.Connection) -> tuple[list[Question], dict
 
         ans = f["answer"]
         seed = _seed(f["id"])
-        tight = [c for c in by_type[(f["source_id"], f["annex"], f["sigtype"])] if c != ans]
+        lang = f["lang"]
+        tight = [c for c in by_type[(lang, f["source_id"], f["annex"], f["sigtype"])] if c != ans]
         picks = _choose_two(ans, tight, seed)
         strategy = "confusion_set"
         if len(picks) < 2:                      # widen: annex, then whole theme
-            wider = ([c for c in by_annex[(f["source_id"], f["annex"])] if c != ans]
-                     + [c for c in by_theme[(f["source_id"], f["theme"])] if c != ans])
+            wider = ([c for c in by_annex[(lang, f["source_id"], f["annex"])] if c != ans]
+                     + [c for c in by_theme[(lang, f["source_id"], f["theme"])] if c != ans])
             picks = _choose_two(ans, tight + wider, seed)
             strategy = "sibling_random"
         if len(picks) < 2:
             stats["no_distractors"] += 1
             continue
 
-        stem = _STEM_BY_TYPE.get(f["sigtype"], _STEM_DEFAULT)
+        stem = _stem(f["sigtype"], lang)
         options = [Choice(ans, is_correct=True)] + [Choice(p) for p in picks]
         random.Random(seed + 1).shuffle(options)   # answer not always first
 
         q = Question(
             id=make_question_id(f["id"], stem),
-            theme=f["theme"], kind="figure_recognition", stem=stem,
+            theme=f["theme"], kind="figure_recognition", stem=stem, lang=lang,
             image=f["image"], choices=options,
             provenance=Provenance(
                 unit_id=f["id"], ref=f["ref"], source=f["source_name"],

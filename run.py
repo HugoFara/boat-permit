@@ -41,9 +41,16 @@ def _select(only: str | None):
     return [BY_ID[i] for i in ids]
 
 
+def _langs(args) -> list[str]:
+    """Requested content languages, FR by default. FR pulls/parses every source;
+    DE/IT cover only the law (fedlex) sources."""
+    raw = (getattr(args, "lang", None) or "fr").split(",")
+    return [x.strip() for x in raw if x.strip()]
+
+
 def cmd_fetch(args):
     srcs = _select(args.only)
-    langs = [x.strip() for x in (getattr(args, "lang", None) or "fr").split(",") if x.strip()]
+    langs = _langs(args)
     man = {}
     if "fr" in langs:                       # FR pulls every source (law + refs)
         man.update(fetch.fetch_all(srcs, force=args.force))
@@ -59,7 +66,7 @@ def cmd_fetch(args):
 
 def cmd_parse(args):
     srcs = _select(args.only)
-    parsed = parse_stage.parse_all(srcs)
+    parsed = parse_stage.parse_all(srcs, langs=tuple(_langs(args)))
     total = 0
     for sid, units in parsed.items():
         kinds = {}
@@ -73,16 +80,22 @@ def cmd_parse(args):
 
 def cmd_build(args):
     srcs = _select(args.only)
+    langs = _langs(args)
     print("→ fetch")
-    fetch.fetch_all(srcs, force=args.force)
+    if "fr" in langs:
+        fetch.fetch_all(srcs, force=args.force)
+    extra = [l for l in langs if l != "fr"]
+    if extra:
+        fetch.fetch_fedlex_langs(extra, srcs, force=args.force)
     print("→ parse")
-    parsed = parse_stage.parse_all(srcs)
+    parsed = parse_stage.parse_all(srcs, langs=tuple(langs))
     print("→ normalize")
     version = _dt.date.today().isoformat()
     stats = normalize_stage.normalize(parsed, DB_PATH, version, json_path=JSON_PATH)
 
     print(f"\n✓ knowledge base built: {DB_PATH}")
     print(f"  version {version} · {stats['units']} units · {stats['assets']} assets")
+    print(f"  by lang:   {stats['by_lang']}")
     print(f"  by source: {stats['by_source']}")
     print(f"  by kind:   {stats['by_kind']}")
     print("  by theme:")
@@ -321,10 +334,9 @@ def main():
         p = sub.add_parser(name)
         p.add_argument("--force", action="store_true", help="ignore the raw cache")
         p.add_argument("--only", help="comma-separated source ids")
-        if name == "fetch":
-            p.add_argument("--lang", default="fr",
-                           help="comma-separated languages for law sources "
-                                "(fr,de,it); non-fr pulls fedlex acts only")
+        p.add_argument("--lang", default="fr",
+                       help="comma-separated content languages (fr,de,it); "
+                            "non-fr covers the law (fedlex) sources only")
     sub.add_parser("questions", help="generate the Phase-2 question bank from the KB")
 
     d = sub.add_parser("draft", help="LLM-draft prose/law questions (pending review)")

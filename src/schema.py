@@ -22,7 +22,7 @@ class Asset:
 
 @dataclass
 class KnowledgeUnit:
-    id: str                      # stable, derived from source + ref
+    id: str                      # stable, derived from source + ref (+ lang)
     theme: str                   # theme id from themes.THEMES
     kind: str                    # "article" | "annex_figure" | "prose_section"
     ref: str                     # e.g. "ONI art. 23" / "ONI annexe 4, fig. 12"
@@ -35,17 +35,22 @@ class KnowledgeUnit:
     retrieved: str               # ISO date
     legal_version: str           # "état le" date or page version, "" if n/a
     licence: str
+    lang: str = "fr"             # content language (fr/de/it); fr is canonical
     assets: list[Asset] = field(default_factory=list)
     cross_refs: list[str] = field(default_factory=list)
 
 
-def make_id(source_id: str, ref: str) -> str:
+def make_id(source_id: str, ref: str, lang: str = "fr") -> str:
     """Stable id: human-readable prefix + short hash of the full ref so re-runs
-    produce identical ids (no random/auto-increment)."""
+    produce identical ids (no random/auto-increment). French keeps the legacy
+    id (no lang segment) so existing FR units/questions are byte-stable; other
+    languages get a distinct prefix + hash so the parallel acts don't collide."""
     slug = ref.lower().replace(" ", "_").replace(".", "").replace(",", "")
     slug = "".join(c for c in slug if c.isalnum() or c == "_")[:48]
-    digest = hashlib.sha1(f"{source_id}:{ref}".encode()).hexdigest()[:8]
-    return f"{source_id}-{slug}-{digest}"
+    key = source_id if lang == "fr" else f"{source_id}@{lang}"
+    prefix = source_id if lang == "fr" else f"{source_id}-{lang}"
+    digest = hashlib.sha1(f"{key}:{ref}".encode()).hexdigest()[:8]
+    return f"{prefix}-{slug}-{digest}"
 
 
 DDL = """
@@ -65,7 +70,8 @@ CREATE TABLE IF NOT EXISTS units (
     source_url    TEXT,
     retrieved     TEXT,
     legal_version TEXT,
-    licence       TEXT
+    licence       TEXT,
+    lang          TEXT NOT NULL DEFAULT 'fr'
 );
 CREATE TABLE IF NOT EXISTS assets (
     unit_id TEXT NOT NULL REFERENCES units(id) ON DELETE CASCADE,
@@ -87,7 +93,17 @@ def connect(db_path: str) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     conn.execute("PRAGMA foreign_keys = ON")
     conn.executescript(DDL)
+    _migrate(conn)
     return conn
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    """Idempotent, additive migration for KBs created before the lang column."""
+    cols = {r[1] for r in conn.execute("PRAGMA table_info(units)")}
+    if "lang" not in cols:
+        conn.execute("ALTER TABLE units ADD COLUMN lang TEXT NOT NULL DEFAULT 'fr'")
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_units_lang ON units(lang)")
+    conn.commit()
 
 
 def write_units(conn: sqlite3.Connection, units: list[KnowledgeUnit]) -> None:
@@ -98,10 +114,11 @@ def write_units(conn: sqlite3.Connection, units: list[KnowledgeUnit]) -> None:
         cur.execute(
             """INSERT INTO units
                (id, theme, kind, ref, title, text, source_id, source_name,
-                source_url, retrieved, legal_version, licence)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?)""",
+                source_url, retrieved, legal_version, licence, lang)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""",
             (u.id, u.theme, u.kind, u.ref, u.title, u.text, u.source_id,
-             u.source_name, u.source_url, u.retrieved, u.legal_version, u.licence),
+             u.source_name, u.source_url, u.retrieved, u.legal_version, u.licence,
+             u.lang),
         )
         for a in u.assets:
             cur.execute(

@@ -28,7 +28,7 @@ RAW_DIR = os.path.join(BASE, "data", "raw")
 HEADERS = {"User-Agent": "boat-permit-study/0.1 (Phase 1 aggregator; personal study tool)"}
 
 
-def _localize_asset(path: str, source_id: str) -> str | None:
+def _localize_asset(path: str, source_id: str, lang: str = "fr") -> str | None:
     """Ensure an asset lives under data/assets/ and return its repo-relative path.
     `path` is either already a data/assets/... path (law images) or a remote URL
     (Wikipedia). Returns None if it cannot be obtained."""
@@ -36,9 +36,10 @@ def _localize_asset(path: str, source_id: str) -> str | None:
         dest = os.path.join(BASE, path)
         if os.path.exists(dest):
             return path
-        # law image: copy from raw cache (data/raw/<src>/images/<file>)
+        # law image: copy from the raw cache (data/raw/<src>[/<lang>]/images/<file>)
         fname = os.path.basename(path)
-        raw = os.path.join(RAW_DIR, source_id, "images", fname)
+        raw_sub = source_id if lang == "fr" else os.path.join(source_id, lang)
+        raw = os.path.join(RAW_DIR, raw_sub, "images", fname)
         if os.path.exists(raw):
             os.makedirs(os.path.dirname(dest), exist_ok=True)
             shutil.copyfile(raw, dest)
@@ -67,14 +68,16 @@ def normalize(parsed: dict[str, list[KnowledgeUnit]], db_path: str,
     """Write all parsed units into the SQLite KB. Returns a stats dict."""
     units: list[KnowledgeUnit] = []
     seen_ids: set[str] = set()
-    for src in SOURCES:
-        for u in parsed.get(src.id, []):
+    # Iterate parsed values in insertion order (FR first, then any DE/IT) so the
+    # KB ordering is stable; ids are lang-unique so parallel acts coexist.
+    for batch in parsed.values():
+        for u in batch:
             if u.id in seen_ids:
                 continue
             seen_ids.add(u.id)
             kept = []
             for a in u.assets:
-                local = _localize_asset(a.path, u.source_id)
+                local = _localize_asset(a.path, u.source_id, u.lang)
                 if local:
                     a.path = local
                     kept.append(a)
@@ -89,13 +92,15 @@ def normalize(parsed: dict[str, list[KnowledgeUnit]], db_path: str,
     conn.commit()
     schema.write_units(conn, units)
     schema.set_meta(conn, kb_version=version, unit_count=len(units),
-                    source_count=len({u.source_id for u in units}))
+                    source_count=len({u.source_id for u in units}),
+                    languages=",".join(sorted({u.lang for u in units})))
 
     stats = {
         "units": len(units),
         "by_theme": dict(Counter(u.theme for u in units)),
         "by_kind": dict(Counter(u.kind for u in units)),
         "by_source": dict(Counter(u.source_id for u in units)),
+        "by_lang": dict(Counter(u.lang for u in units)),
         "assets": sum(len(u.assets) for u in units),
         "themes_missing": [t for t in THEMES if t not in {u.theme for u in units}],
     }

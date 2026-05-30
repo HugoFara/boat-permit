@@ -75,11 +75,13 @@ def parse(src: Source, manifest: dict) -> list[KnowledgeUnit]:
     tree = etree.parse(xml_path)
     root = tree.getroot()
     images = manifest["files"].get("images", {})
+    lang = manifest.get("lang", "fr")
 
     prefix = "ONI" if src.id == "oni" else ("RNL" if src.id == "rnl" else src.id.upper())
     prov = dict(source_id=src.id, source_name=src.name, source_url=src.url,
                 retrieved=manifest["retrieved"],
-                legal_version=manifest.get("legal_version", ""), licence=src.licence)
+                legal_version=manifest.get("legal_version", ""), licence=src.licence,
+                lang=lang)
 
     units: list[KnowledgeUnit] = []
     for article in root.iter(AKN + "article"):
@@ -95,7 +97,7 @@ def parse(src: Source, manifest: dict) -> list[KnowledgeUnit]:
             body = body[len(lead):].strip()
 
         ref = f"{prefix} {number}"
-        article_id = make_id(src.id, ref)
+        article_id = make_id(src.id, ref, lang)
         theme = themes.tag_theme(ref=ref, title=f"{chapter} {title}", text=body,
                                  default=src.default_theme)
 
@@ -107,12 +109,12 @@ def parse(src: Source, manifest: dict) -> list[KnowledgeUnit]:
             meta = images.get(ref_src)
             if not meta or meta.get("bytes", 0) < _MIN_FIGURE_BYTES:
                 continue
-            asset_path = _stable_asset_path(src.id, meta["path"])
+            asset_path = _stable_asset_path(src.id, meta["path"], lang)
             caption = (img.get("alt") or "").strip() or f"{ref} – figure {i}"
             assets.append(Asset(type="image", path=asset_path, caption=caption))
             # Each figure also becomes its own retrievable annex_figure unit.
             fig_ref = f"{ref} – fig. {i}"
-            fig_id = make_id(src.id, fig_ref)
+            fig_id = make_id(src.id, fig_ref, lang)
             cross.append(fig_id)
             units.append(KnowledgeUnit(
                 id=fig_id, theme="signalisation", kind="annex_figure",
@@ -141,7 +143,8 @@ def parse(src: Source, manifest: dict) -> list[KnowledgeUnit]:
         if am:
             art_by_num[am.group(1).lower()] = u.id
 
-    units.extend(_parse_annexes(src, root, images, prefix, prov, annex_cites, art_by_num))
+    units.extend(_parse_annexes(src, root, images, prefix, prov, annex_cites,
+                                art_by_num, lang))
     return units
 
 
@@ -246,8 +249,8 @@ def _annex_token(annex_num: str) -> str:
 
 
 def _parse_annexes(src: Source, root, images: dict, prefix: str, prov: dict,
-                   annex_cites: dict[str, list[str]], art_by_num: dict[str, str]
-                   ) -> list[KnowledgeUnit]:
+                   annex_cites: dict[str, list[str]], art_by_num: dict[str, str],
+                   lang: str = "fr") -> list[KnowledgeUnit]:
     """Walk annex <doc> elements and emit one annex_figure unit per referenced
     figure, captioned from its own table cell (per-image, not per-row). Each
     figure links to its governing article — by the explicit "Art. N" in its
@@ -274,7 +277,7 @@ def _parse_annexes(src: Source, root, images: dict, prefix: str, prov: dict,
                 for im in row_imgs:
                     seen_in_annex += 1
                     meta = images[im.get("src")]
-                    asset_path = _stable_asset_path(src.id, meta["path"])
+                    asset_path = _stable_asset_path(src.id, meta["path"], lang)
                     legend, ref_label, arts, desc = _figure_parts(td, im, tr)
                     ref = f"{prefix} {annex_num} – fig. {seen_in_annex}"
                     caption = desc or f"{annex_num} – {annex_title}".strip(" –")
@@ -288,7 +291,7 @@ def _parse_annexes(src: Source, root, images: dict, prefix: str, prov: dict,
                     theme = themes.tag_theme(ref=ref, title=annex_title, text=desc,
                                              default="signalisation")
                     units.append(KnowledgeUnit(
-                        id=make_id(src.id, ref), theme=theme, kind="annex_figure",
+                        id=make_id(src.id, ref, lang), theme=theme, kind="annex_figure",
                         ref=ref, title=f"{annex_num} — {annex_title}".strip(" —"),
                         text=text,
                         assets=[Asset(type="image", path=asset_path, caption=caption)],
@@ -296,8 +299,12 @@ def _parse_annexes(src: Source, root, images: dict, prefix: str, prov: dict,
     return units
 
 
-def _stable_asset_path(source_id: str, raw_rel_path: str) -> str:
-    """Asset path published into the KB (under data/assets/<source>/<file>).
-    The normalize stage copies the raw image to this path."""
+def _stable_asset_path(source_id: str, raw_rel_path: str, lang: str = "fr") -> str:
+    """Asset path published into the KB. FR keeps data/assets/<source>/<file>;
+    other languages are namespaced data/assets/<source>/<lang>/<file> because
+    Fedlex numbers each language manifestation's images independently (imageN.png
+    in DE need not be the same diagram as in FR). The normalize stage copies the
+    raw image to this path."""
     fname = os.path.basename(raw_rel_path)
-    return os.path.join("data", "assets", source_id, fname)
+    sub = source_id if lang == "fr" else os.path.join(source_id, lang)
+    return os.path.join("data", "assets", sub, fname)

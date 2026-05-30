@@ -7,8 +7,16 @@
     "it"
   ],
   "available": {
+    "de": {
+      "count": 54,
+      "unofficial": false
+    },
     "fr": {
       "count": 73,
+      "unofficial": false
+    },
+    "it": {
+      "count": 60,
       "unofficial": false
     }
   }
