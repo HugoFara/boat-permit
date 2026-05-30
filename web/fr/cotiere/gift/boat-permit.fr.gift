@@ -79,6 +79,40 @@ $CATEGORY: Permis bateau · Léman (FR)/Protection de l'environnement
 ####[html]Il doit les conserver à bord puis les déposer à terre dans les installations de collecte du port.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Gestion des déchets à bord — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
 }
 
+$CATEGORY: Permis bateau · Léman (FR)/Météorologie et marées
+
+::q-fr-arrete2007-36-7293adf3:: [html]Qu'appelle-t-on l'« étale » de marée ? {
+=Le moment où le niveau ne varie plus (courant nul)
+~Le moment où le courant est le plus fort
+~La différence entre pleine et basse mer
+####[html]C'est le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus et où le courant de marée est quasiment nul.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Marées — étale — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
+
+::q-fr-arrete2007-37-765d2ee1:: [html]Dans la bande littorale des 300 mètres à partir du rivage, à quelle vitesse la navigation est-elle en principe limitée ? {
+=5 nœuds
+~20 nœuds
+~Aucune limite de vitesse
+####[html]Sauf disposition locale particulière, la vitesse est limitée à 5 nœuds dans la bande des 300 mètres, pour la sécurité des baigneurs.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Bande littorale des 300 mètres — vitesse — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+::q-fr-arrete2007-38-0c8ad5b3:: [html]Un message radio commençant par « PAN PAN » correspond à quel degré de priorité ? {
+=L'urgence
+~La détresse
+~La sécurité (bulletin météo)
+####[html]« PAN PAN » \= urgence \: la sécurité d'un navire ou d'une personne est compromise, sans le danger grave et imminent qui justifierait la détresse (MAYDAY).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">VHF — message PAN PAN — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Protection de l'environnement
+
+::q-fr-arrete2007-39-c4fe2758:: [html]En Méditerranée, sur les herbiers de posidonie, le mouillage de l'ancre est \: {
+=Réglementé, voire interdit (herbiers protégés)
+~Libre et sans conséquence
+~Recommandé car l'ancre y tient bien
+####[html]Réglementé, voire interdit dans de nombreuses zones \: l'ancre arrache ces herbiers protégés, essentiels à la vie marine ; on utilise les zones ou bouées de mouillage prévues.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Mouillage et herbiers protégés — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
 $CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
 
 ::q-fr-decret2007-27-8d120eb0:: [html]À partir de quelle puissance du moteur le permis plaisance est-il obligatoire ? {
@@ -127,6 +161,13 @@ $CATEGORY: Permis bateau · Léman (FR)/Sécurité et matériel d'armement
 ####[html]Au maximum le nombre fixé par le constructeur, indiqué sur la plaque signalétique / la catégorie de conception du bateau.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Nombre de personnes embarquées — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
 }
 
+::q-fr-division240-35-ff7a899c:: [html]Sur un bateau à moteur conduit à la barre franche, pourquoi le conducteur doit-il porter le coupe-circuit (cordon) relié à lui ? {
+=Il coupe le moteur si le conducteur tombe à l'eau
+~Il augmente la vitesse du moteur
+~Il sert d'antivol au port
+####[html]En cas de chute à l'eau, le cordon se détache et coupe aussitôt le moteur \: le bateau ne part pas seul et ne blesse pas l'homme à la mer.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Division 240 — coupe-circuit (arrêt d'urgence) — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
+}
+
 $CATEGORY: Permis bateau · Léman (FR)/Balisage et signalisation maritime
 
 ::q-fr-ialaa-0-1b2309d5:: [html]En venant du large (système IALA région A), de quelle couleur et de quelle forme est une marque latérale de BÂBORD ? {
@@ -155,6 +196,20 @@ $CATEGORY: Permis bateau · Léman (FR)/Balisage et signalisation maritime
 ~L'entrée principale d'un port
 ~Une zone de baignade surveillée
 ####[html]C'est la marque de danger isolé \: elle est mouillée SUR un danger de faible étendue entouré d'eaux saines ; feu blanc à 2 éclats.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque de danger isolé — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+}
+
+::q-fr-ialaa-31-0221d523:: [html]Comment reconnaît-on le voyant d'une marque cardinale SUD, et de quel côté faut-il passer ? {
+=Deux cônes pointes vers le bas ; on passe au sud
+~Deux cônes pointes vers le haut ; on passe au nord
+~Deux cônes base contre base ; on passe à l'est
+####[html]Cardinale Sud \: deux cônes noirs superposés, pointes vers le BAS ; les eaux saines sont au sud, on passe donc au sud de la marque.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque cardinale Sud — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+}
+
+::q-fr-ialaa-32-681ef423:: [html]Que signale une marque entièrement JAUNE, éventuellement surmontée d'une croix de Saint-André (X) jaune ? {
+=Une zone ou un dispositif particulier (marque spéciale)
+~Un danger isolé à éviter
+~Le côté tribord du chenal
+####[html]C'est une marque spéciale \: elle délimite une zone ou un dispositif particulier (baignade, chenal, conduite immergée, zone réglementée) et ne marque pas en soi un danger de navigation.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque spéciale — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
 }
 
 ::q-fr-ialaa-4-fd027b97:: [html]Que signale une marque à bandes verticales rouges et blanches, avec un voyant sphérique rouge ? {
@@ -199,6 +254,24 @@ $CATEGORY: Permis bateau · Léman (FR)/Feux, marques et signaux
 ~Trois sons brefs toutes les minutes
 ~Aucun signal n'est nécessaire
 ####[html]RIPAM règle 35 \: un son prolongé à intervalles ne dépassant pas 2 minutes.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 35 — Signaux par visibilité réduite — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Règles de barre et de route
+
+::q-fr-ripam-33-1fe861ab:: [html]Dans un chenal étroit, de quel côté un navire doit-il en règle générale se tenir ? {
+=Le bord du chenal situé sur sa droite (tribord)
+~Le milieu du chenal
+~Le bord situé sur sa gauche (bâbord)
+####[html]RIPAM règle 9 \: il serre, dans la mesure du possible et sans danger, le bord extérieur du chenal situé sur SA droite (tribord).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 9 — Chenaux étroits — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Feux, marques et signaux
+
+::q-fr-ripam-34-e766f8a8:: [html]De nuit, un navire de moins de 50 m au mouillage montre \: {
+=Un feu blanc visible sur tout l'horizon
+~Un feu rouge visible sur tout l'horizon
+~Deux feux verts superposés
+####[html]RIPAM règle 30 \: un feu blanc visible sur tout l'horizon, placé à l'avant ; de jour, une boule noire à l'avant.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 30 — Navire au mouillage — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
 }
 
 $CATEGORY: Permis bateau · Léman (FR)/Règles de barre et de route

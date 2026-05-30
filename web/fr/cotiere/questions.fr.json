@@ -18,7 +18,7 @@
     "ui_title": "Permis plaisance — option côtière (entraînement)",
     "ui_h1": "Permis plaisance — option côtière",
     "ui_subtitle": "Examen théorique · navigation maritime jusqu'à 6 milles d'un abri",
-    "ui_demo": "<strong>Banque en construction.</strong> Questions dérivées du droit français librement réutilisable (RIPAM, balisage IALA région A, Division 240, arrêté du 28 sept. 2007). Ce n'est pas un examen officiel ; la banque continue de s'étoffer.",
+    "ui_demo": "<strong>Banque d'entraînement complète (40 questions, le format de l'examen).</strong> Questions dérivées du droit français librement réutilisable (RIPAM, balisage IALA région A, Division 240, arrêté du 28 sept. 2007). Ce n'est pas un examen officiel.",
     "ui_sourcenote": "Source : droit français (acte officiel, librement réutilisable sous Licence Ouverte / Etalab) — RIPAM, RGP, arrêté du 28 septembre 2007, Division 240. Aucune question issue d'une banque d'opérateur.",
     "ui_multihint": "Une seule réponse est correcte."
   },
@@ -1348,6 +1348,393 @@
       "image": null,
       "points": 1,
       "explanation": "Il doit les conserver à bord puis les déposer à terre dans les installations de collecte du port.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-31-0221d523",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "Comment reconnaît-on le voyant d'une marque cardinale SUD, et de quel côté faut-il passer ?",
+      "choices": [
+        {
+          "text": "Deux cônes pointes vers le bas ; on passe au sud",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Deux cônes pointes vers le haut ; on passe au nord",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Deux cônes base contre base ; on passe à l'est",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-31",
+        "ref": "Balisage IALA — marque cardinale Sud",
+        "source": "Balisage maritime — système IALA région A (référentiel permis plaisance)",
+        "url": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Cardinale Sud : deux cônes noirs superposés, pointes vers le BAS ; les eaux saines sont au sud, on passe donc au sud de la marque.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-32-681ef423",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "Que signale une marque entièrement JAUNE, éventuellement surmontée d'une croix de Saint-André (X) jaune ?",
+      "choices": [
+        {
+          "text": "Une zone ou un dispositif particulier (marque spéciale)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un danger isolé à éviter",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le côté tribord du chenal",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-32",
+        "ref": "Balisage IALA — marque spéciale",
+        "source": "Balisage maritime — système IALA région A (référentiel permis plaisance)",
+        "url": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "C'est une marque spéciale : elle délimite une zone ou un dispositif particulier (baignade, chenal, conduite immergée, zone réglementée) et ne marque pas en soi un danger de navigation.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-33-1fe861ab",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Dans un chenal étroit, de quel côté un navire doit-il en règle générale se tenir ?",
+      "choices": [
+        {
+          "text": "Le bord du chenal situé sur sa droite (tribord)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le milieu du chenal",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le bord situé sur sa gauche (bâbord)",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-33",
+        "ref": "RIPAM règle 9 — Chenaux étroits",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "RIPAM règle 9 : il serre, dans la mesure du possible et sans danger, le bord extérieur du chenal situé sur SA droite (tribord).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-34-e766f8a8",
+      "theme": "feux_signaux",
+      "kind": "rule_mc",
+      "stem": "De nuit, un navire de moins de 50 m au mouillage montre :",
+      "choices": [
+        {
+          "text": "Un feu blanc visible sur tout l'horizon",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu rouge visible sur tout l'horizon",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Deux feux verts superposés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-34",
+        "ref": "RIPAM règle 30 — Navire au mouillage",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "RIPAM règle 30 : un feu blanc visible sur tout l'horizon, placé à l'avant ; de jour, une boule noire à l'avant.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-division240-35-ff7a899c",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Sur un bateau à moteur conduit à la barre franche, pourquoi le conducteur doit-il porter le coupe-circuit (cordon) relié à lui ?",
+      "choices": [
+        {
+          "text": "Il coupe le moteur si le conducteur tombe à l'eau",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il augmente la vitesse du moteur",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il sert d'antivol au port",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-division_240-35",
+        "ref": "Division 240 — coupe-circuit (arrêt d'urgence)",
+        "source": "Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres",
+        "url": "https://www.mer.gouv.fr/la-division-240",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "En cas de chute à l'eau, le cordon se détache et coupe aussitôt le moteur : le bateau ne part pas seul et ne blesse pas l'homme à la mer.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-36-7293adf3",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Qu'appelle-t-on l'« étale » de marée ?",
+      "choices": [
+        {
+          "text": "Le moment où le niveau ne varie plus (courant nul)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le moment où le courant est le plus fort",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La différence entre pleine et basse mer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-36",
+        "ref": "Marées — étale",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "C'est le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus et où le courant de marée est quasiment nul.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-37-765d2ee1",
+      "theme": "reglementation",
+      "kind": "rule_mc",
+      "stem": "Dans la bande littorale des 300 mètres à partir du rivage, à quelle vitesse la navigation est-elle en principe limitée ?",
+      "choices": [
+        {
+          "text": "5 nœuds",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "20 nœuds",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Aucune limite de vitesse",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-37",
+        "ref": "Bande littorale des 300 mètres — vitesse",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Sauf disposition locale particulière, la vitesse est limitée à 5 nœuds dans la bande des 300 mètres, pour la sécurité des baigneurs.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-38-0c8ad5b3",
+      "theme": "reglementation",
+      "kind": "rule_mc",
+      "stem": "Un message radio commençant par « PAN PAN » correspond à quel degré de priorité ?",
+      "choices": [
+        {
+          "text": "L'urgence",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La détresse",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La sécurité (bulletin météo)",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-38",
+        "ref": "VHF — message PAN PAN",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "« PAN PAN » = urgence : la sécurité d'un navire ou d'une personne est compromise, sans le danger grave et imminent qui justifierait la détresse (MAYDAY).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-39-c4fe2758",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "En Méditerranée, sur les herbiers de posidonie, le mouillage de l'ancre est :",
+      "choices": [
+        {
+          "text": "Réglementé, voire interdit (herbiers protégés)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Libre et sans conséquence",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Recommandé car l'ancre y tient bien",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-39",
+        "ref": "Mouillage et herbiers protégés",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Réglementé, voire interdit dans de nombreuses zones : l'ancre arrache ces herbiers protégés, essentiels à la vie marine ; on utilise les zones ou bouées de mouillage prévues.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",

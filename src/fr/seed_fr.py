@@ -541,6 +541,169 @@ SEED: list[dict] = [
          {"fr": "Les jeter au large", "en": "Throw it overboard offshore", "correct": False},
          {"fr": "Les brûler à bord", "en": "Burn it aboard", "correct": False}]},
 
+    # --- Compléments option côtière (banque portée à 40) -------------------
+    # Balisage (IALA région A)
+    {"option": "cotiere", "theme": "balisage", "source": "iala_a",
+     "ref": "Balisage IALA — marque cardinale Sud", "polarity": "affirmative",
+     "fr": {"stem": "Comment reconnaît-on le voyant d'une marque cardinale SUD, et de "
+            "quel côté faut-il passer ?",
+            "explanation": "Cardinale Sud : deux cônes noirs superposés, pointes vers le "
+            "BAS ; les eaux saines sont au sud, on passe donc au sud de la marque."},
+     "en": {"stem": "How is a SOUTH cardinal mark's topmark recognised, and which side "
+            "do you pass?",
+            "explanation": "South cardinal: two black cones pointing DOWN; safe water is "
+            "to the south, so pass to the south of the mark."},
+     "choices": [
+         {"fr": "Deux cônes pointes vers le bas ; on passe au sud", "en": "Two cones "
+          "pointing down; pass to the south", "correct": True},
+         {"fr": "Deux cônes pointes vers le haut ; on passe au nord", "en": "Two cones "
+          "pointing up; pass to the north", "correct": False},
+         {"fr": "Deux cônes base contre base ; on passe à l'est", "en": "Two cones base "
+          "to base; pass to the east", "correct": False}]},
+
+    {"option": "cotiere", "theme": "balisage", "source": "iala_a",
+     "ref": "Balisage IALA — marque spéciale", "polarity": "affirmative",
+     "fr": {"stem": "Que signale une marque entièrement JAUNE, éventuellement surmontée "
+            "d'une croix de Saint-André (X) jaune ?",
+            "explanation": "C'est une marque spéciale : elle délimite une zone ou un "
+            "dispositif particulier (baignade, chenal, conduite immergée, zone "
+            "réglementée) et ne marque pas en soi un danger de navigation."},
+     "en": {"stem": "What does an all-YELLOW mark, possibly with a yellow St Andrew's "
+            "cross (X) topmark, indicate?",
+            "explanation": "A special mark: it bounds a special area or feature (bathing "
+            "zone, channel, pipeline, restricted area) and does not itself mark a "
+            "navigational danger."},
+     "choices": [
+         {"fr": "Une zone ou un dispositif particulier (marque spéciale)", "en": "A "
+          "special area or feature (special mark)", "correct": True},
+         {"fr": "Un danger isolé à éviter", "en": "An isolated danger to avoid",
+          "correct": False},
+         {"fr": "Le côté tribord du chenal", "en": "The starboard side of the channel",
+          "correct": False}]},
+
+    # Règles de barre et de route (RIPAM)
+    {"option": "cotiere", "theme": "regles_route", "source": "ripam",
+     "ref": "RIPAM règle 9 — Chenaux étroits", "polarity": "affirmative",
+     "fr": {"stem": "Dans un chenal étroit, de quel côté un navire doit-il en règle "
+            "générale se tenir ?",
+            "explanation": "RIPAM règle 9 : il serre, dans la mesure du possible et "
+            "sans danger, le bord extérieur du chenal situé sur SA droite (tribord)."},
+     "en": {"stem": "In a narrow channel, to which side must a vessel generally keep?",
+            "explanation": "COLREG rule 9: keep as near as is safe to the outer limit of "
+            "the channel that lies on its STARBOARD side."},
+     "choices": [
+         {"fr": "Le bord du chenal situé sur sa droite (tribord)", "en": "The channel "
+          "edge on its starboard side", "correct": True},
+         {"fr": "Le milieu du chenal", "en": "The middle of the channel", "correct": False},
+         {"fr": "Le bord situé sur sa gauche (bâbord)", "en": "The edge on its port side",
+          "correct": False}]},
+
+    # Feux, marques et signaux (RIPAM)
+    {"option": "cotiere", "theme": "feux_signaux", "source": "ripam",
+     "ref": "RIPAM règle 30 — Navire au mouillage", "polarity": "affirmative",
+     "fr": {"stem": "De nuit, un navire de moins de 50 m au mouillage montre :",
+            "explanation": "RIPAM règle 30 : un feu blanc visible sur tout l'horizon, "
+            "placé à l'avant ; de jour, une boule noire à l'avant."},
+     "en": {"stem": "At night, a vessel under 50 m at anchor shows:",
+            "explanation": "COLREG rule 30: an all-round white light forward; by day, a "
+            "black ball forward."},
+     "choices": [
+         {"fr": "Un feu blanc visible sur tout l'horizon", "en": "An all-round white "
+          "light", "correct": True},
+         {"fr": "Un feu rouge visible sur tout l'horizon", "en": "An all-round red light",
+          "correct": False},
+         {"fr": "Deux feux verts superposés", "en": "Two green lights in a vertical line",
+          "correct": False}]},
+
+    # Sécurité et matériel d'armement (Division 240)
+    {"option": "cotiere", "theme": "securite", "source": "division_240",
+     "ref": "Division 240 — coupe-circuit (arrêt d'urgence)", "polarity": "affirmative",
+     "fr": {"stem": "Sur un bateau à moteur conduit à la barre franche, pourquoi le "
+            "conducteur doit-il porter le coupe-circuit (cordon) relié à lui ?",
+            "explanation": "En cas de chute à l'eau, le cordon se détache et coupe "
+            "aussitôt le moteur : le bateau ne part pas seul et ne blesse pas l'homme "
+            "à la mer."},
+     "en": {"stem": "On a tiller-steered motorboat, why must the driver wear the engine "
+            "kill-cord attached to themselves?",
+            "explanation": "If they fall overboard, the cord pulls free and instantly "
+            "stops the engine: the boat cannot run off or injure the person in the water."},
+     "choices": [
+         {"fr": "Il coupe le moteur si le conducteur tombe à l'eau", "en": "It stops the "
+          "engine if the driver falls overboard", "correct": True},
+         {"fr": "Il augmente la vitesse du moteur", "en": "It increases engine speed",
+          "correct": False},
+         {"fr": "Il sert d'antivol au port", "en": "It serves as an anti-theft device in "
+          "port", "correct": False}]},
+
+    # Météorologie et marées
+    {"option": "cotiere", "theme": "meteo_maree", "source": "arrete_2007",
+     "ref": "Marées — étale", "polarity": "affirmative",
+     "fr": {"stem": "Qu'appelle-t-on l'« étale » de marée ?",
+            "explanation": "C'est le court moment, à la pleine ou à la basse mer, où le "
+            "niveau de l'eau ne varie plus et où le courant de marée est quasiment nul."},
+     "en": {"stem": "What is the tidal “slack” (étale)?",
+            "explanation": "The brief moment, at high or low water, when the level stops "
+            "changing and the tidal stream is almost nil."},
+     "choices": [
+         {"fr": "Le moment où le niveau ne varie plus (courant nul)", "en": "When the "
+          "level stops changing (no current)", "correct": True},
+         {"fr": "Le moment où le courant est le plus fort", "en": "When the current is "
+          "strongest", "correct": False},
+         {"fr": "La différence entre pleine et basse mer", "en": "The difference between "
+          "high and low water", "correct": False}]},
+
+    # Réglementation, permis et radio
+    {"option": "cotiere", "theme": "reglementation", "source": "arrete_2007",
+     "ref": "Bande littorale des 300 mètres — vitesse", "polarity": "affirmative",
+     "fr": {"stem": "Dans la bande littorale des 300 mètres à partir du rivage, à "
+            "quelle vitesse la navigation est-elle en principe limitée ?",
+            "explanation": "Sauf disposition locale particulière, la vitesse est limitée "
+            "à 5 nœuds dans la bande des 300 mètres, pour la sécurité des baigneurs."},
+     "en": {"stem": "Within the 300-metre coastal band from the shore, what is the "
+            "navigation speed generally limited to?",
+            "explanation": "Unless a local rule says otherwise, speed is limited to "
+            "5 knots within the 300-metre band, for the safety of swimmers."},
+     "choices": [
+         {"fr": "5 nœuds", "en": "5 knots", "correct": True},
+         {"fr": "20 nœuds", "en": "20 knots", "correct": False},
+         {"fr": "Aucune limite de vitesse", "en": "No speed limit", "correct": False}]},
+
+    {"option": "cotiere", "theme": "reglementation", "source": "arrete_2007",
+     "ref": "VHF — message PAN PAN", "polarity": "affirmative",
+     "fr": {"stem": "Un message radio commençant par « PAN PAN » correspond à quel "
+            "degré de priorité ?",
+            "explanation": "« PAN PAN » = urgence : la sécurité d'un navire ou d'une "
+            "personne est compromise, sans le danger grave et imminent qui justifierait "
+            "la détresse (MAYDAY)."},
+     "en": {"stem": "A radio message beginning with “PAN PAN” corresponds to which "
+            "priority level?",
+            "explanation": "“PAN PAN” = urgency: the safety of a vessel or person is at "
+            "risk, without the grave and imminent danger that warrants distress (MAYDAY)."},
+     "choices": [
+         {"fr": "L'urgence", "en": "Urgency", "correct": True},
+         {"fr": "La détresse", "en": "Distress", "correct": False},
+         {"fr": "La sécurité (bulletin météo)", "en": "Safety (weather bulletin)",
+          "correct": False}]},
+
+    # Protection de l'environnement
+    {"option": "cotiere", "theme": "environnement", "source": "arrete_2007",
+     "ref": "Mouillage et herbiers protégés", "polarity": "affirmative",
+     "fr": {"stem": "En Méditerranée, sur les herbiers de posidonie, le mouillage de "
+            "l'ancre est :",
+            "explanation": "Réglementé, voire interdit dans de nombreuses zones : l'ancre "
+            "arrache ces herbiers protégés, essentiels à la vie marine ; on utilise les "
+            "zones ou bouées de mouillage prévues."},
+     "en": {"stem": "In the Mediterranean, anchoring on Posidonia seagrass beds is:",
+            "explanation": "Regulated, and prohibited in many areas: the anchor tears up "
+            "these protected beds, vital to marine life; use the designated anchoring "
+            "zones or buoys."},
+     "choices": [
+         {"fr": "Réglementé, voire interdit (herbiers protégés)", "en": "Regulated, even "
+          "prohibited (protected beds)", "correct": True},
+         {"fr": "Libre et sans conséquence", "en": "Free and harmless", "correct": False},
+         {"fr": "Recommandé car l'ancre y tient bien", "en": "Recommended because the "
+          "anchor holds well there", "correct": False}]},
+
     # ======================= OPTION EAUX INTÉRIEURES =======================
 
     # --- Voies navigables et stationnement ---------------------------------
@@ -906,4 +1069,331 @@ SEED: list[dict] = [
           "centre", "correct": False},
          {"fr": "S'amarrer dans les roselières", "en": "Moor in the reed beds",
           "correct": False}]},
+
+    # --- Compléments option eaux intérieures (banque portée à 40) ----------
+    # Voies navigables et stationnement
+    {"option": "eaux_interieures", "theme": "voies_navigables", "source": "rgp",
+     "ref": "RGP — bateau avalant / montant", "polarity": "affirmative",
+     "fr": {"stem": "En navigation intérieure, que désigne un bateau « avalant » ?",
+            "explanation": "Un avalant descend le courant (il va vers l'aval) ; un "
+            "montant le remonte. Sur les rivières, l'avalant, moins manœuvrant, est "
+            "prioritaire."},
+     "en": {"stem": "On inland waters, what is a “down-bound” (avalant) vessel?",
+            "explanation": "A down-bound vessel goes with the current (downstream); an "
+            "up-bound (montant) one goes against it. On rivers the down-bound vessel, "
+            "less manoeuvrable, has priority."},
+     "choices": [
+         {"fr": "Un bateau qui descend le courant", "en": "A vessel going downstream",
+          "correct": True},
+         {"fr": "Un bateau qui remonte le courant", "en": "A vessel going upstream",
+          "correct": False},
+         {"fr": "Un bateau à l'arrêt contre la berge", "en": "A vessel stopped against "
+          "the bank", "correct": False}]},
+
+    {"option": "eaux_interieures", "theme": "voies_navigables", "source": "rgp",
+     "ref": "RGP — repérage le long d'une voie d'eau", "polarity": "affirmative",
+     "fr": {"stem": "Le long d'un fleuve ou d'un canal, comment repère-t-on sa "
+            "position ?",
+            "explanation": "Par les points kilométriques (PK), matérialisés par des "
+            "bornes ou plaques sur les rives, qui comptent les kilomètres depuis "
+            "l'origine de la voie d'eau."},
+     "en": {"stem": "Along a river or canal, how is your position located?",
+            "explanation": "By kilometre points (PK), shown by markers or plates on the "
+            "banks, counting the kilometres from the start of the waterway."},
+     "choices": [
+         {"fr": "Par les points kilométriques (bornes des rives)", "en": "By kilometre "
+          "points (bank markers)", "correct": True},
+         {"fr": "Par la latitude et la longitude seules", "en": "By latitude and "
+          "longitude alone", "correct": False},
+         {"fr": "Par les milles nautiques", "en": "By nautical miles", "correct": False}]},
+
+    {"option": "eaux_interieures", "theme": "voies_navigables", "source": "rgp",
+     "ref": "RGP — tirant d'air sous les ouvrages", "polarity": "affirmative",
+     "fr": {"stem": "Avant de passer sous un pont ou une ligne électrique, que doit "
+            "vérifier le conducteur ?",
+            "explanation": "Que son tirant d'air (hauteur du bateau au-dessus de l'eau) "
+            "est inférieur à la hauteur libre disponible, indiquée par la signalisation."},
+     "en": {"stem": "Before passing under a bridge or a power line, what must the "
+            "driver check?",
+            "explanation": "That the air draft (the boat's height above the water) is "
+            "less than the available headroom, shown by the signs."},
+     "choices": [
+         {"fr": "Que son tirant d'air est inférieur à la hauteur libre", "en": "That the "
+          "air draft is less than the available headroom", "correct": True},
+         {"fr": "Que sa vitesse est maximale", "en": "That its speed is at maximum",
+          "correct": False},
+         {"fr": "Que son ancre est mouillée", "en": "That its anchor is down",
+          "correct": False}]},
+
+    # Écluses, barrages et ouvrages
+    {"option": "eaux_interieures", "theme": "ecluses", "source": "rgp",
+     "ref": "RGP — conduite de l'écluse", "polarity": "affirmative",
+     "fr": {"stem": "À l'écluse, qui fixe l'ordre et les modalités d'entrée des "
+            "bateaux ?",
+            "explanation": "L'éclusier (ou la signalisation / l'automatisme de "
+            "l'écluse) ; on suit ses instructions et les feux."},
+     "en": {"stem": "At a lock, who sets the order and manner in which vessels enter?",
+            "explanation": "The lock-keeper (or the lock's signs / automatic system); "
+            "follow their instructions and the lights."},
+     "choices": [
+         {"fr": "L'éclusier et la signalisation de l'écluse", "en": "The lock-keeper and "
+          "the lock's signs", "correct": True},
+         {"fr": "Le bateau le plus rapide", "en": "The fastest vessel", "correct": False},
+         {"fr": "Chaque conducteur, librement", "en": "Each driver, freely",
+          "correct": False}]},
+
+    {"option": "eaux_interieures", "theme": "ecluses", "source": "rgp",
+     "ref": "RGP — deux feux rouges à l'écluse", "polarity": "affirmative",
+     "fr": {"stem": "À une écluse, que signifient DEUX feux rouges ?",
+            "explanation": "L'écluse est hors service / fermée à la navigation. Un seul "
+            "feu rouge signifie « attendez » et le feu vert autorise l'entrée."},
+     "en": {"stem": "At a lock, what do TWO red lights mean?",
+            "explanation": "The lock is out of service / closed to navigation. A single "
+            "red light means “wait”, and a green light authorises entry."},
+     "choices": [
+         {"fr": "L'écluse est hors service", "en": "The lock is out of service",
+          "correct": True},
+         {"fr": "L'entrée est immédiatement autorisée", "en": "Entry is immediately "
+          "authorised", "correct": False},
+         {"fr": "La sortie est obligatoire", "en": "Exit is compulsory", "correct": False}]},
+
+    # Signalisation des voies et des bateaux
+    {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
+     "ref": "RGP — panneaux d'interdiction", "polarity": "affirmative",
+     "fr": {"stem": "En navigation intérieure, à quoi reconnaît-on un panneau "
+            "d'INTERDICTION ?",
+            "explanation": "Les panneaux d'interdiction ont un bord rouge (souvent une "
+            "bande blanche barrée de rouge), comme le panneau « passage interdit »."},
+     "en": {"stem": "On inland waters, how do you recognise a PROHIBITION sign?",
+            "explanation": "Prohibition signs have a red border (often a white bar with "
+            "red), like the “no entry” sign."},
+     "choices": [
+         {"fr": "À son bord rouge", "en": "By its red border", "correct": True},
+         {"fr": "À sa couleur entièrement bleue", "en": "By being entirely blue",
+          "correct": False},
+         {"fr": "À sa forme triangulaire verte", "en": "By a green triangular shape",
+          "correct": False}]},
+
+    {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
+     "ref": "RGP — panneaux d'indication", "polarity": "affirmative",
+     "fr": {"stem": "Que donne, en règle générale, un panneau rectangulaire BLEU à "
+            "symbole blanc ?",
+            "explanation": "Les panneaux bleus rectangulaires donnent une indication ou "
+            "un renseignement (stationnement autorisé, bac, point de service…)."},
+     "en": {"stem": "What does a rectangular BLUE sign with a white symbol generally "
+            "give?",
+            "explanation": "Blue rectangular signs give information (mooring allowed, "
+            "ferry, service point, etc.)."},
+     "choices": [
+         {"fr": "Une indication / un renseignement", "en": "Information / guidance",
+          "correct": True},
+         {"fr": "Une interdiction absolue", "en": "An absolute prohibition",
+          "correct": False},
+         {"fr": "Un danger immédiat", "en": "An immediate danger", "correct": False}]},
+
+    {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
+     "ref": "RGP — stationnement autorisé (P)", "polarity": "affirmative",
+     "fr": {"stem": "Un panneau carré BLEU portant la lettre « P » blanche signifie :",
+            "explanation": "Stationnement (amarrage) autorisé à cet endroit."},
+     "en": {"stem": "A square BLUE sign bearing a white letter “P” means:",
+            "explanation": "Mooring (berthing) is permitted at this spot."},
+     "choices": [
+         {"fr": "Stationnement autorisé", "en": "Mooring permitted", "correct": True},
+         {"fr": "Stationnement interdit", "en": "Mooring prohibited", "correct": False},
+         {"fr": "Port de plaisance à 1 km", "en": "Marina 1 km ahead", "correct": False}]},
+
+    {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
+     "ref": "RGP — panneaux d'obligation", "polarity": "affirmative",
+     "fr": {"stem": "Un panneau à bord rouge portant une flèche blanche indique :",
+            "explanation": "C'est un panneau d'obligation : il impose de suivre la "
+            "direction (le côté) indiquée par la flèche."},
+     "en": {"stem": "A red-bordered sign bearing a white arrow indicates:",
+            "explanation": "It is a mandatory sign: you must follow the direction (the "
+            "side) shown by the arrow."},
+     "choices": [
+         {"fr": "Une obligation de suivre la direction indiquée", "en": "An obligation "
+          "to follow the shown direction", "correct": True},
+         {"fr": "Une simple recommandation", "en": "A mere recommendation",
+          "correct": False},
+         {"fr": "Une zone de baignade", "en": "A bathing area", "correct": False}]},
+
+    {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
+     "ref": "RGP — panneaux de restriction (valeurs chiffrées)", "polarity": "affirmative",
+     "fr": {"stem": "Un panneau portant un nombre (par ex. « 3,50 m ») signale "
+            "généralement :",
+            "explanation": "Une limitation (restriction) : par exemple la hauteur libre, "
+            "la largeur ou la profondeur disponible, ou une vitesse maximale."},
+     "en": {"stem": "A sign bearing a number (e.g. “3.50 m”) generally indicates:",
+            "explanation": "A restriction: for example the available headroom, width or "
+            "depth, or a maximum speed."},
+     "choices": [
+         {"fr": "Une limitation (hauteur, largeur, profondeur ou vitesse)", "en": "A "
+          "limit (headroom, width, depth or speed)", "correct": True},
+         {"fr": "La distance jusqu'à la prochaine écluse", "en": "The distance to the "
+          "next lock", "correct": False},
+         {"fr": "Le numéro de la voie d'eau", "en": "The waterway's number",
+          "correct": False}]},
+
+    # Règles de route (fluvial)
+    {"option": "eaux_interieures", "theme": "regles_route", "source": "rgp",
+     "ref": "RGP — priorité de l'avalant", "polarity": "affirmative",
+     "fr": {"stem": "Sur une rivière à courant, lorsqu'un montant et un avalant se "
+            "rencontrent, qui est prioritaire ?",
+            "explanation": "L'avalant (qui descend le courant) est prioritaire car il "
+            "manœuvre moins bien ; le montant lui laisse la route et le bord voulu."},
+     "en": {"stem": "On a flowing river, when an up-bound and a down-bound vessel meet, "
+            "which has priority?",
+            "explanation": "The down-bound vessel (going with the current) has priority "
+            "because it manoeuvres less easily; the up-bound vessel leaves it the way "
+            "and the chosen side."},
+     "choices": [
+         {"fr": "L'avalant (qui descend le courant)", "en": "The down-bound vessel",
+          "correct": True},
+         {"fr": "Le montant (qui remonte le courant)", "en": "The up-bound vessel",
+          "correct": False},
+         {"fr": "Le plus grand des deux bateaux", "en": "The larger of the two vessels",
+          "correct": False}]},
+
+    {"option": "eaux_interieures", "theme": "regles_route", "source": "rgp",
+     "ref": "RGP — rencontre sur plan d'eau sans courant", "polarity": "affirmative",
+     "fr": {"stem": "Sur un plan d'eau sans courant, deux bateaux à moteur se "
+            "rencontrent face à face. Que font-ils ?",
+            "explanation": "Chacun vient sur tribord (sa droite) pour se croiser bâbord "
+            "sur bâbord."},
+     "en": {"stem": "On still water, two power-driven vessels meet head-on. What do "
+            "they do?",
+            "explanation": "Each alters to starboard (its right) so they pass port to "
+            "port."},
+     "choices": [
+         {"fr": "Chacun vient sur tribord", "en": "Each alters to starboard",
+          "correct": True},
+         {"fr": "Chacun vient sur bâbord", "en": "Each alters to port", "correct": False},
+         {"fr": "Ils s'arrêtent tous les deux", "en": "They both stop", "correct": False}]},
+
+    {"option": "eaux_interieures", "theme": "regles_route", "source": "rgp",
+     "ref": "RGP — dépassement (trématage)", "polarity": "affirmative",
+     "fr": {"stem": "En navigation intérieure, de quel côté un bateau en dépasse-t-il "
+            "normalement un autre ?",
+            "explanation": "En principe par bâbord (la gauche) du bateau rattrapé, après "
+            "s'être assuré que la manœuvre est sans danger ; le rattrapant s'écarte du "
+            "rattrapé."},
+     "en": {"stem": "On inland waters, on which side does a vessel normally overtake "
+            "another?",
+            "explanation": "As a rule on the port (left) side of the vessel being "
+            "overtaken, once sure the manoeuvre is safe; the overtaking vessel keeps "
+            "clear of the one overtaken."},
+     "choices": [
+         {"fr": "Par bâbord (à gauche) du bateau rattrapé", "en": "On the port (left) "
+          "side of the overtaken vessel", "correct": True},
+         {"fr": "Toujours par tribord", "en": "Always on the starboard side",
+          "correct": False},
+         {"fr": "En le serrant de très près", "en": "By passing very close to it",
+          "correct": False}]},
+
+    # Sécurité (fluvial)
+    {"option": "eaux_interieures", "theme": "securite", "source": "rgp",
+     "ref": "RGP — moyen d'assèchement", "polarity": "affirmative",
+     "fr": {"stem": "Parmi le matériel utile à bord d'une menue embarcation, on doit "
+            "disposer d'un moyen permettant :",
+            "explanation": "D'assécher le bateau (écope, pompe ou seau) en cas d'entrée "
+            "d'eau, en plus des équipements individuels de flottabilité."},
+     "en": {"stem": "Among the useful equipment aboard a small craft, you must have a "
+            "means of:",
+            "explanation": "Bailing the boat out (scoop, pump or bucket) if water comes "
+            "in, in addition to the personal flotation devices."},
+     "choices": [
+         {"fr": "D'assécher le bateau (écope ou pompe)", "en": "Bailing the boat out "
+          "(scoop or pump)", "correct": True},
+         {"fr": "De mesurer la profondeur du chenal", "en": "Measuring the channel "
+          "depth", "correct": False},
+         {"fr": "De recharger la VHF", "en": "Recharging the VHF", "correct": False}]},
+
+    {"option": "eaux_interieures", "theme": "securite", "source": "rgp",
+     "ref": "RGP — moyen de mouillage", "polarity": "affirmative",
+     "fr": {"stem": "Pour pouvoir s'arrêter en sécurité à l'écart d'un quai, une "
+            "embarcation doit disposer :",
+            "explanation": "D'un moyen de mouillage adapté (une ancre avec sa ligne) "
+            "permettant de tenir le bateau."},
+     "en": {"stem": "To be able to stop safely away from a quay, a craft must have:",
+            "explanation": "A suitable means of anchoring (an anchor with its line) to "
+            "hold the boat."},
+     "choices": [
+         {"fr": "Une ancre avec sa ligne de mouillage", "en": "An anchor with its rode",
+          "correct": True},
+         {"fr": "Un second moteur", "en": "A second engine", "correct": False},
+         {"fr": "Un radeau de survie", "en": "A liferaft", "correct": False}]},
+
+    # Réglementation (fluvial)
+    {"option": "eaux_interieures", "theme": "reglementation", "source": "rgp",
+     "ref": "RGP — documents de bord (titre de navigation)", "polarity": "affirmative",
+     "fr": {"stem": "Quel document, propre au bateau, doit pouvoir être présenté à "
+            "bord en eaux intérieures ?",
+            "explanation": "La carte de circulation (titre de navigation) du bateau, "
+            "avec, selon le cas, le permis du conducteur et l'attestation d'assurance."},
+     "en": {"stem": "Which document, specific to the boat, must be available aboard on "
+            "inland waters?",
+            "explanation": "The boat's circulation card (navigation title), together "
+            "with, where applicable, the driver's licence and proof of insurance."},
+     "choices": [
+         {"fr": "La carte de circulation du bateau", "en": "The boat's circulation card",
+          "correct": True},
+         {"fr": "Une carte routière de la région", "en": "A road map of the area",
+          "correct": False},
+         {"fr": "Le manuel du moteur uniquement", "en": "Only the engine manual",
+          "correct": False}]},
+
+    {"option": "eaux_interieures", "theme": "reglementation", "source": "arrete_2007",
+     "ref": "Certificat restreint de radiotéléphoniste (CRR)", "polarity": "affirmative",
+     "fr": {"stem": "Pour utiliser une station radio VHF à bord, le chef de bord doit "
+            "en principe être titulaire :",
+            "explanation": "Du certificat restreint de radiotéléphoniste (CRR), qui "
+            "autorise l'emploi d'une VHF."},
+     "en": {"stem": "To use a VHF radio aboard, the skipper must, as a rule, hold:",
+            "explanation": "The restricted radiotelephone certificate (CRR), which "
+            "authorises the use of a VHF."},
+     "choices": [
+         {"fr": "Du certificat restreint de radiotéléphoniste (CRR)", "en": "The "
+          "restricted radiotelephone certificate (CRR)", "correct": True},
+         {"fr": "Du seul permis plaisance", "en": "The boat licence alone",
+          "correct": False},
+         {"fr": "D'aucun titre particulier", "en": "No particular certificate",
+          "correct": False}]},
+
+    # Environnement (fluvial)
+    {"option": "eaux_interieures", "theme": "environnement", "source": "rgp",
+     "ref": "RGP — eaux usées (eaux noires)", "polarity": "affirmative",
+     "fr": {"stem": "Que doit faire le plaisancier de ses eaux usées (eaux noires) en "
+            "eaux intérieures ?",
+            "explanation": "Les conserver dans une cuve à bord puis les vider dans les "
+            "installations de collecte à terre ; leur rejet dans la voie d'eau est "
+            "interdit."},
+     "en": {"stem": "What should the boater do with waste water (black water) on inland "
+            "waters?",
+            "explanation": "Keep it in a holding tank aboard, then empty it at shore "
+            "collection facilities; discharging it into the waterway is prohibited."},
+     "choices": [
+         {"fr": "Les stocker en cuve et les vider à terre", "en": "Hold it in a tank and "
+          "empty it ashore", "correct": True},
+         {"fr": "Les rejeter discrètement la nuit", "en": "Discharge it discreetly at "
+          "night", "correct": False},
+         {"fr": "Les rejeter loin des berges", "en": "Discharge it far from the banks",
+          "correct": False}]},
+
+    {"option": "eaux_interieures", "theme": "environnement", "source": "rgp",
+     "ref": "RGP — avitaillement sans pollution", "polarity": "affirmative",
+     "fr": {"stem": "Lors du plein de carburant, quelle précaution évite la pollution "
+            "de l'eau ?",
+            "explanation": "Faire le plein sans précipitation et sans remplir à ras "
+            "bord (entonnoir, surveillance du niveau) pour éviter tout débordement "
+            "d'hydrocarbures à l'eau."},
+     "en": {"stem": "When refuelling, what precaution prevents water pollution?",
+            "explanation": "Refuel unhurriedly and do not fill to the brim (use a "
+            "funnel, watch the level) to avoid any fuel spilling into the water."},
+     "choices": [
+         {"fr": "Éviter tout débordement (ne pas remplir à ras bord)", "en": "Avoid any "
+          "overflow (do not fill to the brim)", "correct": True},
+         {"fr": "Remplir le plus vite possible", "en": "Fill as fast as possible",
+          "correct": False},
+         {"fr": "Rincer le réservoir à l'eau du canal", "en": "Rinse the tank with canal "
+          "water", "correct": False}]},
 ]

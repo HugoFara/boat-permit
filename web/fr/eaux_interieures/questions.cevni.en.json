@@ -18,14 +18,14 @@
     "ui_title": "French boating licence — inland-waters option (practice)",
     "ui_h1": "French boating licence — inland-waters option",
     "ui_subtitle": "Theory exam · rivers, canals and lakes",
-    "ui_demo": "<strong>Question bank in progress.</strong> Questions derived from freely-reusable French law (the inland-navigation police regulation, the 28 Sept. 2007 order). Not an official exam; the bank keeps growing.",
+    "ui_demo": "<strong>Full practice bank (40 questions, the exam format).</strong> Questions derived from freely-reusable French law (the inland-navigation police regulation, the 28 Sept. 2007 order). Not an official exam.",
     "ui_sourcenote": "Source: French law (official act, freely reusable under the Open Licence / Etalab) — RIPAM, RGP, the 28 September 2007 order, Division 240. No question taken from an operator's bank.",
     "ui_multihint": "Only one answer is correct.",
     "pool": "cevni"
   },
   "questions": [
     {
-      "id": "q-fr-rgp-31-3e38ff13",
+      "id": "q-fr-rgp-40-d508050f",
       "theme": "voies_navigables",
       "kind": "rule_mc",
       "stem": "Under the inland navigation police regulation (RGP), what is a “small craft” (menue embarcation)?",
@@ -47,7 +47,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-31",
+        "unit_id": "fr-rgp-40",
         "ref": "RGP — définition de la menue embarcation",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-32-c6e46c56",
+      "id": "q-fr-rgp-41-9ea04935",
       "theme": "voies_navigables",
       "kind": "rule_mc",
       "stem": "Where is mooring (stopping) of a vessel generally prohibited on a waterway?",
@@ -90,7 +90,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-32",
+        "unit_id": "fr-rgp-41",
         "ref": "RGP — stationnement",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-33-3d3f6860",
+      "id": "q-fr-rgp-42-1f794b0d",
       "theme": "voies_navigables",
       "kind": "rule_mc",
       "stem": "To limit wash (the wake that erodes banks and rocks moored boats), what must the driver do near the banks?",
@@ -133,7 +133,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-33",
+        "unit_id": "fr-rgp-42",
         "ref": "RGP — batillage",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-34-78089edb",
+      "id": "q-fr-rgp-43-e53f0eaf",
       "theme": "ecluses",
       "kind": "rule_mc",
       "stem": "At a lock entrance, what does a RED light mean?",
@@ -176,7 +176,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-34",
+        "unit_id": "fr-rgp-43",
         "ref": "RGP — signalisation des écluses",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-35-6cb14a0c",
+      "id": "q-fr-rgp-44-9193cab9",
       "theme": "ecluses",
       "kind": "rule_mc",
       "stem": "Which light authorises entry into a lock?",
@@ -219,7 +219,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-35",
+        "unit_id": "fr-rgp-44",
         "ref": "RGP — feu vert d'écluse",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -240,7 +240,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-36-38007515",
+      "id": "q-fr-rgp-45-45186bd5",
       "theme": "ecluses",
       "kind": "rule_mc",
       "stem": "In a lock chamber, how should you handle your lines during locking?",
@@ -262,7 +262,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-36",
+        "unit_id": "fr-rgp-45",
         "ref": "RGP — amarrage dans le sas",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -283,7 +283,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-37-3b473a4d",
+      "id": "q-fr-rgp-46-7ffa546c",
       "theme": "signalisation_fluviale",
       "kind": "rule_mc",
       "stem": "On a waterway, what does a rectangular sign with a red border and a white horizontal bar mean?",
@@ -305,7 +305,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-37",
+        "unit_id": "fr-rgp-46",
         "ref": "RGP — panneau d'interdiction (A.1)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-38-e5fad222",
+      "id": "q-fr-rgp-47-bc104a8d",
       "theme": "signalisation_fluviale",
       "kind": "rule_mc",
       "stem": "On an inland waterway, what does ONE prolonged blast from a vessel generally mean?",
@@ -348,7 +348,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-38",
+        "unit_id": "fr-rgp-47",
         "ref": "RGP — signaux sonores (son prolongé)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -369,7 +369,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-39-6a5b82d6",
+      "id": "q-fr-rgp-48-43e11fe7",
       "theme": "signalisation_fluviale",
       "kind": "rule_mc",
       "stem": "At night, a power-driven vessel underway on inland waters shows a light to port. What colour is it?",
@@ -391,7 +391,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-39",
+        "unit_id": "fr-rgp-48",
         "ref": "RGP — feux de nuit d'un bateau motorisé",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -412,7 +412,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-40-db220b78",
+      "id": "q-fr-rgp-49-92709847",
       "theme": "signalisation_fluviale",
       "kind": "rule_mc",
       "stem": "At night, a vessel moored away from the bank, outside a harbour, most often shows:",
@@ -434,7 +434,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-40",
+        "unit_id": "fr-rgp-49",
         "ref": "RGP — marque de jour d'un bateau à l'arrêt",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -455,7 +455,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-41-4fb09503",
+      "id": "q-fr-rgp-50-30f74d5c",
       "theme": "regles_route",
       "kind": "rule_mc",
       "stem": "On inland waters, with respect to large vessels, ferries and vessels on a regular service, small craft (pleasure boats) must:",
@@ -477,7 +477,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-41",
+        "unit_id": "fr-rgp-50",
         "ref": "RGP — priorité des menues embarcations",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -498,7 +498,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-42-9a5b159c",
+      "id": "q-fr-rgp-51-397ff43c",
       "theme": "regles_route",
       "kind": "rule_mc",
       "stem": "As a general rule on an inland waterway, to which side should a vessel keep?",
@@ -520,7 +520,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-42",
+        "unit_id": "fr-rgp-51",
         "ref": "RGP — règle générale de route",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-43-920a13db",
+      "id": "q-fr-rgp-52-5f6a7405",
       "theme": "regles_route",
       "kind": "rule_mc",
       "stem": "In a narrow passage (under a bridge, a tight channel) where crossing is impossible, what must the driver do?",
@@ -563,7 +563,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-43",
+        "unit_id": "fr-rgp-52",
         "ref": "RGP — passage des ponts et passages étroits",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -575,6 +575,565 @@
       "image": null,
       "points": 1,
       "explanation": "Make sure the passage is clear before entering and give way per the signs; on rivers priority goes to the down-bound vessel (going with the current).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-61-0b480791",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "On inland waters, what is a “down-bound” (avalant) vessel?",
+      "choices": [
+        {
+          "text": "A vessel going downstream",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A vessel going upstream",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A vessel stopped against the bank",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-61",
+        "ref": "RGP — bateau avalant / montant",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "A down-bound vessel goes with the current (downstream); an up-bound (montant) one goes against it. On rivers the down-bound vessel, less manoeuvrable, has priority.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-62-3e9f3647",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Along a river or canal, how is your position located?",
+      "choices": [
+        {
+          "text": "By kilometre points (bank markers)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "By latitude and longitude alone",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By nautical miles",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-62",
+        "ref": "RGP — repérage le long d'une voie d'eau",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "By kilometre points (PK), shown by markers or plates on the banks, counting the kilometres from the start of the waterway.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-63-17514081",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Before passing under a bridge or a power line, what must the driver check?",
+      "choices": [
+        {
+          "text": "That the air draft is less than the available headroom",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "That its speed is at maximum",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "That its anchor is down",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-63",
+        "ref": "RGP — tirant d'air sous les ouvrages",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "That the air draft (the boat's height above the water) is less than the available headroom, shown by the signs.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-64-3d9c8ad0",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "At a lock, who sets the order and manner in which vessels enter?",
+      "choices": [
+        {
+          "text": "The lock-keeper and the lock's signs",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The fastest vessel",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Each driver, freely",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-64",
+        "ref": "RGP — conduite de l'écluse",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The lock-keeper (or the lock's signs / automatic system); follow their instructions and the lights.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-65-223fd27d",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "At a lock, what do TWO red lights mean?",
+      "choices": [
+        {
+          "text": "The lock is out of service",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Entry is immediately authorised",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Exit is compulsory",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-65",
+        "ref": "RGP — deux feux rouges à l'écluse",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The lock is out of service / closed to navigation. A single red light means “wait”, and a green light authorises entry.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-66-ae886700",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "On inland waters, how do you recognise a PROHIBITION sign?",
+      "choices": [
+        {
+          "text": "By its red border",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "By being entirely blue",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By a green triangular shape",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-66",
+        "ref": "RGP — panneaux d'interdiction",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Prohibition signs have a red border (often a white bar with red), like the “no entry” sign.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-67-51ebf59c",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "What does a rectangular BLUE sign with a white symbol generally give?",
+      "choices": [
+        {
+          "text": "Information / guidance",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "An absolute prohibition",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An immediate danger",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-67",
+        "ref": "RGP — panneaux d'indication",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Blue rectangular signs give information (mooring allowed, ferry, service point, etc.).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-68-e7601837",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "A square BLUE sign bearing a white letter “P” means:",
+      "choices": [
+        {
+          "text": "Mooring permitted",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mooring prohibited",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Marina 1 km ahead",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-68",
+        "ref": "RGP — stationnement autorisé (P)",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Mooring (berthing) is permitted at this spot.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-69-a7ece36b",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "A red-bordered sign bearing a white arrow indicates:",
+      "choices": [
+        {
+          "text": "An obligation to follow the shown direction",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A mere recommendation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A bathing area",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-69",
+        "ref": "RGP — panneaux d'obligation",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "It is a mandatory sign: you must follow the direction (the side) shown by the arrow.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-70-c06c8fc1",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "A sign bearing a number (e.g. “3.50 m”) generally indicates:",
+      "choices": [
+        {
+          "text": "A limit (headroom, width, depth or speed)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The distance to the next lock",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The waterway's number",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-70",
+        "ref": "RGP — panneaux de restriction (valeurs chiffrées)",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "A restriction: for example the available headroom, width or depth, or a maximum speed.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-71-6fe61170",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "On a flowing river, when an up-bound and a down-bound vessel meet, which has priority?",
+      "choices": [
+        {
+          "text": "The down-bound vessel",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The up-bound vessel",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The larger of the two vessels",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-71",
+        "ref": "RGP — priorité de l'avalant",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The down-bound vessel (going with the current) has priority because it manoeuvres less easily; the up-bound vessel leaves it the way and the chosen side.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-72-c619375a",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "On still water, two power-driven vessels meet head-on. What do they do?",
+      "choices": [
+        {
+          "text": "Each alters to starboard",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Each alters to port",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "They both stop",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-72",
+        "ref": "RGP — rencontre sur plan d'eau sans courant",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Each alters to starboard (its right) so they pass port to port.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-73-dc2077e7",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "On inland waters, on which side does a vessel normally overtake another?",
+      "choices": [
+        {
+          "text": "On the port (left) side of the overtaken vessel",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Always on the starboard side",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By passing very close to it",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-73",
+        "ref": "RGP — dépassement (trématage)",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "As a rule on the port (left) side of the vessel being overtaken, once sure the manoeuvre is safe; the overtaking vessel keeps clear of the one overtaken.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",

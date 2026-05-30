@@ -104,9 +104,10 @@ regime tree:
 (`web/fr/<option>/questions.<base>.<lang>.json`) and lists them in the option
 manifest's `core` block, so each player offers a **National ⟷ Common core** toggle:
 the national bank is the full 40-question exam scope; the common core drills only
-the cross-country-portable rules (24 côtière / 17 eaux intérieures today). France
-is seed-driven, so its core is *France-local* (it is not yet merged into the global
-CH/DE core) — see `scope.md` › *Seed-driven countries*.
+the cross-country-portable rules (30 côtière = universal 10 + colregs 20; 34 eaux
+intérieures = universal 8 + cevni 26). France is seed-driven, so its core is
+*France-local* (it is not yet merged into the global CH/DE core) — see `scope.md`
+› *Seed-driven countries*.
 
 ## Build
 

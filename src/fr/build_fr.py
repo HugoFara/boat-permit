@@ -106,35 +106,36 @@ def _chrome(option: str) -> dict[str, dict[str, str]]:
             "fr": {"ui_title": "Permis plaisance — option côtière (entraînement)",
                    "ui_h1": "Permis plaisance — option côtière",
                    "ui_subtitle": "Examen théorique · navigation maritime jusqu'à 6 milles d'un abri",
-                   "ui_demo": "<strong>Banque en construction.</strong> Questions "
-                   "dérivées du droit français librement réutilisable (RIPAM, "
-                   "balisage IALA région A, Division 240, arrêté du 28 sept. 2007). "
-                   "Ce n'est pas un examen officiel ; la banque continue de s'étoffer.",
+                   "ui_demo": "<strong>Banque d'entraînement complète (40 questions, "
+                   "le format de l'examen).</strong> Questions dérivées du droit "
+                   "français librement réutilisable (RIPAM, balisage IALA région A, "
+                   "Division 240, arrêté du 28 sept. 2007). Ce n'est pas un examen "
+                   "officiel.",
                    "ui_sourcenote": src_note_fr, "ui_multihint": multi_fr},
             "en": {"ui_title": "French boating licence — coastal option (practice)",
                    "ui_h1": "French boating licence — coastal option",
                    "ui_subtitle": "Theory exam · sea navigation up to 6 miles from a shelter",
-                   "ui_demo": "<strong>Question bank in progress.</strong> Questions "
-                   "derived from freely-reusable French law (RIPAM, IALA region A "
-                   "buoyage, Division 240, the 28 Sept. 2007 order). Not an official "
-                   "exam; the bank keeps growing.",
+                   "ui_demo": "<strong>Full practice bank (40 questions, the exam "
+                   "format).</strong> Questions derived from freely-reusable French law "
+                   "(RIPAM, IALA region A buoyage, Division 240, the 28 Sept. 2007 "
+                   "order). Not an official exam.",
                    "ui_sourcenote": src_note_en, "ui_multihint": multi_en}}
     return {
         "fr": {"ui_title": "Permis plaisance — option eaux intérieures (entraînement)",
                "ui_h1": "Permis plaisance — option eaux intérieures",
                "ui_subtitle": "Examen théorique · rivières, canaux et lacs",
-               "ui_demo": "<strong>Banque en construction.</strong> Questions "
-               "dérivées du droit français librement réutilisable (règlement général "
-               "de police de la navigation intérieure, arrêté du 28 sept. 2007). "
-               "Ce n'est pas un examen officiel ; la banque continue de s'étoffer.",
+               "ui_demo": "<strong>Banque d'entraînement complète (40 questions, "
+               "le format de l'examen).</strong> Questions dérivées du droit français "
+               "librement réutilisable (règlement général de police de la navigation "
+               "intérieure, arrêté du 28 sept. 2007). Ce n'est pas un examen officiel.",
                "ui_sourcenote": src_note_fr, "ui_multihint": multi_fr},
         "en": {"ui_title": "French boating licence — inland-waters option (practice)",
                "ui_h1": "French boating licence — inland-waters option",
                "ui_subtitle": "Theory exam · rivers, canals and lakes",
-               "ui_demo": "<strong>Question bank in progress.</strong> Questions "
-               "derived from freely-reusable French law (the inland-navigation police "
-               "regulation, the 28 Sept. 2007 order). Not an official exam; the bank "
-               "keeps growing.",
+               "ui_demo": "<strong>Full practice bank (40 questions, the exam "
+               "format).</strong> Questions derived from freely-reusable French law "
+               "(the inland-navigation police regulation, the 28 Sept. 2007 order). "
+               "Not an official exam.",
                "ui_sourcenote": src_note_en, "ui_multihint": multi_en}}
 
 

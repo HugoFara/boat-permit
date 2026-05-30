@@ -18,7 +18,7 @@
     "ui_title": "French boating licence — coastal option (practice)",
     "ui_h1": "French boating licence — coastal option",
     "ui_subtitle": "Theory exam · sea navigation up to 6 miles from a shelter",
-    "ui_demo": "<strong>Question bank in progress.</strong> Questions derived from freely-reusable French law (RIPAM, IALA region A buoyage, Division 240, the 28 Sept. 2007 order). Not an official exam; the bank keeps growing.",
+    "ui_demo": "<strong>Full practice bank (40 questions, the exam format).</strong> Questions derived from freely-reusable French law (RIPAM, IALA region A buoyage, Division 240, the 28 Sept. 2007 order). Not an official exam.",
     "ui_sourcenote": "Source: French law (official act, freely reusable under the Open Licence / Etalab) — RIPAM, RGP, the 28 September 2007 order, Division 240. No question taken from an operator's bank.",
     "ui_multihint": "Only one answer is correct.",
     "pool": "colregs"
@@ -704,6 +704,178 @@
       "image": null,
       "points": 1,
       "explanation": "A red parachute rocket flare is a recognised distress signal; orange smoke also serves by day.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-31-95670c9e",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "How is a SOUTH cardinal mark's topmark recognised, and which side do you pass?",
+      "choices": [
+        {
+          "text": "Two cones pointing down; pass to the south",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Two cones pointing up; pass to the north",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Two cones base to base; pass to the east",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-31",
+        "ref": "Balisage IALA — marque cardinale Sud",
+        "source": "Balisage maritime — système IALA région A (référentiel permis plaisance)",
+        "url": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "South cardinal: two black cones pointing DOWN; safe water is to the south, so pass to the south of the mark.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-32-d1b2faa9",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "What does an all-YELLOW mark, possibly with a yellow St Andrew's cross (X) topmark, indicate?",
+      "choices": [
+        {
+          "text": "A special area or feature (special mark)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "An isolated danger to avoid",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The starboard side of the channel",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-32",
+        "ref": "Balisage IALA — marque spéciale",
+        "source": "Balisage maritime — système IALA région A (référentiel permis plaisance)",
+        "url": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "A special mark: it bounds a special area or feature (bathing zone, channel, pipeline, restricted area) and does not itself mark a navigational danger.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-33-c15b46e2",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "In a narrow channel, to which side must a vessel generally keep?",
+      "choices": [
+        {
+          "text": "The channel edge on its starboard side",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The middle of the channel",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The edge on its port side",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-33",
+        "ref": "RIPAM règle 9 — Chenaux étroits",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "COLREG rule 9: keep as near as is safe to the outer limit of the channel that lies on its STARBOARD side.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-34-3e1b8edc",
+      "theme": "feux_signaux",
+      "kind": "rule_mc",
+      "stem": "At night, a vessel under 50 m at anchor shows:",
+      "choices": [
+        {
+          "text": "An all-round white light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "An all-round red light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Two green lights in a vertical line",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-34",
+        "ref": "RIPAM règle 30 — Navire au mouillage",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "COLREG rule 30: an all-round white light forward; by day, a black ball forward.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",

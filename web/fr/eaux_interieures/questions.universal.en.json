@@ -18,14 +18,14 @@
     "ui_title": "French boating licence — inland-waters option (practice)",
     "ui_h1": "French boating licence — inland-waters option",
     "ui_subtitle": "Theory exam · rivers, canals and lakes",
-    "ui_demo": "<strong>Question bank in progress.</strong> Questions derived from freely-reusable French law (the inland-navigation police regulation, the 28 Sept. 2007 order). Not an official exam; the bank keeps growing.",
+    "ui_demo": "<strong>Full practice bank (40 questions, the exam format).</strong> Questions derived from freely-reusable French law (the inland-navigation police regulation, the 28 Sept. 2007 order). Not an official exam.",
     "ui_sourcenote": "Source: French law (official act, freely reusable under the Open Licence / Etalab) — RIPAM, RGP, the 28 September 2007 order, Division 240. No question taken from an operator's bank.",
     "ui_multihint": "Only one answer is correct.",
     "pool": "universal"
   },
   "questions": [
     {
-      "id": "q-fr-rgp-45-ca6a21b5",
+      "id": "q-fr-rgp-54-03dfc925",
       "theme": "securite",
       "kind": "rule_mc",
       "stem": "A vessel's identification mark (registration) must be:",
@@ -47,7 +47,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-45",
+        "unit_id": "fr-rgp-54",
         "ref": "RGP — marque d'identification",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-46-5d1f4d63",
+      "id": "q-fr-rgp-55-1942c7d7",
       "theme": "securite",
       "kind": "rule_mc",
       "stem": "Before getting under way, what must the skipper check (duty of care)?",
@@ -90,7 +90,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-46",
+        "unit_id": "fr-rgp-55",
         "ref": "RGP — devoir de vigilance avant le départ",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-50-6c0172e9",
+      "id": "q-fr-rgp-59-32f112e9",
       "theme": "environnement",
       "kind": "rule_mc",
       "stem": "On inland waters, discharging hydrocarbons, waste water or rubbish into the waterway is:",
@@ -133,7 +133,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-50",
+        "unit_id": "fr-rgp-59",
         "ref": "RGP — rejets dans la voie d'eau",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-51-a1621835",
+      "id": "q-fr-rgp-60-80fd925f",
       "theme": "environnement",
       "kind": "rule_mc",
       "stem": "To limit bank erosion and disturbance to wildlife, the boater should above all:",
@@ -176,7 +176,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-51",
+        "unit_id": "fr-rgp-60",
         "ref": "RGP — protection des berges et de la faune",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -188,6 +188,178 @@
       "image": null,
       "points": 1,
       "explanation": "Reduce speed and wash when approaching banks, reed beds and sensitive natural areas.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-74-6554f4ab",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Among the useful equipment aboard a small craft, you must have a means of:",
+      "choices": [
+        {
+          "text": "Bailing the boat out (scoop or pump)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Measuring the channel depth",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Recharging the VHF",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-74",
+        "ref": "RGP — moyen d'assèchement",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Bailing the boat out (scoop, pump or bucket) if water comes in, in addition to the personal flotation devices.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-75-b68b87bc",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "To be able to stop safely away from a quay, a craft must have:",
+      "choices": [
+        {
+          "text": "An anchor with its rode",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A second engine",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A liferaft",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-75",
+        "ref": "RGP — moyen de mouillage",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "A suitable means of anchoring (an anchor with its line) to hold the boat.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-78-45f1ad05",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "What should the boater do with waste water (black water) on inland waters?",
+      "choices": [
+        {
+          "text": "Hold it in a tank and empty it ashore",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Discharge it discreetly at night",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Discharge it far from the banks",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-78",
+        "ref": "RGP — eaux usées (eaux noires)",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Keep it in a holding tank aboard, then empty it at shore collection facilities; discharging it into the waterway is prohibited.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-79-0edde366",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "When refuelling, what precaution prevents water pollution?",
+      "choices": [
+        {
+          "text": "Avoid any overflow (do not fill to the brim)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Fill as fast as possible",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Rinse the tank with canal water",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-79",
+        "ref": "RGP — avitaillement sans pollution",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Refuel unhurriedly and do not fill to the brim (use a funnel, watch the level) to avoid any fuel spilling into the water.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",

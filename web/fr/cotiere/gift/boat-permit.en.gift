@@ -79,6 +79,40 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
 ####[html]Keep it aboard and dispose of it ashore in the harbour's collection facilities.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Gestion des déchets à bord — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
 }
 
+$CATEGORY: Boat permit · Lake Geneva (EN)/Météorologie et marées
+
+::q-fr-arrete2007-36-81f70bc0:: [html]What is the tidal “slack” (étale)? {
+=When the level stops changing (no current)
+~When the current is strongest
+~The difference between high and low water
+####[html]The brief moment, at high or low water, when the level stops changing and the tidal stream is almost nil.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Marées — étale — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
+
+::q-fr-arrete2007-37-30fd6822:: [html]Within the 300-metre coastal band from the shore, what is the navigation speed generally limited to? {
+=5 knots
+~20 knots
+~No speed limit
+####[html]Unless a local rule says otherwise, speed is limited to 5 knots within the 300-metre band, for the safety of swimmers.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Bande littorale des 300 mètres — vitesse — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+::q-fr-arrete2007-38-da676868:: [html]A radio message beginning with “PAN PAN” corresponds to which priority level? {
+=Urgency
+~Distress
+~Safety (weather bulletin)
+####[html]“PAN PAN” \= urgency\: the safety of a vessel or person is at risk, without the grave and imminent danger that warrants distress (MAYDAY).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">VHF — message PAN PAN — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
+
+::q-fr-arrete2007-39-7fb66a55:: [html]In the Mediterranean, anchoring on Posidonia seagrass beds is\: {
+=Regulated, even prohibited (protected beds)
+~Free and harmless
+~Recommended because the anchor holds well there
+####[html]Regulated, and prohibited in many areas\: the anchor tears up these protected beds, vital to marine life; use the designated anchoring zones or buoys.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Mouillage et herbiers protégés — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
 $CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
 
 ::q-fr-decret2007-27-f69a337c:: [html]Above what engine power is the permis plaisance required? {
@@ -127,6 +161,13 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
 ####[html]At most the number set by the builder, shown on the boat's builder's plate / design category.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Nombre de personnes embarquées — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
 }
 
+::q-fr-division240-35-fdb8b486:: [html]On a tiller-steered motorboat, why must the driver wear the engine kill-cord attached to themselves? {
+=It stops the engine if the driver falls overboard
+~It increases engine speed
+~It serves as an anti-theft device in port
+####[html]If they fall overboard, the cord pulls free and instantly stops the engine\: the boat cannot run off or injure the person in the water.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Division 240 — coupe-circuit (arrêt d'urgence) — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
+}
+
 $CATEGORY: Boat permit · Lake Geneva (EN)/Balisage et signalisation maritime
 
 ::q-fr-ialaa-0-876ff971:: [html]Coming from seaward (IALA region A), what colour and shape is a PORT-hand lateral mark? {
@@ -155,6 +196,20 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Balisage et signalisation maritime
 ~The main harbour entrance
 ~A supervised swimming area
 ####[html]It is an isolated-danger mark\: moored ON a small danger surrounded by safe water; white light, group flashing (2).<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque de danger isolé — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+}
+
+::q-fr-ialaa-31-95670c9e:: [html]How is a SOUTH cardinal mark's topmark recognised, and which side do you pass? {
+=Two cones pointing down; pass to the south
+~Two cones pointing up; pass to the north
+~Two cones base to base; pass to the east
+####[html]South cardinal\: two black cones pointing DOWN; safe water is to the south, so pass to the south of the mark.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque cardinale Sud — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+}
+
+::q-fr-ialaa-32-d1b2faa9:: [html]What does an all-YELLOW mark, possibly with a yellow St Andrew's cross (X) topmark, indicate? {
+=A special area or feature (special mark)
+~An isolated danger to avoid
+~The starboard side of the channel
+####[html]A special mark\: it bounds a special area or feature (bathing zone, channel, pipeline, restricted area) and does not itself mark a navigational danger.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque spéciale — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
 }
 
 ::q-fr-ialaa-4-9ddb6365:: [html]What does a mark with red and white vertical stripes and a red spherical topmark indicate? {
@@ -199,6 +254,24 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Feux, marques et signaux
 ~Three short blasts every minute
 ~No signal is required
 ####[html]COLREG rule 35\: one prolonged blast at intervals of no more than 2 minutes.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 35 — Signaux par visibilité réduite — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
+
+::q-fr-ripam-33-c15b46e2:: [html]In a narrow channel, to which side must a vessel generally keep? {
+=The channel edge on its starboard side
+~The middle of the channel
+~The edge on its port side
+####[html]COLREG rule 9\: keep as near as is safe to the outer limit of the channel that lies on its STARBOARD side.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 9 — Chenaux étroits — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Feux, marques et signaux
+
+::q-fr-ripam-34-3e1b8edc:: [html]At night, a vessel under 50 m at anchor shows\: {
+=An all-round white light
+~An all-round red light
+~Two green lights in a vertical line
+####[html]COLREG rule 30\: an all-round white light forward; by day, a black ball forward.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 30 — Navire au mouillage — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
 }
 
 $CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route

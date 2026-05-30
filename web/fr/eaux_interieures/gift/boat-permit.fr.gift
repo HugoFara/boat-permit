@@ -3,7 +3,14 @@
 
 $CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
 
-::q-fr-decret2007-47-48d07a37:: [html]Quel titre faut-il pour conduire un bateau de plaisance à moteur de plus de 4,5 kW sur les rivières et canaux ? {
+::q-fr-arrete2007-77-85609fb5:: [html]Pour utiliser une station radio VHF à bord, le chef de bord doit en principe être titulaire \: {
+=Du certificat restreint de radiotéléphoniste (CRR)
+~Du seul permis plaisance
+~D'aucun titre particulier
+####[html]Du certificat restreint de radiotéléphoniste (CRR), qui autorise l'emploi d'une VHF.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Certificat restreint de radiotéléphoniste (CRR) — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+::q-fr-decret2007-56-1fe9f90d:: [html]Quel titre faut-il pour conduire un bateau de plaisance à moteur de plus de 4,5 kW sur les rivières et canaux ? {
 =Le permis plaisance option eaux intérieures
 ~Aucun titre n'est nécessaire
 ~L'option côtière suffit toujours
@@ -12,7 +19,7 @@ $CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
 
 $CATEGORY: Permis bateau · Léman (FR)/Sécurité et matériel d'armement
 
-::q-fr-division240-44-94c84932:: [html]À bord d'une menue embarcation en eaux intérieures, de quoi chaque personne doit-elle disposer ? {
+::q-fr-division240-53-bc667494:: [html]À bord d'une menue embarcation en eaux intérieures, de quoi chaque personne doit-elle disposer ? {
 =Un équipement individuel de flottabilité
 ~Une combinaison étanche obligatoire
 ~Rien s'il sait nager
@@ -21,21 +28,21 @@ $CATEGORY: Permis bateau · Léman (FR)/Sécurité et matériel d'armement
 
 $CATEGORY: Permis bateau · Léman (FR)/Voies navigables et stationnement
 
-::q-fr-rgp-31-deefd8ff:: [html]Au sens du règlement général de police (RGP), qu'est-ce qu'une « menue embarcation » ? {
+::q-fr-rgp-40-3ef77e9c:: [html]Au sens du règlement général de police (RGP), qu'est-ce qu'une « menue embarcation » ? {
 =Un bateau de moins de 20 mètres
 ~Tout bateau de moins de 24 mètres
 ~Un bateau de moins de 15 mètres uniquement
 ####[html]C'est, en règle générale, un bateau dont la longueur de coque est inférieure à 20 mètres (hors bateaux à passagers, remorqueurs, etc.).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — définition de la menue embarcation — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-::q-fr-rgp-32-d4491bf7:: [html]Où le stationnement (l'arrêt) d'un bateau est-il en principe interdit sur une voie navigable ? {
+::q-fr-rgp-41-c4b01bd8:: [html]Où le stationnement (l'arrêt) d'un bateau est-il en principe interdit sur une voie navigable ? {
 =Sous les ponts et dans les passages étroits
 ~Le long de tous les quais aménagés
 ~Nulle part, le stationnement est libre
 ####[html]Le stationnement est interdit là où il gêne la navigation (sous les ponts, dans les passages étroits) et partout où la signalisation l'interdit.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — stationnement — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-::q-fr-rgp-33-fe0e0796:: [html]Pour limiter le batillage (les remous qui érodent les berges et secouent les bateaux amarrés), que doit faire le conducteur près des rives ? {
+::q-fr-rgp-42-10ac3735:: [html]Pour limiter le batillage (les remous qui érodent les berges et secouent les bateaux amarrés), que doit faire le conducteur près des rives ? {
 =Réduire sa vitesse
 ~Augmenter sa vitesse pour passer vite
 ~Naviguer au plus près de la berge
@@ -44,21 +51,21 @@ $CATEGORY: Permis bateau · Léman (FR)/Voies navigables et stationnement
 
 $CATEGORY: Permis bateau · Léman (FR)/Écluses, barrages et ouvrages
 
-::q-fr-rgp-34-4ecce94e:: [html]À l'entrée d'une écluse, que signifie un feu ROUGE ? {
+::q-fr-rgp-43-75365392:: [html]À l'entrée d'une écluse, que signifie un feu ROUGE ? {
 =Entrée interdite, il faut attendre
 ~Entrée autorisée
 ~Sortie de l'écluse seulement
 ####[html]Un feu rouge interdit l'entrée dans l'écluse ; on attend. Le feu vert autorise l'entrée.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — signalisation des écluses — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-::q-fr-rgp-35-0a721938:: [html]Quel feu autorise l'entrée dans une écluse ? {
+::q-fr-rgp-44-bcd4b849:: [html]Quel feu autorise l'entrée dans une écluse ? {
 =Le feu vert
 ~Le feu rouge
 ~Deux feux rouges
 ####[html]Le feu vert autorise l'entrée. Deux feux rouges signifient que l'écluse est hors service.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — feu vert d'écluse — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-::q-fr-rgp-36-b406e698:: [html]Dans le sas d'une écluse, comment doit-on tenir ses amarres pendant l'éclusée ? {
+::q-fr-rgp-45-8e34446a:: [html]Dans le sas d'une écluse, comment doit-on tenir ses amarres pendant l'éclusée ? {
 =Les tenir et les ajuster, sans les frapper à poste fixe
 ~Les frapper solidement à un taquet fixe
 ~Retirer toutes les amarres
@@ -67,28 +74,28 @@ $CATEGORY: Permis bateau · Léman (FR)/Écluses, barrages et ouvrages
 
 $CATEGORY: Permis bateau · Léman (FR)/Signalisation des voies et des bateaux
 
-::q-fr-rgp-37-04389b84:: [html]Sur une voie navigable, que signifie un panneau rectangulaire à bord rouge barré d'une bande blanche horizontale ? {
+::q-fr-rgp-46-6aa51301:: [html]Sur une voie navigable, que signifie un panneau rectangulaire à bord rouge barré d'une bande blanche horizontale ? {
 =Interdiction de passer
 ~Obligation de s'arrêter pour faire le plein
 ~Recommandation de ralentir
 ####[html]C'est un panneau d'interdiction (type A.1) \: interdiction de passer / d'aller au-delà.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — panneau d'interdiction (A.1) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-::q-fr-rgp-38-8014089e:: [html]Sur une voie intérieure, que signifie en règle générale UN son prolongé émis par un bateau ? {
+::q-fr-rgp-47-f4bfafa9:: [html]Sur une voie intérieure, que signifie en règle générale UN son prolongé émis par un bateau ? {
 =« Attention »
 ~« Je fais demi-tour »
 ~« Je suis à l'arrêt »
 ####[html]Un son prolongé est le signal « Attention » ; il attire l'attention des autres bateaux.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — signaux sonores (son prolongé) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-::q-fr-rgp-39-f9455639:: [html]De nuit, un bateau motorisé faisant route en eaux intérieures porte un feu à bâbord. De quelle couleur est-il ? {
+::q-fr-rgp-48-43a50049:: [html]De nuit, un bateau motorisé faisant route en eaux intérieures porte un feu à bâbord. De quelle couleur est-il ? {
 =Rouge
 ~Vert
 ~Jaune
 ####[html]Comme en mer \: feu de côté bâbord rouge, tribord vert, plus un feu de mât blanc et un feu de poupe.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — feux de nuit d'un bateau motorisé — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-::q-fr-rgp-40-bcdfb94d:: [html]De nuit, un bateau stationnant à l'écart de la rive, hors d'un port, porte le plus souvent \: {
+::q-fr-rgp-49-af110346:: [html]De nuit, un bateau stationnant à l'écart de la rive, hors d'un port, porte le plus souvent \: {
 =Un feu blanc visible de tous côtés
 ~Un feu rouge clignotant
 ~Aucun feu
@@ -97,21 +104,21 @@ $CATEGORY: Permis bateau · Léman (FR)/Signalisation des voies et des bateaux
 
 $CATEGORY: Permis bateau · Léman (FR)/Règles de barre et de route
 
-::q-fr-rgp-41-022ec02f:: [html]En eaux intérieures, vis-à-vis des grands bateaux, des bacs et des bateaux assurant un service régulier, les menues embarcations (plaisance) doivent \: {
+::q-fr-rgp-50-8b9ce4d7:: [html]En eaux intérieures, vis-à-vis des grands bateaux, des bacs et des bateaux assurant un service régulier, les menues embarcations (plaisance) doivent \: {
 =S'écarter de leur route
 ~Garder leur route, étant prioritaires
 ~Les obliger à s'arrêter
 ####[html]Les menues embarcations doivent laisser la route libre aux grands bateaux, aux bacs et aux convois \: elles s'en écartent.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — priorité des menues embarcations — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-::q-fr-rgp-42-e4fe5195:: [html]En règle générale sur une voie intérieure, de quel côté un bateau doit-il tenir sa route ? {
+::q-fr-rgp-51-c6ee620b:: [html]En règle générale sur une voie intérieure, de quel côté un bateau doit-il tenir sa route ? {
 =Sur sa droite (tribord)
 ~Sur sa gauche (bâbord)
 ~Au milieu du chenal
 ####[html]Chaque bateau tient en principe sa droite (tribord) ; on se croise alors bâbord sur bâbord, sauf signalisation contraire.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — règle générale de route — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-::q-fr-rgp-43-e6f605db:: [html]Dans un passage étroit (sous un pont, un chenal resserré) où le croisement est impossible, que doit faire le conducteur ? {
+::q-fr-rgp-52-ab75c235:: [html]Dans un passage étroit (sous un pont, un chenal resserré) où le croisement est impossible, que doit faire le conducteur ? {
 =S'assurer que le passage est libre avant de s'engager
 ~S'engager toujours en premier
 ~Accélérer pour forcer le passage
@@ -120,14 +127,14 @@ $CATEGORY: Permis bateau · Léman (FR)/Règles de barre et de route
 
 $CATEGORY: Permis bateau · Léman (FR)/Sécurité et matériel d'armement
 
-::q-fr-rgp-45-50761044:: [html]La marque d'identification (immatriculation) d'un bateau doit être \: {
+::q-fr-rgp-54-3bfc3ca4:: [html]La marque d'identification (immatriculation) d'un bateau doit être \: {
 =Apposée visiblement et lisiblement sur la coque
 ~Conservée uniquement dans les papiers du bord
 ~Facultative pour la plaisance
 ####[html]Elle doit être apposée de manière apparente et lisible sur la coque, pour permettre d'identifier le bateau.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — marque d'identification — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-::q-fr-rgp-46-1e591ba8:: [html]Avant d'appareiller, que doit notamment vérifier le chef de bord (devoir de vigilance) ? {
+::q-fr-rgp-55-37b2d364:: [html]Avant d'appareiller, que doit notamment vérifier le chef de bord (devoir de vigilance) ? {
 =L'état du bateau, le matériel de sécurité et la météo
 ~Uniquement le niveau de carburant
 ~Rien, la vérification incombe à l'écluse
@@ -136,14 +143,14 @@ $CATEGORY: Permis bateau · Léman (FR)/Sécurité et matériel d'armement
 
 $CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
 
-::q-fr-rgp-48-ae51e51c:: [html]Outre le règlement général de police (RGP), une voie d'eau particulière peut être encadrée par \: {
+::q-fr-rgp-57-3ae8ba18:: [html]Outre le règlement général de police (RGP), une voie d'eau particulière peut être encadrée par \: {
 =Un règlement particulier de police (RPP)
 ~Le seul code de la route
 ~Aucune autre règle
 ####[html]Un règlement particulier de police (RPP) adapte les règles générales aux circonstances locales d'une voie ou d'un bief donné.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — règlements particuliers de police — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-::q-fr-rgp-49-4deb57a3:: [html]La conduite d'un bateau sous l'emprise d'un état alcoolique est \: {
+::q-fr-rgp-58-aa0f13fa:: [html]La conduite d'un bateau sous l'emprise d'un état alcoolique est \: {
 =Interdite
 ~Autorisée sur les canaux
 ~Tolérée la nuit
@@ -152,16 +159,156 @@ $CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
 
 $CATEGORY: Permis bateau · Léman (FR)/Protection de l'environnement
 
-::q-fr-rgp-50-3de1a3e1:: [html]En eaux intérieures, le rejet d'hydrocarbures, d'eaux usées ou de détritus dans la voie d'eau est \: {
+::q-fr-rgp-59-a6724c1a:: [html]En eaux intérieures, le rejet d'hydrocarbures, d'eaux usées ou de détritus dans la voie d'eau est \: {
 =Interdit
 ~Autorisé en faible quantité
 ~Libre en dehors des ports
 ####[html]Il est interdit \: ces rejets polluent la voie d'eau et doivent être collectés et déposés dans les installations prévues.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — rejets dans la voie d'eau — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-::q-fr-rgp-51-7d3dfd4e:: [html]Pour limiter l'érosion des berges et le dérangement de la faune, le plaisancier doit surtout \: {
+::q-fr-rgp-60-54b15f06:: [html]Pour limiter l'érosion des berges et le dérangement de la faune, le plaisancier doit surtout \: {
 =Réduire sa vitesse et son batillage près des rives
 ~Naviguer à pleine vitesse au centre
 ~S'amarrer dans les roselières
 ####[html]Réduire sa vitesse et son batillage à l'approche des rives, des roselières et des zones naturelles sensibles.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — protection des berges et de la faune — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Voies navigables et stationnement
+
+::q-fr-rgp-61-3324e706:: [html]En navigation intérieure, que désigne un bateau « avalant » ? {
+=Un bateau qui descend le courant
+~Un bateau qui remonte le courant
+~Un bateau à l'arrêt contre la berge
+####[html]Un avalant descend le courant (il va vers l'aval) ; un montant le remonte. Sur les rivières, l'avalant, moins manœuvrant, est prioritaire.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — bateau avalant / montant — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-62-d69e6417:: [html]Le long d'un fleuve ou d'un canal, comment repère-t-on sa position ? {
+=Par les points kilométriques (bornes des rives)
+~Par la latitude et la longitude seules
+~Par les milles nautiques
+####[html]Par les points kilométriques (PK), matérialisés par des bornes ou plaques sur les rives, qui comptent les kilomètres depuis l'origine de la voie d'eau.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — repérage le long d'une voie d'eau — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-63-1bb6b2de:: [html]Avant de passer sous un pont ou une ligne électrique, que doit vérifier le conducteur ? {
+=Que son tirant d'air est inférieur à la hauteur libre
+~Que sa vitesse est maximale
+~Que son ancre est mouillée
+####[html]Que son tirant d'air (hauteur du bateau au-dessus de l'eau) est inférieur à la hauteur libre disponible, indiquée par la signalisation.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — tirant d'air sous les ouvrages — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Écluses, barrages et ouvrages
+
+::q-fr-rgp-64-24ca4c28:: [html]À l'écluse, qui fixe l'ordre et les modalités d'entrée des bateaux ? {
+=L'éclusier et la signalisation de l'écluse
+~Le bateau le plus rapide
+~Chaque conducteur, librement
+####[html]L'éclusier (ou la signalisation / l'automatisme de l'écluse) ; on suit ses instructions et les feux.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — conduite de l'écluse — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-65-565e0d5c:: [html]À une écluse, que signifient DEUX feux rouges ? {
+=L'écluse est hors service
+~L'entrée est immédiatement autorisée
+~La sortie est obligatoire
+####[html]L'écluse est hors service / fermée à la navigation. Un seul feu rouge signifie « attendez » et le feu vert autorise l'entrée.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — deux feux rouges à l'écluse — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Signalisation des voies et des bateaux
+
+::q-fr-rgp-66-1b4131e5:: [html]En navigation intérieure, à quoi reconnaît-on un panneau d'INTERDICTION ? {
+=À son bord rouge
+~À sa couleur entièrement bleue
+~À sa forme triangulaire verte
+####[html]Les panneaux d'interdiction ont un bord rouge (souvent une bande blanche barrée de rouge), comme le panneau « passage interdit ».<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — panneaux d'interdiction — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-67-c2298a40:: [html]Que donne, en règle générale, un panneau rectangulaire BLEU à symbole blanc ? {
+=Une indication / un renseignement
+~Une interdiction absolue
+~Un danger immédiat
+####[html]Les panneaux bleus rectangulaires donnent une indication ou un renseignement (stationnement autorisé, bac, point de service…).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — panneaux d'indication — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-68-80a845f1:: [html]Un panneau carré BLEU portant la lettre « P » blanche signifie \: {
+=Stationnement autorisé
+~Stationnement interdit
+~Port de plaisance à 1 km
+####[html]Stationnement (amarrage) autorisé à cet endroit.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — stationnement autorisé (P) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-69-f90db148:: [html]Un panneau à bord rouge portant une flèche blanche indique \: {
+=Une obligation de suivre la direction indiquée
+~Une simple recommandation
+~Une zone de baignade
+####[html]C'est un panneau d'obligation \: il impose de suivre la direction (le côté) indiquée par la flèche.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — panneaux d'obligation — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-70-2e68ddbc:: [html]Un panneau portant un nombre (par ex. « 3,50 m ») signale généralement \: {
+=Une limitation (hauteur, largeur, profondeur ou vitesse)
+~La distance jusqu'à la prochaine écluse
+~Le numéro de la voie d'eau
+####[html]Une limitation (restriction) \: par exemple la hauteur libre, la largeur ou la profondeur disponible, ou une vitesse maximale.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — panneaux de restriction (valeurs chiffrées) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Règles de barre et de route
+
+::q-fr-rgp-71-3a9769ce:: [html]Sur une rivière à courant, lorsqu'un montant et un avalant se rencontrent, qui est prioritaire ? {
+=L'avalant (qui descend le courant)
+~Le montant (qui remonte le courant)
+~Le plus grand des deux bateaux
+####[html]L'avalant (qui descend le courant) est prioritaire car il manœuvre moins bien ; le montant lui laisse la route et le bord voulu.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — priorité de l'avalant — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-72-17ebcbcb:: [html]Sur un plan d'eau sans courant, deux bateaux à moteur se rencontrent face à face. Que font-ils ? {
+=Chacun vient sur tribord
+~Chacun vient sur bâbord
+~Ils s'arrêtent tous les deux
+####[html]Chacun vient sur tribord (sa droite) pour se croiser bâbord sur bâbord.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — rencontre sur plan d'eau sans courant — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-73-4a58db0b:: [html]En navigation intérieure, de quel côté un bateau en dépasse-t-il normalement un autre ? {
+=Par bâbord (à gauche) du bateau rattrapé
+~Toujours par tribord
+~En le serrant de très près
+####[html]En principe par bâbord (la gauche) du bateau rattrapé, après s'être assuré que la manœuvre est sans danger ; le rattrapant s'écarte du rattrapé.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — dépassement (trématage) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Sécurité et matériel d'armement
+
+::q-fr-rgp-74-8e03755d:: [html]Parmi le matériel utile à bord d'une menue embarcation, on doit disposer d'un moyen permettant \: {
+=D'assécher le bateau (écope ou pompe)
+~De mesurer la profondeur du chenal
+~De recharger la VHF
+####[html]D'assécher le bateau (écope, pompe ou seau) en cas d'entrée d'eau, en plus des équipements individuels de flottabilité.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — moyen d'assèchement — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-75-227064f3:: [html]Pour pouvoir s'arrêter en sécurité à l'écart d'un quai, une embarcation doit disposer \: {
+=Une ancre avec sa ligne de mouillage
+~Un second moteur
+~Un radeau de survie
+####[html]D'un moyen de mouillage adapté (une ancre avec sa ligne) permettant de tenir le bateau.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — moyen de mouillage — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
+
+::q-fr-rgp-76-071960fd:: [html]Quel document, propre au bateau, doit pouvoir être présenté à bord en eaux intérieures ? {
+=La carte de circulation du bateau
+~Une carte routière de la région
+~Le manuel du moteur uniquement
+####[html]La carte de circulation (titre de navigation) du bateau, avec, selon le cas, le permis du conducteur et l'attestation d'assurance.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — documents de bord (titre de navigation) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Protection de l'environnement
+
+::q-fr-rgp-78-3a0b3cdf:: [html]Que doit faire le plaisancier de ses eaux usées (eaux noires) en eaux intérieures ? {
+=Les stocker en cuve et les vider à terre
+~Les rejeter discrètement la nuit
+~Les rejeter loin des berges
+####[html]Les conserver dans une cuve à bord puis les vider dans les installations de collecte à terre ; leur rejet dans la voie d'eau est interdit.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — eaux usées (eaux noires) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-79-b3630f26:: [html]Lors du plein de carburant, quelle précaution évite la pollution de l'eau ? {
+=Éviter tout débordement (ne pas remplir à ras bord)
+~Remplir le plus vite possible
+~Rincer le réservoir à l'eau du canal
+####[html]Faire le plein sans précipitation et sans remplir à ras bord (entonnoir, surveillance du niveau) pour éviter tout débordement d'hydrocarbures à l'eau.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — avitaillement sans pollution — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }

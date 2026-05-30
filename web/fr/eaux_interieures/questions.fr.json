@@ -18,13 +18,13 @@
     "ui_title": "Permis plaisance — option eaux intérieures (entraînement)",
     "ui_h1": "Permis plaisance — option eaux intérieures",
     "ui_subtitle": "Examen théorique · rivières, canaux et lacs",
-    "ui_demo": "<strong>Banque en construction.</strong> Questions dérivées du droit français librement réutilisable (règlement général de police de la navigation intérieure, arrêté du 28 sept. 2007). Ce n'est pas un examen officiel ; la banque continue de s'étoffer.",
+    "ui_demo": "<strong>Banque d'entraînement complète (40 questions, le format de l'examen).</strong> Questions dérivées du droit français librement réutilisable (règlement général de police de la navigation intérieure, arrêté du 28 sept. 2007). Ce n'est pas un examen officiel.",
     "ui_sourcenote": "Source : droit français (acte officiel, librement réutilisable sous Licence Ouverte / Etalab) — RIPAM, RGP, arrêté du 28 septembre 2007, Division 240. Aucune question issue d'une banque d'opérateur.",
     "ui_multihint": "Une seule réponse est correcte."
   },
   "questions": [
     {
-      "id": "q-fr-rgp-31-deefd8ff",
+      "id": "q-fr-rgp-40-3ef77e9c",
       "theme": "voies_navigables",
       "kind": "rule_mc",
       "stem": "Au sens du règlement général de police (RGP), qu'est-ce qu'une « menue embarcation » ?",
@@ -46,7 +46,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-31",
+        "unit_id": "fr-rgp-40",
         "ref": "RGP — définition de la menue embarcation",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-32-d4491bf7",
+      "id": "q-fr-rgp-41-c4b01bd8",
       "theme": "voies_navigables",
       "kind": "rule_mc",
       "stem": "Où le stationnement (l'arrêt) d'un bateau est-il en principe interdit sur une voie navigable ?",
@@ -89,7 +89,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-32",
+        "unit_id": "fr-rgp-41",
         "ref": "RGP — stationnement",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-33-fe0e0796",
+      "id": "q-fr-rgp-42-10ac3735",
       "theme": "voies_navigables",
       "kind": "rule_mc",
       "stem": "Pour limiter le batillage (les remous qui érodent les berges et secouent les bateaux amarrés), que doit faire le conducteur près des rives ?",
@@ -132,7 +132,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-33",
+        "unit_id": "fr-rgp-42",
         "ref": "RGP — batillage",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-34-4ecce94e",
+      "id": "q-fr-rgp-43-75365392",
       "theme": "ecluses",
       "kind": "rule_mc",
       "stem": "À l'entrée d'une écluse, que signifie un feu ROUGE ?",
@@ -175,7 +175,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-34",
+        "unit_id": "fr-rgp-43",
         "ref": "RGP — signalisation des écluses",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-35-0a721938",
+      "id": "q-fr-rgp-44-bcd4b849",
       "theme": "ecluses",
       "kind": "rule_mc",
       "stem": "Quel feu autorise l'entrée dans une écluse ?",
@@ -218,7 +218,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-35",
+        "unit_id": "fr-rgp-44",
         "ref": "RGP — feu vert d'écluse",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -239,7 +239,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-36-b406e698",
+      "id": "q-fr-rgp-45-8e34446a",
       "theme": "ecluses",
       "kind": "rule_mc",
       "stem": "Dans le sas d'une écluse, comment doit-on tenir ses amarres pendant l'éclusée ?",
@@ -261,7 +261,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-36",
+        "unit_id": "fr-rgp-45",
         "ref": "RGP — amarrage dans le sas",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -282,7 +282,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-37-04389b84",
+      "id": "q-fr-rgp-46-6aa51301",
       "theme": "signalisation_fluviale",
       "kind": "rule_mc",
       "stem": "Sur une voie navigable, que signifie un panneau rectangulaire à bord rouge barré d'une bande blanche horizontale ?",
@@ -304,7 +304,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-37",
+        "unit_id": "fr-rgp-46",
         "ref": "RGP — panneau d'interdiction (A.1)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -325,7 +325,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-38-8014089e",
+      "id": "q-fr-rgp-47-f4bfafa9",
       "theme": "signalisation_fluviale",
       "kind": "rule_mc",
       "stem": "Sur une voie intérieure, que signifie en règle générale UN son prolongé émis par un bateau ?",
@@ -347,7 +347,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-38",
+        "unit_id": "fr-rgp-47",
         "ref": "RGP — signaux sonores (son prolongé)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -368,7 +368,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-39-f9455639",
+      "id": "q-fr-rgp-48-43a50049",
       "theme": "signalisation_fluviale",
       "kind": "rule_mc",
       "stem": "De nuit, un bateau motorisé faisant route en eaux intérieures porte un feu à bâbord. De quelle couleur est-il ?",
@@ -390,7 +390,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-39",
+        "unit_id": "fr-rgp-48",
         "ref": "RGP — feux de nuit d'un bateau motorisé",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -411,7 +411,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-40-bcdfb94d",
+      "id": "q-fr-rgp-49-af110346",
       "theme": "signalisation_fluviale",
       "kind": "rule_mc",
       "stem": "De nuit, un bateau stationnant à l'écart de la rive, hors d'un port, porte le plus souvent :",
@@ -433,7 +433,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-40",
+        "unit_id": "fr-rgp-49",
         "ref": "RGP — marque de jour d'un bateau à l'arrêt",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -454,7 +454,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-41-022ec02f",
+      "id": "q-fr-rgp-50-8b9ce4d7",
       "theme": "regles_route",
       "kind": "rule_mc",
       "stem": "En eaux intérieures, vis-à-vis des grands bateaux, des bacs et des bateaux assurant un service régulier, les menues embarcations (plaisance) doivent :",
@@ -476,7 +476,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-41",
+        "unit_id": "fr-rgp-50",
         "ref": "RGP — priorité des menues embarcations",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -497,7 +497,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-42-e4fe5195",
+      "id": "q-fr-rgp-51-c6ee620b",
       "theme": "regles_route",
       "kind": "rule_mc",
       "stem": "En règle générale sur une voie intérieure, de quel côté un bateau doit-il tenir sa route ?",
@@ -519,7 +519,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-42",
+        "unit_id": "fr-rgp-51",
         "ref": "RGP — règle générale de route",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -540,7 +540,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-43-e6f605db",
+      "id": "q-fr-rgp-52-ab75c235",
       "theme": "regles_route",
       "kind": "rule_mc",
       "stem": "Dans un passage étroit (sous un pont, un chenal resserré) où le croisement est impossible, que doit faire le conducteur ?",
@@ -562,7 +562,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-43",
+        "unit_id": "fr-rgp-52",
         "ref": "RGP — passage des ponts et passages étroits",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -583,7 +583,7 @@
       ]
     },
     {
-      "id": "q-fr-division240-44-94c84932",
+      "id": "q-fr-division240-53-bc667494",
       "theme": "securite",
       "kind": "rule_mc",
       "stem": "À bord d'une menue embarcation en eaux intérieures, de quoi chaque personne doit-elle disposer ?",
@@ -605,7 +605,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-division_240-44",
+        "unit_id": "fr-division_240-53",
         "ref": "Équipement individuel de flottabilité (eaux intérieures)",
         "source": "Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres",
         "url": "https://www.mer.gouv.fr/la-division-240",
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-45-50761044",
+      "id": "q-fr-rgp-54-3bfc3ca4",
       "theme": "securite",
       "kind": "rule_mc",
       "stem": "La marque d'identification (immatriculation) d'un bateau doit être :",
@@ -648,7 +648,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-45",
+        "unit_id": "fr-rgp-54",
         "ref": "RGP — marque d'identification",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -669,7 +669,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-46-1e591ba8",
+      "id": "q-fr-rgp-55-37b2d364",
       "theme": "securite",
       "kind": "rule_mc",
       "stem": "Avant d'appareiller, que doit notamment vérifier le chef de bord (devoir de vigilance) ?",
@@ -691,7 +691,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-46",
+        "unit_id": "fr-rgp-55",
         "ref": "RGP — devoir de vigilance avant le départ",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -712,7 +712,7 @@
       ]
     },
     {
-      "id": "q-fr-decret2007-47-48d07a37",
+      "id": "q-fr-decret2007-56-1fe9f90d",
       "theme": "reglementation",
       "kind": "rule_mc",
       "stem": "Quel titre faut-il pour conduire un bateau de plaisance à moteur de plus de 4,5 kW sur les rivières et canaux ?",
@@ -734,7 +734,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-decret_2007-47",
+        "unit_id": "fr-decret_2007-56",
         "ref": "Titre requis en eaux intérieures",
         "source": "Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur",
         "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/",
@@ -755,7 +755,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-48-ae51e51c",
+      "id": "q-fr-rgp-57-3ae8ba18",
       "theme": "reglementation",
       "kind": "rule_mc",
       "stem": "Outre le règlement général de police (RGP), une voie d'eau particulière peut être encadrée par :",
@@ -777,7 +777,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-48",
+        "unit_id": "fr-rgp-57",
         "ref": "RGP — règlements particuliers de police",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -798,7 +798,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-49-4deb57a3",
+      "id": "q-fr-rgp-58-aa0f13fa",
       "theme": "reglementation",
       "kind": "rule_mc",
       "stem": "La conduite d'un bateau sous l'emprise d'un état alcoolique est :",
@@ -820,7 +820,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-49",
+        "unit_id": "fr-rgp-58",
         "ref": "RGP — conduite et état alcoolique",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -841,7 +841,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-50-3de1a3e1",
+      "id": "q-fr-rgp-59-a6724c1a",
       "theme": "environnement",
       "kind": "rule_mc",
       "stem": "En eaux intérieures, le rejet d'hydrocarbures, d'eaux usées ou de détritus dans la voie d'eau est :",
@@ -863,7 +863,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-50",
+        "unit_id": "fr-rgp-59",
         "ref": "RGP — rejets dans la voie d'eau",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -884,7 +884,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-51-7d3dfd4e",
+      "id": "q-fr-rgp-60-54b15f06",
       "theme": "environnement",
       "kind": "rule_mc",
       "stem": "Pour limiter l'érosion des berges et le dérangement de la faune, le plaisancier doit surtout :",
@@ -906,7 +906,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-51",
+        "unit_id": "fr-rgp-60",
         "ref": "RGP — protection des berges et de la faune",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -918,6 +918,823 @@
       "image": null,
       "points": 1,
       "explanation": "Réduire sa vitesse et son batillage à l'approche des rives, des roselières et des zones naturelles sensibles.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-61-3324e706",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "En navigation intérieure, que désigne un bateau « avalant » ?",
+      "choices": [
+        {
+          "text": "Un bateau qui descend le courant",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un bateau qui remonte le courant",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un bateau à l'arrêt contre la berge",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-61",
+        "ref": "RGP — bateau avalant / montant",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Un avalant descend le courant (il va vers l'aval) ; un montant le remonte. Sur les rivières, l'avalant, moins manœuvrant, est prioritaire.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-62-d69e6417",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Le long d'un fleuve ou d'un canal, comment repère-t-on sa position ?",
+      "choices": [
+        {
+          "text": "Par les points kilométriques (bornes des rives)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Par la latitude et la longitude seules",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Par les milles nautiques",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-62",
+        "ref": "RGP — repérage le long d'une voie d'eau",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Par les points kilométriques (PK), matérialisés par des bornes ou plaques sur les rives, qui comptent les kilomètres depuis l'origine de la voie d'eau.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-63-1bb6b2de",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Avant de passer sous un pont ou une ligne électrique, que doit vérifier le conducteur ?",
+      "choices": [
+        {
+          "text": "Que son tirant d'air est inférieur à la hauteur libre",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Que sa vitesse est maximale",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Que son ancre est mouillée",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-63",
+        "ref": "RGP — tirant d'air sous les ouvrages",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Que son tirant d'air (hauteur du bateau au-dessus de l'eau) est inférieur à la hauteur libre disponible, indiquée par la signalisation.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-64-24ca4c28",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "À l'écluse, qui fixe l'ordre et les modalités d'entrée des bateaux ?",
+      "choices": [
+        {
+          "text": "L'éclusier et la signalisation de l'écluse",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le bateau le plus rapide",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Chaque conducteur, librement",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-64",
+        "ref": "RGP — conduite de l'écluse",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "L'éclusier (ou la signalisation / l'automatisme de l'écluse) ; on suit ses instructions et les feux.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-65-565e0d5c",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "À une écluse, que signifient DEUX feux rouges ?",
+      "choices": [
+        {
+          "text": "L'écluse est hors service",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L'entrée est immédiatement autorisée",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La sortie est obligatoire",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-65",
+        "ref": "RGP — deux feux rouges à l'écluse",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "L'écluse est hors service / fermée à la navigation. Un seul feu rouge signifie « attendez » et le feu vert autorise l'entrée.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-66-1b4131e5",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "En navigation intérieure, à quoi reconnaît-on un panneau d'INTERDICTION ?",
+      "choices": [
+        {
+          "text": "À son bord rouge",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "À sa couleur entièrement bleue",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "À sa forme triangulaire verte",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-66",
+        "ref": "RGP — panneaux d'interdiction",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Les panneaux d'interdiction ont un bord rouge (souvent une bande blanche barrée de rouge), comme le panneau « passage interdit ».",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-67-c2298a40",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Que donne, en règle générale, un panneau rectangulaire BLEU à symbole blanc ?",
+      "choices": [
+        {
+          "text": "Une indication / un renseignement",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une interdiction absolue",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un danger immédiat",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-67",
+        "ref": "RGP — panneaux d'indication",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Les panneaux bleus rectangulaires donnent une indication ou un renseignement (stationnement autorisé, bac, point de service…).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-68-80a845f1",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Un panneau carré BLEU portant la lettre « P » blanche signifie :",
+      "choices": [
+        {
+          "text": "Stationnement autorisé",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Stationnement interdit",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Port de plaisance à 1 km",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-68",
+        "ref": "RGP — stationnement autorisé (P)",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Stationnement (amarrage) autorisé à cet endroit.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-69-f90db148",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Un panneau à bord rouge portant une flèche blanche indique :",
+      "choices": [
+        {
+          "text": "Une obligation de suivre la direction indiquée",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une simple recommandation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une zone de baignade",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-69",
+        "ref": "RGP — panneaux d'obligation",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "C'est un panneau d'obligation : il impose de suivre la direction (le côté) indiquée par la flèche.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-70-2e68ddbc",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Un panneau portant un nombre (par ex. « 3,50 m ») signale généralement :",
+      "choices": [
+        {
+          "text": "Une limitation (hauteur, largeur, profondeur ou vitesse)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La distance jusqu'à la prochaine écluse",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le numéro de la voie d'eau",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-70",
+        "ref": "RGP — panneaux de restriction (valeurs chiffrées)",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Une limitation (restriction) : par exemple la hauteur libre, la largeur ou la profondeur disponible, ou une vitesse maximale.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-71-3a9769ce",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Sur une rivière à courant, lorsqu'un montant et un avalant se rencontrent, qui est prioritaire ?",
+      "choices": [
+        {
+          "text": "L'avalant (qui descend le courant)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le montant (qui remonte le courant)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le plus grand des deux bateaux",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-71",
+        "ref": "RGP — priorité de l'avalant",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "L'avalant (qui descend le courant) est prioritaire car il manœuvre moins bien ; le montant lui laisse la route et le bord voulu.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-72-17ebcbcb",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Sur un plan d'eau sans courant, deux bateaux à moteur se rencontrent face à face. Que font-ils ?",
+      "choices": [
+        {
+          "text": "Chacun vient sur tribord",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Chacun vient sur bâbord",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ils s'arrêtent tous les deux",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-72",
+        "ref": "RGP — rencontre sur plan d'eau sans courant",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Chacun vient sur tribord (sa droite) pour se croiser bâbord sur bâbord.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-73-4a58db0b",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "En navigation intérieure, de quel côté un bateau en dépasse-t-il normalement un autre ?",
+      "choices": [
+        {
+          "text": "Par bâbord (à gauche) du bateau rattrapé",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Toujours par tribord",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "En le serrant de très près",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-73",
+        "ref": "RGP — dépassement (trématage)",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "En principe par bâbord (la gauche) du bateau rattrapé, après s'être assuré que la manœuvre est sans danger ; le rattrapant s'écarte du rattrapé.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-74-8e03755d",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Parmi le matériel utile à bord d'une menue embarcation, on doit disposer d'un moyen permettant :",
+      "choices": [
+        {
+          "text": "D'assécher le bateau (écope ou pompe)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "De mesurer la profondeur du chenal",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "De recharger la VHF",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-74",
+        "ref": "RGP — moyen d'assèchement",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "D'assécher le bateau (écope, pompe ou seau) en cas d'entrée d'eau, en plus des équipements individuels de flottabilité.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-75-227064f3",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Pour pouvoir s'arrêter en sécurité à l'écart d'un quai, une embarcation doit disposer :",
+      "choices": [
+        {
+          "text": "Une ancre avec sa ligne de mouillage",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un second moteur",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un radeau de survie",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-75",
+        "ref": "RGP — moyen de mouillage",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "D'un moyen de mouillage adapté (une ancre avec sa ligne) permettant de tenir le bateau.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-76-071960fd",
+      "theme": "reglementation",
+      "kind": "rule_mc",
+      "stem": "Quel document, propre au bateau, doit pouvoir être présenté à bord en eaux intérieures ?",
+      "choices": [
+        {
+          "text": "La carte de circulation du bateau",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une carte routière de la région",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le manuel du moteur uniquement",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-76",
+        "ref": "RGP — documents de bord (titre de navigation)",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "La carte de circulation (titre de navigation) du bateau, avec, selon le cas, le permis du conducteur et l'attestation d'assurance.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-77-85609fb5",
+      "theme": "reglementation",
+      "kind": "rule_mc",
+      "stem": "Pour utiliser une station radio VHF à bord, le chef de bord doit en principe être titulaire :",
+      "choices": [
+        {
+          "text": "Du certificat restreint de radiotéléphoniste (CRR)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Du seul permis plaisance",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "D'aucun titre particulier",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-77",
+        "ref": "Certificat restreint de radiotéléphoniste (CRR)",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Du certificat restreint de radiotéléphoniste (CRR), qui autorise l'emploi d'une VHF.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-78-3a0b3cdf",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "Que doit faire le plaisancier de ses eaux usées (eaux noires) en eaux intérieures ?",
+      "choices": [
+        {
+          "text": "Les stocker en cuve et les vider à terre",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les rejeter discrètement la nuit",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les rejeter loin des berges",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-78",
+        "ref": "RGP — eaux usées (eaux noires)",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Les conserver dans une cuve à bord puis les vider dans les installations de collecte à terre ; leur rejet dans la voie d'eau est interdit.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-79-b3630f26",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "Lors du plein de carburant, quelle précaution évite la pollution de l'eau ?",
+      "choices": [
+        {
+          "text": "Éviter tout débordement (ne pas remplir à ras bord)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Remplir le plus vite possible",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Rincer le réservoir à l'eau du canal",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-79",
+        "ref": "RGP — avitaillement sans pollution",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Faire le plein sans précipitation et sans remplir à ras bord (entonnoir, surveillance du niveau) pour éviter tout débordement d'hydrocarbures à l'eau.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",

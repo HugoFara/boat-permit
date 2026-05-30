@@ -18,7 +18,7 @@
     "ui_title": "Permis plaisance — option côtière (entraînement)",
     "ui_h1": "Permis plaisance — option côtière",
     "ui_subtitle": "Examen théorique · navigation maritime jusqu'à 6 milles d'un abri",
-    "ui_demo": "<strong>Banque en construction.</strong> Questions dérivées du droit français librement réutilisable (RIPAM, balisage IALA région A, Division 240, arrêté du 28 sept. 2007). Ce n'est pas un examen officiel ; la banque continue de s'étoffer.",
+    "ui_demo": "<strong>Banque d'entraînement complète (40 questions, le format de l'examen).</strong> Questions dérivées du droit français librement réutilisable (RIPAM, balisage IALA région A, Division 240, arrêté du 28 sept. 2007). Ce n'est pas un examen officiel.",
     "ui_sourcenote": "Source : droit français (acte officiel, librement réutilisable sous Licence Ouverte / Etalab) — RIPAM, RGP, arrêté du 28 septembre 2007, Division 240. Aucune question issue d'une banque d'opérateur.",
     "ui_multihint": "Une seule réponse est correcte.",
     "pool": "universal"
@@ -360,6 +360,92 @@
       "image": null,
       "points": 1,
       "explanation": "Il doit les conserver à bord puis les déposer à terre dans les installations de collecte du port.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-36-7293adf3",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Qu'appelle-t-on l'« étale » de marée ?",
+      "choices": [
+        {
+          "text": "Le moment où le niveau ne varie plus (courant nul)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le moment où le courant est le plus fort",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La différence entre pleine et basse mer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-36",
+        "ref": "Marées — étale",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "C'est le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus et où le courant de marée est quasiment nul.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-39-c4fe2758",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "En Méditerranée, sur les herbiers de posidonie, le mouillage de l'ancre est :",
+      "choices": [
+        {
+          "text": "Réglementé, voire interdit (herbiers protégés)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Libre et sans conséquence",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Recommandé car l'ancre y tient bien",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-39",
+        "ref": "Mouillage et herbiers protégés",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Réglementé, voire interdit dans de nombreuses zones : l'ancre arrache ces herbiers protégés, essentiels à la vie marine ; on utilise les zones ou bouées de mouillage prévues.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",

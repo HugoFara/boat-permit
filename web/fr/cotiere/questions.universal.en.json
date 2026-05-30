@@ -18,7 +18,7 @@
     "ui_title": "French boating licence — coastal option (practice)",
     "ui_h1": "French boating licence — coastal option",
     "ui_subtitle": "Theory exam · sea navigation up to 6 miles from a shelter",
-    "ui_demo": "<strong>Question bank in progress.</strong> Questions derived from freely-reusable French law (RIPAM, IALA region A buoyage, Division 240, the 28 Sept. 2007 order). Not an official exam; the bank keeps growing.",
+    "ui_demo": "<strong>Full practice bank (40 questions, the exam format).</strong> Questions derived from freely-reusable French law (RIPAM, IALA region A buoyage, Division 240, the 28 Sept. 2007 order). Not an official exam.",
     "ui_sourcenote": "Source: French law (official act, freely reusable under the Open Licence / Etalab) — RIPAM, RGP, the 28 September 2007 order, Division 240. No question taken from an operator's bank.",
     "ui_multihint": "Only one answer is correct.",
     "pool": "universal"
@@ -360,6 +360,92 @@
       "image": null,
       "points": 1,
       "explanation": "Keep it aboard and dispose of it ashore in the harbour's collection facilities.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-36-81f70bc0",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "What is the tidal “slack” (étale)?",
+      "choices": [
+        {
+          "text": "When the level stops changing (no current)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "When the current is strongest",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The difference between high and low water",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-36",
+        "ref": "Marées — étale",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The brief moment, at high or low water, when the level stops changing and the tidal stream is almost nil.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-39-7fb66a55",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "In the Mediterranean, anchoring on Posidonia seagrass beds is:",
+      "choices": [
+        {
+          "text": "Regulated, even prohibited (protected beds)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Free and harmless",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Recommended because the anchor holds well there",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-39",
+        "ref": "Mouillage et herbiers protégés",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Regulated, and prohibited in many areas: the anchor tears up these protected beds, vital to marine life; use the designated anchoring zones or buoys.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",

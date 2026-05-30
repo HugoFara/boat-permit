@@ -18,14 +18,14 @@
     "ui_title": "Permis plaisance — option eaux intérieures (entraînement)",
     "ui_h1": "Permis plaisance — option eaux intérieures",
     "ui_subtitle": "Examen théorique · rivières, canaux et lacs",
-    "ui_demo": "<strong>Banque en construction.</strong> Questions dérivées du droit français librement réutilisable (règlement général de police de la navigation intérieure, arrêté du 28 sept. 2007). Ce n'est pas un examen officiel ; la banque continue de s'étoffer.",
+    "ui_demo": "<strong>Banque d'entraînement complète (40 questions, le format de l'examen).</strong> Questions dérivées du droit français librement réutilisable (règlement général de police de la navigation intérieure, arrêté du 28 sept. 2007). Ce n'est pas un examen officiel.",
     "ui_sourcenote": "Source : droit français (acte officiel, librement réutilisable sous Licence Ouverte / Etalab) — RIPAM, RGP, arrêté du 28 septembre 2007, Division 240. Aucune question issue d'une banque d'opérateur.",
     "ui_multihint": "Une seule réponse est correcte.",
     "pool": "universal"
   },
   "questions": [
     {
-      "id": "q-fr-rgp-45-50761044",
+      "id": "q-fr-rgp-54-3bfc3ca4",
       "theme": "securite",
       "kind": "rule_mc",
       "stem": "La marque d'identification (immatriculation) d'un bateau doit être :",
@@ -47,7 +47,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-45",
+        "unit_id": "fr-rgp-54",
         "ref": "RGP — marque d'identification",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-46-1e591ba8",
+      "id": "q-fr-rgp-55-37b2d364",
       "theme": "securite",
       "kind": "rule_mc",
       "stem": "Avant d'appareiller, que doit notamment vérifier le chef de bord (devoir de vigilance) ?",
@@ -90,7 +90,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-46",
+        "unit_id": "fr-rgp-55",
         "ref": "RGP — devoir de vigilance avant le départ",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-50-3de1a3e1",
+      "id": "q-fr-rgp-59-a6724c1a",
       "theme": "environnement",
       "kind": "rule_mc",
       "stem": "En eaux intérieures, le rejet d'hydrocarbures, d'eaux usées ou de détritus dans la voie d'eau est :",
@@ -133,7 +133,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-50",
+        "unit_id": "fr-rgp-59",
         "ref": "RGP — rejets dans la voie d'eau",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-51-7d3dfd4e",
+      "id": "q-fr-rgp-60-54b15f06",
       "theme": "environnement",
       "kind": "rule_mc",
       "stem": "Pour limiter l'érosion des berges et le dérangement de la faune, le plaisancier doit surtout :",
@@ -176,7 +176,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-51",
+        "unit_id": "fr-rgp-60",
         "ref": "RGP — protection des berges et de la faune",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
@@ -188,6 +188,178 @@
       "image": null,
       "points": 1,
       "explanation": "Réduire sa vitesse et son batillage à l'approche des rives, des roselières et des zones naturelles sensibles.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-74-8e03755d",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Parmi le matériel utile à bord d'une menue embarcation, on doit disposer d'un moyen permettant :",
+      "choices": [
+        {
+          "text": "D'assécher le bateau (écope ou pompe)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "De mesurer la profondeur du chenal",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "De recharger la VHF",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-74",
+        "ref": "RGP — moyen d'assèchement",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "D'assécher le bateau (écope, pompe ou seau) en cas d'entrée d'eau, en plus des équipements individuels de flottabilité.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-75-227064f3",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Pour pouvoir s'arrêter en sécurité à l'écart d'un quai, une embarcation doit disposer :",
+      "choices": [
+        {
+          "text": "Une ancre avec sa ligne de mouillage",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un second moteur",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un radeau de survie",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-75",
+        "ref": "RGP — moyen de mouillage",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "D'un moyen de mouillage adapté (une ancre avec sa ligne) permettant de tenir le bateau.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-78-3a0b3cdf",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "Que doit faire le plaisancier de ses eaux usées (eaux noires) en eaux intérieures ?",
+      "choices": [
+        {
+          "text": "Les stocker en cuve et les vider à terre",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les rejeter discrètement la nuit",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les rejeter loin des berges",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-78",
+        "ref": "RGP — eaux usées (eaux noires)",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Les conserver dans une cuve à bord puis les vider dans les installations de collecte à terre ; leur rejet dans la voie d'eau est interdit.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-79-b3630f26",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "Lors du plein de carburant, quelle précaution évite la pollution de l'eau ?",
+      "choices": [
+        {
+          "text": "Éviter tout débordement (ne pas remplir à ras bord)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Remplir le plus vite possible",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Rincer le réservoir à l'eau du canal",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-79",
+        "ref": "RGP — avitaillement sans pollution",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Faire le plein sans précipitation et sans remplir à ras bord (entonnoir, surveillance du niveau) pour éviter tout débordement d'hydrocarbures à l'eau.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
