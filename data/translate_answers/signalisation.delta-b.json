@@ -1,0 +1,344 @@
+{
+  "q-oni-oniannexe4fig46-de851140-c3876778": {
+    "stem": "A sign reads \"12 km/h\" together with the indication \"1000 m\". How should it be interpreted?",
+    "choices": [
+      "An obligation not to exceed 12 km/h starting from a distance of 1000 m",
+      "A minimum distance of 12 m to be maintained over 1000 km",
+      "A depth of 12 m over a channel length of 1000 m"
+    ],
+    "explanation": "ONI Annexe 4, fig. 46 — example: obligation not to exceed 12 km/h at 1000 m."
+  },
+  "q-oni-oniannexe4fig49-ad8400ee-33ef26ec": {
+    "stem": "How is an isolated obstacle marked?",
+    "choices": [
+      "By a cone point down, painted red or unpainted",
+      "By a cone point up, painted green or unpainted",
+      "By a cylinder painted red or unpainted"
+    ],
+    "explanation": "ONI Annexe 4, fig. 49 — isolated obstacles: cone point down painted red or unpainted."
+  },
+  "q-oni-oniannexe4fig50-d3e83c17-db7f9c4a": {
+    "stem": "In channel marking, by what marks are its two sides delimited?",
+    "choices": [
+      "Cylinders painted red and cones point up painted green",
+      "Cones point down painted red and green cylinders",
+      "Yellow floats fitted with radar reflectors"
+    ],
+    "explanation": "ONI Annexe 4, fig. 50 — channel: red cylinders and green cones point up."
+  },
+  "q-oni-oniannexe4fig52-979bca5a-daf9d185": {
+    "stem": "To mark a shoal near the shore, which marks are used on the open-water side and on the shore side?",
+    "choices": [
+      "Open-water side: cylinders; shore side: cones",
+      "Open-water side: cones; shore side: cylinders",
+      "Open-water side and shore side: yellow floats"
+    ],
+    "explanation": "ONI Annexe 4, fig. 52 — shoal near the shore: open-water side cylinders, shore side cones."
+  },
+  "q-oni-oniannexe4fig53-12f3a908-564ca9f5": {
+    "stem": "For a marked channel in a shoal area, how are the right and left sides marked as seen from the open water?",
+    "choices": [
+      "Right side: green cones; left side: red cylinders",
+      "Right side: red cylinders; left side: green cones",
+      "Both sides: cones point down painted red"
+    ],
+    "explanation": "ONI Annexe 4, fig. 53 — channel in a shoal area: right side (seen from open water) green cones, left side red cylinders."
+  },
+  "q-oni-oniannexe4fig54-c3024fd8-7dcd9bb0": {
+    "stem": "How does a cardinal mark indicate the North quadrant of an extended obstacle?",
+    "choices": [
+      "Two cones one above the other, both points up",
+      "Two cones one above the other, both points down",
+      "Two cones one above the other, the lower cone point down and the upper cone point up"
+    ],
+    "explanation": "ONI Annexe 4, fig. 54 — North quadrant: two cones one above the other, both points up."
+  },
+  "q-oni-oniannexe4fig55-ab288aa3-7fd073f9": {
+    "stem": "Cardinal marks indicate an extended shoal by indicating the North and West quadrants. What do they indicate?",
+    "choices": [
+      "That the deep water lies in the North and West quadrants",
+      "That the obstacle lies in the North and West quadrants",
+      "That passage is prohibited in the North and West quadrants"
+    ],
+    "explanation": "ONI Annexe 4, fig. 55 — the marks indicate that the deep water lies in the North and West quadrants."
+  },
+  "q-rnl-rnlannexeifig10-14b9e7fd-28c54298": {
+    "stem": "At night, which lights must a sailing vessel under motor (sails hoisted or not) carry?",
+    "choices": [
+      "A white masthead light, green and red side lights, and a white stern light",
+      "A white light visible from all sides and green and red side lights, without a masthead light",
+      "Only an ordinary white light visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 10 — white masthead light, green and red side lights, white stern light."
+  },
+  "q-rnl-rnlannexeifig11-a62f797a-9ca81c6f": {
+    "stem": "A sailing vessel under motor may, instead of separate side lights and a stern light, combine these lights. How and where is this combined light arranged, in addition to the white masthead light?",
+    "choices": [
+      "A tricolour light combining the side lights and the stern light, placed at the top of the mast or near it",
+      "A bicolour light placed in the forward area, with the stern light remaining separate",
+      "A white light visible from all sides placed at the stern"
+    ],
+    "explanation": "RNL Annexe I, fig. 11 — white masthead light and tricolour light (sides + stern) at the top of the mast or near it."
+  },
+  "q-rnl-rnlannexeifig14-3c63d9dd-f83e0153": {
+    "stem": "At night, which lights must a vessel or floating equipment being towed carry?",
+    "choices": [
+      "An ordinary white masthead light and an ordinary white stern light",
+      "A white masthead light, green and red side lights, and a white stern light",
+      "A single ordinary white light visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 14 — ordinary white masthead light and ordinary white stern light."
+  },
+  "q-rnl-rnlannexeifig16-876eb8a5-7c8d85d1": {
+    "stem": "At night, how does a non-motorised vessel navigating alone or in a towed convoy mark itself?",
+    "choices": [
+      "By an ordinary white light visible from all sides",
+      "By a white masthead light and green and red side lights",
+      "By an ordinary yellow light visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 16 — ordinary white light visible from all sides."
+  },
+  "q-rnl-rnlannexeifig17-98ce7451-f4d4f025": {
+    "stem": "At night, by which light may a vessel under sail (without motor) mark itself in the simplest way?",
+    "choices": [
+      "An ordinary white light visible from all sides",
+      "A white masthead light accompanied by green and red side lights",
+      "A tricolour light placed at the top of the mast"
+    ],
+    "explanation": "RNL Annexe I, fig. 17 — ordinary white light visible from all sides."
+  },
+  "q-rnl-rnlannexeifig18-71d213c1-d6939ea8": {
+    "stem": "At night, a vessel under sail carrying side lights and a stern light: what are these lights?",
+    "choices": [
+      "Green and red side lights and a white stern light",
+      "Green and red side lights, a white stern light and a white masthead light",
+      "An ordinary yellow light visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 18 — green and red side lights, white stern light (no masthead light)."
+  },
+  "q-rnl-rnlannexeifig19-5a1f0630-36d63fdc": {
+    "stem": "What does this light signal mean?",
+    "choices": [
+      "Tricolour light placed at the top of the mast or near it",
+      "Either a red flag and a white flag",
+      "Vessels navigating alone or tugs"
+    ],
+    "explanation": "RNL Annexe I – fig. 19 — \"Tricolour light placed at the top of the mast or near it\"."
+  },
+  "q-rnl-rnlannexeifig20-478da848-122cee72": {
+    "stem": "What does this signal mean?",
+    "choices": [
+      "Additional night marking of priority passenger vessels under way",
+      "Pushed convoys",
+      "Vessels navigating alone or tugs"
+    ],
+    "explanation": "RNL Annexe I – fig. 20 — \"Additional night marking of priority passenger vessels under way\"."
+  },
+  "q-rnl-rnlannexeifig21-b53b2ab6-f516b1c0": {
+    "stem": "At night, how does a vessel that has become unable to manoeuvre signal its situation, in addition to its ordinary lights?",
+    "choices": [
+      "By swinging a red light and/or by sounding the prescribed sound signal",
+      "By swinging a white light visible from all sides",
+      "By showing a green ball visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 21 — a red light swung and/or the prescribed sound signal."
+  },
+  "q-rnl-rnlannexeifig22-a4ed91e3-c9832330": {
+    "stem": "At night, how may a vessel unable to manoeuvre mark itself by means of fixed lights visible from all sides?",
+    "choices": [
+      "Two red lights one above the other, about 1 m apart, visible from all sides",
+      "Two white lights one above the other about 1 m apart",
+      "A red light above a white light, both visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 22 — two red lights one above the other about 1 m apart, visible from all sides."
+  },
+  "q-rnl-rnlannexeifig24-b5accf5f-12f3ae86": {
+    "stem": "At night, how must floating equipment at a standstill be marked?",
+    "choices": [
+      "Lit in such a way that its contours are recognisable",
+      "By an ordinary red light above an ordinary white light",
+      "By a black ball visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 24 — floating equipment at a standstill lit so that its contours are recognisable."
+  },
+  "q-rnl-rnlannexeifig25-3522004d-1396f956": {
+    "stem": "At night, a vessel carrying out works or sounding operations: what does it show on the side where passage is free, and on the side where it is not free?",
+    "choices": [
+      "Free side: ordinary red light above an ordinary white light; non-free side: ordinary red light",
+      "Free side: ordinary white light alone; non-free side: ordinary white light above a red light",
+      "Free side: green light; non-free side: red light"
+    ],
+    "explanation": "RNL Annexe I, fig. 25 — free side: ordinary red light and ordinary white light; non-free side: ordinary red light."
+  },
+  "q-rnl-rnlannexeifig26-dc7b5242-bedc3637": {
+    "stem": "At night, how are a vessel's anchors marked on the water?",
+    "choices": [
+      "By buoys carrying an ordinary white light",
+      "By buoys carrying an ordinary red light",
+      "By black balls visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 26 — anchors marked by buoys carrying an ordinary white light."
+  },
+  "q-rnl-rnlannexeifig27-7ff66719-f5c7379d": {
+    "stem": "By day, by which signal does a priority passenger vessel indicate its priority?",
+    "choices": [
+      "A green ball, visible from all sides",
+      "A yellow ball, visible from all sides",
+      "A white ball, visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 27 — green ball visible from all sides."
+  },
+  "q-rnl-rnlannexeifig28-d7ffe00b-222da613": {
+    "stem": "By day, how does a vessel unable to manoeuvre signal its situation by means of a flag?",
+    "choices": [
+      "By swinging a red flag and/or by sounding the prescribed sound signal",
+      "By swinging a white flag visible from all sides",
+      "By hoisting a green ball visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 28 — a red flag swung and/or the prescribed sound signal."
+  },
+  "q-rnl-rnlannexeifig29-c89b6222-c6604edf": {
+    "stem": "By day, how may a vessel unable to manoeuvre mark itself by means of fixed marks visible from all sides?",
+    "choices": [
+      "Two black balls one above the other, about 1 m apart, visible from all sides",
+      "Two green balls one above the other visible from all sides",
+      "A white ball visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 29 — two black balls one above the other about 1 m apart, visible from all sides."
+  },
+  "q-rnl-rnlannexeifig30-0b7fee06-d9fb1e5c": {
+    "stem": "By day, a vessel carrying out works: what does it show on the side where passage is free, and on the side where it is not free?",
+    "choices": [
+      "Free side: a red and white flag (or a red flag and a white flag); non-free side: a red flag",
+      "Free side: a red flag; non-free side: a red and white flag",
+      "Free side: a green ball; non-free side: a black ball"
+    ],
+    "explanation": "RNL Annexe I, fig. 30 — free side: red and white flag; non-free side: red flag."
+  },
+  "q-rnl-rnlannexeifig32-79bb39ae-66f05d59": {
+    "stem": "At night, how does a vessel or floating establishment to be protected against wash mark itself?",
+    "choices": [
+      "By an ordinary red light above an ordinary white light",
+      "By an ordinary white light above an ordinary red light",
+      "By two red lights one above the other visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 32 — at night: ordinary red light above an ordinary white light."
+  },
+  "q-rnl-rnlannexeifig35-d034546c-db71770b": {
+    "stem": "What special light do the vessels of the control authorities, fire services and rescue services carry when on a mission?",
+    "choices": [
+      "A scintillating blue light",
+      "A bright green light visible from all sides",
+      "A scintillating yellow light"
+    ],
+    "explanation": "RNL Annexe I, fig. 35 — scintillating blue light for vessels on a mission."
+  },
+  "q-rnl-rnlannexeifig37-adfe31a5-c4ffb0ae": {
+    "stem": "What flag does a vessel of the control authorities hoist when it wishes to enter into communication with another vessel?",
+    "choices": [
+      "The letter \"K\" flag",
+      "The letter \"A\" board",
+      "A red flag"
+    ],
+    "explanation": "RNL Annexe I, fig. 37 — letter \"K\" flag to enter into communication."
+  },
+  "q-rnl-rnlannexeifig38-a273c571-a67f81ea": {
+    "stem": "How does a vessel in distress call for help, both at night and by day?",
+    "choices": [
+      "At night: a red light swung in a circle; by day: a red flag or other object swung in a circle",
+      "At night: a white light swung; by day: a green ball hoisted",
+      "At night: two red lights one above the other; by day: two black balls one above the other"
+    ],
+    "explanation": "RNL Annexe I, fig. 38 — distress: red light (night) or red flag/object (day) swung in a circle."
+  },
+  "q-rnl-rnlannexeifig40-0560d461-1141976f": {
+    "stem": "What signal indicates underwater diving carried out from the shore?",
+    "choices": [
+      "A board bearing the letter \"A\"",
+      "A flag bearing the letter \"K\"",
+      "A yellow ball visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 40 — letter \"A\" board for diving from the shore."
+  },
+  "q-rnl-rnlannexeifig41-7dd1f930-951aa068": {
+    "stem": "What signal does a vessel used for underwater diving carry when the diving is done from a body of water?",
+    "choices": [
+      "A board bearing the letter \"A\"",
+      "A white ball visible from all sides",
+      "A flag bearing the letter \"K\""
+    ],
+    "explanation": "RNL Annexe I, fig. 41 — letter \"A\" board for diving from a body of water."
+  },
+  "q-rnl-rnlannexeifig42-12aa6344-8d38ded9": {
+    "stem": "What signal does a vessel trolling and towing one or more floats or spreaders carry?",
+    "choices": [
+      "A white ball, visible from all sides",
+      "A yellow ball, visible from all sides",
+      "A green ball, visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 42 — white ball visible from all sides for trolling."
+  },
+  "q-rnl-rnlannexeifig43-9140f412-43e53483": {
+    "stem": "What signal does a professional fishing vessel in operation carry?",
+    "choices": [
+      "A yellow ball, visible from all sides",
+      "A white ball, visible from all sides",
+      "A green ball, visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 43 — yellow ball visible from all sides for professional fishing in operation."
+  },
+  "q-rnl-rnlannexeifig7-90f4e02f-ea405173": {
+    "stem": "What does this signal mean?",
+    "choices": [
+      "Pushed convoys",
+      "Vessels navigating alone or tugs",
+      "Professional fishing vessels, motorised pleasure craft"
+    ],
+    "explanation": "RNL Annexe I – fig. 7 — \"Professional fishing vessels, motorised pleasure craft\"."
+  },
+  "q-rnl-rnlannexeifig8-928d2012-8bd6725c": {
+    "stem": "At night, which lights may a motorised pleasure craft (or a sailing vessel under motor) carry under this simplified configuration?",
+    "choices": [
+      "A white light visible from all sides and green and red side lights",
+      "A white masthead light, green and red side lights and a separate white stern light",
+      "An ordinary yellow light visible from all sides"
+    ],
+    "explanation": "RNL Annexe I, fig. 8 — white light visible from all sides and green and red side lights."
+  },
+  "q-rnl-rnlannexeiiifig14-1a7fb6e0-266c6078": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Obligation to take the direction indicated by the arrow",
+      "Obligation to exercise particular vigilance",
+      "Permission to moor"
+    ],
+    "explanation": "RNL Annexe III – fig. 14 — \"Obligation to take the direction indicated by the arrow\"."
+  },
+  "q-rnl-rnlannexeiiifig15-90a75a42-0dc538c8": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Obligation not to exceed the speed indicated (in km/h",
+      "Prohibition of all overtaking",
+      "Permission to anchor"
+    ],
+    "explanation": "RNL Annexe III – fig. 15 — \"Obligation not to exceed the speed indicated (in km/h\"."
+  },
+  "q-rnl-rnlannexeiiifig17-5391f1b7-585160a1": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Permission for water skiing or the use of similar equipment",
+      "Permission to make fast",
+      "Permission to anchor"
+    ],
+    "explanation": "RNL Annexe III – fig. 17 — \"Permission for water skiing or the use of similar equipment\"."
+  },
+  "q-rnl-rnlannexeiiifig4-4cdd4671-f584c023": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Prohibition of windsurfing",
+      "Prohibition of water skiing or the use of similar equipment",
+      "Prohibition of parking"
+    ],
+    "explanation": "RNL Annexe III – fig. 4 — \"Prohibition of water skiing or the use of similar equipment\"."
+  }
+}

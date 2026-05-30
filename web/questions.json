@@ -559,6 +559,48 @@
       ]
     },
     {
+      "id": "q-oni-oniart2-2bf27aad-1ca80827",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "What is a “pushed convoy” according to the ONI?",
+      "choices": [
+        {
+          "text": "An assembly of non-propelled vessels joined together into a rigid unit, pushed by at least one motorised vessel",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "An assembly of non-propelled vessels towed by at least one motorised vessel",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Any group of pleasure craft navigating together",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_2-2bf27aad",
+        "ref": "ONI art. 2",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 2: the pushed convoy is a rigid unit that is pushed; if towed = towed convoy.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart2-2bf27aad-de726c75",
       "theme": "definitions",
       "kind": "definition_mc",
@@ -2451,6 +2493,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlart64-284d0c2c-b1177e2f",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Faced with a vessel unable to manoeuvre that signals its presence, what must every other vessel do?",
+      "choices": [
+        {
+          "text": "Keep clear of that vessel",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Maintain its course and speed",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Overtake it on the starboard side",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_64-284d0c2c",
+        "ref": "RNL art. 64",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 64, para. 1: every vessel must keep clear of a vessel unable to manoeuvre that signals its presence.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlart64-284d0c2c-bf5c412c",
       "theme": "eaux_frontalieres",
       "kind": "frontiere_mc",
@@ -2491,6 +2575,48 @@
       "correct": [
         0,
         1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart64-284d0c2c-ecad6807",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "When meeting, which vessels must every vessel — apart from priority passenger vessels and towed convoys — keep clear of?",
+      "choices": [
+        {
+          "text": "Cargo vessels",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Pleasure craft",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sailing sport boats",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_64-284d0c2c",
+        "ref": "RNL art. 64",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 64, para. 2 let. b: it keeps clear of cargo vessels.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -4472,6 +4598,49 @@
       ]
     },
     {
+      "id": "q-oni-oniart134-df53e657-4b7336b2",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Which of these devices are INDIVIDUAL lifesaving appliances within the meaning of the ONI?",
+      "choices": [
+        {
+          "text": "Lifejackets with collars",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Lifebuoys",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Boarding life rafts",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_134-df53e657",
+        "ref": "ONI art. 134",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 134: lifejackets with collars and lifebuoys = individual; boarding life rafts are collective.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
       "id": "q-oni-oniart134-df53e657-7afccc1f",
       "theme": "lois",
       "kind": "rule_mc",
@@ -6280,6 +6449,48 @@
       ]
     },
     {
+      "id": "q-matelotagewp-matelotagenœuddechaiseroide-7f29e223",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Why is the bowline described as the “king of knots”?",
+      "choices": [
+        {
+          "text": "It is a reliable loop knot that does not slip under tension and unties easily",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It tightens more and more under tension until it becomes impossible to untie",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It is used only to join two ropes of the same diameter",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
+        "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "The bowline is a reliable loop that does not slip and unties easily.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-matelotagewp-matelotagenœuddechaiseroide-f42e5f81",
       "theme": "matelotage",
       "kind": "matelotage_mc",
@@ -7792,6 +8003,48 @@
       "explanation": "According to MétéoSuisse: La bise, it sets in when high pressure covers the British Isles and low pressure covers Italy.",
       "review_status": "approved",
       "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselabise-22689f11-ecb58b8d",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "During which period is the Bise clearly dominant on Lake Geneva?",
+      "choices": [
+        {
+          "text": "In the first half of the year, particularly in spring",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "In high summer, from July to August",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Only during autumn nights",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__la_bise-22689f11",
+        "ref": "MétéoSuisse : La bise",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "MeteoSwiss: the Bise is dominant in the first half of the year, especially in spring.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
       "generator": "translation:en.v1",
       "correct": [
         0
@@ -16791,6 +17044,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig10-ff141136-141ef391",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, which lights must a sailing vessel under motor (sails hoisted or not) carry?",
+      "choices": [
+        {
+          "text": "A white masthead light, green and red side lights, and a white stern light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Only an ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A white masthead light and a tricolour light combining the side lights and the stern light at the top of the mast",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_10-ff141136",
+        "ref": "ONI Annexe 2 – fig. 10",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 10 — white masthead light, green/red side lights, white stern light.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig10-ff141136-da02f7af",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -16870,6 +17165,90 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig11-a7ce07dd-21adc0a7",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "A sailing vessel under motor may combine its side lights and its stern light into a single tricolour light. Where is this tricolour light placed, and which other light is still required?",
+      "choices": [
+        {
+          "text": "A white masthead light, with the tricolour light placed at the top of the mast or near it",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A white masthead light, with the tricolour light placed on the stern at water level",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No masthead light, and a white stern light separate from the tricolour light",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_11-a7ce07dd",
+        "ref": "ONI Annexe 2 – fig. 11",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 11 — white masthead light; side lights and stern light combined into a tricolour light at the top of the mast or near it.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig14-45636e4f-a9566c54",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, which light must a non-motorised vessel sailing alone or in a towed convoy carry?",
+      "choices": [
+        {
+          "text": "An ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A white masthead light with green and red side lights",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An ordinary yellow light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_14-45636e4f",
+        "ref": "ONI Annexe 2 – fig. 14",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 14 — non-motorised vessels, alone or towed: ordinary white light visible from all sides.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -16959,6 +17338,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig15-42ccc9b1-58121b9e",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, which light must a vessel under sail (without motor) carry as a minimum?",
+      "choices": [
+        {
+          "text": "An ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Green and red side lights and a white stern light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A white masthead light and a tricolour light at the top of the mast",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_15-42ccc9b1",
+        "ref": "ONI Annexe 2 – fig. 15",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 15 — vessels under sail: ordinary white light visible from all sides.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig17-77b94b84-cb761fb4",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -16998,6 +17419,90 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig17-77b94b84-f9419446",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this light signal mean?",
+      "choices": [
+        {
+          "text": "Flashing light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Fixed light visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Tricolour light placed at the top of the mast or near it",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_17-77b94b84",
+        "ref": "ONI Annexe 2 – fig. 17",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image25.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 17 — « Tricolour light placed at the top of the mast or near it ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig18-ec6e52d1-be5f1ec2",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, a vessel carries two superimposed lights visible from all sides, a stern light and a bicolour light (or separate side lights). What are the colours of the two superimposed lights?",
+      "choices": [
+        {
+          "text": "The upper light red, the lower light green",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The upper light green, the lower light red",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Both lights white",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_18-ec6e52d1",
+        "ref": "ONI Annexe 2 – fig. 18",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 18 — two superimposed lights visible from all sides: the upper red, the lower green.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -17169,6 +17674,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig20-188a22fa-0b55ae68",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, when the safety of navigation requires it, how must floating equipment be marked?",
+      "choices": [
+        {
+          "text": "By lighting that allows its outline to be made out",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "By an ordinary yellow light visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By a white masthead light and green and red side lights",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_20-188a22fa",
+        "ref": "ONI Annexe 2 – fig. 20",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 20 — floating equipment: when safety requires it, lighting that allows the outline to be made out.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig20-188a22fa-4dc0d6cb",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -17248,6 +17795,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig21-a4c59f38-c34d0dd7",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "In addition to the usual navigation lights, which distinctive light must a priority vessel carry at night?",
+      "choices": [
+        {
+          "text": "A bright green light visible from all sides, placed at least 1 m higher than the masthead light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A bright red light visible from all sides, placed at least 1 m higher than the masthead light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An ordinary yellow light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_21-a4c59f38",
+        "ref": "ONI Annexe 2 – fig. 21",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 21 — priority vessels: a bright green light visible from all sides, at least 1 m above the masthead light.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -17337,6 +17926,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig23-78f17195-0511eff5",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "To indicate that it must be protected against wash, which additional lights does a vessel carry at night, in addition to the prescribed lights?",
+      "choices": [
+        {
+          "text": "An ordinary red light visible from all sides above an ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "An ordinary white light above an ordinary red light, both visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Two superimposed ordinary red lights visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_23-78f17195",
+        "ref": "ONI Annexe 2 – fig. 23",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 23 — protection against wash: red light visible from all sides above a white light visible from all sides.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig23-78f17195-0b4083e1",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -17416,6 +18047,90 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig24-7c82046a-751565a1",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this signal mean?",
+      "choices": [
+        {
+          "text": "A flag whose upper half is red and lower half white",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Swinging a red flag",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Two superimposed white flags",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_24-7c82046a",
+        "ref": "ONI Annexe 2 – fig. 24",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image32.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 24 — « A flag whose upper half is red and lower half white ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig25-727c3760-7b5e66e7",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this signal mean?",
+      "choices": [
+        {
+          "text": "Two flags, the upper red and the lower white",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Two superimposed white flags",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Swinging a red flag",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_25-727c3760",
+        "ref": "ONI Annexe 2 – fig. 25",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image33.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 25 — « Two flags, the upper red and the lower white ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -17925,6 +18640,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig32-8474c209-eff47504",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Which signal does a vessel of the police, the border guard or the fisheries inspectorate hoist when it wants to make contact with another vessel?",
+      "choices": [
+        {
+          "text": "The letter «K» flag, whose half on the staff side is yellow and the other half blue",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The letter «K» flag, whose upper half is red and the other half white",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An entirely red flag",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_32-8474c209",
+        "ref": "ONI Annexe 2 – fig. 32",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 32 — letter «K» flag, half on the staff side yellow, the other half blue.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig33-f3928ea5-eda240bd",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -17962,6 +18719,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig33-f3928ea5-f49826f9",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, which light must a professional fishing vessel carry?",
+      "choices": [
+        {
+          "text": "An ordinary yellow light visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "An ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An ordinary red light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_33-f3928ea5",
+        "ref": "ONI Annexe 2 – fig. 33",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 33 — professional fishing vessels: ordinary yellow light visible from all sides.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -18093,6 +18892,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig35-49c140b6-ea42b41e",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Which daytime signal must a vessel trolling for fish display?",
+      "choices": [
+        {
+          "text": "A white ball",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A green ball visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An ordinary yellow light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_35-49c140b6",
+        "ref": "ONI Annexe 2 – fig. 35",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 35 — vessels trolling for fish: white ball.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig36-f348b5a7-5f382b2c",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "In the case of underwater diving carried out from the shore, which signal must be displayed?",
+      "choices": [
+        {
+          "text": "The letter «A» board (a swallow-tailed pennant, half on the staff side white, the other half blue)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The letter «K» flag (half on the staff side yellow, the other half blue)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A white ball visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_36-f348b5a7",
+        "ref": "ONI Annexe 2 – fig. 36",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 36 — diving from the shore: letter «A» board, white/blue swallow-tailed pennant.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig36-f348b5a7-e9b8bb56",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -18172,6 +19055,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig37-6c099ecd-aca1d666",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "In the case of underwater diving carried out from a body of water, how must the letter «A» board be displayed?",
+      "choices": [
+        {
+          "text": "The letter «A» board (white/blue pennant) visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The letter «A» board facing only towards the shore",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A red flag visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_37-6c099ecd",
+        "ref": "ONI Annexe 2 – fig. 37",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 37 — diving from a body of water: letter «A» board (white/blue pennant) visible from all sides.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -18303,6 +19228,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig4-6f7c0dce-b7d748f5",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, which lights must a motorised vessel sailing alone (or a tug) carry?",
+      "choices": [
+        {
+          "text": "A bright white masthead (or bow) light, bright green and bright red side lights, and an ordinary white stern light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Only an ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A bright white light and a bright green light visible from all sides placed higher than the masthead light",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_4-6f7c0dce",
+        "ref": "ONI Annexe 2 – fig. 4",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 4 — motorised vessels alone/tugs: bright white masthead light, bright green/red side lights, ordinary white stern light.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig40-dc3b2f2d-1f3cdb85",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, how does a vessel in distress signal its situation?",
+      "choices": [
+        {
+          "text": "By swinging a light in a circular motion",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "By swinging a light (without a circular motion)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By showing two fixed superimposed red lights",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_40-dc3b2f2d",
+        "ref": "ONI Annexe 2 – fig. 40",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 40 — vessels in distress: swing a light in a circular motion.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig40-dc3b2f2d-60fa671a",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -18345,6 +19354,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig41-043d783d-a74bc641",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this signal mean?",
+      "choices": [
+        {
+          "text": "Swinging a red flag",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Swinging a red flag, or any other suitable object, in a circular motion",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Two superimposed white flags",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_41-043d783d",
+        "ref": "ONI Annexe 2 – fig. 41",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image49.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 41 — « Swinging a red flag, or any other suitable object, in a circular motion ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig41-043d783d-d5fd032a",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -18384,6 +19435,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig42-f759937d-93e52f7c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this signal mean?",
+      "choices": [
+        {
+          "text": "A slow, repeated up-and-down movement of the arms extended to each side",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Permission to moor",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "B. in the indicated direction only",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_42-f759937d",
+        "ref": "ONI Annexe 2 – fig. 42",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image50.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 42 — « A slow, repeated up-and-down movement of the arms extended to each side ».",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -18471,6 +19564,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig43-f7b06d9e-dbc23978",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, how does a piece of floating equipment (or a vessel at work, aground or sunk) indicate the sides on which passage is clear?",
+      "choices": [
+        {
+          "text": "By an ordinary red light and an ordinary white light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "By an ordinary red light alone",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By an ordinary green light and an ordinary white light",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_43-f7b06d9e",
+        "ref": "ONI Annexe 2 – fig. 43",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 43 — side where passage is clear: ordinary red light + ordinary white light; side not clear: ordinary red light alone.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig44-1e963c8a-41be78c5",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -18508,6 +19643,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig44-1e963c8a-c5194529",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "By day, which flag indicates the side on which passage is NOT clear near a piece of floating equipment or a vessel at work?",
+      "choices": [
+        {
+          "text": "A red flag",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A flag whose upper half is red and lower half white",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An entirely white flag",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_44-1e963c8a",
+        "ref": "ONI Annexe 2 – fig. 44",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 44 — side where passage is not clear: red flag; side clear: red/white flag.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -18555,6 +19732,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig45-46d6d361-a22d76a7",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "By day, which signal indicates the side on which passage is clear near a piece of floating equipment or a vessel at work (two-flag variant)?",
+      "choices": [
+        {
+          "text": "Two superimposed flags, the upper red and the lower white",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Two superimposed flags, the upper white and the lower red",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A single red flag",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_45-46d6d361",
+        "ref": "ONI Annexe 2 – fig. 45",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 45 — side clear: two superimposed flags, upper red, lower white; side not clear: red flag.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig5-b9cc2457-0d1812fc",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -18592,6 +19811,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig5-b9cc2457-cb3b6339",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, where is the masthead light (bright white light) of a pushed convoy placed?",
+      "choices": [
+        {
+          "text": "On the leading vessel",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "On the pushing vessel, at the rear of the convoy",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "At the centre of the convoy, on the most visible vessel",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_5-b9cc2457",
+        "ref": "ONI Annexe 2 – fig. 5",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 5 — pushed convoys: bright white masthead light placed on the leading vessel.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -18639,6 +19900,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig8-abe2e33a-a6b4ecda",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, which lights may a professional fishing, sport or motorised pleasure vessel (or a sailing vessel under motor) carry under this simplified variant?",
+      "choices": [
+        {
+          "text": "A white light visible from all sides and green and red side lights",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A white masthead light, green/red side lights and a separate white stern light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Only an ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_8-abe2e33a",
+        "ref": "ONI Annexe 2 – fig. 8",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 8 — white light visible from all sides + green and red side lights.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig9-ea35d966-a3f6fbb6",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -18676,6 +19979,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig9-ea35d966-f397d177",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Under this variant, how may the side lights of a motorised sport/pleasure vessel (or sailing vessel under motor) carrying a white light visible from all sides be arranged in the forward area?",
+      "choices": [
+        {
+          "text": "Side by side in the forward area, or as a bicolour light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Combined with the stern light into a tricolour light at the top of the mast",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Replaced by a single ordinary yellow light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_9-ea35d966",
+        "ref": "ONI Annexe 2 – fig. 9",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 9 — white light visible from all sides + green/red side lights, placed side by side in the forward area or as a bicolour light.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -18802,6 +20147,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig1-9fc6fa6d-75530350",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "What does the general prohibition signal (circular board with a red border and a red bar) placed on a body of water mean?",
+      "choices": [
+        {
+          "text": "No passage",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The channel is limited to a certain distance from the shore",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Recommended passage for crossing under a bridge",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_1-9fc6fa6d",
+        "ref": "ONI Annexe 4 – fig. 1",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 1 — general prohibition signal: no passage.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -19101,6 +20488,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig13-75b0c2e2-711e9ae2",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No creating harmful wash or suction effects",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No anchoring",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No turning",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_13-75b0c2e2",
+        "ref": "ONI Annexe 4 – fig. 13",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image67.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 13 — « No creating harmful wash or suction effects ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig14-88869f44-6d01af6c",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -19138,6 +20567,90 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig14-88869f44-e5393823",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No turning",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No mooring",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No navigating outside the indicated limits",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_14-88869f44",
+        "ref": "ONI Annexe 4 – fig. 14",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image68.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 14 — « No navigating outside the indicated limits ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig15-43775bef-38749815",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No mooring",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No windsurfing",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No navigating outside the indicated limits",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_15-43775bef",
+        "ref": "ONI Annexe 4 – fig. 15",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image69.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 15 — « No navigating outside the indicated limits ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         2
       ]
@@ -19182,6 +20695,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig16-62fc9542-68ecf1a3",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this signal mean?",
+      "choices": [
+        {
+          "text": "Passage prohibited, but prepare to get under way",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Place for landing vessels",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wailing of a siren",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_16-62fc9542",
+        "ref": "ONI Annexe 4 – fig. 16",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image70.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 16 — « Passage prohibited, but prepare to get under way ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -19303,6 +20858,48 @@
       "image": "assets/oni/image71.png",
       "points": 3,
       "explanation": "ONI Annexe 4 – fig. 17 — \"Swimming prohibited\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig18-646acf50-8ed2ec1f",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Obligation to keep a particular lookout",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obligation to take the direction indicated by the arrow",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obligation to sound a whistle",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_18-646acf50",
+        "ref": "ONI Annexe 4 – fig. 18",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image72.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 18 — « Obligation to take the direction indicated by the arrow ».",
       "review_status": "approved",
       "distractor_strategy": "confusion_set",
       "generator": "translation:en.v1",
@@ -19558,6 +21155,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig20-cfb9895c-f0f9ff60",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Obligation not to exceed the speed indicated in km/h",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obligation to keep a particular lookout",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obligation to stop under certain conditions",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_20-cfb9895c",
+        "ref": "ONI Annexe 4 – fig. 20",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image74.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 20 — « Obligation not to exceed the speed indicated in km/h ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -19941,6 +21580,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig25-2aad3948-c62236af",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "On the « The channel is limited » signal, what does the number shown on the board represent?",
+      "choices": [
+        {
+          "text": "The distance, in metres, at which vessels must keep clear of the shore",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The maximum permitted speed in km/h",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The minimum water depth in metres",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_25-2aad3948",
+        "ref": "ONI Annexe 4 – fig. 25",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 25 — limited channel: the number indicates in metres the distance to keep from the shore.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig26-3e933a73-920d01c7",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -20062,6 +21743,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig27-ba251a55-e94eb409",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "What does the « Recommended passage under bridges » board of type a indicate?",
+      "choices": [
+        {
+          "text": "A recommended passage for crossing under the bridge in both directions",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A recommended passage in one direction only",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A prohibition on crossing under the bridge",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_27-ba251a55",
+        "ref": "ONI Annexe 4 – fig. 27",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 27 — recommended passage under bridges, a: in both directions.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -20319,6 +22042,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig30-76f938fc-02d24673",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Obligation to stop under certain conditions",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Recommendation to keep within the space indicated in «green»",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Permission to pass",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_30-76f938fc",
+        "ref": "ONI Annexe 4 – fig. 30",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image84.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 30 — « Recommendation to keep within the space indicated in «green» ».",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig30-76f938fc-a2f82f94",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -20356,6 +22121,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig31-26ad5785-4252e8fb",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No meeting or overtaking of any kind",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Recommendation to keep within the space indicated in «green»",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "End of a prohibition or an obligation",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_31-26ad5785",
+        "ref": "ONI Annexe 4 – fig. 31",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image85.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 31 — « Recommendation to keep within the space indicated in «green» ».",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
       "correct": [
         1
       ]
@@ -21663,6 +23470,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig46-de851140-773e3a27",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "A sign reads \"12 km/h\" together with the indication \"1000 m\". How should it be interpreted?",
+      "choices": [
+        {
+          "text": "An obligation not to exceed 12 km/h starting from a distance of 1000 m",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A minimum distance of 12 m to be maintained over 1000 km",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A depth of 12 m over a channel length of 1000 m",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_46-de851140",
+        "ref": "ONI Annexe 4 – fig. 46",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 46 — example: obligation not to exceed 12 km/h at 1000 m.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig46-de851140-c3876778",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -21742,6 +23591,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig49-ad8400ee-5b79b265",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "How is an isolated obstacle marked?",
+      "choices": [
+        {
+          "text": "By a cone point down, painted red or unpainted",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "By a cone point up, painted green or unpainted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By a cylinder painted red or unpainted",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_49-ad8400ee",
+        "ref": "ONI Annexe 4 – fig. 49",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 49 — isolated obstacles: cone point down painted red or unpainted.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -21831,6 +23722,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig50-d3e83c17-23c70902",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "In channel marking, by what marks are its two sides delimited?",
+      "choices": [
+        {
+          "text": "Cylinders painted red and cones point up painted green",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Cones point down painted red and green cylinders",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Yellow floats fitted with radar reflectors",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_50-d3e83c17",
+        "ref": "ONI Annexe 4 – fig. 50",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 50 — channel: red cylinders and green cones point up.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig50-d3e83c17-db7f9c4a",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -21873,6 +23806,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig52-979bca5a-634a8152",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "To mark a shoal near the shore, which marks are used on the open-water side and on the shore side?",
+      "choices": [
+        {
+          "text": "Open-water side: cylinders; shore side: cones",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Open-water side: cones; shore side: cylinders",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Open-water side and shore side: yellow floats",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_52-979bca5a",
+        "ref": "ONI Annexe 4 – fig. 52",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 52 — shoal near the shore: open-water side cylinders, shore side cones.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig52-979bca5a-daf9d185",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -21910,6 +23885,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig53-12f3a908-03473a84",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "For a marked channel in a shoal area, how are the right and left sides marked as seen from the open water?",
+      "choices": [
+        {
+          "text": "Right side: green cones; left side: red cylinders",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Right side: red cylinders; left side: green cones",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Both sides: cones point down painted red",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_53-12f3a908",
+        "ref": "ONI Annexe 4 – fig. 53",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 53 — channel in a shoal area: right side (seen from open water) green cones, left side red cylinders.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -21994,6 +24011,90 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig54-c3024fd8-c40d2b61",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "How does a cardinal mark indicate the North quadrant of an extended obstacle?",
+      "choices": [
+        {
+          "text": "Two cones one above the other, both points up",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Two cones one above the other, both points down",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Two cones one above the other, the lower cone point down and the upper cone point up",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_54-c3024fd8",
+        "ref": "ONI Annexe 4 – fig. 54",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 54 — North quadrant: two cones one above the other, both points up.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig55-ab288aa3-0a6785f6",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Cardinal marks indicate an extended shoal by indicating the North and West quadrants. What do they indicate?",
+      "choices": [
+        {
+          "text": "That the deep water lies in the North and West quadrants",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "That the obstacle lies in the North and West quadrants",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "That passage is prohibited in the North and West quadrants",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_55-ab288aa3",
+        "ref": "ONI Annexe 4 – fig. 55",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 55 — the marks indicate that the deep water lies in the North and West quadrants.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -26913,6 +29014,90 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig10-14b9e7fd-b4d92347",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, which lights must a sailing vessel under motor (sails hoisted or not) carry?",
+      "choices": [
+        {
+          "text": "A white masthead light, green and red side lights, and a white stern light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A white light visible from all sides and green and red side lights, without a masthead light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Only an ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_10-14b9e7fd",
+        "ref": "RNL Annexe I – fig. 10",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 10 — white masthead light, green and red side lights, white stern light.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig11-a62f797a-28e056bf",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "A sailing vessel under motor may, instead of separate side lights and a stern light, combine these lights. How and where is this combined light arranged, in addition to the white masthead light?",
+      "choices": [
+        {
+          "text": "A tricolour light combining the side lights and the stern light, placed at the top of the mast or near it",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A bicolour light placed in the forward area, with the stern light remaining separate",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A white light visible from all sides placed at the stern",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_11-a62f797a",
+        "ref": "RNL Annexe I – fig. 11",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 11 — white masthead light and tricolour light (sides + stern) at the top of the mast or near it.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig11-a62f797a-9ca81c6f",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -26950,6 +29135,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig14-3c63d9dd-44fa7b4c",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, which lights must a vessel or floating equipment being towed carry?",
+      "choices": [
+        {
+          "text": "An ordinary white masthead light and an ordinary white stern light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A white masthead light, green and red side lights, and a white stern light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A single ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_14-3c63d9dd",
+        "ref": "RNL Annexe I – fig. 14",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 14 — ordinary white masthead light and ordinary white stern light.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -27039,6 +29266,90 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig16-876eb8a5-b940dbfa",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, how does a non-motorised vessel navigating alone or in a towed convoy mark itself?",
+      "choices": [
+        {
+          "text": "By an ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "By a white masthead light and green and red side lights",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By an ordinary yellow light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_16-876eb8a5",
+        "ref": "RNL Annexe I – fig. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 16 — ordinary white light visible from all sides.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig17-98ce7451-6d59eca5",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, by which light may a vessel under sail (without motor) mark itself in the simplest way?",
+      "choices": [
+        {
+          "text": "An ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A white masthead light accompanied by green and red side lights",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A tricolour light placed at the top of the mast",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_17-98ce7451",
+        "ref": "RNL Annexe I – fig. 17",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 17 — ordinary white light visible from all sides.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig17-98ce7451-f4d4f025",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -27123,6 +29434,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig18-71d213c1-ec131935",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, a vessel under sail carrying side lights and a stern light: what are these lights?",
+      "choices": [
+        {
+          "text": "Green and red side lights and a white stern light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Green and red side lights, a white stern light and a white masthead light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An ordinary yellow light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_18-71d213c1",
+        "ref": "RNL Annexe I – fig. 18",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 18 — green and red side lights, white stern light (no masthead light).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig19-5a1f0630-36d63fdc",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -27160,6 +29513,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig19-5a1f0630-85b8d238",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this light signal mean?",
+      "choices": [
+        {
+          "text": "Tricolour light placed at the top of the mast or near it",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Either a red flag and a white flag",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Vessels navigating alone or tugs",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_19-5a1f0630",
+        "ref": "RNL Annexe I – fig. 19",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image24.png",
+      "points": 3,
+      "explanation": "RNL Annexe I – fig. 19 — \"Tricolour light placed at the top of the mast or near it\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -27207,6 +29602,90 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig20-478da848-6f852221",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this signal mean?",
+      "choices": [
+        {
+          "text": "Additional night marking of priority passenger vessels under way",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Pushed convoys",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Vessels navigating alone or tugs",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_20-478da848",
+        "ref": "RNL Annexe I – fig. 20",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image25.png",
+      "points": 3,
+      "explanation": "RNL Annexe I – fig. 20 — \"Additional night marking of priority passenger vessels under way\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig21-b53b2ab6-f4e1817b",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, how does a vessel that has become unable to manoeuvre signal its situation, in addition to its ordinary lights?",
+      "choices": [
+        {
+          "text": "By swinging a red light and/or by sounding the prescribed sound signal",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "By swinging a white light visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By showing a green ball visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_21-b53b2ab6",
+        "ref": "RNL Annexe I – fig. 21",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 21 — a red light swung and/or the prescribed sound signal.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig21-b53b2ab6-f516b1c0",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -27244,6 +29723,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig22-a4ed91e3-91f3e1b1",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, how may a vessel unable to manoeuvre mark itself by means of fixed lights visible from all sides?",
+      "choices": [
+        {
+          "text": "Two red lights one above the other, about 1 m apart, visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Two white lights one above the other about 1 m apart",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A red light above a white light, both visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_22-a4ed91e3",
+        "ref": "RNL Annexe I – fig. 22",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 22 — two red lights one above the other about 1 m apart, visible from all sides.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -27333,6 +29854,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig24-b5accf5f-3ac2b83e",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, how must floating equipment at a standstill be marked?",
+      "choices": [
+        {
+          "text": "Lit in such a way that its contours are recognisable",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "By an ordinary red light above an ordinary white light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By a black ball visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_24-b5accf5f",
+        "ref": "RNL Annexe I – fig. 24",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 24 — floating equipment at a standstill lit so that its contours are recognisable.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig25-3522004d-1396f956",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -27375,6 +29938,90 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig25-3522004d-7b6c6353",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, a vessel carrying out works or sounding operations: what does it show on the side where passage is free, and on the side where it is not free?",
+      "choices": [
+        {
+          "text": "Free side: ordinary red light above an ordinary white light; non-free side: ordinary red light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Free side: ordinary white light alone; non-free side: ordinary white light above a red light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Free side: green light; non-free side: red light",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_25-3522004d",
+        "ref": "RNL Annexe I – fig. 25",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 25 — free side: ordinary red light and ordinary white light; non-free side: ordinary red light.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig26-dc7b5242-1c811124",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, how are a vessel's anchors marked on the water?",
+      "choices": [
+        {
+          "text": "By buoys carrying an ordinary white light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "By buoys carrying an ordinary red light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By black balls visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_26-dc7b5242",
+        "ref": "RNL Annexe I – fig. 26",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 26 — anchors marked by buoys carrying an ordinary white light.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig26-dc7b5242-bedc3637",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -27412,6 +30059,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig27-7ff66719-e10f841a",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "By day, by which signal does a priority passenger vessel indicate its priority?",
+      "choices": [
+        {
+          "text": "A green ball, visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A yellow ball, visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A white ball, visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_27-7ff66719",
+        "ref": "RNL Annexe I – fig. 27",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 27 — green ball visible from all sides.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -27501,6 +30190,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig28-d7ffe00b-99d86313",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "By day, how does a vessel unable to manoeuvre signal its situation by means of a flag?",
+      "choices": [
+        {
+          "text": "By swinging a red flag and/or by sounding the prescribed sound signal",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "By swinging a white flag visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By hoisting a green ball visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_28-d7ffe00b",
+        "ref": "RNL Annexe I – fig. 28",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 28 — a red flag swung and/or the prescribed sound signal.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig29-c89b6222-c6604edf",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -27538,6 +30269,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig29-c89b6222-e0552ef7",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "By day, how may a vessel unable to manoeuvre mark itself by means of fixed marks visible from all sides?",
+      "choices": [
+        {
+          "text": "Two black balls one above the other, about 1 m apart, visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Two green balls one above the other visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A white ball visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_29-c89b6222",
+        "ref": "RNL Annexe I – fig. 29",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 29 — two black balls one above the other about 1 m apart, visible from all sides.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -27585,6 +30358,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig30-0b7fee06-e3a167e6",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "By day, a vessel carrying out works: what does it show on the side where passage is free, and on the side where it is not free?",
+      "choices": [
+        {
+          "text": "Free side: a red and white flag (or a red flag and a white flag); non-free side: a red flag",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Free side: a red flag; non-free side: a red and white flag",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Free side: a green ball; non-free side: a black ball",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_30-0b7fee06",
+        "ref": "RNL Annexe I – fig. 30",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 30 — free side: red and white flag; non-free side: red flag.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig32-79bb39ae-66f05d59",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -27622,6 +30437,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig32-79bb39ae-96d4982f",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, how does a vessel or floating establishment to be protected against wash mark itself?",
+      "choices": [
+        {
+          "text": "By an ordinary red light above an ordinary white light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "By an ordinary white light above an ordinary red light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "By two red lights one above the other visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_32-79bb39ae",
+        "ref": "RNL Annexe I – fig. 32",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 32 — at night: ordinary red light above an ordinary white light.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -27711,6 +30568,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig35-d034546c-cad103a3",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "What special light do the vessels of the control authorities, fire services and rescue services carry when on a mission?",
+      "choices": [
+        {
+          "text": "A scintillating blue light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A bright green light visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A scintillating yellow light",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_35-d034546c",
+        "ref": "RNL Annexe I – fig. 35",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 35 — scintillating blue light for vessels on a mission.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig35-d034546c-db71770b",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -27748,6 +30647,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig37-adfe31a5-ac6b4a42",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "What flag does a vessel of the control authorities hoist when it wishes to enter into communication with another vessel?",
+      "choices": [
+        {
+          "text": "The letter \"K\" flag",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The letter \"A\" board",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A red flag",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_37-adfe31a5",
+        "ref": "RNL Annexe I – fig. 37",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 37 — letter \"K\" flag to enter into communication.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -27832,6 +30773,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig38-a273c571-c54f62c3",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "How does a vessel in distress call for help, both at night and by day?",
+      "choices": [
+        {
+          "text": "At night: a red light swung in a circle; by day: a red flag or other object swung in a circle",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "At night: a white light swung; by day: a green ball hoisted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "At night: two red lights one above the other; by day: two black balls one above the other",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_38-a273c571",
+        "ref": "RNL Annexe I – fig. 38",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 38 — distress: red light (night) or red flag/object (day) swung in a circle.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -27963,6 +30946,90 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig40-0560d461-ab316f10",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "What signal indicates underwater diving carried out from the shore?",
+      "choices": [
+        {
+          "text": "A board bearing the letter \"A\"",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A flag bearing the letter \"K\"",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A yellow ball visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_40-0560d461",
+        "ref": "RNL Annexe I – fig. 40",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 40 — letter \"A\" board for diving from the shore.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig41-7dd1f930-01e5a379",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "What signal does a vessel used for underwater diving carry when the diving is done from a body of water?",
+      "choices": [
+        {
+          "text": "A board bearing the letter \"A\"",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A white ball visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A flag bearing the letter \"K\"",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_41-7dd1f930",
+        "ref": "RNL Annexe I – fig. 41",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 41 — letter \"A\" board for diving from a body of water.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig41-7dd1f930-951aa068",
       "theme": "signalisation",
       "kind": "rule_mc",
@@ -28042,6 +31109,90 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig42-12aa6344-90872a93",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "What signal does a vessel trolling and towing one or more floats or spreaders carry?",
+      "choices": [
+        {
+          "text": "A white ball, visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A yellow ball, visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A green ball, visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_42-12aa6344",
+        "ref": "RNL Annexe I – fig. 42",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 42 — white ball visible from all sides for trolling.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig43-9140f412-1168f6ad",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "What signal does a professional fishing vessel in operation carry?",
+      "choices": [
+        {
+          "text": "A yellow ball, visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A white ball, visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A green ball, visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_43-9140f412",
+        "ref": "RNL Annexe I – fig. 43",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 43 — yellow ball visible from all sides for professional fishing in operation.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -28257,6 +31408,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig7-90f4e02f-3f76a909",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this signal mean?",
+      "choices": [
+        {
+          "text": "Pushed convoys",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Vessels navigating alone or tugs",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Professional fishing vessels, motorised pleasure craft",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_7-90f4e02f",
+        "ref": "RNL Annexe I – fig. 7",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image12.png",
+      "points": 3,
+      "explanation": "RNL Annexe I – fig. 7 — \"Professional fishing vessels, motorised pleasure craft\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig7-90f4e02f-ea405173",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -28296,6 +31489,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         2
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig8-928d2012-7b3112b7",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "At night, which lights may a motorised pleasure craft (or a sailing vessel under motor) carry under this simplified configuration?",
+      "choices": [
+        {
+          "text": "A white light visible from all sides and green and red side lights",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A white masthead light, green and red side lights and a separate white stern light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An ordinary yellow light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_8-928d2012",
+        "ref": "RNL Annexe I – fig. 8",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 8 — white light visible from all sides and green and red side lights.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -28803,6 +32038,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeiiifig14-1a7fb6e0-31dac917",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Obligation to take the direction indicated by the arrow",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obligation to exercise particular vigilance",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Permission to moor",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_14-1a7fb6e0",
+        "ref": "RNL Annexe III – fig. 14",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image63.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 14 — \"Obligation to take the direction indicated by the arrow\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeiiifig15-90a75a42-0dc538c8",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -28840,6 +32117,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig15-90a75a42-773151bc",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Obligation not to exceed the speed indicated (in km/h",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Prohibition of all overtaking",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Permission to anchor",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_15-90a75a42",
+        "ref": "RNL Annexe III – fig. 15",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image64.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 15 — \"Obligation not to exceed the speed indicated (in km/h\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -28966,6 +32285,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig17-5391f1b7-e634f8cc",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Permission for water skiing or the use of similar equipment",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Permission to make fast",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Permission to anchor",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_17-5391f1b7",
+        "ref": "RNL Annexe III – fig. 17",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image66.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 17 — \"Permission for water skiing or the use of similar equipment\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -29556,6 +32917,48 @@
       "generator": "translation:en.v1",
       "correct": [
         0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig4-4cdd4671-9d3a1dd3",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Prohibition of windsurfing",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Prohibition of water skiing or the use of similar equipment",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Prohibition of parking",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_4-4cdd4671",
+        "ref": "RNL Annexe III – fig. 4",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image53.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 4 — \"Prohibition of water skiing or the use of similar equipment\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
       ]
     },
     {

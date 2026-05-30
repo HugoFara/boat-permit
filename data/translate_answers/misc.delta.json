@@ -1,0 +1,56 @@
+{
+  "q-oni-oniart2-2bf27aad-ee65754e": {
+    "stem": "What is a “pushed convoy” according to the ONI?",
+    "choices": [
+      "An assembly of non-propelled vessels joined together into a rigid unit, pushed by at least one motorised vessel",
+      "An assembly of non-propelled vessels towed by at least one motorised vessel",
+      "Any group of pleasure craft navigating together"
+    ],
+    "explanation": "ONI art. 2: the pushed convoy is a rigid unit that is pushed; if towed = towed convoy."
+  },
+  "q-rnl-rnlart64-284d0c2c-7ddb9699": {
+    "stem": "When meeting, which vessels must every vessel — apart from priority passenger vessels and towed convoys — keep clear of?",
+    "choices": [
+      "Cargo vessels",
+      "Pleasure craft",
+      "Sailing sport boats"
+    ],
+    "explanation": "RNL art. 64, para. 2 let. b: it keeps clear of cargo vessels."
+  },
+  "q-rnl-rnlart64-284d0c2c-ac1fdc24": {
+    "stem": "Faced with a vessel unable to manoeuvre that signals its presence, what must every other vessel do?",
+    "choices": [
+      "Keep clear of that vessel",
+      "Maintain its course and speed",
+      "Overtake it on the starboard side"
+    ],
+    "explanation": "RNL art. 64, para. 1: every vessel must keep clear of a vessel unable to manoeuvre that signals its presence."
+  },
+  "q-oni-oniart134-df53e657-aedca456": {
+    "stem": "Which of these devices are INDIVIDUAL lifesaving appliances within the meaning of the ONI?",
+    "choices": [
+      "Lifejackets with collars",
+      "Lifebuoys",
+      "Boarding life rafts"
+    ],
+    "explanation": "ONI art. 134: lifejackets with collars and lifebuoys = individual; boarding life rafts are collective."
+  },
+  "q-matelotagewp-matelotagenœuddechaiseroide-3b91fa7c": {
+    "stem": "Why is the bowline described as the “king of knots”?",
+    "choices": [
+      "It is a reliable loop knot that does not slip under tension and unties easily",
+      "It tightens more and more under tension until it becomes impossible to untie",
+      "It is used only to join two ropes of the same diameter"
+    ],
+    "explanation": "The bowline is a reliable loop that does not slip and unties easily."
+  },
+  "q-meteovents-météosuisselabise-22689f11-7e9f258e": {
+    "stem": "During which period is the Bise clearly dominant on Lake Geneva?",
+    "choices": [
+      "In the first half of the year, particularly in spring",
+      "In high summer, from July to August",
+      "Only during autumn nights"
+    ],
+    "explanation": "MeteoSwiss: the Bise is dominant in the first half of the year, especially in spring."
+  }
+}

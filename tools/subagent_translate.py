@@ -49,10 +49,29 @@ def _fr_exportable(conn) -> list[Question]:
             if q.lang == SRC_LANG and q.review_status in qschema.EXPORTABLE_STATUSES]
 
 
+def _answer_files() -> list[str]:
+    """Every translation-answer file (any *.json under translate_answers/,
+    including round-tagged deltas like 'signalisation.delta.json')."""
+    return sorted(glob.glob(os.path.join(ANSWERS_DIR, "**", "*.json"), recursive=True))
+
+
+def _translated_qids() -> set:
+    """FR qids that already have a translation on disk — emit skips these so a
+    re-run only drafts the delta and never re-touches the approved EN set."""
+    done = set()
+    for f in _answer_files():
+        d = json.load(open(f, encoding="utf-8"))
+        done |= set(d if isinstance(d, dict) else {x["qid"]: x for x in d})
+    return done
+
+
 def cmd_emit(*_):
     conn = qschema.connect(QDB_PATH)
+    done = _translated_qids()
     jobs: dict[str, list] = {}
     for q in _fr_exportable(conn):
+        if q.id in done:                 # already translated — skip (incremental)
+            continue
         jobs.setdefault(q.theme, []).append({
             "qid": q.id, "stem": q.stem,
             "choices": [c.text for c in q.choices],   # order preserved
@@ -60,56 +79,56 @@ def cmd_emit(*_):
     os.makedirs(ANSWERS_DIR, exist_ok=True)
     with open(JOBS, "w", encoding="utf-8") as fh:
         json.dump(jobs, fh, ensure_ascii=False, indent=2)
+    total = sum(len(v) for v in jobs.values())
     for theme, qs in jobs.items():
         print(f"  {theme:18} {len(qs)} questions")
-    print(f"→ {JOBS}")
+    print(f"→ {JOBS}  ({total} untranslated; {len(done)} already done)")
 
 
 def cmd_ingest(*_):
-    jobs = json.load(open(JOBS, encoding="utf-8"))
     conn = qschema.connect(QDB_PATH)
     fr = {q.id: q for q in _fr_exportable(conn)}
+    existing_en = {q.id for q in qschema.load_questions(conn) if q.lang == TGT_LANG}
     out: list[Question] = []
-    stats = {"translated": 0, "kept": 0, "invalid": 0, "missing_original": 0, "arity": 0}
-    for theme in jobs:
-        path = os.path.join(ANSWERS_DIR, f"{theme}.json")
-        if not os.path.exists(path):
-            print(f"  {theme:18} (no answers — skipped)")
-            continue
+    stats = {"translated": 0, "kept": 0, "invalid": 0, "missing_original": 0,
+             "arity": 0, "already_in_bank": 0}
+    # Glob every answer file (original per-theme + any delta files) and merge.
+    merged: dict[str, dict] = {}
+    for path in _answer_files():
         data = json.load(open(path, encoding="utf-8"))
-        items = data if isinstance(data, dict) else {x["qid"]: x for x in data}
-        kept = 0
-        for qid, tr in items.items():
-            stats["translated"] += 1
-            orig = fr.get(qid)
-            if orig is None:
-                stats["missing_original"] += 1
-                continue
-            tchoices = tr["choices"]
-            if len(tchoices) != len(orig.choices):     # arity must match the original
-                stats["arity"] += 1
-                continue
-            # Structure (order, is_correct, image) from the ORIGINAL; text from translation.
-            choices = [Choice(text=tchoices[i].strip(), image=orig.choices[i].image,
-                              is_correct=orig.choices[i].is_correct)
-                       for i in range(len(orig.choices))]
-            q = Question(
-                id=make_question_id(orig.provenance.unit_id, tr["stem"], "en"),
-                theme=orig.theme, kind=orig.kind, stem=tr["stem"].strip(),
-                lang=TGT_LANG, choices=choices, polarity=orig.polarity,
-                image=orig.image, points=orig.points,
-                explanation=tr.get("explanation", "").strip(),
-                review_status="pending", distractor_strategy=orig.distractor_strategy,
-                generator=GENERATOR, provenance=orig.provenance)
-            if qschema.validate(q):
-                stats["invalid"] += 1
-                continue
-            out.append(q)
-            kept += 1
-        stats["kept"] += kept
-        print(f"  {theme:18} kept {kept}")
+        merged.update(data if isinstance(data, dict) else {x["qid"]: x for x in data})
+    for qid, tr in merged.items():
+        stats["translated"] += 1
+        orig = fr.get(qid)
+        if orig is None:
+            stats["missing_original"] += 1
+            continue
+        tchoices = tr["choices"]
+        if len(tchoices) != len(orig.choices):     # arity must match the original
+            stats["arity"] += 1
+            continue
+        # Structure (order, is_correct, image) from the ORIGINAL; text from translation.
+        choices = [Choice(text=tchoices[i].strip(), image=orig.choices[i].image,
+                          is_correct=orig.choices[i].is_correct)
+                   for i in range(len(orig.choices))]
+        q = Question(
+            id=make_question_id(orig.provenance.unit_id, tr["stem"], "en"),
+            theme=orig.theme, kind=orig.kind, stem=tr["stem"].strip(),
+            lang=TGT_LANG, choices=choices, polarity=orig.polarity,
+            image=orig.image, points=orig.points,
+            explanation=tr.get("explanation", "").strip(),
+            review_status="pending", distractor_strategy=orig.distractor_strategy,
+            generator=GENERATOR, provenance=orig.provenance)
+        if q.id in existing_en:        # already in the bank — don't reset its status
+            stats["already_in_bank"] += 1
+            continue
+        if qschema.validate(q):
+            stats["invalid"] += 1
+            continue
+        out.append(q)
+        stats["kept"] += 1
     qschema.write_questions(conn, out)
-    print(f"→ pending EN written. {stats}")
+    print(f"→ {stats['kept']} new pending EN written. {stats}")
     print("  review queue:", qschema.counts_by_status(conn))
 
 
@@ -119,8 +138,12 @@ def cmd_verify_emit(*_):
     approve it by id."""
     conn = qschema.connect(QDB_PATH)
     fr = {q.id: q for q in _fr_exportable(conn)}
+    # Only verify EN drafts that are still pending — the already-approved set is
+    # locked in (and recovered from translate_verdicts/), so re-verifying it is waste.
+    pending_en = {q.id for q in qschema.load_questions(conn)
+                  if q.lang == TGT_LANG and q.review_status == "pending"}
     out = []
-    for path in sorted(glob.glob(os.path.join(ANSWERS_DIR, "*.json"))):
+    for path in _answer_files():
         theme = os.path.splitext(os.path.basename(path))[0]
         data = json.load(open(path, encoding="utf-8"))
         items = data if isinstance(data, dict) else {x["qid"]: x for x in data}
@@ -129,6 +152,8 @@ def cmd_verify_emit(*_):
             if o is None:
                 continue
             en_id = make_question_id(o.provenance.unit_id, tr["stem"].strip(), "en")
+            if en_id not in pending_en:        # skip already-approved EN
+                continue
             out.append({
                 "qid": en_id, "theme": theme,
                 "fr": {"stem": o.stem, "choices": [c.text for c in o.choices],

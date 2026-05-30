@@ -1,0 +1,344 @@
+{
+  "q-oni-oniannexe2fig10-ff141136-da02f7af": {
+    "stem": "At night, which lights must a sailing vessel under motor (sails hoisted or not) carry?",
+    "choices": [
+      "A white masthead light, green and red side lights, and a white stern light",
+      "Only an ordinary white light visible from all sides",
+      "A white masthead light and a tricolour light combining the side lights and the stern light at the top of the mast"
+    ],
+    "explanation": "ONI Annexe 2, fig. 10 — white masthead light, green/red side lights, white stern light."
+  },
+  "q-oni-oniannexe2fig11-a7ce07dd-021a8527": {
+    "stem": "A sailing vessel under motor may combine its side lights and its stern light into a single tricolour light. Where is this tricolour light placed, and which other light is still required?",
+    "choices": [
+      "A white masthead light, with the tricolour light placed at the top of the mast or near it",
+      "A white masthead light, with the tricolour light placed on the stern at water level",
+      "No masthead light, and a white stern light separate from the tricolour light"
+    ],
+    "explanation": "ONI Annexe 2, fig. 11 — white masthead light; side lights and stern light combined into a tricolour light at the top of the mast or near it."
+  },
+  "q-oni-oniannexe2fig14-45636e4f-f71e248a": {
+    "stem": "At night, which light must a non-motorised vessel sailing alone or in a towed convoy carry?",
+    "choices": [
+      "An ordinary white light visible from all sides",
+      "A white masthead light with green and red side lights",
+      "An ordinary yellow light visible from all sides"
+    ],
+    "explanation": "ONI Annexe 2, fig. 14 — non-motorised vessels, alone or towed: ordinary white light visible from all sides."
+  },
+  "q-oni-oniannexe2fig15-42ccc9b1-20822384": {
+    "stem": "At night, which light must a vessel under sail (without motor) carry as a minimum?",
+    "choices": [
+      "An ordinary white light visible from all sides",
+      "Green and red side lights and a white stern light",
+      "A white masthead light and a tricolour light at the top of the mast"
+    ],
+    "explanation": "ONI Annexe 2, fig. 15 — vessels under sail: ordinary white light visible from all sides."
+  },
+  "q-oni-oniannexe2fig17-77b94b84-cb761fb4": {
+    "stem": "What does this light signal mean?",
+    "choices": [
+      "Flashing light",
+      "Fixed light visible from all sides",
+      "Tricolour light placed at the top of the mast or near it"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 17 — « Tricolour light placed at the top of the mast or near it »."
+  },
+  "q-oni-oniannexe2fig18-ec6e52d1-c0d19d8f": {
+    "stem": "At night, a vessel carries two superimposed lights visible from all sides, a stern light and a bicolour light (or separate side lights). What are the colours of the two superimposed lights?",
+    "choices": [
+      "The upper light red, the lower light green",
+      "The upper light green, the lower light red",
+      "Both lights white"
+    ],
+    "explanation": "ONI Annexe 2, fig. 18 — two superimposed lights visible from all sides: the upper red, the lower green."
+  },
+  "q-oni-oniannexe2fig19-afd9bcc6-74e76f73": {
+    "stem": "At night, which light must a vessel at anchor carry?",
+    "choices": [
+      "An ordinary white light visible from all sides",
+      "An ordinary red light visible from all sides",
+      "Green and red side lights"
+    ],
+    "explanation": "ONI Annexe 2, fig. 19 — vessels at anchor: ordinary white light visible from all sides."
+  },
+  "q-oni-oniannexe2fig20-188a22fa-4dc0d6cb": {
+    "stem": "At night, when the safety of navigation requires it, how must floating equipment be marked?",
+    "choices": [
+      "By lighting that allows its outline to be made out",
+      "By an ordinary yellow light visible from all sides",
+      "By a white masthead light and green and red side lights"
+    ],
+    "explanation": "ONI Annexe 2, fig. 20 — floating equipment: when safety requires it, lighting that allows the outline to be made out."
+  },
+  "q-oni-oniannexe2fig21-a4c59f38-15b5ccdf": {
+    "stem": "In addition to the usual navigation lights, which distinctive light must a priority vessel carry at night?",
+    "choices": [
+      "A bright green light visible from all sides, placed at least 1 m higher than the masthead light",
+      "A bright red light visible from all sides, placed at least 1 m higher than the masthead light",
+      "An ordinary yellow light visible from all sides"
+    ],
+    "explanation": "ONI Annexe 2, fig. 21 — priority vessels: a bright green light visible from all sides, at least 1 m above the masthead light."
+  },
+  "q-oni-oniannexe2fig23-78f17195-0b4083e1": {
+    "stem": "To indicate that it must be protected against wash, which additional lights does a vessel carry at night, in addition to the prescribed lights?",
+    "choices": [
+      "An ordinary red light visible from all sides above an ordinary white light visible from all sides",
+      "An ordinary white light above an ordinary red light, both visible from all sides",
+      "Two superimposed ordinary red lights visible from all sides"
+    ],
+    "explanation": "ONI Annexe 2, fig. 23 — protection against wash: red light visible from all sides above a white light visible from all sides."
+  },
+  "q-oni-oniannexe2fig24-7c82046a-6efffa35": {
+    "stem": "What does this signal mean?",
+    "choices": [
+      "A flag whose upper half is red and lower half white",
+      "Swinging a red flag",
+      "Two superimposed white flags"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 24 — « A flag whose upper half is red and lower half white »."
+  },
+  "q-oni-oniannexe2fig25-727c3760-bf08969e": {
+    "stem": "What does this signal mean?",
+    "choices": [
+      "Two flags, the upper red and the lower white",
+      "Two superimposed white flags",
+      "Swinging a red flag"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 25 — « Two flags, the upper red and the lower white »."
+  },
+  "q-oni-oniannexe2fig32-8474c209-75ed07a8": {
+    "stem": "Which signal does a vessel of the police, the border guard or the fisheries inspectorate hoist when it wants to make contact with another vessel?",
+    "choices": [
+      "The letter «K» flag, whose half on the staff side is yellow and the other half blue",
+      "The letter «K» flag, whose upper half is red and the other half white",
+      "An entirely red flag"
+    ],
+    "explanation": "ONI Annexe 2, fig. 32 — letter «K» flag, half on the staff side yellow, the other half blue."
+  },
+  "q-oni-oniannexe2fig33-f3928ea5-eda240bd": {
+    "stem": "At night, which light must a professional fishing vessel carry?",
+    "choices": [
+      "An ordinary yellow light visible from all sides",
+      "An ordinary white light visible from all sides",
+      "An ordinary red light visible from all sides"
+    ],
+    "explanation": "ONI Annexe 2, fig. 33 — professional fishing vessels: ordinary yellow light visible from all sides."
+  },
+  "q-oni-oniannexe2fig35-49c140b6-402a00cf": {
+    "stem": "Which daytime signal must a vessel trolling for fish display?",
+    "choices": [
+      "A white ball",
+      "A green ball visible from all sides",
+      "An ordinary yellow light visible from all sides"
+    ],
+    "explanation": "ONI Annexe 2, fig. 35 — vessels trolling for fish: white ball."
+  },
+  "q-oni-oniannexe2fig36-f348b5a7-e9b8bb56": {
+    "stem": "In the case of underwater diving carried out from the shore, which signal must be displayed?",
+    "choices": [
+      "The letter «A» board (a swallow-tailed pennant, half on the staff side white, the other half blue)",
+      "The letter «K» flag (half on the staff side yellow, the other half blue)",
+      "A white ball visible from all sides"
+    ],
+    "explanation": "ONI Annexe 2, fig. 36 — diving from the shore: letter «A» board, white/blue swallow-tailed pennant."
+  },
+  "q-oni-oniannexe2fig37-6c099ecd-a0366ec7": {
+    "stem": "In the case of underwater diving carried out from a body of water, how must the letter «A» board be displayed?",
+    "choices": [
+      "The letter «A» board (white/blue pennant) visible from all sides",
+      "The letter «A» board facing only towards the shore",
+      "A red flag visible from all sides"
+    ],
+    "explanation": "ONI Annexe 2, fig. 37 — diving from a body of water: letter «A» board (white/blue pennant) visible from all sides."
+  },
+  "q-oni-oniannexe2fig4-6f7c0dce-5b9aefe1": {
+    "stem": "At night, which lights must a motorised vessel sailing alone (or a tug) carry?",
+    "choices": [
+      "A bright white masthead (or bow) light, bright green and bright red side lights, and an ordinary white stern light",
+      "Only an ordinary white light visible from all sides",
+      "A bright white light and a bright green light visible from all sides placed higher than the masthead light"
+    ],
+    "explanation": "ONI Annexe 2, fig. 4 — motorised vessels alone/tugs: bright white masthead light, bright green/red side lights, ordinary white stern light."
+  },
+  "q-oni-oniannexe2fig40-dc3b2f2d-60fa671a": {
+    "stem": "At night, how does a vessel in distress signal its situation?",
+    "choices": [
+      "By swinging a light in a circular motion",
+      "By swinging a light (without a circular motion)",
+      "By showing two fixed superimposed red lights"
+    ],
+    "explanation": "ONI Annexe 2, fig. 40 — vessels in distress: swing a light in a circular motion."
+  },
+  "q-oni-oniannexe2fig41-043d783d-d5fd032a": {
+    "stem": "What does this signal mean?",
+    "choices": [
+      "Swinging a red flag",
+      "Swinging a red flag, or any other suitable object, in a circular motion",
+      "Two superimposed white flags"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 41 — « Swinging a red flag, or any other suitable object, in a circular motion »."
+  },
+  "q-oni-oniannexe2fig42-f759937d-ad760066": {
+    "stem": "What does this signal mean?",
+    "choices": [
+      "A slow, repeated up-and-down movement of the arms extended to each side",
+      "Permission to moor",
+      "B. in the indicated direction only"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 42 — « A slow, repeated up-and-down movement of the arms extended to each side »."
+  },
+  "q-oni-oniannexe2fig43-f7b06d9e-947594fe": {
+    "stem": "At night, how does a piece of floating equipment (or a vessel at work, aground or sunk) indicate the sides on which passage is clear?",
+    "choices": [
+      "By an ordinary red light and an ordinary white light",
+      "By an ordinary red light alone",
+      "By an ordinary green light and an ordinary white light"
+    ],
+    "explanation": "ONI Annexe 2, fig. 43 — side where passage is clear: ordinary red light + ordinary white light; side not clear: ordinary red light alone."
+  },
+  "q-oni-oniannexe2fig44-1e963c8a-41be78c5": {
+    "stem": "By day, which flag indicates the side on which passage is NOT clear near a piece of floating equipment or a vessel at work?",
+    "choices": [
+      "A red flag",
+      "A flag whose upper half is red and lower half white",
+      "An entirely white flag"
+    ],
+    "explanation": "ONI Annexe 2, fig. 44 — side where passage is not clear: red flag; side clear: red/white flag."
+  },
+  "q-oni-oniannexe2fig45-46d6d361-4c73921b": {
+    "stem": "By day, which signal indicates the side on which passage is clear near a piece of floating equipment or a vessel at work (two-flag variant)?",
+    "choices": [
+      "Two superimposed flags, the upper red and the lower white",
+      "Two superimposed flags, the upper white and the lower red",
+      "A single red flag"
+    ],
+    "explanation": "ONI Annexe 2, fig. 45 — side clear: two superimposed flags, upper red, lower white; side not clear: red flag."
+  },
+  "q-oni-oniannexe2fig5-b9cc2457-0d1812fc": {
+    "stem": "At night, where is the masthead light (bright white light) of a pushed convoy placed?",
+    "choices": [
+      "On the leading vessel",
+      "On the pushing vessel, at the rear of the convoy",
+      "At the centre of the convoy, on the most visible vessel"
+    ],
+    "explanation": "ONI Annexe 2, fig. 5 — pushed convoys: bright white masthead light placed on the leading vessel."
+  },
+  "q-oni-oniannexe2fig8-abe2e33a-1a2b7850": {
+    "stem": "At night, which lights may a professional fishing, sport or motorised pleasure vessel (or a sailing vessel under motor) carry under this simplified variant?",
+    "choices": [
+      "A white light visible from all sides and green and red side lights",
+      "A white masthead light, green/red side lights and a separate white stern light",
+      "Only an ordinary white light visible from all sides"
+    ],
+    "explanation": "ONI Annexe 2, fig. 8 — white light visible from all sides + green and red side lights."
+  },
+  "q-oni-oniannexe2fig9-ea35d966-a3f6fbb6": {
+    "stem": "Under this variant, how may the side lights of a motorised sport/pleasure vessel (or sailing vessel under motor) carrying a white light visible from all sides be arranged in the forward area?",
+    "choices": [
+      "Side by side in the forward area, or as a bicolour light",
+      "Combined with the stern light into a tricolour light at the top of the mast",
+      "Replaced by a single ordinary yellow light visible from all sides"
+    ],
+    "explanation": "ONI Annexe 2, fig. 9 — white light visible from all sides + green/red side lights, placed side by side in the forward area or as a bicolour light."
+  },
+  "q-oni-oniannexe4fig1-9fc6fa6d-38447aa2": {
+    "stem": "What does the general prohibition signal (circular board with a red border and a red bar) placed on a body of water mean?",
+    "choices": [
+      "No passage",
+      "The channel is limited to a certain distance from the shore",
+      "Recommended passage for crossing under a bridge"
+    ],
+    "explanation": "ONI Annexe 4, fig. 1 — general prohibition signal: no passage."
+  },
+  "q-oni-oniannexe4fig13-75b0c2e2-13c94af6": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No creating harmful wash or suction effects",
+      "No anchoring",
+      "No turning"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 13 — « No creating harmful wash or suction effects »."
+  },
+  "q-oni-oniannexe4fig14-88869f44-6d01af6c": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No turning",
+      "No mooring",
+      "No navigating outside the indicated limits"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 14 — « No navigating outside the indicated limits »."
+  },
+  "q-oni-oniannexe4fig15-43775bef-5b86f15e": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No mooring",
+      "No windsurfing",
+      "No navigating outside the indicated limits"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 15 — « No navigating outside the indicated limits »."
+  },
+  "q-oni-oniannexe4fig16-62fc9542-cac17bfa": {
+    "stem": "What does this signal mean?",
+    "choices": [
+      "Passage prohibited, but prepare to get under way",
+      "Place for landing vessels",
+      "Wailing of a siren"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 16 — « Passage prohibited, but prepare to get under way »."
+  },
+  "q-oni-oniannexe4fig18-646acf50-c67c403e": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Obligation to keep a particular lookout",
+      "Obligation to take the direction indicated by the arrow",
+      "Obligation to sound a whistle"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 18 — « Obligation to take the direction indicated by the arrow »."
+  },
+  "q-oni-oniannexe4fig20-cfb9895c-05e82069": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Obligation not to exceed the speed indicated in km/h",
+      "Obligation to keep a particular lookout",
+      "Obligation to stop under certain conditions"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 20 — « Obligation not to exceed the speed indicated in km/h »."
+  },
+  "q-oni-oniannexe4fig25-2aad3948-650cf03e": {
+    "stem": "On the « The channel is limited » signal, what does the number shown on the board represent?",
+    "choices": [
+      "The distance, in metres, at which vessels must keep clear of the shore",
+      "The maximum permitted speed in km/h",
+      "The minimum water depth in metres"
+    ],
+    "explanation": "ONI Annexe 4, fig. 25 — limited channel: the number indicates in metres the distance to keep from the shore."
+  },
+  "q-oni-oniannexe4fig27-ba251a55-5d179299": {
+    "stem": "What does the « Recommended passage under bridges » board of type a indicate?",
+    "choices": [
+      "A recommended passage for crossing under the bridge in both directions",
+      "A recommended passage in one direction only",
+      "A prohibition on crossing under the bridge"
+    ],
+    "explanation": "ONI Annexe 4, fig. 27 — recommended passage under bridges, a: in both directions."
+  },
+  "q-oni-oniannexe4fig30-76f938fc-a2f82f94": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Obligation to stop under certain conditions",
+      "Recommendation to keep within the space indicated in «green»",
+      "Permission to pass"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 30 — « Recommendation to keep within the space indicated in «green» »."
+  },
+  "q-oni-oniannexe4fig31-26ad5785-7713c27a": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No meeting or overtaking of any kind",
+      "Recommendation to keep within the space indicated in «green»",
+      "End of a prohibition or an obligation"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 31 — « Recommendation to keep within the space indicated in «green» »."
+  }
+}
