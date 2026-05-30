@@ -138,6 +138,28 @@ def test_seed_loader():
     assert qs[0].distractor_strategy == "curated"
 
 
+def test_select_units_uncapped_is_a_superset():
+    # The ingest path (tools/subagent_draft.cmd_ingest) matches committed answers
+    # against UNCAPPED select_units(limit=0); a positive limit only bounds the *emit*
+    # drafting budget. This guards the fix that recovered the stranded CH/fr
+    # matelotage+météo questions — a later-tightened plan cap must never silently
+    # drop a committed answer at ingest time.
+    c = sqlite3.connect(":memory:")
+    c.execute("""CREATE TABLE units (id TEXT, ref TEXT, title TEXT, text TEXT,
+                 theme TEXT, kind TEXT, source_name TEXT, source_url TEXT,
+                 legal_version TEXT, licence TEXT, lang TEXT)""")
+    base = "Le matelotage couvre les nœuds, l'amarrage et le mouillage du bateau. "
+    for i in range(5):
+        c.execute("INSERT INTO units VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+                  (f"u{i}", f"Matelotage — unité {i}", "Nœud", base * (8 - i),
+                   "matelotage", "article", "WP", "https://x", "", "CC", "fr"))
+    c.commit()
+    full = prose.select_units(c, "matelotage", limit=0, lang="fr")
+    capped = prose.select_units(c, "matelotage", limit=2, lang="fr")
+    assert len(full) == 5 and len(capped) == 2
+    assert {u["ref"] for u in capped} < {u["ref"] for u in full}   # cap strands units
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for t in tests:

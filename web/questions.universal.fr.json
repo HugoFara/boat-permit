@@ -353,6 +353,135 @@
       ]
     },
     {
+      "id": "q-matelotagewp-matelotagenœuddechaiseintér-8113da82",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Que confirme le texte au sujet du nœud de chaise hors tension ?",
+      "choices": [
+        {
+          "text": "Il est facile à défaire, même mouillé et après avoir subi une traction très forte ou un resserrement dû au dessèchement.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il devient impossible à défaire dès qu'il est mouillé.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il ne peut être réglé qu'en exerçant une forte tension sur le dormant.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__intérêts-e96bddce",
+        "ref": "Matelotage — Nœud de chaise : Intérêts",
+        "source": "Wikipédia (FR) — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Intérêts, hors tension il est facile à défaire même mouillé et après une forte traction.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseintér-ab116486",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Selon le texte, comment réagit le nœud de chaise lorsque la tension augmente ?",
+      "choices": [
+        {
+          "text": "Plus la tension est forte, plus il se bloque, tout en se dénouant tout aussi aisément.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Plus la tension est forte, plus il a tendance à glisser et à se défaire.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La tension n'a aucun effet sur son blocage, qui dépend d'un système mécanique intermédiaire.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__intérêts-e96bddce",
+        "ref": "Matelotage — Nœud de chaise : Intérêts",
+        "source": "Wikipédia (FR) — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Intérêts, plus la tension est forte, plus le nœud se bloque et se dénoue aisément.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseprése-168ffae5",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "D'après le texte, le nœud de chaise est aussi appelé :",
+      "choices": [
+        {
+          "text": "Nœud de bouline.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nœud de cabestan.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nœud de pendu.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__présentation-7a92f259",
+        "ref": "Matelotage — Nœud de chaise : Présentation",
+        "source": "Wikipédia (FR) — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Présentation, le nœud de chaise est aussi nommé nœud de bouline.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-matelotagewp-matelotagenœuddechaiseroide-1c6e7354",
       "theme": "matelotage",
       "kind": "matelotage_mc",
@@ -477,6 +606,92 @@
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienganses-27-7c977b8a",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "D'après le texte, qu'est-ce qu'une ganse ?",
+      "choices": [
+        {
+          "text": "Une portion de cordage courbée, sans croisement ni chevauchement.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un croisement serré de deux extrémités de corde.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une corde tressée à partir de trois brins métalliques.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__ganses-277e3817",
+        "ref": "Matelotage — Nœud (lien) : Ganses",
+        "source": "Wikipédia (FR) — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Ganses, la ganse est une portion de cordage courbée sans croisement ni chevauchement.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienganses-27-9d4c9c9b",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Selon le texte, qu'illustre le nœud de pendu concernant les nœuds gansés ?",
+      "choices": [
+        {
+          "text": "Il peut être facilement défait si la boucle est libre, mais se resserre autour de l'entrave sous le poids du pendu.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il ne peut jamais être défait, que la boucle soit libre ou entravée.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il se desserre automatiquement dès qu'on applique un poids sur la boucle.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__ganses-277e3817",
+        "ref": "Matelotage — Nœud (lien) : Ganses",
+        "source": "Wikipédia (FR) — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Ganses, le nœud de pendu se défait si la boucle est libre mais se resserre sous le poids du pendu.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
       "block": "",
       "correct": [
         0

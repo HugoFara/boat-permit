@@ -115,17 +115,25 @@ def cmd_emit(lang: str, country):
 
 
 def cmd_ingest(lang: str, country):
+    import glob
     p = _paths(lang, country)
     valid = country.themes.__contains__
-    jobs = json.load(open(p["jobs"], encoding="utf-8"))
     conn = qschema.connect(_qdb(country))
+    kb = sqlite3.connect(_kb(country))
     grand = {"drafted": 0, "kept": 0, "invalid": 0, "weak_grounding": 0, "no_answer": 0}
-    for theme, units in jobs.items():
-        by_ref = {u["ref"]: u for u in units}
-        path = os.path.join(p["answers"], f"{theme}.json")
-        if not os.path.exists(path):
-            print(f"  {theme:20} (no answers file — skipped)")
+    # Drive ingestion from the committed ANSWER files (the durable source of truth),
+    # matching each draft against the FULL, uncapped KB unit set per theme — NOT the
+    # emit plan's unit cap. `_plan()` is a *fresh-drafting* budget; using it to filter
+    # ingestion would silently strand committed answers drafted under a looser plan
+    # (this is exactly what dropped 10 CH/fr matelotage+météo questions when the plan
+    # was later tightened). Ingest therefore needs no prior `emit` / jobs file.
+    for path in sorted(glob.glob(os.path.join(p["answers"], "*.json"))):
+        theme = os.path.basename(path)[:-len(".json")]
+        if not valid(theme):
+            print(f"  {theme:20} (unknown theme — skipped)")
             continue
+        units = prose.select_units(kb, theme, limit=0, lang=lang)
+        by_ref = {u["ref"]: u for u in units}
         data = json.load(open(path, encoding="utf-8"))
         drafts = data["drafts"] if isinstance(data, dict) else data
         kept_q, st = [], {"drafted": 0, "kept": 0, "invalid": 0, "weak_grounding": 0}

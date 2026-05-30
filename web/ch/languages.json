@@ -16,7 +16,7 @@
       "unofficial": true
     },
     "fr": {
-      "count": 203,
+      "count": 211,
       "unofficial": false
     },
     "it": {
@@ -60,7 +60,7 @@
       },
       "fr": {
         "path": "../questions.universal.fr.json",
-        "count": 48
+        "count": 53
       },
       "it": {
         "path": "../questions.universal.it.json",
@@ -116,7 +116,7 @@
     "fr": {
       "apkg": "anki/boat-permit.fr.apkg",
       "tsv": "anki/boat-permit.fr.tsv",
-      "count": 203,
+      "count": 211,
       "images": 91
     },
     "it": {
@@ -137,7 +137,7 @@
     },
     "fr": {
       "gift": "gift/boat-permit.fr.gift",
-      "count": 203
+      "count": 211
     },
     "it": {
       "gift": "gift/boat-permit.it.gift",
