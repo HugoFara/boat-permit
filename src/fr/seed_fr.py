@@ -853,7 +853,7 @@ SEED: list[dict] = [
          {"fr": "« Je suis à l'arrêt »", "en": "“I am stopped”", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
-     "ref": "RGP, art. A.4241-48-12 — feux des menues embarcations (bâbord rouge)", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-48-13 — feux des menues embarcations motorisées (bâbord rouge)", "polarity": "affirmative",
      "fr": {"stem": "De nuit, un bateau motorisé faisant route en eaux intérieures "
             "porte un feu à bâbord. De quelle couleur est-il ?",
             "explanation": "Comme en mer : feu de côté bâbord rouge, tribord vert, plus "

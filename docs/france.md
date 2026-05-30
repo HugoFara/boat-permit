@@ -100,6 +100,36 @@ exam questions are operator-confidential. So — exactly as for Switzerland — 
 tool **derives** its questions from the primary legal texts above, each with a
 provenance citation, and ships them behind the same review gate.
 
+## Ingested law (Légifrance / DILA LEGI)
+
+France grounds its bank in the **actual statute**, not recall. `src/fr/legi.py`
+ingests the **Code des transports — 4ᵉ partie (navigation intérieure & transport
+fluvial)**, i.e. the RGP and the titre-de-navigation/sanctions regime, from the
+official **DILA LEGI** open data (the bulk `Freemium_legi_global_*.tar.gz` XML
+dump, Licence Ouverte / Etalab — no API credentials). It keeps every in-force
+(`VIGUEUR`) Part-4 article, tags it to a France theme, and writes article-level
+`KnowledgeUnit`s (reusing `src/schema.py`).
+
+```bash
+python -m src.fr.legi extract   # data/raw/legi/legi_global.tar.gz → article tree
+python -m src.fr.legi build     # → data/kb.fr.sqlite + src/fr/legi_kb.json (1160 arts)
+python -m src.fr.legi verify    # cross-check every seed citation vs the ingested law
+```
+
+The durable corpus is **committed** at `src/fr/legi_kb.json` (≈1.6 MB, public-domain
+law), so the KB rebuilds and the verification runs **without** the 1.2 GB dump (which
+stays under `data/raw/`, git-ignored). `tests/test_legi.py` asserts every
+Code-des-transports article the seed cites exists in the ingested law — so a
+citation can't silently drift from the source. This already caught one error:
+`A.4241-48-12` (sailing-vessel lights) → `A.4241-48-13` (motorised small-craft
+lights). Each unit carries a deep per-article Légifrance URL
+(`/codes/article_lc/<LEGIARTI>`) and the in-force date.
+
+*Not yet ingested:* the Code de l'environnement (rejets) and the LODA texts (Décret
+2007-1167, Arrêté du 28 sept 2007, Divisions 240/245) live in separate DILA
+datasets; COLREG is ingested elsewhere via the `INT` universal-source layer. These
+are the natural next ingestion targets.
+
 ## Question scope & the common-core pool
 
 France participates in the shared **scope** layer (`src/scope.py`, see

@@ -16,6 +16,11 @@ data/questions.json.*
 # France per-option banks (rebuild with `python run.py fr`); the durable source is
 # src/fr/seed_fr.py and the deployable bundle is committed under web/fr/.
 data/questions.fr_*.sqlite
+# France law KB ingested from the official Légifrance/DILA LEGI open data
+# (rebuild: python -m src.fr.legi build). The 1.2 GB DILA dump + extracted tree
+# live under data/raw/legi/ (ignored); the durable corpus is committed at
+# src/fr/legi_kb.json.
+data/kb.fr.sqlite
 # Germany bank (rebuild with `python run.py questions --country DE`); the durable
 # source is the official ELWIS catalogue, ingested verbatim by src/questions/elwis.py.
 data/questions.de.sqlite
