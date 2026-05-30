@@ -55,6 +55,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -97,6 +98,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -139,6 +141,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -181,6 +184,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -223,6 +227,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -265,6 +270,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -307,6 +313,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -349,6 +356,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -391,6 +399,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -433,6 +442,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -475,6 +485,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -517,6 +528,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -559,6 +571,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -601,6 +614,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -643,6 +657,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -685,6 +700,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -727,6 +743,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -769,6 +786,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -811,6 +829,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -853,6 +872,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -895,6 +915,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -937,6 +958,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -979,6 +1001,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1021,6 +1044,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1063,6 +1087,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1105,6 +1130,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1147,6 +1173,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1189,6 +1216,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1231,6 +1259,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1273,6 +1302,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1315,6 +1345,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1357,6 +1388,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0,
         1
@@ -1400,6 +1432,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1442,6 +1475,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1484,6 +1518,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1526,6 +1561,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1568,6 +1604,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0,
         1
@@ -1611,6 +1648,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0,
         1
@@ -1654,6 +1692,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1696,6 +1735,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1738,6 +1778,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1780,6 +1821,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1822,6 +1864,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1864,6 +1907,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1906,6 +1950,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1948,6 +1993,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -1990,6 +2036,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2032,6 +2079,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2074,6 +2122,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2116,6 +2165,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2158,6 +2208,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2200,6 +2251,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2242,6 +2294,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2284,6 +2337,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2326,6 +2380,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2368,6 +2423,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2410,6 +2466,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2452,6 +2509,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2494,6 +2552,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2536,6 +2595,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2578,6 +2638,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2620,6 +2681,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2662,6 +2724,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2704,6 +2767,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2746,6 +2810,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2788,6 +2853,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2830,6 +2896,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -2872,6 +2939,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2914,6 +2982,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2956,6 +3025,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -2998,6 +3068,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3040,6 +3111,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3082,6 +3154,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3124,6 +3197,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3166,6 +3240,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3208,6 +3283,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3250,6 +3326,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3292,6 +3369,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -3334,6 +3412,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3376,6 +3455,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3418,6 +3498,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3460,6 +3541,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3502,6 +3584,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3544,6 +3627,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3586,6 +3670,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3628,6 +3713,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3670,6 +3756,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3712,6 +3799,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3754,6 +3842,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -3796,6 +3885,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3838,6 +3928,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -3880,6 +3971,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -3922,6 +4014,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -3964,6 +4057,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -4006,6 +4100,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -4048,6 +4143,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -4090,6 +4186,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -4132,6 +4229,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -4174,6 +4272,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -4216,6 +4315,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -4258,6 +4358,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -4300,6 +4401,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -4342,6 +4444,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -4384,6 +4487,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -4426,6 +4530,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -4468,6 +4573,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -4510,6 +4616,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -4552,6 +4659,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -4594,6 +4702,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -4636,6 +4745,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -4678,6 +4788,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -4720,6 +4831,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -4762,6 +4874,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -4804,6 +4917,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -4846,6 +4960,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -4888,6 +5003,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -4930,6 +5046,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -4972,6 +5089,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -5014,6 +5132,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -5056,6 +5175,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -5098,6 +5218,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -5140,6 +5261,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5182,6 +5304,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5224,6 +5347,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -5266,6 +5390,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5308,6 +5433,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5350,6 +5476,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5392,6 +5519,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5434,6 +5562,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5476,6 +5605,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5518,6 +5648,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5560,6 +5691,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5602,6 +5734,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5644,6 +5777,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5686,6 +5820,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -5728,6 +5863,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -5770,6 +5906,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5812,6 +5949,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5854,6 +5992,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5896,6 +6035,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5938,6 +6078,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -5980,6 +6121,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6022,6 +6164,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6064,6 +6207,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6106,6 +6250,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6148,6 +6293,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6190,6 +6336,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -6232,6 +6379,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6274,6 +6422,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6316,6 +6465,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6358,6 +6508,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6400,6 +6551,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6442,6 +6594,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6484,6 +6637,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6526,6 +6680,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6568,6 +6723,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6610,6 +6766,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6652,6 +6809,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6694,6 +6852,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6736,6 +6895,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6778,6 +6938,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6820,6 +6981,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6862,6 +7024,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6904,6 +7067,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6946,6 +7110,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -6988,6 +7153,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -7030,6 +7196,7 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -7072,6 +7239,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -7114,6 +7282,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -7156,6 +7325,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -7198,6 +7368,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -7240,6 +7411,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -7282,6 +7454,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -7324,6 +7497,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -7366,6 +7540,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -7408,6 +7583,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -7450,6 +7626,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -7492,6 +7669,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -7534,6 +7712,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -7576,6 +7755,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -7618,6 +7798,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -7660,6 +7841,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -7702,6 +7884,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -7744,6 +7927,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -7786,6 +7970,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         2
       ]
@@ -7828,6 +8013,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -7870,6 +8056,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]
@@ -7912,6 +8099,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         0
       ]
@@ -7954,6 +8142,7 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "block": "",
       "correct": [
         1
       ]

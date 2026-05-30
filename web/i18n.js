@@ -130,10 +130,10 @@ const STRINGS = {
     chooseCanton: "Canton (durée de l’examen) :",
     poolLabel: "Banque de questions :",
     poolNational: "Banque nationale",
-    poolCevni: "Tronc commun CEVNI",
-    poolHint: "Le tronc commun CEVNI ne retient que les questions harmonisées au " +
-      "niveau européen (signalisation, règles de route, matelotage) — réutilisables " +
-      "d’un pays à l’autre. La banque nationale ajoute le droit propre au pays.",
+    poolCore: "Tronc commun",
+    poolHint: "Le tronc commun ne retient que les questions portables : matelotage " +
+      "universel et code de navigation harmonisé (CEVNI sur les eaux intérieures, " +
+      "COLREG/RIPAM en mer). La banque nationale ajoute le droit propre au pays.",
     domainAll: "Tout sélectionner",
     domainNone: "Tout désélectionner",
     byDomain: "Score par domaine",
@@ -203,10 +203,10 @@ const STRINGS = {
     chooseCanton: "Kanton (Prüfungsdauer):",
     poolLabel: "Fragenpool:",
     poolNational: "Nationaler Pool",
-    poolCevni: "CEVNI-Kern",
-    poolHint: "Der CEVNI-Kern enthält nur die europaweit harmonisierten Fragen " +
-      "(Signale, Fahrregeln, Seemannschaft) — länderübergreifend nutzbar. Der " +
-      "nationale Pool ergänzt das landeseigene Recht.",
+    poolCore: "Gemeinsamer Kern",
+    poolHint: "Der gemeinsame Kern enthält nur die übertragbaren Fragen: " +
+      "universelle Seemannschaft und der harmonisierte Verkehrscode (CEVNI binnen, " +
+      "KVR/COLREG auf See). Der nationale Pool ergänzt das landeseigene Recht.",
     domainAll: "Alle auswählen",
     domainNone: "Alle abwählen",
     byDomain: "Ergebnis nach Thema",
@@ -276,10 +276,10 @@ const STRINGS = {
     chooseCanton: "Cantone (durata dell’esame):",
     poolLabel: "Banca delle domande:",
     poolNational: "Banca nazionale",
-    poolCevni: "Tronco comune CEVNI",
-    poolHint: "Il tronco comune CEVNI contiene solo le domande armonizzate a livello " +
-      "europeo (segnaletica, regole di rotta, marineria) — riutilizzabili tra i paesi. " +
-      "La banca nazionale aggiunge il diritto proprio del paese.",
+    poolCore: "Tronco comune",
+    poolHint: "Il tronco comune contiene solo le domande portabili: marineria " +
+      "universale e il codice di navigazione armonizzato (CEVNI sulle acque interne, " +
+      "COLREG/RIPAM in mare). La banca nazionale aggiunge il diritto proprio del paese.",
     domainAll: "Seleziona tutto",
     domainNone: "Deseleziona tutto",
     byDomain: "Punteggio per tema",
@@ -348,10 +348,10 @@ const STRINGS = {
     chooseCanton: "Canton (exam duration):",
     poolLabel: "Question pool:",
     poolNational: "National bank",
-    poolCevni: "CEVNI core",
-    poolHint: "The CEVNI core keeps only the questions harmonised across Europe " +
-      "(signs, navigation rules, seamanship) — reusable from one country to the next. " +
-      "The national bank adds each country's own law.",
+    poolCore: "Common core",
+    poolHint: "The common core keeps only the portable questions: universal " +
+      "seamanship and the harmonised traffic code (CEVNI inland, COLREGS/IRPCS at " +
+      "sea) — reusable across countries. The national bank adds each country's own law.",
     domainAll: "Select all",
     domainNone: "Deselect all",
     byDomain: "Score by topic",

@@ -185,22 +185,42 @@
     }
   ],
   "country_default": "CH",
-  "cevni": {
-    "de": {
-      "path": "questions.cevni.de.json",
-      "count": 163
+  "core": {
+    "universal": {
+      "de": {
+        "path": "questions.universal.de.json",
+        "count": 14
+      },
+      "en": {
+        "path": "questions.universal.en.json",
+        "count": 22
+      },
+      "fr": {
+        "path": "questions.universal.fr.json",
+        "count": 22
+      },
+      "it": {
+        "path": "questions.universal.it.json",
+        "count": 25
+      }
     },
-    "en": {
-      "path": "questions.cevni.en.json",
-      "count": 184
-    },
-    "fr": {
-      "path": "questions.cevni.fr.json",
-      "count": 183
-    },
-    "it": {
-      "path": "questions.cevni.it.json",
-      "count": 178
+    "cevni": {
+      "de": {
+        "path": "questions.cevni.de.json",
+        "count": 149
+      },
+      "en": {
+        "path": "questions.cevni.en.json",
+        "count": 162
+      },
+      "fr": {
+        "path": "questions.cevni.fr.json",
+        "count": 161
+      },
+      "it": {
+        "path": "questions.cevni.it.json",
+        "count": 153
+      }
     }
   },
   "anki": {

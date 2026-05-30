@@ -396,13 +396,15 @@ def cmd_web(args):
             copied += 1
         return rel
 
-    def bundle(out_name: str, lang: str | None, keep_ids: set | None = None) -> int:
+    def bundle(out_name: str, lang: str | None, keep_ids: set | None = None,
+               pool: str | None = None) -> int:
         """Export one bank file (optionally language-filtered), rewrite its image
         paths into web/, and write it under web/<out_name>.
 
         `keep_ids`, when given, restricts the bundle to those question ids and
-        stamps `meta.pool` — used for the CEVNI-core sub-bundle. National bundles
-        pass `keep_ids=None` and are therefore written exactly as before."""
+        stamps `meta.pool = pool` — used for the harmonised-core base sub-bundles
+        (universal/cevni/colregs). National bundles pass `keep_ids=None` and are
+        therefore written exactly as before."""
         # lang=None exports the canonical data/questions.json (kept); per-language
         # exports go to a throwaway temp that's removed once bundled.
         tmp = QJSON_PATH if lang is None else f"{QJSON_PATH}.{lang}.tmp"
@@ -412,7 +414,7 @@ def cmd_web(args):
             os.remove(tmp)
         if keep_ids is not None:
             data["questions"] = [q for q in data["questions"] if q["id"] in keep_ids]
-            data["meta"]["pool"] = "cevni"
+            data["meta"]["pool"] = pool
         for q in data["questions"]:
             q["image"] = relocate(q.get("image"))
             for c in q["choices"]:
@@ -428,21 +430,30 @@ def cmd_web(args):
     per_lang = {}
     for lg in langs:
         per_lang[lg] = bundle(f"questions.{lg}.json", lg)
-    # CEVNI core: the cross-country–portable subset (harmonised signs/rules),
-    # classified by src/cevni.py. Shipped as ADDITIVE sub-bundles so the national
-    # questions.<lang>.json above stay byte-identical; the player offers it as a
-    # second pool. Scope is derived here, never stored on the question.
-    from src import cevni
-    core_ids = {q.id for q in qschema.load_questions(conn)
-                if q.review_status in qschema.EXPORTABLE_STATUSES
-                and cevni.classify(q) == "cevni"}
-    cevni_avail = {}
-    for lg in langs:
-        nc = bundle(f"questions.cevni.{lg}.json", lg, keep_ids=core_ids)
-        if nc:
-            cevni_avail[lg] = {"path": f"questions.cevni.{lg}.json", "count": nc}
+    # Harmonised core: the cross-country/cross-track portable subset, split by base
+    # (universal seamanship / CEVNI inland / COLREGS maritime), classified by
+    # src/scope.py. Shipped as ADDITIVE per-base sub-bundles so the national
+    # questions.<lang>.json above stay byte-identical; the player composes them
+    # into one "common core" pool. Scope is derived here, never stored.
+    from src import scope
+    exportable = [q for q in qschema.load_questions(conn)
+                  if q.review_status in qschema.EXPORTABLE_STATUSES]
+    base_ids = scope.ids_by_base(exportable)          # {base: {ids}}
+    core_avail: dict[str, dict] = {}                  # {base: {lang: {path, count}}}
+    for base in scope.BASES:
+        ids = base_ids.get(base) or set()
+        if not ids:
+            continue
+        per: dict[str, dict] = {}
+        for lg in langs:
+            path = f"questions.{base}.{lg}.json"
+            nc = bundle(path, lg, keep_ids=ids, pool=base)
+            if nc:
+                per[lg] = {"path": path, "count": nc}
+        if per:
+            core_avail[base] = per
 
-    from src import cantons, countries
+    from src import cantons, countries, jurisdictions
     # The country dimension (above canton) is owned by the src/countries registry
     # (CH built natively, DE by the German agent). Read it here for display only —
     # code/name/langs/permits/regions — so the player's picker stays populated from
@@ -463,11 +474,12 @@ def cmd_web(args):
         # truth: src/cantons.py). Content/pass mark are national; the timer varies.
         "cantons": cantons.as_manifest(),
         "canton_default": cantons.DEFAULT_CANTON,
-        # Country registry (the dimension above canton) + the CEVNI-core pool per
-        # language. CEVNI is the cross-country reusable subset (src/cevni.py).
+        # Country registry (the dimension above canton) + the harmonised-core pool,
+        # split by base (universal/cevni/colregs) per language. The player composes
+        # the available bases into one "common core" pool (src/scope.py).
         "countries": country_manifest,
         "country_default": countries.DEFAULT,
-        "cevni": cevni_avail,
+        "core": core_avail,
     }
     # Offline-study downloads: Anki decks (.apkg + editable .tsv) and a Moodle
     # GIFT file, one set per language, for the in-page download links.
@@ -499,8 +511,13 @@ def cmd_web(args):
     anki_summary = ", ".join(f"{lg}({anki_avail[lg]['count']})" for lg in anki_avail)
     print(f"  Anki decks: {anki_summary or 'none'} · GIFT: {', '.join(gift_avail) or 'none'}")
     print(f"  languages with content: {', '.join(f'{lg}({per_lang[lg]})' for lg in langs) or 'none'}")
-    cevni_summary = ", ".join(f"{lg}({cevni_avail[lg]['count']})" for lg in cevni_avail)
-    print(f"  CEVNI core pool: {cevni_summary or 'none'} · countries: {', '.join(countries.codes())}")
+    counts = scope.scope_counts(exportable)
+    core_summary = ", ".join(f"{b}({len((base_ids.get(b) or set()))})" for b in scope.BASES
+                             if base_ids.get(b))
+    print(f"  harmonised core: {core_summary or 'none'}  ·  overlays: "
+          f"national({counts['national']}) local({counts['local']})")
+    print(f"  countries: {', '.join(countries.codes())}  ·  "
+          f"jurisdictions: {len(jurisdictions.codes())} regimes")
     print(f"  preview: python -m http.server -d web 8000  →  http://localhost:8000")
 
 

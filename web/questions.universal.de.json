@@ -1,0 +1,626 @@
+{
+  "meta": {
+    "kb_version": "2026-05-30",
+    "generated": "2026-05-30",
+    "generators": "tmpl:figure_recognition.v1",
+    "exam_questions": "60",
+    "total_points": "180",
+    "points_per_question": "3",
+    "pass_points": "165",
+    "time_limit_min": "50",
+    "scoring": "all_or_nothing",
+    "canton": "Genève (GE) · standard VKS",
+    "canton_code": "GE",
+    "permis": "A",
+    "permis_label": "Permis A — bateau à moteur",
+    "lang": "de",
+    "unofficial": "false",
+    "pool": "universal"
+  },
+  "questions": [
+    {
+      "id": "q-oni-de-oniart142-1b69a547-32a86bb7",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Worauf bezieht sich die in ONI Art. 142 definierte «Risikoanalyse»?",
+      "choices": [
+        {
+          "text": "Auf eine Analyse im Sinne von Artikel 2 Buchstabe d der Schiffbauverordnung (SBV)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Auf einen Bericht im Sinne von Artikel 17 Absatz 3 SBV",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Auf Regeln im Sinne von Artikel 5 SBV",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_142-1b69a547",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 142 Bst. a ist die Risikoanalyse eine Analyse im Sinne von Art. 2 Bst. d der Schiffbauverordnung.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart142-1b69a547-550309bf",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Welche Aussage zu den in ONI Art. 142 definierten Begriffen ist FALSCH?",
+      "choices": [
+        {
+          "text": "Die Sorgfaltsregeln sind Regeln im Sinne von Artikel 2 Buchstabe d SBV",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der Sicherheitsbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe e und 17 Absatz 3 SBV",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Sachverständigenprüfbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe f SBV",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_142-1b69a547",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach ONI Art. 142 Bst. e sind die Sorgfaltsregeln Regeln im Sinne von Art. 5 SBV, nicht von Art. 2 Bst. d.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-de-oniart142-1b69a547-623a0164",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Wie wird der Begriff «Sachverständiger» in ONI Art. 142 bestimmt?",
+      "choices": [
+        {
+          "text": "Als eine Person im Sinne von Artikel 5a Absatz 1 Buchstabe a SBV",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Als ein Bericht im Sinne von Artikel 2 Buchstabe f SBV",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Als eine Analyse im Sinne von Artikel 2 Buchstabe d SBV",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-de-oni_art_142-1b69a547",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Gemäss ONI Art. 142 Bst. c ist ein Sachverständiger eine Person im Sinne von Art. 5a Abs. 1 Bst. a SBV.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart71-b854fa2a-b68dcea4",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Was bedeutet «Fahrt bei unsichtigem Wetter» nach RNL Art. 71?",
+      "choices": [
+        {
+          "text": "Schifffahrt bei Tag und bei Nacht bei Nebel, Dunst, Schneetreiben oder schwerem Regenfall",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Schifffahrt ausschliesslich bei Tageslicht unter eingeschränkter Sicht",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Schifffahrt nur bei Nacht ohne ausreichende Beleuchtung",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_71-b854fa2a",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Art. 71 definiert die Fahrt bei unsichtigem Wetter als Schifffahrt bei Tag und bei Nacht bei Nebel, Dunst, Schneetreiben sowie schwerem Regenfall.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-de-rnlart71-b854fa2a-ff9a2b74",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Welche Wetterbedingungen werden in RNL Art. 71 ausdrücklich als unsichtiges Wetter genannt?",
+      "choices": [
+        {
+          "text": "Nebel und Schneetreiben",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Starker Wind und hoher Wellengang",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Gewitter und Blitzschlag",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-de-rnl_art_71-b854fa2a",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Art. 71 nennt ausdrücklich Nebel, Dunst, Schneetreiben und schweren Regenfall; Wind, Wellen und Gewitter werden nicht erwähnt.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagekreuzknotennach-2d2fde10",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Welche Aussagen zum Kreuzknoten treffen gemäss dem Text zu?",
+      "choices": [
+        {
+          "text": "Beim Verbinden von Leinen ungleicher Stärke neigt er zum Kippen in den Ankerstich",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Statt seiner sollte ein Schotstek verwendet werden",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nach Belastung lässt er sich stets mühelos von Hand lösen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__kreuzknoten__nachteile-9c8a0a24",
+        "ref": "Matelotage — Kreuzknoten : Nachteile",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+        "as_of": "265196307",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Kreuzknoten : Nachteile nennt das Kippen in den Ankerstich, empfiehlt den Schotstek und weist darauf hin, dass er sich oft nur mit Werkzeug lösen lässt.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagekreuzknotennach-5a8260a8",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Aus welchem Dokument wurde der Kreuzknoten aufgrund von Sicherheitsbedenken gestrichen?",
+      "choices": [
+        {
+          "text": "Aus der Feuerwehr-Dienstvorschrift",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Aus dem Ashley-Buch der Knoten",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Aus der Berufsfischerei-Verordnung",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__kreuzknoten__nachteile-9c8a0a24",
+        "ref": "Matelotage — Kreuzknoten : Nachteile",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+        "as_of": "265196307",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Laut Matelotage — Kreuzknoten : Nachteile wurde der Kreuzknoten aus der Feuerwehr-Dienstvorschrift gestrichen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagekreuzknotennach-71c5feee",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Was sagt das Ashley-Buch der Knoten über den Kreuzknoten als Verbindungsknoten?",
+      "choices": [
+        {
+          "text": "Er sollte unter keinen Umständen zum Verbinden von Seilen verwendet werden",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Er ist der sicherste Knoten zum Zusammenbinden zweier Enden",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Er kippt bei Seilen mit ungleichem Durchmesser besonders selten um",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__kreuzknoten__nachteile-9c8a0a24",
+        "ref": "Matelotage — Kreuzknoten : Nachteile",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+        "as_of": "265196307",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Kreuzknoten : Nachteile zitiert Ashley, wonach er unter keinen Umständen zum Verbinden von Seilen genutzt werden und gemieden werden sollte.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagekreuzknotenverw-25d2ea30",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Wie lässt sich der noch nicht belastete Kreuzknoten gemäss dem Text lösen?",
+      "choices": [
+        {
+          "text": "Durch Zusammenschieben der Enden oder durch Auseinanderziehen zweier Enden derselben Bucht",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nur mit Hilfe eines Werkzeugs",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ausschliesslich durch Erhitzen des Seils",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__kreuzknoten__verwendung-c4f51c1b",
+        "ref": "Matelotage — Kreuzknoten : Verwendung",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+        "as_of": "265196307",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Kreuzknoten : Verwendung beschreibt, dass der unbelastete Knoten durch Zusammenschieben oder Auseinanderziehen der Enden derselben Bucht gelöst werden kann.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagekreuzknotenverw-3a791f2e",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Welche Angaben zur Knotenfestigkeit des Kreuzknotens stimmen mit dem Text überein?",
+      "choices": [
+        {
+          "text": "Sie beträgt etwa 45 %",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bei geschlagenem Polypropylen-Tauwerk liegt sie bei etwa 36 bis 42 %",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bei geflochtenem Polypropylen-Seil erreicht sie rund 90 %",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__kreuzknoten__verwendung-c4f51c1b",
+        "ref": "Matelotage — Kreuzknoten : Verwendung",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+        "as_of": "265196307",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Kreuzknoten : Verwendung gibt etwa 45 % und bei geschlagenem Polypropylen 36 bis 42 % an, während geflochtenes Polypropylen nur 37 % erreicht.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagekreuzknotenverw-8d9bffca",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Wofür eignet sich der Kreuzknoten gemäss dem Text?",
+      "choices": [
+        {
+          "text": "Als Bindeknoten zum Verschnüren von Paketen oder Bündeln",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Zum Verbinden zweier Kletter- oder Sicherungsseile",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Als alleiniger Anseilknoten beim Klettern",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__kreuzknoten__verwendung-c4f51c1b",
+        "ref": "Matelotage — Kreuzknoten : Verwendung",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+        "as_of": "265196307",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Kreuzknoten : Verwendung nennt ihn als Bindeknoten für Pakete oder Bündel, hält ihn aber zum Verbinden zweier Seile für ungeeignet.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagepalstekklettern-392daadb",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Welche Aussage zum Palstek beim Klettern ist gemäss dem Text FALSCH?",
+      "choices": [
+        {
+          "text": "Nach dem Weltcup 1992 in St. Pölten durfte weiterhin uneingeschränkt mit dem Palstek angeseilt werden",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der Palstek diente bis Anfang der 1970er Jahre als verlässlicher Anseilknoten",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Doppelter Palstek und Bulin 1.5 werden zum Anseilen häufig verwendet",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__palstek__klettern-82bdeab9",
+        "ref": "Matelotage — Palstek : Klettern",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Palstek",
+        "as_of": "266678182",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Palstek : Klettern hält fest, dass nach dem Weltcup 1992 nur noch mit Achterknoten angeseilt werden durfte.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagepalstekklettern-c49fab21",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Welches Verhalten zeigt der Palstek gemäss dem Text unter Ringbelastung?",
+      "choices": [
+        {
+          "text": "Er öffnet sich bei mehreren ungleich gerichteten Kräften an der Schlaufe bei 1,5 bis 1,6 kN",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Er hält jeder Ringbelastung ohne Aufziehen stand",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Er wird unter Ringbelastung fester und lässt sich danach nicht mehr lösen",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__palstek__klettern-82bdeab9",
+        "ref": "Matelotage — Palstek : Klettern",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Palstek",
+        "as_of": "266678182",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Palstek : Klettern nennt das Aufziehen unter Ringbelastung bei 1,5 bis 1,6 kN durch ungleich gerichtete Kräfte an der Schlaufe.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpde-matelotagepalstekklettern-f7fda93a",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Welcher Knoten wurde gemäss dem Text als Ersatz für den Palstek zum Anseilen eingeführt?",
+      "choices": [
+        {
+          "text": "Der Achterknoten",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der Kreuzknoten",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Schotstek",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_de-matelotage__palstek__klettern-82bdeab9",
+        "ref": "Matelotage — Palstek : Klettern",
+        "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+        "url": "https://de.wikipedia.org/wiki/Palstek",
+        "as_of": "266678182",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Matelotage — Palstek : Klettern nennt den Achterknoten als Ersatz, der grosse Festigkeit hat und sich auch unter Ringbelastung nicht öffnet.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    }
+  ]
+}

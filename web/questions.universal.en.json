@@ -1,0 +1,969 @@
+{
+  "meta": {
+    "kb_version": "2026-05-30",
+    "generated": "2026-05-30",
+    "generators": "tmpl:figure_recognition.v1",
+    "exam_questions": "60",
+    "total_points": "180",
+    "points_per_question": "3",
+    "pass_points": "165",
+    "time_limit_min": "50",
+    "scoring": "all_or_nothing",
+    "canton": "Genève (GE) · standard VKS",
+    "canton_code": "GE",
+    "permis": "A",
+    "permis_label": "Permis A — bateau à moteur",
+    "lang": "en",
+    "unofficial": "true",
+    "pool": "universal"
+  },
+  "questions": [
+    {
+      "id": "q-oni-oniart142-d5cfcfd2-3672f8fd",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "According to ONI art. 142, which ordinance do the definitions of \"risk analysis\", \"safety report\" and \"duty of diligence\" refer to?",
+      "choices": [
+        {
+          "text": "To the ordinance of 14 March 1994 on the construction of vessels (OCEB).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "To the Inland Navigation Ordinance (ONI) itself.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "To the Navigation Regulations for Lake Geneva (RNL).",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_142-d5cfcfd2",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 142 refers, for these concepts, to the articles of the OCEB (ordinance of 14 March 1994 on the construction of vessels).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart142-d5cfcfd2-d09c7f3f",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Among these statements about the definitions in ONI art. 142, which one is FALSE?",
+      "choices": [
+        {
+          "text": "The \"duty of diligence\" is defined in ONI art. 142 without reference to another ordinance.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The \"safety report\" is a report within the meaning of art. 2, let. e, and art. 17, para. 3, OCEB.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The \"expert examination report\" is a report within the meaning of art. 2, let. f, OCEB.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_142-d5cfcfd2",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to ONI art. 142, let. e, the \"duty of diligence\" is defined by reference to art. 5 OCEB, and not without reference.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart142-d5cfcfd2-f9d06e2e",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "According to ONI art. 142, how are the \"experts\" defined within the meaning of the special provisions of this section?",
+      "choices": [
+        {
+          "text": "As the persons referred to in art. 5a, para. 1, let. a, OCEB.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "As the officers of the competent authority of the place of mooring.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "As the members of a recognized classification society.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_142-d5cfcfd2",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to ONI art. 142, let. c, the \"experts\" are the persons referred to in art. 5a, para. 1, let. a, OCEB.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart2-2bf27aad-1ca80827",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "What is a “pushed convoy” according to the ONI?",
+      "choices": [
+        {
+          "text": "An assembly of non-propelled vessels joined together into a rigid unit, pushed by at least one motorised vessel",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "An assembly of non-propelled vessels towed by at least one motorised vessel",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Any group of pleasure craft navigating together",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_2-2bf27aad",
+        "ref": "ONI art. 2",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 2: the pushed convoy is a rigid unit that is pushed; if towed = towed convoy.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart2-2bf27aad-de726c75",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Within the meaning of the ONI, what does the term \"motorized vessel\" designate?",
+      "choices": [
+        {
+          "text": "A vessel with mechanical propulsion",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A non-propelled vessel towed by another vessel",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A floating device such as a dredger or a crane",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_2-2bf27aad",
+        "ref": "ONI art. 2",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 2: a \"motorized vessel\" is a vessel with mechanical propulsion.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart71-ba2d9252-5d9ad386",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "According to RNL art. 71, does navigation in restricted visibility also concern situations that are not explicitly listed?",
+      "choices": [
+        {
+          "text": "Yes, it also covers any other conditions limiting visibility in the same manner.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No, only the conditions specifically cited (mist, fog, etc.) are covered.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Yes, but only conditions caused by smoke from a fire.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_71-ba2d9252",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 71 extends the concept to any other conditions limiting visibility in the same manner.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart71-ba2d9252-ac555567",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "According to RNL art. 71, what is considered navigation in restricted visibility?",
+      "choices": [
+        {
+          "text": "Any navigation, by day as by night, in mist, fog, drizzle, snow or heavy squalls with rain.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Only navigation at night in thick fog.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Only navigation by day when the rain is accompanied by strong wind.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_71-ba2d9252",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 71 defines restricted visibility as any navigation, by day as by night, in mist, fog, drizzle, snow or heavy squalls with rain.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart71-ba2d9252-b6ad0be5",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Among these statements about restricted visibility within the meaning of RNL art. 71, which one is FALSE?",
+      "choices": [
+        {
+          "text": "Navigation in restricted visibility applies only to navigation at night.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Navigation in snowy weather is considered navigation in restricted visibility.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Navigation in drizzly weather is considered navigation in restricted visibility.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_71-ba2d9252",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 71 states that restricted visibility applies both by day and by night, and not only at night.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseintér-434f37a7",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "What does the text confirm about the bowline when it is not under tension?",
+      "choices": [
+        {
+          "text": "It is easy to undo, even when wet and after having been subjected to a very strong pull or to tightening caused by drying out.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It becomes impossible to undo as soon as it gets wet.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It can only be adjusted by applying strong tension to the standing part.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__intérêts-e96bddce",
+        "ref": "Matelotage — Nœud de chaise : Intérêts",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud de chaise : Intérêts, when not under tension it is easy to undo even when wet and after a strong pull.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseintér-83239d56",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, how does the bowline react when tension increases?",
+      "choices": [
+        {
+          "text": "The stronger the tension, the more it locks, while still untying just as easily.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The stronger the tension, the more it tends to slip and come undone.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Tension has no effect on its locking, which depends on an intermediate mechanical system.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__intérêts-e96bddce",
+        "ref": "Matelotage — Nœud de chaise : Intérêts",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud de chaise : Intérêts, the stronger the tension, the more the knot locks and the more easily it unties.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseprése-6e8aa766",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, the bowline is also called:",
+      "choices": [
+        {
+          "text": "Bowline knot (nœud de bouline).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Clove hitch.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Hangman's knot.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__présentation-7a92f259",
+        "ref": "Matelotage — Nœud de chaise : Présentation",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud de chaise : Présentation, the bowline is also called the nœud de bouline.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseroide-3f4a81a1",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Why is the bowline described as the king of knots, according to the text?",
+      "choices": [
+        {
+          "text": "It is a reliable loop knot that does not slip under tension and unties easily even after strong tension.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It is the only knot that is impossible to untie once tightened.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It can only be made with a specialized tool and with two hands.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
+        "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud de chaise : Roi des nœuds, its quality as a reliable loop knot that does not slip and unties easily justifies it.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseroide-7f29e223",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Why is the bowline described as the “king of knots”?",
+      "choices": [
+        {
+          "text": "It is a reliable loop knot that does not slip under tension and unties easily",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It tightens more and more under tension until it becomes impossible to untie",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It is used only to join two ropes of the same diameter",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
+        "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "The bowline is a reliable loop that does not slip and unties easily.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseroide-f42e5f81",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Regarding the methods for making the bowline, which statement(s) does the text confirm?",
+      "choices": [
+        {
+          "text": "There are several methods for making it, up to 18 including the variants.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Only two classic methods are recognized for teaching, knitted or prepared.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A single unique method of making it is accepted throughout the world.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
+        "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud de chaise : Roi des nœuds, there are up to 18 methods including variants but two classic teaching methods.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienganses-27-28ba601c",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, what does the hangman's knot illustrate regarding bight knots?",
+      "choices": [
+        {
+          "text": "It can be easily undone if the loop is free, but tightens around the restraint under the weight of the hanged person.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It can never be undone, whether the loop is free or restrained.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It loosens automatically as soon as weight is applied to the loop.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__ganses-277e3817",
+        "ref": "Matelotage — Nœud (lien) : Ganses",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud (lien) : Ganses, the hangman's knot comes undone if the loop is free but tightens under the weight of the hanged person.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienganses-27-c0d99855",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, what is a bight (ganse)?",
+      "choices": [
+        {
+          "text": "A curved portion of rope, with no crossing or overlapping.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A tight crossing of two rope ends.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A rope braided from three metal strands.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__ganses-277e3817",
+        "ref": "Matelotage — Nœud (lien) : Ganses",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud (lien) : Ganses, a bight is a curved portion of rope with no crossing or overlapping.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienpropriété-8de17e1b",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, what is the strength of a rope fitted with a bowline compared to a clove hitch?",
+      "choices": [
+        {
+          "text": "The bowline retains an exceptional strength of 89%, whereas the clove hitch halves it.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The clove hitch retains 89% of the strength, against half for the bowline.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Both knots reduce the rope's strength by exactly half.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__propriétés-e84eb439",
+        "ref": "Matelotage — Nœud (lien) : Propriétés",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud (lien) : Propriétés, the clove hitch reduces strength by half whereas the bowline reaches 89%.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienpropriété-af89cb8d",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, which criterion makes it possible to evaluate and choose the most suitable knot?",
+      "choices": [
+        {
+          "text": "The strength of the knot, in particular whether or not it weakens the rope in case of violent jerks.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The color of the rope used to make it.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The purchase price of the cord.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__propriétés-e84eb439",
+        "ref": "Matelotage — Nœud (lien) : Propriétés",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud (lien) : Propriétés, the strength of the knot is paramount, especially in case of violent jerks.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienprésentat-27c16d5a",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, which statement about the use of knots is correct?",
+      "choices": [
+        {
+          "text": "The art of knots mainly developed in sailing vessels and then in sport or leisure boating.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Knots have never been used outside the maritime domain.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Knowledge of knots has become completely useless since the appearance of specialized equipment.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__présentation-f5b44408",
+        "ref": "Matelotage — Nœud (lien) : Présentation",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud (lien) : Présentation, knots developed in sailing vessels and then in boating.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienprésentat-802b92e8",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, what is a knot?",
+      "choices": [
+        {
+          "text": "The intertwining or interlacing of one or more ropes or other flexible, thread-like objects.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Exclusively the interlacing of two rigid metal cables.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An assembly of planks intended to reinforce a hull.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__présentation-f5b44408",
+        "ref": "Matelotage — Nœud (lien) : Présentation",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud (lien) : Présentation, a knot is the intertwining or interlacing of flexible, thread-like objects.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig61-729183ab-f8d636dd",
+      "theme": "meteorologie",
+      "kind": "figure_recognition",
+      "stem": "What does this signal mean?",
+      "choices": [
+        {
+          "text": "Boat landing area",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The width of the passage is limited",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Strong wind warning",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_61-729183ab",
+        "ref": "ONI Annexe 4 – fig. 61",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image115.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 61 — « Strong wind warning ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig62-4c0da81f-7b8892da",
+      "theme": "meteorologie",
+      "kind": "figure_recognition",
+      "stem": "What does this signal mean?",
+      "choices": [
+        {
+          "text": "Storm warning",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Dam",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Strong wind warning",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_62-4c0da81f",
+        "ref": "ONI Annexe 4 – fig. 62",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image116.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 62 — « Storm warning ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    }
+  ]
+}

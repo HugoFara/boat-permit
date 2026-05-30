@@ -1,0 +1,969 @@
+{
+  "meta": {
+    "kb_version": "2026-05-30",
+    "generated": "2026-05-30",
+    "generators": "tmpl:figure_recognition.v1",
+    "exam_questions": "60",
+    "total_points": "180",
+    "points_per_question": "3",
+    "pass_points": "165",
+    "time_limit_min": "50",
+    "scoring": "all_or_nothing",
+    "canton": "Genève (GE) · standard VKS",
+    "canton_code": "GE",
+    "permis": "A",
+    "permis_label": "Permis A — bateau à moteur",
+    "lang": "fr",
+    "unofficial": "false",
+    "pool": "universal"
+  },
+  "questions": [
+    {
+      "id": "q-oni-oniart142-d5cfcfd2-817324cd",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Selon l'art. 142 ONI, à quelle ordonnance se réfèrent les définitions de l'« analyse des risques », du « rapport de sécurité » et du « devoir de diligence » ?",
+      "choices": [
+        {
+          "text": "À l'ordonnance du 14 mars 1994 sur la construction des bateaux (OCEB).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "À l'ordonnance sur la navigation intérieure (ONI) elle-même.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Au règlement de la navigation sur le Léman (RNL).",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_142-d5cfcfd2",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 142 ONI renvoie pour ces notions aux articles de l'OCEB (ordonnance du 14 mars 1994 sur la construction des bateaux).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart142-d5cfcfd2-aefac3d2",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Parmi ces affirmations sur les définitions de l'art. 142 ONI, laquelle est FAUSSE ?",
+      "choices": [
+        {
+          "text": "Le « devoir de diligence » est défini à l'art. 142 ONI sans renvoi à une autre ordonnance.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le « rapport de sécurité » est un rapport au sens des art. 2, let. e, et 17, al. 3, OCEB.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le « rapport d'examen d'expert » est un rapport au sens de l'art. 2, let. f, OCEB.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_142-d5cfcfd2",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon l'art. 142, let. e, ONI, le « devoir de diligence » est défini par renvoi à l'art. 5 OCEB, et non sans renvoi.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart142-d5cfcfd2-afaf3463",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "D'après l'art. 142 ONI, comment sont définis les « experts » au sens des dispositions particulières de cette section ?",
+      "choices": [
+        {
+          "text": "Comme les personnes visées à l'art. 5a, al. 1, let. a, OCEB.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Comme les agents de l'autorité compétente du lieu de stationnement.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Comme les membres d'une société de classification reconnue.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_142-d5cfcfd2",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon l'art. 142, let. c, ONI, les « experts » sont les personnes visées à l'art. 5a, al. 1, let. a, OCEB.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart2-2bf27aad-01b54b7e",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Au sens de l’ONI, que désigne le terme « bateau motorisé » ?",
+      "choices": [
+        {
+          "text": "Un bateau à propulsion mécanique",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un bateau non propulsé remorqué par un autre bateau",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un engin flottant tel qu’une drague ou une grue",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_2-2bf27aad",
+        "ref": "ONI art. 2",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 2 : le « bateau motorisé » est un bateau à propulsion mécanique.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart2-2bf27aad-ee65754e",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Qu’est-ce qu’un « convoi poussé » selon l’ONI ?",
+      "choices": [
+        {
+          "text": "Une composition de bateaux non propulsés réunis en un ensemble rigide, poussée par au moins un bateau à moteur",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une composition de bateaux non propulsés remorquée par au moins un bateau à moteur",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Tout groupe de bateaux de plaisance naviguant ensemble",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_2-2bf27aad",
+        "ref": "ONI art. 2",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 2 : le convoi poussé est un ensemble rigide poussé ; remorqué = convoi remorqué.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart71-ba2d9252-53949420",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Parmi ces affirmations sur le temps bouché au sens de l'art. 71 RNL, laquelle est FAUSSE ?",
+      "choices": [
+        {
+          "text": "La navigation par temps bouché ne s'applique qu'à la navigation de nuit.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La navigation par temps de neige est considérée comme une navigation par temps bouché.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La navigation par temps de bruine est considérée comme une navigation par temps bouché.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_71-ba2d9252",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 71 RNL précise que le temps bouché vaut tant de jour que de nuit, et non uniquement de nuit.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart71-ba2d9252-81aaa7b5",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "D'après l'art. 71 RNL, la navigation par temps bouché concerne-t-elle aussi des situations non explicitement énumérées ?",
+      "choices": [
+        {
+          "text": "Oui, elle vise aussi toutes autres conditions limitant de la même manière la visibilité.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Non, seules les conditions précisément citées (brume, brouillard, etc.) sont visées.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Oui, mais uniquement les conditions causées par la fumée d'un incendie.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_71-ba2d9252",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 71 RNL étend la notion à toutes autres conditions limitant de la même manière la visibilité.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart71-ba2d9252-b9f294ea",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Selon l'art. 71 RNL, qu'est-ce qui est considéré comme une navigation par temps bouché ?",
+      "choices": [
+        {
+          "text": "Toute navigation, de jour comme de nuit, par brume, brouillard, bruine, neige ou gros grains avec pluie.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Uniquement la navigation de nuit par brouillard épais.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Uniquement la navigation de jour lorsque la pluie est accompagnée de vent fort.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_71-ba2d9252",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 71 RNL définit le temps bouché comme toute navigation, de jour comme de nuit, par brume, brouillard, bruine, neige ou gros grains avec pluie.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseintér-8113da82",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Que confirme le texte au sujet du nœud de chaise hors tension ?",
+      "choices": [
+        {
+          "text": "Il est facile à défaire, même mouillé et après avoir subi une traction très forte ou un resserrement dû au dessèchement.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il devient impossible à défaire dès qu'il est mouillé.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il ne peut être réglé qu'en exerçant une forte tension sur le dormant.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__intérêts-e96bddce",
+        "ref": "Matelotage — Nœud de chaise : Intérêts",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Intérêts, hors tension il est facile à défaire même mouillé et après une forte traction.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseintér-ab116486",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Selon le texte, comment réagit le nœud de chaise lorsque la tension augmente ?",
+      "choices": [
+        {
+          "text": "Plus la tension est forte, plus il se bloque, tout en se dénouant tout aussi aisément.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Plus la tension est forte, plus il a tendance à glisser et à se défaire.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La tension n'a aucun effet sur son blocage, qui dépend d'un système mécanique intermédiaire.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__intérêts-e96bddce",
+        "ref": "Matelotage — Nœud de chaise : Intérêts",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Intérêts, plus la tension est forte, plus le nœud se bloque et se dénoue aisément.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseprése-168ffae5",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "D'après le texte, le nœud de chaise est aussi appelé :",
+      "choices": [
+        {
+          "text": "Nœud de bouline.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nœud de cabestan.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nœud de pendu.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__présentation-7a92f259",
+        "ref": "Matelotage — Nœud de chaise : Présentation",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Présentation, le nœud de chaise est aussi nommé nœud de bouline.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseroide-1c6e7354",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Pourquoi le nœud de chaise est-il qualifié de roi des nœuds, selon le texte ?",
+      "choices": [
+        {
+          "text": "C'est un nœud de boucle fiable qui ne glisse pas sous tension et se dénoue facilement même après de fortes tensions.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "C'est le seul nœud impossible à dénouer une fois serré.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il ne peut être réalisé qu'avec un outil spécialisé et à deux mains.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
+        "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Roi des nœuds, sa qualité de nœud de boucle fiable qui ne glisse pas et se dénoue facilement le justifie.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseroide-24376407",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Concernant les méthodes de réalisation du nœud de chaise, quelle(s) affirmation(s) le texte confirme-t-il ?",
+      "choices": [
+        {
+          "text": "Il existe plusieurs méthodes de réalisation, jusqu'à 18 avec les variantes.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il ne reste que deux méthodes classiques reconnues pour l'enseignement, tricotée ou préparée.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une seule méthode unique de réalisation est admise dans le monde entier.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
+        "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Roi des nœuds, il existe jusqu'à 18 méthodes avec variantes mais deux méthodes classiques d'enseignement.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseroide-3b91fa7c",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Pourquoi le nœud de chaise est-il qualifié de « roi des nœuds » ?",
+      "choices": [
+        {
+          "text": "C’est un nœud de boucle fiable qui ne glisse pas sous tension et se dénoue facilement",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il se resserre de plus en plus sous tension jusqu’à devenir indénouable",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il sert uniquement à raccorder deux cordages de même diamètre",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
+        "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le nœud de chaise est une boucle fiable qui ne glisse pas et se dénoue aisément.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienganses-27-7c977b8a",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "D'après le texte, qu'est-ce qu'une ganse ?",
+      "choices": [
+        {
+          "text": "Une portion de cordage courbée, sans croisement ni chevauchement.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un croisement serré de deux extrémités de corde.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une corde tressée à partir de trois brins métalliques.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__ganses-277e3817",
+        "ref": "Matelotage — Nœud (lien) : Ganses",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Ganses, la ganse est une portion de cordage courbée sans croisement ni chevauchement.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienganses-27-9d4c9c9b",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Selon le texte, qu'illustre le nœud de pendu concernant les nœuds gansés ?",
+      "choices": [
+        {
+          "text": "Il peut être facilement défait si la boucle est libre, mais se resserre autour de l'entrave sous le poids du pendu.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il ne peut jamais être défait, que la boucle soit libre ou entravée.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il se desserre automatiquement dès qu'on applique un poids sur la boucle.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__ganses-277e3817",
+        "ref": "Matelotage — Nœud (lien) : Ganses",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Ganses, le nœud de pendu se défait si la boucle est libre mais se resserre sous le poids du pendu.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienpropriété-3cfc46c6",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Quel critère, selon le texte, permet d'évaluer et de choisir le nœud le mieux adapté ?",
+      "choices": [
+        {
+          "text": "La solidité du nœud, notamment s'il fragilise ou non la corde en cas de violents à-coups.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La couleur de la corde utilisée pour le confectionner.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le prix d'achat de la cordelette.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__propriétés-e84eb439",
+        "ref": "Matelotage — Nœud (lien) : Propriétés",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Propriétés, la solidité du nœud est primordiale, surtout en cas de violents à-coups.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienpropriété-97dd2d57",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Selon le texte, quelle est la résistance d'une corde munie d'un nœud de chaise comparée à un nœud de cabestan ?",
+      "choices": [
+        {
+          "text": "Le nœud de chaise conserve une résistance exceptionnelle de 89 %, alors que le cabestan la réduit de moitié.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le nœud de cabestan conserve 89 % de la résistance, contre la moitié pour le nœud de chaise.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les deux nœuds réduisent la résistance de la corde exactement de moitié.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__propriétés-e84eb439",
+        "ref": "Matelotage — Nœud (lien) : Propriétés",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Propriétés, le cabestan réduit la résistance de moitié alors que le nœud de chaise atteint 89 %.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienprésentat-1351cbab",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "D'après le texte, quelle affirmation sur l'usage des nœuds est correcte ?",
+      "choices": [
+        {
+          "text": "L'art des nœuds trouve principalement son essor dans la marine à la voile puis dans le nautisme de sport ou de loisir.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les nœuds n'ont jamais été utilisés en dehors du domaine maritime.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La connaissance des nœuds est devenue totalement inutile depuis l'apparition d'équipements spécialisés.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__présentation-f5b44408",
+        "ref": "Matelotage — Nœud (lien) : Présentation",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Présentation, les nœuds trouvent leur essor dans la marine à la voile puis dans le nautisme.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienprésentat-5935262d",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Selon le texte, qu'est-ce qu'un nœud ?",
+      "choices": [
+        {
+          "text": "L'enlacement ou l'entrecroisement d'une ou de plusieurs cordes ou autres objets flexibles de forme filaire.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Exclusivement l'entrecroisement de deux câbles métalliques rigides.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un assemblage de planches destiné à renforcer une coque.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__présentation-f5b44408",
+        "ref": "Matelotage — Nœud (lien) : Présentation",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Présentation, un nœud est l'enlacement ou l'entrecroisement d'objets flexibles de forme filaire.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig61-729183ab-312fd2c6",
+      "theme": "meteorologie",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Lieu de mise à terre de bateaux",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La largeur de la passe est limitée",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Avis de fort vent",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_61-729183ab",
+        "ref": "ONI Annexe 4 – fig. 61",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image115.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 61 — « Avis de fort vent ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "block": "",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig62-4c0da81f-dad372e6",
+      "theme": "meteorologie",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Avis de tempête",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Barrage",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Avis de fort vent",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_62-4c0da81f",
+        "ref": "ONI Annexe 4 – fig. 62",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image116.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 62 — « Avis de tempête ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    }
+  ]
+}

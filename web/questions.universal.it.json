@@ -1,0 +1,1100 @@
+{
+  "meta": {
+    "kb_version": "2026-05-30",
+    "generated": "2026-05-30",
+    "generators": "tmpl:figure_recognition.v1",
+    "exam_questions": "60",
+    "total_points": "180",
+    "points_per_question": "3",
+    "pass_points": "165",
+    "time_limit_min": "50",
+    "scoring": "all_or_nothing",
+    "canton": "Genève (GE) · standard VKS",
+    "canton_code": "GE",
+    "permis": "A",
+    "permis_label": "Permis A — bateau à moteur",
+    "lang": "it",
+    "unofficial": "false",
+    "pool": "universal"
+  },
+  "questions": [
+    {
+      "id": "q-oni-it-oniart142-3888cde0-10795716",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "In base a queste definizioni, l'«analisi dei rischi» è un'analisi ai sensi di quale disposizione?",
+      "choices": [
+        {
+          "text": "Dell'articolo 2 lettera d dell'ordinanza del 14 marzo 1994",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Dell'articolo 2 lettera f OCB",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Dell'articolo 5 OCB",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_142-3888cde0",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 142 lett. a definisce l'analisi dei rischi come un'analisi ai sensi dell'articolo 2 lettera d dell'ordinanza del 14 marzo 1994.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart142-3888cde0-97c3b2e5",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Quale tra le seguenti affermazioni NON corrisponde alle definizioni date dall'articolo?",
+      "choices": [
+        {
+          "text": "L'obbligo di diligenza è il rapporto sulla sicurezza di cui all'articolo 17 capoverso 3 OCB",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il rapporto di perizia è un rapporto ai sensi dell'articolo 2 lettera f OCB",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "L'obbligo di diligenza sono regole ai sensi dell'articolo 5 OCB",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_142-3888cde0",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 142 lett. e definisce l'obbligo di diligenza come regole ai sensi dell'articolo 5 OCB, non come un rapporto sulla sicurezza.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart142-3888cde0-f3ac7113",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Secondo le definizioni dell'articolo, chi è il «perito»?",
+      "choices": [
+        {
+          "text": "Una persona ai sensi dell'articolo 5a capoverso 1 lettera a OCB",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L'autorità competente che approva il rapporto sulla sicurezza",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il responsabile dell'obbligo di diligenza definito all'articolo 17 OCB",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_142-3888cde0",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 142 lett. c definisce il perito come una persona ai sensi dell'articolo 5a capoverso 1 lettera a OCB.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-it-rnlart71-1ace0b9a-dca94200",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Quale tra le seguenti condizioni rientra nella definizione di navigazione in tempo di foschia?",
+      "choices": [
+        {
+          "text": "La navigazione con nevischio o piogge tempestose",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La navigazione con vento forte ma cielo sereno",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La navigazione di notte con buona visibilità",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-it-rnl_art_71-1ace0b9a",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 71 include espressamente nevischio, neve e piogge tempestose tra le condizioni della navigazione in tempo di foschia.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpit-matelotagegassadamantepré-0ee8958e",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "In base al testo, quali affermazioni sulla gassa d'amante sono corrette?",
+      "choices": [
+        {
+          "text": "Può essere eseguita velocemente anche con una sola mano.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Può essere sciolta facilmente anche quando il cavo è bagnato.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "È il nodo che meglio di ogni altro preserva la resistenza iniziale del cavo quando se ne uniscono due.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_it-matelotage__gassa_damante__présentation-5d288985",
+        "ref": "Matelotage — Gassa d'amante : Présentation",
+        "source": "Wikipedia (IT) — nodi marinareschi",
+        "url": "https://it.wikipedia.org/wiki/Gassa_d'amante",
+        "as_of": "144152286",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo Matelotage — Gassa d'amante : Présentation, la gassa si esegue anche con una mano e si scioglie facilmente da bagnata, mentre per unire due cime altri nodi ne preservano meglio la resistenza.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-matelotagewpit-matelotagegassadamantepré-1bf63ce9",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Quale affermazione sulla gassa d'amante usata in arrampicata NON è corretta secondo il testo?",
+      "choices": [
+        {
+          "text": "In arrampicata si utilizza sempre una gassa d'amante semplice.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ha la tendenza ad allentarsi e slegarsi quando è scarica e agitata.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "È facile da slegare anche dopo essere stata caricata e stretta da una caduta.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_it-matelotage__gassa_damante__présentation-5d288985",
+        "ref": "Matelotage — Gassa d'amante : Présentation",
+        "source": "Wikipedia (IT) — nodi marinareschi",
+        "url": "https://it.wikipedia.org/wiki/Gassa_d'amante",
+        "as_of": "144152286",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo Matelotage — Gassa d'amante : Présentation, proprio per la tendenza ad allentarsi da scarica, in arrampicata non viene mai usata la gassa d'amante semplice.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpit-matelotagegassadamantepré-8714e56e",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Secondo il testo, quale caratteristica contraddistingue la gassa d'amante?",
+      "choices": [
+        {
+          "text": "È un nodo ad occhiello che non è scorsoio.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "È un nodo scorsoio che si stringe progressivamente sotto carico.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "È un nodo bloccante che non può mai essere sciolto.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_it-matelotage__gassa_damante__présentation-5d288985",
+        "ref": "Matelotage — Gassa d'amante : Présentation",
+        "source": "Wikipedia (IT) — nodi marinareschi",
+        "url": "https://it.wikipedia.org/wiki/Gassa_d'amante",
+        "as_of": "144152286",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo Matelotage — Gassa d'amante : Présentation, la gassa è un nodo ad occhiello, non scorsoio, che non si stringe mai troppo.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpit-matelotagenodobarcaiolopr-45c31569",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Secondo il testo, quale affermazione descrive correttamente la natura del nodo barcaiolo?",
+      "choices": [
+        {
+          "text": "È un nodo bloccante usato per fissare una corda a un punto di ancoraggio.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "È uno strumento di assicurazione dinamica che permette lo scorrimento dei due capi.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "È un nodo ad occhiello che non si stringe mai troppo.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_it-matelotage__nodo_barcaiolo__présentation-4ce0f7e7",
+        "ref": "Matelotage — Nodo barcaiolo : Présentation",
+        "source": "Wikipedia (IT) — nodi marinareschi",
+        "url": "https://it.wikipedia.org/wiki/Nodo_barcaiolo",
+        "as_of": "150576297",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo Matelotage — Nodo barcaiolo : Présentation, il barcaiolo è un nodo bloccante usato per fissare una corda a un punto di ancoraggio, mentre lo scorrimento dinamico è proprio del mezzo barcaiolo.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpit-matelotagenodobarcaiolopr-7ca72ad2",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Quale affermazione sul nodo barcaiolo NON è corretta secondo il testo?",
+      "choices": [
+        {
+          "text": "Il mezzo barcaiolo è un nodo bloccante identico al barcaiolo.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "In nautica è anche noto come nodo parlato.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "In ambito scout viene chiamato nodo paletto.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_it-matelotage__nodo_barcaiolo__présentation-4ce0f7e7",
+        "ref": "Matelotage — Nodo barcaiolo : Présentation",
+        "source": "Wikipedia (IT) — nodi marinareschi",
+        "url": "https://it.wikipedia.org/wiki/Nodo_barcaiolo",
+        "as_of": "150576297",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo Matelotage — Nodo barcaiolo : Présentation, il mezzo barcaiolo non è un nodo bloccante bensì uno strumento di assicurazione dinamica, perciò non va confuso con il barcaiolo.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewpit-matelotagenodobarcaiolopr-877b71f1",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "In base al testo, quali sono caratteristiche del nodo barcaiolo?",
+      "choices": [
+        {
+          "text": "È di facile e rapida esecuzione.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Può essere sciolto anche se la corda è bagnata o ha subito forte trazione.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Una volta eseguito non consente più di variare la distanza dal punto di ancoraggio.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp_it-matelotage__nodo_barcaiolo__présentation-4ce0f7e7",
+        "ref": "Matelotage — Nodo barcaiolo : Présentation",
+        "source": "Wikipedia (IT) — nodi marinareschi",
+        "url": "https://it.wikipedia.org/wiki/Nodo_barcaiolo",
+        "as_of": "150576297",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo Matelotage — Nodo barcaiolo : Présentation, il barcaiolo è facile e rapido, si scioglie anche bagnato o dopo forte trazione, e permette di variare la distanza senza scioglierlo.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart146a-66b77936-da5c9e8a",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "In base all'articolo, quali affermazioni sulla riduzione di peso dell'ancora di prua sono corrette?",
+      "choices": [
+        {
+          "text": "Sui laghi è ammessa una riduzione massima del 50 per cento se il peso era stato calcolato per acque correnti.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L'autorità competente può richiedere l'allungamento della catena dell'ancora.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "È ammessa la somma di più riduzioni di peso usando ancore ad alta tenuta.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_146a-66b77936",
+        "ref": "ONI art. 146a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo ONI art. 146a cpv. 2, è ammessa una riduzione massima del 50% sui laghi e l'autorità può allungare la catena, ma non è ammessa la somma di più riduzioni con ancore ad alta tenuta.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart146a-66b77936-db085d54",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Secondo l'articolo, a cosa devono corrispondere il numero e il peso delle ancore nonché diametro e lunghezza della catena?",
+      "choices": [
+        {
+          "text": "Alle prescrizioni di una società di classificazione riconosciuta dall'Ufficio federale dei trasporti.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Alle preferenze del costruttore del natante.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Alle norme valide unicamente per le acque correnti.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_146a-66b77936",
+        "ref": "ONI art. 146a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo ONI art. 146a cpv. 1, tali elementi devono corrispondere alle prescrizioni di una società di classificazione riconosciuta dall'UFT.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-it-oniart146a-66b77936-db846803",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Quale affermazione sull'estremità della catena dell'ancora NON è corretta secondo l'articolo?",
+      "choices": [
+        {
+          "text": "Può rimanere libera e non fissata allo scafo.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Deve essere saldamente fissata allo scafo del natante.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il suo fissaggio allo scafo è un requisito previsto dall'articolo.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-it-oni_art_146a-66b77936",
+        "ref": "ONI art. 146a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo ONI art. 146a cpv. 3, l'estremità della catena dell'ancora deve essere saldamente fissata allo scafo del natante.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavonioformazione-da71309-21b0f627",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Secondo il testo, quali sono le caratteristiche del vento di favonio (Föhn) quando arriva a valle sul versante sottovento?",
+      "choices": [
+        {
+          "text": "È un vento caldo e secco, a volte tempestoso, che favorisce giornate soleggiate",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "È un vento freddo e umido che porta nebbia persistente",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "È un vento debole e fresco che non incide sulle temperature",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__formazione-da71309f",
+        "ref": "Météo — Favonio : Formazione",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Formazione», l'aria ricade a valle più calda e secca, dando origine a un vento caldo a volte tempestoso che favorisce giornate soleggiate.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavonioformazione-da71309-a792d872",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Cosa accade alla corrente d'aria mentre scende sul versante opposto sottovento?",
+      "choices": [
+        {
+          "text": "Si scalda per compressione adiabatica, di circa 10 °C ogni 1000 m in discesa",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Si raffredda per espansione, di circa 10 °C ogni 1000 m in discesa",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mantiene una temperatura costante perché non perde più umidità",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__formazione-da71309f",
+        "ref": "Météo — Favonio : Formazione",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Formazione», nella discesa l'aria si scalda per compressione adiabatica secondo il gradiente adiabatico secco, di circa 10 °C ogni 1000 m.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavonioformazione-da71309-be6be58d",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Cosa si forma sul versante sopravento secondo il testo?",
+      "choices": [
+        {
+          "text": "Lo Stau, creato dalle correnti umide ascendenti, con nubi, pioggia e neve",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un cielo sereno e soleggiato con aria secca",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un vento caldo e secco discendente",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__formazione-da71309f",
+        "ref": "Météo — Favonio : Formazione",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Formazione», dal versante sopravento si ha lo Stau, creato dalle correnti umide ascendenti che causano nubi, pioggia e neve.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavoniosvizzera-25cabf16-0c983688",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Quale conseguenza ebbero, dal XV secolo, gli incendi provocati o alimentati dal favonio a Glarona, Altdorf e Meiringen?",
+      "choices": [
+        {
+          "text": "Portarono a creare norme e istituzioni di polizia edilizia e del fuoco",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Portarono all'abbandono definitivo di quei villaggi",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Portarono al divieto totale di navigazione sui laghi",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__svizzera-25cabf16",
+        "ref": "Météo — Favonio : Svizzera",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Svizzera», gli incendi a Glarona, Altdorf e Meiringen portarono dal XV secolo a creare norme e istituzioni di polizia edilizia e del fuoco.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavoniosvizzera-25cabf16-6bdabd3f",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Secondo il testo, quale minaccia rappresentavano un tempo in Svizzera le tempeste dovute al favonio?",
+      "choices": [
+        {
+          "text": "Una minaccia per la navigazione, ad esempio lungo i laghi di Uri e Walenstadt",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Una minaccia per la produzione agricola di pianura",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Una minaccia per le linee ferroviarie di montagna",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__svizzera-25cabf16",
+        "ref": "Météo — Favonio : Svizzera",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Svizzera», le tempeste dovute al favonio costituivano una minaccia per la navigazione lungo i laghi di Uri e Walenstadt.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavoniosvizzera-25cabf16-a1eeeca6",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Perché villaggi come Sisikon e Quarten erano costretti a mantenere una certa autarchia?",
+      "choices": [
+        {
+          "text": "Perché erano raggiungibili solo per via lacustre",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Perché erano isolati da frequenti valanghe",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Perché non disponevano di alcun porto",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__svizzera-25cabf16",
+        "ref": "Météo — Favonio : Svizzera",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Svizzera», Sisikon e Quarten erano raggiungibili solo per via lacustre, e dovevano quindi mantenere una certa autarchia.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavonioventianaloghi-76dc-ad4384a7",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Secondo il testo, con quale nome è noto in Argentina lo stesso fenomeno del favonio?",
+      "choices": [
+        {
+          "text": "Zonda",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Chinook",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Halny",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__venti_analoghi-76dc3a1e",
+        "ref": "Météo — Favonio : Venti analoghi",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Venti analoghi», in Argentina il fenomeno è noto come zonda.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavonioventianaloghi-76dc-cf83516a",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Quale affermazione NON è corretta secondo il testo sui nomi assunti dal fenomeno nel mondo?",
+      "choices": [
+        {
+          "text": "In Nuova Zelanda, a Christchurch, è chiamato halny",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "In Israele è chiamato sharav o hamsin",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nella California del Sud è noto come «venti di Santa Ana»",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__venti_analoghi-76dc3a1e",
+        "ref": "Météo — Favonio : Venti analoghi",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Venti analoghi», a Christchurch in Nuova Zelanda è chiamato Nor'wester, mentre halny è il nome usato nei Carpazi.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météofavonioventianaloghi-76dc-dc92cf84",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Come viene chiamato il fenomeno analogo al favonio sulle Montagne Rocciose?",
+      "choices": [
+        {
+          "text": "Chinook",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sharav",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nor'wester",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__favonio__venti_analoghi-76dc3a1e",
+        "ref": "Météo — Favonio : Venti analoghi",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Favonio",
+        "as_of": "148341109",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Favonio : Venti analoghi», sulle Montagne Rocciose il fenomeno è chiamato chinook.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météoventodicadutacaratteristi-1d722287",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Cosa afferma il testo riguardo all'effetto del vento prima che superi la catena montuosa?",
+      "choices": [
+        {
+          "text": "Non incide sulle temperature, se non in base alla natura della massa d'aria a cui è associato",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Provoca sempre un brusco aumento delle temperature",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Determina un raffreddamento immediato delle valli sottovento",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__vento_di_caduta__caratteristiche-39eb3a34",
+        "ref": "Météo — Vento di caduta : Caratteristiche",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Vento_di_caduta",
+        "as_of": "148043215",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Vento di caduta : Caratteristiche», prima di superare la catena montuosa il vento non incide sulle temperature, se non in base alla natura della massa d'aria associata.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météoventodicadutacaratteristi-62a7c2b4",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Quale affermazione NON è corretta riguardo ai venti di caduta provenienti dai quadranti settentrionali?",
+      "choices": [
+        {
+          "text": "Provocano nubi e precipitazioni persistenti sul versante sottovento",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Possono determinare temporanee condizioni di cielo sereno e temperature in aumento",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "All'arrivo della massa d'aria fredda che li segue viene meno l'effetto sulle temperature, pur permanendo clima secco",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__vento_di_caduta__caratteristiche-39eb3a34",
+        "ref": "Météo — Vento di caduta : Caratteristiche",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Vento_di_caduta",
+        "as_of": "148043215",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Vento di caduta : Caratteristiche», i venti settentrionali determinano cielo sereno e temperature in aumento, non nubi e precipitazioni persistenti.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteowpit-météoventodicadutacaratteristi-e1877ae9",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Secondo il testo, quali condizioni crea il vento di caduta una volta valicate le vette?",
+      "choices": [
+        {
+          "text": "Condizioni atmosferiche stabili, con aria molto secca",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Condizioni atmosferiche perturbate, con aria molto umida",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nebbia fitta e precipitazioni continue",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_wp_it-météo__vento_di_caduta__caratteristiche-39eb3a34",
+        "ref": "Météo — Vento di caduta : Caratteristiche",
+        "source": "Wikipedia (IT) — venti (Favonio, Bisa)",
+        "url": "https://it.wikipedia.org/wiki/Vento_di_caduta",
+        "as_of": "148043215",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Secondo «Météo — Vento di caduta : Caratteristiche», una volta valicate le vette il vento crea condizioni atmosferiche stabili, con aria molto secca.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:it.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    }
+  ]
+}

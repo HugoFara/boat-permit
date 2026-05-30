@@ -22,7 +22,7 @@ let FELL_BACK = false;     // true when UI lang has no native bank (showing FR)
 let UNOFFICIAL = false;    // true when the loaded bank is an unofficial translation
 let SELECTED = null;       // Set of chosen domain (theme) ids, null = all present
 let CANTON = null;         // chosen canton code, null = the bank's build default
-let POOL = "national";     // chosen question pool: "national" | "cevni"
+let POOL = "national";     // chosen question pool: "national" | "core"
 let state = null;          // current run
 
 const T = (key, vars) => t(LANG, key, vars);
@@ -47,31 +47,60 @@ function supportedLangs() {
 
 /* Try the requested language's bank, then the French canonical files. Returns
  * the parsed payload and records whether we fell back. */
-async function fetchBank(lang) {
-  // National pool: the per-language bank (falling back to FR/canonical). CEVNI
-  // pool: the cross-country core sub-bundle, falling back through its own FR copy
-  // and finally the national bank, so the player still works if no core build is
-  // present for a language.
-  const national = lang === DEFAULT_LANG
-    ? ["questions.fr.json", "questions.json"]
-    : [`questions.${lang}.json`, "questions.fr.json", "questions.json"];
-  const cevni = lang === DEFAULT_LANG
-    ? ["questions.cevni.fr.json"]
-    : [`questions.cevni.${lang}.json`, "questions.cevni.fr.json"];
-  const candidates = POOL === "cevni" ? cevni.concat(national) : national;
-  for (const url of candidates) {
+async function loadDoc(paths) {
+  // Return the first non-empty bank document among `paths`, or null.
+  for (const url of paths) {
+    if (!url) continue;
     try {
       const r = await fetch(url, { cache: "no-store" });
       if (!r.ok) continue;
       const data = await r.json();
       if ((data.questions || []).length === 0) continue;
-      // Language fallback is independent of the pool: we wanted `lang` but the
-      // bank we actually loaded reports another language.
-      FELL_BACK = lang !== DEFAULT_LANG && (data.meta || {}).lang !== lang;
       return data;
     } catch (e) { /* try next */ }
   }
   return null;
+}
+
+async function fetchBank(lang) {
+  // National pool: the per-language bank (falling back to FR/canonical). Common-core
+  // pool: the harmonised, portable subset — composed from the per-base bundles
+  // (universal seamanship + CEVNI inland + COLREGS maritime) the manifest lists,
+  // each falling back through its own FR copy. Falls through to the national bank
+  // if no core build is present, so the player always works.
+  const national = lang === DEFAULT_LANG
+    ? ["questions.fr.json", "questions.json"]
+    : [`questions.${lang}.json`, "questions.fr.json", "questions.json"];
+
+  if (POOL === "core") {
+    const core = MANIFEST.core || {};
+    const docs = [];
+    for (const base of Object.keys(core)) {
+      const entry = core[base] || {};
+      const here = entry[lang] && entry[lang].path;
+      const fr = entry[DEFAULT_LANG] && entry[DEFAULT_LANG].path;
+      const doc = await loadDoc(lang === DEFAULT_LANG ? [fr] : [here, fr]);
+      if (doc) docs.push(doc);
+    }
+    if (docs.length) {
+      const seen = new Set();
+      const merged = [];
+      for (const d of docs) for (const q of (d.questions || [])) {
+        if (!seen.has(q.id)) { seen.add(q.id); merged.push(q); }
+      }
+      // Language fallback is independent of the pool: we wanted `lang` but a base
+      // bundle may have reported another language.
+      FELL_BACK = lang !== DEFAULT_LANG && (docs[0].meta || {}).lang !== lang;
+      return { meta: Object.assign({}, docs[0].meta || {}, { pool: "core" }),
+               questions: merged };
+    }
+    // no core docs loaded → fall through to the national bank below
+  }
+
+  const data = await loadDoc(national);
+  if (!data) return null;
+  FELL_BACK = lang !== DEFAULT_LANG && (data.meta || {}).lang !== lang;
+  return data;
 }
 
 /* The build manifest (languages.json) carries per-language Anki download links.
@@ -293,24 +322,25 @@ function renderCantons() {
   });
 }
 
-/* --- Question pool (national bank vs CEVNI core) ----------------------------
- * The CEVNI core is the cross-country–portable subset (harmonised signs, rules,
- * seamanship); the national bank adds country-specific law. The build ships the
- * core as questions.cevni.<lang>.json and advertises it in the manifest, so the
- * toggle simply re-loads a different bundle. */
+/* --- Question pool (national bank vs harmonised common core) ----------------
+ * The common core is the cross-country/cross-track portable subset: universal
+ * seamanship + the harmonised traffic code(s) (CEVNI inland, COLREGS at sea). The
+ * national bank adds country-specific law. The build ships the core split by base
+ * (questions.<base>.<lang>.json) and lists the bases in the manifest; the toggle
+ * composes the available bases into one core pool. */
 function poolAvailable() {
-  return Object.keys((MANIFEST.cevni) || {}).length > 0;
+  return Object.keys((MANIFEST.core) || {}).length > 0;
 }
 
 function restorePool() {
   try {
     const saved = localStorage.getItem("pool");
-    POOL = saved === "cevni" && poolAvailable() ? "cevni" : "national";
+    POOL = saved === "core" && poolAvailable() ? "core" : "national";
   } catch (e) { POOL = "national"; }
 }
 
 async function selectPool(p) {
-  const want = p === "cevni" && poolAvailable() ? "cevni" : "national";
+  const want = p === "core" && poolAvailable() ? "core" : "national";
   if (want === POOL) return;
   POOL = want;
   try { localStorage.setItem("pool", POOL); } catch (e) { /* private mode */ }
@@ -320,14 +350,14 @@ async function selectPool(p) {
   show("start");
 }
 
-/* Two chips (National ⟷ CEVNI core). Hidden when no core bundle was built. */
+/* Two chips (National ⟷ Common core). Hidden when no core bundle was built. */
 function renderPools() {
   const box = $("pools");
   if (!box) return;
   const label = $("t-pool");
   if (!poolAvailable()) { box.innerHTML = ""; if (label) label.textContent = ""; return; }
   if (label) label.textContent = T("poolLabel");
-  const opts = [["national", T("poolNational")], ["cevni", T("poolCevni")]];
+  const opts = [["national", T("poolNational")], ["core", T("poolCore")]];
   box.innerHTML = opts.map(([code, name]) => {
     const on = POOL === code;
     return `<button class="chip ${on ? "on" : ""}" data-pool="${code}"

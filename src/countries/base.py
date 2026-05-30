@@ -50,6 +50,7 @@ class Permit:
     themes: tuple[str, ...]                        # which taxonomy themes it draws on
     exam: ExamRules
     drive: str = ""                                # "motor" | "sail" | "motor+sail"
+    track: str = ""                                # "inland" | "maritime"; "" ⇒ inferred
     mandatory: bool = True                         # legally required vs voluntary
     note: str = ""
 
