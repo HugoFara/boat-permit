@@ -85,12 +85,23 @@ def _normalize_caption(cap: str) -> str:
 # Allegato) — a caption that is just the annex heading, not a signal's meaning.
 _ANNEX_PREFIXES = ("Annexe ", "Anhang ", "Allegato ")
 
+# Two length caps for two jobs. A *distractor* must be short so the option list
+# stays scannable and the confusion-set tight; an *answer* may run longer — many
+# real signal captions ("Interdiction de naviguer en dehors des limites
+# indiquées") are atomic single meanings that simply exceed the distractor cap.
+# Keeping the distractor cap at 55 leaves every existing question's pool — and so
+# the question itself — byte-identical; only the answer gate widens.
+_DISTRACTOR_MAXLEN = 55
+_ANSWER_MAXLEN = 90
 
-def _recognizable(caption: str) -> bool:
-    """A caption usable as a clean multiple-choice option / answer: atomic,
-    short, not the article-embedded fallback ('ONI art. 5 – figure 1') nor the
-    annex-title fallback ('Annexe 4 – Signaux …' / 'Anhang …' / 'Allegato …')."""
-    if not caption or len(caption) > 55 or ";" in caption:
+
+def _recognizable(caption: str, maxlen: int = _DISTRACTOR_MAXLEN) -> bool:
+    """A caption usable as a clean multiple-choice option: atomic (no ';'),
+    within `maxlen`, and not a fallback caption — neither the article-embedded
+    one ('ONI art. 5 – figure 1') nor the annex-title heading ('Annexe 4 –
+    Signaux …' / 'Anhang …' / 'Allegato …'). Default cap suits distractors; pass
+    `_ANSWER_MAXLEN` to gate answers, which may be longer."""
+    if not caption or len(caption) > maxlen or ";" in caption:
         return False
     if re.match(r"^(ONI|RNL)\b.*figure\s*\d", caption) or caption.startswith(_ANNEX_PREFIXES):
         return False
@@ -173,19 +184,21 @@ def build_figure_questions(kb: sqlite3.Connection) -> tuple[list[Question], dict
         if f["source_id"] not in _PUBLIC_DOMAIN_SOURCES:
             stats["non_public"] += 1
             continue
-        if not _recognizable(f["answer"]):
+        if not _recognizable(f["answer"], _ANSWER_MAXLEN):   # answers may run longer
             stats["not_recognizable"] += 1
             continue
 
         ans = f["answer"]
         seed = _seed(f["id"])
         lang = f["lang"]
-        tight = [c for c in by_type[(lang, f["source_id"], f["annex"], f["sigtype"])] if c != ans]
+        # A long-answer figure may have no same-family sibling in the (<=55)
+        # distractor pool, so its key can be absent — default to an empty pool.
+        tight = [c for c in by_type.get((lang, f["source_id"], f["annex"], f["sigtype"]), []) if c != ans]
         picks = _choose_two(ans, tight, seed)
         strategy = "confusion_set"
         if len(picks) < 2:                      # widen: annex, then whole theme
-            wider = ([c for c in by_annex[(lang, f["source_id"], f["annex"])] if c != ans]
-                     + [c for c in by_theme[(lang, f["source_id"], f["theme"])] if c != ans])
+            wider = ([c for c in by_annex.get((lang, f["source_id"], f["annex"]), []) if c != ans]
+                     + [c for c in by_theme.get((lang, f["source_id"], f["theme"]), []) if c != ans])
             picks = _choose_two(ans, tight + wider, seed)
             strategy = "sibling_random"
         if len(picks) < 2:

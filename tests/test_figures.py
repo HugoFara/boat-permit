@@ -68,6 +68,20 @@ def test_recognizable_filter():
     assert not F._recognizable("6")                              # no real word
 
 
+def test_answer_gate_admits_longer_atomic_captions():
+    # A real single-meaning caption just over the distractor cap: rejected as a
+    # distractor (keeps the option list tight) but admissible as an answer.
+    cap = "Interdiction de naviguer en dehors des limites indiquées"  # 56 chars
+    assert 55 < len(cap) <= F._ANSWER_MAXLEN
+    assert not F._recognizable(cap)                       # distractor gate (<=55)
+    assert F._recognizable(cap, F._ANSWER_MAXLEN)         # answer gate
+    # but the widened answer gate must NOT admit semicolons or fallbacks
+    assert not F._recognizable("Bateaux motorisés; feu de mât: blanc", F._ANSWER_MAXLEN)
+    assert not F._recognizable("Annexe 4 – Signaux de prescription", F._ANSWER_MAXLEN)
+    # nor a genuinely over-long multi-condition description
+    assert not F._recognizable("x" * (F._ANSWER_MAXLEN + 1) + " mot", F._ANSWER_MAXLEN)
+
+
 def test_normalize_caption():
     assert F._normalize_caption("feu scintillant") == "Feu scintillant"
     assert F._normalize_caption("Convois poussés:") == "Convois poussés"
