@@ -1,9 +1,12 @@
-"""Derive candidate questions from the ingested French law (`legi_kb.json`).
+"""Derive candidate questions from the ingested corpora.
 
-The corpus is the actual statute (the RGP, the permis decree, Division 245), so a
-question drafted *from an article's text* is **grounded in the source, not recall**
-— the standing rule. Each draft is tied to its article (number + Légifrance URL),
-carries our canonical citation, and lands as `status="pending"` in the committed
+Two grounded corpora feed this: the French **law** (`legi_kb.json` — the RGP, the
+permis decree, Division 245) for **eaux intérieures**, and the **reference facts**
+(`reference_kb.json` — IALA buoyage + SHOM tides) for **côtière**. A question
+drafted *from a unit's text* is **grounded in the source, not recall** — the
+standing rule. Each draft is tied to its unit (article number + Légifrance URL, or
+the reference unit + its IALA/SHOM URL), carries our canonical citation, and lands
+as `status="pending"` in the committed
 `src/fr/derived_drafts.json`: it is **not served** until reviewed/approved (the
 exam schema only exports `approved`/`auto_approved`). `build_fr` merges the
 approved ones into the bank; promoting is a deliberate review act.
@@ -31,6 +34,7 @@ from .seed_fr import SEED  # noqa: F401  (kept for parity / future dedup)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 KB_JSON = os.path.join(ROOT, "src", "fr", "legi_kb.json")
+REF_JSON = os.path.join(ROOT, "src", "fr", "reference_kb.json")
 DRAFTS_JSON = os.path.join(ROOT, "src", "fr", "derived_drafts.json")   # committed
 JOBS_DIR = os.path.join(ROOT, "data", "fr_derive")                     # git-ignored
 JOBS_JSON = os.path.join(JOBS_DIR, "jobs.json")
@@ -115,6 +119,31 @@ TARGETS: list[tuple[str, str, str]] = [
     ("R4241-65", "rgp", "environnement"),     # carnet de contrôle des huiles usées
 ]
 
+# Côtière targets: reference units (IALA buoyage / SHOM tides) — identified by the
+# unit's `ref`; option=cotiere, theme+source taken from the unit. The corpus is the
+# verified-facts KB (src/fr/reference_kb.json), built by src/fr/reference_fr.py.
+COTIERE_TARGETS: list[str] = [
+    "IALA R1001 §2.1.3 — marque latérale bâbord (région A)",
+    "IALA R1001 §2.1.3 — marque latérale tribord (région A)",
+    "IALA R1001 §2.1.5 — marques de chenal préféré (région A)",
+    "IALA R1001 §2.2.4 — marque cardinale Nord",
+    "IALA R1001 §2.2.4 — marque cardinale Est",
+    "IALA R1001 §2.2.4 — marque cardinale Sud",
+    "IALA R1001 §2.2.4 — marque cardinale Ouest",
+    "IALA R1001 §2.3 — marque de danger isolé",
+    "IALA R1001 §2.4 — marque d'eaux saines",
+    "IALA R1001 §2.5 — marque spéciale",
+    "SHOM — zéro hydrographique (ZH)",
+    "SHOM — marnage",
+    "SHOM — coefficient de marée",
+    "SHOM — vives-eaux et mortes-eaux",
+    "SHOM — flot et jusant",
+    "SHOM — marée semi-diurne et cycle",
+    "SHOM — niveaux caractéristiques de la marée",
+    "Règle des douzièmes (méthode de l'annuaire des marées)",
+    "SHOM — étale",
+]
+
 # The source a seed/draft `source` id resolves to in the ingested KB.
 _SEED_SRC_TO_KB = {"rgp": "code_transports", "code_transports": "code_transports",
                    "code_environnement": "code_environnement",
@@ -128,7 +157,7 @@ _REF_PREFIX = {"rgp": "RGP, art. ", "division_245": "Division 245, art. ",
 
 
 def _kb_index() -> dict[tuple[str, str], dict]:
-    """{(kb_source, NUM) → unit} for the ingested corpus."""
+    """{(kb_source, NUM) → unit} for the ingested LEGI law corpus."""
     out = {}
     for u in json.load(open(KB_JSON, encoding="utf-8"))["units"]:
         num = u["ref"].split("art. ", 1)[1]
@@ -136,20 +165,49 @@ def _kb_index() -> dict[tuple[str, str], dict]:
     return out
 
 
-def select() -> list[dict]:
-    """Resolve TARGETS against the corpus → job payloads (with article text)."""
-    idx = _kb_index()
-    jobs = []
+def _ref_index() -> dict[str, dict]:
+    """{ref → unit} for the IALA/SHOM reference-facts corpus."""
+    if not os.path.exists(REF_JSON):
+        return {}
+    return {u["ref"]: u for u in json.load(open(REF_JSON, encoding="utf-8"))["units"]}
+
+
+def _targets() -> dict[str, dict]:
+    """Every derivation target, keyed by its citation `ref`:
+      - LEGI article targets (eaux intérieures) from TARGETS, resolved in legi_kb;
+      - reference-fact targets (côtière) from COTIERE_TARGETS, resolved in reference_kb.
+    Each value carries the option/theme/source, the source text + heading (for the
+    drafting job), and the `article` provenance link."""
+    legi, ref_idx = _kb_index(), _ref_index()
+    out: dict[str, dict] = {}
     for num, src, theme in TARGETS:
-        u = idx.get((_SEED_SRC_TO_KB[src], num))
+        u = legi.get((_SEED_SRC_TO_KB[src], num))
         if not u:
-            raise SystemExit(f"target absent from KB: {src} art. {num}")
-        jobs.append({
-            "option": "eaux_interieures", "theme": theme, "source": src,
-            "article_num": num, "ref": f"{_REF_PREFIX[src]}{num}",
-            "url": u["source_url"], "kb_heading": u["text"].split("\n", 1)[0][:90],
-            "text": u["text"]})
-    return jobs
+            raise SystemExit(f"LEGI target absent: {src} art. {num}")
+        ref = f"{_REF_PREFIX[src]}{num}"
+        out[ref] = {"option": "eaux_interieures", "theme": theme, "source": src,
+                    "generator": "derive:legi.v1",
+                    "text": u["text"], "heading": u["text"].split("\n", 1)[0][:90],
+                    "article": {"num": num, "source_id": _SEED_SRC_TO_KB[src],
+                                "url": u["source_url"]}}
+    for ref in COTIERE_TARGETS:
+        u = ref_idx.get(ref)
+        if not u:
+            raise SystemExit(f"côtière target absent from reference_kb: {ref!r}")
+        out[ref] = {"option": "cotiere", "theme": u["theme"], "source": u["source_id"],
+                    "generator": "derive:ref.v1",
+                    "text": u["text"], "heading": u["title"],
+                    "article": {"unit_ref": ref, "source_id": u["source_id"],
+                                "url": u["source_url"]}}
+    return out
+
+
+def select() -> list[dict]:
+    """Resolve all targets against the corpora → job payloads (with source text)."""
+    return [{"option": t["option"], "theme": t["theme"], "source": t["source"],
+             "ref": ref, "url": t["article"]["url"], "kb_heading": t["heading"],
+             "text": t["text"]}
+            for ref, t in _targets().items()]
 
 
 def write_jobs() -> str:
@@ -187,8 +245,7 @@ def ingest(draft_glob: str | None = None) -> dict:
     """Merge agent draft files (`data/fr_derive/draft_*.json`) into the committed
     `derived_drafts.json`, keyed by ref. Every draft must name a target article
     and be well-formed. Existing approvals/rejections are preserved by ref."""
-    idx = _kb_index()
-    targets = {f"{_REF_PREFIX[s]}{n}": (n, s, t) for n, s, t in TARGETS}
+    targets = _targets()
     # Start from the existing committed drafts (durable record) and overlay any
     # new/updated drafts from the scratch files — so earlier batches survive even
     # if their scratch draft files are gone, and approvals/rejections are kept.
@@ -199,24 +256,22 @@ def ingest(draft_glob: str | None = None) -> dict:
     problems = []
     for d in raw:
         ref = d.get("ref", "")
-        if ref not in targets:
+        t = targets.get(ref)
+        if not t:
             problems.append(f"draft ref not a target: {ref!r}")
             continue
-        num, src, theme = targets[ref]
         entry = {
-            "option": "eaux_interieures", "theme": theme, "source": src, "ref": ref,
-            "polarity": d.get("polarity", "affirmative"),
+            "option": t["option"], "theme": t["theme"], "source": t["source"],
+            "ref": ref, "polarity": d.get("polarity", "affirmative"),
             "fr": d["fr"], "en": d["en"], "choices": d["choices"],
             "status": merged.get(ref, {}).get("status", "pending"),
-            "generator": GENERATOR,
-            "article": {"num": num, "source_id": _SEED_SRC_TO_KB[src],
-                        "url": idx[(_SEED_SRC_TO_KB[src], num)]["source_url"]}}
+            "generator": t.get("generator", GENERATOR), "article": t["article"]}
         errs = _validate(entry)
         if errs:
             problems.append(f"{ref}: {'; '.join(errs)}")
             continue
         merged[ref] = entry
-    out = sorted(merged.values(), key=lambda e: (e["theme"], e["ref"]))
+    out = sorted(merged.values(), key=lambda e: (e["option"], e["theme"], e["ref"]))
     with open(DRAFTS_JSON, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=2)
     return {"ingested": len(out), "problems": problems,

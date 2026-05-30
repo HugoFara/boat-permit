@@ -27,19 +27,28 @@ def _kb_articles():
             for u in json.load(open(CORPUS, encoding="utf-8"))["units"]}
 
 
+def _ref_units():
+    import json
+    return {u["ref"] for u in json.load(open(derive_fr.REF_JSON, encoding="utf-8"))["units"]}
+
+
 def test_drafts_are_well_formed_and_grounded():
     drafts = derive_fr.load_drafts()
     assert drafts, "expected derived drafts"
-    kb = _kb_articles()
+    kb = _kb_articles()          # LEGI law (eaux) by (source, num)
+    refs = _ref_units()          # IALA/SHOM reference (côtière) by ref
     for d in drafts:
         assert d["status"] in {"pending", "approved", "rejected"}
-        assert d["generator"] == derive_fr.GENERATOR
+        assert d["generator"].startswith("derive:")
         assert derive_fr._validate(d) == [], f"{d['ref']}: {derive_fr._validate(d)}"
-        # every draft is tied to a real article in the ingested corpus
+        # every draft is tied to a real unit in an ingested corpus
         a = d["article"]
-        assert (a["source_id"], a["num"]) in kb, f"{d['ref']}: article not in KB"
-        # the citation matches the article it is grounded in
-        assert d["ref"].endswith(a["num"])
+        if "num" in a:           # LEGI article
+            assert (a["source_id"], a["num"]) in kb, f"{d['ref']}: article not in KB"
+            assert d["ref"].endswith(a["num"])
+        else:                    # reference fact (côtière)
+            assert a["unit_ref"] in refs, f"{d['ref']}: reference unit not in KB"
+            assert d["ref"] == a["unit_ref"]
 
 
 def test_only_approved_drafts_are_served():

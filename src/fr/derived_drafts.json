@@ -1,5 +1,746 @@
 [
   {
+    "option": "cotiere",
+    "theme": "balisage",
+    "source": "iala_a",
+    "ref": "IALA R1001 §2.1.3 — marque latérale bâbord (région A)",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Dans nos eaux, en entrant dans un chenal depuis le large, quelle est la couleur et la forme du voyant éventuel d'une marque latérale de bâbord ?",
+      "explanation": "La marque latérale de bâbord est rouge, de forme cylindrique (« boîte »), et son voyant éventuel est un cylindre rouge. On la laisse sur bâbord (à gauche) en entrant."
+    },
+    "en": {
+      "stem": "In our waters, when entering a channel from seaward, what is the colour and the shape of the optional topmark on a port-hand mark?",
+      "explanation": "The port-hand mark is red and can-shaped, and its optional topmark is a single red cylinder (can). You leave it to port (on your left) when entering."
+    },
+    "choices": [
+      {
+        "fr": "Rouge, voyant cylindre rouge",
+        "en": "Red, with a red cylinder (can) topmark",
+        "correct": true
+      },
+      {
+        "fr": "Verte, voyant cône vert pointe en haut",
+        "en": "Green, with a green cone topmark point up",
+        "correct": false
+      },
+      {
+        "fr": "Rouge, voyant cône rouge pointe en haut",
+        "en": "Red, with a red cone topmark point up",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "IALA R1001 §2.1.3 — marque latérale bâbord (région A)",
+      "source_id": "iala_a",
+      "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "balisage",
+    "source": "iala_a",
+    "ref": "IALA R1001 §2.1.3 — marque latérale tribord (région A)",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Dans nos eaux, en entrant dans un chenal depuis le large, quel feu et quel voyant éventuel caractérisent une marque latérale de tribord ?",
+      "explanation": "La marque latérale de tribord est verte, de forme conique ; son feu est vert et son voyant éventuel est un cône vert pointe vers le haut. On la laisse sur tribord (à droite) en entrant."
+    },
+    "en": {
+      "stem": "In our waters, when entering a channel from seaward, which light and optional topmark identify a starboard-hand mark?",
+      "explanation": "The starboard-hand mark is green and cone-shaped; it shows a green light and its optional topmark is a single green cone point up. You leave it to starboard (on your right) when entering."
+    },
+    "choices": [
+      {
+        "fr": "Feu vert, voyant cône vert pointe vers le haut",
+        "en": "Green light, with a green cone topmark point up",
+        "correct": true
+      },
+      {
+        "fr": "Feu rouge, voyant cylindre rouge",
+        "en": "Red light, with a red cylinder (can) topmark",
+        "correct": false
+      },
+      {
+        "fr": "Feu vert, voyant cône vert pointe vers le bas",
+        "en": "Green light, with a green cone topmark point down",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "IALA R1001 §2.1.3 — marque latérale tribord (région A)",
+      "source_id": "iala_a",
+      "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "balisage",
+    "source": "iala_a",
+    "ref": "IALA R1001 §2.1.5 — marques de chenal préféré (région A)",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "À l'endroit où un chenal se divise, vous voyez une marque rouge portant une large bande horizontale verte. Que vous indique-t-elle ?",
+      "explanation": "Une marque rouge à large bande horizontale verte (voyant cylindre rouge) signale que le chenal préféré est à tribord. Ces marques de chenal préféré portent un feu à éclats groupés composés (2+1)."
+    },
+    "en": {
+      "stem": "Where a channel divides, you see a red mark with a single broad green horizontal band. What does it tell you?",
+      "explanation": "A red mark with a broad green horizontal band (red can topmark) shows that the preferred channel is to starboard. Such preferred-channel marks display a composite group-flashing (2+1) light."
+    },
+    "choices": [
+      {
+        "fr": "Le chenal préféré est à tribord",
+        "en": "The preferred channel is to starboard",
+        "correct": true
+      },
+      {
+        "fr": "Le chenal préféré est à bâbord",
+        "en": "The preferred channel is to port",
+        "correct": false
+      },
+      {
+        "fr": "Le chenal est obstrué, il faut faire demi-tour",
+        "en": "The channel is blocked and you must turn back",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "IALA R1001 §2.1.5 — marques de chenal préféré (région A)",
+      "source_id": "iala_a",
+      "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "balisage",
+    "source": "iala_a",
+    "ref": "IALA R1001 §2.2.4 — marque cardinale Est",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Quel voyant et quel rythme de feu caractérisent une marque cardinale Est, que l'on doit contourner par l'est ?",
+      "explanation": "La cardinale Est porte deux cônes noirs base à base, un corps noir à large bande horizontale jaune, et un feu blanc VQ(3) toutes les 5 s ou Q(3) toutes les 10 s. On passe à l'est de la marque."
+    },
+    "en": {
+      "stem": "Which topmark and light rhythm identify an East cardinal mark, which must be passed on its east side?",
+      "explanation": "The East cardinal has two black cones base to base, a black body with a broad yellow horizontal band, and a white VQ(3) every 5 s or Q(3) every 10 s light. You pass to the east of the mark."
+    },
+    "choices": [
+      {
+        "fr": "Deux cônes noirs base à base ; feu blanc VQ(3) toutes les 5 s ou Q(3) toutes les 10 s",
+        "en": "Two black cones base to base; white VQ(3) every 5 s or Q(3) every 10 s",
+        "correct": true
+      },
+      {
+        "fr": "Deux cônes noirs pointes opposées (pointe à pointe) ; feu blanc VQ(9) toutes les 10 s",
+        "en": "Two black cones point to point; white VQ(9) every 10 s",
+        "correct": false
+      },
+      {
+        "fr": "Deux cônes noirs base à base ; feu blanc à occultations groupées",
+        "en": "Two black cones base to base; white group-occulting light",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "IALA R1001 §2.2.4 — marque cardinale Est",
+      "source_id": "iala_a",
+      "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "balisage",
+    "source": "iala_a",
+    "ref": "IALA R1001 §2.2.4 — marque cardinale Nord",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Une marque cardinale porte deux cônes noirs superposés, tous deux pointes vers le haut, et un corps noir au-dessus et jaune en dessous. De quel côté faut-il passer ?",
+      "explanation": "Ce voyant (deux cônes noirs pointes vers le haut, corps noir au-dessus / jaune en dessous, feu blanc scintillant VQ ou Q) désigne une cardinale Nord : les eaux saines sont au nord, on passe au nord de la marque."
+    },
+    "en": {
+      "stem": "A cardinal mark shows two black cones one above the other, both pointing up, with a body black above and yellow below. On which side should you pass?",
+      "explanation": "This topmark (two black cones point up, body black over yellow, white very-quick or quick flashing light) marks a North cardinal: the safe water is to the north, so you pass to the north of the mark."
+    },
+    "choices": [
+      {
+        "fr": "Au nord de la marque",
+        "en": "To the north of the mark",
+        "correct": true
+      },
+      {
+        "fr": "Au sud de la marque",
+        "en": "To the south of the mark",
+        "correct": false
+      },
+      {
+        "fr": "À l'est de la marque",
+        "en": "To the east of the mark",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "IALA R1001 §2.2.4 — marque cardinale Nord",
+      "source_id": "iala_a",
+      "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "balisage",
+    "source": "iala_a",
+    "ref": "IALA R1001 §2.2.4 — marque cardinale Ouest",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Une marque montre deux cônes noirs disposés pointe à pointe, un corps jaune avec une large bande horizontale noire, et un feu blanc à scintillements groupés par neuf. De quel côté devez-vous passer ?",
+      "explanation": "Le voyant à deux cônes noirs pointe à pointe, le corps jaune à large bande horizontale noire et le feu blanc VQ(9) toutes les 10 s (ou Q(9) toutes les 15 s) sont ceux de la marque cardinale Ouest : on passe à l'ouest de la marque."
+    },
+    "en": {
+      "stem": "A mark shows two black cones arranged point to point, a yellow body with a single broad black horizontal band, and a white light flashing in groups of nine. On which side must you pass?",
+      "explanation": "The two black cones point to point, the yellow body with a broad black horizontal band and the white VQ(9) every 10 s (or Q(9) every 15 s) light identify the West cardinal mark: you pass to the west of it."
+    },
+    "choices": [
+      {
+        "fr": "À l'ouest de la marque",
+        "en": "To the west of the mark",
+        "correct": true
+      },
+      {
+        "fr": "À l'est de la marque",
+        "en": "To the east of the mark",
+        "correct": false
+      },
+      {
+        "fr": "Au nord de la marque",
+        "en": "To the north of the mark",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "IALA R1001 §2.2.4 — marque cardinale Ouest",
+      "source_id": "iala_a",
+      "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "balisage",
+    "source": "iala_a",
+    "ref": "IALA R1001 §2.2.4 — marque cardinale Sud",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Une marque porte deux cônes noirs pointes vers le bas, un corps jaune en haut et noir en bas, et montre un feu blanc à scintillements rapides Q(6) suivis d'un éclat long. De quelle marque s'agit-il ?",
+      "explanation": "Le voyant à deux cônes pointes vers le bas, le corps jaune au-dessus et noir en dessous, et le feu blanc VQ(6)+un éclat long toutes les 10 s (ou Q(6)+un éclat long toutes les 15 s) caractérisent la marque cardinale Sud : on passe au sud de la marque."
+    },
+    "en": {
+      "stem": "A mark carries two black cones with points downward, a yellow body on top and black below, and shows a white light of quick flashes Q(6) followed by one long flash. Which mark is it?",
+      "explanation": "The two cones pointing downward, the body yellow above and black below, and the white light VQ(6)+one long flash every 10 s (or Q(6)+one long flash every 15 s) identify the South cardinal mark: you pass to the south of it."
+    },
+    "choices": [
+      {
+        "fr": "Une marque cardinale Sud",
+        "en": "A South cardinal mark",
+        "correct": true
+      },
+      {
+        "fr": "Une marque cardinale Nord",
+        "en": "A North cardinal mark",
+        "correct": false
+      },
+      {
+        "fr": "Une marque cardinale Ouest",
+        "en": "A West cardinal mark",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "IALA R1001 §2.2.4 — marque cardinale Sud",
+      "source_id": "iala_a",
+      "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "balisage",
+    "source": "iala_a",
+    "ref": "IALA R1001 §2.3 — marque de danger isolé",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Une marque a un corps noir à une ou plusieurs larges bandes rouges horizontales, un voyant de deux sphères noires superposées et un feu blanc à éclats groupés par deux. Que signale-t-elle ?",
+      "explanation": "Le corps noir à larges bandes rouges horizontales, le voyant à deux sphères noires superposées et le feu blanc à éclats groupés (2) caractérisent la marque de danger isolé, mouillée sur (ou au-dessus d') un danger isolé entouré d'eaux saines."
+    },
+    "en": {
+      "stem": "A mark has a black body with one or more broad red horizontal bands, a topmark of two black spheres one above the other, and a white light flashing in groups of two. What does it indicate?",
+      "explanation": "The black body with broad red horizontal bands, the topmark of two black spheres and the white group-flashing (2) light identify the isolated danger mark, moored on (or above) an isolated danger surrounded by safe water."
+    },
+    "choices": [
+      {
+        "fr": "Un danger isolé entouré d'eaux saines, sur lequel elle est mouillée",
+        "en": "An isolated danger surrounded by safe water, on which it is moored",
+        "correct": true
+      },
+      {
+        "fr": "Des eaux saines tout autour, que l'on peut contourner des deux côtés",
+        "en": "Safe water all around, which may be passed on either side",
+        "correct": false
+      },
+      {
+        "fr": "Une zone réglementée particulière, sans danger en soi",
+        "en": "A particular regulated zone, not a danger in itself",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "IALA R1001 §2.3 — marque de danger isolé",
+      "source_id": "iala_a",
+      "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "balisage",
+    "source": "iala_a",
+    "ref": "IALA R1001 §2.4 — marque d'eaux saines",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Une marque présente des bandes verticales rouges et blanches, un voyant en forme d'une sphère rouge et un feu blanc isophase (ou à occultations, un éclat long toutes les 10 s, ou Morse « A »). Que pouvez-vous faire à son passage ?",
+      "explanation": "Les bandes verticales rouges et blanches, le voyant à une sphère rouge et le feu blanc isophase / à occultations / un éclat long toutes les 10 s / Morse « A » signalent une marque d'eaux saines (milieu de chenal, atterrissage) : on peut la contourner des deux côtés."
+    },
+    "en": {
+      "stem": "A mark shows red and white vertical stripes, a topmark of a single red sphere, and a white isophase light (or occulting, one long flash every 10 s, or Morse \"A\"). What may you do when passing it?",
+      "explanation": "The red and white vertical stripes, the single red sphere topmark and the white isophase / occulting / one long flash every 10 s / Morse \"A\" light identify a safe-water mark (mid-channel, landfall): you may pass it on either side."
+    },
+    "choices": [
+      {
+        "fr": "La contourner des deux côtés : eaux saines tout autour",
+        "en": "Pass it on either side: safe water all around",
+        "correct": true
+      },
+      {
+        "fr": "Passer uniquement au nord : danger isolé tout autour",
+        "en": "Pass only to the north: isolated danger all around",
+        "correct": false
+      },
+      {
+        "fr": "L'éviter d'un seul côté : elle est mouillée sur un danger",
+        "en": "Avoid it on one side only: it is moored on a danger",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "IALA R1001 §2.4 — marque d'eaux saines",
+      "source_id": "iala_a",
+      "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "balisage",
+    "source": "iala_a",
+    "ref": "IALA R1001 §2.5 — marque spéciale",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Une marque est entièrement jaune, peut porter un voyant en croix de Saint-André jaune (« X ») et montre un feu jaune. Que délimite-t-elle ?",
+      "explanation": "Une marque entièrement jaune, au voyant éventuel en croix de Saint-André jaune et au feu jaune (rythme distinct de ceux des cardinales, danger isolé et eaux saines) est une marque spéciale : elle délimite une zone ou un dispositif particulier (ODAS, zone réglementée, conduite, zone de mouillage…), pas un danger en soi."
+    },
+    "en": {
+      "stem": "A mark is entirely yellow, may carry a yellow St Andrew's cross (\"X\") topmark, and shows a yellow light. What does it delimit?",
+      "explanation": "An all-yellow mark, with an optional yellow St Andrew's cross topmark and a yellow light (rhythm different from those reserved for cardinals, isolated danger and safe water) is a special mark: it delimits a particular zone or feature (ODAS, regulated area, pipeline, anchorage area…), not a danger in itself."
+    },
+    "choices": [
+      {
+        "fr": "Une zone ou un dispositif particulier (ODAS, zone réglementée, conduite, mouillage…)",
+        "en": "A particular zone or feature (ODAS, regulated area, pipeline, anchorage…)",
+        "correct": true
+      },
+      {
+        "fr": "Un danger isolé entouré d'eaux saines",
+        "en": "An isolated danger surrounded by safe water",
+        "correct": false
+      },
+      {
+        "fr": "Le côté tribord du chenal à suivre",
+        "en": "The starboard side of the channel to follow",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "IALA R1001 §2.5 — marque spéciale",
+      "source_id": "iala_a",
+      "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "meteo_maree",
+    "source": "shom",
+    "ref": "Règle des douzièmes (méthode de l'annuaire des marées)",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Selon la règle des douzièmes, de quelle fraction du marnage l'eau monte-t-elle au cours de chaque heure successive, de la basse mer à la pleine mer ?",
+      "explanation": "D'après la règle des douzièmes, le marnage évolue heure par heure de 1/12, 2/12, 3/12, 3/12, 2/12 puis 1/12."
+    },
+    "en": {
+      "stem": "According to the rule of twelfths, by which fraction of the tidal range does the water rise during each successive hour, from low water to high water?",
+      "explanation": "Under the rule of twelfths, the tidal range changes hour by hour by 1/12, 2/12, 3/12, 3/12, 2/12 then 1/12."
+    },
+    "choices": [
+      {
+        "fr": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
+        "en": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
+        "correct": true
+      },
+      {
+        "fr": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
+        "en": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
+        "correct": false
+      },
+      {
+        "fr": "2/12, 2/12, 2/12, 2/12, 2/12, 2/12",
+        "en": "2/12, 2/12, 2/12, 2/12, 2/12, 2/12",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "Règle des douzièmes (méthode de l'annuaire des marées)",
+      "source_id": "shom",
+      "url": "https://maree.shom.fr/"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "meteo_maree",
+    "source": "shom",
+    "ref": "SHOM — coefficient de marée",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Entre quelles valeurs s'échelonnent les coefficients de marée admis, de la morte-eau extrême à la vive-eau extrême ?",
+      "explanation": "Le coefficient de marée caractérise l'amplitude de la marée. Les valeurs admises vont de 20 (morte-eau extrême) à 120 (vive-eau extrême) ; 45 correspond à la morte-eau moyenne et 95 à la vive-eau moyenne."
+    },
+    "en": {
+      "stem": "Between which values do the recognised tidal coefficients range, from extreme neap to extreme spring?",
+      "explanation": "The tidal coefficient characterises the amplitude of the tide. Recognised values run from 20 (extreme neap) to 120 (extreme spring); 45 is the average neap and 95 the average spring."
+    },
+    "choices": [
+      {
+        "fr": "De 20 à 120",
+        "en": "From 20 to 120",
+        "correct": true
+      },
+      {
+        "fr": "De 0 à 100",
+        "en": "From 0 to 100",
+        "correct": false
+      },
+      {
+        "fr": "De 45 à 95",
+        "en": "From 45 to 95",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "SHOM — coefficient de marée",
+      "source_id": "shom",
+      "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "meteo_maree",
+    "source": "shom",
+    "ref": "SHOM — flot et jusant",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Comment désigne-t-on la marée descendante, durant laquelle le niveau baisse vers la basse mer ?",
+      "explanation": "Le flot est la marée montante, pendant laquelle le niveau monte vers la pleine mer ; le jusant est la marée descendante, pendant laquelle le niveau baisse vers la basse mer."
+    },
+    "en": {
+      "stem": "What is the name for the falling tide, during which the level drops towards low water?",
+      "explanation": "The flood (flot) is the rising tide, during which the level rises towards high water; the ebb (jusant) is the falling tide, during which the level drops towards low water."
+    },
+    "choices": [
+      {
+        "fr": "Le jusant",
+        "en": "The ebb (jusant)",
+        "correct": true
+      },
+      {
+        "fr": "Le flot",
+        "en": "The flood (flot)",
+        "correct": false
+      },
+      {
+        "fr": "L'étale",
+        "en": "Slack water",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "SHOM — flot et jusant",
+      "source_id": "shom",
+      "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "meteo_maree",
+    "source": "shom",
+    "ref": "SHOM — marnage",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Une zone côtière présente un marnage supérieur à 4 m. Comment ce régime de marée est-il qualifié ?",
+      "explanation": "Le marnage est la différence de hauteur d'eau entre une pleine mer et la basse mer consécutive. Un marnage inférieur à 2 m est microtidal, de 2 à 4 m mésotidal, et supérieur à 4 m macrotidal."
+    },
+    "en": {
+      "stem": "A coastal area has a tidal range greater than 4 m. How is this tidal regime described?",
+      "explanation": "Tidal range is the height difference between a high water and the following low water. A range below 2 m is microtidal, 2 to 4 m is mesotidal, and above 4 m is macrotidal."
+    },
+    "choices": [
+      {
+        "fr": "Macrotidal",
+        "en": "Macrotidal",
+        "correct": true
+      },
+      {
+        "fr": "Mésotidal",
+        "en": "Mesotidal",
+        "correct": false
+      },
+      {
+        "fr": "Microtidal",
+        "en": "Microtidal",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "SHOM — marnage",
+      "source_id": "shom",
+      "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "meteo_maree",
+    "source": "shom",
+    "ref": "SHOM — marée semi-diurne et cycle",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Sur les côtes de la Manche et de l'Atlantique, la marée est de type semi-diurne. Combien de pleines mers et de basses mers observe-t-on en une journée ?",
+      "explanation": "Une marée semi-diurne produit deux pleines mers et deux basses mers par jour, le cycle de marée durant environ 12 h 25."
+    },
+    "en": {
+      "stem": "On the Channel and Atlantic coasts the tide is of the semi-diurnal type. How many high waters and low waters occur in one day?",
+      "explanation": "A semi-diurnal tide produces two high waters and two low waters per day, the tidal cycle lasting about 12 h 25."
+    },
+    "choices": [
+      {
+        "fr": "Deux pleines mers et deux basses mers",
+        "en": "Two high waters and two low waters",
+        "correct": true
+      },
+      {
+        "fr": "Une pleine mer et une basse mer",
+        "en": "One high water and one low water",
+        "correct": false
+      },
+      {
+        "fr": "Trois pleines mers et trois basses mers",
+        "en": "Three high waters and three low waters",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "SHOM — marée semi-diurne et cycle",
+      "source_id": "shom",
+      "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "meteo_maree",
+    "source": "shom",
+    "ref": "SHOM — niveaux caractéristiques de la marée",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "À quel coefficient de marée correspondent les pleines et basses mers de vive-eau moyenne (PMVE/BMVE) ?",
+      "explanation": "Les pleines et basses mers de vive-eau moyenne (PMVE/BMVE) correspondent au coefficient 95, alors que les plus hautes et basses mers astronomiques correspondent au coefficient 120."
+    },
+    "en": {
+      "stem": "Which tidal coefficient corresponds to the mean spring high and low waters (PMVE/BMVE)?",
+      "explanation": "The mean spring high and low waters (PMVE/BMVE) correspond to coefficient 95, whereas the highest and lowest astronomical tides correspond to coefficient 120."
+    },
+    "choices": [
+      {
+        "fr": "Coefficient 95",
+        "en": "Coefficient 95",
+        "correct": true
+      },
+      {
+        "fr": "Coefficient 120",
+        "en": "Coefficient 120",
+        "correct": false
+      },
+      {
+        "fr": "Coefficient 45",
+        "en": "Coefficient 45",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "SHOM — niveaux caractéristiques de la marée",
+      "source_id": "shom",
+      "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "meteo_maree",
+    "source": "shom",
+    "ref": "SHOM — vives-eaux et mortes-eaux",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Lorsque la Terre, la Lune et le Soleil sont alignés (pleine ou nouvelle lune), quel type de marée observe-t-on ?",
+      "explanation": "En syzygie, c'est-à-dire à la pleine ou à la nouvelle lune lorsque la Terre, la Lune et le Soleil sont alignés, les ondes de marée s'additionnent : ce sont les vives-eaux, à grand marnage. En quadrature, au premier ou au dernier quartier, les ondes s'opposent et donnent les mortes-eaux, à faible marnage."
+    },
+    "en": {
+      "stem": "When the Earth, Moon and Sun are aligned (full or new moon), which type of tide occurs?",
+      "explanation": "At syzygy — full or new moon, when Earth, Moon and Sun are aligned — the tidal waves add together: these are spring tides, with a large range. At quadrature (first or last quarter) the waves oppose each other, producing neap tides with a small range."
+    },
+    "choices": [
+      {
+        "fr": "Des vives-eaux (grand marnage)",
+        "en": "Spring tides (large range)",
+        "correct": true
+      },
+      {
+        "fr": "Des mortes-eaux (faible marnage)",
+        "en": "Neap tides (small range)",
+        "correct": false
+      },
+      {
+        "fr": "Une absence de marée (étale permanent)",
+        "en": "No tide (permanent slack water)",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "SHOM — vives-eaux et mortes-eaux",
+      "source_id": "shom",
+      "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "meteo_maree",
+    "source": "shom",
+    "ref": "SHOM — zéro hydrographique (ZH)",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "À quel niveau de référence le zéro hydrographique, auquel sont rapportées les sondes des cartes marines, est-il choisi en France ?",
+      "explanation": "Le zéro hydrographique est le niveau de référence commun aux cartes marines et aux annuaires des marées. En France il est fixé au voisinage des plus basses mers astronomiques (PBMA), niveau sous lequel la mer ne descend que très exceptionnellement ; la profondeur réelle est donc en général supérieure à la sonde portée sur la carte."
+    },
+    "en": {
+      "stem": "In France, to which reference level is the chart datum — to which the soundings on nautical charts are referred — set?",
+      "explanation": "Chart datum is the common reference level for nautical charts and tide tables. In France it is set near the lowest astronomical tides (LAT/PBMA), a level the sea only very exceptionally falls below; the actual depth is therefore generally greater than the charted sounding."
+    },
+    "choices": [
+      {
+        "fr": "Au voisinage des plus basses mers astronomiques",
+        "en": "Near the lowest astronomical tides",
+        "correct": true
+      },
+      {
+        "fr": "Au niveau moyen de la mer",
+        "en": "At mean sea level",
+        "correct": false
+      },
+      {
+        "fr": "Au voisinage des plus hautes mers astronomiques",
+        "en": "Near the highest astronomical tides",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "SHOM — zéro hydrographique (ZH)",
+      "source_id": "shom",
+      "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf"
+    }
+  },
+  {
+    "option": "cotiere",
+    "theme": "meteo_maree",
+    "source": "shom",
+    "ref": "SHOM — étale",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Qu'appelle-t-on l'étale de niveau ?",
+      "explanation": "L'étale de niveau est le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus ; il est distinct de la renverse du courant (étale de courant), qui ne coïncide pas nécessairement avec lui."
+    },
+    "en": {
+      "stem": "What is meant by slack water of level (étale de niveau)?",
+      "explanation": "Slack water of level is the brief moment, at high or low water, when the water level no longer changes; it is distinct from the turn of the tidal current (slack of current), which does not necessarily coincide with it."
+    },
+    "choices": [
+      {
+        "fr": "Le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus",
+        "en": "The brief moment, at high or low water, when the water level no longer changes",
+        "correct": true
+      },
+      {
+        "fr": "Le moment où le courant de marée s'inverse, qui coïncide toujours avec la pleine ou la basse mer",
+        "en": "The moment when the tidal current reverses, always coinciding with high or low water",
+        "correct": false
+      },
+      {
+        "fr": "Le moment où la vitesse du courant de marée est maximale entre deux marées",
+        "en": "The moment when the tidal current speed is at its maximum between two tides",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:ref.v1",
+    "article": {
+      "unit_ref": "SHOM — étale",
+      "source_id": "shom",
+      "url": "https://maree.shom.fr/"
+    }
+  },
+  {
     "option": "eaux_interieures",
     "theme": "ecluses",
     "source": "rgp",
@@ -513,12 +1254,12 @@
     "ref": "RGP, art. A4241-53-18",
     "polarity": "affirmative",
     "fr": {
-      "stem": "Sauf en cours de dépassement ou de croisement, à quelle distance minimale un bateau peut-il naviguer d'un convoi poussé portant la signalisation prévue ?",
-      "explanation": "Le texte interdit, sauf en cours de dépassement ou de croisement, de naviguer à moins de 50 m d'un bateau, d'une formation à couple ou d'un convoi poussé portant la signalisation prévue (chiffres 2 et 3 de l'article A. 4241-48-14)."
+      "stem": "Sauf en cours de dépassement ou de croisement, à quelle distance minimale un bateau peut-il s'approcher d'un convoi poussé portant la signalisation des matières dangereuses ?",
+      "explanation": "Le texte interdit, sauf en cours de dépassement ou de croisement, de naviguer à moins de 50 m d'un bateau, d'une formation à couple ou d'un convoi poussé portant la signalisation prévue pour le transport de matières dangereuses."
     },
     "en": {
-      "stem": "Other than when overtaking or crossing, what is the minimum distance at which a vessel may navigate from a signalled pushed convoy?",
-      "explanation": "The text prohibits, except when overtaking or crossing, navigating within 50 m of a vessel, a side-by-side formation or a pushed convoy carrying the prescribed marking (paragraphs 2 and 3 of article A. 4241-48-14)."
+      "stem": "Except when overtaking or passing, what is the minimum distance a vessel may approach a pushed convoy carrying the dangerous-goods marking?",
+      "explanation": "The text prohibits navigating, except when overtaking or passing, closer than 50 m to a vessel, side-by-side formation or pushed convoy carrying the marking prescribed for the carriage of dangerous goods."
     },
     "choices": [
       {
