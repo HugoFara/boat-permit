@@ -1,0 +1,520 @@
+{
+  "drafts": [
+    {
+      "ref": "COLREG Rule 8",
+      "questions": [
+        {
+          "stem": "What characteristics must an action taken to avoid collision have, if circumstances admit?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "It shall be positive, made in ample time and with due regard to the observance of good seamanship",
+              "correct": true
+            },
+            {
+              "text": "It shall always consist of a reduction in speed rather than an alteration of course",
+              "correct": false
+            },
+            {
+              "text": "It shall be communicated to the other vessel by radio before being executed",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 8(a) requires that any action taken to avoid collision shall, if circumstances admit, be positive, made in ample time and with due regard to the observance of good seamanship."
+        },
+        {
+          "stem": "Which of the following is correct regarding alteration of course or speed to avoid collision?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "The alteration shall, if circumstances admit, be large enough to be readily apparent to another vessel observing visually or by radar",
+              "correct": true
+            },
+            {
+              "text": "A succession of small alterations of course and/or speed should be avoided",
+              "correct": true
+            },
+            {
+              "text": "An alteration of speed alone is always preferable to an alteration of course",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 8(b) requires that any alteration of course and/or speed shall be large enough to be readily apparent to another vessel, and that a succession of small alterations should be avoided."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 9",
+      "questions": [
+        {
+          "stem": "Where shall a vessel proceeding along a narrow channel or fairway keep?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "As near to the outer limit of the channel or fairway which lies on her starboard side as is safe and practicable",
+              "correct": true
+            },
+            {
+              "text": "In the center of the channel to maintain maximum sea room on both sides",
+              "correct": false
+            },
+            {
+              "text": "As near to the outer limit on her port side as is safe and practicable",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 9(a) requires a vessel proceeding along a narrow channel to keep as near to the outer limit on her starboard side as is safe and practicable."
+        },
+        {
+          "stem": "Which vessels are prohibited from impeding the passage of a vessel that can safely navigate only within a narrow channel or fairway?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "A vessel of less than 20 meters in length",
+              "correct": true
+            },
+            {
+              "text": "A sailing vessel",
+              "correct": true
+            },
+            {
+              "text": "A power-driven vessel of 20 meters or more in length",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 9(b) states that a vessel of less than 20 meters in length or a sailing vessel shall not impede the passage of a vessel which can safely navigate only within a narrow channel or fairway."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 18",
+      "questions": [
+        {
+          "stem": "Which vessels must a power-driven vessel underway keep out of the way of? (Select all that apply from the options below.)",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "A vessel not under command and a vessel restricted in her ability to maneuver",
+              "correct": true
+            },
+            {
+              "text": "A sailing vessel and a vessel engaged in fishing",
+              "correct": true
+            },
+            {
+              "text": "Any vessel that is anchored or moored",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 18(a) requires a power-driven vessel underway to keep out of the way of a vessel not under command, a vessel restricted in her ability to maneuver, a vessel engaged in fishing, and a sailing vessel."
+        },
+        {
+          "stem": "How shall a seaplane on the water generally behave with respect to other vessels?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "She shall keep well clear of all vessels and avoid impeding their navigation",
+              "correct": true
+            },
+            {
+              "text": "She has priority over all surface vessels and need not keep clear",
+              "correct": false
+            },
+            {
+              "text": "She shall comply with the Rules of this Part only when underway at taxiing speed",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 18(e) states that a seaplane on the water shall in general keep well clear of all vessels and avoid impeding their navigation."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 19",
+      "questions": [
+        {
+          "stem": "What speed requirement applies to every vessel navigating in or near an area of restricted visibility?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Every vessel shall proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility",
+              "correct": true
+            },
+            {
+              "text": "Every vessel shall proceed at half her normal service speed",
+              "correct": false
+            },
+            {
+              "text": "Every vessel shall stop and wait until visibility improves",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 19(b) requires every vessel to proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility."
+        },
+        {
+          "stem": "Which of the following course alterations shall, so far as possible, be avoided when a vessel detects by radar alone another vessel and takes avoiding action by altering course?",
+          "polarity": "negative",
+          "choices": [
+            {
+              "text": "An alteration of course to port for a vessel forward of the beam, other than for a vessel being overtaken",
+              "correct": true
+            },
+            {
+              "text": "An alteration of course towards a vessel abeam or abaft the beam",
+              "correct": true
+            },
+            {
+              "text": "An alteration of course to starboard for a vessel forward of the beam",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 19(d) specifies that when altering course to avoid a radar-detected vessel, an alteration to port for a vessel forward of the beam (other than one being overtaken) and an alteration towards a vessel abeam or abaft the beam shall so far as possible be avoided."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 6",
+      "questions": [
+        {
+          "stem": "According to COLREG Rule 6, which of the following factors shall be taken into account when determining a safe speed by ALL vessels?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "The state of visibility and the traffic density including concentrations of fishing vessels or any other vessels",
+              "correct": true
+            },
+            {
+              "text": "The characteristics, efficiency and limitations of radar equipment",
+              "correct": false
+            },
+            {
+              "text": "The maneuverability of the vessel with special reference to stopping distance and turning ability in the prevailing conditions",
+              "correct": true
+            }
+          ],
+          "explanation": "COLREG Rule 6(a) lists factors for all vessels including state of visibility and traffic density (Rule 6(a)(i)–(ii)) and maneuverability/stopping distance (Rule 6(a)(iii)); radar characteristics at Rule 6(b)(i) apply only to vessels with operational radar."
+        },
+        {
+          "stem": "Under COLREG Rule 6, a vessel proceeding at a safe speed must be able to do which of the following?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Take proper and effective action to avoid collision and be stopped within a distance appropriate to the prevailing circumstances and conditions",
+              "correct": true
+            },
+            {
+              "text": "Maintain a steady course regardless of visibility",
+              "correct": false
+            },
+            {
+              "text": "Continuously monitor radar to detect vessels at long range",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 6 requires every vessel to proceed at a safe speed so that she can take proper and effective action to avoid collision and be stopped within a distance appropriate to the prevailing circumstances and conditions."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 7",
+      "questions": [
+        {
+          "stem": "Under COLREG Rule 7, when shall risk of collision be deemed to exist?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "If the compass bearing of an approaching vessel does not appreciably change",
+              "correct": true
+            },
+            {
+              "text": "Only when two vessels are on a reciprocal course",
+              "correct": false
+            },
+            {
+              "text": "If there is any doubt as to whether risk of collision exists",
+              "correct": true
+            }
+          ],
+          "explanation": "COLREG Rule 7(a) states that if there is any doubt, risk shall be deemed to exist, and Rule 7(d)(i) specifies that risk shall be deemed to exist if the compass bearing of an approaching vessel does not appreciably change."
+        },
+        {
+          "stem": "Which of the following does COLREG Rule 7 prohibit when determining risk of collision?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Using long-range radar scanning to obtain early warning",
+              "correct": false
+            },
+            {
+              "text": "Making assumptions on the basis of scanty information, especially scanty radar information",
+              "correct": true
+            },
+            {
+              "text": "Conducting radar plotting or equivalent systematic observation of detected objects",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 7(c) states that assumptions shall not be made on the basis of scanty information, especially scanty radar information."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 17",
+      "questions": [
+        {
+          "stem": "According to COLREG Rule 17, when may the stand-on vessel take action to avoid collision by her own maneuver alone?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "As soon as it becomes apparent that the vessel required to keep out of the way is not taking appropriate action in compliance with these Rules",
+              "correct": true
+            },
+            {
+              "text": "Only after the give-way vessel has altered course",
+              "correct": false
+            },
+            {
+              "text": "Immediately upon sighting the give-way vessel",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 17(a)(ii) permits the stand-on vessel to take action to avoid collision by her maneuver alone as soon as it becomes apparent that the vessel required to keep out of the way is not taking appropriate action."
+        },
+        {
+          "stem": "Under COLREG Rule 17, when two power-driven vessels are in a crossing situation, which course alteration is restricted for the stand-on vessel if she takes action under Rule 17(a)(ii)?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Altering course to starboard for a vessel on her port side",
+              "correct": false
+            },
+            {
+              "text": "Altering course to port for a vessel on her own port side",
+              "correct": true
+            },
+            {
+              "text": "Reducing speed to allow the give-way vessel to pass",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 17(c) states that a power-driven stand-on vessel in a crossing situation shall, if circumstances admit, not alter course to port for a vessel on her own port side."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 12",
+      "questions": [
+        {
+          "stem": "When two sailing vessels are approaching so as to involve risk of collision, and each has the wind on a different side, which vessel shall keep out of the way?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "The vessel which has the wind on the port side shall keep out of the way of the other",
+              "correct": true
+            },
+            {
+              "text": "The vessel which is to leeward shall keep out of the way",
+              "correct": false
+            },
+            {
+              "text": "The larger vessel shall keep out of the way",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 12(a)(i) states that when each vessel has the wind on a different side, the vessel which has the wind on the port side shall keep out of the way of the other."
+        },
+        {
+          "stem": "Under COLREG Rule 12, how is the windward side of a vessel defined for the purposes of this Rule?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "The side on which the mainsail is carried",
+              "correct": false
+            },
+            {
+              "text": "The side opposite to that on which the mainsail is carried or, in the case of a square-rigged vessel, the side opposite to that on which the largest fore-and-aft sail is carried",
+              "correct": true
+            },
+            {
+              "text": "The side from which the wind is blowing as measured by compass bearing",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 12(b) defines the windward side as the side opposite to that on which the mainsail is carried, or for a square-rigged vessel, the side opposite to that on which the largest fore-and-aft sail is carried."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 13",
+      "questions": [
+        {
+          "stem": "Under COLREG Rule 13, from what direction must a vessel be approaching for it to be deemed an overtaking vessel?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "From a direction more than 22.5 degrees abaft the beam of the vessel being overtaken",
+              "correct": true
+            },
+            {
+              "text": "From a direction forward of the beam of the vessel being overtaken",
+              "correct": false
+            },
+            {
+              "text": "From a direction abeam of the vessel being overtaken",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 13(b) states a vessel is overtaking when coming up with another vessel from a direction more than 22.5 degrees abaft her beam."
+        },
+        {
+          "stem": "According to COLREG Rule 13, which of the following statements about the overtaking vessel's obligations are correct?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Any subsequent alteration of the bearing between the two vessels relieves the overtaking vessel of her duty to keep clear",
+              "correct": false
+            },
+            {
+              "text": "When a vessel is in any doubt as to whether she is overtaking another, she shall assume that this is the case and act accordingly",
+              "correct": true
+            },
+            {
+              "text": "Any vessel overtaking any other shall keep out of the way of the vessel being overtaken until she is finally past and clear",
+              "correct": true
+            }
+          ],
+          "explanation": "COLREG Rule 13(a) requires the overtaking vessel to keep out of the way until finally past and clear, Rule 13(c) requires the vessel in doubt to assume she is overtaking, and Rule 13(d) states that a bearing change does not relieve the overtaking vessel of her duty."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 14",
+      "questions": [
+        {
+          "stem": "Under COLREG Rule 14, when two power-driven vessels meet on reciprocal or nearly reciprocal courses so as to involve risk of collision, what action shall each vessel take?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Each shall alter her course to starboard so that each shall pass on the port side of the other",
+              "correct": true
+            },
+            {
+              "text": "The vessel on the starboard side shall keep out of the way",
+              "correct": false
+            },
+            {
+              "text": "Each shall reduce speed and maintain her course",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 14(a) requires each vessel to alter her course to starboard so that each shall pass on the port side of the other."
+        },
+        {
+          "stem": "According to COLREG Rule 14, which of the following indicate that a head-on situation exists by night?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "A vessel could see the masthead lights of the other in a line or nearly in a line and/or both sidelights",
+              "correct": true
+            },
+            {
+              "text": "A vessel can see only the sternlight of the other vessel",
+              "correct": false
+            },
+            {
+              "text": "A vessel sees the other ahead or nearly ahead",
+              "correct": true
+            }
+          ],
+          "explanation": "COLREG Rule 14(b) states that a head-on situation exists when a vessel sees the other ahead or nearly ahead and by night could see the masthead lights in a line or nearly in a line and/or both sidelights."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 15",
+      "questions": [
+        {
+          "stem": "Two power-driven vessels are crossing so as to involve risk of collision. Which vessel is required to keep out of the way?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "The vessel which has the other on her own starboard side",
+              "correct": true
+            },
+            {
+              "text": "The vessel which has the other on her own port side",
+              "correct": false
+            },
+            {
+              "text": "The faster of the two vessels",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 15 states that the vessel which has the other on her own starboard side shall keep out of the way."
+        },
+        {
+          "stem": "In a crossing situation involving risk of collision, what action shall the give-way vessel avoid if the circumstances of the case admit?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Crossing ahead of the other vessel",
+              "correct": true
+            },
+            {
+              "text": "Altering course to starboard",
+              "correct": false
+            },
+            {
+              "text": "Reducing speed",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 15 requires the give-way vessel to keep out of the way and, if circumstances admit, avoid crossing ahead of the other vessel."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 5",
+      "questions": [
+        {
+          "stem": "According to COLREG Rule 5, by what means shall a vessel maintain a proper look-out?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "By sight and hearing as well as by all available means appropriate in the prevailing circumstances and conditions",
+              "correct": true
+            },
+            {
+              "text": "By sight alone during daylight hours",
+              "correct": false
+            },
+            {
+              "text": "By radar only when in restricted visibility",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 5 requires every vessel to maintain a proper look-out by sight and hearing as well as by all available means appropriate in the prevailing circumstances and conditions."
+        },
+        {
+          "stem": "What is the purpose of maintaining a proper look-out under COLREG Rule 5?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "To make a full appraisal of the situation and of the risk of collision",
+              "correct": true
+            },
+            {
+              "text": "To identify vessels by name and flag state",
+              "correct": false
+            },
+            {
+              "text": "To log all vessels within a 5-mile radius",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 5 states that the look-out shall be maintained so as to make a full appraisal of the situation and of the risk of collision."
+        }
+      ]
+    }
+  ]
+}

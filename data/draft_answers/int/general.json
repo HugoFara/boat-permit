@@ -1,0 +1,90 @@
+{
+  "drafts": [
+    {
+      "ref": "COLREG Rule 1",
+      "questions": [
+        {
+          "stem": "To which waters do the COLREG Rules apply?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "The high seas and all waters connected therewith navigable by seagoing vessels",
+              "correct": true
+            },
+            {
+              "text": "The high seas only, excluding all inland waterways",
+              "correct": false
+            },
+            {
+              "text": "All waters within 200 nautical miles of any coastline",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 1(a) states these Rules apply to all vessels upon the high seas and in all waters connected therewith navigable by seagoing vessels."
+        },
+        {
+          "stem": "Which of the following statements about special rules and the COLREG Rules is correct?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Special rules made by an appropriate authority for harbors, rivers or inland waterways shall conform as closely as possible to these Rules",
+              "correct": true
+            },
+            {
+              "text": "A Government may make special rules for ships of war with respect to additional station or signal lights",
+              "correct": true
+            },
+            {
+              "text": "Traffic separation schemes may only be adopted by individual coastal States, not by the Organization",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 1(b) and (c) provide that special rules for inland waters shall conform as closely as possible to the COLREG Rules, and that governments may make special rules for additional lights for ships of war."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 2",
+      "questions": [
+        {
+          "stem": "Under COLREG Rule 2, who may be exonerated from the consequences of neglecting to comply with these Rules?",
+          "polarity": "negative",
+          "choices": [
+            {
+              "text": "No vessel, owner, master or crew is exonerated from the consequences of any neglect to comply",
+              "correct": true
+            },
+            {
+              "text": "The owner of a vessel is exonerated if the master was solely at fault",
+              "correct": false
+            },
+            {
+              "text": "A vessel is exonerated if the collision occurred in restricted visibility",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 2(a) states that nothing in these Rules shall exonerate any vessel, or the owner, master or crew thereof, from the consequences of any neglect to comply with these Rules."
+        },
+        {
+          "stem": "When may a departure from these Rules be necessary?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "When special circumstances, including the limitations of the vessels involved, make a departure necessary to avoid immediate danger",
+              "correct": true
+            },
+            {
+              "text": "When the master decides that strict compliance would slow the vessel",
+              "correct": false
+            },
+            {
+              "text": "When operating in harbor waters governed by port authority regulations",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 2(b) states that due regard shall be had to any special circumstances, including the limitations of the vessels involved, which may make a departure from these Rules necessary to avoid immediate danger."
+        }
+      ]
+    }
+  ]
+}

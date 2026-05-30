@@ -299,7 +299,9 @@ def parse_drafts(raw: str, unit: dict) -> list[Question]:
 
 
 def seed_questions(kb: sqlite3.Connection, entries: list[dict],
-                   generator: str = "seed:curated.v1") -> tuple[list[Question], dict]:
+                   generator: str = "seed:curated.v1",
+                   is_valid_theme: Callable[[str], bool] | None = None
+                   ) -> tuple[list[Question], dict]:
     """Load hand-authored seed drafts (keyed by KB unit ref) through the same
     grounding + validation path as the LLM drafter, as `pending`. Returns
     (questions, stats). An entry whose ref isn't in the KB, or whose answer isn't
@@ -327,7 +329,8 @@ def seed_questions(kb: sqlite3.Connection, entries: list[dict],
             provenance=Provenance(
                 unit_id=u["id"], ref=u["ref"], source=u["source_name"],
                 url=u["source_url"], as_of=u["legal_version"], licence=u["licence"]))
-        if validate(q):
+        errs = validate(q) if is_valid_theme is None else validate(q, is_valid_theme)
+        if errs:
             stats["invalid"] += 1
             continue
         correct = " ".join(c.text for c in q.choices if c.is_correct)
@@ -341,12 +344,15 @@ def seed_questions(kb: sqlite3.Connection, entries: list[dict],
 
 def draft_for_theme(kb: sqlite3.Connection, drafter: Drafter, theme: str,
                     limit: int = 0, per_unit: int = 2,
-                    min_grounding: float = 0.34, lang: str = "fr"
+                    min_grounding: float = 0.34, lang: str = "fr",
+                    is_valid_theme: Callable[[str], bool] | None = None
                     ) -> tuple[list[Question], dict]:
     """Draft questions for one theme + language. Returns (pending questions,
     stats). Drops schema-invalid drafts and those whose correct answer is too
     weakly grounded in the source (likely hallucination); the rest are kept for
-    human review."""
+    human review. ``is_valid_theme`` lets a non-Swiss country validate against its
+    own taxonomy (e.g. ``intl.COUNTRY.themes.__contains__``); ``None`` keeps the
+    default Swiss validator so the CH path is unchanged."""
     units = select_units(kb, theme, limit, lang)
     stats = {"theme": theme, "units": len(units), "drafted": 0, "kept": 0,
              "invalid": 0, "weak_grounding": 0, "errored": 0}
@@ -361,7 +367,8 @@ def draft_for_theme(kb: sqlite3.Connection, drafter: Drafter, theme: str,
             continue
         for q in drafts:
             stats["drafted"] += 1
-            if validate(q):
+            errs = validate(q) if is_valid_theme is None else validate(q, is_valid_theme)
+            if errs:
                 stats["invalid"] += 1
                 continue
             correct_text = " ".join(c.text for c in q.choices if c.is_correct)

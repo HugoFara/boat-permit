@@ -1,0 +1,434 @@
+{
+  "drafts": [
+    {
+      "ref": "COLREG Rule 26",
+      "questions": [
+        {
+          "stem": "A vessel engaged in trawling and making way through the water is required to exhibit which of the following lights? Select all that apply.",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Two all-round lights in a vertical line, the upper being green and the lower white",
+              "correct": true
+            },
+            {
+              "text": "Sidelights and a sternlight",
+              "correct": true
+            },
+            {
+              "text": "An all-round red light at the masthead",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 26(b) requires a trawling vessel making way to exhibit the green-over-white all-round lights and, in addition, sidelights and a sternlight."
+        },
+        {
+          "stem": "A vessel engaged in fishing other than trawling has outlying gear extending more than 150 meters horizontally from the vessel. Which additional light or shape must she exhibit?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "An all-round white light or a cone apex upwards in the direction of the gear",
+              "correct": true
+            },
+            {
+              "text": "A second masthead light abaft the first",
+              "correct": false
+            },
+            {
+              "text": "Two all-round red lights in a vertical line",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 26(c)(ii) requires a vessel engaged in fishing other than trawling with outlying gear extending more than 150 meters to exhibit an all-round white light or a cone apex upwards in the direction of the gear."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 23",
+      "questions": [
+        {
+          "stem": "A power-driven vessel underway is required to exhibit which of the following? Select all that apply.",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "A masthead light forward and sidelights",
+              "correct": true
+            },
+            {
+              "text": "A sternlight",
+              "correct": true
+            },
+            {
+              "text": "An all-round flashing yellow light",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 23(a) requires a power-driven vessel underway to exhibit a masthead light forward, sidelights, and a sternlight; the flashing yellow light applies only to air-cushion vessels in nondisplacement mode."
+        },
+        {
+          "stem": "A power-driven vessel of less than 7 meters in length whose maximum speed does not exceed 7 knots may exhibit which lights in lieu of the standard lights?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "An all-round white light and, if practicable, sidelights",
+              "correct": true
+            },
+            {
+              "text": "A masthead light forward and a sternlight only",
+              "correct": false
+            },
+            {
+              "text": "Sidelights and a sternlight only, with no white light",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 23(d)(ii) allows a power-driven vessel of less than 7 meters in length whose maximum speed does not exceed 7 knots to exhibit an all-round white light and, if practicable, sidelights in lieu of the standard lights."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 25",
+      "questions": [
+        {
+          "stem": "A sailing vessel of less than 7 meters in length cannot exhibit the prescribed sidelights and sternlight. What is she required to have ready at hand?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "An electric torch or lighted lantern showing a white light to be exhibited in sufficient time to prevent collision",
+              "correct": true
+            },
+            {
+              "text": "A red flare to be discharged when another vessel approaches",
+              "correct": false
+            },
+            {
+              "text": "A bell to be sounded at one-minute intervals",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 25(d)(i) requires a sailing vessel of less than 7 meters that cannot exhibit the prescribed lights to have ready at hand an electric torch or lighted lantern showing a white light to be exhibited in sufficient time to prevent collision."
+        },
+        {
+          "stem": "A vessel proceeding under sail when also being propelled by machinery shall exhibit which daytime signal?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "A conical shape, apex downwards, forward where it can best be seen",
+              "correct": true
+            },
+            {
+              "text": "A ball shape at or near the top of the mast",
+              "correct": false
+            },
+            {
+              "text": "Two cones with apexes together in a vertical line",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 25(e) requires a vessel proceeding under sail when also being propelled by machinery to exhibit forward where it can best be seen a conical shape, apex downwards."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 30",
+      "questions": [
+        {
+          "stem": "A vessel aground is required to exhibit, in addition to the anchor lights, which of the following signals where they can best be seen? Select all that apply.",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Two all-round red lights in a vertical line",
+              "correct": true
+            },
+            {
+              "text": "Three balls in a vertical line",
+              "correct": true
+            },
+            {
+              "text": "An all-round flashing yellow light",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 30(d) requires a vessel aground to exhibit, in addition to anchor lights, two all-round red lights in a vertical line and three balls in a vertical line."
+        },
+        {
+          "stem": "Which of the following vessels is NOT required to exhibit the anchor lights or shapes prescribed in Rule 30(a) and (b)?",
+          "polarity": "negative",
+          "choices": [
+            {
+              "text": "A vessel of less than 7 meters in length, when at anchor not in or near a narrow channel, fairway or anchorage, or where other vessels normally navigate",
+              "correct": true
+            },
+            {
+              "text": "A vessel of less than 50 meters in length at anchor",
+              "correct": false
+            },
+            {
+              "text": "A vessel of 100 meters or more in length at anchor",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 30(e) exempts a vessel of less than 7 meters in length when at anchor and not in or near a narrow channel, fairway or anchorage, or where other vessels normally navigate from exhibiting the prescribed anchor lights or shape."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 21",
+      "questions": [
+        {
+          "stem": "According to COLREG Rule 21, which of the following correctly describe the arc of visibility of a sternlight?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "An unbroken light over an arc of the horizon of 135 degrees, showing 67.5 degrees from right aft on each side of the vessel.",
+              "correct": true
+            },
+            {
+              "text": "An unbroken light over an arc of the horizon of 225 degrees, showing from right ahead to 22.5 degrees abaft the beam on either side.",
+              "correct": false
+            },
+            {
+              "text": "An unbroken light over an arc of the horizon of 360 degrees.",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 21(c) defines the sternlight as a white light showing an unbroken light over 135 degrees, fixed to show 67.5 degrees from right aft on each side of the vessel."
+        },
+        {
+          "stem": "Under COLREG Rule 21, what color is shown on the port side as part of the sidelights, and over what arc?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "A red light showing an unbroken light over an arc of 112.5 degrees from right ahead to 22.5 degrees abaft the beam on the port side.",
+              "correct": true
+            },
+            {
+              "text": "A green light showing an unbroken light over an arc of 112.5 degrees from right ahead to 22.5 degrees abaft the beam on the port side.",
+              "correct": false
+            },
+            {
+              "text": "A white light showing an unbroken light over an arc of 135 degrees on the port side.",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 21(b) defines sidelights as a green light on the starboard side and a red light on the port side, each showing over an arc of 112.5 degrees from right ahead to 22.5 degrees abaft the beam on its respective side."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 22",
+      "questions": [
+        {
+          "stem": "Under COLREG Rule 22, what is the minimum visibility range required for a masthead light on a vessel of 50 meters or more in length?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "6 miles.",
+              "correct": true
+            },
+            {
+              "text": "5 miles.",
+              "correct": false
+            },
+            {
+              "text": "3 miles.",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 22(a) specifies that on vessels of 50 meters or more in length, a masthead light must be visible at a minimum range of 6 miles."
+        },
+        {
+          "stem": "According to COLREG Rule 22, which lights on a vessel of 12 meters or more but less than 50 meters in length are required to be visible at a minimum range of 2 miles?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "A sidelight and a sternlight.",
+              "correct": true
+            },
+            {
+              "text": "A towing light and a sternlight.",
+              "correct": true
+            },
+            {
+              "text": "A masthead light on a vessel of 18 meters in length.",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 22(b) requires sidelights, sternlights, towing lights, and all-round lights to be visible at 2 miles on vessels of 12 meters or more but less than 50 meters; a masthead light on a vessel less than 20 meters need only be visible at 3 miles."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 20",
+      "questions": [
+        {
+          "stem": "Under COLREG Rule 20, when are the Rules concerning lights required to be complied with?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "From sunset to sunrise.",
+              "correct": true
+            },
+            {
+              "text": "Only in restricted visibility, regardless of time of day.",
+              "correct": false
+            },
+            {
+              "text": "At all times, day and night, in all weathers.",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 20(b) states that the Rules concerning lights shall be complied with from sunset to sunrise."
+        },
+        {
+          "stem": "According to COLREG Rule 20, which of the following statements about lights and shapes are correct?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Rules in this Part shall be complied with in all weathers.",
+              "correct": true
+            },
+            {
+              "text": "The Rules concerning shapes shall be complied with by day.",
+              "correct": true
+            },
+            {
+              "text": "No lights may be shown between sunrise and sunset under any circumstances.",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 20(a) requires compliance in all weathers, and Rule 20(d) requires shapes to be shown by day; Rule 20(c) permits prescribed lights to be shown from sunrise to sunset in restricted visibility."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 29",
+      "questions": [
+        {
+          "stem": "According to COLREG Rule 29, what lights must a vessel engaged on pilotage duty exhibit at or near the masthead?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Two all-round lights in a vertical line, the upper being white and the lower red.",
+              "correct": true
+            },
+            {
+              "text": "Two all-round lights in a vertical line, the upper being red and the lower white.",
+              "correct": false
+            },
+            {
+              "text": "A single all-round white light at the masthead.",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 29(a)(i) requires a vessel engaged on pilotage duty to show two all-round lights in a vertical line at or near the masthead, the upper being white and the lower red."
+        },
+        {
+          "stem": "Under COLREG Rule 29, which additional lights must a pilot vessel on pilotage duty exhibit when underway?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Sidelights and a sternlight, in addition to the masthead all-round lights.",
+              "correct": true
+            },
+            {
+              "text": "An all-round flashing yellow light.",
+              "correct": false
+            },
+            {
+              "text": "A second masthead light abaft of and higher than the forward one.",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 29(a)(ii) states that when underway a vessel on pilotage duty shall, in addition to the all-round masthead lights, exhibit sidelights and a sternlight."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 28",
+      "questions": [
+        {
+          "stem": "According to COLREG Rule 28, what optional signals may a vessel constrained by her draft exhibit in addition to the lights prescribed for power-driven vessels?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Three all-round red lights in a vertical line, or a cylinder.",
+              "correct": true
+            },
+            {
+              "text": "Two all-round red lights in a vertical line, or a ball.",
+              "correct": false
+            },
+            {
+              "text": "Three all-round white lights in a vertical line.",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 28 states that a vessel constrained by her draft may exhibit three all-round red lights in a vertical line, or a cylinder, in addition to the lights prescribed for power-driven vessels in Rule 23."
+        },
+        {
+          "stem": "Under COLREG Rule 28, are the additional signals for a vessel constrained by her draft mandatory or optional?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "They are optional — the rule uses the word \"may\".",
+              "correct": true
+            },
+            {
+              "text": "They are mandatory whenever the vessel is underway in a narrow channel.",
+              "correct": false
+            },
+            {
+              "text": "They are mandatory at night but optional by day.",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 28 expressly uses the word \"may\", making the additional three all-round red lights or cylinder optional rather than mandatory."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 31",
+      "questions": [
+        {
+          "stem": "Under COLREG Rule 31, what must a seaplane or WIG craft do when it is impracticable to exhibit lights and shapes of the prescribed characteristics or positions?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "Exhibit lights and shapes as closely similar in characteristics and position as is possible.",
+              "correct": true
+            },
+            {
+              "text": "Extinguish all lights until conditions permit full compliance.",
+              "correct": false
+            },
+            {
+              "text": "Display only a single all-round white light until full compliance is restored.",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 31 requires a seaplane or WIG craft, when full compliance is impracticable, to exhibit lights and shapes as closely similar in characteristics and position as is possible."
+        },
+        {
+          "stem": "COLREG Rule 31 applies to which types of craft when it is impracticable to comply with the normal light and shape requirements?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "A seaplane and a WIG craft.",
+              "correct": true
+            },
+            {
+              "text": "A seaplane only.",
+              "correct": false
+            },
+            {
+              "text": "Any vessel less than 12 meters in length.",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 31 expressly covers both a seaplane and a WIG craft when it is impracticable for them to comply with the normal lights and shapes requirements."
+        }
+      ]
+    }
+  ]
+}

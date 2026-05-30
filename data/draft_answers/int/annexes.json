@@ -1,0 +1,47 @@
+{
+  "drafts": [
+    {
+      "ref": "COLREG Annex II",
+      "questions": [
+        {
+          "stem": "According to COLREG Annex II, what lights shall a vessel of 20 meters or more in length engaged in trawling exhibit when hauling her nets?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "One white light over one red light in a vertical line",
+              "correct": true
+            },
+            {
+              "text": "Two white lights in a vertical line",
+              "correct": false
+            },
+            {
+              "text": "Two red lights in a vertical line",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Annex II section 2(a)(ii) specifies that when hauling their nets, trawlers of 20 meters or more shall exhibit one white light over one red light in a vertical line."
+        },
+        {
+          "stem": "Under COLREG Annex II, which of the following conditions apply to the additional signals for fishing vessels fishing in close proximity?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "The lights shall be at least 0.9 meter apart and visible all around the horizon at a distance of at least 1 mile",
+              "correct": true
+            },
+            {
+              "text": "The lights shall be at least 1.5 meters apart and visible at a distance of at least 2 miles",
+              "correct": false
+            },
+            {
+              "text": "The lights shall be placed at the same level as the lights prescribed in Rule 26(b)(i) and (c)(i)",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Annex II section 1 states that the lights shall be at least 0.9 meter apart, at a lower level than the lights in Rule 26(b)(i) and (c)(i), and visible all around the horizon at a distance of at least 1 mile."
+        }
+      ]
+    }
+  ]
+}

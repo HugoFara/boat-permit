@@ -1,0 +1,47 @@
+{
+  "drafts": [
+    {
+      "ref": "COLREG Rule 38",
+      "questions": [
+        {
+          "stem": "Under COLREG Rule 38, which of the following exemptions from the current Regulations is granted on a permanent basis?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "The repositioning of lights as a result of conversion from Imperial to metric units and rounding off measurement figures",
+              "correct": true
+            },
+            {
+              "text": "The installation of lights with ranges prescribed in Rule 22",
+              "correct": false
+            },
+            {
+              "text": "The requirements for sound signal appliances prescribed in Annex III",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 38(c) grants a permanent exemption for the repositioning of lights resulting from conversion from Imperial to metric units and rounding off measurement figures."
+        },
+        {
+          "stem": "According to COLREG Rule 38, which of the following time-limited exemptions applies for nine years after the date of entry into force of the Regulations?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "The requirements for sound signal appliances prescribed in Annex III",
+              "correct": true
+            },
+            {
+              "text": "The repositioning of masthead lights on vessels of less than 150 meters in length",
+              "correct": false
+            },
+            {
+              "text": "The installation of lights with ranges prescribed in Rule 22",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 38(h) provides that the requirements for sound signal appliances prescribed in Annex III are subject to a nine-year exemption from the date of entry into force."
+        }
+      ]
+    }
+  ]
+}

@@ -275,12 +275,13 @@ def cmd_draft(args):
               else _draft_themes(country))
     kb = sqlite3.connect(DB_PATH)
 
+    valid_theme = country.themes.__contains__   # validate against THIS country's taxonomy
     if args.seed:           # load the hand-authored curated seed (no API call)
         from src.questions import seed_prose
-        qs, st = prose.seed_questions(kb, seed_prose.SEED)
+        qs, st = prose.seed_questions(kb, seed_prose.SEED, is_valid_theme=valid_theme)
         kb.close()
         conn = qschema.connect(qdb)
-        qschema.write_questions(conn, qs)
+        qschema.write_questions(conn, qs, is_valid_theme=valid_theme)
         # Seeds load as PENDING by design; re-apply any recorded review decisions
         # so a rebuilt bank keeps its approvals/rejections (durable, committed).
         from src.questions import seed_review
@@ -317,7 +318,8 @@ def cmd_draft(args):
     for t in themes:
         print(f"→ drafting {t} [{lang}] …")
         qs, st = prose.draft_for_theme(kb, drafter, t, limit=args.limit,
-                                       per_unit=args.per_unit, lang=lang)
+                                       per_unit=args.per_unit, lang=lang,
+                                       is_valid_theme=valid_theme)
         allq += qs
         for k in totals:
             totals[k] += st.get(k, 0)
@@ -326,7 +328,7 @@ def cmd_draft(args):
     kb.close()
 
     conn = qschema.connect(qdb)
-    qschema.write_questions(conn, allq)
+    qschema.write_questions(conn, allq, is_valid_theme=valid_theme)
     qschema.export_json(conn, qjson, exportable_only=True)
     status = qschema.counts_by_status(conn)
     conn.close()

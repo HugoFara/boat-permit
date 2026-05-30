@@ -1,0 +1,12 @@
+{
+  "q-colreg-en-colregannexii-c90d3fa3-617ef225": "PASS",
+  "q-colreg-en-colregannexii-c90d3fa3-c10ccc8f": "PASS",
+  "q-colreg-en-colregrule38-87c66420-61f2971b": "PASS",
+  "q-colreg-en-colregrule38-87c66420-8f5ce013": "PASS",
+  "q-colreg-en-colregrule1-c6af9d57-0cf5c3ab": "PASS",
+  "q-colreg-en-colregrule1-c6af9d57-c8ecbeb9": "PASS",
+  "q-colreg-en-colregrule2-b65e8979-01169bf9": "PASS",
+  "q-colreg-en-colregrule2-b65e8979-a210e7e7": "PASS",
+  "q-colreg-en-colregrule20-3203ade1-20c67069": "FAIL: correct answer 'From sunset to sunrise' is incomplete — Rule 20(c) requires lights to also be exhibited from sunrise to sunset in restricted visibility, making the marked-correct choice only partially true and the distractor 'At all times' arguably defensible",
+  "q-colreg-en-colregrule20-3203ade1-cbcbf68c": "PASS"
+}

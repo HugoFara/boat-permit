@@ -1,0 +1,133 @@
+{
+  "drafts": [
+    {
+      "ref": "COLREG Rule 33",
+      "questions": [
+        {
+          "stem": "According to COLREG Rule 33, which sound signaling appliances is a vessel of 100 meters or more in length required to carry?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "A whistle, a bell, and a gong",
+              "correct": true
+            },
+            {
+              "text": "A whistle and a bell only",
+              "correct": false
+            },
+            {
+              "text": "A whistle and a gong only",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 33(a) states that a vessel of 100 meters or more in length shall be provided with a whistle, a bell, and a gong."
+        },
+        {
+          "stem": "Under COLREG Rule 33, which of the following statements about a vessel of less than 12 meters in length is correct?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "She is not obliged to carry the prescribed sound signaling appliances but shall be provided with some other means of making an efficient sound signal if she does not carry them",
+              "correct": true
+            },
+            {
+              "text": "She is required to carry a whistle but not a bell",
+              "correct": false
+            },
+            {
+              "text": "She is exempt from all sound signal requirements",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 33(b) provides that a vessel of less than 12 meters in length is not obliged to carry the prescribed appliances but must have some other means of making an efficient sound signal if she does not."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 36",
+      "questions": [
+        {
+          "stem": "Under COLREG Rule 36, which of the following actions is explicitly stated as something to be avoided when using lights to attract the attention of another vessel?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "The use of high intensity intermittent or revolving lights, such as strobe lights",
+              "correct": true
+            },
+            {
+              "text": "Directing a searchlight toward the danger",
+              "correct": false
+            },
+            {
+              "text": "Using sound signals that cannot be mistaken for authorized signals",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 36 explicitly states that the use of high intensity intermittent or revolving lights, such as strobe lights, shall be avoided."
+        },
+        {
+          "stem": "According to COLREG Rule 36, which of the following conditions apply to any light used to attract the attention of another vessel?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "It shall be such that it cannot be mistaken for any aid to navigation",
+              "correct": true
+            },
+            {
+              "text": "It must be a fixed white light",
+              "correct": false
+            },
+            {
+              "text": "It shall not be used in conjunction with sound signals",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 36 requires that any light to attract the attention of another vessel shall be such that it cannot be mistaken for any aid to navigation."
+        }
+      ]
+    },
+    {
+      "ref": "COLREG Rule 32",
+      "questions": [
+        {
+          "stem": "According to COLREG Rule 32, what is the duration of a 'prolonged blast'?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "From four to six seconds",
+              "correct": true
+            },
+            {
+              "text": "About one second",
+              "correct": false
+            },
+            {
+              "text": "From two to three seconds",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 32(c) defines a prolonged blast as a blast of from four to six seconds' duration."
+        },
+        {
+          "stem": "Under COLREG Rule 32, which of the following correctly describes a 'short blast' AND a 'whistle'?",
+          "polarity": "affirmative",
+          "choices": [
+            {
+              "text": "A short blast is about one second's duration; a whistle is any sound signaling appliance capable of producing the prescribed blasts",
+              "correct": true
+            },
+            {
+              "text": "A short blast is about one second's duration; a whistle must produce only high-pitched tones",
+              "correct": false
+            },
+            {
+              "text": "A short blast is from four to six seconds' duration; a whistle is any sound signaling appliance capable of producing the prescribed blasts",
+              "correct": false
+            }
+          ],
+          "explanation": "COLREG Rule 32(a) defines a whistle as any sound signaling appliance capable of producing the prescribed blasts, and Rule 32(b) defines a short blast as a blast of about one second's duration."
+        }
+      ]
+    }
+  ]
+}

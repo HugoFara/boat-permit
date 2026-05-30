@@ -25,6 +25,10 @@ data/kb.fr.sqlite
 # source is the official ELWIS catalogue, ingested verbatim by src/questions/elwis.py.
 data/questions.de.sqlite
 data/questions.de.json
+# International/harmonised bank (COLREG; rebuild with `python tools/subagent_draft.py
+# ingest en INT`). Durable source: data/draft_answers/int/ + data/verdicts/int/.
+data/questions.int.sqlite
+data/questions.int.json
 
 # Subagent-drafting intermediates (regenerable: emit / verify-emit / merge),
 # all languages. The durable inputs — data/draft_answers/ and data/verdicts/ —
