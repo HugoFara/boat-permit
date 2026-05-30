@@ -50,8 +50,10 @@ RELATIONS = {"is_base", "implements", "diverges", "excluded"}
 # The navigation track a regime governs (which base it refines).
 TRACKS = {"inland", "maritime"}
 
-# The default jurisdiction: the default country's inland regime.
-DEFAULT = f"{countries.DEFAULT}-INLAND"
+# The default jurisdiction: the root of the portability tree. The project default
+# country is INT (the harmonised layer), which is a *base* and contributes no
+# national node, so the sensible default is the universal root itself.
+DEFAULT = "UNIVERSAL"
 
 
 @dataclass(frozen=True)
@@ -172,12 +174,11 @@ def _kind(code: str) -> str:
 
 def codes() -> list[str]:
     """All codes in tree order: the bases (root first), then country regimes
-    (default country first, inland before maritime), then shared waters."""
+    (by country code, inland before maritime), then shared waters."""
     bases = [c for c in REGISTRY if _kind(c) == "base"]
     bases.sort(key=lambda c: (REGISTRY[c].refines != "", c != "CEVNI", c))
     nat = [c for c in REGISTRY if _kind(c) == "national"]
-    nat.sort(key=lambda c: (REGISTRY[c].derives_from != countries.DEFAULT,
-                            REGISTRY[c].derives_from, REGISTRY[c].track != "inland"))
+    nat.sort(key=lambda c: (REGISTRY[c].derives_from, REGISTRY[c].track != "inland"))
     waters = sorted(c for c in REGISTRY if _kind(c) == "shared_water")
     return bases + nat + waters
 

@@ -50,7 +50,8 @@ from src.questions.schema import Question, Choice, Provenance, make_question_id 
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data")
-QDB_PATH = os.path.join(DATA, "questions.sqlite")
+# The Anki/GIFT exports bundle the Swiss bank that still backs the web/ root.
+QDB_PATH = os.path.join(DATA, "questions.ch.sqlite")
 OUT_DIR = os.path.join(DATA, "anki")
 
 # Fixed collection timestamps — deterministic builds (Anki remaps on import).

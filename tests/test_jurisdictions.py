@@ -89,7 +89,7 @@ def test_excluded_regime_guard_recognises_bodensee_only():
 def test_get_defaults_and_rejects_unknown():
     assert jurisdictions.get(None).code == jurisdictions.DEFAULT
     assert jurisdictions.get("").code == jurisdictions.DEFAULT
-    assert jurisdictions.DEFAULT == "CH-INLAND"
+    assert jurisdictions.DEFAULT == "UNIVERSAL"
     try:
         jurisdictions.get("ZZ")
     except ValueError:

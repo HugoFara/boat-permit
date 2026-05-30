@@ -12,13 +12,14 @@ language-aware. Stages (args: ``<cmd> [lang] [country]``, default ``fr CH``):
   (subagents)                    adversarially verify, write   -> verdicts[/code]/<theme>.json
   verify-apply <lang> <country>  approve the verified drafts (rest stay pending)
 
-Switzerland (the default, multilingual home country) owns the language-named
-answer dirs — fr is flat + committed, de/it sit under draft_answers/<lang>/ — and
-keeps the unchanged Swiss theme plan / question bank. Every guest country lives
-under draft_answers/countries/<code>/ (e.g. countries/int/, countries/de/) so a
-2-letter country code can never collide with a CH language dir, and is validated
-against its own taxonomy (bank: questions.<code>.sqlite). Everything is grounded
-in public-domain / freely-licensed source text; the verification pass is an
+Every country is namespaced uniformly under draft_answers/countries/<code>/ (base
+language directly there, other languages under …/<code>/<lang>/) — e.g.
+countries/ch/ (+ch/de/, ch/it/), countries/de/, countries/int/ — with its bank at
+questions.<code>.sqlite and KB at kb.<code>.sqlite. No country is privileged; the
+default is INT (the harmonised layer). Switzerland keeps its hand-curated prose
+plan and its historical unprefixed generators (subagent:<lang>.v1) only because
+those strings live in the committed web bundles. Everything is grounded in
+public-domain / freely-licensed source text; the verification pass is an
 independent check (a different agent, told to default FAIL).
 """
 
@@ -37,8 +38,12 @@ from src.questions import schema as qschema            # noqa: E402
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data")
-KB_PATH = os.path.join(DATA, "kb.sqlite")
 MIN_GROUNDING = 0.34
+
+
+def _kb(country) -> str:
+    """The country's knowledge base (kb.<code>.sqlite — per-country, never shared)."""
+    return os.path.join(DATA, f"kb.{country.code.lower()}.sqlite")
 
 # Switzerland's curated prose plan — (max units, questions-per-unit) per theme.
 # Other countries draft every theme in their taxonomy (select_units caps to what
@@ -53,40 +58,36 @@ _CH_PLAN = {
 
 
 def _plan(country) -> dict:
-    if country.code == countries.DEFAULT:
+    if country.code == "CH":                           # CH's hand-curated prose plan
         return _CH_PLAN
     return {theme: (999, 2) for theme in country.themes}
 
 
 def _qdb(country) -> str:
-    """The country's question bank (CH keeps the back-compat flat filename)."""
-    if country.code == countries.DEFAULT:
-        return os.path.join(DATA, "questions.sqlite")
+    """The country's question bank (questions.<code>.sqlite — uniform, no privileged
+    country)."""
     return os.path.join(DATA, f"questions.{country.code.lower()}.sqlite")
 
 
 def _generator(lang: str, country) -> str:
-    if country.code == countries.DEFAULT:
-        return f"subagent:{lang}.v1"                   # unchanged for CH (fr/de/it)
+    # CH keeps its historical unprefixed generators (subagent:fr.v1, …): those
+    # strings are embedded in the committed web/ bundles, so re-tagging would break
+    # their byte-stability. Every other country is namespaced by code.
+    if country.code == "CH":
+        return f"subagent:{lang}.v1"
     return f"subagent:{country.code.lower()}.{lang}.v1"
 
 
 def _paths(lang: str, country) -> dict:
-    # The home country (CH) is multilingual and OWNS the language-named dirs: its
-    # base language (fr) is flat + committed, other languages get a <lang>/ subdir
-    # (draft_answers/de/, draft_answers/it/). Guest countries live under
-    # countries/<code>/ so a 2-letter country code can never collide with a CH
-    # language dir — e.g. Germany ('de') must not land on Swiss-German ('de'). A
-    # non-base language of a guest adds one more level (countries/<code>/<lang>/).
+    # Every country is namespaced uniformly under countries/<code>/: the base
+    # language sits directly there, other languages get a <lang>/ subdir. So a
+    # 2-letter country code can never collide with a language dir (Germany 'de' vs
+    # Swiss-German 'de'), and no country is privileged with a flat root.
+    code = country.code.lower()
     base = country.default_lang
-    if country.code == countries.DEFAULT:
-        sub = "" if lang == base else lang
-        sfx = "" if lang == base else f".{lang}"
-    else:
-        code = country.code.lower()
-        sub = os.path.join("countries", code) if lang == base \
-            else os.path.join("countries", code, lang)
-        sfx = f".{code}" if lang == base else f".{code}.{lang}"
+    sub = os.path.join("countries", code) if lang == base \
+        else os.path.join("countries", code, lang)
+    sfx = f".{code}" if lang == base else f".{code}.{lang}"
     return {
         "jobs": os.path.join(DATA, f"draft_jobs{sfx}.json"),
         "answers": os.path.join(DATA, "draft_answers", sub),
@@ -97,7 +98,7 @@ def _paths(lang: str, country) -> dict:
 
 
 def cmd_emit(lang: str, country):
-    kb = sqlite3.connect(KB_PATH)
+    kb = sqlite3.connect(_kb(country))
     p = _paths(lang, country)
     jobs = {}
     for theme, (n_units, per_unit) in _plan(country).items():
@@ -163,7 +164,7 @@ def cmd_verify_emit(lang: str, country):
     p = _paths(lang, country)
     conn = qschema.connect(_qdb(country))
     conn.row_factory = sqlite3.Row
-    kb = sqlite3.connect(KB_PATH)
+    kb = sqlite3.connect(_kb(country))
     kb.row_factory = sqlite3.Row
     out = []
     rows = conn.execute(

@@ -1,7 +1,8 @@
 """The country registry — the single place that lists supported countries.
 
-Adding a country = add its module and one line here. ``CH`` is the default so the
-original Swiss build runs unchanged when no country is specified.
+Adding a country = add its module and one line here. ``INT`` (the supra-national
+harmonised layer) is the default; every concrete country, Switzerland included, is
+namespaced by its code with no privileged treatment.
 """
 
 from __future__ import annotations
@@ -19,7 +20,11 @@ COUNTRIES: dict[str, Country] = {
     intl.COUNTRY.code: intl.COUNTRY,
 }
 
-DEFAULT = "CH"
+# The international/harmonised layer is the project's default: the universal codes
+# (COLREG/CEVNI) are the root, and CH/DE/FR are national implementations of them.
+# Switzerland (the project's origin) is no longer privileged — it's a country like
+# any other.
+DEFAULT = "INT"
 
 
 def codes() -> list[str]:

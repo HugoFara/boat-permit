@@ -88,7 +88,7 @@ def normalize(parsed: dict[str, list[KnowledgeUnit]], db_path: str,
               version: str, json_path: str | None = None,
               themes_table: dict | None = None,
               extension_themes: frozenset | None = None,
-              base_lang: str = "fr", country_code: str = "CH") -> dict:
+              base_lang: str = "fr", country_code: str = "INT") -> dict:
     """Write all parsed units into the SQLite KB. Returns a stats dict. The theme
     table / extension set / base language default to the Swiss ones, so the
     original CH build is unchanged; pass a country's values for other builds."""

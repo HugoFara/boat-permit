@@ -3,16 +3,18 @@ __pycache__/
 .venv/
 venv/
 
-# Regenerable pipeline outputs (rebuild with `python run.py build`)
+# Regenerable pipeline outputs — per-country knowledge bases
+# (rebuild with `python run.py build --country <CODE>`)
 data/raw/
 data/assets/
-data/kb.sqlite
-data/kb.json
+data/kb.*.sqlite
+data/kb.*.json
 
-# Phase-2 question bank (rebuild with `python run.py questions`)
-data/questions.sqlite
-data/questions.json
-data/questions.json.*
+# Phase-2 Swiss question bank (rebuild with `python run.py questions --country CH`).
+# Every country's bank is namespaced by code now — CH is no longer privileged.
+data/questions.ch.sqlite
+data/questions.ch.json
+data/questions.ch.json.*
 # France per-option banks (rebuild with `python run.py fr`); the durable source is
 # src/fr/seed_fr.py and the deployable bundle is committed under web/fr/.
 data/questions.fr_*.sqlite

@@ -24,26 +24,27 @@ import sys
 
 from src import countries, fetch, parse as parse_stage, normalize as normalize_stage
 
-DB_PATH = os.path.join(os.path.dirname(__file__), "data", "kb.sqlite")
-JSON_PATH = os.path.join(os.path.dirname(__file__), "data", "kb.json")
-QDB_PATH = os.path.join(os.path.dirname(__file__), "data", "questions.sqlite")
-QJSON_PATH = os.path.join(os.path.dirname(__file__), "data", "questions.json")
+DATA = os.path.join(os.path.dirname(__file__), "data")
+
+
+def _kbpaths(code: str) -> tuple[str, str]:
+    """Per-country knowledge-base paths (kb.<code>.sqlite / .json). Per-country so
+    building one country's KB never clobbers another's — no shared scratch file."""
+    s = code.lower()
+    return (os.path.join(DATA, f"kb.{s}.sqlite"),
+            os.path.join(DATA, f"kb.{s}.json"))
 
 
 def _qpaths(code: str) -> tuple[str, str]:
-    """Question-bank output paths for a country. CH keeps the original
-    (back-compat) filenames; other countries are namespaced (questions.de.sqlite)
-    so building one country never clobbers another's bank."""
-    data = os.path.join(os.path.dirname(__file__), "data")
-    if code == countries.DEFAULT:
-        return QDB_PATH, QJSON_PATH
+    """Per-country question-bank paths (questions.<code>.sqlite / .json). Every
+    country is namespaced by its code — no country gets an unprefixed name."""
     s = code.lower()
-    return (os.path.join(data, f"questions.{s}.sqlite"),
-            os.path.join(data, f"questions.{s}.json"))
+    return (os.path.join(DATA, f"questions.{s}.sqlite"),
+            os.path.join(DATA, f"questions.{s}.json"))
 
 
 def _country(args):
-    """The active country (default CH ⇒ the original Swiss build, unchanged)."""
+    """The active country (default INT ⇒ the harmonised/international layer)."""
     return countries.get(getattr(args, "country", None))
 
 
@@ -104,12 +105,13 @@ def cmd_build(args):
     parsed = parse_stage.parse_all(srcs, langs=tuple(langs), tagger=country.tagger)
     print("→ normalize")
     version = _dt.date.today().isoformat()
+    kb_db, kb_json = _kbpaths(country.code)
     stats = normalize_stage.normalize(
-        parsed, DB_PATH, version, json_path=JSON_PATH,
+        parsed, kb_db, version, json_path=kb_json,
         themes_table=country.themes, extension_themes=country.extension_themes,
         base_lang=country.default_lang, country_code=country.code)
 
-    print(f"\n✓ knowledge base built: {DB_PATH}")
+    print(f"\n✓ knowledge base built: {kb_db}")
     print(f"  country {country.code} · version {version} · "
           f"{stats['units']} units · {stats['assets']} assets")
     print(f"  by lang:   {stats['by_lang']}")
@@ -131,20 +133,26 @@ def cmd_questions(args):
     country = _country(args)
     if country.code == "DE":
         return _questions_de(args, country)
+    if country.code != "CH":
+        sys.exit(f"`questions` builds the Swiss templated-figure bank (CH) or the "
+                 f"German catalogue (DE); for {country.code} draft prose with "
+                 f"`python tools/subagent_draft.py ingest <lang> {country.code}`.")
 
     from src.questions import figures, schema as qschema
-    if not os.path.exists(DB_PATH):
+    kb_db, _ = _kbpaths(country.code)
+    qdb, qjson = _qpaths(country.code)
+    if not os.path.exists(kb_db):
         sys.exit("no knowledge base — run `python run.py build` first")
-    kb = sqlite3.connect(DB_PATH)
+    kb = sqlite3.connect(kb_db)
     kb_meta = {k: v for k, v in kb.execute("SELECT key, value FROM meta")}
     kb_version = kb_meta.get("kb_version", "")
-    theme_labels = countries.get(kb_meta.get("country", "CH")).themes
+    theme_labels = countries.get(kb_meta.get("country") or countries.DEFAULT).themes
 
     print("→ generate figure-recognition questions")
     qs, stats = figures.build_figure_questions(kb)
     kb.close()
 
-    conn = qschema.connect(QDB_PATH)
+    conn = qschema.connect(qdb)
     # Re-generate only the templated figure questions; preserve any LLM/reviewed
     # drafts in the bank (cascade clears their choices automatically).
     conn.execute("DELETE FROM questions WHERE generator LIKE 'tmpl:%'")
@@ -160,10 +168,10 @@ def cmd_questions(args):
                      canton_code=cfg.canton_code,
                      permis=cfg.permis, permis_label=cfg.label)
     qschema.write_questions(conn, qs)
-    n_export = qschema.export_json(conn, QJSON_PATH, exportable_only=True)
+    n_export = qschema.export_json(conn, qjson, exportable_only=True)
     conn.close()
 
-    print(f"\n✓ question bank built: {QDB_PATH}")
+    print(f"\n✓ question bank built: {qdb}")
     print(f"  {stats['generated']} questions generated  (exported: {n_export})")
     print(f"  distractors: {stats['by_strategy']}")
     print("  by theme:")
@@ -257,7 +265,7 @@ def _draft_themes(country) -> list[str]:
     """Default themes to draft for a country. Switzerland keeps the curated prose
     theme list (signalisation is templated figures, not drafted); other countries
     draft every theme in their taxonomy (units with no prose text just yield none)."""
-    if country.code == countries.DEFAULT:
+    if country.code == "CH":
         from src.questions import prose
         return list(prose.PROSE_THEMES)
     return list(country.themes)
@@ -272,12 +280,13 @@ def cmd_draft(args):
     from src.questions import prose, schema as qschema
     country = _country(args)
     qdb, qjson = _qpaths(country.code)
+    kb_db, _ = _kbpaths(country.code)
     lang = getattr(args, "lang", None) or country.default_lang
-    if not os.path.exists(DB_PATH):
+    if not os.path.exists(kb_db):
         sys.exit("no knowledge base — run `python run.py build` first")
     themes = ([t.strip() for t in args.theme.split(",")] if args.theme
               else _draft_themes(country))
-    kb = sqlite3.connect(DB_PATH)
+    kb = sqlite3.connect(kb_db)
 
     valid_theme = country.themes.__contains__   # validate against THIS country's taxonomy
     if args.seed:           # load the hand-authored curated seed (no API call)
@@ -345,9 +354,12 @@ def cmd_review(args):
     """Operate the review gate: list pending drafts (with a grounding score), or
     approve/reject by id. Approved questions reach the public bank on next build."""
     from src.questions import prose, schema as qschema
-    if not os.path.exists(QDB_PATH):
-        sys.exit("no question bank — run `python run.py questions` first")
-    conn = qschema.connect(QDB_PATH)
+    country = _country(args)
+    qdb, _ = _qpaths(country.code)
+    kb_db, _ = _kbpaths(country.code)
+    if not os.path.exists(qdb):
+        sys.exit(f"no question bank for {country.code} — build it first")
+    conn = qschema.connect(qdb)
 
     if args.approve or args.reject:
         n = qschema.set_review_status(conn, args.approve or [], "approved")
@@ -363,7 +375,7 @@ def cmd_review(args):
         return
 
     if args.list:
-        kb = sqlite3.connect(DB_PATH) if os.path.exists(DB_PATH) else None
+        kb = sqlite3.connect(kb_db) if os.path.exists(kb_db) else None
         src_text = {}
         if kb is not None:
             kb.row_factory = sqlite3.Row
@@ -572,9 +584,13 @@ def cmd_web(args):
     import json
     import shutil
     from src.questions import schema as qschema
-    if not os.path.exists(QDB_PATH):
-        sys.exit("no question bank — run `python run.py questions` first")
-    conn = qschema.connect(QDB_PATH)
+    # The web/ root is the Swiss player (deferred restructure — see plan); it is
+    # built from the CH bank. The harmonised core below still pools every bank.
+    ROOT_COUNTRY = "CH"
+    qdb_root, qjson_root = _qpaths(ROOT_COUNTRY)
+    if not os.path.exists(qdb_root):
+        sys.exit("no question bank — run `python run.py questions --country CH` first")
+    conn = qschema.connect(qdb_root)
     web = os.path.join(os.path.dirname(__file__), "web")
     assets_out = os.path.join(web, "assets")
     if os.path.exists(assets_out):
@@ -606,7 +622,7 @@ def cmd_web(args):
         therefore written exactly as before."""
         # lang=None exports the canonical data/questions.json (kept); per-language
         # exports go to a throwaway temp that's removed once bundled.
-        tmp = QJSON_PATH if lang is None else f"{QJSON_PATH}.{lang}.tmp"
+        tmp = qjson_root if lang is None else f"{qjson_root}.{lang}.tmp"
         n = qschema.export_json(conn, tmp, exportable_only=True, lang=lang)
         data = json.load(open(tmp, encoding="utf-8"))
         if lang is not None:
@@ -666,7 +682,7 @@ def cmd_web(args):
             if s in overlay_counts:
                 overlay_counts[s] += 1
         for lg in qschema.languages_present(bconn, exportable_only=True):
-            tmp = f"{QJSON_PATH}.pool.{lg}.tmp"
+            tmp = f"{qjson_root}.pool.{lg}.tmp"
             qschema.export_json(bconn, tmp, exportable_only=True, lang=lg)
             data = json.load(open(tmp, encoding="utf-8"))
             os.remove(tmp)
@@ -729,7 +745,9 @@ def cmd_web(args):
         # split by base (universal/cevni/colregs) per language. The player composes
         # the available bases into one "common core" pool (src/scope.py).
         "countries": country_manifest,
-        "country_default": countries.DEFAULT,
+        # The web/ root currently bundles CH (deferred restructure); the manifest's
+        # default reflects the bundled country, not the registry default (INT).
+        "country_default": ROOT_COUNTRY,
         "core": core_avail,
     }
     # Offline-study downloads: Anki decks (.apkg + editable .tsv) and a Moodle
@@ -829,6 +847,8 @@ def main():
                    help="load the curated hand-authored seed instead of calling the API")
 
     r = sub.add_parser("review", help="operate the review gate over drafts")
+    r.add_argument("--country", default=countries.DEFAULT, choices=countries.codes(),
+                   help=f"country bank to review (default {countries.DEFAULT})")
     r.add_argument("--list", action="store_true", help="list pending drafts")
     r.add_argument("--theme", help="filter the listing to one theme")
     r.add_argument("--approve", nargs="+", metavar="ID", help="approve question id(s)")

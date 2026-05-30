@@ -37,19 +37,26 @@ from src.questions import schema as qschema           # noqa: E402
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data")
-KB_PATH = os.path.join(DATA, "kb.sqlite")
-QDB_PATH = os.path.join(DATA, "questions.sqlite")
+# Figure questions are a Switzerland-only artifact (ONI/RNL Swiss-law diagrams);
+# they read the CH KB/bank and live under the CH country namespace like any other.
+KB_PATH = os.path.join(DATA, "kb.ch.sqlite")
+QDB_PATH = os.path.join(DATA, "questions.ch.sqlite")
 MIN_GROUNDING = 0.34
 _PUBLIC_DOMAIN = ("oni", "rnl")
 
 
 def _generator(lang: str) -> str:
+    # Unprefixed by design: these generator strings are embedded in the committed
+    # web bundles, so renaming them would break the bundles' byte-stability.
     return f"figure:{lang}.v1"
 
 
 def _paths(lang: str) -> dict:
-    sfx = "" if lang == "fr" else f".{lang}"
-    sub = "" if lang == "fr" else lang
+    # Under countries/ch/ like every country's inputs: base lang (fr) directly
+    # there, de/it under a <lang>/ subdir.
+    sub = os.path.join("countries", "ch") if lang == "fr" \
+        else os.path.join("countries", "ch", lang)
+    sfx = ".ch" if lang == "fr" else f".ch.{lang}"
     return {
         "jobs": os.path.join(DATA, f"figure_jobs{sfx}.json"),
         "answers": os.path.join(DATA, "figure_answers", sub),
