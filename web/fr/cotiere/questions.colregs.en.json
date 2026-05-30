@@ -885,50 +885,7 @@
       ]
     },
     {
-      "id": "q-fr-ialaa-80-b7036cad",
-      "theme": "balisage",
-      "kind": "rule_mc",
-      "stem": "In our waters, when entering a channel from seaward, what is the colour and the shape of the optional topmark on a port-hand mark?",
-      "choices": [
-        {
-          "text": "Red, with a red cylinder (can) topmark",
-          "image": null,
-          "is_correct": true
-        },
-        {
-          "text": "Green, with a green cone topmark point up",
-          "image": null,
-          "is_correct": false
-        },
-        {
-          "text": "Red, with a red cone topmark point up",
-          "image": null,
-          "is_correct": false
-        }
-      ],
-      "provenance": {
-        "unit_id": "fr-iala_a-80",
-        "ref": "IALA R1001 §2.1.3 — marque latérale bâbord (région A)",
-        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
-        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
-        "as_of": "",
-        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
-      },
-      "lang": "en",
-      "polarity": "affirmative",
-      "image": null,
-      "points": 1,
-      "explanation": "The port-hand mark is red and can-shaped, and its optional topmark is a single red cylinder (can). You leave it to port (on your left) when entering.",
-      "review_status": "approved",
-      "distractor_strategy": "curated",
-      "generator": "derive:ref.v1",
-      "block": "",
-      "correct": [
-        0
-      ]
-    },
-    {
-      "id": "q-fr-ialaa-81-eb29fc62",
+      "id": "q-fr-ialaa-80-ca88f348",
       "theme": "balisage",
       "kind": "rule_mc",
       "stem": "In our waters, when entering a channel from seaward, which light and optional topmark identify a starboard-hand mark?",
@@ -950,7 +907,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-iala_a-81",
+        "unit_id": "fr-iala_a-80",
         "ref": "IALA R1001 §2.1.3 — marque latérale tribord (région A)",
         "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
         "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
@@ -971,7 +928,7 @@
       ]
     },
     {
-      "id": "q-fr-ialaa-82-b788096f",
+      "id": "q-fr-ialaa-81-7e567e51",
       "theme": "balisage",
       "kind": "rule_mc",
       "stem": "Where a channel divides, you see a red mark with a single broad green horizontal band. What does it tell you?",
@@ -993,7 +950,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-iala_a-82",
+        "unit_id": "fr-iala_a-81",
         "ref": "IALA R1001 §2.1.5 — marques de chenal préféré (région A)",
         "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
         "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
@@ -1014,7 +971,7 @@
       ]
     },
     {
-      "id": "q-fr-ialaa-83-5adeeedc",
+      "id": "q-fr-ialaa-82-e7003771",
       "theme": "balisage",
       "kind": "rule_mc",
       "stem": "Which topmark and light rhythm identify an East cardinal mark, which must be passed on its east side?",
@@ -1036,7 +993,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-iala_a-83",
+        "unit_id": "fr-iala_a-82",
         "ref": "IALA R1001 §2.2.4 — marque cardinale Est",
         "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
         "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
@@ -1057,50 +1014,7 @@
       ]
     },
     {
-      "id": "q-fr-ialaa-84-d21d6198",
-      "theme": "balisage",
-      "kind": "rule_mc",
-      "stem": "A cardinal mark shows two black cones one above the other, both pointing up, with a body black above and yellow below. On which side should you pass?",
-      "choices": [
-        {
-          "text": "To the north of the mark",
-          "image": null,
-          "is_correct": true
-        },
-        {
-          "text": "To the south of the mark",
-          "image": null,
-          "is_correct": false
-        },
-        {
-          "text": "To the east of the mark",
-          "image": null,
-          "is_correct": false
-        }
-      ],
-      "provenance": {
-        "unit_id": "fr-iala_a-84",
-        "ref": "IALA R1001 §2.2.4 — marque cardinale Nord",
-        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
-        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
-        "as_of": "",
-        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
-      },
-      "lang": "en",
-      "polarity": "affirmative",
-      "image": null,
-      "points": 1,
-      "explanation": "This topmark (two black cones point up, body black over yellow, white very-quick or quick flashing light) marks a North cardinal: the safe water is to the north, so you pass to the north of the mark.",
-      "review_status": "approved",
-      "distractor_strategy": "curated",
-      "generator": "derive:ref.v1",
-      "block": "",
-      "correct": [
-        0
-      ]
-    },
-    {
-      "id": "q-fr-ialaa-85-b9779455",
+      "id": "q-fr-ialaa-83-7fca7fc1",
       "theme": "balisage",
       "kind": "rule_mc",
       "stem": "A mark shows two black cones arranged point to point, a yellow body with a single broad black horizontal band, and a white light flashing in groups of nine. On which side must you pass?",
@@ -1122,7 +1036,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-iala_a-85",
+        "unit_id": "fr-iala_a-83",
         "ref": "IALA R1001 §2.2.4 — marque cardinale Ouest",
         "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
         "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
@@ -1143,7 +1057,7 @@
       ]
     },
     {
-      "id": "q-fr-ialaa-86-bc1e54cb",
+      "id": "q-fr-ialaa-84-6fbc29bb",
       "theme": "balisage",
       "kind": "rule_mc",
       "stem": "A mark carries two black cones with points downward, a yellow body on top and black below, and shows a white light of quick flashes Q(6) followed by one long flash. Which mark is it?",
@@ -1165,7 +1079,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-iala_a-86",
+        "unit_id": "fr-iala_a-84",
         "ref": "IALA R1001 §2.2.4 — marque cardinale Sud",
         "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
         "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
@@ -1177,135 +1091,6 @@
       "image": null,
       "points": 1,
       "explanation": "The two cones pointing downward, the body yellow above and black below, and the white light VQ(6)+one long flash every 10 s (or Q(6)+one long flash every 15 s) identify the South cardinal mark: you pass to the south of it.",
-      "review_status": "approved",
-      "distractor_strategy": "curated",
-      "generator": "derive:ref.v1",
-      "block": "",
-      "correct": [
-        0
-      ]
-    },
-    {
-      "id": "q-fr-ialaa-87-ef34ff29",
-      "theme": "balisage",
-      "kind": "rule_mc",
-      "stem": "A mark has a black body with one or more broad red horizontal bands, a topmark of two black spheres one above the other, and a white light flashing in groups of two. What does it indicate?",
-      "choices": [
-        {
-          "text": "An isolated danger surrounded by safe water, on which it is moored",
-          "image": null,
-          "is_correct": true
-        },
-        {
-          "text": "Safe water all around, which may be passed on either side",
-          "image": null,
-          "is_correct": false
-        },
-        {
-          "text": "A particular regulated zone, not a danger in itself",
-          "image": null,
-          "is_correct": false
-        }
-      ],
-      "provenance": {
-        "unit_id": "fr-iala_a-87",
-        "ref": "IALA R1001 §2.3 — marque de danger isolé",
-        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
-        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
-        "as_of": "",
-        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
-      },
-      "lang": "en",
-      "polarity": "affirmative",
-      "image": null,
-      "points": 1,
-      "explanation": "The black body with broad red horizontal bands, the topmark of two black spheres and the white group-flashing (2) light identify the isolated danger mark, moored on (or above) an isolated danger surrounded by safe water.",
-      "review_status": "approved",
-      "distractor_strategy": "curated",
-      "generator": "derive:ref.v1",
-      "block": "",
-      "correct": [
-        0
-      ]
-    },
-    {
-      "id": "q-fr-ialaa-88-69a3fc74",
-      "theme": "balisage",
-      "kind": "rule_mc",
-      "stem": "A mark shows red and white vertical stripes, a topmark of a single red sphere, and a white isophase light (or occulting, one long flash every 10 s, or Morse \"A\"). What may you do when passing it?",
-      "choices": [
-        {
-          "text": "Pass it on either side: safe water all around",
-          "image": null,
-          "is_correct": true
-        },
-        {
-          "text": "Pass only to the north: isolated danger all around",
-          "image": null,
-          "is_correct": false
-        },
-        {
-          "text": "Avoid it on one side only: it is moored on a danger",
-          "image": null,
-          "is_correct": false
-        }
-      ],
-      "provenance": {
-        "unit_id": "fr-iala_a-88",
-        "ref": "IALA R1001 §2.4 — marque d'eaux saines",
-        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
-        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
-        "as_of": "",
-        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
-      },
-      "lang": "en",
-      "polarity": "affirmative",
-      "image": null,
-      "points": 1,
-      "explanation": "The red and white vertical stripes, the single red sphere topmark and the white isophase / occulting / one long flash every 10 s / Morse \"A\" light identify a safe-water mark (mid-channel, landfall): you may pass it on either side.",
-      "review_status": "approved",
-      "distractor_strategy": "curated",
-      "generator": "derive:ref.v1",
-      "block": "",
-      "correct": [
-        0
-      ]
-    },
-    {
-      "id": "q-fr-ialaa-89-d639b705",
-      "theme": "balisage",
-      "kind": "rule_mc",
-      "stem": "A mark is entirely yellow, may carry a yellow St Andrew's cross (\"X\") topmark, and shows a yellow light. What does it delimit?",
-      "choices": [
-        {
-          "text": "A particular zone or feature (ODAS, regulated area, pipeline, anchorage…)",
-          "image": null,
-          "is_correct": true
-        },
-        {
-          "text": "An isolated danger surrounded by safe water",
-          "image": null,
-          "is_correct": false
-        },
-        {
-          "text": "The starboard side of the channel to follow",
-          "image": null,
-          "is_correct": false
-        }
-      ],
-      "provenance": {
-        "unit_id": "fr-iala_a-89",
-        "ref": "IALA R1001 §2.5 — marque spéciale",
-        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
-        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
-        "as_of": "",
-        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
-      },
-      "lang": "en",
-      "polarity": "affirmative",
-      "image": null,
-      "points": 1,
-      "explanation": "An all-yellow mark, with an optional yellow St Andrew's cross topmark and a yellow light (rhythm different from those reserved for cardinals, isolated danger and safe water) is a special mark: it delimits a particular zone or feature (ODAS, regulated area, pipeline, anchorage area…), not a danger in itself.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "derive:ref.v1",

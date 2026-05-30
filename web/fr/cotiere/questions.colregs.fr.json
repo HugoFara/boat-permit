@@ -885,50 +885,7 @@
       ]
     },
     {
-      "id": "q-fr-ialaa-80-591eed39",
-      "theme": "balisage",
-      "kind": "rule_mc",
-      "stem": "Dans nos eaux, en entrant dans un chenal depuis le large, quelle est la couleur et la forme du voyant éventuel d'une marque latérale de bâbord ?",
-      "choices": [
-        {
-          "text": "Rouge, voyant cylindre rouge",
-          "image": null,
-          "is_correct": true
-        },
-        {
-          "text": "Verte, voyant cône vert pointe en haut",
-          "image": null,
-          "is_correct": false
-        },
-        {
-          "text": "Rouge, voyant cône rouge pointe en haut",
-          "image": null,
-          "is_correct": false
-        }
-      ],
-      "provenance": {
-        "unit_id": "fr-iala_a-80",
-        "ref": "IALA R1001 §2.1.3 — marque latérale bâbord (région A)",
-        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
-        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
-        "as_of": "",
-        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
-      },
-      "lang": "fr",
-      "polarity": "affirmative",
-      "image": null,
-      "points": 1,
-      "explanation": "La marque latérale de bâbord est rouge, de forme cylindrique (« boîte »), et son voyant éventuel est un cylindre rouge. On la laisse sur bâbord (à gauche) en entrant.",
-      "review_status": "approved",
-      "distractor_strategy": "curated",
-      "generator": "derive:ref.v1",
-      "block": "",
-      "correct": [
-        0
-      ]
-    },
-    {
-      "id": "q-fr-ialaa-81-a413524f",
+      "id": "q-fr-ialaa-80-62d2b4ea",
       "theme": "balisage",
       "kind": "rule_mc",
       "stem": "Dans nos eaux, en entrant dans un chenal depuis le large, quel feu et quel voyant éventuel caractérisent une marque latérale de tribord ?",
@@ -950,7 +907,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-iala_a-81",
+        "unit_id": "fr-iala_a-80",
         "ref": "IALA R1001 §2.1.3 — marque latérale tribord (région A)",
         "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
         "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
@@ -971,7 +928,7 @@
       ]
     },
     {
-      "id": "q-fr-ialaa-82-5bc4a79d",
+      "id": "q-fr-ialaa-81-af57b880",
       "theme": "balisage",
       "kind": "rule_mc",
       "stem": "À l'endroit où un chenal se divise, vous voyez une marque rouge portant une large bande horizontale verte. Que vous indique-t-elle ?",
@@ -993,7 +950,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-iala_a-82",
+        "unit_id": "fr-iala_a-81",
         "ref": "IALA R1001 §2.1.5 — marques de chenal préféré (région A)",
         "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
         "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
@@ -1014,7 +971,7 @@
       ]
     },
     {
-      "id": "q-fr-ialaa-83-3df8648d",
+      "id": "q-fr-ialaa-82-6ac27b05",
       "theme": "balisage",
       "kind": "rule_mc",
       "stem": "Quel voyant et quel rythme de feu caractérisent une marque cardinale Est, que l'on doit contourner par l'est ?",
@@ -1036,7 +993,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-iala_a-83",
+        "unit_id": "fr-iala_a-82",
         "ref": "IALA R1001 §2.2.4 — marque cardinale Est",
         "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
         "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
@@ -1057,50 +1014,7 @@
       ]
     },
     {
-      "id": "q-fr-ialaa-84-9fd029c6",
-      "theme": "balisage",
-      "kind": "rule_mc",
-      "stem": "Une marque cardinale porte deux cônes noirs superposés, tous deux pointes vers le haut, et un corps noir au-dessus et jaune en dessous. De quel côté faut-il passer ?",
-      "choices": [
-        {
-          "text": "Au nord de la marque",
-          "image": null,
-          "is_correct": true
-        },
-        {
-          "text": "Au sud de la marque",
-          "image": null,
-          "is_correct": false
-        },
-        {
-          "text": "À l'est de la marque",
-          "image": null,
-          "is_correct": false
-        }
-      ],
-      "provenance": {
-        "unit_id": "fr-iala_a-84",
-        "ref": "IALA R1001 §2.2.4 — marque cardinale Nord",
-        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
-        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
-        "as_of": "",
-        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
-      },
-      "lang": "fr",
-      "polarity": "affirmative",
-      "image": null,
-      "points": 1,
-      "explanation": "Ce voyant (deux cônes noirs pointes vers le haut, corps noir au-dessus / jaune en dessous, feu blanc scintillant VQ ou Q) désigne une cardinale Nord : les eaux saines sont au nord, on passe au nord de la marque.",
-      "review_status": "approved",
-      "distractor_strategy": "curated",
-      "generator": "derive:ref.v1",
-      "block": "",
-      "correct": [
-        0
-      ]
-    },
-    {
-      "id": "q-fr-ialaa-85-0f3e3dd8",
+      "id": "q-fr-ialaa-83-19ee5b04",
       "theme": "balisage",
       "kind": "rule_mc",
       "stem": "Une marque montre deux cônes noirs disposés pointe à pointe, un corps jaune avec une large bande horizontale noire, et un feu blanc à scintillements groupés par neuf. De quel côté devez-vous passer ?",
@@ -1122,7 +1036,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-iala_a-85",
+        "unit_id": "fr-iala_a-83",
         "ref": "IALA R1001 §2.2.4 — marque cardinale Ouest",
         "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
         "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
@@ -1143,7 +1057,7 @@
       ]
     },
     {
-      "id": "q-fr-ialaa-86-6d07c9d5",
+      "id": "q-fr-ialaa-84-fd2b4db8",
       "theme": "balisage",
       "kind": "rule_mc",
       "stem": "Une marque porte deux cônes noirs pointes vers le bas, un corps jaune en haut et noir en bas, et montre un feu blanc à scintillements rapides Q(6) suivis d'un éclat long. De quelle marque s'agit-il ?",
@@ -1165,7 +1079,7 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-iala_a-86",
+        "unit_id": "fr-iala_a-84",
         "ref": "IALA R1001 §2.2.4 — marque cardinale Sud",
         "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
         "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
@@ -1177,135 +1091,6 @@
       "image": null,
       "points": 1,
       "explanation": "Le voyant à deux cônes pointes vers le bas, le corps jaune au-dessus et noir en dessous, et le feu blanc VQ(6)+un éclat long toutes les 10 s (ou Q(6)+un éclat long toutes les 15 s) caractérisent la marque cardinale Sud : on passe au sud de la marque.",
-      "review_status": "approved",
-      "distractor_strategy": "curated",
-      "generator": "derive:ref.v1",
-      "block": "",
-      "correct": [
-        0
-      ]
-    },
-    {
-      "id": "q-fr-ialaa-87-7079dd98",
-      "theme": "balisage",
-      "kind": "rule_mc",
-      "stem": "Une marque a un corps noir à une ou plusieurs larges bandes rouges horizontales, un voyant de deux sphères noires superposées et un feu blanc à éclats groupés par deux. Que signale-t-elle ?",
-      "choices": [
-        {
-          "text": "Un danger isolé entouré d'eaux saines, sur lequel elle est mouillée",
-          "image": null,
-          "is_correct": true
-        },
-        {
-          "text": "Des eaux saines tout autour, que l'on peut contourner des deux côtés",
-          "image": null,
-          "is_correct": false
-        },
-        {
-          "text": "Une zone réglementée particulière, sans danger en soi",
-          "image": null,
-          "is_correct": false
-        }
-      ],
-      "provenance": {
-        "unit_id": "fr-iala_a-87",
-        "ref": "IALA R1001 §2.3 — marque de danger isolé",
-        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
-        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
-        "as_of": "",
-        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
-      },
-      "lang": "fr",
-      "polarity": "affirmative",
-      "image": null,
-      "points": 1,
-      "explanation": "Le corps noir à larges bandes rouges horizontales, le voyant à deux sphères noires superposées et le feu blanc à éclats groupés (2) caractérisent la marque de danger isolé, mouillée sur (ou au-dessus d') un danger isolé entouré d'eaux saines.",
-      "review_status": "approved",
-      "distractor_strategy": "curated",
-      "generator": "derive:ref.v1",
-      "block": "",
-      "correct": [
-        0
-      ]
-    },
-    {
-      "id": "q-fr-ialaa-88-bc271548",
-      "theme": "balisage",
-      "kind": "rule_mc",
-      "stem": "Une marque présente des bandes verticales rouges et blanches, un voyant en forme d'une sphère rouge et un feu blanc isophase (ou à occultations, un éclat long toutes les 10 s, ou Morse « A »). Que pouvez-vous faire à son passage ?",
-      "choices": [
-        {
-          "text": "La contourner des deux côtés : eaux saines tout autour",
-          "image": null,
-          "is_correct": true
-        },
-        {
-          "text": "Passer uniquement au nord : danger isolé tout autour",
-          "image": null,
-          "is_correct": false
-        },
-        {
-          "text": "L'éviter d'un seul côté : elle est mouillée sur un danger",
-          "image": null,
-          "is_correct": false
-        }
-      ],
-      "provenance": {
-        "unit_id": "fr-iala_a-88",
-        "ref": "IALA R1001 §2.4 — marque d'eaux saines",
-        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
-        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
-        "as_of": "",
-        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
-      },
-      "lang": "fr",
-      "polarity": "affirmative",
-      "image": null,
-      "points": 1,
-      "explanation": "Les bandes verticales rouges et blanches, le voyant à une sphère rouge et le feu blanc isophase / à occultations / un éclat long toutes les 10 s / Morse « A » signalent une marque d'eaux saines (milieu de chenal, atterrissage) : on peut la contourner des deux côtés.",
-      "review_status": "approved",
-      "distractor_strategy": "curated",
-      "generator": "derive:ref.v1",
-      "block": "",
-      "correct": [
-        0
-      ]
-    },
-    {
-      "id": "q-fr-ialaa-89-c4a3410a",
-      "theme": "balisage",
-      "kind": "rule_mc",
-      "stem": "Une marque est entièrement jaune, peut porter un voyant en croix de Saint-André jaune (« X ») et montre un feu jaune. Que délimite-t-elle ?",
-      "choices": [
-        {
-          "text": "Une zone ou un dispositif particulier (ODAS, zone réglementée, conduite, mouillage…)",
-          "image": null,
-          "is_correct": true
-        },
-        {
-          "text": "Un danger isolé entouré d'eaux saines",
-          "image": null,
-          "is_correct": false
-        },
-        {
-          "text": "Le côté tribord du chenal à suivre",
-          "image": null,
-          "is_correct": false
-        }
-      ],
-      "provenance": {
-        "unit_id": "fr-iala_a-89",
-        "ref": "IALA R1001 §2.5 — marque spéciale",
-        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
-        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
-        "as_of": "",
-        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
-      },
-      "lang": "fr",
-      "polarity": "affirmative",
-      "image": null,
-      "points": 1,
-      "explanation": "Une marque entièrement jaune, au voyant éventuel en croix de Saint-André jaune et au feu jaune (rythme distinct de ceux des cardinales, danger isolé et eaux saines) est une marque spéciale : elle délimite une zone ou un dispositif particulier (ODAS, zone réglementée, conduite, zone de mouillage…), pas un danger en soi.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "derive:ref.v1",

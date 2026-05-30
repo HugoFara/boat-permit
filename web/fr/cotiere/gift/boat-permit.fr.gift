@@ -123,74 +123,39 @@ $CATEGORY: Permis bateau · Léman (FR)/Balisage et signalisation maritime
 ####[html]Marque d'eaux saines (milieu de chenal / atterrissage) \: on peut la contourner indifféremment des deux côtés.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">Balisage IALA — marque d'eaux saines — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
-::q-fr-ialaa-80-591eed39:: [html]Dans nos eaux, en entrant dans un chenal depuis le large, quelle est la couleur et la forme du voyant éventuel d'une marque latérale de bâbord ? {
-=Rouge, voyant cylindre rouge
-~Verte, voyant cône vert pointe en haut
-~Rouge, voyant cône rouge pointe en haut
-####[html]La marque latérale de bâbord est rouge, de forme cylindrique (« boîte »), et son voyant éventuel est un cylindre rouge. On la laisse sur bâbord (à gauche) en entrant.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">IALA R1001 §2.1.3 — marque latérale bâbord (région A) — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
-}
-
-::q-fr-ialaa-81-a413524f:: [html]Dans nos eaux, en entrant dans un chenal depuis le large, quel feu et quel voyant éventuel caractérisent une marque latérale de tribord ? {
+::q-fr-ialaa-80-62d2b4ea:: [html]Dans nos eaux, en entrant dans un chenal depuis le large, quel feu et quel voyant éventuel caractérisent une marque latérale de tribord ? {
 =Feu vert, voyant cône vert pointe vers le haut
 ~Feu rouge, voyant cylindre rouge
 ~Feu vert, voyant cône vert pointe vers le bas
 ####[html]La marque latérale de tribord est verte, de forme conique ; son feu est vert et son voyant éventuel est un cône vert pointe vers le haut. On la laisse sur tribord (à droite) en entrant.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">IALA R1001 §2.1.3 — marque latérale tribord (région A) — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
-::q-fr-ialaa-82-5bc4a79d:: [html]À l'endroit où un chenal se divise, vous voyez une marque rouge portant une large bande horizontale verte. Que vous indique-t-elle ? {
+::q-fr-ialaa-81-af57b880:: [html]À l'endroit où un chenal se divise, vous voyez une marque rouge portant une large bande horizontale verte. Que vous indique-t-elle ? {
 =Le chenal préféré est à tribord
 ~Le chenal préféré est à bâbord
 ~Le chenal est obstrué, il faut faire demi-tour
 ####[html]Une marque rouge à large bande horizontale verte (voyant cylindre rouge) signale que le chenal préféré est à tribord. Ces marques de chenal préféré portent un feu à éclats groupés composés (2+1).<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">IALA R1001 §2.1.5 — marques de chenal préféré (région A) — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
-::q-fr-ialaa-83-3df8648d:: [html]Quel voyant et quel rythme de feu caractérisent une marque cardinale Est, que l'on doit contourner par l'est ? {
+::q-fr-ialaa-82-6ac27b05:: [html]Quel voyant et quel rythme de feu caractérisent une marque cardinale Est, que l'on doit contourner par l'est ? {
 =Deux cônes noirs base à base ; feu blanc VQ(3) toutes les 5 s ou Q(3) toutes les 10 s
 ~Deux cônes noirs pointes opposées (pointe à pointe) ; feu blanc VQ(9) toutes les 10 s
 ~Deux cônes noirs base à base ; feu blanc à occultations groupées
 ####[html]La cardinale Est porte deux cônes noirs base à base, un corps noir à large bande horizontale jaune, et un feu blanc VQ(3) toutes les 5 s ou Q(3) toutes les 10 s. On passe à l'est de la marque.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">IALA R1001 §2.2.4 — marque cardinale Est — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
-::q-fr-ialaa-84-9fd029c6:: [html]Une marque cardinale porte deux cônes noirs superposés, tous deux pointes vers le haut, et un corps noir au-dessus et jaune en dessous. De quel côté faut-il passer ? {
-=Au nord de la marque
-~Au sud de la marque
-~À l'est de la marque
-####[html]Ce voyant (deux cônes noirs pointes vers le haut, corps noir au-dessus / jaune en dessous, feu blanc scintillant VQ ou Q) désigne une cardinale Nord \: les eaux saines sont au nord, on passe au nord de la marque.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">IALA R1001 §2.2.4 — marque cardinale Nord — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
-}
-
-::q-fr-ialaa-85-0f3e3dd8:: [html]Une marque montre deux cônes noirs disposés pointe à pointe, un corps jaune avec une large bande horizontale noire, et un feu blanc à scintillements groupés par neuf. De quel côté devez-vous passer ? {
+::q-fr-ialaa-83-19ee5b04:: [html]Une marque montre deux cônes noirs disposés pointe à pointe, un corps jaune avec une large bande horizontale noire, et un feu blanc à scintillements groupés par neuf. De quel côté devez-vous passer ? {
 =À l'ouest de la marque
 ~À l'est de la marque
 ~Au nord de la marque
 ####[html]Le voyant à deux cônes noirs pointe à pointe, le corps jaune à large bande horizontale noire et le feu blanc VQ(9) toutes les 10 s (ou Q(9) toutes les 15 s) sont ceux de la marque cardinale Ouest \: on passe à l'ouest de la marque.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">IALA R1001 §2.2.4 — marque cardinale Ouest — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
-::q-fr-ialaa-86-6d07c9d5:: [html]Une marque porte deux cônes noirs pointes vers le bas, un corps jaune en haut et noir en bas, et montre un feu blanc à scintillements rapides Q(6) suivis d'un éclat long. De quelle marque s'agit-il ? {
+::q-fr-ialaa-84-fd2b4db8:: [html]Une marque porte deux cônes noirs pointes vers le bas, un corps jaune en haut et noir en bas, et montre un feu blanc à scintillements rapides Q(6) suivis d'un éclat long. De quelle marque s'agit-il ? {
 =Une marque cardinale Sud
 ~Une marque cardinale Nord
 ~Une marque cardinale Ouest
 ####[html]Le voyant à deux cônes pointes vers le bas, le corps jaune au-dessus et noir en dessous, et le feu blanc VQ(6)+un éclat long toutes les 10 s (ou Q(6)+un éclat long toutes les 15 s) caractérisent la marque cardinale Sud \: on passe au sud de la marque.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">IALA R1001 §2.2.4 — marque cardinale Sud — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
-}
-
-::q-fr-ialaa-87-7079dd98:: [html]Une marque a un corps noir à une ou plusieurs larges bandes rouges horizontales, un voyant de deux sphères noires superposées et un feu blanc à éclats groupés par deux. Que signale-t-elle ? {
-=Un danger isolé entouré d'eaux saines, sur lequel elle est mouillée
-~Des eaux saines tout autour, que l'on peut contourner des deux côtés
-~Une zone réglementée particulière, sans danger en soi
-####[html]Le corps noir à larges bandes rouges horizontales, le voyant à deux sphères noires superposées et le feu blanc à éclats groupés (2) caractérisent la marque de danger isolé, mouillée sur (ou au-dessus d') un danger isolé entouré d'eaux saines.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">IALA R1001 §2.3 — marque de danger isolé — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
-}
-
-::q-fr-ialaa-88-bc271548:: [html]Une marque présente des bandes verticales rouges et blanches, un voyant en forme d'une sphère rouge et un feu blanc isophase (ou à occultations, un éclat long toutes les 10 s, ou Morse « A »). Que pouvez-vous faire à son passage ? {
-=La contourner des deux côtés \: eaux saines tout autour
-~Passer uniquement au nord \: danger isolé tout autour
-~L'éviter d'un seul côté \: elle est mouillée sur un danger
-####[html]Les bandes verticales rouges et blanches, le voyant à une sphère rouge et le feu blanc isophase / à occultations / un éclat long toutes les 10 s / Morse « A » signalent une marque d'eaux saines (milieu de chenal, atterrissage) \: on peut la contourner des deux côtés.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">IALA R1001 §2.4 — marque d'eaux saines — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
-}
-
-::q-fr-ialaa-89-c4a3410a:: [html]Une marque est entièrement jaune, peut porter un voyant en croix de Saint-André jaune (« X ») et montre un feu jaune. Que délimite-t-elle ? {
-=Une zone ou un dispositif particulier (ODAS, zone réglementée, conduite, mouillage…)
-~Un danger isolé entouré d'eaux saines
-~Le côté tribord du chenal à suivre
-####[html]Une marque entièrement jaune, au voyant éventuel en croix de Saint-André jaune et au feu jaune (rythme distinct de ceux des cardinales, danger isolé et eaux saines) est une marque spéciale \: elle délimite une zone ou un dispositif particulier (ODAS, zone réglementée, conduite, zone de mouillage…), pas un danger en soi.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">IALA R1001 §2.5 — marque spéciale — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
 $CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
@@ -379,65 +344,51 @@ $CATEGORY: Permis bateau · Léman (FR)/Météorologie et marées
 ####[html]C'est le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus (étale de niveau). La renverse du courant — l'étale de courant — est un phénomène voisin mais distinct, qui ne coïncide pas nécessairement.<br>Source \: <a href\="https\://www.shom.fr/">SHOM — étale (de niveau) — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
 }
 
-::q-fr-shom-90-c6cbcbcc:: [html]Selon la règle des douzièmes, de quelle fraction du marnage l'eau monte-t-elle au cours de chaque heure successive, de la basse mer à la pleine mer ? {
+::q-fr-shom-85-c9a1ffb9:: [html]Selon la règle des douzièmes, de quelle fraction du marnage l'eau monte-t-elle au cours de chaque heure successive, de la basse mer à la pleine mer ? {
 =1/12, 2/12, 3/12, 3/12, 2/12, 1/12
 ~1/12, 3/12, 4/12, 4/12, 3/12, 1/12
 ~2/12, 2/12, 2/12, 2/12, 2/12, 2/12
 ####[html]D'après la règle des douzièmes, le marnage évolue heure par heure de 1/12, 2/12, 3/12, 3/12, 2/12 puis 1/12.<br>Source \: <a href\="https\://maree.shom.fr/">Règle des douzièmes (méthode de l'annuaire des marées) — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
 }
 
-::q-fr-shom-91-246b7a6b:: [html]Entre quelles valeurs s'échelonnent les coefficients de marée admis, de la morte-eau extrême à la vive-eau extrême ? {
-=De 20 à 120
-~De 0 à 100
-~De 45 à 95
-####[html]Le coefficient de marée caractérise l'amplitude de la marée. Les valeurs admises vont de 20 (morte-eau extrême) à 120 (vive-eau extrême) ; 45 correspond à la morte-eau moyenne et 95 à la vive-eau moyenne.<br>Source \: <a href\="https\://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf">SHOM — coefficient de marée — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
-}
-
-::q-fr-shom-92-ed6551b6:: [html]Comment désigne-t-on la marée descendante, durant laquelle le niveau baisse vers la basse mer ? {
+::q-fr-shom-86-b271ac37:: [html]Comment désigne-t-on la marée descendante, durant laquelle le niveau baisse vers la basse mer ? {
 =Le jusant
 ~Le flot
 ~L'étale
 ####[html]Le flot est la marée montante, pendant laquelle le niveau monte vers la pleine mer ; le jusant est la marée descendante, pendant laquelle le niveau baisse vers la basse mer.<br>Source \: <a href\="https\://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf">SHOM — flot et jusant — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
 }
 
-::q-fr-shom-93-f73d0dc3:: [html]Une zone côtière présente un marnage supérieur à 4 m. Comment ce régime de marée est-il qualifié ? {
+::q-fr-shom-87-976f325c:: [html]Une zone côtière présente un marnage supérieur à 4 m. Comment ce régime de marée est-il qualifié ? {
 =Macrotidal
 ~Mésotidal
 ~Microtidal
 ####[html]Le marnage est la différence de hauteur d'eau entre une pleine mer et la basse mer consécutive. Un marnage inférieur à 2 m est microtidal, de 2 à 4 m mésotidal, et supérieur à 4 m macrotidal.<br>Source \: <a href\="https\://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf">SHOM — marnage — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
 }
 
-::q-fr-shom-94-8d318b78:: [html]Sur les côtes de la Manche et de l'Atlantique, la marée est de type semi-diurne. Combien de pleines mers et de basses mers observe-t-on en une journée ? {
+::q-fr-shom-88-a87f6f44:: [html]Sur les côtes de la Manche et de l'Atlantique, la marée est de type semi-diurne. Combien de pleines mers et de basses mers observe-t-on en une journée ? {
 =Deux pleines mers et deux basses mers
 ~Une pleine mer et une basse mer
 ~Trois pleines mers et trois basses mers
 ####[html]Une marée semi-diurne produit deux pleines mers et deux basses mers par jour, le cycle de marée durant environ 12 h 25.<br>Source \: <a href\="https\://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf">SHOM — marée semi-diurne et cycle — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
 }
 
-::q-fr-shom-95-a40de779:: [html]À quel coefficient de marée correspondent les pleines et basses mers de vive-eau moyenne (PMVE/BMVE) ? {
+::q-fr-shom-89-5220dbaa:: [html]À quel coefficient de marée correspondent les pleines et basses mers de vive-eau moyenne (PMVE/BMVE) ? {
 =Coefficient 95
 ~Coefficient 120
 ~Coefficient 45
 ####[html]Les pleines et basses mers de vive-eau moyenne (PMVE/BMVE) correspondent au coefficient 95, alors que les plus hautes et basses mers astronomiques correspondent au coefficient 120.<br>Source \: <a href\="https\://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf">SHOM — niveaux caractéristiques de la marée — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
 }
 
-::q-fr-shom-96-8074cf17:: [html]Lorsque la Terre, la Lune et le Soleil sont alignés (pleine ou nouvelle lune), quel type de marée observe-t-on ? {
+::q-fr-shom-90-6083809a:: [html]Lorsque la Terre, la Lune et le Soleil sont alignés (pleine ou nouvelle lune), quel type de marée observe-t-on ? {
 =Des vives-eaux (grand marnage)
 ~Des mortes-eaux (faible marnage)
 ~Une absence de marée (étale permanent)
 ####[html]En syzygie, c'est-à-dire à la pleine ou à la nouvelle lune lorsque la Terre, la Lune et le Soleil sont alignés, les ondes de marée s'additionnent \: ce sont les vives-eaux, à grand marnage. En quadrature, au premier ou au dernier quartier, les ondes s'opposent et donnent les mortes-eaux, à faible marnage.<br>Source \: <a href\="https\://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf">SHOM — vives-eaux et mortes-eaux — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
 }
 
-::q-fr-shom-97-724fa27f:: [html]À quel niveau de référence le zéro hydrographique, auquel sont rapportées les sondes des cartes marines, est-il choisi en France ? {
+::q-fr-shom-91-92ee8f78:: [html]À quel niveau de référence le zéro hydrographique, auquel sont rapportées les sondes des cartes marines, est-il choisi en France ? {
 =Au voisinage des plus basses mers astronomiques
 ~Au niveau moyen de la mer
 ~Au voisinage des plus hautes mers astronomiques
 ####[html]Le zéro hydrographique est le niveau de référence commun aux cartes marines et aux annuaires des marées. En France il est fixé au voisinage des plus basses mers astronomiques (PBMA), niveau sous lequel la mer ne descend que très exceptionnellement ; la profondeur réelle est donc en général supérieure à la sonde portée sur la carte.<br>Source \: <a href\="https\://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf">SHOM — zéro hydrographique (ZH) — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
-}
-
-::q-fr-shom-98-d9052c29:: [html]Qu'appelle-t-on l'étale de niveau ? {
-=Le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus
-~Le moment où le courant de marée s'inverse, qui coïncide toujours avec la pleine ou la basse mer
-~Le moment où la vitesse du courant de marée est maximale entre deux marées
-####[html]L'étale de niveau est le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus ; il est distinct de la renverse du courant (étale de courant), qui ne coïncide pas nécessairement avec lui.<br>Source \: <a href\="https\://maree.shom.fr/">SHOM — étale — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
 }
