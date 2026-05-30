@@ -1,0 +1,102 @@
+[
+  {
+    "ref": "BSO art. 14",
+    "questions": [
+      {
+        "stem": "Nach wie vielen Jahren erlischt die Zulassung von Vergnügungsfahrzeugen mit Maschinenantrieb?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Die Zulassung erlischt nach drei Jahren.", "correct": true},
+          {"text": "Die Zulassung erlischt nach fünf Jahren.", "correct": false},
+          {"text": "Die Zulassung erlischt nach zehn Jahren.", "correct": false}
+        ],
+        "explanation": "Die Zulassung von Vergnügungsfahrzeugen mit Maschinenantrieb erlischt nach drei Jahren (BSO Art. 14)."
+      },
+      {
+        "stem": "Welche Voraussetzung gilt für die Inbetriebnahme eines Fahrzeugs mit Maschinenantrieb?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Es darf nur in Betrieb genommen werden, wenn es durch die zuständige Behörde zugelassen ist.", "correct": true},
+          {"text": "Es darf ohne behördliche Zulassung in Betrieb genommen werden, sofern der Eigentümer einwilligt.", "correct": false},
+          {"text": "Es darf in Betrieb genommen werden, sobald es mit einem Kennzeichen versehen ist.", "correct": false}
+        ],
+        "explanation": "Fahrzeuge mit Maschinenantrieb dürfen nur in Betrieb genommen werden, wenn sie durch die zuständige Behörde zugelassen sind (BSO Art. 14)."
+      }
+    ]
+  },
+  {
+    "ref": "BSO art. 2",
+    "questions": [
+      {
+        "stem": "Wo muss das von der Behörde zugeteilte Kennzeichen am Fahrzeug angebracht werden?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Auf beiden Seiten des Fahrzeuges an gut sichtbarer Stelle.", "correct": true},
+          {"text": "Nur am Heck des Fahrzeuges an gut sichtbarer Stelle.", "correct": false},
+          {"text": "Ausschliesslich auf der Steuerbordseite des Fahrzeuges.", "correct": false}
+        ],
+        "explanation": "Das zugeteilte Kennzeichen ist auf beiden Seiten des Fahrzeuges an gut sichtbarer Stelle anzubringen (BSO Art. 2)."
+      },
+      {
+        "stem": "Welche Fahrzeuge sind von der Pflicht zur Anbringung eines Kennzeichens ausgenommen?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Fahrzeuge, deren Länge über alles unter 2,50 m liegt und die nicht mit Maschinenantrieb ausgestattet sind.", "correct": true},
+          {"text": "Fahrzeuge, deren Länge über alles unter 5,00 m liegt, auch wenn sie einen Maschinenantrieb haben.", "correct": false},
+          {"text": "Alle Segelfahrzeuge unabhängig von ihrer Länge und Ausstattung.", "correct": false}
+        ],
+        "explanation": "Ausgenommen sind Fahrzeuge, deren Länge über alles unter 2,50 m liegt und die nicht mit Maschinenantrieb ausgestattet sind (BSO Art. 2)."
+      }
+    ]
+  },
+  {
+    "ref": "BSO art. 10",
+    "questions": [
+      {
+        "stem": "Für welche Strecke gelten die Vorschriften dieses Abschnittes unter anderem?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Den Alten Rhein von der Brücke Rheineck-Gaissau bis zur Mündung in den Bodensee (Ende Spundwand).", "correct": true},
+          {"text": "Den Neuen Rhein von der Brücke Hard-Fussach bis zur Mündung in den Bodensee.", "correct": false},
+          {"text": "Den gesamten Bodensee einschliesslich Untersee.", "correct": false}
+        ],
+        "explanation": "Die Vorschriften dieses Abschnittes gelten unter anderem für den Alten Rhein von der Brücke Rheineck-Gaissau bis zur Mündung in den Bodensee (Ende Spundwand) (BSO Art. 10)."
+      },
+      {
+        "stem": "Bis zu welchem Punkt gilt der Abschnitt für die Strecke ab dem Frauenpfahl in der Konstanzer Bucht?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Bis zur Landestelle Ermatingen.", "correct": true},
+          {"text": "Bis zur Strassenbrücke Schaffhausen-Feuerthalen.", "correct": false},
+          {"text": "Bis zur obersten Steganlage Eschenz.", "correct": false}
+        ],
+        "explanation": "Der Abschnitt gilt für die Strecke vom Frauenpfahl in der Konstanzer Bucht bis zur Landestelle Ermatingen (BSO Art. 10)."
+      }
+    ]
+  },
+  {
+    "ref": "BSO art. 0",
+    "questions": [
+      {
+        "stem": "Für welches Gewässer gilt diese Verordnung?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Den Bodensee einschliesslich Untersee.", "correct": true},
+          {"text": "Den Bodensee ausschliesslich des Untersees.", "correct": false},
+          {"text": "Nur den Untersee ohne den übrigen Bodensee.", "correct": false}
+        ],
+        "explanation": "Diese Verordnung gilt für den Bodensee einschliesslich Untersee (BSO Art. 0)."
+      },
+      {
+        "stem": "Ab welcher Brücke gilt die Verordnung für den Neuen Rhein bis zur Mündung in den Bodensee?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Ab der Brücke Hard-Fussach.", "correct": true},
+          {"text": "Ab der Brücke Rheineck-Gaissau.", "correct": false},
+          {"text": "Ab der Strassenbrücke Schaffhausen-Feuerthalen.", "correct": false}
+        ],
+        "explanation": "Die Verordnung gilt für den Neuen Rhein von der Brücke Hard-Fussach bis zur Mündung in den Bodensee (BSO Art. 0)."
+      }
+    ]
+  }
+]

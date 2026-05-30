@@ -58,7 +58,10 @@ def _law_abbrev(root) -> str:
     return ""
 
 
-def parse(src: Source, manifest: dict) -> list[KnowledgeUnit]:
+def parse(src: Source, manifest: dict, tagger=None) -> list[KnowledgeUnit]:
+    # `tagger` is the country's theme classifier; defaults to the German one
+    # (gii is German federal law), so passing country.tagger is a no-op for DE.
+    tag_theme = tagger or de_themes.tag_theme
     xml_path = os.path.join(os.path.dirname(__file__), "..", "..",
                             manifest["files"]["xml"]["path"])
     root = etree.parse(xml_path).getroot()
@@ -96,8 +99,8 @@ def parse(src: Source, manifest: dict) -> list[KnowledgeUnit]:
                                 path=_asset_path(src.id, meta["path"], lang),
                                 caption=caption))
 
-        theme = de_themes.tag_theme(ref=ref, title=title, text=body,
-                                    default=src.default_theme)
+        theme = tag_theme(ref=ref, title=title, text=body,
+                          default=src.default_theme)
         units.append(KnowledgeUnit(
             id=unit_id, theme=theme, kind="article", ref=ref,
             title=title, text=body, assets=assets, **prov))

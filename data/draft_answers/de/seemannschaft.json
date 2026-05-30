@@ -1,0 +1,27 @@
+[
+  {
+    "ref": "BSO art. 6",
+    "questions": [
+      {
+        "stem": "Wie muss der Schiffsführer ein Manöver ausführen, das bei Anwendung der Fahrregeln erforderlich wird?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Deutlich und rechtzeitig.", "correct": true},
+          {"text": "Nur nach vorheriger Anzeige bei der zuständigen Behörde.", "correct": false},
+          {"text": "Möglichst langsam und erst nach Rücksprache mit der Besatzung.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 6 Abs. 1 hat der Schiffsführer jedes Manöver, das bei Anwendung der Fahrregeln erforderlich wird, deutlich und rechtzeitig auszuführen."
+      },
+      {
+        "stem": "Ab welcher Blutalkoholkonzentration gilt das Fahrverbot bei Vergnügungsfahrzeugen (nicht Fahrgast- oder Güterschiffe) nach der BSO?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Ab 0,8 oder mehr Promille.", "correct": true},
+          {"text": "Ab 0,1 oder mehr Promille.", "correct": false},
+          {"text": "Ab 1,2 oder mehr Promille.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 6 Abs. 3 gilt das Fahrverbot insbesondere bei einer Blutalkoholkonzentration von 0,8 oder mehr Promille (bzw. 0,40 mg/l in der Atemluft); der Wert von 0,1 Promille gilt nur für Fahrgast- oder Güterschiffe."
+      }
+    ]
+  }
+]

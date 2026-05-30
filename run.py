@@ -101,7 +101,7 @@ def cmd_build(args):
     print(f"→ fetch  [country {country.code}]")
     fetch.fetch_for_langs(langs, srcs, force=args.force)
     print("→ parse")
-    parsed = parse_stage.parse_all(srcs, langs=tuple(langs))
+    parsed = parse_stage.parse_all(srcs, langs=tuple(langs), tagger=country.tagger)
     print("→ normalize")
     version = _dt.date.today().isoformat()
     stats = normalize_stage.normalize(

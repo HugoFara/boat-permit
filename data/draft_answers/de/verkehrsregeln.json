@@ -1,0 +1,202 @@
+[
+  {
+    "ref": "BSO art. 1",
+    "questions": [
+      {
+        "stem": "Welche Aussage über den Schiffsführer eines Fahrzeuges mit Maschinenantrieb ist richtig?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Er muss mindestens 14 Jahre alt sein.", "correct": true},
+          {"text": "Er muss mindestens 18 Jahre alt sein.", "correct": false},
+          {"text": "Ein Mindestalter ist nicht vorgeschrieben.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 1 muss der Schiffsführer eines Fahrzeuges mit Maschinenantrieb mindestens 14 Jahre alt sein."
+      },
+      {
+        "stem": "Welche Aussage zur Verantwortung und Anwesenheit des Schiffsführers ist NICHT richtig?",
+        "polarity": "negative",
+        "choices": [
+          {"text": "Der Schiffsführer darf das Fahrzeug während der Fahrt verlassen.", "correct": true},
+          {"text": "Der Schiffsführer muss während der Fahrt an Bord sein.", "correct": false},
+          {"text": "Er ist für die Befolgung der Vorschriften dieser Verordnung auf seinem Fahrzeug verantwortlich.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 1 muss der Schiffsführer während der Fahrt an Bord sein und ist für die Befolgung der Vorschriften verantwortlich."
+      }
+    ]
+  },
+  {
+    "ref": "BSO art. 7",
+    "questions": [
+      {
+        "stem": "Wie lange dürfen Fahrzeuge ausserhalb der Häfen, Landestellen und anderer zugelassener Anlagen ohne behördliche Erlaubnis stilliegen?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Nicht länger als 24 Stunden.", "correct": true},
+          {"text": "Nicht länger als 12 Stunden.", "correct": false},
+          {"text": "Nicht länger als 48 Stunden.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 7 dürfen Fahrzeuge ausserhalb zugelassener Anlagen nur mit behördlicher Erlaubnis länger als 24 Stunden stilliegen."
+      },
+      {
+        "stem": "Was müssen Fahrzeuge bei der Wahl ihres Liegeplatzes und beim Festmachen beachten?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Sie dürfen die Schifffahrt, insbesondere die Vorrangfahrzeuge, nicht behindern und müssen den Wasserstandsschwankungen folgen können.", "correct": true},
+          {"text": "Sie dürfen ihren Liegeplatz frei wählen, da Vorrangfahrzeuge keine Rolle spielen.", "correct": false},
+          {"text": "Sie müssen fest verankert sein, ohne den Wasserstandsschwankungen folgen zu können.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 7 dürfen Fahrzeuge die Schifffahrt, insbesondere die Vorrangfahrzeuge, nicht behindern und müssen den Wasserstandsschwankungen folgen können."
+      }
+    ]
+  },
+  {
+    "ref": "BSO art. 11",
+    "questions": [
+      {
+        "stem": "Wie müssen Fischnetze, Reusen und andere Fischereigeräte, die die Schifffahrt behindern können, gekennzeichnet sein?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Durch weisse Bojen (Döpper) in genügender Anzahl.", "correct": true},
+          {"text": "Durch rote Bojen in genügender Anzahl.", "correct": false},
+          {"text": "Durch gelbe Flaggen am Ufer.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 11 müssen Fischereigeräte, welche die Schifffahrt behindern können, durch weisse Bojen (Döpper) in genügender Anzahl bezeichnet sein."
+      },
+      {
+        "stem": "Welche Aussage zum Einbringen von Fischereigeräten auf den Kursen der Vorrangfahrzeuge und in den Fahrrinnen der Rheinstrecken ist richtig?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Sie dürfen nur so eingebracht werden, dass die Schifffahrt nicht behindert werden kann.", "correct": true},
+          {"text": "Sie dürfen dort uneingeschränkt eingebracht werden.", "correct": false},
+          {"text": "Sie dürfen dort nur nachts eingebracht werden.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 11 dürfen Fischereigeräte auf diesen Kursen und Fahrrinnen nur so eingebracht werden, dass die Schifffahrt nicht behindert werden kann."
+      }
+    ]
+  },
+  {
+    "ref": "BSO art. 15",
+    "questions": [
+      {
+        "stem": "Welcher Massstab gilt für die Besatzung aller Fahrzeuge?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Sie muss nach Zahl und Eignung ausreichen, um die Sicherheit der an Bord befindlichen Personen, der Schifffahrt und der sonstigen Gewässerbenutzer zu gewährleisten.", "correct": true},
+          {"text": "Sie muss aus mindestens drei Personen bestehen.", "correct": false},
+          {"text": "Sie wird allein durch die Länge des Fahrzeuges bestimmt.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 15 muss die Besatzung nach Zahl und Eignung ausreichen, um die Sicherheit der Personen, der Schifffahrt und der sonstigen Gewässerbenutzer zu gewährleisten."
+      },
+      {
+        "stem": "Welche Aussage zur Mindestbesatzung von Fahrgast- und Güterschiffen ist NICHT richtig?",
+        "polarity": "negative",
+        "choices": [
+          {"text": "Bei mehreren Besatzungsmitgliedern muss kein Mitglied den Schiffsführer ersetzen können.", "correct": true},
+          {"text": "Die zuständige Behörde setzt die Mindestbesatzung entsprechend Grösse, Bauart, Ausrüstung, Verwendung und Einsatzbereich fest.", "correct": false},
+          {"text": "Ein Besatzungsmitglied muss in der Bedienung und Wartung der Maschinenanlage ausgebildet sein.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 15 muss bei mehr als einer Person ein Besatzungsmitglied in der Lage sein, den Schiffsführer vorübergehend zu ersetzen."
+      }
+    ]
+  },
+  {
+    "ref": "BSO art. 9",
+    "questions": [
+      {
+        "stem": "Wo dürfen Fahrgastschiffe zum Zweck des Ein- und Aussteigens von Fahrgästen anlegen?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Nur an Landestellen, die von der zuständigen Behörde hierfür zugelassen sind.", "correct": true},
+          {"text": "An jeder beliebigen Uferstelle.", "correct": false},
+          {"text": "Nur an Landestellen, die der Schiffsführer selbst bestimmt.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 9 dürfen Fahrgastschiffe nur an Landestellen anlegen, die von der zuständigen Behörde hierfür zugelassen sind."
+      },
+      {
+        "stem": "Welche Aussage zum Schiffsverkehr an Landestellen ist richtig?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Sind verantwortliche Personen mit der Regelung des Verkehrs betraut, haben die Schiffsführer deren Anweisungen zu befolgen.", "correct": true},
+          {"text": "Anweisungen verantwortlicher Personen sind für Schiffsführer unverbindlich.", "correct": false},
+          {"text": "Beim Anlegen an Landestellen für den allgemeinen Verkehr haben Fahrgastschiffe keinen Vorrang.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 9 haben die Schiffsführer die Anweisungen der mit der Verkehrsregelung betrauten verantwortlichen Personen zu befolgen."
+      }
+    ]
+  },
+  {
+    "ref": "BSO art. 16",
+    "questions": [
+      {
+        "stem": "Welche Fahrzeuge geniessen nach den Sonderrechten eine Befreiung von bestimmten Vorschriften?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Fahrzeuge für hoheitliche Aufgaben, im gewässerkundlichen Dienst sowie für Zwecke der Rettung und Hilfeleistung.", "correct": true},
+          {"text": "Alle Vergnügungsfahrzeuge mit Maschinenantrieb.", "correct": false},
+          {"text": "Sämtliche Segelfahrzeuge mit mehr als 12 m2 Segelfläche.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 16 sind Fahrzeuge für hoheitliche Aufgaben, im gewässerkundlichen Dienst sowie für Rettung und Hilfeleistung von bestimmten Vorschriften befreit."
+      },
+      {
+        "stem": "In welchem Umfang sind die begünstigten Fahrzeuge von den genannten Abschnitten der Verordnung befreit?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "So weit, als es die Erfüllung ihrer Aufgaben unbedingt erfordert.", "correct": true},
+          {"text": "Vollständig und ohne jede Einschränkung.", "correct": false},
+          {"text": "Nur nachts und bei schlechter Sicht.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 16 gilt die Befreiung nur so weit, als es die Erfüllung ihrer Aufgaben unbedingt erfordert."
+      }
+    ]
+  },
+  {
+    "ref": "BSO art. 13",
+    "questions": [
+      {
+        "stem": "Welche Grundregel gilt für Bau, Ausrüstung und Unterhalt von Fahrzeugen?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Sie müssen so gebaut, ausgerüstet und unterhalten sein, dass die Verpflichtungen aus der Verordnung erfüllt werden können und die Sicherheit der Schifffahrt gewährleistet ist.", "correct": true},
+          {"text": "Sie müssen lediglich ein gültiges Kennzeichen tragen.", "correct": false},
+          {"text": "Sie müssen nur so gebaut sein, dass sie schwimmfähig sind.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 13 müssen Fahrzeuge so gebaut, ausgerüstet und unterhalten sein, dass die Verpflichtungen aus der Verordnung erfüllt werden können und die Sicherheit der Schifffahrt gewährleistet ist."
+      },
+      {
+        "stem": "Was kann bei Zweifeln bezüglich Bau und Ausrüstung verlangt werden?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Anlässlich von Untersuchungen können entsprechende Nachweise verlangt werden.", "correct": true},
+          {"text": "Das Fahrzeug wird ohne weitere Prüfung sofort stillgelegt.", "correct": false},
+          {"text": "Es darf keinerlei Nachweis verlangt werden.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 13 können bei Zweifeln über Bau und Ausrüstung anlässlich von Untersuchungen entsprechende Nachweise verlangt werden."
+      }
+    ]
+  },
+  {
+    "ref": "BSO art. 12",
+    "questions": [
+      {
+        "stem": "Ab welcher Maschinenleistung ist zur Führung eines Fahrzeuges mit Maschinenantrieb ein Schifferpatent erforderlich?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Wenn die Maschinenleistung 4,4 kW übersteigt.", "correct": true},
+          {"text": "Wenn die Maschinenleistung 2,2 kW übersteigt.", "correct": false},
+          {"text": "Wenn die Maschinenleistung 10 kW übersteigt.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 12 ist für ein Fahrzeug mit Maschinenantrieb, dessen Maschinenleistung 4,4 kW übersteigt, ein Schifferpatent erforderlich."
+      },
+      {
+        "stem": "Ab welcher Segelfläche ist zur Führung eines Segelfahrzeuges ein Schifferpatent erforderlich?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Bei mehr als 12 m2 Segelfläche.", "correct": true},
+          {"text": "Bei mehr als 6 m2 Segelfläche.", "correct": false},
+          {"text": "Bei jeder Segelfläche, unabhängig von der Grösse.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 12 ist für ein Segelfahrzeug mit mehr als 12 m2 Segelfläche ein Schifferpatent erforderlich."
+      }
+    ]
+  }
+]

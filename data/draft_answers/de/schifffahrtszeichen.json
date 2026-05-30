@@ -1,0 +1,27 @@
+[
+  {
+    "ref": "BSO art. 5",
+    "questions": [
+      {
+        "stem": "Wer regelt nach der BSO, wo und welche Schifffahrtszeichen anzubringen oder zu entfernen sind?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Die zuständige Behörde bestimmt, wo und welche Schifffahrtszeichen anzubringen oder zu entfernen sind.", "correct": true},
+          {"text": "Jeder Schiffsführer entscheidet selbst, wo Schifffahrtszeichen anzubringen oder zu entfernen sind.", "correct": false},
+          {"text": "Die Eigentümer der angrenzenden Ufergrundstücke bestimmen, welche Schifffahrtszeichen anzubringen sind.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 5 Abs. 3 bestimmt die zuständige Behörde, wo und welche Schifffahrtszeichen anzubringen oder zu entfernen sind."
+      },
+      {
+        "stem": "Welche Pflicht haben die Schiffsführer hinsichtlich der Schifffahrtszeichen nach BSO Art. 5?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Sie haben die Anordnungen zu befolgen, die ihnen durch die Schifffahrtszeichen erteilt werden.", "correct": true},
+          {"text": "Sie dürfen die Anordnungen der Schifffahrtszeichen nach eigenem Ermessen ignorieren.", "correct": false},
+          {"text": "Sie müssen Schifffahrtszeichen nur bei Nacht und schlechter Sicht beachten.", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 5 Abs. 1 haben die Schiffsführer die Anordnungen zu befolgen, die ihnen durch die Schifffahrtszeichen nach Absatz 2 erteilt werden."
+      }
+    ]
+  }
+]

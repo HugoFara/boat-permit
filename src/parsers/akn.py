@@ -69,7 +69,11 @@ def _article_number(article) -> str:
     return re.sub(r"^Art\.?\s*", "art. ", t, flags=re.I).strip()
 
 
-def parse(src: Source, manifest: dict) -> list[KnowledgeUnit]:
+def parse(src: Source, manifest: dict, tagger=None) -> list[KnowledgeUnit]:
+    # `tagger` is the country's theme classifier (ref,title,text,default)->id.
+    # Defaults to the Swiss tagger so CH builds are unchanged; non-CH fedlex
+    # sources (e.g. the German Bodensee BSO) pass their own taxonomy's tagger.
+    tag_theme = tagger or themes.tag_theme
     xml_path = os.path.join(os.path.dirname(__file__), "..", "..",
                             manifest["files"]["xml"]["path"])
     tree = etree.parse(xml_path)
@@ -98,8 +102,8 @@ def parse(src: Source, manifest: dict) -> list[KnowledgeUnit]:
 
         ref = f"{prefix} {number}"
         article_id = make_id(src.id, ref, lang)
-        theme = themes.tag_theme(ref=ref, title=f"{chapter} {title}", text=body,
-                                 default=src.default_theme)
+        theme = tag_theme(ref=ref, title=f"{chapter} {title}", text=body,
+                          default=src.default_theme)
 
         # Figures referenced inside this article.
         assets: list[Asset] = []
@@ -144,7 +148,7 @@ def parse(src: Source, manifest: dict) -> list[KnowledgeUnit]:
             art_by_num[am.group(1).lower()] = u.id
 
     units.extend(_parse_annexes(src, root, images, prefix, prov, annex_cites,
-                                art_by_num, lang))
+                                art_by_num, lang, tag_theme))
     return units
 
 
@@ -250,12 +254,13 @@ def _annex_token(annex_num: str) -> str:
 
 def _parse_annexes(src: Source, root, images: dict, prefix: str, prov: dict,
                    annex_cites: dict[str, list[str]], art_by_num: dict[str, str],
-                   lang: str = "fr") -> list[KnowledgeUnit]:
+                   lang: str = "fr", tag_theme=None) -> list[KnowledgeUnit]:
     """Walk annex <doc> elements and emit one annex_figure unit per referenced
     figure, captioned from its own table cell (per-image, not per-row). Each
     figure links to its governing article — by the explicit "Art. N" in its
     legend cell when present, else to whichever article(s) cite its annex — and
     carries its annex legend index. These hold the signal/buoyage diagrams."""
+    tag_theme = tag_theme or themes.tag_theme
     units: list[KnowledgeUnit] = []
     for doc in root.iter(AKN + "doc"):
         preface = doc.find(AKN + "preface")
@@ -288,8 +293,8 @@ def _parse_annexes(src: Source, root, images: dict, prefix: str, prov: dict,
                     # Prefer the precise article(s) named in the legend cell;
                     # fall back to whichever article(s) cite this whole annex.
                     cross = [art_by_num[n] for n in arts if n in art_by_num] or list(cites)
-                    theme = themes.tag_theme(ref=ref, title=annex_title, text=desc,
-                                             default="signalisation")
+                    theme = tag_theme(ref=ref, title=annex_title, text=desc,
+                                      default="signalisation")
                     units.append(KnowledgeUnit(
                         id=make_id(src.id, ref, lang), theme=theme, kind="annex_figure",
                         ref=ref, title=f"{annex_num} — {annex_title}".strip(" —"),

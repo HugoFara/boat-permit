@@ -1,0 +1,27 @@
+[
+  {
+    "ref": "BSO art. 4",
+    "questions": [
+      {
+        "stem": "Wie lange dauert nach der BSO ein kurzer Ton?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Etwa 1 Sekunde", "correct": true},
+          {"text": "Etwa 4 Sekunden", "correct": false},
+          {"text": "Etwa 10 Sekunden", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 4 ist unter einem kurzen Ton ein Ton in der Dauer von etwa 1 Sekunde zu verstehen."
+      },
+      {
+        "stem": "Welche Anforderung gilt nach der BSO für die Schallzeichen hinsichtlich der Tonhöhe?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Sie müssen in Tönen von gleich bleibender Höhe gegeben werden", "correct": true},
+          {"text": "Sie müssen in Tönen von ansteigender Höhe gegeben werden", "correct": false},
+          {"text": "Sie müssen in Tönen von abwechselnd hoher und tiefer Lage gegeben werden", "correct": false}
+        ],
+        "explanation": "Nach BSO Art. 4 müssen die vorgesehenen Schallzeichen in Tönen von gleich bleibender Höhe gegeben werden."
+      }
+    ]
+  }
+]
