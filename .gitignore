@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Regenerable pipeline outputs (rebuild with `python run.py build`)
+data/raw/
+data/assets/
+data/kb.sqlite
+data/kb.json
