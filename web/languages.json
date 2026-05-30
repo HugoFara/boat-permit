@@ -49,5 +49,23 @@
       "count": 189,
       "images": 71
     }
+  },
+  "gift": {
+    "de": {
+      "gift": "gift/boat-permit.de.gift",
+      "count": 185
+    },
+    "en": {
+      "gift": "gift/boat-permit.en.gift",
+      "count": 210
+    },
+    "fr": {
+      "gift": "gift/boat-permit.fr.gift",
+      "count": 211
+    },
+    "it": {
+      "gift": "gift/boat-permit.it.gift",
+      "count": 189
+    }
   }
 }

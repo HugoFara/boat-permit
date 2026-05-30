@@ -30,13 +30,16 @@ data/translate_verify.json
 data/figure_jobs*.json
 data/figure_verify*.json
 data/figure_verdicts*.json
-# Anki decks: the working copies under data/anki/ are throwaway (rebuild with
-# `python tools/anki.py export`). The web/anki/ copies ARE committed below so
-# GitHub Pages can serve them as a download (public-domain data).
+# Anki/GIFT exports: the working copies under data/anki/ + data/gift/ are
+# throwaway (rebuild with `python tools/anki.py export` / `tools/gift.py export`).
+# The web/anki/ + web/gift/ copies ARE committed below so GitHub Pages can serve
+# them as downloads (public-domain data).
 data/anki/
+data/gift/
 
 # Static-player data bundle (rebuild with `python run.py web`). NOW COMMITTED so
 # GitHub Pages can serve it (the data is public-domain law). Regenerate with
 # `python run.py web` after changing the bank, then commit the diff.
 #   web/questions.json, web/questions.<lang>.json, web/languages.json, web/assets/
 #   web/anki/boat-permit.<lang>.{apkg,tsv}  (the in-page Anki download)
+#   web/gift/boat-permit.<lang>.gift        (the in-page Moodle/GIFT download)

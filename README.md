@@ -67,8 +67,9 @@ signalisation diagrams (lights, buoys, boards), captioned from their annex table
 | **Figures** | `python run.py questions` | Deterministically generates figure-recognition questions from the captioned annex diagrams. Confusion-set distractors keyed by signal type; sha1-seeded so the output is stable. Auto-approved. |
 | **Draft** | `python run.py draft --theme … ` | Drafts prose questions with an LLM, strictly source-grounded (a lexical grounding guard drops likely hallucinations). Lands in the bank as **`pending`**. Needs an API key — see `requirements.txt`. A built-in **seed set** of hand-authored questions is available via `--seed`. |
 | **Review** | `python run.py review --list / --approve / --reject` | Human review gate. Only `auto_approved` + `approved` questions are ever exported. |
-| **Web** | `python run.py web` | Re-exports the approved bank to `questions.json`, bundles it with the figure assets into `web/`, and writes the per-language **Anki decks** (`web/anki/`) the player offers as a download. |
+| **Web** | `python run.py web` | Re-exports the approved bank to `questions.json`, bundles it with the figure assets into `web/`, and writes the per-language **Anki decks** (`web/anki/`) + **Moodle GIFT** files (`web/gift/`) the player offers as downloads. |
 | **Anki** | `python tools/anki.py export [lang]` | Exports the bank to a real `.apkg` (zip + SQLite, figures bundled, one **subdeck per theme**) and an editable `.tsv`. `python tools/anki.py import file.tsv --apply` folds edits back as **pending** drafts. Standard library only. |
+| **GIFT** | `python tools/gift.py export [lang]` | Exports the bank to a **Moodle GIFT** file (`.gift`), one `$CATEGORY` per theme, figures embedded as base64 `data:` URIs so it's self-contained. Single-answer questions use `=`/`~`; the exam's two-correct questions use weighted `~%50%`. Standard library only. |
 
 The bank currently exports **795 reviewed questions** across FR/DE/IT/EN
 (figure-recognition + grounded prose + night-lighting rules), with more drafts
@@ -80,9 +81,9 @@ modes: a chronometered **exam** (60 questions, balanced across themes) and a
 **practice** mode with source-cited corrections. You can **study by domain**
 (toggle which exam themes a run draws from) and the results screen breaks the
 **score down per domain**. Scoring mirrors the real exam exactly. The player also
-offers the **Anki deck** for the active language as a one-click download, for
-spaced-repetition study offline. The UI ships in four languages with a language
-switcher (see below).
+offers the **Anki deck** and a **Moodle GIFT** file for the active language as
+one-click downloads, for study offline or in another platform. The UI ships in
+four languages with a language switcher (see below).
 
 #### Anki round-trip
 
@@ -165,9 +166,11 @@ src/
     seed_prose.py      hand-authored seed questions
 tools/
   anki.py              Anki .apkg/.tsv export + round-trip import (stdlib only)
+  gift.py              Moodle GIFT export, figures embedded as data URIs (stdlib)
   subagent_*.py        no-API-key drafting/figure/translation pipelines
 web/                   dependency-free static player (index.html, app.js, style.css)
-  anki/                prebuilt per-language Anki decks (the in-page download)
+  anki/                prebuilt per-language Anki decks (in-page download)
+  gift/                prebuilt per-language Moodle GIFT files (in-page download)
 tests/                 plain-assert tests (run: python tests/test_*.py)
 data/                  generated (gitignored): raw cache, assets, *.sqlite, *.json
 ```

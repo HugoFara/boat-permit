@@ -183,16 +183,22 @@ function renderDomains() {
   });
 }
 
-/* Offline-study downloads: the prebuilt Anki deck + editable TSV for this lang. */
+/* Offline-study downloads for this language: the prebuilt Anki deck (+ editable
+ * TSV) and the Moodle GIFT file. Hidden entirely if the manifest has neither. */
 function renderAnki() {
   const box = $("anki-dl");
   if (!box) return;
   const a = (MANIFEST.anki || {})[LANG];
-  if (!a) { box.classList.add("hidden"); box.innerHTML = ""; return; }
+  const g = (MANIFEST.gift || {})[LANG];
+  if (!a && !g) { box.classList.add("hidden"); box.innerHTML = ""; return; }
   box.classList.remove("hidden");
+  const anki = a
+    ? `<a class="dlbtn" href="${a.apkg}" download>${T("ankiApkg", { n: a.count })}</a>
+       <a class="dlbtn ghost" href="${a.tsv}" download>${T("ankiTsv")}</a>` : "";
+  const gift = g
+    ? `<a class="dlbtn ghost" href="${g.gift}" download>${T("giftBtn")}</a>` : "";
   box.innerHTML = `<span class="anki-label">${T("ankiTitle")}</span>
-    <a class="dlbtn" href="${a.apkg}" download>${T("ankiApkg", { n: a.count })}</a>
-    <a class="dlbtn ghost" href="${a.tsv}" download>${T("ankiTsv")}</a>
+    ${anki}${gift}
     <span class="fine">${T("ankiHint")}</span>`;
 }
 

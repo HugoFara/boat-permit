@@ -321,19 +321,26 @@ def cmd_web(args):
                            "unofficial": lg not in qschema.GROUNDED_LANGS}
                       for lg in langs},
     }
-    # Anki decks (one .apkg + editable .tsv per language) for the in-page download.
-    from tools import anki
+    # Offline-study downloads: Anki decks (.apkg + editable .tsv) and a Moodle
+    # GIFT file, one set per language, for the in-page download links.
+    from tools import anki, gift
     anki_dir = os.path.join(web, "anki")
-    if os.path.exists(anki_dir):
-        shutil.rmtree(anki_dir)
-    anki_avail = {}
+    gift_dir = os.path.join(web, "gift")
+    for d in (anki_dir, gift_dir):
+        if os.path.exists(d):
+            shutil.rmtree(d)
+    anki_avail, gift_avail = {}, {}
     for lg in langs:
         n, n_img = anki.export_to(conn, anki_dir, lg)
         if n:
             anki_avail[lg] = {"apkg": f"anki/boat-permit.{lg}.apkg",
                               "tsv": f"anki/boat-permit.{lg}.tsv",
                               "count": n, "images": n_img}
+        ng = gift.export_to(conn, gift_dir, lg)
+        if ng:
+            gift_avail[lg] = {"gift": f"gift/boat-permit.{lg}.gift", "count": ng}
     manifest["anki"] = anki_avail
+    manifest["gift"] = gift_avail
 
     with open(os.path.join(web, "languages.json"), "w", encoding="utf-8") as fh:
         json.dump(manifest, fh, ensure_ascii=False, indent=2)
@@ -342,7 +349,7 @@ def cmd_web(args):
     print(f"✓ static site bundled: {web}/")
     print(f"  {total} questions · {copied} images copied")
     anki_summary = ", ".join(f"{lg}({anki_avail[lg]['count']})" for lg in anki_avail)
-    print(f"  Anki decks: {anki_summary or 'none'}")
+    print(f"  Anki decks: {anki_summary or 'none'} · GIFT: {', '.join(gift_avail) or 'none'}")
     print(f"  languages with content: {', '.join(f'{lg}({per_lang[lg]})' for lg in langs) or 'none'}")
     print(f"  preview: python -m http.server -d web 8000  →  http://localhost:8000")
 

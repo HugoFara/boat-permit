@@ -106,7 +106,8 @@ const STRINGS = {
     ankiTitle: "Réviser hors-ligne avec Anki :",
     ankiApkg: "Paquet Anki (.apkg, {n} cartes)",
     ankiTsv: "Tableau éditable (.tsv)",
-    ankiHint: "Importez le .apkg dans Anki (ordinateur/mobile). Le .tsv permet de proposer des corrections.",
+    giftBtn: "Moodle (GIFT)",
+    ankiHint: "Importez le .apkg dans Anki (ordinateur/mobile) ou le .gift dans Moodle. Le .tsv permet de proposer des corrections.",
     loadError:
       "<b>Impossible de charger les questions.</b> Lancez d’abord " +
       "<code>python run.py questions &amp;&amp; python run.py web</code>, puis servez le dossier.",
@@ -170,7 +171,8 @@ const STRINGS = {
     ankiTitle: "Offline lernen mit Anki:",
     ankiApkg: "Anki-Paket (.apkg, {n} Karten)",
     ankiTsv: "Editierbare Tabelle (.tsv)",
-    ankiHint: "Importieren Sie das .apkg in Anki (Desktop/Mobil). Mit dem .tsv können Sie Korrekturen vorschlagen.",
+    giftBtn: "Moodle (GIFT)",
+    ankiHint: "Importieren Sie das .apkg in Anki (Desktop/Mobil) oder das .gift in Moodle. Mit dem .tsv können Sie Korrekturen vorschlagen.",
     loadError:
       "<b>Fragen konnten nicht geladen werden.</b> Führen Sie zuerst " +
       "<code>python run.py questions &amp;&amp; python run.py web</code> aus und hosten Sie den Ordner.",
@@ -234,7 +236,8 @@ const STRINGS = {
     ankiTitle: "Studia offline con Anki:",
     ankiApkg: "Pacchetto Anki (.apkg, {n} carte)",
     ankiTsv: "Tabella modificabile (.tsv)",
-    ankiHint: "Importa il .apkg in Anki (desktop/mobile). Il .tsv serve a proporre correzioni.",
+    giftBtn: "Moodle (GIFT)",
+    ankiHint: "Importa il .apkg in Anki (desktop/mobile) o il .gift in Moodle. Il .tsv serve a proporre correzioni.",
     loadError:
       "<b>Impossibile caricare le domande.</b> Esegui prima " +
       "<code>python run.py questions &amp;&amp; python run.py web</code>, poi servi la cartella.",
@@ -297,7 +300,8 @@ const STRINGS = {
     ankiTitle: "Study offline with Anki:",
     ankiApkg: "Anki deck (.apkg, {n} cards)",
     ankiTsv: "Editable table (.tsv)",
-    ankiHint: "Import the .apkg into Anki (desktop/mobile). The .tsv lets you suggest corrections.",
+    giftBtn: "Moodle (GIFT)",
+    ankiHint: "Import the .apkg into Anki (desktop/mobile) or the .gift into Moodle. The .tsv lets you suggest corrections.",
     loadError:
       "<b>Could not load the questions.</b> First run " +
       "<code>python run.py questions &amp;&amp; python run.py web</code>, then serve the folder.",
