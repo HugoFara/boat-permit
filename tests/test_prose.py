@@ -48,6 +48,33 @@ def test_select_and_prompt():
     assert "RNL art. 64" in p and "UNIQUEMENT" in p   # source-grounded instruction
 
 
+def test_build_prompt_is_language_specific():
+    u = {"ref": "COLREG Rule 5", "title": "Look-out", "text": "Every vessel …",
+         "theme": "steering_sailing", "lang": "en"}
+    en = prose.build_prompt(u, 2, "en")
+    de = prose.build_prompt(u, 2, "de")
+    fr = prose.build_prompt(u, 2, "fr")
+    assert "Write 2 question(s) in English." in en and "COLREG Rule 5" in en
+    assert "Frage(n) auf Deutsch" in de and "COLREG Rule 5" in de
+    assert "en français" in fr                       # the FR template, unchanged
+    # an unknown language falls back to the French base template
+    assert prose.build_prompt(u, 2, "xx") == fr
+    assert prose.build_prompt(u, 2) == fr             # default stays French
+
+
+def test_grounding_is_language_aware():
+    # German: umlaut/ß words are content words and match the source
+    de_src = "Die Ausweichregeln gelten für alle Fahrzeuge auf dem Bodensee."
+    assert prose.grounding_score("Ausweichregeln Fahrzeuge", de_src, "de") == 1.0
+    assert prose.grounding_score("Einhorn Teleportation", de_src, "de") == 0.0
+    # English
+    en_src = "Every vessel shall maintain a proper look-out by sight and hearing."
+    assert prose.grounding_score("proper look-out", en_src, "en") == 1.0
+    # French behaviour is unchanged (default lang)
+    assert prose.grounding_score("propulsion mécanique",
+                                 "à propulsion mécanique", "fr") == 1.0
+
+
 def test_parse_sets_pending_and_kind():
     unit = {"id": "u1", "ref": "RNL art. 64", "title": "t", "text": "x",
             "theme": "eaux_frontalieres", "source_name": "RNL", "source_url": "u",

@@ -249,29 +249,44 @@ def _questions_de(args, country):
     print(f"  bundle to web: deferred (player country switcher) — JSON at {qjson}")
 
 
+def _draft_themes(country) -> list[str]:
+    """Default themes to draft for a country. Switzerland keeps the curated prose
+    theme list (signalisation is templated figures, not drafted); other countries
+    draft every theme in their taxonomy (units with no prose text just yield none)."""
+    if country.code == countries.DEFAULT:
+        from src.questions import prose
+        return list(prose.PROSE_THEMES)
+    return list(country.themes)
+
+
 def cmd_draft(args):
     """Phase-2 step 5: LLM-draft questions for the prose/law themes into the bank
     as `pending` (held behind the review gate). Needs a built bank from
-    `run.py questions`; uses the Anthropic API (ANTHROPIC_API_KEY)."""
+    `run.py questions`; uses the Anthropic API (ANTHROPIC_API_KEY). Drafting is
+    per country + language: `--country INT` over the COLREG bank drafts English
+    questions, `--country DE` drafts German, etc. (default: the Swiss French bank)."""
     from src.questions import prose, schema as qschema
+    country = _country(args)
+    qdb, qjson = _qpaths(country.code)
+    lang = getattr(args, "lang", None) or country.default_lang
     if not os.path.exists(DB_PATH):
         sys.exit("no knowledge base — run `python run.py build` first")
     themes = ([t.strip() for t in args.theme.split(",")] if args.theme
-              else list(prose.PROSE_THEMES))
+              else _draft_themes(country))
     kb = sqlite3.connect(DB_PATH)
 
     if args.seed:           # load the hand-authored curated seed (no API call)
         from src.questions import seed_prose
         qs, st = prose.seed_questions(kb, seed_prose.SEED)
         kb.close()
-        conn = qschema.connect(QDB_PATH)
+        conn = qschema.connect(qdb)
         qschema.write_questions(conn, qs)
         # Seeds load as PENDING by design; re-apply any recorded review decisions
         # so a rebuilt bank keeps its approvals/rejections (durable, committed).
         from src.questions import seed_review
         applied = seed_review.apply(conn)
         conn.commit()
-        qschema.export_json(conn, QJSON_PATH, exportable_only=True)
+        qschema.export_json(conn, qjson, exportable_only=True)
         status = qschema.counts_by_status(conn)
         conn.close()
         print(f"✓ seed loaded: {st['kept']}/{st['entries']} questions added as PENDING "
@@ -284,10 +299,10 @@ def cmd_draft(args):
 
     if args.dry_run:        # show the prompt the model would receive, no API call
         for t in themes:
-            units = prose.select_units(kb, t, limit=1)
+            units = prose.select_units(kb, t, limit=1, lang=lang)
             if units:
-                print(f"--- prompt for {t} / {units[0]['ref']} ---\n")
-                print(prose.build_prompt(units[0], args.per_unit))
+                print(f"--- prompt for {t} / {units[0]['ref']} [{lang}] ---\n")
+                print(prose.build_prompt(units[0], args.per_unit, lang))
                 break
         return
 
@@ -300,9 +315,9 @@ def cmd_draft(args):
 
     allq, totals = [], {"kept": 0, "drafted": 0, "weak_grounding": 0, "invalid": 0}
     for t in themes:
-        print(f"→ drafting {t} …")
+        print(f"→ drafting {t} [{lang}] …")
         qs, st = prose.draft_for_theme(kb, drafter, t, limit=args.limit,
-                                       per_unit=args.per_unit)
+                                       per_unit=args.per_unit, lang=lang)
         allq += qs
         for k in totals:
             totals[k] += st.get(k, 0)
@@ -310,12 +325,12 @@ def cmd_draft(args):
               f"({st['weak_grounding']} weak-grounding, {st['invalid']} invalid)")
     kb.close()
 
-    conn = qschema.connect(QDB_PATH)
+    conn = qschema.connect(qdb)
     qschema.write_questions(conn, allq)
-    qschema.export_json(conn, QJSON_PATH, exportable_only=True)
+    qschema.export_json(conn, qjson, exportable_only=True)
     status = qschema.counts_by_status(conn)
     conn.close()
-    print(f"\n✓ {totals['kept']} drafts added as PENDING → {QDB_PATH}")
+    print(f"\n✓ {totals['kept']} drafts added as PENDING → {qdb}")
     print(f"  bank by status: {status}")
     print("  review with: python run.py review --list")
 
@@ -794,6 +809,11 @@ def main():
                         f"{_cantons.DEFAULT_CANTON})")
 
     d = sub.add_parser("draft", help="LLM-draft prose/law questions (pending review)")
+    d.add_argument("--country", default=countries.DEFAULT, choices=countries.codes(),
+                   help=f"country whose bank to draft into (default {countries.DEFAULT}); "
+                        "INT drafts COLREG (en), DE drafts the German law, etc.")
+    d.add_argument("--lang", help="content language to draft (default: the country's "
+                                  "default language)")
     d.add_argument("--theme", help="comma-separated themes (default: all prose themes)")
     d.add_argument("--limit", type=int, default=0, help="max units per theme")
     d.add_argument("--per-unit", type=int, default=2, help="questions per unit")

@@ -27,14 +27,21 @@ from typing import Callable, Protocol
 
 from .schema import Question, Choice, Provenance, make_question_id, validate
 
-# KB theme -> question kind (all in schema.KINDS).
+# KB theme -> question kind (all in schema.KINDS). Theme ids are unique across the
+# per-country taxonomies (src/themes.py, countries/de_themes.py, countries/
+# intl_themes.py), so one merged map serves every language; anything not listed
+# (German verkehrsregeln/…, all COLREG themes) falls through to "rule_mc".
 _KIND_BY_THEME = {
+    # Switzerland (fr)
     "definitions": "definition_mc",
     "meteorologie": "meteo_mc",
     "matelotage": "matelotage_mc",
     "eaux_frontalieres": "frontiere_mc",
     "lois": "rule_mc",
     "signalisation": "rule_mc",
+    # Germany (de) — the distinctively-typed themes; the rest default to rule_mc
+    "definitionen": "definition_mc",
+    "wetterkunde": "meteo_mc",
 }
 
 # Themes drafted here (signalisation is covered by templated figures instead).
@@ -73,7 +80,7 @@ _SCHEMA_HINT = {
             "items": {
                 "type": "object",
                 "properties": {
-                    "stem": {"type": "string", "description": "La question, en français."},
+                    "stem": {"type": "string", "description": "The question stem, in the exam language."},
                     "polarity": {"type": "string", "enum": ["affirmative", "negative"]},
                     "choices": {
                         "type": "array", "minItems": 3, "maxItems": 3,
@@ -87,7 +94,7 @@ _SCHEMA_HINT = {
                         },
                     },
                     "explanation": {"type": "string",
-                                    "description": "Justification brève citant l'article source."},
+                                    "description": "A brief justification citing the source article/rule."},
                 },
                 "required": ["stem", "polarity", "choices", "explanation"],
             },
@@ -97,9 +104,7 @@ _SCHEMA_HINT = {
 }
 
 
-def build_prompt(unit: dict, n_questions: int) -> str:
-    """A strict, source-grounded drafting instruction. The model may use ONLY the
-    supplied text — this is what keeps questions licence-clean and factual."""
+def _prompt_fr(unit: dict, n_questions: int) -> str:
     return f"""Tu rédiges des questions d'examen pour le permis de conduire un bateau \
 (catégorie A, Suisse, lac Léman), à partir UNIQUEMENT du texte juridique fourni \
 ci-dessous. N'utilise aucune connaissance extérieure ; chaque réponse correcte \
@@ -123,6 +128,66 @@ Texte source :
 {unit['text']}
 \"\"\"
 """
+
+
+def _prompt_de(unit: dict, n_questions: int) -> str:
+    return f"""Du formulierst Prüfungsfragen für die Bootsführerschein-Theorieprüfung \
+AUSSCHLIESSLICH auf Grundlage des unten stehenden Rechtstextes. Verwende KEIN \
+Wissen von außerhalb; jede richtige Antwort muss allein aus dem Text belegbar sein.
+
+Regeln:
+- Formuliere {n_questions} Frage(n) auf Deutsch.
+- Genau 3 Antwortmöglichkeiten je Frage, davon 1 oder 2 richtig (wie in der Prüfung).
+- Die Distraktoren müssen plausibel, aber laut Text eindeutig FALSCH sein \
+(keine mehrdeutige Falle, kein Distraktor, der auch richtig sein könnte).
+- „polarity“ = „negative“, wenn die Frage danach fragt, was NICHT zutrifft \
+(„Welche Aussage ist falsch?“), sonst „affirmative“.
+- „explanation“: ein Satz mit Bezug auf die Fundstelle ({unit['ref']}).
+- Gib keine bestehende Fragensammlung wörtlich wieder; formuliere selbst aus dem Text.
+
+Fundstelle: {unit['ref']} — {unit['title']}
+
+Quelltext:
+\"\"\"
+{unit['text']}
+\"\"\"
+"""
+
+
+def _prompt_en(unit: dict, n_questions: int) -> str:
+    return f"""You are writing exam questions for a boating theory exam, based ONLY \
+on the legal/regulatory text provided below. Use NO outside knowledge; every \
+correct answer must be justifiable from the text alone.
+
+Rules:
+- Write {n_questions} question(s) in English.
+- Exactly 3 options per question, of which 1 or 2 are correct (as in the exam).
+- Distractors must be plausible but clearly FALSE according to the text \
+(no ambiguous traps, no distractor that could also be correct).
+- "polarity" = "negative" if the stem asks what is NOT the case \
+("Which of these statements is false?"), otherwise "affirmative".
+- "explanation": one sentence citing the reference ({unit['ref']}).
+- Do not reproduce any existing question bank verbatim; formulate your own from the text.
+
+Reference: {unit['ref']} — {unit['title']}
+
+Source text:
+\"\"\"
+{unit['text']}
+\"\"\"
+"""
+
+
+_PROMPTS: dict[str, Callable[[dict, int], str]] = {
+    "fr": _prompt_fr, "de": _prompt_de, "en": _prompt_en,
+}
+
+
+def build_prompt(unit: dict, n_questions: int, lang: str = "fr") -> str:
+    """A strict, source-grounded drafting instruction in ``lang``. The model may
+    use ONLY the supplied text — this is what keeps questions licence-clean and
+    factual. Unknown languages fall back to French (the project's base language)."""
+    return _PROMPTS.get(lang, _prompt_fr)(unit, n_questions)
 
 
 # --- drafter (swappable) -------------------------------------------------------
@@ -155,7 +220,7 @@ class AnthropicDrafter:
         msg = self._client.messages.create(
             model=self.model, max_tokens=self.max_tokens,
             tools=[{"name": "emit_questions",
-                    "description": "Émettre les questions rédigées.",
+                    "description": "Emit the drafted exam questions.",
                     "input_schema": _SCHEMA_HINT}],
             tool_choice={"type": "tool", "name": "emit_questions"},
             messages=[{"role": "user", "content": prompt}])
@@ -166,25 +231,46 @@ class AnthropicDrafter:
 
 
 # --- parsing + grounding -------------------------------------------------------
-_WORD = re.compile(r"[a-zàâäéèêëîïôöùûüç]{4,}")
-# Very common words carry no grounding signal.
-_STOP = {"dans", "pour", "avec", "sans", "leur", "elle", "être", "cette", "plus",
-         "doit", "doivent", "peut", "peuvent", "tous", "toute", "toutes", "selon",
-         "lorsque", "ainsi", "entre", "aussi", "lequel", "laquelle", "quelle"}
+# Grounding is lexical, so the alphabet + stopword set are language-specific. The
+# regex only keeps tokens of length ≥4, so short function words (der/die/the/les)
+# never appear and need not be listed. FR is preserved exactly (byte-stable bank).
+_LETTERS = {
+    "fr": "a-zàâäéèêëîïôöùûüç",
+    "de": "a-zäöüß",
+    "en": "a-z",
+}
+_STOP_BY_LANG: dict[str, set[str]] = {
+    "fr": {"dans", "pour", "avec", "sans", "leur", "elle", "être", "cette", "plus",
+           "doit", "doivent", "peut", "peuvent", "tous", "toute", "toutes", "selon",
+           "lorsque", "ainsi", "entre", "aussi", "lequel", "laquelle", "quelle"},
+    "de": {"oder", "eine", "einen", "einem", "eines", "einer", "sind", "wird",
+           "werden", "muss", "müssen", "kann", "können", "darf", "dürfen", "nicht",
+           "auch", "wenn", "sowie", "über", "unter", "durch", "diese", "dieser",
+           "dieses", "sich", "dass", "nach", "beim", "sein", "seine", "ihre",
+           "alle", "allen", "aller", "sowohl", "wie"},
+    "en": {"that", "this", "these", "those", "which", "shall", "must", "with",
+           "from", "into", "when", "than", "such", "each", "other", "also", "upon",
+           "within", "their", "there", "where", "while", "they", "them", "have",
+           "been", "being", "does", "then", "whether", "under", "over", "between",
+           "because", "about", "would", "could", "should", "whose", "they"},
+}
 
 
-def _content_words(s: str) -> set[str]:
-    return {w for w in _WORD.findall(s.lower()) if w not in _STOP}
+def _content_words(s: str, lang: str = "fr") -> set[str]:
+    cls = _LETTERS.get(lang, _LETTERS["fr"])
+    stop = _STOP_BY_LANG.get(lang, _STOP_BY_LANG["fr"])
+    return {w for w in re.findall(rf"[{cls}]{{4,}}", s.lower()) if w not in stop}
 
 
-def grounding_score(answer_text: str, source_text: str) -> float:
+def grounding_score(answer_text: str, source_text: str, lang: str = "fr") -> float:
     """Fraction of the correct answer's content words that appear in the source.
     Low = the answer may be invented (or merely paraphrased) → reviewer should
-    look closely. 1.0 = every content word is anchored in the text."""
-    aw = _content_words(answer_text)
+    look closely. 1.0 = every content word is anchored in the text. ``lang`` picks
+    the alphabet + stopwords (defaults to French)."""
+    aw = _content_words(answer_text, lang)
     if not aw:
         return 1.0
-    sw = _content_words(source_text)
+    sw = _content_words(source_text, lang)
     return round(len(aw & sw) / len(aw), 3)
 
 
@@ -245,7 +331,7 @@ def seed_questions(kb: sqlite3.Connection, entries: list[dict],
             stats["invalid"] += 1
             continue
         correct = " ".join(c.text for c in q.choices if c.is_correct)
-        if grounding_score(correct, u["text"]) < 0.34:
+        if grounding_score(correct, u["text"], u["lang"]) < 0.34:
             stats["weak_grounding"] += 1
             continue
         out.append(q)
@@ -268,7 +354,7 @@ def draft_for_theme(kb: sqlite3.Connection, drafter: Drafter, theme: str,
     for u in units:
         u["_generator"] = drafter.name
         try:
-            raw = drafter.draft(build_prompt(u, per_unit))
+            raw = drafter.draft(build_prompt(u, per_unit, lang))
             drafts = parse_drafts(raw, u)
         except Exception:
             stats["errored"] += 1
@@ -279,7 +365,7 @@ def draft_for_theme(kb: sqlite3.Connection, drafter: Drafter, theme: str,
                 stats["invalid"] += 1
                 continue
             correct_text = " ".join(c.text for c in q.choices if c.is_correct)
-            if grounding_score(correct_text, u["text"]) < min_grounding:
+            if grounding_score(correct_text, u["text"], lang) < min_grounding:
                 stats["weak_grounding"] += 1
                 continue
             kept.append(q)
