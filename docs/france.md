@@ -1,46 +1,48 @@
-# France — *permis plaisance* (extension of the study tool)
+# France — *permis plaisance* (extension de l'outil de révision)
 
-This documents the France extension of the boat-permit study tool. The legal and
-editorial boundary is the **same as the Swiss core**: every question is *derived
-from primary sources* and carries a citation back to the text it came from. We do
-**not** scrape, store, or reproduce any operator's exam bank.
+Ce document décrit l'extension France de l'outil de révision boat-permit. La limite
+juridique et éditoriale est **la même que pour le cœur suisse** : chaque question est
+*dérivée de sources primaires* et porte une citation renvoyant au texte dont elle est
+issue. Nous ne récupérons, ne stockons ni ne reproduisons **aucune** banque d'examen
+d'un opérateur.
 
-## Permit types
+## Types de permis
 
-France calls the recreational driving licence the **permis plaisance** (*permis de
-conduire les bateaux de plaisance à moteur*). It is required for a motor boat
-whose engine power exceeds **4,5 kW (≈6 ch)**. It has two base **options** and two
-**extensions**:
+La France appelle le permis de conduite de loisir le **permis plaisance** (*permis de
+conduire les bateaux de plaisance à moteur*). Il est requis pour un bateau à moteur
+dont la puissance du moteur dépasse **4,5 kW (≈6 ch)**. Il comporte deux **options**
+de base et deux **extensions** :
 
-| Code | Permit | Authorises | Theory exam |
+| Code | Permis | Autorise | Examen théorique |
 |------|--------|-----------|-------------|
-| `cotiere` | Option **côtière** | Sea navigation up to **6 milles nautiques** from a shelter, day and night, any engine power | 40 QCM, ≤5 errors |
-| `eaux_interieures` | Option **eaux intérieures** | Rivers, canals, lakes and inland waterways | 40 QCM, ≤5 errors |
-| `hauturiere` | Extension **hauturière** | Offshore, **no distance limit** (requires the côtière option first) | Theory only — chart work, tides, bearings, route |
-| `grande_plaisance` | Extension **grande plaisance eaux intérieures** | Inland boats **over 20 m** | Practical only (no QCM) |
+| `cotiere` | Option **côtière** | Navigation en mer jusqu'à **6 milles nautiques** d'un abri, de jour comme de nuit, quelle que soit la puissance du moteur | 40 QCM, ≤5 erreurs |
+| `eaux_interieures` | Option **eaux intérieures** | Fleuves, canaux, lacs et voies navigables intérieures | 40 QCM, ≤5 erreurs |
+| `hauturiere` | Extension **hauturière** | Hauturier, **sans limite de distance** (nécessite d'abord l'option côtière) | Théorie seulement — travail sur carte, marées, relèvements, route |
+| `grande_plaisance` | Extension **grande plaisance eaux intérieures** | Bateaux fluviaux de **plus de 20 m** | Pratique seulement (pas de QCM) |
 
-The tool seeds the two base options (`cotiere`, `eaux_interieures`). The two
-extensions are registered for completeness; the hauturière is chart-exercise based
-(not a QCM bank) and grande plaisance has no theory exam.
+L'outil amorce les deux options de base (`cotiere`, `eaux_interieures`). Les deux
+extensions sont enregistrées par souci d'exhaustivité ; l'hauturière repose sur des
+exercices de carte (pas une banque de QCM) et la grande plaisance n'a pas d'examen
+théorique.
 
-## Exam structure
+## Structure de l'examen
 
-Both base options use the **same** format (Arrêté du 28 septembre 2007, art. 1 &
-art. 2):
+Les deux options de base utilisent le **même** format (Arrêté du 28 septembre 2007, art. 1 &
+art. 2) :
 
-- **40** multiple-choice questions, single best answer.
-- Pass = **at most 5 errors** (i.e. **35/40**).
-- ~30 minutes, answered on a tablet.
-- A passed theory exam is valid **18 months** to take the practical.
+- **40** questions à choix multiple, une seule meilleure réponse.
+- Réussite = **au plus 5 erreurs** (c.-à-d. **35/40**).
+- ~30 minutes, répondu sur tablette.
+- Un examen théorique réussi est valable **18 mois** pour passer l'épreuve pratique.
 
-In this project's point model that is `40 questions × 1 point = 40 total, pass 35,
-all-or-nothing`. The exam is **national** — there is no cantonal/regional variance
-(unlike the Swiss VKS exam), so the player shows no region picker for France.
+Dans le modèle de points de ce projet, cela donne `40 questions × 1 point = 40 au total, réussite à 35,
+tout ou rien`. L'examen est **national** — il n'y a aucune variation cantonale/régionale
+(contrairement à l'examen suisse VKS), donc le lecteur n'affiche pas de sélecteur de région pour la France.
 
-## Knowledge domains (the official *référentiel*)
+## Domaines de connaissances (le *référentiel* officiel)
 
-From the annexes of the Arrêté du 28 septembre 2007. Grouped here into the exam
-themes the tool balances on (`src/fr/themes_fr.py`):
+D'après les annexes de l'Arrêté du 28 septembre 2007. Regroupés ici dans les thèmes
+d'examen sur lesquels l'outil s'équilibre (`src/fr/themes_fr.py`) :
 
 **Option côtière**
 - `securite` — sécurité, matériel d'armement (Division 240), catégories de conception, limites d'embarquement
@@ -60,18 +62,18 @@ themes the tool balances on (`src/fr/themes_fr.py`):
 - `reglementation` — police de la navigation, permis, VHF fluviale (partagé)
 - `environnement` — protection de l'environnement (partagé)
 
-## Legal sources & licensing
+## Sources juridiques & licences
 
-French **official acts** (laws, decrees, *arrêtés*) are excluded from copyright,
-and Légifrance / data.gouv.fr content is published under the **Licence Ouverte /
-Open Licence 2.0 (Etalab)** — free reuse, commercial and non-commercial, worldwide,
-with attribution. This is the France analogue of the Swiss public-domain basis.
+Les **actes officiels** français (lois, décrets, *arrêtés*) sont exclus du droit
+d'auteur, et le contenu de Légifrance / data.gouv.fr est publié sous la **Licence Ouverte /
+Open Licence 2.0 (Etalab)** — réutilisation libre, commerciale et non commerciale, dans le monde entier,
+avec attribution. C'est l'équivalent français de la base suisse relevant du domaine public.
 
-Primary sources (`src/fr/sources_fr.py`). Every question is grounded in one of these
-and was **verified against the actual text** (2026-05-30), with a precise
-article/rule reference — never paraphrased from memory:
+Sources primaires (`src/fr/sources_fr.py`). Chaque question est ancrée dans l'une d'elles
+et a été **vérifiée par rapport au texte réel** (2026-05-30), avec une référence précise
+d'article/de règle — jamais paraphrasée de mémoire :
 
-| id | Source | Reference |
+| id | Source | Référence |
 |----|--------|-----------|
 | `ripam` | RIPAM / COLREG — abordages en mer (incl. annexe IV, signaux de détresse) | Légifrance JORFTEXT000000305722 / OMI |
 | `rgp` | Règlement général de police de la navigation intérieure | Code des transports, art. A.4241-x |
@@ -89,30 +91,30 @@ article/rule reference — never paraphrased from memory:
 | `code_transports` | Code des transports — alcoolémie, titre de navigation, RPP | art. L.4274-14, L.4221-1 |
 | `prefet_maritime` | Arrêtés des préfets maritimes — bande des 300 m ; mouillage/posidonie | PREMAR Méditerranée |
 
-**Not ingested:** the operator exam banks (La Poste, Dekra, SGS, Bureau Veritas
-have run the QCM under confidential public contract since June 2022) and any paid
-prep app's questions.
+**Non intégrées :** les banques d'examen des opérateurs (La Poste, Dekra, SGS, Bureau Veritas
+font passer les QCM dans le cadre d'un marché public confidentiel depuis juin 2022) et les
+questions de toute application de préparation payante.
 
-## No official public question bank
+## Pas de banque de questions publique officielle
 
-Unlike some jurisdictions, France publishes **no** free official QCM bank. The
-exam questions are operator-confidential. So — exactly as for Switzerland — the
-tool **derives** its questions from the primary legal texts above, each with a
-provenance citation, and ships them behind the same review gate.
+Contrairement à certaines juridictions, la France ne publie **aucune** banque de QCM
+officielle gratuite. Les questions d'examen sont confidentielles, propres aux opérateurs. Donc
+— exactement comme pour la Suisse — l'outil **dérive** ses questions des textes juridiques primaires
+ci-dessus, chacune avec une citation de provenance, et les livre derrière la même barrière de relecture.
 
-## Ingested law (Légifrance / DILA LEGI)
+## Droit intégré (Légifrance / DILA LEGI)
 
-France grounds its bank in the **actual statute**, not recall. `src/fr/legi.py`
-ingests, from the official **DILA LEGI** open data (the bulk
-`Freemium_legi_global_*.tar.gz` XML dump — Licence Ouverte / Etalab, no API
-credentials), every in-force (`VIGUEUR`) article of the texts the bank cites and
-writes article-level `KnowledgeUnit`s (reusing `src/schema.py`). The dump carries
-both the consolidated **codes** and the non-codified **lois/décrets/arrêtés**
-(`TNC_en_vigueur/JORF`), so one download covers all of them:
+La France ancre sa banque dans la **loi réelle**, pas dans la mémoire. `src/fr/legi.py`
+intègre, à partir des données ouvertes officielles **DILA LEGI** (le dump XML en masse
+`Freemium_legi_global_*.tar.gz` — Licence Ouverte / Etalab, sans
+identifiants d'API), chaque article en vigueur (`VIGUEUR`) des textes que la banque cite et
+écrit des `KnowledgeUnit`s au niveau de l'article (réutilisant `src/schema.py`). Le dump contient
+à la fois les **codes** consolidés et les **lois/décrets/arrêtés** non codifiés
+(`TNC_en_vigueur/JORF`), de sorte qu'un seul téléchargement les couvre tous :
 
-| `source_id` | text | articles |
+| `source_id` | texte | articles |
 |---|---|---|
-| `code_transports` | Code des transports, 4ᵉ partie (navigation intérieure = the RGP) | 1160 |
+| `code_transports` | Code des transports, 4ᵉ partie (navigation intérieure = le RGP) | 1160 |
 | `code_environnement` | Code de l'environnement, art. L.218-x (rejets des navires / MARPOL) | 90 |
 | `decret_2007` | Décret n° 2007-1167 (permis plaisance) | 40 |
 | `arrete_2007` | Arrêté du 28 sept. 2007 (référentiel) | 37 |
@@ -124,61 +126,61 @@ python -m src.fr.legi build     # → data/kb.fr.sqlite + src/fr/legi_kb.json (1
 python -m src.fr.legi verify    # cross-check every seed citation vs the ingested law
 ```
 
-The durable corpus is **committed** at `src/fr/legi_kb.json` (public-domain law),
-so the KB rebuilds and the verification runs **without** the 1.2 GB dump (which
-stays under `data/raw/`, git-ignored). `tests/test_legi.py` asserts that every
-article the seed cites *in an ingested text* exists in the law — so a citation
-can't silently drift from the source. This already caught an error: `A.4241-48-12`
-(sailing-vessel lights) → `A.4241-48-13` (motorised small-craft lights). Each unit
-carries a deep per-article Légifrance URL and the in-force date.
+Le corpus durable est **committé** dans `src/fr/legi_kb.json` (droit relevant du domaine public),
+de sorte que la KB se reconstruit et que la vérification s'exécute **sans** le dump de 1,2 Go (qui
+reste sous `data/raw/`, ignoré par git). `tests/test_legi.py` affirme que chaque
+article que l'amorce cite *dans un texte intégré* existe dans la loi — de sorte qu'une citation
+ne peut pas dériver silencieusement de la source. Cela a déjà détecté une erreur : `A.4241-48-12`
+(feux des navires à voile) → `A.4241-48-13` (feux des menues embarcations à moteur). Chaque unité
+porte une URL Légifrance profonde par article et la date d'entrée en vigueur.
 
-## Ingested reference corpus (IALA + SHOM)
+## Corpus de référence intégré (IALA + SHOM)
 
-The **côtière** content rests on sources LEGI doesn't carry: the **IALA** Maritime
-Buoyage System (Region A) and **SHOM** tides/charts. These are *not* openly licensed
-for verbatim redistribution (IALA R1001 is © IALA; SHOM ouvrages carry SHOM terms —
-its open *data* is Licence Ouverte). What is freely usable is the **factual content**
-(a mark's colour/shape/topmark/light; the tidal datum; the coefficient range) — not
-copyrightable. So `src/fr/reference_fr.py` ingests those facts, each **verified
-against and cited to the primary source** (read from IALA R1001 Ed.2.0 Tables 1–9 and
-the SHOM *Prédiction de marée* fiche), as `KnowledgeUnit`s — **not copied prose**:
+Le contenu **côtière** repose sur des sources que LEGI ne contient pas : le **système** de
+balisage maritime **IALA** (région A) et les marées/cartes **SHOM**. Ceux-ci ne sont *pas* sous licence ouverte
+permettant la rediffusion verbatim (IALA R1001 est © IALA ; les ouvrages SHOM portent les conditions SHOM —
+ses *données* ouvertes sont sous Licence Ouverte). Ce qui est librement utilisable, c'est le **contenu factuel**
+(la couleur/forme/voyant/feu d'une marque ; le zéro hydrographique ; la plage de coefficient) — non
+protégeable par le droit d'auteur. Donc `src/fr/reference_fr.py` intègre ces faits, chacun **vérifié
+par rapport à et cité vers la source primaire** (lu dans les Tables 1–9 d'IALA R1001 Éd.2.0 et
+la fiche SHOM *Prédiction de marée*), en tant que `KnowledgeUnit`s — **et non de la prose copiée** :
 
-| `source_id` | facts | themes |
+| `source_id` | faits | thèmes |
 |---|---|---|
-| `iala_a` | 10 — lateral / preferred-channel / 4 cardinals / isolated-danger / safe-water / special marks (Region A: colour, shape, topmark, light) | `balisage` |
-| `shom` | 9 — zéro hydrographique, marnage, coefficient (20–120), vives/mortes-eaux, flot/jusant, semi-diurnal cycle, characteristic levels, rule of twelfths, étale | `meteo_maree` |
+| `iala_a` | 10 — marques latérales / de chenal préféré / 4 cardinales / de danger isolé / d'eaux saines / spéciales (région A : couleur, forme, voyant, feu) | `balisage` |
+| `shom` | 9 — zéro hydrographique, marnage, coefficient (20–120), vives/mortes-eaux, flot/jusant, cycle semi-diurne, niveaux caractéristiques, règle des douzièmes, étale | `meteo_maree` |
 
 ```bash
 python -m src.fr.reference_fr build   # → src/fr/reference_kb.json + data/kb.fr.sqlite
 ```
 
-Committed at `src/fr/reference_kb.json`; `tests/test_reference.py` pins the shape and
-load-bearing facts (Region-A lateral colours, the 20–120 coefficient range, the
-chart-datum definition). This grounds future **côtière** question derivation the way
-`legi_kb.json` grounds the inland one.
+Committé dans `src/fr/reference_kb.json` ; `tests/test_reference.py` fige la structure et
+les faits porteurs (couleurs latérales de la région A, la plage de coefficient 20–120, la
+définition du zéro hydrographique). Cela ancre la dérivation future des questions **côtière** de la même façon que
+`legi_kb.json` ancre celle des eaux intérieures.
 
-*Still verified out-of-band* (no ingestion): COLREG/RIPAM (ingested via the `INT`
-layer), CEVNI (UNECE), ITU Radio Regs, the EU Directive 2013/53, the *arrêtés des
-préfets maritimes*, and Division 240 (annexed tables not cleanly in LEGI).
+*Encore vérifié hors bande* (pas d'intégration) : COLREG/RIPAM (intégré via la couche `INT`),
+CEVNI (UNECE), Règlement des radiocommunications de l'UIT, la Directive UE 2013/53, les *arrêtés des
+préfets maritimes*, et la Division 240 (tables annexées pas proprement dans LEGI).
 
-## Question scope & the common-core pool
+## Portée des questions & le pool de tronc commun
 
-France participates in the shared **scope** layer (`src/scope.py`, see
-[`scope.md`](scope.md)). Every French question is classified into one rung of the
-regime tree:
+La France participe à la couche **scope** partagée (`src/scope.py`, voir
+[`scope.md`](scope.md)). Chaque question française est classée dans un échelon de
+l'arbre des régimes :
 
-| option | base (portable core) | overlay (France-only) |
+| option | base (tronc portable) | surcouche (France uniquement) |
 |---|---|---|
-| côtière | `colregs` (RIPAM rules, IALA-A buoyage, sea lights) + `universal` (météo/marées, environnement, generic safety) | `national` (permis & radio statute, Division-240 kit) |
-| eaux intérieures | `cevni` (RGP inland code, locks, inland signs) + `universal` | `national` |
+| côtière | `colregs` (règles RIPAM, balisage IALA-A, feux en mer) + `universal` (météo/marées, environnement, sécurité générique) | `national` (loi du permis & de la radio, kit Division-240) |
+| eaux intérieures | `cevni` (code fluvial RGP, écluses, signes fluviaux) + `universal` | `national` |
 
-`build_fr.py` emits the portable subset as per-base sub-bundles
-(`web/fr/<option>/questions.<base>.<lang>.json`) and lists them in the option
-manifest's `core` block, so each player offers a **National ⟷ Common core** toggle:
-the national bank is the full 40-question exam scope; the common core drills only
-the cross-country-portable rules (30 côtière = universal 10 + colregs 20; 34 eaux
-intérieures = universal 8 + cevni 26). France is seed-driven, so its core is
-*France-local* (it is not yet merged into the global CH/DE core) — see `scope.md`
+`build_fr.py` émet le sous-ensemble portable sous forme de sous-bundles par base
+(`web/fr/<option>/questions.<base>.<lang>.json`) et les liste dans le bloc `core`
+du manifeste de l'option, de sorte que chaque lecteur propose une bascule **National ⟷ Tronc commun** :
+la banque nationale correspond à toute la portée de l'examen à 40 questions ; le tronc commun n'entraîne que
+les règles portables d'un pays à l'autre (30 côtière = universal 10 + colregs 20 ; 34 eaux
+intérieures = universal 8 + cevni 26). La France est pilotée par amorce, donc son tronc est
+*local à la France* (il n'est pas encore fusionné dans le tronc global CH/DE) — voir `scope.md`
 › *Seed-driven countries*.
 
 ## Build
@@ -188,5 +190,5 @@ python run.py fr            # build both France option banks + bundle web/fr/
 python -m http.server -d web 8000   # http://localhost:8000/fr/
 ```
 
-See `src/countries/fr.py` (country registry descriptor), `src/fr/` (France
-content + `build_fr.py`), and `src/scope.py` (the France classifier branch).
+Voir `src/countries/fr.py` (descripteur du registre des pays), `src/fr/` (contenu
+France + `build_fr.py`), et `src/scope.py` (la branche du classifieur France).

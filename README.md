@@ -1,306 +1,262 @@
-# Boat-permit — free study tool for the Swiss cat-A motorboat theory exam
+# Boat-permit — learn boating rules from verified sources
 
-A free, open study tool for the **Swiss category-A motorboat theory exam**
-(Geneva / OCV, Lac Léman). It is built **only** from public-domain law and
-clearly-reusable references, and it ships two things:
+**Languages:** [English](README.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md)
 
-1. a structured, versioned **knowledge base** (KB) derived from the law, and
-2. a **practice-question bank** (`questions.json`) plus a small **static player**
-   you can open in a browser or host on GitHub Pages.
+An open framework for studying **national boating-licence theory exams** built
+**only** from public-domain law and clearly-reusable references. It covers three
+countries today — **🇫🇷 France · 🇩🇪 Germany · 🇨🇭 Switzerland** — behind one
+pipeline and one player, and it is designed so adding a country is one new file,
+not a fork.
 
-## Legal boundary (the whole point)
+For each country it ships three things:
 
-The official exam draws on an **asa-licensed** ~520-question bank, repackaged by
-the paid prep apps (BoatDriver, iTheorie, theorie-bateau, …). This project
-deliberately **does not touch any of that**.
+1. a structured, versioned **knowledge base** (KB) derived from that country's law,
+2. a **source-cited practice-question bank**, and
+3. a dependency-free **static player** (browser / GitHub Pages) with **Anki** and
+   **Moodle GIFT** exports.
 
-- **It ingests:** the ONI and other federal/cantonal navigation law (Swiss
-  federal law is public-domain and freely reusable), plus freely-licensed météo
-  and matelotage references. Provenance + a licence note are stored on every unit.
-- **It never scrapes, stores, or reproduces:** the asa question bank, or any paid
+## The legal boundary (the whole point)
+
+Every official exam is backed by a question bank, and the paid prep apps repackage
+it. This project deliberately **does not touch any of that**. The hard rule, applied
+identically in every country:
+
+- **It ingests** only law and references that are public-domain or carry an explicit
+  reuse licence. Provenance + a licence note are stored on **every** unit and **every**
+  question.
+- **It never scrapes, stores, or reproduces** a proprietary question bank or any paid
   app's questions/explanations.
+- **Every practice question is derived from primary sources** and carries a citation
+  back to the article, rule or figure it came from. Authoring a question from memory
+  is forbidden — the source is the authority.
 
-Every practice question is **derived from primary sources** and carries a citation
-back to the article or figure it came from.
+How that rule lands per country:
+
+| Country | Law basis (public/reusable) | Question basis |
+|---------|-----------------------------|----------------|
+| 🇫🇷 **France** | Légifrance / DILA LEGI under **Licence Ouverte / Etalab** (French official acts carry no copyright) | Derived from the ingested law — the proprietary operator QCM banks (La Poste/Dekra/SGS/Bureau Veritas) are **never** touched |
+| 🇩🇪 **Germany** | gesetze-im-internet.de XML, public-domain under **§5(1) UrhG** | The official **ELWIS** *amtliche Fragenkataloge* are reusable verbatim under **§5(2) UrhG** (cite www.elwis.de, no modification) — ingested as-is |
+| 🇨🇭 **Switzerland** | Fedlex Akoma Ntoso XML, Swiss federal law is public-domain | Derived from the law — the asa-licensed bank repackaged by the paid apps is **never** touched |
 
 ## Quick start
 
 ```bash
 pip install -r requirements.txt
 
-python run.py build        # fetch + parse + normalize law -> data/kb.sqlite (+ kb.json)
-python run.py questions    # derive templated figure questions -> data/questions.sqlite
-python run.py web          # bundle the approved bank + assets into web/
+# France — permis plaisance (seed + law-derived, Licence Ouverte)
+python run.py fr
 
-# then open the player:
+# Germany — Sportbootführerschein (federal law + ELWIS catalogues)
+python run.py build     --country DE
+python run.py questions --country DE
+
+# Switzerland — cat-A motorboat (Fedlex law + derived questions)
+python run.py build
+python run.py questions
+
+# the harmonised codes shared by every country (see below)
+python run.py build --country INT
+
+# bundle every built bank + assets into the static player
+python run.py web
 python -m http.server -d web 8000   # http://localhost:8000
 ```
 
-The KB build is cached and re-runnable; `--force` re-fetches everything. The
-question and web steps are pure transforms over the previous outputs.
+KB builds are cached and re-runnable; `--force` re-fetches. The question and web
+steps are pure transforms over the previous outputs.
 
 ## How it works
 
-### Phase 1 — knowledge base (`run.py build`)
+The pipeline is the same for every country; only the per-country descriptor changes.
+
+### Phase 1 — knowledge base
 
 Three independently re-runnable stages, each reading the previous one's output:
 
 | Stage | Command | What it does |
 |-------|---------|--------------|
-| **Fetch** | `python run.py fetch` | Pulls raw sources into `data/raw/<id>/`, verbatim, with a `manifest.json` recording URL + retrieval date + legal version. Never re-fetches unless `--force`. |
-| **Parse** | `python run.py parse` | Turns each raw source into structured `KnowledgeUnit`s (pure, no network). One parser per source type. |
-| **Normalize** | (part of `build`) | Merges into one SQLite KB, localizes image assets, links articles ↔ figures, tags every unit to an exam theme, stamps a version. |
+| **Fetch** | `run.py fetch [--country X]` | Pulls raw sources into `data/raw/<id>/`, verbatim, with a `manifest.json` recording URL + retrieval date + legal version. Never re-fetches unless `--force`. |
+| **Parse** | `run.py parse [--country X]` | Turns each raw source into structured `KnowledgeUnit`s (pure, no network). One parser per source type — Akoma Ntoso (CH), gii XML (DE), LEGI XML (FR), COLREG PDF (INT), MediaWiki/HTML. |
+| **Normalize** | (part of `build`) | Merges into one SQLite KB, localizes image assets, links articles ↔ figures, tags every unit to that country's exam theme, stamps a version. |
 
-Limit to specific sources with `--only oni,rnl`. The current KB holds **1,746
-units** across articles, annex figures, and prose sections, built in three
-languages (≈602 FR · 592 DE · 552 IT).
+Limit to specific sources with `--only`. Each country's law (signs, buoyage, lights,
+sound signals) carries the diagrams as localized image assets, captioned from the
+annex tables and linked to the citing articles.
 
-**Law fetch:** Fedlex pages are JS-rendered, so we never scrape the page HTML.
-We resolve the **Akoma Ntoso XML** (article text) and its referenced annex images
-via the Fedlex **SPARQL endpoint** + filestore. The XML images carry the
-signalisation diagrams (lights, buoys, boards), captioned from their annex tables
-(181/181 figures captioned, linked to the citing articles).
-
-### Phase 2 — question bank + player
+### Phase 2 — question bank
 
 | Step | Command | What it does |
 |------|---------|--------------|
-| **Figures** | `python run.py questions` | Deterministically generates figure-recognition questions from the captioned annex diagrams. Confusion-set distractors keyed by signal type; sha1-seeded so the output is stable. Auto-approved. |
-| **Draft** | `python run.py draft --theme … ` | Drafts prose questions with an LLM, strictly source-grounded (a lexical grounding guard drops likely hallucinations). Lands in the bank as **`pending`**. Needs an API key — see `requirements.txt`. A built-in **seed set** of hand-authored questions is available via `--seed`. |
-| **Review** | `python run.py review --list / --approve / --reject` | Human review gate. Only `auto_approved` + `approved` questions are ever exported. |
-| **Web** | `python run.py web` | Re-exports the approved bank to `questions.json`, bundles it with the figure assets into `web/`, and writes the per-language **Anki decks** (`web/anki/`) + **Moodle GIFT** files (`web/gift/`) the player offers as downloads. |
-| **Anki** | `python tools/anki.py export [lang]` | Exports the bank to a real `.apkg` (zip + SQLite, figures bundled, one **subdeck per theme**) and an editable `.tsv`. `python tools/anki.py import file.tsv --apply` folds edits back as **pending** drafts. Standard library only. |
-| **GIFT** | `python tools/gift.py export [lang]` | Exports the bank to a **Moodle GIFT** file (`.gift`), one `$CATEGORY` per theme, figures embedded as base64 `data:` URIs so it's self-contained. Single-answer questions use `=`/`~`; the exam's two-correct questions use weighted `~%50%`. Standard library only. |
+| **Figures** | `run.py questions` | Deterministically generates figure-recognition questions from captioned annex diagrams. Confusion-set distractors keyed by signal type; sha1-seeded so output is stable. Auto-approved. |
+| **Derive / draft** | `run.py draft …` · `run.py fr` | Drafts questions strictly **from ingested source text** (a lexical grounding guard drops likely hallucinations), each pinned to an authoritative citation. Lands as **`pending`**. |
+| **Catalogue ingest** | `run.py questions --country DE` | Ingests an official reusable catalogue (Germany's ELWIS) **verbatim**, each question tagged + carrying its §5 attribution. |
+| **Review** | `run.py review --list / --approve / --reject` | Human review gate. Only `auto_approved` + `approved` questions are ever exported. |
+| **Web** | `run.py web` | Re-exports every approved bank to `questions.<lang>.json`, bundles the figure assets into `web/`, and writes the per-language **Anki decks** (`web/anki/`) + **Moodle GIFT** files (`web/gift/`). |
 
-The bank currently exports **795 reviewed questions** across FR/DE/IT/EN
-(figure-recognition + grounded prose + night-lighting rules), with more drafts
-sitting behind the review gate.
+## The countries
 
-**The player** (`web/`) is dependency-free vanilla JS. It loads the per-language
-bank (`questions.<lang>.json`), reads the exam config from its `meta`, and runs two
-modes: a chronometered **exam** (60 questions, balanced across themes) and a
-**practice** mode with source-cited corrections. You can **study by domain**
-(toggle which exam themes a run draws from) and the results screen breaks the
-**score down per domain**. A **canton picker** sets the exam timer to your
-canton's (50 min GE/VD · 45 min Bern). Scoring mirrors the real exam exactly. The player also
-offers the **Anki deck** and a **Moodle GIFT** file for the active language as
-one-click downloads, for study offline or in another platform. The UI ships in
-four languages with a language switcher (see below).
+All three are first-class: each is one descriptor in `src/countries/` declaring its
+law sources, exam-theme taxonomy + tagger, permit catalogue, exam rules and regional
+regimes — the config the pipeline consumes. Adding a country is one new file + one
+registry line (`src/countries/registry.py`), so parallel work doesn't collide.
 
-#### Anki round-trip
+### 🇫🇷 France — permis plaisance
 
-An Anki note is `(guid, fields, tags, media)`. Mapping `Question` onto it pins the
-schema to an SRS-friendly shape: a stable per-question id (→ the note GUID), a
-clean front/back split, `theme`/`lang`/`kind` as tags, provenance on the card, and
-figures as bundled media. The mapping is **lossless for the editable text** (stem,
-choice texts, explanation) but **structure-locked**: which options are correct, the
-image, and provenance stay owned by the bank, so an edit re-imported from Anki/TSV
-can never silently flip an answer — it lands as a `pending` draft for re-review.
-All package ids are derived from content (sha1) and zip mtimes are pinned, so a
-rebuild is byte-identical.
+The **permis plaisance** in two options: **côtière** (maritime, ≤6 NM from a shelter,
+day and night) and **eaux intérieures** (rivers, canals, lakes). The exam is national
+— **40 single-answer QCM, pass at ≤5 errors (35/40), ~30 min**, identical everywhere
+(no regional variance). France is **seed- + law-derived**: questions are authored
+**from** the ingested French law, never from the proprietary operator banks.
 
-### Languages
+- **Law (Licence Ouverte / Etalab):** the project ingests the bulk **DILA LEGI** open
+  data — the France analogue of Fedlex — for the **Code des transports, Part 4** (the
+  RGP, France's CEVNI implementation), the **Code de l'environnement** (MARPOL/rejets),
+  the **décret & arrêté du 28 sept. 2007** (the référentiel), and **Division 245**
+  (≈1,346 in-force articles). Maritime grounding that LEGI doesn't carry — **RIPAM/
+  COLREG, IALA Region A buoyage, SHOM** tides/datums — is ingested as a verified
+  reference-fact corpus (facts aren't copyrightable; each cited to its primary source).
+- **Build:** `python run.py fr` → both option banks + the `web/fr/` players.
 
-The exam is offered in the official Swiss languages; the player UI is translated
-into **French, German, Italian, and English**, and question content is built
-per-language:
+### 🇩🇪 Germany — Sportbootführerschein
 
-| Lang | Official law source | Content status |
-|------|---------------------|----------------|
-| FR | ✅ Fedlex | grounded · **211 questions** — the operative language for the Geneva/Léman exam |
-| DE | ✅ Fedlex | grounded · **185 questions** — same fetch pipeline, different ELI |
-| IT | ✅ Fedlex | grounded · **189 questions** — same |
-| EN | ❌ none exists | unofficial study translation · **210 questions** (Swiss law isn't published in English) |
+Germany's **Sportbootführerschein**, with the richest catalogue of the three.
 
-The figure PNGs are language-neutral; only captions/legends re-fetch per language.
-The player loads the active language's bank and **falls back to French** (with a
-visible notice) for any language whose bank isn't built yet. English content, when
-present, is flagged **unofficial** — only the FR/DE/IT versions are authoritative.
+- **Law (§5(1) UrhG, public-domain):** gesetze-im-internet.de serves each ordinance as
+  structured XML at `<slug>/xml.zip`. `run.py build --country DE` pulls **SeeSchStrO,
+  BinSchStrO, the KVR/COLREG, the SpFV and the RheinSchPV** (≈1,750 article units incl.
+  buoyage/light/sign diagrams), tagged to a German taxonomy (Verkehrsregeln,
+  Schifffahrtszeichen, Lichter/Signale, Wetterkunde, …).
+- **Official catalogue (§5(2) UrhG, reusable):** unlike the off-limits Swiss bank, the
+  **ELWIS** *amtliche Fragenkataloge* for SBF See/Binnen are reusable *"solange der
+  Inhalt unverändert bleibt und als Quelle www.elwis.de angegeben wird"*.
+  `run.py questions --country DE` ingests both catalogues **verbatim** (≈515 questions
+  after deduping the shared Basisfragen), each tagged to a theme + exam block with the
+  §5 attribution on its provenance. Because reuse is conditional on *no modification*,
+  the German bank is German-only and options are only **re-ordered** for display, never
+  reworded.
+- **Permits & exam:** the federal **SBF See / SBF Binnen** (motor / sail / both), the
+  voluntary **SKS / SSS / SHS**, and the trinational **Bodensee-Schifferpatent**.
+  Grading is **block-based** (e.g. ≥5/7 Basis **and** ≥18/23 spezifisch), in
+  `questions/schema.py:grade_exam_blocks`. Buoyage is **IALA Region A**. A 2025–26
+  reform is flagged as *pending*, not settled law (`countries/de.py:REFORM_NOTE`).
+- **Player:** the countrybar's **🇩🇪 Deutschland** opens `web/de/`, where a permit picker
+  drives the real **block-structured exam**.
 
-The UI strings live in `web/i18n.js`; question language is the `lang` field on each
-question, and `run.py web` emits one `questions.<lang>.json` per language plus a
-`languages.json` manifest.
+### 🇨🇭 Switzerland — cat-A motorboat (+ cat-D scaffold)
 
-### Exam format (verified against official VKS / OCV sources)
+The **category-A motorboat** theory exam, standardized intercantonally by the **VKS**
+(Geneva's OCV administers the national standard on Lac Léman).
 
-**60 questions · 50 minutes · 180 points · pass at 165/180** (max 15 fault points,
-≈ 5 fully-wrong questions). Each question has 3 answers of which **1–2 are correct**
-(multi-select), scored **all-or-nothing** per question (3 pts only if the selected
-set matches exactly). The exam is standardized intercantonally by the VKS; Geneva's
-OCV administers this national standard.
+- **Law (public-domain):** Fedlex pages are JS-rendered, so the page HTML is never
+  scraped — the build resolves the **Akoma Ntoso XML** (article text) and its annex
+  images via the Fedlex **SPARQL endpoint** + filestore. Sources: the **ONI**
+  (RS 747.201.1) and the **RNL** (Léman, RS 747.221.1), plus freely-licensed météo and
+  matelotage references.
+- **Exam:** **60 questions · 50 minutes · 180 points · pass at 165/180.** Each question
+  has 3 answers of which **1–2 are correct** (multi-select), scored **all-or-nothing**.
+  The only per-canton variance is the **time limit** (50 min GE/VD · 45 min Bern),
+  modelled in `src/cantons.py` and surfaced as a **canton picker** in the player.
+- **Permits:** **cat-A** is the fully-grounded six-theme target (Définitions,
+  Météorologie, Lois, Signalisation, Matelotage, Eaux frontalières). **cat-D** (voile)
+  is scaffolded — it shares the cat-A core and adds a `voile` theme, awaiting a
+  freely-licensed sailing-technique source.
+- **Build:** `python run.py build` + `python run.py questions` → `web/` (the default,
+  so a bare build is the Swiss build).
 
-**Per-canton variance.** Because the VKS standardizes the count, points, pass mark
-and question content nationally, the *only* thing a canton varies is the **time
-limit** — 50 minutes on the Léman (GE/VD), 45 in Bern. That variance is modelled in
-`src/cantons.py` (the single source of truth), overlaid onto a permit profile by
-`ExamConfig`/`profile()`, exported into `languages.json`, and surfaced as a **canton
-picker** in the player so the timer matches the learner's canton. Only verified
-values are encoded; anything unconfirmed inherits the 50-minute VKS standard.
+## Harmonised codes — the supra-national layer (`INT`)
 
-## Sources
-
-| id | Source | Themes | Licence tier |
-|----|--------|--------|--------------|
-| `oni` | ONI — Ordonnance sur la navigation intérieure (RS 747.201.1) | Définitions, Lois, Signalisation (+ annexe figures) | public domain |
-| `rnl` | Règlement de la navigation sur le Léman (RS 747.221.1) | Eaux frontalières, Signalisation | public domain |
-| `matelotage_wp` | Wikipédia — nœuds marins | Matelotage | CC BY-SA 4.0 |
-| `meteo_vents` | MétéoSuisse — Les vents du Léman | Météorologie | official, attribute |
-| `meteo_signaux` | SISL — signaux d'avis de tempête | Météorologie / Signalisation | cross-check only |
-| `geneve` | Genève — consignes générales de navigation | Lois (cantonal) | official, attribute |
-
-## Exam theme taxonomy (normalization target)
-
-1. Définitions · 2. Météorologie · 3. Lois sur la navigation en eaux intérieures ·
-4. Signalisation et signaux acoustiques · 5. Matelotage · 6. Eaux frontalières
-
-These six are the **cat-A** (motorboat) exam core. Tagging is rule-based and
-auditable (source default + keyword heuristics over `ref`/`title`/`text`); see
-`src/themes.py`. It is intentionally easy to tune.
-
-### Permit profiles (cat-A / cat-D scaffold)
-
-`src/themes.py` (`PERMIS_THEMES`) and `ExamConfig`/`profile()` in
-`src/questions/schema.py` model recreational-permit categories. **Cat-A** is the
-fully-grounded six-theme target. **Cat-D** (voile / sailing) is *scaffolded*: it
-shares the entire cat-A core and adds a seventh theme, `voile`, for sailing
-technique (points of sail, sail trim, manoeuvres). Select the permit and the
-build-default canton with `python run.py questions --permis D --canton VD`. The
-voile theme has **no public-domain law
-source** — sailing technique isn't ordinance text — so it carries no questions
-until a freely-licensed source is authored behind the review gate; the tagging
-rule is deliberately high-precision so cat-A right-of-way law that mentions
-"bateau à voile" stays in `lois`, and a stock cat-A build does not warn about the
-empty theme. The player and Anki/GIFT exporters already render the `voile` label
-in all four languages, so a cat-D bank lights up the existing study-by-domain UI
-the moment it has content.
-
-## Beyond Switzerland — multi-country (Germany)
-
-The project began Switzerland-implicit; it now has a **country dimension** so the
-same machinery can serve other national exams.
-
-- **`src/countries/`** — the registry. One file per country (`ch.py`, `de.py`,
-  `fr.py`, …) declaring its law sources, exam-theme taxonomy + tagger, permit
-  catalogue and regional regimes — the config the fetch→parse→normalize pipeline
-  consumes. The Swiss module is a thin adapter over the original flat modules, so
-  CH is unchanged. Adding a country = one new file + one registry line, so
-  parallel work doesn't collide.
-- **`src/cevni.py`** — inland-navigation rules are national implementations of
-  **CEVNI** (the UNECE inland-waterways code), so the harmonised signs/buoyage/
-  signals form a shared core reusable across signatory countries; this classifies
-  which questions are portable vs country-/water-specific.
-
-Run a country build with `--country` (default `CH`, so nothing changes by
-default):
-
-```bash
-python run.py build --country DE      # German SBF law (de) into the KB
-python run.py build --country INT     # the harmonised codes (COLREG) into the KB
-```
-
-### Harmonised codes — the supra-national layer (`INT`)
-
-Above the national exams sit the **harmonised navigation codes** that every
-country's bank shares: **COLREGS** (the maritime collision rules) and **CEVNI**
-(the European inland-waterways code) — the `is_base` roots of the regime tree in
-`src/jurisdictions.py`. They were previously grounded only *indirectly*, via
-national enactments (`scope.py` buckets KVR into `colregs`, BinSchStrO into
-`cevni`). The `INT` registry member (`src/countries/intl.py`) grounds them in
-their **canonical text** instead. It is a sourcing-only layer — no permits, no
-player bundle — so it never appears in the player picker and spawns no national
-regime node.
+Above the national exams sit the **harmonised navigation codes** every country's bank
+shares: **COLREGS** (maritime collision rules) and **CEVNI** (the European inland-
+waterways code) — the roots of the regime tree in `src/jurisdictions.py`. The `INT`
+registry member (`src/countries/intl.py`) grounds them in their **canonical text**
+rather than only indirectly via national enactments. It is sourcing-only — no permits,
+no player bundle — so it never appears in the country picker.
 
 - **COLREG — ingested.** The verbatim International Regulations (1972) are a
   **US-Government work** (public domain, 17 USC §105) as published by the US Coast
-  Guard. `run.py build --country INT` fetches the USCG "Navigation Rules" PDF and
-  the parser (`src/parsers/colreg.py`, a new `kind="pdf"`) keeps only its
-  *International* pages (it prints International + US-Inland on facing pages),
-  segmenting the 38 Rules + Annexes I–IV by COLREG Part. The IMO's own
-  consolidated edition is copyrighted and is **not** used.
+  Guard. `run.py build --country INT` fetches the USCG "Navigation Rules" PDF and the
+  parser (`src/parsers/colreg.py`) keeps only its *International* pages, segmenting the
+  38 Rules + Annexes I–IV. The IMO's copyrighted consolidated edition is **not** used.
 - **CEVNI — not ingested (licence barrier).** The canonical UNECE text (Resolution
   No. 24, Rev.6) is all-rights-reserved: UN policy requires written permission and
   forbids redistribution/derivatives, so it fails the project's reuse rule. It is
-  recorded as a `Reference` only; a reproduction-permission request has been sent to
-  the rights owners (UNECE) and is pending. Until granted, the CEVNI base stays
-  grounded via the public-domain national inland enactments already ingested.
+  recorded as a `Reference`; a reproduction-permission request has been sent to UNECE
+  and is pending. Until granted, the CEVNI base stays grounded via the public-domain
+  national inland enactments already ingested.
 
-### Germany — Sportbootführerschein
+### Shared core vs national bank
 
-Germany is a far richer target than the Swiss original on two counts the research
-established:
+Because so much content is harmonised, every question is classified at build time
+(`src/scope.py`) as one of `universal` (seamanship/weather/first-aid) · `cevni`
+(inland code) · `colregs` (maritime code) · `national` (statute) · `local` (one water
+body). The portable bases are pooled across **all** countries' banks per language into
+additive `web/questions.<base>.<lang>.json` bundles, and the player's
+**National ⟷ Common-core** toggle composes `universal + (cevni | colregs)` for the
+active permit's track. National bundles stay **byte-identical** across builds — a
+tracked invariant. See `docs/scope.md`.
 
-- **Federal law is machine-readable and public-domain.** gesetze-im-internet.de
-  serves each ordinance as structured XML at `<slug>/xml.zip` — the German
-  analogue of Fedlex. `run.py build --country DE` pulls **SeeSchStrO, BinSchStrO,
-  the KVR/COLREG, the SpFV and the RheinSchPV** (≈1,750 article units, incl. the
-  buoyage/light/sign diagrams), tagged to a German taxonomy (`countries/de_themes.py`:
-  Verkehrsregeln, Schifffahrtszeichen, Lichter/Signale, Wetterkunde, …). German
-  federal law is free of copyright under **§5(1) UrhG**.
-- **The official question catalogues are free to reuse — and ingested.** Unlike
-  the off-limits Swiss asa bank, the ELWIS *amtliche Fragenkataloge* for SBF
-  See/Binnen are reusable: ELWIS's Nutzungsbedingungen grant reuse (even
-  commercial) *"solange der Inhalt unverändert bleibt und als Quelle www.elwis.de
-  angegeben wird"* (an amtliches Werk under **§5(2) UrhG**). `run.py questions
-  --country DE` ingests both catalogues **verbatim** (≈515 questions after deduping
-  the shared Basisfragen 1–72), each tagged to a German theme + exam block, the
-  sign/light figures pulled as assets, and every question carrying the §5
-  attribution on its provenance. Because reuse is conditional on *no modification*,
-  the German bank is German-only (no translation) and the answer options are only
-  ever **re-ordered for display** (deterministically), never reworded. Block-based
-  grading (≥5/7 Basis **and** ≥18/23 spezifisch, vs the Swiss point total) is in
-  `questions/schema.py:grade_exam_blocks`.
+## The player
 
-Permit types modelled (data + block-based exam rules): the federal **SBF See** and
-**SBF Binnen** (motor / sail / both), the voluntary **SKS / SSS / SHS**, and the
-trinational **Bodensee-Schifferpatent** (cat A motor / D sail) — the German
-parallel to the project's shared-lake (Lac Léman) origin. Buoyage is **IALA Region
-A** (red to port when entering). A 2025–26 reform is in flux (licence threshold
-11.03 kW; a possible move to association certificates ~2028) and is flagged as
-*pending*, not settled law (`countries/de.py:REFORM_NOTE`).
+`web/` is dependency-free vanilla JS. It loads the active language's bank, reads the
+exam config from its `meta`, and runs a chronometered **exam** and a **practice** mode
+with source-cited corrections. You can **study by domain** (toggle which themes a run
+draws from), flip the **National ⟷ Common-core** pool, and the results screen breaks
+the **score down per domain**. The **🇫🇷 / 🇩🇪 / 🇨🇭 countrybar** switches between the
+national players, each reusing the same engine with its own exam rules. The player also
+offers the **Anki deck** and **Moodle GIFT** file for the active language as one-click
+downloads.
 
-The German bank is served by the player too: the countrybar's **🇩🇪 Deutschland**
-opens `web/de/` (its own bundle reusing the shared engine), where a **permit
-picker** (SBF Binnen-Motor / Binnen-Motor+Segeln / See) drives the real
-**block-structured exam** — the paper is composed per block (e.g. 7 Basisfragen +
-23 Spezifisch) and graded by the per-block minima (≥5/7 **and** ≥18/23), not the
-Swiss point total. The German UI, theme labels and the §5/ELWIS source note come
-from the bank meta + `i18n.js`.
+### Languages
 
-> Scope note: country scaffold, **law** + official **question-catalogue**
-> ingestion, the block grader, and the **web player** (country switcher + block
-> exam) are done. Remaining: the Bodensee regime (its BSO catalogue isn't on the
-> federal portals, so there are no questions to serve yet).
+The player UI is translated into **French, German, Italian and English**, and question
+content is built per-language. Where a country's official law isn't published in a
+language (e.g. English nowhere, Italian only in CH), the bank is flagged **unofficial**
+or falls back to the operative language with a visible notice. UI strings live in
+`web/i18n.js`; `run.py web` emits one `questions.<lang>.json` per language plus a
+`languages.json` manifest.
+
+### Anki & Moodle exports
+
+| Tool | Command | What it does |
+|------|---------|--------------|
+| **Anki** | `python tools/anki.py export [lang]` | A real `.apkg` (zip + SQLite, figures bundled, one **subdeck per theme**) and an editable `.tsv`. `import file.tsv --apply` folds edits back as **pending** drafts. Stdlib only. |
+| **GIFT** | `python tools/gift.py export [lang]` | A **Moodle GIFT** file, one `$CATEGORY` per theme, figures embedded as base64 `data:` URIs so it's self-contained. Stdlib only. |
+
+The Anki mapping is **lossless for editable text** but **structure-locked**: which
+options are correct, the image, and provenance stay owned by the bank, so an edit
+re-imported from Anki/TSV can never silently flip an answer — it lands as a `pending`
+draft for re-review. All package ids are content-derived (sha1) and mtimes pinned, so a
+rebuild is byte-identical.
 
 ## Layout
 
 ```
-run.py                 CLI orchestrator (build / questions / draft / review / web)
+run.py                 CLI orchestrator (build / questions / draft / review / fr / web)
 src/
   sources.py           approved source registry (provenance + licence)
-  fetch.py             stage 1 — fetch + cache (Fedlex SPARQL, gesetze-im-internet
-                         xml.zip, MediaWiki API, HTTP)
+  fetch.py             stage 1 — fetch + cache (Fedlex SPARQL, gii xml.zip, DILA LEGI,
+                         USCG PDF, MediaWiki API, HTTP)
   parse.py             stage 2 — dispatch to parsers
-  parsers/             Akoma Ntoso (CH), gii (DE law XML), MediaWiki prose, HTML
+  parsers/             Akoma Ntoso (CH), gii (DE law XML), COLREG PDF (INT), prose, HTML
   normalize.py         stage 3 — merge -> SQLite + asset localization
   schema.py            KnowledgeUnit + SQLite DDL + JSON export
-  themes.py            CH exam taxonomy + tagging rules (+ per-permit theme sets)
-  cantons.py           per-canton exam variance (the time limit; VKS otherwise)
-  countries/           country registry (ch.py/de.py/fr.py: sources, tagger,
-                         themes, permits, regions) consumed by the pipeline
-  cevni.py             CEVNI-core classification (which questions are portable)
+  themes.py / cantons.py   CH exam taxonomy + per-canton time variance
+  countries/           country registry — ch.py / de.py / fr.py / intl.py + registry.py
+                         (sources, tagger, themes, permits, regions) consumed by pipeline
+  jurisdictions.py     the lex-specialis regime tree (universal -> cevni/colregs -> ...)
+  scope.py             classify each question (universal/cevni/colregs/national/local)
+  fr/                  France content modules (seed, LEGI ingest, derivation, references)
   questions/
-    schema.py          canonical question schema, scoring (incl. block grading), JSON export
-    figures.py         templated figure-recognition generator (CH)
+    schema.py          canonical question schema, scoring (incl. block grading), export
+    figures.py         templated figure-recognition generator
     elwis.py           ingest the official German SBF catalogues verbatim (§5(2))
-    prose.py           LLM-draft pipeline + grounding guard
-    seed_prose.py      hand-authored seed questions
+    prose.py / seed_prose.py   LLM-draft pipeline + grounding guard / seed questions
 tools/
-  anki.py              Anki .apkg/.tsv export + round-trip import (stdlib only)
-  gift.py              Moodle GIFT export, figures embedded as data URIs (stdlib)
+  anki.py / gift.py    Anki .apkg/.tsv + Moodle GIFT exporters (stdlib only)
   subagent_*.py        no-API-key drafting/figure/translation pipelines
 web/                   dependency-free static player (index.html, app.js, style.css)
-  anki/                prebuilt per-language Anki decks (in-page download)
-  gift/                prebuilt per-language Moodle GIFT files (in-page download)
+  fr/ · de/            the France and Germany players (shared engine, own bundles)
+  anki/ · gift/        prebuilt per-language decks / GIFT files (in-page download)
 tests/                 plain-assert tests (run: python tests/test_*.py)
 data/                  generated (gitignored): raw cache, assets, *.sqlite, *.json
 ```
@@ -316,6 +272,8 @@ All offline; no network or API key needed.
 ## Licence
 
 Tooling in this repo is open for reuse. Ingested content keeps its own licence,
-recorded per unit (see the Sources table). Federal/cantonal law is public-domain;
-Wikipedia matelotage material is CC BY-SA 4.0; météo/cantonal pages are official
-sources used with attribution.
+recorded per unit and per question: Swiss/French federal law and the COLREG (USCG) are
+public-domain; French open data is Licence Ouverte / Etalab; German law is §5(1) UrhG
+and the ELWIS catalogue §5(2) UrhG (cite www.elwis.de, unmodified); Wikipedia matelotage
+material is CC BY-SA 4.0; météo/cantonal pages are official sources used with
+attribution.
