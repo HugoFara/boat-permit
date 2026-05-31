@@ -118,7 +118,7 @@ CHOICE_LETTERS = "ABCDEFGH"
 
 
 # === the Anki note model =======================================================
-MODEL_ID = _sid("boat-permit::model::mc.v1")
+MODEL_ID = _sid("boating-licence::model::mc.v1")
 FIELDS = ["Id", "Stem", "Image", "Choices", "Answer", "Explanation", "Source"]
 
 _QFMT = ('<div class="stem">{{Stem}}</div>\n{{Image}}\n'
@@ -139,7 +139,7 @@ _CSS = (".card{font-family:Arial,Helvetica,sans-serif;font-size:18px;color:#1b27
 
 def _model_def(default_did: int) -> dict:
     return {
-        "id": MODEL_ID, "name": "BoatPermit MC", "type": 0, "mod": 0, "usn": 0,
+        "id": MODEL_ID, "name": "BoatingLicence MC", "type": 0, "mod": 0, "usn": 0,
         "sortf": 0, "did": default_did, "latexPre": "", "latexPost": "", "vers": [],
         "tags": [], "css": _CSS,
         "tmpls": [{"name": "Card 1", "ord": 0, "qfmt": _QFMT, "afmt": _AFMT,
