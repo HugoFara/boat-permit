@@ -113,7 +113,7 @@ def _write_gift(questions: list[Question], lang: str, out_path: str) -> None:
     order = list(themes.THEMES)
     qs = sorted(questions, key=lambda x: (order.index(x.theme) if x.theme in order
                                           else 99, x.id))
-    out = ["// Boat-permit question bank — GIFT export for Moodle.",
+    out = ["// Boating-licence question bank — GIFT export for Moodle.",
            "// Self-contained: figures are embedded as base64 data URIs.", ""]
     current = None
     for q in qs:
@@ -128,14 +128,14 @@ def _write_gift(questions: list[Question], lang: str, out_path: str) -> None:
 
 
 def export_to(conn, out_dir: str, lang: str | None) -> int:
-    """Write boat-permit[.lang].gift into out_dir; returns the question count.
+    """Write boating-licence[.lang].gift into out_dir; returns the question count.
     Used by `run.py web` so the player can offer the GIFT file as a download."""
     qs = anki._exportable(conn, lang)
     if not qs:
         return 0
     os.makedirs(out_dir, exist_ok=True)
     sfx = "" if lang is None else f".{lang}"
-    _write_gift(qs, lang or "fr", os.path.join(out_dir, f"boat-permit{sfx}.gift"))
+    _write_gift(qs, lang or "fr", os.path.join(out_dir, f"boating-licence{sfx}.gift"))
     return len(qs)
 
 
@@ -147,7 +147,7 @@ def cmd_export(args) -> None:
     if not n:
         sys.exit(f"no exportable questions for lang={args.lang!r}")
     sfx = "" if args.lang is None else f".{args.lang}"
-    print(f"✓ {os.path.join(OUT_DIR, f'boat-permit{sfx}.gift')}  ({n} questions)")
+    print(f"✓ {os.path.join(OUT_DIR, f'boating-licence{sfx}.gift')}  ({n} questions)")
     conn.close()
 
 
@@ -155,7 +155,7 @@ def main():
     import argparse
     ap = argparse.ArgumentParser(description="GIFT (Moodle) export for the bank")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    e = sub.add_parser("export", help="write data/gift/boat-permit[.lang].gift")
+    e = sub.add_parser("export", help="write data/gift/boating-licence[.lang].gift")
     e.add_argument("lang", nargs="?", default=None,
                    help="content language (default: all, mixed bank)")
     args = ap.parse_args()

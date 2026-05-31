@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Boat-permit knowledge-base pipeline (Phase 1).
+"""Boating-licence knowledge-base pipeline (Phase 1).
 
 Three independently re-runnable stages, each reading the previous stage's
 on-disk output:
@@ -654,12 +654,12 @@ def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
     for lg in langs:
         n, n_img = anki.export_to(conn, anki_dir, lg)
         if n:
-            anki_avail[lg] = {"apkg": f"anki/boat-permit.{lg}.apkg",
-                              "tsv": f"anki/boat-permit.{lg}.tsv",
+            anki_avail[lg] = {"apkg": f"anki/boating-licence.{lg}.apkg",
+                              "tsv": f"anki/boating-licence.{lg}.tsv",
                               "count": n, "images": n_img}
         ng = gift.export_to(conn, gift_dir, lg)
         if ng:
-            gift_avail[lg] = {"gift": f"gift/boat-permit.{lg}.gift", "count": ng}
+            gift_avail[lg] = {"gift": f"gift/boating-licence.{lg}.gift", "count": ng}
     conn.close()
 
     # Recreational categories (cat-A motorboat, cat-D sailing). Unlike Germany's
@@ -975,7 +975,7 @@ def cmd_check_sources(args):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Boat-permit pipeline")
+    ap = argparse.ArgumentParser(description="Boating-licence pipeline")
     sub = ap.add_subparsers(dest="cmd", required=True)
     for name in ("fetch", "parse", "build"):
         p = sub.add_parser(name)

@@ -45,7 +45,7 @@ from ..countries import de_themes
 _ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 _RAW_DIR = os.path.join(_ROOT, "data", "raw", "elwis")
 _ASSET_DIR = os.path.join(_ROOT, "data", "assets", "elwis")
-_HEADERS = {"User-Agent": "boat-permit-study/0.1 (multi-country aggregator; "
+_HEADERS = {"User-Agent": "boating-licence-study/0.1 (multi-country aggregator; "
                           "personal study tool)"}
 
 GENERATOR = "elwis:fragenkatalog"

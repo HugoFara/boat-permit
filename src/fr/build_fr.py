@@ -373,12 +373,12 @@ def build() -> dict:
         for lg in langs_present:
             n, n_img = anki.export_to(conn, anki_dir, lg)
             if n:
-                anki_avail[lg] = {"apkg": f"anki/boat-permit.{lg}.apkg",
-                                  "tsv": f"anki/boat-permit.{lg}.tsv",
+                anki_avail[lg] = {"apkg": f"anki/boating-licence.{lg}.apkg",
+                                  "tsv": f"anki/boating-licence.{lg}.tsv",
                                   "count": n, "images": n_img}
             ng = gift.export_to(conn, gift_dir, lg)
             if ng:
-                gift_avail[lg] = {"gift": f"gift/boat-permit.{lg}.gift", "count": ng}
+                gift_avail[lg] = {"gift": f"gift/boating-licence.{lg}.gift", "count": ng}
         conn.close()
 
         # Harmonised-core sub-bundles (universal/cevni/colregs), classified by

@@ -142,45 +142,45 @@
   },
   "anki": {
     "de": {
-      "apkg": "anki/boat-permit.de.apkg",
-      "tsv": "anki/boat-permit.de.tsv",
+      "apkg": "anki/boating-licence.de.apkg",
+      "tsv": "anki/boating-licence.de.tsv",
       "count": 190,
       "images": 69
     },
     "en": {
-      "apkg": "anki/boat-permit.en.apkg",
-      "tsv": "anki/boat-permit.en.tsv",
+      "apkg": "anki/boating-licence.en.apkg",
+      "tsv": "anki/boating-licence.en.tsv",
       "count": 217,
       "images": 91
     },
     "fr": {
-      "apkg": "anki/boat-permit.fr.apkg",
-      "tsv": "anki/boat-permit.fr.tsv",
+      "apkg": "anki/boating-licence.fr.apkg",
+      "tsv": "anki/boating-licence.fr.tsv",
       "count": 218,
       "images": 91
     },
     "it": {
-      "apkg": "anki/boat-permit.it.apkg",
-      "tsv": "anki/boat-permit.it.tsv",
+      "apkg": "anki/boating-licence.it.apkg",
+      "tsv": "anki/boating-licence.it.tsv",
       "count": 194,
       "images": 71
     }
   },
   "gift": {
     "de": {
-      "gift": "gift/boat-permit.de.gift",
+      "gift": "gift/boating-licence.de.gift",
       "count": 190
     },
     "en": {
-      "gift": "gift/boat-permit.en.gift",
+      "gift": "gift/boating-licence.en.gift",
       "count": 217
     },
     "fr": {
-      "gift": "gift/boat-permit.fr.gift",
+      "gift": "gift/boating-licence.fr.gift",
       "count": 218
     },
     "it": {
-      "gift": "gift/boat-permit.it.gift",
+      "gift": "gift/boating-licence.it.gift",
       "count": 194
     }
   }

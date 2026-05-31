@@ -59,8 +59,8 @@ data/gift/
 # GitHub Pages can serve it (the data is public-domain law). Regenerate with
 # `python run.py web` after changing the bank, then commit the diff.
 #   web/questions.json, web/questions.<lang>.json, web/languages.json, web/assets/
-#   web/anki/boat-permit.<lang>.{apkg,tsv}  (the in-page Anki download)
-#   web/gift/boat-permit.<lang>.gift        (the in-page Moodle/GIFT download)
+#   web/anki/boating-licence.<lang>.{apkg,tsv}  (the in-page Anki download)
+#   web/gift/boating-licence.<lang>.gift        (the in-page Moodle/GIFT download)
 # France question-derivation scratch (jobs + agent draft files); the durable
 # output is the committed src/fr/derived_drafts.json.
 data/fr_derive/

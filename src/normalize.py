@@ -25,7 +25,7 @@ from .themes import THEMES, EXTENSION_THEMES
 BASE = os.path.join(os.path.dirname(__file__), "..")
 ASSET_DIR = os.path.join(BASE, "data", "assets")
 RAW_DIR = os.path.join(BASE, "data", "raw")
-HEADERS = {"User-Agent": "boat-permit-study/0.1 (Phase 1 aggregator; personal study tool)"}
+HEADERS = {"User-Agent": "boating-licence-study/0.1 (Phase 1 aggregator; personal study tool)"}
 
 
 def _localize_asset(path: str, source_id: str, lang: str = "fr") -> str | None:

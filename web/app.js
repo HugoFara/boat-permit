@@ -1,5 +1,5 @@
 "use strict";
-/* Static quiz player for the boat-permit question bank.
+/* Static quiz player for the boating-licence question bank.
  * No dependencies. Loads the per-language bank (questions.<lang>.json, falling
  * back to French) plus the exam config from its meta, runs a chronometered mock
  * exam or a free-practice mode, scores point-based (all-or-nothing per question,

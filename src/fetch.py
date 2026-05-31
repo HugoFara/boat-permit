@@ -25,7 +25,7 @@ from .sources import Source, SOURCES
 RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "raw")
 SPARQL = "https://fedlex.data.admin.ch/sparqlendpoint"
 GII_BASE = "https://www.gesetze-im-internet.de"
-HEADERS = {"User-Agent": "boat-permit-study/0.1 (Phase 1 aggregator; personal study tool)"}
+HEADERS = {"User-Agent": "boating-licence-study/0.1 (Phase 1 aggregator; personal study tool)"}
 WP_API = "https://fr.wikipedia.org/w/api.php"
 
 

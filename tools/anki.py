@@ -1,4 +1,4 @@
-"""Export the boat-permit bank to Anki, and import edits back (round-trip).
+"""Export the boating-licence bank to Anki, and import edits back (round-trip).
 
 Two interchange formats, one mapping:
 
@@ -23,7 +23,7 @@ careless edit can never silently flip an answer — on import an edited question
 structure-locked to its original exactly as the EN translation pipeline does.
 
 Stages:
-  export [lang] [--tsv] [--apkg]   -> data/anki/boat-permit[.lang].{apkg,tsv}
+  export [lang] [--tsv] [--apkg]   -> data/anki/boating-licence[.lang].{apkg,tsv}
   import <file.tsv|.apkg> [--apply]   diff vs the bank; --apply writes
                                        new/edited notes as pending drafts
 
@@ -408,7 +408,7 @@ def _exportable(conn, lang: str | None) -> list[Question]:
 
 
 def export_to(conn, out_dir: str, lang: str | None) -> tuple[int, int]:
-    """Build boat-permit[.lang].{apkg,tsv} into `out_dir` from an open bank
+    """Build boating-licence[.lang].{apkg,tsv} into `out_dir` from an open bank
     connection. Used by `run.py web` so the static player can offer the deck as a
     download. Returns (n_questions, n_images)."""
     qs = _exportable(conn, lang)
@@ -416,7 +416,7 @@ def export_to(conn, out_dir: str, lang: str | None) -> tuple[int, int]:
         return 0, 0
     os.makedirs(out_dir, exist_ok=True)
     sfx = "" if lang is None else f".{lang}"
-    stem = os.path.join(out_dir, f"boat-permit{sfx}")
+    stem = os.path.join(out_dir, f"boating-licence{sfx}")
     n_media = _build_apkg(qs, lang or "fr", stem + ".apkg")
     _write_tsv(qs, stem + ".tsv")
     return len(qs), n_media
@@ -435,7 +435,7 @@ def cmd_export(args) -> None:
     if not qs:
         sys.exit(f"no exportable questions for lang={lang!r}")
     sfx = "" if lang is None else f".{lang}"
-    stem = os.path.join(OUT_DIR, f"boat-permit{sfx}")
+    stem = os.path.join(OUT_DIR, f"boating-licence{sfx}")
     if want_apkg:
         n_media = _build_apkg(qs, lang or "fr", stem + ".apkg")
         print(f"✓ {stem}.apkg  ({len(qs)} notes, {n_media} images)")
@@ -523,7 +523,7 @@ def main():
     import argparse
     ap = argparse.ArgumentParser(description="Anki export/import for the question bank")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    e = sub.add_parser("export", help="write data/anki/boat-permit[.lang].{apkg,tsv}")
+    e = sub.add_parser("export", help="write data/anki/boating-licence[.lang].{apkg,tsv}")
     e.add_argument("lang", nargs="?", default=None,
                    help="content language to export (default: all, mixed bank)")
     e.add_argument("--tsv", action="store_true", help="write only the TSV")
