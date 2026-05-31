@@ -179,6 +179,170 @@
     }
   ],
   "country_default": "DE",
+  "path": [
+    {
+      "code": "age",
+      "body": {
+        "de": "Mindestalter: 16 Jahre für Motorantrieb, 14 Jahre für Segeln (SpFV §6 Abs. 1)."
+      },
+      "source": "SpFV §6 Abs. 1 (Sportbootführerscheinverordnung)",
+      "url": "https://www.gesetze-im-internet.de/spfv/__6.html",
+      "as_of": "2026-05-31",
+      "volatile": false,
+      "region_scope": "",
+      "permit_scope": [
+        "SBF-Binnen-Motor",
+        "SBF-Binnen-Motor-Segeln",
+        "SBF-Binnen-Segeln",
+        "SBF-See"
+      ]
+    },
+    {
+      "code": "age",
+      "body": {
+        "de": "Mindestalter: 18 Jahre für Kategorie A (Motor), 14 Jahre für Kategorie D (Segel)."
+      },
+      "source": "Landratsamt Bodenseekreis — Schifferpatent",
+      "url": "https://www.bodenseekreis.de/verkehr-wirtschaft/schifffahrt/bodenseeschifferpatent/schifferpatentpruefung/",
+      "as_of": "2026-05-31",
+      "volatile": false,
+      "region_scope": "",
+      "permit_scope": [
+        "Bodensee-A",
+        "Bodensee-D"
+      ]
+    },
+    {
+      "code": "medical",
+      "body": {
+        "de": "Erforderlich ist ein ärztlicher Tauglichkeitsnachweis. Die Sehschärfe muss auf beiden Augen zusammen oder auf dem besseren Auge ≥ 0,8 betragen (mit oder ohne Sehhilfe), geprüft nach DIN 58220 (SpFV §6 Abs. 2, Anlage 2)."
+      },
+      "source": "SpFV §6 Abs. 2 + Anlage 2",
+      "url": "https://www.gesetze-im-internet.de/spfv/__6.html",
+      "as_of": "2026-05-31",
+      "volatile": false,
+      "region_scope": "",
+      "permit_scope": [
+        "SBF-Binnen-Motor",
+        "SBF-Binnen-Motor-Segeln",
+        "SBF-Binnen-Segeln",
+        "SBF-See"
+      ]
+    },
+    {
+      "code": "medical",
+      "body": {
+        "de": "Ein ärztliches Gutachten über die Tauglichkeit ist vorzulegen (Formular des Schifffahrtsamts)."
+      },
+      "source": "Landratsamt Bodenseekreis — Schifferpatent",
+      "url": "https://www.bodenseekreis.de/verkehr-wirtschaft/schifffahrt/bodenseeschifferpatent/schifferpatentpruefung/",
+      "as_of": "2026-05-31",
+      "volatile": false,
+      "region_scope": "",
+      "permit_scope": [
+        "Bodensee-A",
+        "Bodensee-D"
+      ]
+    },
+    {
+      "code": "practical",
+      "body": {
+        "de": "Nach der Theorieprüfung folgt die praktische Prüfung: Pflichtmanöver (u. a. Rettungsmanöver/Mann-über-Bord, An- und Ablegen), weitere Manöver je nach Antriebsart sowie Knoten (SpFV §8, Anlage 4)."
+      },
+      "source": "SpFV §8 + Anlage 4",
+      "url": "https://www.gesetze-im-internet.de/spfv/__8.html",
+      "as_of": "2026-05-31",
+      "volatile": false,
+      "region_scope": "",
+      "permit_scope": [
+        "SBF-Binnen-Motor",
+        "SBF-Binnen-Motor-Segeln",
+        "SBF-Binnen-Segeln",
+        "SBF-See"
+      ]
+    },
+    {
+      "code": "practical",
+      "body": {
+        "de": "Praktische Prüfung mit Motormanövern (Anlegen, Ablegen, Mann-über-Bord) sowie — Kat. D — Segelmanövern und Knoten (u. a. Palstek, Webleinstek, Schotstek)."
+      },
+      "source": "Landratsamt Bodenseekreis — Schifferpatent",
+      "url": "https://www.bodenseekreis.de/verkehr-wirtschaft/schifffahrt/bodenseeschifferpatent/schifferpatentpruefung/",
+      "as_of": "2026-05-31",
+      "volatile": false,
+      "region_scope": "",
+      "permit_scope": [
+        "Bodensee-A",
+        "Bodensee-D"
+      ]
+    },
+    {
+      "code": "application",
+      "body": {
+        "de": "Zulassung, Prüfung und Ausstellung erfolgen über die vom BMDV beauftragten Verbände: Deutscher Motoryachtverband (DMYV) oder Deutscher Segler-Verband (DSV)."
+      },
+      "source": "ELWIS — Sportbootführerscheine (BMDV)",
+      "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Sportbootfuehrerscheine-node.html",
+      "as_of": "2026-05-31",
+      "volatile": false,
+      "region_scope": "",
+      "permit_scope": [
+        "SBF-Binnen-Motor",
+        "SBF-Binnen-Motor-Segeln",
+        "SBF-Binnen-Segeln",
+        "SBF-See"
+      ]
+    },
+    {
+      "code": "application",
+      "body": {
+        "de": "Das Bodensee-Schifferpatent wird vom Schifffahrtsamt des Landratsamts (am See) ausgestellt — eigene Prüfung, nicht der Bund-SBF."
+      },
+      "source": "Landratsamt Bodenseekreis — Schifffahrtsamt",
+      "url": "https://www.bodenseekreis.de/verkehr-wirtschaft/schifffahrt/bodenseeschifferpatent/schifferpatentpruefung/",
+      "as_of": "2026-05-31",
+      "volatile": false,
+      "region_scope": "",
+      "permit_scope": [
+        "Bodensee-A",
+        "Bodensee-D"
+      ]
+    },
+    {
+      "code": "fees",
+      "body": {
+        "de": "Amtliche Prüfungsgebühren (DMYV/DSV): SBF See 148,38 € (Theorie 47,56 + Praxis 47,62 + Erteilung 29,82 + Zulassung 23,38); SBF Binnen Motor 130,78 €, Segeln 127,84 €. Die Kurs-/Ausbildungskosten der Bootsschule kommen hinzu (je nach Anbieter rund 300–1000 €)."
+      },
+      "source": "DMYV — amtliche Prüfungsgebühren (Stand 01/2023)",
+      "url": "https://dmyv-pzrlp.de/gebuehrenseite-neu/",
+      "as_of": "2026-05-31",
+      "volatile": true,
+      "region_scope": "",
+      "permit_scope": [
+        "SBF-Binnen-Motor",
+        "SBF-Binnen-Motor-Segeln",
+        "SBF-Binnen-Segeln",
+        "SBF-See"
+      ]
+    },
+    {
+      "code": "validity",
+      "body": {
+        "de": "Der Sportbootführerschein ist unbefristet gültig; eine Erneuerung ist nicht erforderlich (der ärztliche Tauglichkeitsnachweis kann hingegen befristet sein)."
+      },
+      "source": "SpFV (Verordnung über das Führen von Sportbooten)",
+      "url": "https://www.gesetze-im-internet.de/spfv/",
+      "as_of": "2026-05-31",
+      "volatile": false,
+      "region_scope": "",
+      "permit_scope": [
+        "SBF-Binnen-Motor",
+        "SBF-Binnen-Motor-Segeln",
+        "SBF-Binnen-Segeln",
+        "SBF-See"
+      ]
+    }
+  ],
   "core": {
     "universal": {
       "de": {

@@ -78,6 +78,35 @@ class Reference:
 
 
 @dataclass(frozen=True)
+class PathStep:
+    """One non-theory requirement on the road to the licence — the scaffolding
+    the theory trainer alone doesn't cover: minimum age, the medical attestation,
+    a recognised first-aid course, the on-water *practical* exam, the application
+    to the issuing authority, the fees, and the certificate's validity/renewal.
+
+    This is **procedural reference data**, not a quiz question, but it obeys the
+    same discipline: every step is authored from an **official source** (never from
+    memory) and carries ``source`` + ``url`` + ``as_of`` so the staleness check can
+    flag drift and a reviewer knows when a fact was last verified. Facts that drift
+    (fees, age thresholds, validity periods) are marked ``volatile`` so they can be
+    re-verified first.
+
+    ``body`` is keyed by language (``{"fr": "...", "de": "..."}``); the player and
+    docs render the active language and fall back to the country ``default_lang``.
+    A step applies country-wide unless ``region_scope`` names a region, and to every
+    permit unless ``permit_scope`` lists specific permit codes.
+    """
+    code: str                                      # "age"|"medical"|"first_aid"|"practical"|"application"|"fees"|"validity"
+    body: dict                                     # {lang: prose}; default_lang required
+    source: str                                    # human label of the authority/document
+    url: str                                       # official page the fact was read from
+    as_of: str                                     # ISO date the fact was verified
+    volatile: bool = False                         # fee/age/validity that drifts — re-verify first
+    region_scope: str = ""                         # "" ⇒ country-wide; else a Region code
+    permit_scope: tuple[str, ...] = ()             # () ⇒ all permits; else specific Permit codes
+
+
+@dataclass(frozen=True)
 class Country:
     """The full description of one country's exam domain."""
     code: str                                      # ISO 3166-1 alpha-2 ("CH", "DE")
@@ -92,6 +121,10 @@ class Country:
     default_region: str
     extension_themes: frozenset = frozenset()      # scaffolded ahead of a source
     references: tuple = ()                         # tuple[Reference, ...]
+    # The path-to-permit scaffolding: the non-theory steps (medical / first-aid /
+    # practical exam / application / fees / validity) that turn a passed theory
+    # paper into an actual licence. Empty for sourcing-only members (INT).
+    path: tuple = ()                               # tuple[PathStep, ...]
     legal_basis: str = ""
     # Maps a prose-drafted question's theme -> the exam-block id it belongs to,
     # for countries whose prose pool feeds a block-structured exam (DE: the BSO
@@ -104,3 +137,19 @@ class Country:
         ordered = sorted(self.regions.values(), key=lambda r: (not r.primary, r.code))
         return [{"code": r.code, "name": r.name, "time_limit_min": r.time_limit_min,
                  "primary": r.primary, "note": r.note} for r in ordered]
+
+    # Stable display order for the path panel: the chronological road to the permit.
+    _PATH_ORDER = ("age", "medical", "first_aid", "practical", "application",
+                   "fees", "validity")
+
+    def path_manifest(self) -> list[dict]:
+        """Path-to-permit steps for the player/docs, in road-to-the-permit order
+        (known codes first by :data:`_PATH_ORDER`, then any extra codes by code).
+        ``body`` is emitted whole (per-language); the player picks the active
+        language and falls back to ``default_lang``."""
+        order = {c: i for i, c in enumerate(self._PATH_ORDER)}
+        steps = sorted(self.path, key=lambda s: (order.get(s.code, 99), s.code))
+        return [{"code": s.code, "body": dict(s.body), "source": s.source,
+                 "url": s.url, "as_of": s.as_of, "volatile": s.volatile,
+                 "region_scope": s.region_scope,
+                 "permit_scope": list(s.permit_scope)} for s in steps]

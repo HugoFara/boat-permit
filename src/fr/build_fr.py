@@ -24,6 +24,7 @@ from ..questions.schema import Question, Choice, Provenance, make_question_id, v
 from .. import scope
 from . import sources_fr, exam_fr, themes_fr, derive_fr
 from .seed_fr import SEED
+from ..countries import fr as fr_country
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
@@ -246,6 +247,11 @@ def _player_html(asset_prefix: str, nav: str, title: str) -> str:
     </div>
     <p class="fine" id="t-sourcenote"></p>
     <div id="anki-dl" class="anki-dl hidden"></div>
+    <details id="permit-path" class="permit-path hidden">
+      <summary id="t-pathtitle"></summary>
+      <p class="fine" id="t-pathintro"></p>
+      <div id="path-steps"></div>
+    </details>
   </section>
   <section id="screen-quiz" class="screen hidden">
     <header class="quizbar">
@@ -406,6 +412,9 @@ def build() -> dict:
             "available": {lg: {"count": len(by_lang[lg]),
                                "unofficial": lg != "fr"} for lg in langs_present},
             "country": "FR", "option": option,
+            # Path-to-permit steps (common to both options); the player renders them
+            # in its "from theory to licence" panel. Additive — banks unchanged.
+            "path": fr_country.COUNTRY.path_manifest(),
             "core": core,
             "anki": anki_avail, "gift": gift_avail,
         }

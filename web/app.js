@@ -385,6 +385,53 @@ function renderAnki() {
     <span class="fine">${T("ankiHint")}</span>`;
 }
 
+/* The path-to-permit panel: the non-theory steps (age/medical/practical/
+ * application/fees/validity) the theory trainer doesn't cover, authored per
+ * language from official sources in `MANIFEST.path`. Each step carries a source
+ * link and the date it was verified; `volatile` steps (fees, age, validity) get a
+ * "may change" marker. Steps are filtered to the active permit (`permit_scope`)
+ * and the active canton/region (`region_scope`); the whole panel hides when the
+ * bundle ships no path (e.g. the INT player). */
+function renderPath() {
+  const panel = $("permit-path");
+  if (!panel) return;
+  const steps = Array.isArray(MANIFEST.path) ? MANIFEST.path : [];
+  const permit = currentPermit();
+  const canton = currentCanton();
+  const region = canton ? canton.code : "";
+  const shown = steps.filter((s) => {
+    const rOk = !s.region_scope || s.region_scope === region;
+    const scope = Array.isArray(s.permit_scope) ? s.permit_scope : [];
+    const pOk = scope.length === 0 || (permit && scope.includes(permit.code));
+    return rOk && pOk;
+  });
+  if (!shown.length) {
+    panel.classList.add("hidden");
+    $("path-steps").innerHTML = "";
+    return;
+  }
+  panel.classList.remove("hidden");
+  $("t-pathtitle").textContent = T("pathTitle");
+  $("t-pathintro").textContent = T("pathIntro");
+  $("path-steps").innerHTML = shown.map((s) => {
+    const label = T("pathStep_" + s.code);
+    const body = s.body[LANG] || s.body[MANIFEST.default] ||
+                 s.body[Object.keys(s.body)[0]] || "";
+    const vol = s.volatile
+      ? ` <span class="path-vol" title="${escapeHtml(T("pathVolatile"))}">⚠</span>` : "";
+    const src = s.url
+      ? `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.source || T("sourceLabel"))}</a>`
+      : escapeHtml(s.source || "");
+    const verified = s.as_of
+      ? ` · ${escapeHtml(T("pathVerified", { date: s.as_of }))}` : "";
+    return `<div class="path-step">
+      <div class="path-step-h"><b>${escapeHtml(label)}</b>${vol}</div>
+      <div class="path-step-b">${escapeHtml(body)}</div>
+      <div class="fine path-step-src">${T("sourceLabel")}: ${src}${verified}</div>
+    </div>`;
+  }).join("");
+}
+
 /* Practice-learning toggles, built in JS and inserted into the start screen so no
  * per-country index.html needs to change. Each toggle persists in localStorage
  * and only affects free practice (labelled as such). */
@@ -656,6 +703,7 @@ function renderStart() {
   renderPermitPicker();                 // CH: own slot, no-op for DE/FR/INT
   renderStudySettings();                // practice-learning toggles
   renderAnki();
+  renderPath();                         // "from theory to licence" panel (if any)
 
   const avail = bankForRun().length;          // questions in the chosen domains
   if (blocksMode()) {

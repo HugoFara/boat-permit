@@ -570,3 +570,63 @@ const LEARN_STRINGS = {
   },
 };
 for (const l in LEARN_STRINGS) STRINGS[l] = Object.assign(STRINGS[l] || {}, LEARN_STRINGS[l]);
+
+/* Path-to-permit panel: the non-theory steps (age/medical/practical/application/
+ * fees/validity) that turn a passed theory paper into an actual licence. The step
+ * labels are keyed by the PathStep `code`; the bodies are authored per language in
+ * the manifest (src/countries/<code>.py). Merged into STRINGS like LEARN_STRINGS. */
+const PATH_STRINGS = {
+  fr: {
+    pathTitle: "Du théorique au permis : les étapes hors examen",
+    pathIntro: "Réussir la théorie ne suffit pas. Voici le reste du parcours, d’après les sources officielles.",
+    pathStep_age: "Âge minimum",
+    pathStep_medical: "Vue & aptitude médicale",
+    pathStep_first_aid: "Premiers secours",
+    pathStep_practical: "Examen pratique",
+    pathStep_application: "Demande & inscription",
+    pathStep_fees: "Émoluments",
+    pathStep_validity: "Validité & renouvellement",
+    pathVerified: "vérifié le {date}",
+    pathVolatile: "peut varier — à vérifier",
+  },
+  de: {
+    pathTitle: "Von der Theorie zum Ausweis: die Schritte neben der Prüfung",
+    pathIntro: "Die Theorie zu bestehen genügt nicht. Hier der restliche Weg, nach offiziellen Quellen.",
+    pathStep_age: "Mindestalter",
+    pathStep_medical: "Sehtest & ärztliche Eignung",
+    pathStep_first_aid: "Nothilfe",
+    pathStep_practical: "Praktische Prüfung",
+    pathStep_application: "Gesuch & Anmeldung",
+    pathStep_fees: "Gebühren",
+    pathStep_validity: "Gültigkeit & Erneuerung",
+    pathVerified: "geprüft am {date}",
+    pathVolatile: "kann sich ändern — prüfen",
+  },
+  it: {
+    pathTitle: "Dalla teoria alla licenza: i passi oltre l’esame",
+    pathIntro: "Superare la teoria non basta. Ecco il resto del percorso, secondo le fonti ufficiali.",
+    pathStep_age: "Età minima",
+    pathStep_medical: "Vista e idoneità medica",
+    pathStep_first_aid: "Primo soccorso",
+    pathStep_practical: "Esame pratico",
+    pathStep_application: "Domanda e iscrizione",
+    pathStep_fees: "Emolumenti",
+    pathStep_validity: "Validità e rinnovo",
+    pathVerified: "verificato il {date}",
+    pathVolatile: "può variare — da verificare",
+  },
+  en: {
+    pathTitle: "From theory to licence: the steps beyond the exam",
+    pathIntro: "Passing the theory isn’t enough. Here’s the rest of the path, from official sources.",
+    pathStep_age: "Minimum age",
+    pathStep_medical: "Eyesight & medical fitness",
+    pathStep_first_aid: "First aid",
+    pathStep_practical: "Practical exam",
+    pathStep_application: "Application & registration",
+    pathStep_fees: "Fees",
+    pathStep_validity: "Validity & renewal",
+    pathVerified: "verified {date}",
+    pathVolatile: "may change — verify",
+  },
+};
+for (const l in PATH_STRINGS) STRINGS[l] = Object.assign(STRINGS[l] || {}, PATH_STRINGS[l]);

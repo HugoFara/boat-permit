@@ -92,6 +92,24 @@
       "legal_version": "2022-01-01",
       "digest": "c270bf072e1b0aca"
     },
+    "path:CH": {
+      "kind": "path",
+      "grade": "reference",
+      "legal_version": "6 steps, oldest as_of 2026-05-31",
+      "digest": "84ffc11116cbace0"
+    },
+    "path:DE": {
+      "kind": "path",
+      "grade": "reference",
+      "legal_version": "10 steps, oldest as_of 2026-05-31",
+      "digest": "129b1df7eeedf561"
+    },
+    "path:FR": {
+      "kind": "path",
+      "grade": "reference",
+      "legal_version": "6 steps, oldest as_of 2026-05-31",
+      "digest": "9675b9136031d5c7"
+    },
     "rheinschpv": {
       "kind": "gii",
       "grade": "law",

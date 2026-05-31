@@ -263,3 +263,20 @@ button:disabled { opacity: .5; cursor: default; }
   margin: 8px 0; padding: 6px 10px; border-radius: 6px;
   background: #fff3cd; border: 1px solid #f0d089; color: #7a5b00; font-size: .85rem; font-weight: 600;
 }
+
+/* Path-to-permit panel: the non-theory steps (medical / practical / application /
+   fees / validity) rendered from MANIFEST.path under a collapsible <details>. */
+.permit-path {
+  margin-top: 16px; padding: 4px 14px 10px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+}
+.permit-path > summary {
+  cursor: pointer; padding: 8px 2px; font-weight: 600; color: var(--accent-dark);
+}
+.permit-path[open] > summary { border-bottom: 1px solid var(--line); margin-bottom: 8px; }
+.path-step { padding: 8px 0; border-top: 1px solid var(--line); }
+.path-step:first-child { border-top: none; }
+.path-step-h b { color: var(--fg); }
+.path-step-b { margin: 3px 0; line-height: 1.45; }
+.path-step-src a { color: var(--accent-dark); }
+.path-vol { cursor: help; color: #7a5b00; }

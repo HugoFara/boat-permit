@@ -13,7 +13,7 @@ analogue of the Swiss public-domain basis. Build it with `python run.py fr`.
 
 from __future__ import annotations
 
-from .base import Country, Permit, ExamRules, Region, Reference
+from .base import Country, Permit, ExamRules, PathStep, Region, Reference
 from ..fr import themes_fr, exam_fr
 
 LEGAL_BASIS = (
@@ -88,6 +88,91 @@ PERMITS: dict[str, Permit] = {
         note="Rivières, canaux et lacs (RGP, implémentation CEVNI)."),
 }
 
+# --- path-to-permit scaffolding ------------------------------------------------
+# The non-theory road to the permis plaisance, authored from the official
+# mer.gouv.fr brochure "Le permis plaisance" (mai 2023) and the ministry page
+# (never from memory). Verified 2026-05-31. Common to both base options (côtière /
+# eaux intérieures), so no permit scoping. No first-aid step: none is required.
+# Languages fr + en (the bank's two). The mandatory practical TRAINING (3 h 30,
+# certified by the centre) replaces a practical exam — there is no on-water test.
+_MER = "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur"
+
+PATH: tuple[PathStep, ...] = (
+    PathStep(
+        code="age", source="mer.gouv.fr — brochure « Le permis plaisance » (mai 2023)",
+        url=_MER, as_of="2026-05-31",
+        body={
+            "fr": "Âge minimum : 16 ans pour s’inscrire dans un établissement de "
+                  "formation agréé (options côtière et eaux intérieures).",
+            "en": "Minimum age: 16 to enrol at an approved training establishment "
+                  "(coastal and inland-waters options).",
+        }),
+    PathStep(
+        code="medical", source="mer.gouv.fr — permis plaisance (aptitude médicale)",
+        url=_MER, as_of="2026-05-31",
+        body={
+            "fr": "Vous devez remplir les conditions d’aptitude médicale : un "
+                  "certificat médical de moins de 6 mois (CERFA 14673*01), établi "
+                  "par tout médecin (pas de téléconsultation).",
+            "en": "You must meet the medical-fitness conditions: a medical "
+                  "certificate less than 6 months old (form CERFA 14673*01), issued "
+                  "by any doctor (no teleconsultation).",
+        }),
+    PathStep(
+        code="practical", source="mer.gouv.fr — brochure « Le permis plaisance » (mai 2023)",
+        url=_MER, as_of="2026-05-31",
+        body={
+            "fr": "Outre la formation théorique en salle (5 h minimum) sanctionnée "
+                  "par le QCM, une formation pratique est obligatoire : "
+                  "apprentissage individuel d’au moins 3 h 30, dont 2 h à la barre, "
+                  "certifié par le centre de formation (livret d’apprentissage). Il "
+                  "n’y a pas d’examen pratique séparé.",
+            "en": "Besides the classroom theory training (min. 5 h) assessed by the "
+                  "QCM, practical training is mandatory: an individual course of at "
+                  "least 3 h 30, of which 2 h at the helm, certified by the training "
+                  "centre (logbook). There is no separate practical exam.",
+        }),
+    PathStep(
+        code="application", source="mer.gouv.fr — permis plaisance (inscription)",
+        url=_MER, as_of="2026-05-31",
+        body={
+            "fr": "L’établissement de formation agréé constitue le dossier et "
+                  "inscrit le candidat (l’inscription à l’examen théorique peut "
+                  "aussi se faire auprès d’un opérateur agréé : La Poste, Dekra, "
+                  "SGS, Bureau Veritas). Les services DDTM/DDT instruisent les "
+                  "dossiers.",
+            "en": "The approved training establishment compiles the file and "
+                  "registers the candidate (theory-exam registration can also be "
+                  "done with an approved operator: La Poste, Dekra, SGS, Bureau "
+                  "Veritas). The DDTM/DDT services process the files.",
+        }),
+    PathStep(
+        code="fees", source="mer.gouv.fr — timbres fiscaux plaisance (mai 2023)",
+        url=_MER, as_of="2026-05-31", volatile=True,
+        body={
+            "fr": "Timbre fiscal de 78 € (droit de délivrance) pour l’option côtière "
+                  "ou eaux intérieures, acheté sur timbres.impots.gouv.fr ; frais "
+                  "d’inscription à l’examen théorique de 30 € réglés à l’organisme "
+                  "agréé. (Extension hauturière : timbre de 38 €.) Le coût de la "
+                  "formation en bateau-école s’y ajoute.",
+            "en": "A €78 fiscal stamp (issuance fee) for the coastal or "
+                  "inland-waters option, bought at timbres.impots.gouv.fr; a €30 "
+                  "theory-exam registration fee paid to the approved operator. "
+                  "(Offshore extension: €38 stamp.) Boat-school training costs are "
+                  "additional.",
+        }),
+    PathStep(
+        code="validity", source="mer.gouv.fr — permis plaisance (validité)",
+        url=_MER, as_of="2026-05-31",
+        body={
+            "fr": "Le permis plaisance est délivré sans limite de durée : aucun "
+                  "renouvellement n’est nécessaire.",
+            "en": "The permis plaisance is issued with no time limit: no renewal is "
+                  "required.",
+        }),
+)
+
+
 # The French exam is national — no regional variance (unlike the Swiss cantons).
 REGIONS: dict[str, Region] = {
     "national": Region(code="national", name="National (France)", primary=True,
@@ -108,5 +193,6 @@ COUNTRY = Country(
     regions=REGIONS,
     default_region=DEFAULT_REGION,
     references=REFERENCES,
+    path=PATH,
     legal_basis=LEGAL_BASIS,
 )

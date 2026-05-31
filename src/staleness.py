@@ -145,6 +145,30 @@ def _fp_elwis(refresh: bool) -> dict:
             "legal_version": ";".join(versions), "digest": _digest(files)}
 
 
+def _fp_path_country(country) -> dict:
+    """Fingerprint one country's committed path-to-permit facts (age/medical/
+    practical/application/fees/validity). Like :func:`_fp_legi`, this pins the
+    *committed* authored data, not live upstream — the official pages aren't polled,
+    so a drift only shows when the facts are edited (the prompt to re-bless). The
+    oldest ``as_of`` is surfaced in ``legal_version`` so aging facts get re-verified.
+    Graded ``reference`` (advisory): stale procedural info should be reported, but it
+    doesn't invalidate a derived question the way a law change does."""
+    h = hashlib.sha256()
+    as_ofs: list[str] = []
+    steps = country.path_manifest()
+    for s in steps:
+        as_ofs.append(s.get("as_of", ""))
+        h.update(("|".join((s["code"], s["region_scope"],
+                            ",".join(s["permit_scope"]), s["url"],
+                            s["as_of"], "1" if s["volatile"] else "0"))).encode())
+        for lg in sorted(s["body"]):
+            h.update(f"{lg}={s['body'][lg]}".encode())
+    oldest = min((a for a in as_ofs if a), default="")
+    return {"kind": "path", "grade": "reference",
+            "legal_version": f"{len(steps)} steps, oldest as_of {oldest}",
+            "digest": h.hexdigest()[:16]}
+
+
 def _fp_legi() -> dict:
     """Fingerprint the committed FR LEGI corpus by its per-article DATE_DEBUT set.
     This is a tripwire for a re-extract that changes article versions; it does *not*
@@ -182,6 +206,11 @@ def snapshot(refresh: bool = True) -> dict:
         fps[sid] = _fp_fetch_source(src, refresh)
     fps["elwis"] = _fp_elwis(refresh)
     fps["legi"] = _fp_legi()
+    # Path-to-permit facts, one fingerprint per country that ships them.
+    for code in sorted(registry.COUNTRIES):
+        country = registry.COUNTRIES[code]
+        if country.path:
+            fps[f"path:{code}"] = _fp_path_country(country)
     return fps
 
 

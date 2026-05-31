@@ -23,7 +23,7 @@ from __future__ import annotations
 
 from ..sources import Source
 from . import de_themes
-from .base import Country, ExamBlock, ExamRules, Permit, Reference, Region
+from .base import Country, ExamBlock, ExamRules, PathStep, Permit, Reference, Region
 
 # --- 2025–26 reform, still in flux (show as "pending", never as settled law) ---
 REFORM_NOTE = (
@@ -246,6 +246,93 @@ PERMITS: dict[str, Permit] = {
 }
 
 
+# --- path-to-permit scaffolding ------------------------------------------------
+# The non-theory road to the licence, authored from official sources (never from
+# memory): the SpFV (gesetze-im-internet.de, §5(1) UrhG), the ELWIS overview, the
+# DMYV official fee schedule, and the Landratsamt Bodenseekreis. Verified
+# 2026-05-31. German only (this bank ships de). Two regimes, scoped by permit:
+# the federal SBF (DMYV/DSV) vs the trinational Bodensee-Schifferpatent
+# (Schifffahrtsamt). No first-aid step: no official page lists one (as for CH).
+# SKS/SSS/SHS are voluntary advanced certificates with their own prerequisites and
+# get no path here — the panel simply stays hidden for them.
+_FED = ("SBF-Binnen-Motor", "SBF-Binnen-Motor-Segeln", "SBF-Binnen-Segeln", "SBF-See")
+_BSEE = ("Bodensee-A", "Bodensee-D")
+_SPFV6 = "https://www.gesetze-im-internet.de/spfv/__6.html"
+_SPFV8 = "https://www.gesetze-im-internet.de/spfv/__8.html"
+_SPFV = "https://www.gesetze-im-internet.de/spfv/"
+_ELWIS_SBF = ("https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/"
+              "Sportbootfuehrerscheine-node.html")
+_DMYV_FEES = "https://dmyv-pzrlp.de/gebuehrenseite-neu/"
+_LRA_BSEE = ("https://www.bodenseekreis.de/verkehr-wirtschaft/schifffahrt/"
+             "bodenseeschifferpatent/schifferpatentpruefung/")
+
+PATH: tuple[PathStep, ...] = (
+    # --- federal Sportbootführerschein (DMYV/DSV) ---
+    PathStep(
+        code="age", source="SpFV §6 Abs. 1 (Sportbootführerscheinverordnung)",
+        url=_SPFV6, as_of="2026-05-31", permit_scope=_FED,
+        body={"de": "Mindestalter: 16 Jahre für Motorantrieb, 14 Jahre für "
+                    "Segeln (SpFV §6 Abs. 1)."}),
+    PathStep(
+        code="medical", source="SpFV §6 Abs. 2 + Anlage 2", url=_SPFV6,
+        as_of="2026-05-31", permit_scope=_FED,
+        body={"de": "Erforderlich ist ein ärztlicher Tauglichkeitsnachweis. Die "
+                    "Sehschärfe muss auf beiden Augen zusammen oder auf dem besseren "
+                    "Auge ≥ 0,8 betragen (mit oder ohne Sehhilfe), geprüft nach "
+                    "DIN 58220 (SpFV §6 Abs. 2, Anlage 2)."}),
+    PathStep(
+        code="practical", source="SpFV §8 + Anlage 4", url=_SPFV8,
+        as_of="2026-05-31", permit_scope=_FED,
+        body={"de": "Nach der Theorieprüfung folgt die praktische Prüfung: "
+                    "Pflichtmanöver (u. a. Rettungsmanöver/Mann-über-Bord, An- und "
+                    "Ablegen), weitere Manöver je nach Antriebsart sowie Knoten "
+                    "(SpFV §8, Anlage 4)."}),
+    PathStep(
+        code="application", source="ELWIS — Sportbootführerscheine (BMDV)",
+        url=_ELWIS_SBF, as_of="2026-05-31", permit_scope=_FED,
+        body={"de": "Zulassung, Prüfung und Ausstellung erfolgen über die vom BMDV "
+                    "beauftragten Verbände: Deutscher Motoryachtverband (DMYV) oder "
+                    "Deutscher Segler-Verband (DSV)."}),
+    PathStep(
+        code="fees", source="DMYV — amtliche Prüfungsgebühren (Stand 01/2023)",
+        url=_DMYV_FEES, as_of="2026-05-31", volatile=True, permit_scope=_FED,
+        body={"de": "Amtliche Prüfungsgebühren (DMYV/DSV): SBF See 148,38 € "
+                    "(Theorie 47,56 + Praxis 47,62 + Erteilung 29,82 + Zulassung "
+                    "23,38); SBF Binnen Motor 130,78 €, Segeln 127,84 €. Die Kurs-/"
+                    "Ausbildungskosten der Bootsschule kommen hinzu (je nach Anbieter "
+                    "rund 300–1000 €)."}),
+    PathStep(
+        code="validity", source="SpFV (Verordnung über das Führen von Sportbooten)",
+        url=_SPFV, as_of="2026-05-31", permit_scope=_FED,
+        body={"de": "Der Sportbootführerschein ist unbefristet gültig; eine "
+                    "Erneuerung ist nicht erforderlich (der ärztliche "
+                    "Tauglichkeitsnachweis kann hingegen befristet sein)."}),
+    # --- trinational Bodensee-Schifferpatent (Schifffahrtsamt, DE/AT/CH) ---
+    PathStep(
+        code="age", source="Landratsamt Bodenseekreis — Schifferpatent",
+        url=_LRA_BSEE, as_of="2026-05-31", permit_scope=_BSEE,
+        body={"de": "Mindestalter: 18 Jahre für Kategorie A (Motor), 14 Jahre für "
+                    "Kategorie D (Segel)."}),
+    PathStep(
+        code="medical", source="Landratsamt Bodenseekreis — Schifferpatent",
+        url=_LRA_BSEE, as_of="2026-05-31", permit_scope=_BSEE,
+        body={"de": "Ein ärztliches Gutachten über die Tauglichkeit ist vorzulegen "
+                    "(Formular des Schifffahrtsamts)."}),
+    PathStep(
+        code="practical", source="Landratsamt Bodenseekreis — Schifferpatent",
+        url=_LRA_BSEE, as_of="2026-05-31", permit_scope=_BSEE,
+        body={"de": "Praktische Prüfung mit Motormanövern (Anlegen, Ablegen, "
+                    "Mann-über-Bord) sowie — Kat. D — Segelmanövern und Knoten "
+                    "(u. a. Palstek, Webleinstek, Schotstek)."}),
+    PathStep(
+        code="application", source="Landratsamt Bodenseekreis — Schifffahrtsamt",
+        url=_LRA_BSEE, as_of="2026-05-31", permit_scope=_BSEE,
+        body={"de": "Das Bodensee-Schifferpatent wird vom Schifffahrtsamt des "
+                    "Landratsamts (am See) ausgestellt — eigene Prüfung, nicht der "
+                    "Bund-SBF."}),
+)
+
+
 # --- regional variance ---------------------------------------------------------
 REGIONS: dict[str, Region] = {
     "national": Region(code="national", name="Bundesweit (SBF See/Binnen)",
@@ -271,6 +358,7 @@ COUNTRY = Country(
     regions=REGIONS,
     default_region=DEFAULT_REGION,
     references=REFERENCES,
+    path=PATH,
     legal_basis=LEGAL_BASIS,
     # BSO-seeded prose questions belong to the Bodensee-Schifferpatent Sachgebiete.
     prose_block_for=de_themes.bodensee_block_for,
