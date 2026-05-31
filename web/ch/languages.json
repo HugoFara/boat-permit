@@ -8,7 +8,7 @@
   ],
   "available": {
     "de": {
-      "count": 185,
+      "count": 190,
       "unofficial": false
     },
     "en": {
@@ -20,7 +20,7 @@
       "unofficial": false
     },
     "it": {
-      "count": 189,
+      "count": 194,
       "unofficial": false
     }
   },
@@ -92,7 +92,7 @@
     "universal": {
       "de": {
         "path": "../questions.universal.de.json",
-        "count": 117
+        "count": 122
       },
       "en": {
         "path": "../questions.universal.en.json",
@@ -104,7 +104,7 @@
       },
       "it": {
         "path": "../questions.universal.it.json",
-        "count": 25
+        "count": 30
       }
     },
     "cevni": {
@@ -144,7 +144,7 @@
     "de": {
       "apkg": "anki/boat-permit.de.apkg",
       "tsv": "anki/boat-permit.de.tsv",
-      "count": 185,
+      "count": 190,
       "images": 69
     },
     "en": {
@@ -162,14 +162,14 @@
     "it": {
       "apkg": "anki/boat-permit.it.apkg",
       "tsv": "anki/boat-permit.it.tsv",
-      "count": 189,
+      "count": 194,
       "images": 71
     }
   },
   "gift": {
     "de": {
       "gift": "gift/boat-permit.de.gift",
-      "count": 185
+      "count": 190
     },
     "en": {
       "gift": "gift/boat-permit.en.gift",
@@ -181,7 +181,7 @@
     },
     "it": {
       "gift": "gift/boat-permit.it.gift",
-      "count": 189
+      "count": 194
     }
   }
 }

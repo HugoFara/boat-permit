@@ -34521,6 +34521,436 @@
       "correct": [
         0
       ]
+    },
+    {
+      "id": "q-voilewpde-voilehalseprésentation-af64e19-0ad6c463",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Wodurch unterscheidet sich die Halse von der Wende?",
+      "choices": [
+        {
+          "text": "Bei der Halse geht das Fahrzeug mit dem Heck durch den Wind",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bei der Halse geht das Fahrzeug mit dem Bug durch den Wind",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Halse ist immer ohne Kursänderung möglich",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_de-voile__halse__présentation-af64e196",
+        "ref": "Voile — Halse : Présentation",
+        "source": "Wikipedia (DE) — Segeln (Technik)",
+        "url": "https://de.wikipedia.org/wiki/Halse",
+        "as_of": "263252823",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Bei der Halse geht das Boot mit dem Heck durch den Wind (die Wende mit dem Bug); unsauber ausgeführt droht eine Patenthalse, bei der der Großbaum unkontrolliert umschlägt.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpde-voilekreuzensegelnwiemangegend-c16208ac",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Worauf beruht im Wesentlichen der Vortrieb beim Segeln gegen den Wind (Am-Wind-Kurs)?",
+      "choices": [
+        {
+          "text": "Auf dem Tragflächeneffekt, ähnlich wie bei den Tragflächen eines Flugzeugs",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Allein auf dem Widerstand des Windes auf die Segel",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Auf dem Rückstoß des am Segel vorbeiströmenden Windes",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_de-voile__kreuzen_segeln__wie_man_gegen_den_wind_se-3542e7b9",
+        "ref": "Voile — Kreuzen (Segeln) : Wie man gegen den Wind segeln kann",
+        "source": "Wikipedia (DE) — Segeln (Technik)",
+        "url": "https://de.wikipedia.org/wiki/Kreuzen_(Segeln)",
+        "as_of": "220628617",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Gegen den Wind wirkt vor allem der Tragflächeneffekt (wie bei einem Flugzeugflügel); der quer zum Segel stehende Kraftanteil erzeugt zugleich Krängung und Abdrift.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpde-voilekursezumwindimwind-8a5c24-38943199",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Was geschieht, wenn ein Segelboot den kleinstmöglichen segelbaren Winkel zum Wind unterschreitet?",
+      "choices": [
+        {
+          "text": "Es wird kein Vortrieb mehr erzeugt und die Segel killen (flattern)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Das Boot erreicht vor dem Wind seine Höchstgeschwindigkeit",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es wird automatisch eine Patenthalse ausgelöst",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_de-voile__kurse_zum_wind__im_wind-8a5c2480",
+        "ref": "Voile — Kurse zum Wind : Im Wind",
+        "source": "Wikipedia (DE) — Segeln (Technik)",
+        "url": "https://de.wikipedia.org/wiki/Kurse_zum_Wind",
+        "as_of": "259477073",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Im Wind-Sektor wird kein Vortrieb mehr erzeugt, die Segel killen; das Ziel kann nur durch Kreuzen angelaufen werden.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpde-voilespinnakergefahrenmitdemsp-72cede82",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Was muss die Crew tun, wenn der Spinnaker das Boot außer Kontrolle zu bringen droht?",
+      "choices": [
+        {
+          "text": "Sofort die Spinnakerschoten loswerfen, um den Druck zu reduzieren",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Einen Achtknoten in die Spinnakerschoten stecken",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das Ruder hart anluven und den Kurs halten",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_de-voile__spinnaker__gefahren_mit_dem_spinnaker-8b9c5044",
+        "ref": "Voile — Spinnaker : Gefahren mit dem Spinnaker",
+        "source": "Wikipedia (DE) — Segeln (Technik)",
+        "url": "https://de.wikipedia.org/wiki/Spinnaker",
+        "as_of": "263288179",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Bei drohendem Kontrollverlust (Querschlagen/Sonnenschuss) müssen die Spinnakerschoten sofort losgeworfen werden, um den Druck zu reduzieren; deshalb werden keine Achtknoten in diese Schoten gesteckt.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpde-voilewendesegelnprésentation-6-8f4e1ddc",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Was kennzeichnet die Wende beim Segeln?",
+      "choices": [
+        {
+          "text": "Das Schiff geht mit dem Bug durch den Wind; der Wind kommt kurzzeitig von vorne",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Das Schiff geht mit dem Heck durch den Wind",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Kurs bleibt während des Manövers unverändert",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_de-voile__wende_segeln__présentation-6fbd2588",
+        "ref": "Voile — Wende (Segeln) : Présentation",
+        "source": "Wikipedia (DE) — Segeln (Technik)",
+        "url": "https://de.wikipedia.org/wiki/Wende_(Segeln)",
+        "as_of": "267107815",
+        "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Bei der Wende erfolgt ein Kurswechsel, bei dem das Schiff mit dem Bug durch den Wind geht (Wind kurzzeitig von vorne); die Halse geht mit dem Heck durch den Wind.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpit-voileabbattutaprésentation-e79-b6a3506a",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Che cos’è l’abbattuta (virata in poppa)?",
+      "choices": [
+        {
+          "text": "La manovra che cambia le mure passando con la poppa attraverso il fil di ruota",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La manovra di cambio mure portando la prua nel vento",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Una vela triangolare di prua issata alle andature portanti",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_it-voile__abbattuta__présentation-e79c2243",
+        "ref": "Voile — Abbattuta : Présentation",
+        "source": "Wikipedia (IT) — vela (tecnica)",
+        "url": "https://it.wikipedia.org/wiki/Abbattuta",
+        "as_of": "147812019",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L’abbattuta cambia le mure passando con la poppa attraverso il fil di ruota; se involontaria e incontrollata si chiama strambata.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpit-voileandaturavelaprésentation--4d10a1c3",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Che cosa si definisce «andatura» nella navigazione a vela?",
+      "choices": [
+        {
+          "text": "I diversi modi di avanzare di un’imbarcazione a vela rispetto alla direzione del vento",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un segnale di precedenza tra due imbarcazioni",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La manovra di cambio delle mure passando con la poppa nel vento",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_it-voile__andatura_vela__présentation-07ac8367",
+        "ref": "Voile — Andatura (vela) : Présentation",
+        "source": "Wikipedia (IT) — vela (tecnica)",
+        "url": "https://it.wikipedia.org/wiki/Andatura_(vela)",
+        "as_of": "116360851",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le andature sono i diversi modi di avanzare di una barca a vela rispetto alla direzione del vento; la propulsione è analoga alla portanza di un’ala.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpit-voilebolinaprésentation-38891f-b0bb0aa6",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Che cos’è l’andatura di bolina?",
+      "choices": [
+        {
+          "text": "Un’andatura che consente di risalire il vento, con un angolo rispetto al vento reale tra circa 60° e 37°",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L’andatura in cui il vento proviene esattamente da poppa",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La manovra di cambio mure attraverso il fil di ruota",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_it-voile__bolina__présentation-38891fdc",
+        "ref": "Voile — Bolina : Présentation",
+        "source": "Wikipedia (IT) — vela (tecnica)",
+        "url": "https://it.wikipedia.org/wiki/Bolina",
+        "as_of": "129109645",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "La bolina permette di risalire il vento mantenendo un angolo rispetto al vento reale di circa 60°–37° (variabile secondo l’imbarcazione).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpit-voilefioccovelacaratteristiche-4608fd19",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "A che cosa serve il fiocco in un armo a sloop?",
+      "choices": [
+        {
+          "text": "A mantenere il controllo della prua e a contribuire a bordeggiare (risalire il vento)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A frenare l’imbarcazione nelle andature portanti",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A sostituire la randa nelle andature di poppa",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_it-voile__fiocco_vela__caratteristiche-a134292e",
+        "ref": "Voile — Fiocco (vela) : Caratteristiche",
+        "source": "Wikipedia (IT) — vela (tecnica)",
+        "url": "https://it.wikipedia.org/wiki/Fiocco_(vela)",
+        "as_of": "133348926",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nell’armo a sloop il fiocco (vela triangolare di prua, inserita su uno strallo) aiuta a controllare la prua e a bordeggiare/risalire il vento.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpit-voileviratanauticaprésentation-5160df65",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Come si effettua la virata (di prua)?",
+      "choices": [
+        {
+          "text": "Portando la prua in direzione del vento, fino al cambio delle mure (da bolina a bolina)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Portando la poppa attraverso il vento (fil di ruota)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mantenendo le stesse mure per tutta la manovra",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_it-voile__virata_nautica__présentation-f1a830f9",
+        "ref": "Voile — Virata (nautica) : Présentation",
+        "source": "Wikipedia (IT) — vela (tecnica)",
+        "url": "https://it.wikipedia.org/wiki/Virata_(nautica)",
+        "as_of": "143415523",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "La virata cambia direzione portando la prua nel vento (da bolina a bolina); la manovra opposta, con la poppa nel vento, è l’abbattuta.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
     }
   ]
 }

@@ -8146,6 +8146,221 @@
       "correct": [
         1
       ]
+    },
+    {
+      "id": "q-voilewpit-voileabbattutaprésentation-e79-b6a3506a",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Che cos’è l’abbattuta (virata in poppa)?",
+      "choices": [
+        {
+          "text": "La manovra che cambia le mure passando con la poppa attraverso il fil di ruota",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La manovra di cambio mure portando la prua nel vento",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Una vela triangolare di prua issata alle andature portanti",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_it-voile__abbattuta__présentation-e79c2243",
+        "ref": "Voile — Abbattuta : Présentation",
+        "source": "Wikipedia (IT) — vela (tecnica)",
+        "url": "https://it.wikipedia.org/wiki/Abbattuta",
+        "as_of": "147812019",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L’abbattuta cambia le mure passando con la poppa attraverso il fil di ruota; se involontaria e incontrollata si chiama strambata.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpit-voileandaturavelaprésentation--4d10a1c3",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Che cosa si definisce «andatura» nella navigazione a vela?",
+      "choices": [
+        {
+          "text": "I diversi modi di avanzare di un’imbarcazione a vela rispetto alla direzione del vento",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un segnale di precedenza tra due imbarcazioni",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La manovra di cambio delle mure passando con la poppa nel vento",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_it-voile__andatura_vela__présentation-07ac8367",
+        "ref": "Voile — Andatura (vela) : Présentation",
+        "source": "Wikipedia (IT) — vela (tecnica)",
+        "url": "https://it.wikipedia.org/wiki/Andatura_(vela)",
+        "as_of": "116360851",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le andature sono i diversi modi di avanzare di una barca a vela rispetto alla direzione del vento; la propulsione è analoga alla portanza di un’ala.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpit-voilebolinaprésentation-38891f-b0bb0aa6",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Che cos’è l’andatura di bolina?",
+      "choices": [
+        {
+          "text": "Un’andatura che consente di risalire il vento, con un angolo rispetto al vento reale tra circa 60° e 37°",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L’andatura in cui il vento proviene esattamente da poppa",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La manovra di cambio mure attraverso il fil di ruota",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_it-voile__bolina__présentation-38891fdc",
+        "ref": "Voile — Bolina : Présentation",
+        "source": "Wikipedia (IT) — vela (tecnica)",
+        "url": "https://it.wikipedia.org/wiki/Bolina",
+        "as_of": "129109645",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "La bolina permette di risalire il vento mantenendo un angolo rispetto al vento reale di circa 60°–37° (variabile secondo l’imbarcazione).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpit-voilefioccovelacaratteristiche-4608fd19",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "A che cosa serve il fiocco in un armo a sloop?",
+      "choices": [
+        {
+          "text": "A mantenere il controllo della prua e a contribuire a bordeggiare (risalire il vento)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A frenare l’imbarcazione nelle andature portanti",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A sostituire la randa nelle andature di poppa",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_it-voile__fiocco_vela__caratteristiche-a134292e",
+        "ref": "Voile — Fiocco (vela) : Caratteristiche",
+        "source": "Wikipedia (IT) — vela (tecnica)",
+        "url": "https://it.wikipedia.org/wiki/Fiocco_(vela)",
+        "as_of": "133348926",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nell’armo a sloop il fiocco (vela triangolare di prua, inserita su uno strallo) aiuta a controllare la prua e a bordeggiare/risalire il vento.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewpit-voileviratanauticaprésentation-5160df65",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Come si effettua la virata (di prua)?",
+      "choices": [
+        {
+          "text": "Portando la prua in direzione del vento, fino al cambio delle mure (da bolina a bolina)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Portando la poppa attraverso il vento (fil di ruota)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mantenendo le stesse mure per tutta la manovra",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp_it-voile__virata_nautica__présentation-f1a830f9",
+        "ref": "Voile — Virata (nautica) : Présentation",
+        "source": "Wikipedia (IT) — vela (tecnica)",
+        "url": "https://it.wikipedia.org/wiki/Virata_(nautica)",
+        "as_of": "143415523",
+        "licence": "CC BY-SA 4.0 — Wikipedia (IT), attribution required."
+      },
+      "lang": "it",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "La virata cambia direzione portando la prua nel vento (da bolina a bolina); la manovra opposta, con la poppa nel vento, è l’abbattuta.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
     }
   ]
 }

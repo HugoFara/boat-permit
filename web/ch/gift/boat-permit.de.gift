@@ -1307,3 +1307,40 @@ $CATEGORY: Bootsprüfung · Genfersee (DE)/Grenzgewässer
 ~Mindestens 100 N pro Person
 ####[html]Nach RNL art. 86f müssen Sammelrettungsmittel im Süsswasser pro Person eine Auftriebskraft von mindestens 750 N haben.<br>Source \: <a href\="https\://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr">RNL art. 86f — Règlement de la navigation sur le Léman (RNL), RS 747.221.1 (2019-06-01)</a>
 }
+
+$CATEGORY: Bootsprüfung · Genfersee (DE)/Segeln
+
+::q-voilewpde-voilehalseprésentation-af64e19-0ad6c463:: [html]Wodurch unterscheidet sich die Halse von der Wende? {
+=Bei der Halse geht das Fahrzeug mit dem Heck durch den Wind
+~Bei der Halse geht das Fahrzeug mit dem Bug durch den Wind
+~Die Halse ist immer ohne Kursänderung möglich
+####[html]Bei der Halse geht das Boot mit dem Heck durch den Wind (die Wende mit dem Bug); unsauber ausgeführt droht eine Patenthalse, bei der der Großbaum unkontrolliert umschlägt.<br>Source \: <a href\="https\://de.wikipedia.org/wiki/Halse">Voile — Halse \: Présentation — Wikipedia (DE) — Segeln (Technik) (263252823)</a>
+}
+
+::q-voilewpde-voilekreuzensegelnwiemangegend-c16208ac:: [html]Worauf beruht im Wesentlichen der Vortrieb beim Segeln gegen den Wind (Am-Wind-Kurs)? {
+=Auf dem Tragflächeneffekt, ähnlich wie bei den Tragflächen eines Flugzeugs
+~Allein auf dem Widerstand des Windes auf die Segel
+~Auf dem Rückstoß des am Segel vorbeiströmenden Windes
+####[html]Gegen den Wind wirkt vor allem der Tragflächeneffekt (wie bei einem Flugzeugflügel); der quer zum Segel stehende Kraftanteil erzeugt zugleich Krängung und Abdrift.<br>Source \: <a href\="https\://de.wikipedia.org/wiki/Kreuzen_(Segeln)">Voile — Kreuzen (Segeln) \: Wie man gegen den Wind segeln kann — Wikipedia (DE) — Segeln (Technik) (220628617)</a>
+}
+
+::q-voilewpde-voilekursezumwindimwind-8a5c24-38943199:: [html]Was geschieht, wenn ein Segelboot den kleinstmöglichen segelbaren Winkel zum Wind unterschreitet? {
+=Es wird kein Vortrieb mehr erzeugt und die Segel killen (flattern)
+~Das Boot erreicht vor dem Wind seine Höchstgeschwindigkeit
+~Es wird automatisch eine Patenthalse ausgelöst
+####[html]Im Wind-Sektor wird kein Vortrieb mehr erzeugt, die Segel killen; das Ziel kann nur durch Kreuzen angelaufen werden.<br>Source \: <a href\="https\://de.wikipedia.org/wiki/Kurse_zum_Wind">Voile — Kurse zum Wind \: Im Wind — Wikipedia (DE) — Segeln (Technik) (259477073)</a>
+}
+
+::q-voilewpde-voilespinnakergefahrenmitdemsp-72cede82:: [html]Was muss die Crew tun, wenn der Spinnaker das Boot außer Kontrolle zu bringen droht? {
+=Sofort die Spinnakerschoten loswerfen, um den Druck zu reduzieren
+~Einen Achtknoten in die Spinnakerschoten stecken
+~Das Ruder hart anluven und den Kurs halten
+####[html]Bei drohendem Kontrollverlust (Querschlagen/Sonnenschuss) müssen die Spinnakerschoten sofort losgeworfen werden, um den Druck zu reduzieren; deshalb werden keine Achtknoten in diese Schoten gesteckt.<br>Source \: <a href\="https\://de.wikipedia.org/wiki/Spinnaker">Voile — Spinnaker \: Gefahren mit dem Spinnaker — Wikipedia (DE) — Segeln (Technik) (263288179)</a>
+}
+
+::q-voilewpde-voilewendesegelnprésentation-6-8f4e1ddc:: [html]Was kennzeichnet die Wende beim Segeln? {
+=Das Schiff geht mit dem Bug durch den Wind; der Wind kommt kurzzeitig von vorne
+~Das Schiff geht mit dem Heck durch den Wind
+~Der Kurs bleibt während des Manövers unverändert
+####[html]Bei der Wende erfolgt ein Kurswechsel, bei dem das Schiff mit dem Bug durch den Wind geht (Wind kurzzeitig von vorne); die Halse geht mit dem Heck durch den Wind.<br>Source \: <a href\="https\://de.wikipedia.org/wiki/Wende_(Segeln)">Voile — Wende (Segeln) \: Présentation — Wikipedia (DE) — Segeln (Technik) (267107815)</a>
+}

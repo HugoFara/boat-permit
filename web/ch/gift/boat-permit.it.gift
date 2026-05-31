@@ -1335,3 +1335,40 @@ $CATEGORY: Licenza nautica · Lemano (IT)/Acque di confine
 ~Almeno 100 N per persona
 ####[html]Secondo il RNL art. 86f par. 2 lett. b, devono avere una spinta idrostatica di almeno 750 N per persona in acqua dolce.<br>Source \: <a href\="https\://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr">RNL art. 86f — Règlement de la navigation sur le Léman (RNL), RS 747.221.1 (2019-06-01)</a>
 }
+
+$CATEGORY: Licenza nautica · Lemano (IT)/Navigazione a vela
+
+::q-voilewpit-voileabbattutaprésentation-e79-b6a3506a:: [html]Che cos’è l’abbattuta (virata in poppa)? {
+=La manovra che cambia le mure passando con la poppa attraverso il fil di ruota
+~La manovra di cambio mure portando la prua nel vento
+~Una vela triangolare di prua issata alle andature portanti
+####[html]L’abbattuta cambia le mure passando con la poppa attraverso il fil di ruota; se involontaria e incontrollata si chiama strambata.<br>Source \: <a href\="https\://it.wikipedia.org/wiki/Abbattuta">Voile — Abbattuta \: Présentation — Wikipedia (IT) — vela (tecnica) (147812019)</a>
+}
+
+::q-voilewpit-voileandaturavelaprésentation--4d10a1c3:: [html]Che cosa si definisce «andatura» nella navigazione a vela? {
+=I diversi modi di avanzare di un’imbarcazione a vela rispetto alla direzione del vento
+~Un segnale di precedenza tra due imbarcazioni
+~La manovra di cambio delle mure passando con la poppa nel vento
+####[html]Le andature sono i diversi modi di avanzare di una barca a vela rispetto alla direzione del vento; la propulsione è analoga alla portanza di un’ala.<br>Source \: <a href\="https\://it.wikipedia.org/wiki/Andatura_(vela)">Voile — Andatura (vela) \: Présentation — Wikipedia (IT) — vela (tecnica) (116360851)</a>
+}
+
+::q-voilewpit-voilebolinaprésentation-38891f-b0bb0aa6:: [html]Che cos’è l’andatura di bolina? {
+=Un’andatura che consente di risalire il vento, con un angolo rispetto al vento reale tra circa 60° e 37°
+~L’andatura in cui il vento proviene esattamente da poppa
+~La manovra di cambio mure attraverso il fil di ruota
+####[html]La bolina permette di risalire il vento mantenendo un angolo rispetto al vento reale di circa 60°–37° (variabile secondo l’imbarcazione).<br>Source \: <a href\="https\://it.wikipedia.org/wiki/Bolina">Voile — Bolina \: Présentation — Wikipedia (IT) — vela (tecnica) (129109645)</a>
+}
+
+::q-voilewpit-voilefioccovelacaratteristiche-4608fd19:: [html]A che cosa serve il fiocco in un armo a sloop? {
+=A mantenere il controllo della prua e a contribuire a bordeggiare (risalire il vento)
+~A frenare l’imbarcazione nelle andature portanti
+~A sostituire la randa nelle andature di poppa
+####[html]Nell’armo a sloop il fiocco (vela triangolare di prua, inserita su uno strallo) aiuta a controllare la prua e a bordeggiare/risalire il vento.<br>Source \: <a href\="https\://it.wikipedia.org/wiki/Fiocco_(vela)">Voile — Fiocco (vela) \: Caratteristiche — Wikipedia (IT) — vela (tecnica) (133348926)</a>
+}
+
+::q-voilewpit-voileviratanauticaprésentation-5160df65:: [html]Come si effettua la virata (di prua)? {
+=Portando la prua in direzione del vento, fino al cambio delle mure (da bolina a bolina)
+~Portando la poppa attraverso il vento (fil di ruota)
+~Mantenendo le stesse mure per tutta la manovra
+####[html]La virata cambia direzione portando la prua nel vento (da bolina a bolina); la manovra opposta, con la poppa nel vento, è l’abbattuta.<br>Source \: <a href\="https\://it.wikipedia.org/wiki/Virata_(nautica)">Voile — Virata (nautica) \: Présentation — Wikipedia (IT) — vela (tecnica) (143415523)</a>
+}
