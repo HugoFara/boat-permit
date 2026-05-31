@@ -118,6 +118,24 @@
       }
     }
   },
+  "coverage": {
+    "tracks": {
+      "universal": {
+        "pct": 0,
+        "instrumented_pct": 13,
+        "missing": [
+          "give-way"
+        ]
+      },
+      "colregs": {
+        "pct": 83,
+        "instrumented_pct": 56,
+        "missing": [
+          "waterway-signs"
+        ]
+      }
+    }
+  },
   "anki": {
     "fr": {
       "apkg": "anki/boating-licence.fr.apkg",

@@ -691,7 +691,35 @@ function renderPools() {
   });
 }
 
+/* Honest catalogue-coverage banner (MANIFEST.coverage, from the committed
+ * data/coverage.lock.json). A derived bank shows its measured coverage of the
+ * harmonised traffic code + the "do a final official-bank mock" caveat; the
+ * official German bank states it plainly. `universal` is omitted — it is barely
+ * instrumented, so its figure is noise (the docs disclose it in full). Absent
+ * coverage ⇒ no banner. */
+const COVERAGE_TRAFFIC = ["cevni", "colregs"];
+function renderCoverage() {
+  const note = $("coverage-note");
+  if (!note) return;
+  const cov = MANIFEST.coverage;
+  const hide = () => { note.classList.add("hidden"); note.innerHTML = ""; };
+  if (!cov) return hide();
+  if (cov.official) {
+    note.innerHTML = T("coverageOfficial");
+    note.classList.remove("hidden");
+    return;
+  }
+  const tracks = cov.tracks || {};
+  const parts = COVERAGE_TRAFFIC.filter((b) => tracks[b]).map((b) =>
+    T("coverageTrack", { base: T("coverageBase_" + b), pct: tracks[b].pct,
+                         slice: tracks[b].instrumented_pct }));
+  if (!parts.length) return hide();
+  note.innerHTML = T("coverageDerived", { tracks: parts.join(" · ") });
+  note.classList.remove("hidden");
+}
+
 function renderStart() {
+  renderCoverage();
   const note = $("fallback-note");
   if (UNOFFICIAL) {
     note.innerHTML = T("unofficialBanner");

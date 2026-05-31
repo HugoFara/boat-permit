@@ -35,6 +35,7 @@ harmonised base it belongs to. Extend it as the banks grow.
 
 from __future__ import annotations
 
+import json
 import os
 import re
 import sqlite3
@@ -369,6 +370,60 @@ def format_coverage(report: dict) -> str:
               "  floor, not an exam-readiness signal — do not present any derived "
               "bank as 'ready to pass'."]
     return "\n".join(lines)
+
+
+# --------------------------------------------------------------------------
+# Human-facing surfaces — a committed lock the docs + offline player read
+# --------------------------------------------------------------------------
+# The full report above is a maintainer diagnostic. The country docs and the
+# static player need a stable, compact, *committed* view they can read without
+# the (gitignored) built banks present — exactly the role data/sources.lock.json
+# plays for staleness. `coverage_summary` distils the report; `write_lock` /
+# `load_lock` persist it so doc generation + the player are deterministic and
+# offline.
+LOCK_PATH = os.path.join(DATA, "coverage.lock.json")
+
+
+def coverage_summary(report: dict | None = None, generated: str = "") -> dict:
+    """A compact, serialisable view of :func:`coverage` for humans. Per *derived*
+    bank, per base it implements: the bounded coverage ``pct``, the
+    ``instrumented_pct`` that figure rests on, and the ``missing`` topics the
+    official bank tests. The official bank (DE) is the yardstick, not a derived
+    bank, so it is recorded only as ``official`` — never given a coverage score."""
+    report = report or coverage()
+    instr = report.get("instrumentation", {})
+    banks: dict[str, dict] = {}
+    for code, per_base in report.get("principle_cov", {}).items():
+        tracks = {}
+        for base, d in per_base.items():
+            if d.get("pct") is None:
+                continue
+            slice_pct = (instr.get(base) or {}).get("pct")
+            tracks[base] = {
+                "pct": round(d["pct"]),
+                "instrumented_pct": round(slice_pct) if slice_pct is not None else None,
+                "missing": list(d.get("missing", [])),
+            }
+        if tracks:
+            banks[code] = {"tracks": tracks}
+    return {"official": OFFICIAL, "generated": generated, "banks": banks}
+
+
+def write_lock(path: str = LOCK_PATH, generated: str = "") -> dict:
+    """Recompute the summary from the built banks and persist it (committed)."""
+    summary = coverage_summary(generated=generated)
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(summary, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+    return summary
+
+
+def load_lock(path: str = LOCK_PATH) -> dict:
+    """Read the committed summary (no banks needed). Empty shell if absent."""
+    if not os.path.exists(path):
+        return {"official": OFFICIAL, "generated": "", "banks": {}}
+    with open(path, encoding="utf-8") as fh:
+        return json.load(fh)
 
 
 # --------------------------------------------------------------------------

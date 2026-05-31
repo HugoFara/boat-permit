@@ -1,0 +1,47 @@
+{
+  "official": "DE",
+  "generated": "2026-05-31",
+  "banks": {
+    "CH": {
+      "tracks": {
+        "universal": {
+          "pct": 100,
+          "instrumented_pct": 13,
+          "missing": []
+        },
+        "cevni": {
+          "pct": 84,
+          "instrumented_pct": 60,
+          "missing": [
+            "give-way"
+          ]
+        }
+      }
+    },
+    "FR": {
+      "tracks": {
+        "universal": {
+          "pct": 0,
+          "instrumented_pct": 13,
+          "missing": [
+            "give-way"
+          ]
+        },
+        "cevni": {
+          "pct": 80,
+          "instrumented_pct": 60,
+          "missing": [
+            "iala-buoyage"
+          ]
+        },
+        "colregs": {
+          "pct": 83,
+          "instrumented_pct": 56,
+          "missing": [
+            "waterway-signs"
+          ]
+        }
+      }
+    }
+  }
+}

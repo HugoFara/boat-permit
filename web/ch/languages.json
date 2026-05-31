@@ -232,6 +232,22 @@
       }
     }
   },
+  "coverage": {
+    "tracks": {
+      "universal": {
+        "pct": 100,
+        "instrumented_pct": 13,
+        "missing": []
+      },
+      "cevni": {
+        "pct": 84,
+        "instrumented_pct": 60,
+        "missing": [
+          "give-way"
+        ]
+      }
+    }
+  },
   "anki": {
     "de": {
       "apkg": "anki/boating-licence.de.apkg",

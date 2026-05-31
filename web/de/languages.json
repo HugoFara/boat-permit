@@ -343,6 +343,9 @@
       ]
     }
   ],
+  "coverage": {
+    "official": true
+  },
   "core": {
     "universal": {
       "de": {

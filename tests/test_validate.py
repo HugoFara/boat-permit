@@ -129,6 +129,21 @@ def test_principle_coverage_is_weighted_and_bounded():
         validate.load_bank = orig
 
 
+def test_coverage_summary_shape():
+    orig = validate.load_bank
+    try:
+        _install(_PRINC_BANKS)
+        s = validate.coverage_summary(generated="2026-01-01")
+        assert s["official"] == "DE" and s["generated"] == "2026-01-01"
+        assert "DE" not in s["banks"]          # the yardstick is never self-scored
+        ch = s["banks"]["CH"]["tracks"]["cevni"]
+        assert ch["pct"] == 67                 # round(66.7)
+        assert ch["missing"] == ["give-way"]
+        assert ch["instrumented_pct"] == 75    # 3 of 4 official inland Qs are tagged
+    finally:
+        validate.load_bank = orig
+
+
 def test_principle_coverage_skips_absent_track():
     orig = validate.load_bank
     try:

@@ -23,9 +23,27 @@ from ..questions import principles as principlesmod
 from ..questions import seed_concepts
 from ..questions.schema import Question, Choice, Provenance, make_question_id, validate
 from .. import scope
+from .. import validate as _validate
 from . import sources_fr, exam_fr, themes_fr, derive_fr
 from .seed_fr import SEED
 from ..countries import fr as fr_country
+
+# Which harmonised base each France option is examined on (the other is dropped
+# from its coverage banner). `universal` (portable seamanship) is shared by both.
+_FR_OPTION_BASES = {"cotiere": {"colregs", "universal"},
+                    "eaux_interieures": {"cevni", "universal"}}
+
+
+def _fr_option_coverage(option: str) -> dict | None:
+    """The FR coverage summary (committed lock) restricted to the bases this option
+    examines, so a player never quotes the other track's figure. None when not
+    measured ⇒ the player hides the banner."""
+    fr = _validate.load_lock().get("banks", {}).get("FR")
+    if not fr:
+        return None
+    keep = _FR_OPTION_BASES.get(option, set(scope.BASES))
+    tracks = {b: t for b, t in fr.get("tracks", {}).items() if b in keep}
+    return {"tracks": tracks} if tracks else None
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
@@ -228,6 +246,7 @@ def _player_html(asset_prefix: str, nav: str, title: str) -> str:
     <h1 id="t-h1"></h1>
     <p class="sub" id="t-subtitle"></p>
     <div id="loop-proof" class="banner"></div>
+    <div id="coverage-note" class="banner soft hidden"></div>
     <div id="fallback-note" class="banner soft hidden"></div>
     <div id="config-summary" class="config"></div>
     <div class="domains-block">
@@ -427,6 +446,11 @@ def build() -> dict:
             # in its "from theory to licence" panel. Additive — banks unchanged.
             "path": fr_country.COUNTRY.path_manifest(),
             "core": core,
+            # Honest catalogue-coverage banner, from the committed lock. The FR lock
+            # entry pools both options; keep the base this option actually examines
+            # (côtière → maritime/COLREGS, eaux intérieures → inland/CEVNI) so the
+            # banner never quotes the other track's figure. None ⇒ player hides it.
+            "coverage": _fr_option_coverage(option),
             "anki": anki_avail, "gift": gift_avail,
         }
         _write(os.path.join(out_dir, "languages.json"),
