@@ -1482,3 +1482,54 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Border waters
 ~%-100%They must inflate only by manual command, never automatically
 ####[html]RNL art. 86f, para. 3, requires at least two separate compartments and a stable trim even with half of the compartments inflated, the inflation being able to be automatic or manual.<br>Source \: <a href\="https\://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr">RNL art. 86f — Règlement de la navigation sur le Léman (RNL), RS 747.221.1 (2019-06-01)</a>
 }
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Sailing
+
+::q-voilewp-voilealluremarineleventarrière-e-3ffa3208:: [html]What is observed on a running point of sail (dead downwind)? {
+=Rolling increases and an (accidental) gybe threatens
+~Speed becomes maximal, higher than on a broad reach
+~The sailboat can no longer make headway because it is head to wind
+####[html]On a run the airflow over the sails is disturbed\: speed drops compared with a broad reach, rolling increases and an accidental gybe threatens.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Allure_(marine)">Voile — Allure (marine) \: Le vent arrière — Wikipédia (FR) — navigation à voile (technique) (223790627)</a>
+}
+
+::q-voilewp-voilealluremarineleventdebout-b2-13f2a3f2:: [html]On the head-to-wind point of sail, what must the sailboat do to make headway under sail? {
+=Bear away about 45° from the wind axis (30° on the highest-performance racing yachts)
+~Hold its course exactly head to wind, sheeting its sails in fully
+~Set the spinnaker to catch the wind coming from ahead
+####[html]Head to wind the sailboat cannot make headway\: it must bear away about 45° from the wind axis (30° in racing) and beat to windward (tack).<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Allure_(marine)">Voile — Allure (marine) \: Le vent debout — Wikipédia (FR) — navigation à voile (technique) (223790627)</a>
+}
+
+::q-voilewp-voilealluremarinetribordamuresbâ-dfe53188:: [html]When is a sailboat said to be «on starboard tack»? {
+=When the wind comes from the right relative to the boat's axis
+~When it sails downwind with the sails wing-on-wing (in scissors)
+~When it has right of way over every other boat on the water
+####[html]A sailboat is on starboard tack when the wind comes from the right (starboard), and on port tack in the opposite case. These distinctions underlie the right-of-way rules between sailboats.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Allure_(marine)">Voile — Allure (marine) \: Tribord amures, bâbord amures — Wikipédia (FR) — navigation à voile (technique) (223790627)</a>
+}
+
+::q-voilewp-voilechaviragesourceduphénomène--afe43868:: [html]On a light sport dinghy, what is a capsize commonly called and what is its nature? {
+=A «capsize»\: it is common and harmless
+~A «shipwreck»\: it almost always leads to the loss of the boat
+~A «rounding up»\: it occurs only when close-hauled
+####[html]On a light dinghy the capsize is common and harmless; it results from seeking excessive speed or from poor crew placement.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Chavirage">Voile — Chavirage \: Source du phénomène — Wikipédia (FR) — navigation à voile (technique) (231891130)</a>
+}
+
+::q-voilewp-voileempannagedéfinition-34dc964-475707cc:: [html]What characterises the gybe (empannage) compared with tacking? {
+=The change of tack is made by passing through the wind astern (downwind)
+~The change of tack is made by passing head to wind
+~It does not change the set of the sails
+####[html]A gybe changes tack by passing through the wind astern (downwind); passing head to wind is instead a tack (virement de bord).<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Empannage">Voile — Empannage \: Définition — Wikipédia (FR) — navigation à voile (technique) (236265378)</a>
+}
+
+::q-voilewp-voilefocprésentation-30eec01b-ee50d7a3:: [html]What is the jib on a sailboat? {
+=A triangular headsail, held to the forestay (stay) by its luff
+~The mainsail, rigged abaft the mast
+~A standing-rigging wire that holds the mast up
+####[html]The jib is a triangular headsail held to the stay by its luff; it plays a key role in the success of the tack.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Foc">Voile — Foc \: Présentation — Wikipédia (FR) — navigation à voile (technique) (227846382)</a>
+}
+
+::q-voilewp-voilevirementdebordprincipe-90e4-40419c62:: [html]What happens during a tack (virement de bord)? {
+=The side of the boat that was leeward becomes windward, and vice versa
+~The sailboat keeps the same tack throughout the manoeuvre
+~The manoeuvre is necessarily made by passing through the wind astern
+####[html]In a tack, the side that was leeward becomes windward (a change of tack made by passing head to wind).<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Virement_de_bord">Voile — Virement de bord \: Principe — Wikipédia (FR) — navigation à voile (technique) (220344446)</a>
+}

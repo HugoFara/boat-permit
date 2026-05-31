@@ -11,7 +11,7 @@
     "permis": "cotiere",
     "permis_label": "Permis plaisance — option côtière",
     "country": "FR",
-    "generated": "2026-05-30",
+    "generated": "2026-05-31",
     "kb_version": "",
     "lang": "fr",
     "unofficial": "false",
@@ -32,17 +32,20 @@
         {
           "text": "Rouge, cylindrique",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verte, conique",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Jaune, sphérique",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -75,17 +78,20 @@
         {
           "text": "Verte, conique",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Rouge, cylindrique",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Noire et rouge, à sphères",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -118,17 +124,20 @@
         {
           "text": "Deux cônes pointes vers le haut ; on passe au nord",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Deux cônes pointes vers le bas ; on passe au sud",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Deux cônes pointes opposées ; on passe à l'ouest",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -161,17 +170,20 @@
         {
           "text": "Un danger isolé entouré d'eaux saines",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L'entrée principale d'un port",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une zone de baignade surveillée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -204,17 +216,20 @@
         {
           "text": "Des eaux saines tout autour ; on passe de chaque côté",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un danger isolé à contourner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le côté tribord d'un chenal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -247,17 +262,20 @@
         {
           "text": "Chacun vient sur tribord",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Chacun vient sur bâbord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le plus rapide s'écarte, l'autre garde son cap",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -290,17 +308,20 @@
         {
           "text": "Celui qui a l'autre sur son tribord",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Celui qui a l'autre sur son bâbord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le plus grand des deux navires",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -333,17 +354,20 @@
         {
           "text": "Le navire qui rattrape",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le navire rattrapé",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Toujours le voilier",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -376,17 +400,20 @@
         {
           "text": "Le navire à moteur",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le voilier",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Aucun, ils gardent leur cap",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -419,17 +446,20 @@
         {
           "text": "Manœuvrer pour éviter seul l'abordage",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Garder le cap et la vitesse quoi qu'il arrive",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Accélérer pour passer devant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -462,17 +492,20 @@
         {
           "text": "Rouge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Vert",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Blanc",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -505,17 +538,20 @@
         {
           "text": "« Je viens sur tribord »",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "« Je viens sur bâbord »",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "« Je bats en arrière »",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -548,17 +584,20 @@
         {
           "text": "« Mes machines battent en arrière »",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "« Je viens sur bâbord »",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "« Je suis échoué »",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -591,17 +630,20 @@
         {
           "text": "Un doute / un avertissement sur la manœuvre de l'autre",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une invitation à passer devant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un appel de détresse",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -634,17 +676,20 @@
         {
           "text": "Un son prolongé toutes les 2 minutes au plus",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Trois sons brefs toutes les minutes",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Aucun signal n'est nécessaire",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -677,17 +722,20 @@
         {
           "text": "Une fusée à parachute rouge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu vert clignotant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pavillon jaune hissé",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -720,17 +768,20 @@
         {
           "text": "6 milles nautiques",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "2 milles nautiques",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Sans aucune limite de distance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -763,17 +814,20 @@
         {
           "text": "100 N",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "50 N",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "10 N",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -806,17 +860,20 @@
         {
           "text": "À proximité de la côte (force 6, vagues 2 m)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "En haute mer sans restriction",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "En eaux abritées uniquement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -849,17 +906,20 @@
         {
           "text": "Le nombre maximal fixé par le constructeur",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autant qu'il y a de gilets à bord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Aucune limite en mer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -892,17 +952,20 @@
         {
           "text": "Le zéro hydrographique (plus basses mers)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le niveau moyen de la mer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le niveau de pleine mer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -935,17 +998,20 @@
         {
           "text": "La différence de hauteur entre pleine mer et basse mer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La vitesse du courant de marée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La durée d'une marée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -978,17 +1044,20 @@
         {
           "text": "Entre 20 et 120",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Entre 0 et 100",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Entre 1 et 12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1021,17 +1090,20 @@
         {
           "text": "12",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "10",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "100",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1064,17 +1136,20 @@
         {
           "text": "Estimer la hauteur d'eau à une heure donnée de la marée",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Calculer la force du vent",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mesurer la dérive due au courant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1107,17 +1182,20 @@
         {
           "text": "Le canal 16",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le canal 6",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le canal 72",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1150,17 +1228,20 @@
         {
           "text": "La détresse",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L'urgence",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La sécurité",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1193,17 +1274,20 @@
         {
           "text": "Plus de 4,5 kW (≈ 6 ch)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Plus de 1 kW",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Plus de 50 ch",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1236,17 +1320,20 @@
         {
           "text": "16 ans",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "14 ans",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "18 ans",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1279,17 +1366,20 @@
         {
           "text": "Il est interdit",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il est libre au-delà de 3 milles",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il est autorisé la nuit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1322,17 +1412,20 @@
         {
           "text": "Les rapporter à terre dans les installations portuaires",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les jeter au large",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les brûler à bord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1365,17 +1458,20 @@
         {
           "text": "Deux cônes pointes vers le bas ; on passe au sud",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Deux cônes pointes vers le haut ; on passe au nord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Deux cônes base contre base ; on passe à l'est",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1408,17 +1504,20 @@
         {
           "text": "Une zone ou un dispositif particulier (marque spéciale)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un danger isolé à éviter",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le côté tribord du chenal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1451,17 +1550,20 @@
         {
           "text": "Le bord du chenal situé sur sa droite (tribord)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le milieu du chenal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le bord situé sur sa gauche (bâbord)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1494,17 +1596,20 @@
         {
           "text": "Un feu blanc visible sur tout l'horizon",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu rouge visible sur tout l'horizon",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Deux feux verts superposés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1537,17 +1642,20 @@
         {
           "text": "Il coupe le moteur si le conducteur tombe à l'eau",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il augmente la vitesse du moteur",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il sert d'antivol au port",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1580,17 +1688,20 @@
         {
           "text": "Le moment où le niveau ne varie plus (étale de niveau)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le moment où le courant est le plus fort",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La différence entre pleine et basse mer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1623,17 +1734,20 @@
         {
           "text": "5 nœuds",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "20 nœuds",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Aucune limite de vitesse",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1666,17 +1780,20 @@
         {
           "text": "L'urgence",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La détresse",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La sécurité (bulletin météo)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1709,17 +1826,20 @@
         {
           "text": "Réglementé, voire interdit (herbiers protégés)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Libre et sans conséquence",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Recommandé car l'ancre y tient bien",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1752,17 +1872,20 @@
         {
           "text": "Feu vert, voyant cône vert pointe vers le haut",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Feu rouge, voyant cylindre rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Feu vert, voyant cône vert pointe vers le bas",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1795,17 +1918,20 @@
         {
           "text": "Le chenal préféré est à tribord",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le chenal préféré est à bâbord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le chenal est obstrué, il faut faire demi-tour",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1838,17 +1964,20 @@
         {
           "text": "Deux cônes noirs base à base ; feu blanc VQ(3) toutes les 5 s ou Q(3) toutes les 10 s",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Deux cônes noirs pointes opposées (pointe à pointe) ; feu blanc VQ(9) toutes les 10 s",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Deux cônes noirs base à base ; feu blanc à occultations groupées",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1881,17 +2010,20 @@
         {
           "text": "À l'ouest de la marque",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "À l'est de la marque",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Au nord de la marque",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1924,17 +2056,20 @@
         {
           "text": "Une marque cardinale Sud",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une marque cardinale Nord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une marque cardinale Ouest",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1967,17 +2102,20 @@
         {
           "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "2/12, 2/12, 2/12, 2/12, 2/12, 2/12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2010,17 +2148,20 @@
         {
           "text": "Le jusant",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le flot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "L'étale",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2053,17 +2194,20 @@
         {
           "text": "Macrotidal",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mésotidal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Microtidal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2096,17 +2240,20 @@
         {
           "text": "Deux pleines mers et deux basses mers",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une pleine mer et une basse mer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Trois pleines mers et trois basses mers",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2139,17 +2286,20 @@
         {
           "text": "Coefficient 95",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Coefficient 120",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Coefficient 45",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2182,17 +2332,20 @@
         {
           "text": "Des vives-eaux (grand marnage)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Des mortes-eaux (faible marnage)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une absence de marée (étale permanent)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2225,17 +2378,20 @@
         {
           "text": "Au voisinage des plus basses mers astronomiques",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Au niveau moyen de la mer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Au voisinage des plus hautes mers astronomiques",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {

@@ -11,7 +11,7 @@
     "permis": "cotiere",
     "permis_label": "Permis plaisance — option côtière",
     "country": "FR",
-    "generated": "2026-05-30",
+    "generated": "2026-05-31",
     "kb_version": "",
     "lang": "en",
     "unofficial": "true",
@@ -32,17 +32,20 @@
         {
           "text": "Red, can-shaped",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Green, conical",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Yellow, spherical",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -75,17 +78,20 @@
         {
           "text": "Green, conical",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Red, can-shaped",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Black and red, with spheres",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -118,17 +124,20 @@
         {
           "text": "Two cones pointing up; pass to the north",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Two cones pointing down; pass to the south",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Two cones point-to-point; pass to the west",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -161,17 +170,20 @@
         {
           "text": "An isolated danger surrounded by safe water",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The main harbour entrance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A supervised swimming area",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -204,17 +216,20 @@
         {
           "text": "Safe water all around; pass on either side",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An isolated danger to avoid",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The starboard side of a channel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -247,17 +262,20 @@
         {
           "text": "Each alters to starboard",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Each alters to port",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The faster one keeps clear, the other holds course",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -290,17 +308,20 @@
         {
           "text": "The one that has the other on its starboard side",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The one that has the other on its port side",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The larger of the two vessels",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -333,17 +354,20 @@
         {
           "text": "The overtaking vessel",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The vessel being overtaken",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Always the sailing vessel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -376,17 +400,20 @@
         {
           "text": "The power-driven vessel",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The sailing vessel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Neither, both hold their course",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -419,17 +446,20 @@
         {
           "text": "Manoeuvre to avoid the collision yourself",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Hold course and speed no matter what",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Speed up to cross ahead",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -462,17 +492,20 @@
         {
           "text": "Red",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Green",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "White",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -505,17 +538,20 @@
         {
           "text": "“I am altering to starboard”",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "“I am altering to port”",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "“I am operating astern”",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -548,17 +584,20 @@
         {
           "text": "“I am operating astern propulsion”",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "“I am altering to port”",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "“I am aground”",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -591,17 +630,20 @@
         {
           "text": "Doubt / a warning about the other's manoeuvre",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An invitation to cross ahead",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A distress call",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -634,17 +676,20 @@
         {
           "text": "One prolonged blast at least every 2 minutes",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Three short blasts every minute",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No signal is required",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -677,17 +722,20 @@
         {
           "text": "A red parachute flare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A flashing green light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A hoisted yellow flag",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -720,17 +768,20 @@
         {
           "text": "6 nautical miles",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "2 nautical miles",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "With no distance limit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -763,17 +814,20 @@
         {
           "text": "100 N",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "50 N",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "10 N",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -806,17 +860,20 @@
         {
           "text": "Inshore (force 6, 2 m waves)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Unrestricted ocean",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Sheltered waters only",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -849,17 +906,20 @@
         {
           "text": "The maximum set by the builder",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "As many as there are lifejackets aboard",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No limit at sea",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -892,17 +952,20 @@
         {
           "text": "Chart datum (lowest tides)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mean sea level",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "High-water level",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -935,17 +998,20 @@
         {
           "text": "The height difference between high and low water",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The speed of the tidal stream",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The duration of a tide",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -978,17 +1044,20 @@
         {
           "text": "Between 20 and 120",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Between 0 and 100",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Between 1 and 12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1021,17 +1090,20 @@
         {
           "text": "12",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "10",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "100",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1064,17 +1136,20 @@
         {
           "text": "To estimate the water height at a given hour of the tide",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "To calculate the wind force",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "To measure drift from the current",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1107,17 +1182,20 @@
         {
           "text": "Channel 16",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Channel 6",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Channel 72",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1150,17 +1228,20 @@
         {
           "text": "Distress",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Urgency",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Safety",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1193,17 +1274,20 @@
         {
           "text": "More than 4.5 kW (≈ 6 hp)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "More than 1 kW",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "More than 50 hp",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1236,17 +1320,20 @@
         {
           "text": "16 years",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "14 years",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "18 years",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1279,17 +1366,20 @@
         {
           "text": "It is prohibited",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It is free beyond 3 miles",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It is allowed at night",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1322,17 +1412,20 @@
         {
           "text": "Bring it ashore to harbour facilities",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Throw it overboard offshore",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Burn it aboard",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1365,17 +1458,20 @@
         {
           "text": "Two cones pointing down; pass to the south",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Two cones pointing up; pass to the north",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Two cones base to base; pass to the east",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1408,17 +1504,20 @@
         {
           "text": "A special area or feature (special mark)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An isolated danger to avoid",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The starboard side of the channel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1451,17 +1550,20 @@
         {
           "text": "The channel edge on its starboard side",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The middle of the channel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The edge on its port side",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1494,17 +1596,20 @@
         {
           "text": "An all-round white light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An all-round red light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Two green lights in a vertical line",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1537,17 +1642,20 @@
         {
           "text": "It stops the engine if the driver falls overboard",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It increases engine speed",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It serves as an anti-theft device in port",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1580,17 +1688,20 @@
         {
           "text": "When the water level stops changing (slack of the level)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "When the current is strongest",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The difference between high and low water",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1623,17 +1734,20 @@
         {
           "text": "5 knots",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "20 knots",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No speed limit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1666,17 +1780,20 @@
         {
           "text": "Urgency",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Distress",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Safety (weather bulletin)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1709,17 +1826,20 @@
         {
           "text": "Regulated, even prohibited (protected beds)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Free and harmless",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Recommended because the anchor holds well there",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1752,17 +1872,20 @@
         {
           "text": "Green light, with a green cone topmark point up",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Red light, with a red cylinder (can) topmark",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Green light, with a green cone topmark point down",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1795,17 +1918,20 @@
         {
           "text": "The preferred channel is to starboard",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The preferred channel is to port",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The channel is blocked and you must turn back",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1838,17 +1964,20 @@
         {
           "text": "Two black cones base to base; white VQ(3) every 5 s or Q(3) every 10 s",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Two black cones point to point; white VQ(9) every 10 s",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Two black cones base to base; white group-occulting light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1881,17 +2010,20 @@
         {
           "text": "To the west of the mark",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "To the east of the mark",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "To the north of the mark",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1924,17 +2056,20 @@
         {
           "text": "A South cardinal mark",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A North cardinal mark",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A West cardinal mark",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1967,17 +2102,20 @@
         {
           "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "2/12, 2/12, 2/12, 2/12, 2/12, 2/12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2010,17 +2148,20 @@
         {
           "text": "The ebb (jusant)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The flood (flot)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Slack water",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2053,17 +2194,20 @@
         {
           "text": "Macrotidal",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mesotidal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Microtidal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2096,17 +2240,20 @@
         {
           "text": "Two high waters and two low waters",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "One high water and one low water",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Three high waters and three low waters",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2139,17 +2286,20 @@
         {
           "text": "Coefficient 95",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Coefficient 120",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Coefficient 45",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2182,17 +2332,20 @@
         {
           "text": "Spring tides (large range)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Neap tides (small range)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No tide (permanent slack water)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2225,17 +2378,20 @@
         {
           "text": "Near the lowest astronomical tides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "At mean sea level",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Near the highest astronomical tides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {

@@ -11,7 +11,7 @@
     "permis": "eaux_interieures",
     "permis_label": "Permis plaisance — option eaux intérieures",
     "country": "FR",
-    "generated": "2026-05-30",
+    "generated": "2026-05-31",
     "kb_version": "",
     "lang": "en",
     "unofficial": "true",
@@ -33,17 +33,20 @@
         {
           "text": "Displayed visibly and legibly on the hull",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Kept only in the boat's papers",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Optional for pleasure craft",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -76,17 +79,20 @@
         {
           "text": "The boat's condition, the safety gear and the weather",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Only the fuel level",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nothing — checks are the lock's job",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -119,17 +125,20 @@
         {
           "text": "Prohibited",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Allowed in small amounts",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Free outside harbours",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -162,17 +171,20 @@
         {
           "text": "Reduce speed and wash near the banks",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Run at full speed in the centre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Moor in the reed beds",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -205,17 +217,20 @@
         {
           "text": "Hold it in a tank and empty it ashore",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Discharge it discreetly at night",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Discharge it far from the banks",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -248,17 +263,20 @@
         {
           "text": "Avoid any overflow (do not fill to the brim)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Fill as fast as possible",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Rinse the tank with canal water",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -291,17 +309,20 @@
         {
           "text": "Notify without delay the navigation police authority and the manager, indicating the nature and location of the discharge.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Report nothing as long as the discharge does not fully obstruct the water section.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Warn only the other boats by a sound signal, without notifying any authority.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -334,17 +355,20 @@
         {
           "text": "A valid waste-oil control logbook, on board every motorized boat or floating craft (except small craft).",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A waste-oil control logbook, required only on board small craft.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An annual oil-change certificate issued by the waterway manager.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -377,17 +401,20 @@
         {
           "text": "Comply with the orders given by the boatmaster in the interest of the safety of navigation and order on board.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obey the boatmaster only if she is part of the vessel's paid crew.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Follow only the orders relating to boarding and disembarking.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -420,17 +447,20 @@
         {
           "text": "Take all necessary measures to control the incident and immediately notify the waterway manager or owner as well as the territorially competent CODIS.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Wait for the rescue services to arrive before undertaking any action to fight the incident.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Warn only the other vessels navigating nearby, without alerting any authority.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -463,17 +493,20 @@
         {
           "text": "No object liable to compromise safety may protrude from the sides, and raised anchors must not extend below the bottom or keel of the vessel.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Objects may protrude from the sides provided they are marked by a flag during the day.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Raised anchors must stay above the waterline but may extend below the keel of the vessel.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -506,17 +539,20 @@
         {
           "text": "Immediately notify the navigation policing authority and the waterway manager, and endeavour to clear the waterway in case of obstruction.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Notify the authorities only if the vessel is carrying dangerous goods.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Leave the vessel in place and wait for the manager's mandatory intervention without acting.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -549,17 +585,20 @@
         {
           "text": "Strengthen his vessel's mooring lines, the ice being broken around the waterline by him or under his responsibility.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Completely detach the vessel from the bank to let it drift freely with the ice.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mandatorily entrust the ice-breaking to the waterway manager, never to the boatmaster.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {

@@ -46,6 +46,23 @@ _STEM_DEFAULT_BY_LANG = {
     "it": "Che cosa significa questo segnale?",
 }
 
+# Diagnostic feedback (practice mode): a figure distractor is itself a real, but
+# *different*, signal. We attach to each distractor a note naming the annex figure
+# its caption actually belongs to — so a wrong pick teaches "that's this other
+# sign, look it up", and it stays 100 % sourced (just a pointer into the same law).
+_DISTRACTOR_NOTE = {
+    "fr": "Cette réponse correspond à {ref}.",
+    "de": "Diese Antwort gehört zu {ref}.",
+    "it": "Questa risposta corrisponde a {ref}.",
+    "en": "This answer corresponds to {ref}.",
+}
+
+
+def _distractor_note(lang: str, ref: str | None) -> str:
+    if not ref:
+        return ""
+    return _DISTRACTOR_NOTE.get(lang, _DISTRACTOR_NOTE["fr"]).format(ref=ref)
+
 
 def _stem(sigtype: str, lang: str) -> str:
     if lang == "fr":
@@ -174,10 +191,16 @@ def build_figure_questions(kb: sqlite3.Connection) -> tuple[list[Question], dict
     by_type: dict[tuple, list[str]] = {}
     by_annex: dict[tuple, list[str]] = {}
     by_theme: dict[tuple, list[str]] = {}
+    # caption -> the figure ref it belongs to (the *smallest* ref when a caption
+    # recurs, so the mapping is deterministic across runs), for distractor notes.
+    cap_ref: dict[tuple, str] = {}
     for f in usable:
         by_type.setdefault((f["lang"], f["source_id"], f["annex"], f["sigtype"]), []).append(f["answer"])
         by_annex.setdefault((f["lang"], f["source_id"], f["annex"]), []).append(f["answer"])
         by_theme.setdefault((f["lang"], f["source_id"], f["theme"]), []).append(f["answer"])
+        ckey = (f["lang"], f["source_id"], f["answer"])
+        if ckey not in cap_ref or f["ref"] < cap_ref[ckey]:
+            cap_ref[ckey] = f["ref"]
 
     questions: list[Question] = []
     for f in figs:
@@ -206,7 +229,9 @@ def build_figure_questions(kb: sqlite3.Connection) -> tuple[list[Question], dict
             continue
 
         stem = _stem(f["sigtype"], lang)
-        options = [Choice(ans, is_correct=True)] + [Choice(p) for p in picks]
+        options = [Choice(ans, is_correct=True)] + [
+            Choice(p, rationale=_distractor_note(lang, cap_ref.get((lang, f["source_id"], p))))
+            for p in picks]
         random.Random(seed + 1).shuffle(options)   # answer not always first
 
         q = Question(

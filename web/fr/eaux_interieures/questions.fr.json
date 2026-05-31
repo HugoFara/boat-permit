@@ -11,7 +11,7 @@
     "permis": "eaux_interieures",
     "permis_label": "Permis plaisance — option eaux intérieures",
     "country": "FR",
-    "generated": "2026-05-30",
+    "generated": "2026-05-31",
     "kb_version": "",
     "lang": "fr",
     "unofficial": "false",
@@ -32,17 +32,20 @@
         {
           "text": "Un bateau de moins de 20 mètres",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Tout bateau de moins de 24 mètres",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un bateau de moins de 15 mètres uniquement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -75,17 +78,20 @@
         {
           "text": "Sous les ponts et dans les passages étroits",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le long de tous les quais aménagés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nulle part, le stationnement est libre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -118,17 +124,20 @@
         {
           "text": "Réduire sa vitesse",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Augmenter sa vitesse pour passer vite",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Naviguer au plus près de la berge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -161,17 +170,20 @@
         {
           "text": "Entrée interdite, il faut attendre",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Entrée autorisée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Sortie de l'écluse seulement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -204,17 +216,20 @@
         {
           "text": "Le feu vert",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le feu rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Deux feux rouges",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -247,17 +262,20 @@
         {
           "text": "Les tenir et les ajuster, sans les frapper à poste fixe",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les frapper solidement à un taquet fixe",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Retirer toutes les amarres",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -290,17 +308,20 @@
         {
           "text": "Interdiction de passer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation de s'arrêter pour faire le plein",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Recommandation de ralentir",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -333,17 +354,20 @@
         {
           "text": "« Attention »",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "« Je fais demi-tour »",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "« Je suis à l'arrêt »",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -376,17 +400,20 @@
         {
           "text": "Rouge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Vert",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Jaune",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -419,17 +446,20 @@
         {
           "text": "Un feu blanc visible de tous côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu rouge clignotant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Aucun feu",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -462,17 +492,20 @@
         {
           "text": "S'écarter de leur route",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Garder leur route, étant prioritaires",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les obliger à s'arrêter",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -505,17 +538,20 @@
         {
           "text": "Sur sa droite (tribord)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Sur sa gauche (bâbord)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Au milieu du chenal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -548,17 +584,20 @@
         {
           "text": "S'assurer que le passage est libre avant de s'engager",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "S'engager toujours en premier",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Accélérer pour forcer le passage",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -591,17 +630,20 @@
         {
           "text": "Un équipement individuel de flottabilité",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une combinaison étanche obligatoire",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Rien s'il sait nager",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -634,17 +676,20 @@
         {
           "text": "Apposée visiblement et lisiblement sur la coque",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Conservée uniquement dans les papiers du bord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Facultative pour la plaisance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -677,17 +722,20 @@
         {
           "text": "L'état du bateau, le matériel de sécurité et la météo",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Uniquement le niveau de carburant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Rien, la vérification incombe à l'écluse",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -720,17 +768,20 @@
         {
           "text": "Le permis plaisance option eaux intérieures",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Aucun titre n'est nécessaire",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "L'option côtière suffit toujours",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -763,17 +814,20 @@
         {
           "text": "Un règlement particulier de police (RPP)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le seul code de la route",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Aucune autre règle",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -806,17 +860,20 @@
         {
           "text": "Interdite",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisée sur les canaux",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Tolérée la nuit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -849,17 +906,20 @@
         {
           "text": "Interdit",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisé en faible quantité",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Libre en dehors des ports",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -892,17 +952,20 @@
         {
           "text": "Réduire sa vitesse et son batillage près des rives",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Naviguer à pleine vitesse au centre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "S'amarrer dans les roselières",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -935,17 +998,20 @@
         {
           "text": "Un bateau qui descend le courant",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un bateau qui remonte le courant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un bateau à l'arrêt contre la berge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -978,17 +1044,20 @@
         {
           "text": "Par les points kilométriques (bornes des rives)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Par la latitude et la longitude seules",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Par les milles nautiques",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1021,17 +1090,20 @@
         {
           "text": "Que son tirant d'air est inférieur à la hauteur libre",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Que sa vitesse est maximale",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Que son ancre est mouillée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1064,17 +1136,20 @@
         {
           "text": "L'éclusier et la signalisation de l'écluse",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le bateau le plus rapide",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Chaque conducteur, librement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1107,17 +1182,20 @@
         {
           "text": "L'écluse est hors service",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L'entrée est immédiatement autorisée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La sortie est obligatoire",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1150,17 +1228,20 @@
         {
           "text": "À son bord rouge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "À sa couleur entièrement bleue",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "À sa forme triangulaire verte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1193,17 +1274,20 @@
         {
           "text": "Une indication / un renseignement",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une interdiction absolue",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un danger immédiat",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1236,17 +1320,20 @@
         {
           "text": "Stationnement autorisé",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Stationnement interdit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Port de plaisance à 1 km",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1279,17 +1366,20 @@
         {
           "text": "Une obligation de suivre la direction indiquée",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une simple recommandation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une zone de baignade",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1322,17 +1412,20 @@
         {
           "text": "Une limitation de hauteur, de largeur ou de profondeur",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La distance jusqu'à la prochaine écluse",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le numéro de la voie d'eau",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1365,17 +1458,20 @@
         {
           "text": "L'avalant (qui descend le courant)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le montant (qui remonte le courant)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le plus grand des deux bateaux",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1408,17 +1504,20 @@
         {
           "text": "Chacun vient sur tribord",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Chacun vient sur bâbord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ils s'arrêtent tous les deux",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1451,17 +1550,20 @@
         {
           "text": "Par bâbord (à gauche) du bateau rattrapé",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Toujours par tribord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "En le serrant de très près",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1494,17 +1596,20 @@
         {
           "text": "D'assécher le bateau (écope ou pompe)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "De mesurer la profondeur du chenal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "De recharger la VHF",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1537,17 +1642,20 @@
         {
           "text": "Une ancre avec sa ligne de mouillage",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un second moteur",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un radeau de survie",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1580,17 +1688,20 @@
         {
           "text": "La carte de circulation du bateau",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une carte routière de la région",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le manuel du moteur uniquement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1623,17 +1734,20 @@
         {
           "text": "Du certificat restreint de radiotéléphoniste (CRR)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Du seul permis plaisance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "D'aucun titre particulier",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1666,17 +1780,20 @@
         {
           "text": "Les stocker en cuve et les vider à terre",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les rejeter discrètement la nuit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les rejeter loin des berges",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1709,17 +1826,20 @@
         {
           "text": "Éviter tout débordement (ne pas remplir à ras bord)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Remplir le plus vite possible",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Rincer le réservoir à l'eau du canal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1752,17 +1872,20 @@
         {
           "text": "Uniquement dans l'espace compris entre les deux panneaux constituant le signal",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Partout dans l'ouverture, sauf au centre du chenal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "De préférence entre les deux panneaux, mais sans interdiction ailleurs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1795,17 +1918,20 @@
         {
           "text": "L'ouverture est interdite à la navigation.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L'ouverture est recommandée de préférence dans les deux sens.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "L'ouverture est réservée aux bateaux montants uniquement.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1838,17 +1964,20 @@
         {
           "text": "Ils doivent lui faciliter au maximum le passage",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ils conservent leur tour de passage dans l'ordre d'arrivée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ils doivent quitter immédiatement le garage de l'écluse",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1881,17 +2010,20 @@
         {
           "text": "Dix jours",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Trois jours",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Trente jours",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1924,17 +2056,20 @@
         {
           "text": "Il est interdit d'y stationner et d'y circuler, sauf si elles sont aménagées pour servir de passage public.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "On peut s'y tenir librement, y compris sur les ponts mobiles pendant la manœuvre.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La circulation y est autorisée à condition de porter un équipement individuel de flottabilité.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1967,17 +2102,20 @@
         {
           "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire, en indiquant la nature et l'endroit du déversement.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ne rien signaler tant que le déversement n'entrave pas totalement la section d'eau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Prévenir uniquement les autres bateaux par un signal sonore, sans aviser d'autorité.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2010,17 +2148,20 @@
         {
           "text": "Un carnet de contrôle des huiles usées valable, à bord de tout bateau ou engin flottant motorisé (sauf menues embarcations).",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un carnet de contrôle des huiles usées, obligatoire uniquement à bord des menues embarcations.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une attestation annuelle de vidange délivrée par le gestionnaire de la voie d'eau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2053,17 +2194,20 @@
         {
           "text": "Tout bateau ou navire, quel qu'en soit le type ou le mode de propulsion, destiné à des fins de loisir ou de sport",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Uniquement un bateau motorisé destiné à des fins de loisir ou de sport",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Tout bateau de moins de 20 mètres affecté au transport de passagers à titre commercial",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2096,17 +2240,20 @@
         {
           "text": "Plus de seize ans",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Plus de dix-huit ans",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Plus de quatorze ans",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2139,17 +2286,20 @@
         {
           "text": "Lorsqu'il est muni d'une attestation de conduite d'un coche de plaisance délivrée selon les dispositions arrêtées par le ministre",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Lorsque la longueur du coche de plaisance est inférieure à quinze mètres",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Lorsqu'il est accompagné d'un titulaire du permis plaisance option eaux intérieures",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2182,17 +2332,20 @@
         {
           "text": "Seulement après s'être assuré que la manœuvre peut avoir lieu sans danger.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Seulement après avoir reçu l'autorisation explicite du bateau rattrapé.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Dès que le bateau rattrapé a réduit sa vitesse.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2225,17 +2378,20 @@
         {
           "text": "Ils ne doivent en aucun cas gêner la marche des avalants et doivent au besoin ralentir ou s'arrêter.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ils ont la priorité et les avalants doivent s'écarter pour les laisser passer.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ils doivent émettre un son prolongé avant de croiser le chenal.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2268,17 +2424,20 @@
         {
           "text": "Pas moins de 50 m.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Pas moins de 10 m.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pas moins de 100 m.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2311,17 +2470,20 @@
         {
           "text": "Il est en principe interdit de les laisser traîner.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il est toujours autorisé de les laisser traîner pour ralentir le bateau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il est obligatoire de les laisser traîner lors de la navigation à la dérive.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2354,17 +2516,20 @@
         {
           "text": "Ils doivent laisser aux autres bateaux l'espace nécessaire pour suivre leur route et pour manœuvrer, sans pouvoir exiger qu'ils s'écartent en leur faveur.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ils sont prioritaires et les autres bateaux doivent s'écarter de leur route.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ils peuvent exiger que les autres bateaux réduisent leur vitesse à leur approche.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2397,17 +2562,20 @@
         {
           "text": "Comme un bateau montant, et non comme naviguant à la dérive.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Comme un bateau naviguant à la dérive, donc en infraction.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Comme un bateau avalant tenu de céder le passage.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2440,17 +2608,20 @@
         {
           "text": "Seulement après s'être assuré que la traversée peut se faire sans danger et sans obliger les autres bateaux à modifier brusquement leur route ou leur vitesse.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "À tout moment, car les bacs sont prioritaires sur les autres bateaux lors de la traversée.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Seulement après avoir émis un son prolongé pour avertir tous les bateaux approchants.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2483,17 +2654,20 @@
         {
           "text": "Pas à moins de 1 000 m de son arrière.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Pas à moins de 100 m de son arrière.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pas à moins de 500 m de son arrière.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2526,17 +2700,20 @@
         {
           "text": "Émettre une série de sons très brefs.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Émettre un son prolongé unique.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Augmenter sa vitesse pour dégager le chenal au plus vite.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2569,17 +2746,20 @@
         {
           "text": "Veiller à une vitesse compatible avec les caractéristiques des eaux et des ouvrages d'art, sans descendre sous les minima ni dépasser les maxima fixés.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Maintenir en permanence la vitesse maximale autorisée pour fluidifier le trafic.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Adapter librement sa vitesse, aucune limite minimale ne pouvant lui être imposée.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2612,17 +2792,20 @@
         {
           "text": "Il est également responsable, dans cette mesure, de l'observation des prescriptions imposées au conducteur.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il n'encourt aucune responsabilité, seul le conducteur titulaire restant responsable.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il devient le seul responsable, déchargeant entièrement le conducteur.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2655,17 +2838,20 @@
         {
           "text": "À bord du bateau.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "À terre, à condition de garder le bateau en vue.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "À bord uniquement lorsque le bateau se déplace effectivement.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2698,17 +2884,20 @@
         {
           "text": "Supérieure ou égale à 2,50 mètres et inférieure à 20 mètres",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Supérieure ou égale à 5 mètres et inférieure à 24 mètres",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Inférieure à 2,50 mètres uniquement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2741,17 +2930,20 @@
         {
           "text": "Être titulaire du permis plaisance option eaux intérieures, ou être accompagné par un titulaire de ce permis",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Naviguer exclusivement de nuit, avec un feu de repérage allumé",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Détenir le permis plaisance option côtière, l'option eaux intérieures n'étant jamais exigée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2784,17 +2976,20 @@
         {
           "text": "Se conformer aux ordres donnés par le conducteur dans l'intérêt de la sécurité de la navigation et de l'ordre à bord.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "N'obéir au conducteur que si elle fait partie de l'équipage rémunéré du bateau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Suivre uniquement les ordres relatifs à l'embarquement et au débarquement.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2827,17 +3022,20 @@
         {
           "text": "Prendre toutes les mesures nécessaires pour maîtriser le sinistre et prévenir sans délai le gestionnaire ou le propriétaire de la voie d'eau ainsi que le CODIS territorialement compétent.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Attendre l'arrivée des secours avant d'entreprendre toute action de lutte contre le sinistre.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Prévenir uniquement les autres bateaux naviguant à proximité, sans avertir d'autorité.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2870,17 +3068,20 @@
         {
           "text": "Aucun objet susceptible de compromettre la sécurité ne doit déborder sur les côtés, et les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les objets peuvent déborder sur les côtés à condition d'être signalés par un pavillon de jour.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les ancres relevées doivent rester au-dessus de la ligne de flottaison, mais peuvent dépasser la quille du bateau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2913,17 +3114,20 @@
         {
           "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau, et s'employer à dégager la voie en cas d'obstruction.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "N'avertir les autorités que si le bateau transporte des marchandises dangereuses.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Laisser le bateau en place et attendre l'intervention obligatoire du gestionnaire sans intervenir.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2956,17 +3160,20 @@
         {
           "text": "Renforcer les amarres de son bateau, la glace étant brisée autour de la flottaison par lui ou sous sa responsabilité.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Détacher entièrement le bateau de la rive pour le laisser dériver librement avec les glaces.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Confier obligatoirement le brisage de la glace au gestionnaire de la voie d'eau, jamais au conducteur.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2999,17 +3206,20 @@
         {
           "text": "Un ballon vert placé à une hauteur d'au moins 5 m",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un cône vert pointe en bas placé à au moins 3 m",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu clair vert visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3042,17 +3252,20 @@
         {
           "text": "Une lumière continue et uniforme",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une lumière à éclats réguliers",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une lumière dont la couleur change selon la direction",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3085,17 +3298,20 @@
         {
           "text": "Rectangulaire",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Triangulaire",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Circulaire",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3128,17 +3344,20 @@
         {
           "text": "Un pavillon jaune hissé en tête de mât",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Des fusées ou bombes projetant des étoiles rouges lancées une à une à de courts intervalles",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un signal lumineux composé du groupe ...---... (SOS) du code Morse",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3171,17 +3390,20 @@
         {
           "text": "Une hauteur d'au moins 0,80 m et un diamètre d'au moins 0,50 m",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une hauteur d'au moins 0,60 m et un diamètre d'au moins 0,60 m",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une hauteur d'au moins 1,00 m et un diamètre d'au moins 0,80 m",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3214,17 +3436,20 @@
         {
           "text": "Pour la communication entre bateaux ou entre bateaux et la terre, à condition qu'ils ne prêtent pas à confusion avec les feux ou signaux mentionnés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Uniquement de nuit et après autorisation de l'autorité chargée de la police de la navigation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pour tout usage, dès lors que le bateau est en stationnement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3257,17 +3482,20 @@
         {
           "text": "Le remplacer sans délai par un feu de secours",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interrompre la navigation jusqu'à la réparation définitive du feu",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Attendre le prochain port pour signaler la panne, sans autre mesure",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3300,17 +3528,20 @@
         {
           "text": "Il est interdit d'utiliser des lumières ou objets risquant d'être confondus avec les feux et signaux réglementaires",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Tout éclairage publicitaire est autorisé pourvu qu'il soit éteint la nuit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les projecteurs éblouissants sont permis s'ils sont orientés vers la rive",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3343,17 +3574,20 @@
         {
           "text": "Il doit, en cas de besoin, faire usage des signaux sonores réglementaires.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il n'a la faculté d'émettre ces signaux que s'il navigue de nuit.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il est dispensé d'émettre tout signal sonore réglementaire.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3386,17 +3620,20 @@
         {
           "text": "À condition qu'ils ne prêtent pas à confusion avec les signaux réglementaires.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "À condition qu'ils soient émis uniquement à l'approche d'une écluse.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "À condition qu'ils soient plus puissants que les signaux réglementaires.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3429,17 +3666,20 @@
         {
           "text": "Des volées de cloche ou des sons prolongés répétés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un seul son bref suivi d'un silence d'une minute",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Trois sons brefs émis une seule fois",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3472,17 +3712,20 @@
         {
           "text": "Dans l'annexe 5.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Dans l'annexe 7.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Dans l'annexe 8.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3515,17 +3758,20 @@
         {
           "text": "Dans l'annexe 8.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Dans l'annexe 5.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Dans l'annexe 4.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3558,17 +3804,20 @@
         {
           "text": "Être équipés d'une installation de radiotéléphonie",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Embarquer obligatoirement un appareil radar de navigation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Disposer en toutes circonstances d'un système d'identification automatique (AIS)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3601,17 +3850,20 @@
         {
           "text": "Pour certains bateaux ou certaines situations de navigation déterminés par arrêté ministériel",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Pour tous les bateaux sans exception dès qu'ils naviguent de nuit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Uniquement pour les menues embarcations motorisées",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3644,17 +3896,20 @@
         {
           "text": "Se raccorder à un point de raccordement au réseau électrique à terre opérationnel pour couvrir intégralement leurs besoins en électricité durant le stationnement",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Couper tout équipement électrique et rester totalement hors tension durant le stationnement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Faire tourner leur groupe électrogène de bord pour alimenter le réseau à terre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3687,17 +3942,20 @@
         {
           "text": "Seulement dans les secteurs indiqués par le panneau E.6, et du côté de la voie où ce panneau est placé",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Partout dans la section, à condition de signaler le bateau de nuit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Uniquement avec l'autorisation écrite préalable du gestionnaire",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3730,17 +3988,20 @@
         {
           "text": "Une main courante ou une échelle métallique",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une bitte d'amarrage prévue à cet effet",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un anneau d'amarrage aménagé sur le quai",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3773,17 +4034,20 @@
         {
           "text": "Bord à bord en partant de la rive, du côté de la voie où le panneau est placé",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "En une seule rangée alignée le long du milieu du chenal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "À couple en partant de la rive opposée au panneau",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3816,17 +4080,20 @@
         {
           "text": "Seules les catégories de bateaux auxquelles le panneau s'applique, et uniquement du côté de la voie où le panneau est placé.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Tous les bateaux, des deux côtés de la voie, sans restriction de catégorie.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les catégories de bateaux visées par le panneau, mais des deux côtés de la voie indifféremment.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3859,17 +4126,20 @@
         {
           "text": "Le propriétaire, l'armateur ou un autre exploitant",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L'autorité chargée de la police de la navigation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le gestionnaire du port ou de l'aire de stationnement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3902,17 +4172,20 @@
         {
           "text": "Le chargement ne doit pas étendre la zone de non-visibilité directe ou indirecte pour la conduite du bateau.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le chargement peut réduire la visibilité tant qu'une vigie est postée à l'avant du bateau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le chargement ne doit jamais dépasser la hauteur de la timonerie, quelle que soit la visibilité.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3945,17 +4218,20 @@
         {
           "text": "Il se conforme aux ordres particuliers donnés en vue de la sécurité ou du bon ordre de la navigation.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il peut refuser de s'y conformer s'il estime sa propre route prioritaire.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il n'est tenu de s'y conformer que sur les voies maritimes, jamais sur les voies intérieures.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3988,17 +4264,20 @@
         {
           "text": "Leur donner les facilités nécessaires pour exercer leur mission de constatation des infractions.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Quitter immédiatement les lieux pour ne pas entraver leur intervention.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "N'accorder son aide que si les agents lui présentent au préalable un mandat judiciaire.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4031,17 +4310,20 @@
         {
           "text": "Les présenter à toute réquisition des agents chargés de la police de la navigation.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les transmettre uniquement par voie postale dans les huit jours suivant la demande.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les présenter seulement aux agents porteurs d'une réquisition écrite d'un juge.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {

@@ -11,7 +11,7 @@
     "permis": "eaux_interieures",
     "permis_label": "Permis plaisance — option eaux intérieures",
     "country": "FR",
-    "generated": "2026-05-30",
+    "generated": "2026-05-31",
     "kb_version": "",
     "lang": "fr",
     "unofficial": "false",
@@ -33,17 +33,20 @@
         {
           "text": "Apposée visiblement et lisiblement sur la coque",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Conservée uniquement dans les papiers du bord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Facultative pour la plaisance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -76,17 +79,20 @@
         {
           "text": "L'état du bateau, le matériel de sécurité et la météo",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Uniquement le niveau de carburant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Rien, la vérification incombe à l'écluse",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -119,17 +125,20 @@
         {
           "text": "Interdit",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisé en faible quantité",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Libre en dehors des ports",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -162,17 +171,20 @@
         {
           "text": "Réduire sa vitesse et son batillage près des rives",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Naviguer à pleine vitesse au centre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "S'amarrer dans les roselières",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -205,17 +217,20 @@
         {
           "text": "Les stocker en cuve et les vider à terre",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les rejeter discrètement la nuit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les rejeter loin des berges",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -248,17 +263,20 @@
         {
           "text": "Éviter tout débordement (ne pas remplir à ras bord)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Remplir le plus vite possible",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Rincer le réservoir à l'eau du canal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -291,17 +309,20 @@
         {
           "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire, en indiquant la nature et l'endroit du déversement.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ne rien signaler tant que le déversement n'entrave pas totalement la section d'eau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Prévenir uniquement les autres bateaux par un signal sonore, sans aviser d'autorité.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -334,17 +355,20 @@
         {
           "text": "Un carnet de contrôle des huiles usées valable, à bord de tout bateau ou engin flottant motorisé (sauf menues embarcations).",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un carnet de contrôle des huiles usées, obligatoire uniquement à bord des menues embarcations.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une attestation annuelle de vidange délivrée par le gestionnaire de la voie d'eau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -377,17 +401,20 @@
         {
           "text": "Se conformer aux ordres donnés par le conducteur dans l'intérêt de la sécurité de la navigation et de l'ordre à bord.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "N'obéir au conducteur que si elle fait partie de l'équipage rémunéré du bateau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Suivre uniquement les ordres relatifs à l'embarquement et au débarquement.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -420,17 +447,20 @@
         {
           "text": "Prendre toutes les mesures nécessaires pour maîtriser le sinistre et prévenir sans délai le gestionnaire ou le propriétaire de la voie d'eau ainsi que le CODIS territorialement compétent.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Attendre l'arrivée des secours avant d'entreprendre toute action de lutte contre le sinistre.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Prévenir uniquement les autres bateaux naviguant à proximité, sans avertir d'autorité.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -463,17 +493,20 @@
         {
           "text": "Aucun objet susceptible de compromettre la sécurité ne doit déborder sur les côtés, et les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les objets peuvent déborder sur les côtés à condition d'être signalés par un pavillon de jour.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les ancres relevées doivent rester au-dessus de la ligne de flottaison, mais peuvent dépasser la quille du bateau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -506,17 +539,20 @@
         {
           "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau, et s'employer à dégager la voie en cas d'obstruction.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "N'avertir les autorités que si le bateau transporte des marchandises dangereuses.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Laisser le bateau en place et attendre l'intervention obligatoire du gestionnaire sans intervenir.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -549,17 +585,20 @@
         {
           "text": "Renforcer les amarres de son bateau, la glace étant brisée autour de la flottaison par lui ou sous sa responsabilité.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Détacher entièrement le bateau de la rive pour le laisser dériver librement avec les glaces.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Confier obligatoirement le brisage de la glace au gestionnaire de la voie d'eau, jamais au conducteur.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {

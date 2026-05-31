@@ -17,17 +17,20 @@
         {
           "text": "Dell'articolo 2 lettera d dell'ordinanza del 14 marzo 1994",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Dell'articolo 2 lettera f OCB",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Dell'articolo 5 OCB",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -60,17 +63,20 @@
         {
           "text": "L'obbligo di diligenza è il rapporto sulla sicurezza di cui all'articolo 17 capoverso 3 OCB",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il rapporto di perizia è un rapporto ai sensi dell'articolo 2 lettera f OCB",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "L'obbligo di diligenza sono regole ai sensi dell'articolo 5 OCB",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -103,17 +109,20 @@
         {
           "text": "Una persona ai sensi dell'articolo 5a capoverso 1 lettera a OCB",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L'autorità competente che approva il rapporto sulla sicurezza",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il responsabile dell'obbligo di diligenza definito all'articolo 17 OCB",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -146,17 +155,20 @@
         {
           "text": "La navigazione con nevischio o piogge tempestose",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La navigazione con vento forte ma cielo sereno",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La navigazione di notte con buona visibilità",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -189,17 +201,20 @@
         {
           "text": "Può essere eseguita velocemente anche con una sola mano.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Può essere sciolta facilmente anche quando il cavo è bagnato.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "È il nodo che meglio di ogni altro preserva la resistenza iniziale del cavo quando se ne uniscono due.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -233,17 +248,20 @@
         {
           "text": "In arrampicata si utilizza sempre una gassa d'amante semplice.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ha la tendenza ad allentarsi e slegarsi quando è scarica e agitata.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "È facile da slegare anche dopo essere stata caricata e stretta da una caduta.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -276,17 +294,20 @@
         {
           "text": "È un nodo ad occhiello che non è scorsoio.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "È un nodo scorsoio che si stringe progressivamente sotto carico.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "È un nodo bloccante che non può mai essere sciolto.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -319,17 +340,20 @@
         {
           "text": "È un nodo bloccante usato per fissare una corda a un punto di ancoraggio.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "È uno strumento di assicurazione dinamica che permette lo scorrimento dei due capi.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "È un nodo ad occhiello che non si stringe mai troppo.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -362,17 +386,20 @@
         {
           "text": "Il mezzo barcaiolo è un nodo bloccante identico al barcaiolo.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "In nautica è anche noto come nodo parlato.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "In ambito scout viene chiamato nodo paletto.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -405,17 +432,20 @@
         {
           "text": "È di facile e rapida esecuzione.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Può essere sciolto anche se la corda è bagnata o ha subito forte trazione.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una volta eseguito non consente più di variare la distanza dal punto di ancoraggio.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -449,17 +479,20 @@
         {
           "text": "Sui laghi è ammessa una riduzione massima del 50 per cento se il peso era stato calcolato per acque correnti.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L'autorità competente può richiedere l'allungamento della catena dell'ancora.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "È ammessa la somma di più riduzioni di peso usando ancore ad alta tenuta.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -493,17 +526,20 @@
         {
           "text": "Alle prescrizioni di una società di classificazione riconosciuta dall'Ufficio federale dei trasporti.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Alle preferenze del costruttore del natante.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Alle norme valide unicamente per le acque correnti.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -536,17 +572,20 @@
         {
           "text": "Può rimanere libera e non fissata allo scafo.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Deve essere saldamente fissata allo scafo del natante.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il suo fissaggio allo scafo è un requisito previsto dall'articolo.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -579,17 +618,20 @@
         {
           "text": "È un vento caldo e secco, a volte tempestoso, che favorisce giornate soleggiate",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "È un vento freddo e umido che porta nebbia persistente",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "È un vento debole e fresco che non incide sulle temperature",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -622,17 +664,20 @@
         {
           "text": "Si scalda per compressione adiabatica, di circa 10 °C ogni 1000 m in discesa",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Si raffredda per espansione, di circa 10 °C ogni 1000 m in discesa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mantiene una temperatura costante perché non perde più umidità",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -665,17 +710,20 @@
         {
           "text": "Lo Stau, creato dalle correnti umide ascendenti, con nubi, pioggia e neve",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un cielo sereno e soleggiato con aria secca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un vento caldo e secco discendente",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -708,17 +756,20 @@
         {
           "text": "Portarono a creare norme e istituzioni di polizia edilizia e del fuoco",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Portarono all'abbandono definitivo di quei villaggi",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Portarono al divieto totale di navigazione sui laghi",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -751,17 +802,20 @@
         {
           "text": "Una minaccia per la navigazione, ad esempio lungo i laghi di Uri e Walenstadt",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una minaccia per la produzione agricola di pianura",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Una minaccia per le linee ferroviarie di montagna",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -794,17 +848,20 @@
         {
           "text": "Perché erano raggiungibili solo per via lacustre",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Perché erano isolati da frequenti valanghe",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Perché non disponevano di alcun porto",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -837,17 +894,20 @@
         {
           "text": "Zonda",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Chinook",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Halny",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -880,17 +940,20 @@
         {
           "text": "In Nuova Zelanda, a Christchurch, è chiamato halny",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "In Israele è chiamato sharav o hamsin",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nella California del Sud è noto come «venti di Santa Ana»",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -923,17 +986,20 @@
         {
           "text": "Chinook",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Sharav",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nor'wester",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -966,17 +1032,20 @@
         {
           "text": "Non incide sulle temperature, se non in base alla natura della massa d'aria a cui è associato",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Provoca sempre un brusco aumento delle temperature",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Determina un raffreddamento immediato delle valli sottovento",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1009,17 +1078,20 @@
         {
           "text": "Provocano nubi e precipitazioni persistenti sul versante sottovento",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Possono determinare temporanee condizioni di cielo sereno e temperature in aumento",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "All'arrivo della massa d'aria fredda che li segue viene meno l'effetto sulle temperature, pur permanendo clima secco",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1052,17 +1124,20 @@
         {
           "text": "Condizioni atmosferiche stabili, con aria molto secca",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Condizioni atmosferiche perturbate, con aria molto umida",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nebbia fitta e precipitazioni continue",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1095,17 +1170,20 @@
         {
           "text": "La manovra che cambia le mure passando con la poppa attraverso il fil di ruota",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La manovra di cambio mure portando la prua nel vento",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Una vela triangolare di prua issata alle andature portanti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1138,17 +1216,20 @@
         {
           "text": "I diversi modi di avanzare di un’imbarcazione a vela rispetto alla direzione del vento",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un segnale di precedenza tra due imbarcazioni",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La manovra di cambio delle mure passando con la poppa nel vento",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1181,17 +1262,20 @@
         {
           "text": "Un’andatura che consente di risalire il vento, con un angolo rispetto al vento reale tra circa 60° e 37°",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L’andatura in cui il vento proviene esattamente da poppa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La manovra di cambio mure attraverso il fil di ruota",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1224,17 +1308,20 @@
         {
           "text": "A mantenere il controllo della prua e a contribuire a bordeggiare (risalire il vento)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A frenare l’imbarcazione nelle andature portanti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A sostituire la randa nelle andature di poppa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1267,17 +1354,20 @@
         {
           "text": "Portando la prua in direzione del vento, fino al cambio delle mure (da bolina a bolina)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Portando la poppa attraverso il vento (fil di ruota)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mantenendo le stesse mure per tutta la manovra",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {

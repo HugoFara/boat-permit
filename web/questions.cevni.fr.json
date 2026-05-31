@@ -17,17 +17,20 @@
         {
           "text": "Au moins 75 N",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Au moins 750 N",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Au moins 50 N",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -60,17 +63,20 @@
         {
           "text": "Au moins 75 N.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Au moins 100 N.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Au moins 50 N.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -103,17 +109,20 @@
         {
           "text": "Les gilets de sauvetage avec cols",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les bouées de sauvetage",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les îlots de sauvetage pour l’embarquement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -147,17 +156,20 @@
         {
           "text": "Une puissance supérieure à 30 kW, ou une surface vélique dépassant 15 m2 pour les bateaux à voile.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une puissance supérieure à 15 kW, ou une surface vélique dépassant 30 m2.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une puissance supérieure à 50 kW, ou une surface vélique dépassant 10 m2.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -190,17 +202,20 @@
         {
           "text": "Elle ne doit pas être inférieure à 1 m.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Elle ne doit pas être inférieure à 0,5 m.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Elle ne doit pas dépasser 1 m.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -233,17 +248,20 @@
         {
           "text": "L'angle de gîte ne dépasse pas 5 degrés et le côté du pont, à l'endroit le plus bas, ne plonge pas dans l'eau.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L'angle de gîte ne dépasse pas 15 degrés et le pont peut plonger jusqu'à 5 cm.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "L'angle de gîte ne dépasse pas 10 degrés, quelle que soit la position du pont.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -276,17 +294,20 @@
         {
           "text": "90 cm en zone 2 et 45 cm en zone 3.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "30 cm en zone 2 et 15 cm en zone 3.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "100 cm en zone 2 et 50 cm en zone 3.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -319,17 +340,20 @@
         {
           "text": "100 cm.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "50 cm.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "30 cm.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -362,17 +386,20 @@
         {
           "text": "Au moins une cloison d'abordage et deux cloisons pour la salle des machines.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Au moins trois cloisons d'abordage à l'avant.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Au moins une cloison pour la salle des machines uniquement.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -405,17 +432,20 @@
         {
           "text": "Elle peut comporter des portes et des écoutilles si elles sont étanches.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Elle doit être étanche et construite d'un côté à l'autre de la coque.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Elle doit être construite du fond de cale jusqu'au pont.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -448,17 +478,20 @@
         {
           "text": "L'obligation d'apposer le marquage «CE» n'est pas applicable, mais s'il a déjà été apposé conformément aux dispositions de l'UE, il peut rester apposé.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le marquage «CE» est obligatoire pour tous les bateaux de sport mis sur le marché.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le marquage «CE» doit être retiré s'il a été apposé selon les dispositions de l'UE.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -491,17 +524,20 @@
         {
           "text": "Dans une langue officielle de la Suisse ou en anglais.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Exclusivement en allemand.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Uniquement dans la langue du fabricant.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -534,17 +570,20 @@
         {
           "text": "Le temps de voyage entre les lieux de départ et d'arrivée ne dépasse pas 45 minutes.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le temps de voyage entre les lieux de départ et d'arrivée ne dépasse pas 90 minutes.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le bateau doit transporter exclusivement des marchandises dangereuses.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -577,17 +616,20 @@
         {
           "text": "2 matelots.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "1 matelot.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "3 matelots.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -620,17 +662,20 @@
         {
           "text": "Pour les bateaux qui ne sont pas construits par des professionnels.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Pour tous les bateaux de plaisance, sans exception.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pour les bateaux à passagers prioritaires.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -663,17 +708,20 @@
         {
           "text": "L'assentiment de l'OFT.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L'accord du Conseil fédéral.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Aucune autorisation supplémentaire.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -706,17 +754,20 @@
         {
           "text": "Feu fixe visible de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Feu scintillant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 2."
         },
         {
           "text": "Feu bleu scintillant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 31."
         }
       ],
       "provenance": {
@@ -749,17 +800,20 @@
         {
           "text": "Un feu de mât blanc, des feux de côté vert et rouge, et un feu de poupe blanc",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Uniquement un feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu de mât blanc et un feu tricolore combinant les feux de côté et le feu de poupe à la pointe du mât",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -792,17 +846,20 @@
         {
           "text": "Un feu de mât blanc, et le feu tricolore placé à la pointe du mât ou à proximité de celle-ci",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu de mât blanc, et le feu tricolore placé sur la poupe au ras de l'eau",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Aucun feu de mât, et un feu de poupe blanc séparé du feu tricolore",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -835,17 +892,20 @@
         {
           "text": "Un feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu de mât blanc avec feux de côté vert et rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu ordinaire jaune visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -878,17 +938,20 @@
         {
           "text": "Un feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Des feux de côté vert et rouge et un feu de poupe blanc",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu de mât blanc et un feu tricolore en haut du mât",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -921,17 +984,20 @@
         {
           "text": "Feu scintillant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 2."
         },
         {
           "text": "Feu fixe visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 1."
         },
         {
           "text": "Feu tricolore placé à la pointe du mât ou à proximité de celle-ci",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -964,17 +1030,20 @@
         {
           "text": "Le feu supérieur rouge, le feu inférieur vert",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le feu supérieur vert, le feu inférieur rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les deux feux blancs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1007,17 +1076,20 @@
         {
           "text": "Un feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu ordinaire rouge visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Des feux de côté vert et rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1050,17 +1122,20 @@
         {
           "text": "Feu bleu scintillant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 31."
         },
         {
           "text": "Feu fixe visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 1."
         },
         {
           "text": "Feu scintillant",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1093,17 +1168,20 @@
         {
           "text": "Par un éclairage permettant de distinguer leur contour",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Par un feu ordinaire jaune visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Par un feu de mât blanc et des feux de côté vert et rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1136,17 +1214,20 @@
         {
           "text": "Un feu clair vert visible de tous les côtés, placé au moins 1 m plus haut que le feu de mât",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu clair rouge visible de tous les côtés, placé au moins 1 m plus haut que le feu de mât",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu ordinaire jaune visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1179,17 +1260,20 @@
         {
           "text": "Interdiction de s’amarrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 11."
         },
         {
           "text": "Ballon vert",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La hauteur de la passe est limitée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 23."
         }
       ],
       "provenance": {
@@ -1222,17 +1306,20 @@
         {
           "text": "Un feu ordinaire rouge visible de tous les côtés au-dessus d'un feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu ordinaire blanc au-dessus d'un feu ordinaire rouge, tous deux visibles de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Deux feux ordinaires rouges superposés visibles de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1265,17 +1352,20 @@
         {
           "text": "Pavillon dont la moitié supérieure est rouge, la moitié inférieure blanche",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Balancer un pavillon rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 39."
         },
         {
           "text": "Deux pavillons blancs superposés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 27."
         }
       ],
       "provenance": {
@@ -1308,17 +1398,20 @@
         {
           "text": "Deux pavillons dont le supérieur est rouge, l’inférieur blanc",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Deux pavillons blancs superposés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 27."
         },
         {
           "text": "Balancer un pavillon rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 39."
         }
       ],
       "provenance": {
@@ -1351,17 +1444,20 @@
         {
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
         },
         {
           "text": "Deux pavillons blancs superposés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 34."
         }
       ],
       "provenance": {
@@ -1394,17 +1490,20 @@
         {
           "text": "Ballon jaune",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 34."
         },
         {
           "text": "Bateaux de la police et d’autres services",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 30."
         },
         {
           "text": "Bouées jaunes signalant chaque ancrage",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1437,17 +1536,20 @@
         {
           "text": "Interdiction de virer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
         },
         {
           "text": "Autorisation de passer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 32."
         },
         {
           "text": "Ballon",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1480,17 +1582,20 @@
         {
           "text": "Bouées jaunes signalant chaque ancrage",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 29."
         },
         {
           "text": "Interdiction d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 10."
         },
         {
           "text": "Bateaux de la police et d’autres services",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1523,17 +1628,20 @@
         {
           "text": "Feu scintillant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 2."
         },
         {
           "text": "Feu bleu scintillant",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Feu fixe visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 1."
         }
       ],
       "provenance": {
@@ -1566,17 +1674,20 @@
         {
           "text": "Le pavillon lettre «K», dont la moitié côté hampe est jaune et l'autre moitié bleue",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le pavillon lettre «K», dont la moitié supérieure est rouge et l'autre moitié blanche",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pavillon entièrement rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1609,17 +1720,20 @@
         {
           "text": "Un feu ordinaire jaune visible de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu ordinaire rouge visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1652,17 +1766,20 @@
         {
           "text": "B. dans le seul sens indiqué",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 28."
         },
         {
           "text": "Ballon jaune",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
         }
       ],
       "provenance": {
@@ -1695,17 +1812,20 @@
         {
           "text": "Un ballon blanc",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un ballon vert visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu ordinaire jaune visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1738,17 +1858,20 @@
         {
           "text": "Le panneau lettre «A» (guidon à deux pointes, moitié côté hampe blanche, l'autre moitié bleue)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le pavillon lettre «K» (moitié côté hampe jaune, l'autre moitié bleue)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un ballon blanc visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1781,17 +1904,20 @@
         {
           "text": "Le panneau lettre «A» (guidon blanc/bleu) visible de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le panneau lettre «A» orienté uniquement vers la rive",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pavillon rouge visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1824,17 +1950,20 @@
         {
           "text": "Balancer un pavillon rouge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La largeur de la passe est limitée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 24."
         },
         {
           "text": "B. dans le seul sens indiqué",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 28."
         }
       ],
       "provenance": {
@@ -1867,17 +1996,20 @@
         {
           "text": "Un feu de mât (ou de proue) clair blanc, des feux de côté clair vert et clair rouge, et un feu de poupe ordinaire blanc",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Uniquement un feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu clair blanc et un feu clair vert visible de tous les côtés placé plus haut que le feu de mât",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1910,17 +2042,20 @@
         {
           "text": "En balançant circulairement un feu",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "En balançant un feu (sans mouvement circulaire)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "En montrant deux feux rouges fixes superposés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1953,17 +2088,20 @@
         {
           "text": "Balancer un pavillon rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 39."
         },
         {
           "text": "Balancer circulairement un pavillon rouge ou tout autre objet approprié",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Deux pavillons blancs superposés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 27."
         }
       ],
       "provenance": {
@@ -1996,17 +2134,20 @@
         {
           "text": "Mouvement lent et répété, de haut en bas, des bras étendus de chaque côté",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 33."
         },
         {
           "text": "B. dans le seul sens indiqué",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 28."
         }
       ],
       "provenance": {
@@ -2039,17 +2180,20 @@
         {
           "text": "Par un feu ordinaire rouge et un feu ordinaire blanc",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Par un feu ordinaire rouge seul",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Par un feu ordinaire vert et un feu ordinaire blanc",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2082,17 +2226,20 @@
         {
           "text": "Un pavillon rouge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un pavillon dont la moitié supérieure est rouge et la moitié inférieure blanche",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pavillon entièrement blanc",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2125,17 +2272,20 @@
         {
           "text": "Deux pavillons superposés, le supérieur rouge et l'inférieur blanc",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Deux pavillons superposés, le supérieur blanc et l'inférieur rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pavillon rouge unique",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2168,17 +2318,20 @@
         {
           "text": "Sur le bateau de tête",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Sur le bateau pousseur, à l'arrière du convoi",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Au centre du convoi, sur le bateau le plus visible",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2211,17 +2364,20 @@
         {
           "text": "Un feu blanc visible de tous les côtés et des feux de côté vert et rouge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu de mât blanc, des feux de côté vert/rouge et un feu de poupe blanc séparé",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Uniquement un feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2254,17 +2410,20 @@
         {
           "text": "Côte à côte dans la zone avant, ou comme feu bicolore",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Combinés avec le feu de poupe en un feu tricolore au sommet du mât",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Remplacés par un seul feu ordinaire jaune visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2297,17 +2456,20 @@
         {
           "text": "Deux feux superposés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 2."
         },
         {
           "text": "Volées de cloches",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Bouées jaunes signalant chaque ancrage",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 29."
         }
       ],
       "provenance": {
@@ -2340,17 +2502,20 @@
         {
           "text": "Interdiction de passer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le chenal est limité à une certaine distance de la rive",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Passe recommandée pour franchir un pont",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2383,17 +2548,20 @@
         {
           "text": "Interdiction d’ancrer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 44."
         },
         {
           "text": "Interdiction du ski nautique",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 4."
         }
       ],
       "provenance": {
@@ -2426,17 +2594,20 @@
         {
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 3."
         },
         {
           "text": "Interdiction de tout dépassement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 7."
         },
         {
           "text": "Interdiction de s’amarrer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2469,17 +2640,20 @@
         {
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 3."
         },
         {
           "text": "Interdiction de virer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 44."
         }
       ],
       "provenance": {
@@ -2512,17 +2686,20 @@
         {
           "text": "Interdiction de causer des remous ou effets de succion nuisibles",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 10."
         },
         {
           "text": "Interdiction de virer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
         }
       ],
       "provenance": {
@@ -2555,17 +2732,20 @@
         {
           "text": "Interdiction de virer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
         },
         {
           "text": "Interdiction de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 9."
         },
         {
           "text": "Interdiction de naviguer en dehors des limites indiquées",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2598,17 +2778,20 @@
         {
           "text": "Interdiction de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 9."
         },
         {
           "text": "Interdiction de naviguer à la planche à voile",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 6."
         },
         {
           "text": "Interdiction de naviguer en dehors des limites indiquées",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2641,17 +2824,20 @@
         {
           "text": "Passage interdit, mais préparez-vous à vous mettre en marche",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Lieu de mise à terre de bateaux",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 43."
         },
         {
           "text": "Hurlement d’une sirène",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 64."
         }
       ],
       "provenance": {
@@ -2684,17 +2870,20 @@
         {
           "text": "Bac ne naviguant pas librement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 40."
         },
         {
           "text": "Baignade interdite",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Direction recommandée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 39."
         }
       ],
       "provenance": {
@@ -2727,17 +2916,20 @@
         {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 22."
         },
         {
           "text": "Obligation de prendre la direction indiquée par la flèche",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation de siffler",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 21."
         }
       ],
       "provenance": {
@@ -2770,17 +2962,20 @@
         {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 22."
         },
         {
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation de siffler",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 21."
         }
       ],
       "provenance": {
@@ -2813,17 +3008,20 @@
         {
           "text": "Direction recommandée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 39."
         },
         {
           "text": "Deux feux superposés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 9."
         }
       ],
       "provenance": {
@@ -2856,17 +3054,20 @@
         {
           "text": "Obligation de ne pas dépasser la vitesse indiquée en km/h",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 22."
         },
         {
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
         }
       ],
       "provenance": {
@@ -2899,17 +3100,20 @@
         {
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
         },
         {
           "text": "Obligation de siffler",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 22."
         }
       ],
       "provenance": {
@@ -2942,17 +3146,20 @@
         {
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
         },
         {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation de siffler",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 21."
         }
       ],
       "provenance": {
@@ -2985,17 +3192,20 @@
         {
           "text": "Kitesurfs autorisés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 38."
         },
         {
           "text": "Direction recommandée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 39."
         },
         {
           "text": "La hauteur de la passe est limitée",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3028,17 +3238,20 @@
         {
           "text": "La largeur de la passe est limitée",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Avis de tempête",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 62."
         },
         {
           "text": "Direction recommandée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 39."
         }
       ],
       "provenance": {
@@ -3071,17 +3284,20 @@
         {
           "text": "La distance, en mètres, à laquelle les bateaux doivent se tenir par rapport à la rive",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La vitesse maximale autorisée en km/h",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La profondeur minimale de l'eau en mètres",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3114,17 +3330,20 @@
         {
           "text": "Le tirant d’eau est limité",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Avis de fort vent",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 61."
         },
         {
           "text": "Avis de tempête",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 62."
         }
       ],
       "provenance": {
@@ -3157,17 +3376,20 @@
         {
           "text": "Une passe recommandée pour franchir le pont dans les deux sens",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une passe recommandée à sens unique seulement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une interdiction de franchir le pont",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3200,17 +3422,20 @@
         {
           "text": "La largeur de la passe est limitée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 24."
         },
         {
           "text": "Lieu de mise à terre de bateaux",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 43."
         },
         {
           "text": "B. dans le seul sens indiqué",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3243,17 +3468,20 @@
         {
           "text": "Direction recommandée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 39."
         },
         {
           "text": "B. dans le seul sens indiqué",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le tirant d’eau est limité",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 26."
         }
       ],
       "provenance": {
@@ -3286,17 +3514,20 @@
         {
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 44."
         },
         {
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de virer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
         }
       ],
       "provenance": {
@@ -3329,17 +3560,20 @@
         {
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
         },
         {
           "text": "Recommandation de se tenir dans l’espace indiqué en «vert»",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation de passer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 32."
         }
       ],
       "provenance": {
@@ -3372,17 +3606,20 @@
         {
           "text": "Interdiction de toute rencontre et dépassement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 8."
         },
         {
           "text": "Recommandation de se tenir dans l’espace indiqué en «vert»",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 44."
         }
       ],
       "provenance": {
@@ -3415,17 +3652,20 @@
         {
           "text": "Autorisation d’amarrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 35."
         },
         {
           "text": "Autorisation de passer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 34."
         }
       ],
       "provenance": {
@@ -3458,17 +3698,20 @@
         {
           "text": "Autorisation de stationner",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation du ski nautique",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 36."
         },
         {
           "text": "Autorisation de passer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 32."
         }
       ],
       "provenance": {
@@ -3501,17 +3744,20 @@
         {
           "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation du ski nautique",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 36."
         },
         {
           "text": "Autorisation de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 33."
         }
       ],
       "provenance": {
@@ -3544,17 +3790,20 @@
         {
           "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 34."
         },
         {
           "text": "Autorisation de passer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 32."
         },
         {
           "text": "Autorisation d’amarrer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3587,17 +3836,20 @@
         {
           "text": "Autorisation du ski nautique",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation d’amarrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 35."
         },
         {
           "text": "Autorisation de naviguer à la planche à voile",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 37."
         }
       ],
       "provenance": {
@@ -3630,17 +3882,20 @@
         {
           "text": "Autorisation d’amarrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 35."
         },
         {
           "text": "Autorisation de naviguer à la planche à voile",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 33."
         }
       ],
       "provenance": {
@@ -3673,17 +3928,20 @@
         {
           "text": "Kitesurfs autorisés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Avis de tempête",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 62."
         },
         {
           "text": "Baignade interdite",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 17."
         }
       ],
       "provenance": {
@@ -3716,17 +3974,20 @@
         {
           "text": "B. dans le seul sens indiqué",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 28."
         },
         {
           "text": "Avis de tempête",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 62."
         },
         {
           "text": "Direction recommandée",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3759,17 +4020,20 @@
         {
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 3."
         },
         {
           "text": "Interdiction du ski nautique",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 10."
         }
       ],
       "provenance": {
@@ -3802,17 +4066,20 @@
         {
           "text": "Direction recommandée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 39."
         },
         {
           "text": "Kitesurfs autorisés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 38."
         },
         {
           "text": "Bac ne naviguant pas librement",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3845,17 +4112,20 @@
         {
           "text": "Barrage",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le tirant d’eau est limité",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 26."
         },
         {
           "text": "Lignes aériennes à haute tension",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 45."
         }
       ],
       "provenance": {
@@ -3888,17 +4158,20 @@
         {
           "text": "Avis de fort vent",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 61."
         },
         {
           "text": "B. dans le seul sens indiqué",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 28."
         },
         {
           "text": "Lieu de mise à l’eau de bateaux",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3931,17 +4204,20 @@
         {
           "text": "Lieu de mise à l’eau de bateaux",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 42."
         },
         {
           "text": "Barrage",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 41."
         },
         {
           "text": "Lieu de mise à terre de bateaux",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3974,17 +4250,20 @@
         {
           "text": "Interdiction de passer pour bateaux à voile",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 5."
         },
         {
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 3."
         },
         {
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4017,17 +4296,20 @@
         {
           "text": "Lignes aériennes à haute tension",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Barrage",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 41."
         },
         {
           "text": "Kitesurfs autorisés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 38."
         }
       ],
       "provenance": {
@@ -4060,17 +4342,20 @@
         {
           "text": "Obligation de ne pas dépasser 12 km/h à partir d'une distance de 1000 m",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Distance minimale de 12 m à respecter pendant 1000 km",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Profondeur de 12 m sur une longueur de chenal de 1000 m",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4103,17 +4388,20 @@
         {
           "text": "Par un cône pointe en bas, peint en rouge ou non peint",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Par un cône pointe en haut, peint en vert ou non peint",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Par un cylindre peint en rouge ou non peint",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4146,17 +4434,20 @@
         {
           "text": "Interdiction de passer pour bateaux à voile",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de virer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
         },
         {
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 3."
         }
       ],
       "provenance": {
@@ -4189,17 +4480,20 @@
         {
           "text": "Des cylindres peints en rouge et des cônes pointe en haut peints en vert",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Des cônes pointe en bas peints en rouge et des cylindres verts",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Des flotteurs jaunes munis de réflecteurs radar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4232,17 +4526,20 @@
         {
           "text": "Côté large: des cylindres; côté terre: des cônes",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Côté large: des cônes; côté terre: des cylindres",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Côté large et côté terre: des flotteurs jaunes",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4275,17 +4572,20 @@
         {
           "text": "Côté droit: des cônes verts; côté gauche: des cylindres rouges",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Côté droit: des cylindres rouges; côté gauche: des cônes verts",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les deux côtés: des cônes pointe en bas peints en rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4318,17 +4618,20 @@
         {
           "text": "Deux cônes superposés, les deux pointes en haut",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Deux cônes superposés, les deux pointes en bas",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Deux cônes superposés, le cône inférieur pointe en bas et le supérieur pointe en haut",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4361,17 +4664,20 @@
         {
           "text": "Que les eaux profondes se trouvent dans les quadrants Nord et Ouest",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Que l'obstacle se trouve dans les quadrants Nord et Ouest",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Que le passage est interdit dans les quadrants Nord et Ouest",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4404,17 +4710,20 @@
         {
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 3."
         },
         {
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 44."
         },
         {
           "text": "Interdiction de naviguer à la planche à voile",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4447,17 +4756,20 @@
         {
           "text": "Volées de cloches continues",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
         },
         {
           "text": "Interdiction d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 10."
         }
       ],
       "provenance": {
@@ -4490,17 +4802,20 @@
         {
           "text": "Baignade interdite",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 17."
         },
         {
           "text": "Hurlement d’une sirène",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "B. dans le seul sens indiqué",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 28."
         }
       ],
       "provenance": {
@@ -4533,17 +4848,20 @@
         {
           "text": "Interdiction de virer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
         },
         {
           "text": "Interdiction de tout dépassement",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de toute rencontre et dépassement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 8."
         }
       ],
       "provenance": {
@@ -4576,17 +4894,20 @@
         {
           "text": "Interdiction de passer pour bateaux à voile",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 5."
         },
         {
           "text": "Interdiction du ski nautique",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 4."
         },
         {
           "text": "Interdiction de toute rencontre et dépassement",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4619,17 +4940,20 @@
         {
           "text": "Interdiction de virer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
         },
         {
           "text": "Interdiction de stationner",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 44."
         }
       ],
       "provenance": {
@@ -4662,17 +4986,20 @@
         {
           "text": "Un feu de mât blanc, des feux de côté vert et rouge, et un feu de poupe blanc",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu blanc visible de tous les côtés et des feux de côté vert et rouge, sans feu de mât",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Uniquement un feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4705,17 +5032,20 @@
         {
           "text": "Un feu tricolore combinant feux de côté et feu de poupe, placé à la pointe du mât ou à proximité",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu bicolore placé dans la zone avant, le feu de poupe restant séparé",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu blanc visible de tous les côtés placé à la poupe",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4748,17 +5078,20 @@
         {
           "text": "Un feu de mât ordinaire blanc et un feu de poupe ordinaire blanc",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu de mât blanc, des feux de côté vert et rouge, et un feu de poupe blanc",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un seul feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4791,17 +5124,20 @@
         {
           "text": "Par un feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Par un feu de mât blanc et des feux de côté vert et rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Par un feu ordinaire jaune visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4834,17 +5170,20 @@
         {
           "text": "Un feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu de mât blanc accompagné de feux de côté vert et rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu tricolore placé à la pointe du mât",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4877,17 +5216,20 @@
         {
           "text": "Feux de côté vert et rouge et feu de poupe blanc",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Feux de côté vert et rouge, feu de poupe blanc et feu de mât blanc",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu ordinaire jaune visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4920,17 +5262,20 @@
         {
           "text": "Feu tricolore placé à la pointe du mât ou à proximité de celle-ci",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Soit pavillon rouge et pavillon blanc",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 34."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
         }
       ],
       "provenance": {
@@ -4963,17 +5308,20 @@
         {
           "text": "Signalisation de nuit supplémentaire des bateaux à passagers prioritaires faisant route",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Convois poussés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 5."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
         }
       ],
       "provenance": {
@@ -5006,17 +5354,20 @@
         {
           "text": "En balançant un feu rouge et/ou en émettant le signal sonore réglementaire",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "En balançant un feu blanc visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "En montrant un ballon vert visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5049,17 +5400,20 @@
         {
           "text": "Deux feux rouges superposés, à environ 1 m l'un au-dessus de l'autre, visibles de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Deux feux blancs superposés à environ 1 m l'un de l'autre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu rouge au-dessus d'un feu blanc, tous deux visibles de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5092,17 +5446,20 @@
         {
           "text": "Éclairé de telle manière que ses contours soient reconnaissables",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Par un feu ordinaire rouge au-dessus d'un feu ordinaire blanc",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Par un ballon noir visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5135,17 +5492,20 @@
         {
           "text": "Côté libre : feu ordinaire rouge au-dessus d'un feu ordinaire blanc ; côté non libre : feu ordinaire rouge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Côté libre : feu ordinaire blanc seul ; côté non libre : feu ordinaire blanc au-dessus d'un feu rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Côté libre : feu vert ; côté non libre : feu rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5178,17 +5538,20 @@
         {
           "text": "Par des bouées portant un feu ordinaire blanc",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Par des bouées portant un feu ordinaire rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Par des ballons noirs visibles de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5221,17 +5584,20 @@
         {
           "text": "Un ballon vert, visible de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un ballon jaune, visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un ballon blanc, visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5264,17 +5630,20 @@
         {
           "text": "En balançant un pavillon rouge et/ou en émettant le signal sonore réglementaire",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "En balançant un pavillon blanc visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "En hissant un ballon vert visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5307,17 +5676,20 @@
         {
           "text": "Deux ballons noirs superposés, à environ 1 m l'un au-dessus de l'autre, visibles de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Deux ballons verts superposés visibles de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un ballon blanc visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5350,17 +5722,20 @@
         {
           "text": "Côté libre : un pavillon rouge et blanc (ou un pavillon rouge et un pavillon blanc) ; côté non libre : un pavillon rouge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Côté libre : un pavillon rouge ; côté non libre : un pavillon rouge et blanc",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Côté libre : un ballon vert ; côté non libre : un ballon noir",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5393,17 +5768,20 @@
         {
           "text": "Par un feu ordinaire rouge au-dessus d'un feu ordinaire blanc",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Par un feu ordinaire blanc au-dessus d'un feu ordinaire rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Par deux feux rouges superposés visibles de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5436,17 +5814,20 @@
         {
           "text": "Soit pavillon rouge et pavillon blanc",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de passer en dehors de l’espace indiqué",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 10."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
         }
       ],
       "provenance": {
@@ -5479,17 +5860,20 @@
         {
           "text": "Un feu bleu scintillant",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu vert clair visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu jaune scintillant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5522,17 +5906,20 @@
         {
           "text": "Le pavillon lettre « K »",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le panneau lettre « A »",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pavillon rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5565,17 +5952,20 @@
         {
           "text": "De nuit : un feu rouge agité circulairement ; de jour : un pavillon rouge ou autre objet agité circulairement",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "De nuit : un feu blanc balancé ; de jour : un ballon vert hissé",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "De nuit : deux feux rouges superposés ; de jour : deux ballons noirs superposés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5608,17 +5998,20 @@
         {
           "text": "Convois poussés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 5."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Bateaux de plaisance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 6."
         }
       ],
       "provenance": {
@@ -5651,17 +6044,20 @@
         {
           "text": "Un panneau portant la lettre « A »",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un pavillon portant la lettre « K »",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un ballon jaune visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5694,17 +6090,20 @@
         {
           "text": "Un panneau portant la lettre « A »",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un ballon blanc visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pavillon portant la lettre « K »",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5737,17 +6136,20 @@
         {
           "text": "Un ballon blanc, visible de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un ballon jaune, visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un ballon vert, visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5780,17 +6182,20 @@
         {
           "text": "Un ballon jaune, visible de tous les côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un ballon blanc, visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un ballon vert, visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5823,17 +6228,20 @@
         {
           "text": "Bateaux de plaisance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 6."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
         },
         {
           "text": "Convois poussés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5866,17 +6274,20 @@
         {
           "text": "Convois poussés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 5."
         },
         {
           "text": "Bateaux de plaisance",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
         }
       ],
       "provenance": {
@@ -5909,17 +6320,20 @@
         {
           "text": "Convois poussés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 5."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
         },
         {
           "text": "Bateaux de pêche professionnelle, bateaux de plaisance motorisés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5952,17 +6366,20 @@
         {
           "text": "Un feu blanc visible de tous les côtés et des feux de côté vert et rouge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu de mât blanc, des feux de côté vert et rouge et un feu de poupe blanc séparé",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu ordinaire jaune visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5995,17 +6412,20 @@
         {
           "text": "Interdiction d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 7."
         },
         {
           "text": "Interdiction de passer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 6."
         }
       ],
       "provenance": {
@@ -6038,17 +6458,20 @@
         {
           "text": "Interdiction de passer en dehors de l’espace indiqué",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 11."
         },
         {
           "text": "Interdiction de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 6."
         }
       ],
       "provenance": {
@@ -6081,17 +6504,20 @@
         {
           "text": "Interdiction de passer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 1."
         },
         {
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 6."
         }
       ],
       "provenance": {
@@ -6124,17 +6550,20 @@
         {
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 11."
         },
         {
           "text": "Interdiction de se baigner",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de passer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 1."
         }
       ],
       "provenance": {
@@ -6167,17 +6596,20 @@
         {
           "text": "Interdiction des kitesurfs",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 11."
         },
         {
           "text": "Interdiction de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 6."
         }
       ],
       "provenance": {
@@ -6210,17 +6642,20 @@
         {
           "text": "Obligation de prendre la direction indiquée par la flèche",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 16."
         },
         {
           "text": "Autorisation de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 18."
         }
       ],
       "provenance": {
@@ -6253,17 +6688,20 @@
         {
           "text": "Obligation de ne pas dépasser la vitesse indiquée (en km/h",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de tout dépassement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 5."
         },
         {
           "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
         }
       ],
       "provenance": {
@@ -6296,17 +6734,20 @@
         {
           "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
         },
         {
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 11."
         },
         {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6339,17 +6780,20 @@
         {
           "text": "Autorisation du ski nautique ou de l’utilisation d’engins analogues",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation de s’amarrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 20."
         },
         {
           "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
         }
       ],
       "provenance": {
@@ -6382,17 +6826,20 @@
         {
           "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
         },
         {
           "text": "Autorisation de stationner",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation de pratiquer la planche à voile",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 21."
         }
       ],
       "provenance": {
@@ -6425,17 +6872,20 @@
         {
           "text": "Autorisation de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 18."
         },
         {
           "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation de s’amarrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 20."
         }
       ],
       "provenance": {
@@ -6468,17 +6918,20 @@
         {
           "text": "Deux signaux lumineux",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
         }
       ],
       "provenance": {
@@ -6511,17 +6964,20 @@
         {
           "text": "Autorisation de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 18."
         },
         {
           "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
         },
         {
           "text": "Autorisation de s’amarrer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6554,17 +7010,20 @@
         {
           "text": "Autorisation de pratiquer la planche à voile",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
         },
         {
           "text": "Autorisation de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 18."
         }
       ],
       "provenance": {
@@ -6597,17 +7056,20 @@
         {
           "text": "Kitesurfs autorisés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 16."
         },
         {
           "text": "Interdiction de passer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 1."
         }
       ],
       "provenance": {
@@ -6640,17 +7102,20 @@
         {
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 11."
         },
         {
           "text": "Interdiction de se baigner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 12."
         }
       ],
       "provenance": {
@@ -6683,17 +7148,20 @@
         {
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 11."
         },
         {
           "text": "Interdiction du ski nautique ou de l’utilisation d’engins analogues",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de stationner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 6."
         }
       ],
       "provenance": {
@@ -6726,17 +7194,20 @@
         {
           "text": "Interdiction de tout dépassement",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 7."
         },
         {
           "text": "Interdiction de passer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 1."
         }
       ],
       "provenance": {
@@ -6769,17 +7240,20 @@
         {
           "text": "Interdiction de s’amarrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 8."
         },
         {
           "text": "Interdiction des kitesurfs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 13."
         },
         {
           "text": "Interdiction de stationner",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6812,17 +7286,20 @@
         {
           "text": "Interdiction de passer en dehors de l’espace indiqué",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 10."
         },
         {
           "text": "Interdiction d’ancrer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de se baigner",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 12."
         }
       ],
       "provenance": {
@@ -6855,17 +7332,20 @@
         {
           "text": "Interdiction de passer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 1."
         },
         {
           "text": "Interdiction de s’amarrer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction des kitesurfs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 13."
         }
       ],
       "provenance": {
@@ -6898,17 +7378,20 @@
         {
           "text": "Interdiction des kitesurfs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 13."
         },
         {
           "text": "Interdiction d’ancrer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 7."
         },
         {
           "text": "Interdiction de passer en dehors de l’espace indiqué",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6941,17 +7424,20 @@
         {
           "text": "Entrée interdite, il faut attendre",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Entrée autorisée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Sortie de l'écluse seulement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6984,17 +7470,20 @@
         {
           "text": "Le feu vert",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le feu rouge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Deux feux rouges",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7027,17 +7516,20 @@
         {
           "text": "Les tenir et les ajuster, sans les frapper à poste fixe",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les frapper solidement à un taquet fixe",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Retirer toutes les amarres",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7070,17 +7562,20 @@
         {
           "text": "L'éclusier et la signalisation de l'écluse",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le bateau le plus rapide",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Chaque conducteur, librement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7113,17 +7608,20 @@
         {
           "text": "L'écluse est hors service",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L'entrée est immédiatement autorisée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La sortie est obligatoire",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7156,17 +7654,20 @@
         {
           "text": "Uniquement dans l'espace compris entre les deux panneaux constituant le signal",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Partout dans l'ouverture, sauf au centre du chenal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "De préférence entre les deux panneaux, mais sans interdiction ailleurs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7199,17 +7700,20 @@
         {
           "text": "L'ouverture est interdite à la navigation.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L'ouverture est recommandée de préférence dans les deux sens.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "L'ouverture est réservée aux bateaux montants uniquement.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7242,17 +7746,20 @@
         {
           "text": "Ils doivent lui faciliter au maximum le passage",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ils conservent leur tour de passage dans l'ordre d'arrivée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ils doivent quitter immédiatement le garage de l'écluse",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7285,17 +7792,20 @@
         {
           "text": "Dix jours",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Trois jours",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Trente jours",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7328,17 +7838,20 @@
         {
           "text": "Il est interdit d'y stationner et d'y circuler, sauf si elles sont aménagées pour servir de passage public.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "On peut s'y tenir librement, y compris sur les ponts mobiles pendant la manœuvre.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La circulation y est autorisée à condition de porter un équipement individuel de flottabilité.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7371,17 +7884,20 @@
         {
           "text": "Seulement après s'être assuré que la manœuvre peut avoir lieu sans danger.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Seulement après avoir reçu l'autorisation explicite du bateau rattrapé.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Dès que le bateau rattrapé a réduit sa vitesse.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7414,17 +7930,20 @@
         {
           "text": "Ils ne doivent en aucun cas gêner la marche des avalants et doivent au besoin ralentir ou s'arrêter.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ils ont la priorité et les avalants doivent s'écarter pour les laisser passer.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ils doivent émettre un son prolongé avant de croiser le chenal.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7457,17 +7976,20 @@
         {
           "text": "Pas moins de 50 m.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Pas moins de 10 m.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pas moins de 100 m.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7500,17 +8022,20 @@
         {
           "text": "Il est en principe interdit de les laisser traîner.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il est toujours autorisé de les laisser traîner pour ralentir le bateau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il est obligatoire de les laisser traîner lors de la navigation à la dérive.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7543,17 +8068,20 @@
         {
           "text": "Ils doivent laisser aux autres bateaux l'espace nécessaire pour suivre leur route et pour manœuvrer, sans pouvoir exiger qu'ils s'écartent en leur faveur.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ils sont prioritaires et les autres bateaux doivent s'écarter de leur route.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ils peuvent exiger que les autres bateaux réduisent leur vitesse à leur approche.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7586,17 +8114,20 @@
         {
           "text": "Comme un bateau montant, et non comme naviguant à la dérive.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Comme un bateau naviguant à la dérive, donc en infraction.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Comme un bateau avalant tenu de céder le passage.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7629,17 +8160,20 @@
         {
           "text": "Seulement après s'être assuré que la traversée peut se faire sans danger et sans obliger les autres bateaux à modifier brusquement leur route ou leur vitesse.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "À tout moment, car les bacs sont prioritaires sur les autres bateaux lors de la traversée.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Seulement après avoir émis un son prolongé pour avertir tous les bateaux approchants.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7672,17 +8206,20 @@
         {
           "text": "Pas à moins de 1 000 m de son arrière.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Pas à moins de 100 m de son arrière.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pas à moins de 500 m de son arrière.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7715,17 +8252,20 @@
         {
           "text": "Émettre une série de sons très brefs.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Émettre un son prolongé unique.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Augmenter sa vitesse pour dégager le chenal au plus vite.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7758,17 +8298,20 @@
         {
           "text": "Veiller à une vitesse compatible avec les caractéristiques des eaux et des ouvrages d'art, sans descendre sous les minima ni dépasser les maxima fixés.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Maintenir en permanence la vitesse maximale autorisée pour fluidifier le trafic.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Adapter librement sa vitesse, aucune limite minimale ne pouvant lui être imposée.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7801,17 +8344,20 @@
         {
           "text": "Il est également responsable, dans cette mesure, de l'observation des prescriptions imposées au conducteur.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il n'encourt aucune responsabilité, seul le conducteur titulaire restant responsable.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il devient le seul responsable, déchargeant entièrement le conducteur.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7844,17 +8390,20 @@
         {
           "text": "À bord du bateau.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "À terre, à condition de garder le bateau en vue.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "À bord uniquement lorsque le bateau se déplace effectivement.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7887,17 +8436,20 @@
         {
           "text": "S'écarter de leur route",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Garder leur route, étant prioritaires",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les obliger à s'arrêter",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7930,17 +8482,20 @@
         {
           "text": "Sur sa droite (tribord)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Sur sa gauche (bâbord)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Au milieu du chenal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7973,17 +8528,20 @@
         {
           "text": "S'assurer que le passage est libre avant de s'engager",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "S'engager toujours en premier",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Accélérer pour forcer le passage",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8016,17 +8574,20 @@
         {
           "text": "L'avalant (qui descend le courant)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le montant (qui remonte le courant)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le plus grand des deux bateaux",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8059,17 +8620,20 @@
         {
           "text": "Chacun vient sur tribord",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Chacun vient sur bâbord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ils s'arrêtent tous les deux",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8102,17 +8666,20 @@
         {
           "text": "Par bâbord (à gauche) du bateau rattrapé",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Toujours par tribord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "En le serrant de très près",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8145,17 +8712,20 @@
         {
           "text": "« Attention »",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "« Je fais demi-tour »",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "« Je suis à l'arrêt »",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8188,17 +8758,20 @@
         {
           "text": "Un ballon vert placé à une hauteur d'au moins 5 m",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un cône vert pointe en bas placé à au moins 3 m",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un feu clair vert visible de tous les côtés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8231,17 +8804,20 @@
         {
           "text": "Une lumière continue et uniforme",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une lumière à éclats réguliers",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une lumière dont la couleur change selon la direction",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8274,17 +8850,20 @@
         {
           "text": "Rectangulaire",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Triangulaire",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Circulaire",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8317,17 +8896,20 @@
         {
           "text": "Un pavillon jaune hissé en tête de mât",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Des fusées ou bombes projetant des étoiles rouges lancées une à une à de courts intervalles",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un signal lumineux composé du groupe ...---... (SOS) du code Morse",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8360,17 +8942,20 @@
         {
           "text": "Une hauteur d'au moins 0,80 m et un diamètre d'au moins 0,50 m",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une hauteur d'au moins 0,60 m et un diamètre d'au moins 0,60 m",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une hauteur d'au moins 1,00 m et un diamètre d'au moins 0,80 m",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8403,17 +8988,20 @@
         {
           "text": "Pour la communication entre bateaux ou entre bateaux et la terre, à condition qu'ils ne prêtent pas à confusion avec les feux ou signaux mentionnés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Uniquement de nuit et après autorisation de l'autorité chargée de la police de la navigation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pour tout usage, dès lors que le bateau est en stationnement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8446,17 +9034,20 @@
         {
           "text": "Le remplacer sans délai par un feu de secours",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interrompre la navigation jusqu'à la réparation définitive du feu",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Attendre le prochain port pour signaler la panne, sans autre mesure",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8489,17 +9080,20 @@
         {
           "text": "Il est interdit d'utiliser des lumières ou objets risquant d'être confondus avec les feux et signaux réglementaires",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Tout éclairage publicitaire est autorisé pourvu qu'il soit éteint la nuit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les projecteurs éblouissants sont permis s'ils sont orientés vers la rive",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8532,17 +9126,20 @@
         {
           "text": "Il doit, en cas de besoin, faire usage des signaux sonores réglementaires.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il n'a la faculté d'émettre ces signaux que s'il navigue de nuit.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il est dispensé d'émettre tout signal sonore réglementaire.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8575,17 +9172,20 @@
         {
           "text": "À condition qu'ils ne prêtent pas à confusion avec les signaux réglementaires.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "À condition qu'ils soient émis uniquement à l'approche d'une écluse.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "À condition qu'ils soient plus puissants que les signaux réglementaires.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8618,17 +9218,20 @@
         {
           "text": "Des volées de cloche ou des sons prolongés répétés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un seul son bref suivi d'un silence d'une minute",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Trois sons brefs émis une seule fois",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8661,17 +9264,20 @@
         {
           "text": "Dans l'annexe 5.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Dans l'annexe 7.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Dans l'annexe 8.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8704,17 +9310,20 @@
         {
           "text": "Dans l'annexe 8.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Dans l'annexe 5.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Dans l'annexe 4.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8747,17 +9356,20 @@
         {
           "text": "Être équipés d'une installation de radiotéléphonie",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Embarquer obligatoirement un appareil radar de navigation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Disposer en toutes circonstances d'un système d'identification automatique (AIS)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8790,17 +9402,20 @@
         {
           "text": "Pour certains bateaux ou certaines situations de navigation déterminés par arrêté ministériel",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Pour tous les bateaux sans exception dès qu'ils naviguent de nuit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Uniquement pour les menues embarcations motorisées",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8833,17 +9448,20 @@
         {
           "text": "Interdiction de passer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation de s'arrêter pour faire le plein",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Recommandation de ralentir",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8876,17 +9494,20 @@
         {
           "text": "Rouge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Vert",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Jaune",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8919,17 +9540,20 @@
         {
           "text": "Un feu blanc visible de tous côtés",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un feu rouge clignotant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Aucun feu",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8962,17 +9586,20 @@
         {
           "text": "À son bord rouge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "À sa couleur entièrement bleue",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "À sa forme triangulaire verte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9005,17 +9632,20 @@
         {
           "text": "Une indication / un renseignement",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une interdiction absolue",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un danger immédiat",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9048,17 +9678,20 @@
         {
           "text": "Stationnement autorisé",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Stationnement interdit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Port de plaisance à 1 km",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9091,17 +9724,20 @@
         {
           "text": "Une obligation de suivre la direction indiquée",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une simple recommandation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une zone de baignade",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9134,17 +9770,20 @@
         {
           "text": "Une limitation de hauteur, de largeur ou de profondeur",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La distance jusqu'à la prochaine écluse",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le numéro de la voie d'eau",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9177,17 +9816,20 @@
         {
           "text": "Se raccorder à un point de raccordement au réseau électrique à terre opérationnel pour couvrir intégralement leurs besoins en électricité durant le stationnement",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Couper tout équipement électrique et rester totalement hors tension durant le stationnement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Faire tourner leur groupe électrogène de bord pour alimenter le réseau à terre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9220,17 +9862,20 @@
         {
           "text": "Seulement dans les secteurs indiqués par le panneau E.6, et du côté de la voie où ce panneau est placé",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Partout dans la section, à condition de signaler le bateau de nuit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Uniquement avec l'autorisation écrite préalable du gestionnaire",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9263,17 +9908,20 @@
         {
           "text": "Une main courante ou une échelle métallique",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une bitte d'amarrage prévue à cet effet",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un anneau d'amarrage aménagé sur le quai",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9306,17 +9954,20 @@
         {
           "text": "Bord à bord en partant de la rive, du côté de la voie où le panneau est placé",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "En une seule rangée alignée le long du milieu du chenal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "À couple en partant de la rive opposée au panneau",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9349,17 +10000,20 @@
         {
           "text": "Seules les catégories de bateaux auxquelles le panneau s'applique, et uniquement du côté de la voie où le panneau est placé.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Tous les bateaux, des deux côtés de la voie, sans restriction de catégorie.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les catégories de bateaux visées par le panneau, mais des deux côtés de la voie indifféremment.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9392,17 +10046,20 @@
         {
           "text": "Le propriétaire, l'armateur ou un autre exploitant",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "L'autorité chargée de la police de la navigation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le gestionnaire du port ou de l'aire de stationnement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9435,17 +10092,20 @@
         {
           "text": "Le chargement ne doit pas étendre la zone de non-visibilité directe ou indirecte pour la conduite du bateau.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le chargement peut réduire la visibilité tant qu'une vigie est postée à l'avant du bateau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le chargement ne doit jamais dépasser la hauteur de la timonerie, quelle que soit la visibilité.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9478,17 +10138,20 @@
         {
           "text": "Il se conforme aux ordres particuliers donnés en vue de la sécurité ou du bon ordre de la navigation.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il peut refuser de s'y conformer s'il estime sa propre route prioritaire.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il n'est tenu de s'y conformer que sur les voies maritimes, jamais sur les voies intérieures.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9521,17 +10184,20 @@
         {
           "text": "Leur donner les facilités nécessaires pour exercer leur mission de constatation des infractions.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Quitter immédiatement les lieux pour ne pas entraver leur intervention.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "N'accorder son aide que si les agents lui présentent au préalable un mandat judiciaire.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9564,17 +10230,20 @@
         {
           "text": "Les présenter à toute réquisition des agents chargés de la police de la navigation.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les transmettre uniquement par voie postale dans les huit jours suivant la demande.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les présenter seulement aux agents porteurs d'une réquisition écrite d'un juge.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9607,17 +10276,20 @@
         {
           "text": "Un bateau de moins de 20 mètres",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Tout bateau de moins de 24 mètres",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un bateau de moins de 15 mètres uniquement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9650,17 +10322,20 @@
         {
           "text": "Sous les ponts et dans les passages étroits",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le long de tous les quais aménagés",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nulle part, le stationnement est libre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9693,17 +10368,20 @@
         {
           "text": "Réduire sa vitesse",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Augmenter sa vitesse pour passer vite",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Naviguer au plus près de la berge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9736,17 +10414,20 @@
         {
           "text": "Un bateau qui descend le courant",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un bateau qui remonte le courant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un bateau à l'arrêt contre la berge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9779,17 +10460,20 @@
         {
           "text": "Par les points kilométriques (bornes des rives)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Par la latitude et la longitude seules",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Par les milles nautiques",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9822,17 +10506,20 @@
         {
           "text": "Que son tirant d'air est inférieur à la hauteur libre",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Que sa vitesse est maximale",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Que son ancre est mouillée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {

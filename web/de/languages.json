@@ -71,6 +71,104 @@
           "min_correct": 18
         }
       ]
+    },
+    {
+      "code": "Bodensee-A",
+      "track": "inland",
+      "label": "Bodensee-Schifferpatent Kategorie A (Motor)",
+      "questions": 86,
+      "time_limit_min": 60,
+      "blocks": [
+        {
+          "block": "bodensee_allgemeines",
+          "count": 20,
+          "min_correct": 16
+        },
+        {
+          "block": "bodensee_signale",
+          "count": 10,
+          "min_correct": 8
+        },
+        {
+          "block": "bodensee_zeichen",
+          "count": 15,
+          "min_correct": 12
+        },
+        {
+          "block": "bodensee_fahrregeln",
+          "count": 12,
+          "min_correct": 9
+        },
+        {
+          "block": "bodensee_umwelt_seemannschaft",
+          "count": 12,
+          "min_correct": 9
+        },
+        {
+          "block": "bodensee_wetter_navigation",
+          "count": 10,
+          "min_correct": 8
+        },
+        {
+          "block": "bodensee_rhein",
+          "count": 7,
+          "min_correct": 5
+        }
+      ]
+    },
+    {
+      "code": "Bodensee-D",
+      "track": "inland",
+      "label": "Bodensee-Schifferpatent Kategorie D (Segel)",
+      "questions": 113,
+      "time_limit_min": 80,
+      "blocks": [
+        {
+          "block": "bodensee_allgemeines",
+          "count": 20,
+          "min_correct": 16
+        },
+        {
+          "block": "bodensee_signale",
+          "count": 10,
+          "min_correct": 8
+        },
+        {
+          "block": "bodensee_zeichen",
+          "count": 15,
+          "min_correct": 12
+        },
+        {
+          "block": "bodensee_fahrregeln",
+          "count": 12,
+          "min_correct": 9
+        },
+        {
+          "block": "bodensee_umwelt_seemannschaft",
+          "count": 12,
+          "min_correct": 9
+        },
+        {
+          "block": "bodensee_wetter_navigation",
+          "count": 10,
+          "min_correct": 8
+        },
+        {
+          "block": "bodensee_rhein",
+          "count": 7,
+          "min_correct": 5
+        },
+        {
+          "block": "bodensee_segeln_allgemein",
+          "count": 20,
+          "min_correct": 16
+        },
+        {
+          "block": "bodensee_segeln_fahrregeln",
+          "count": 7,
+          "min_correct": 5
+        }
+      ]
     }
   ],
   "regions": [

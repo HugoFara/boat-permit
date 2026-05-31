@@ -17,17 +17,20 @@
         {
           "text": "À l'ordonnance du 14 mars 1994 sur la construction des bateaux (OCEB).",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "À l'ordonnance sur la navigation intérieure (ONI) elle-même.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Au règlement de la navigation sur le Léman (RNL).",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -60,17 +63,20 @@
         {
           "text": "Le « devoir de diligence » est défini à l'art. 142 ONI sans renvoi à une autre ordonnance.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le « rapport de sécurité » est un rapport au sens des art. 2, let. e, et 17, al. 3, OCEB.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le « rapport d'examen d'expert » est un rapport au sens de l'art. 2, let. f, OCEB.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -103,17 +109,20 @@
         {
           "text": "Comme les personnes visées à l'art. 5a, al. 1, let. a, OCEB.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Comme les agents de l'autorité compétente du lieu de stationnement.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Comme les membres d'une société de classification reconnue.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -146,17 +155,20 @@
         {
           "text": "Un bateau à propulsion mécanique",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un bateau non propulsé remorqué par un autre bateau",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un engin flottant tel qu’une drague ou une grue",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -189,17 +201,20 @@
         {
           "text": "Une composition de bateaux non propulsés réunis en un ensemble rigide, poussée par au moins un bateau à moteur",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une composition de bateaux non propulsés remorquée par au moins un bateau à moteur",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Tout groupe de bateaux de plaisance naviguant ensemble",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -232,17 +247,20 @@
         {
           "text": "La navigation par temps bouché ne s'applique qu'à la navigation de nuit.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La navigation par temps de neige est considérée comme une navigation par temps bouché.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La navigation par temps de bruine est considérée comme une navigation par temps bouché.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -275,17 +293,20 @@
         {
           "text": "Oui, elle vise aussi toutes autres conditions limitant de la même manière la visibilité.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Non, seules les conditions précisément citées (brume, brouillard, etc.) sont visées.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Oui, mais uniquement les conditions causées par la fumée d'un incendie.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -318,17 +339,20 @@
         {
           "text": "Toute navigation, de jour comme de nuit, par brume, brouillard, bruine, neige ou gros grains avec pluie.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Uniquement la navigation de nuit par brouillard épais.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Uniquement la navigation de jour lorsque la pluie est accompagnée de vent fort.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -361,17 +385,20 @@
         {
           "text": "Il est facile à défaire, même mouillé et après avoir subi une traction très forte ou un resserrement dû au dessèchement.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il devient impossible à défaire dès qu'il est mouillé.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il ne peut être réglé qu'en exerçant une forte tension sur le dormant.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -404,17 +431,20 @@
         {
           "text": "Plus la tension est forte, plus il se bloque, tout en se dénouant tout aussi aisément.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Plus la tension est forte, plus il a tendance à glisser et à se défaire.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La tension n'a aucun effet sur son blocage, qui dépend d'un système mécanique intermédiaire.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -447,17 +477,20 @@
         {
           "text": "Nœud de bouline.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Nœud de cabestan.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nœud de pendu.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -490,17 +523,20 @@
         {
           "text": "C'est un nœud de boucle fiable qui ne glisse pas sous tension et se dénoue facilement même après de fortes tensions.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "C'est le seul nœud impossible à dénouer une fois serré.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il ne peut être réalisé qu'avec un outil spécialisé et à deux mains.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -533,17 +569,20 @@
         {
           "text": "Il existe plusieurs méthodes de réalisation, jusqu'à 18 avec les variantes.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il ne reste que deux méthodes classiques reconnues pour l'enseignement, tricotée ou préparée.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une seule méthode unique de réalisation est admise dans le monde entier.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -577,17 +616,20 @@
         {
           "text": "C’est un nœud de boucle fiable qui ne glisse pas sous tension et se dénoue facilement",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il se resserre de plus en plus sous tension jusqu’à devenir indénouable",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il sert uniquement à raccorder deux cordages de même diamètre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -620,17 +662,20 @@
         {
           "text": "Une portion de cordage courbée, sans croisement ni chevauchement.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un croisement serré de deux extrémités de corde.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une corde tressée à partir de trois brins métalliques.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -663,17 +708,20 @@
         {
           "text": "Il peut être facilement défait si la boucle est libre, mais se resserre autour de l'entrave sous le poids du pendu.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il ne peut jamais être défait, que la boucle soit libre ou entravée.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il se desserre automatiquement dès qu'on applique un poids sur la boucle.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -706,17 +754,20 @@
         {
           "text": "La solidité du nœud, notamment s'il fragilise ou non la corde en cas de violents à-coups.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La couleur de la corde utilisée pour le confectionner.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le prix d'achat de la cordelette.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -749,17 +800,20 @@
         {
           "text": "Le nœud de chaise conserve une résistance exceptionnelle de 89 %, alors que le cabestan la réduit de moitié.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le nœud de cabestan conserve 89 % de la résistance, contre la moitié pour le nœud de chaise.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les deux nœuds réduisent la résistance de la corde exactement de moitié.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -792,17 +846,20 @@
         {
           "text": "L'art des nœuds trouve principalement son essor dans la marine à la voile puis dans le nautisme de sport ou de loisir.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les nœuds n'ont jamais été utilisés en dehors du domaine maritime.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La connaissance des nœuds est devenue totalement inutile depuis l'apparition d'équipements spécialisés.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -835,17 +892,20 @@
         {
           "text": "L'enlacement ou l'entrecroisement d'une ou de plusieurs cordes ou autres objets flexibles de forme filaire.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Exclusivement l'entrecroisement de deux câbles métalliques rigides.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un assemblage de planches destiné à renforcer une coque.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -878,17 +938,20 @@
         {
           "text": "Lieu de mise à terre de bateaux",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 43."
         },
         {
           "text": "La largeur de la passe est limitée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 24."
         },
         {
           "text": "Avis de fort vent",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -921,17 +984,20 @@
         {
           "text": "Avis de tempête",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Barrage",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 41."
         },
         {
           "text": "Avis de fort vent",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 61."
         }
       ],
       "provenance": {
@@ -964,17 +1030,20 @@
         {
           "text": "Le roulis s’accentue et l’empannage menace",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La vitesse devient maximale, supérieure à celle du grand largue",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le voilier ne peut plus avancer car il est face au vent",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1007,17 +1076,20 @@
         {
           "text": "S’écarter d’environ 45° de l’axe du vent (30° sur les voiliers de régate les plus performants)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Maintenir son cap exactement face au vent en bordant ses voiles au maximum",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Établir le spinnaker pour capter le vent venant de l’avant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1050,17 +1122,20 @@
         {
           "text": "Lorsque le vent vient de la droite par rapport à l’axe du navire",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Lorsqu’il navigue vent arrière, les voiles en ciseaux",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Lorsqu’il a la priorité sur tous les autres bateaux du plan d’eau",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1093,17 +1168,20 @@
         {
           "text": "Le « dessalage » : il est courant et sans gravité",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le « naufrage » : il entraîne presque toujours la perte du bateau",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "L’« auloffée » : elle ne survient qu’au près serré",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1136,17 +1214,20 @@
         {
           "text": "Le changement d’amure se fait en passant par le vent arrière",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le changement d’amure se fait en passant par le vent debout",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il ne modifie pas l’orientation des voiles",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1179,17 +1260,20 @@
         {
           "text": "Une voile d’avant de forme triangulaire, retenue à l’étai par son guindant",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La voile principale gréée en arrière du mât",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un câble du gréement dormant qui maintient le mât",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1222,17 +1306,20 @@
         {
           "text": "Le côté du bateau qui était sous le vent passe au vent, et vice-versa",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le voilier conserve la même amure tout au long de la manœuvre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La manœuvre se fait obligatoirement en passant par le vent arrière",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1265,17 +1352,20 @@
         {
           "text": "Il est interdit",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il est libre au-delà de 3 milles",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Il est autorisé la nuit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1308,17 +1398,20 @@
         {
           "text": "Les rapporter à terre dans les installations portuaires",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les jeter au large",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les brûler à bord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1351,17 +1444,20 @@
         {
           "text": "Réglementé, voire interdit (herbiers protégés)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Libre et sans conséquence",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Recommandé car l'ancre y tient bien",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1394,17 +1490,20 @@
         {
           "text": "12",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "10",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "100",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1437,17 +1536,20 @@
         {
           "text": "Le zéro hydrographique (plus basses mers)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le niveau moyen de la mer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Le niveau de pleine mer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1480,17 +1582,20 @@
         {
           "text": "La différence de hauteur entre pleine mer et basse mer",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La vitesse du courant de marée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La durée d'une marée",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1523,17 +1628,20 @@
         {
           "text": "Entre 20 et 120",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Entre 0 et 100",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Entre 1 et 12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1566,17 +1674,20 @@
         {
           "text": "Estimer la hauteur d'eau à une heure donnée de la marée",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Calculer la force du vent",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mesurer la dérive due au courant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1609,17 +1720,20 @@
         {
           "text": "Le moment où le niveau ne varie plus (étale de niveau)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le moment où le courant est le plus fort",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La différence entre pleine et basse mer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1652,17 +1766,20 @@
         {
           "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "2/12, 2/12, 2/12, 2/12, 2/12, 2/12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1695,17 +1812,20 @@
         {
           "text": "Le jusant",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Le flot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "L'étale",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1738,17 +1858,20 @@
         {
           "text": "Macrotidal",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mésotidal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Microtidal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1781,17 +1904,20 @@
         {
           "text": "Deux pleines mers et deux basses mers",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Une pleine mer et une basse mer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Trois pleines mers et trois basses mers",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1824,17 +1950,20 @@
         {
           "text": "Coefficient 95",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Coefficient 120",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Coefficient 45",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1867,17 +1996,20 @@
         {
           "text": "Des vives-eaux (grand marnage)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Des mortes-eaux (faible marnage)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une absence de marée (étale permanent)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1910,17 +2042,20 @@
         {
           "text": "Au voisinage des plus basses mers astronomiques",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Au niveau moyen de la mer",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Au voisinage des plus hautes mers astronomiques",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1953,17 +2088,20 @@
         {
           "text": "6 milles nautiques",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "2 milles nautiques",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Sans aucune limite de distance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1996,17 +2134,20 @@
         {
           "text": "À proximité de la côte (force 6, vagues 2 m)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "En haute mer sans restriction",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "En eaux abritées uniquement",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2039,17 +2180,20 @@
         {
           "text": "Les stocker en cuve et les vider à terre",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les rejeter discrètement la nuit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les rejeter loin des berges",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2082,17 +2226,20 @@
         {
           "text": "Interdit",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisé en faible quantité",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Libre en dehors des ports",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2125,17 +2272,20 @@
         {
           "text": "Réduire sa vitesse et son batillage près des rives",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Naviguer à pleine vitesse au centre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "S'amarrer dans les roselières",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2168,17 +2318,20 @@
         {
           "text": "Éviter tout débordement (ne pas remplir à ras bord)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Remplir le plus vite possible",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Rincer le réservoir à l'eau du canal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2211,17 +2364,20 @@
         {
           "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire, en indiquant la nature et l'endroit du déversement.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ne rien signaler tant que le déversement n'entrave pas totalement la section d'eau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Prévenir uniquement les autres bateaux par un signal sonore, sans aviser d'autorité.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2254,17 +2410,20 @@
         {
           "text": "Un carnet de contrôle des huiles usées valable, à bord de tout bateau ou engin flottant motorisé (sauf menues embarcations).",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un carnet de contrôle des huiles usées, obligatoire uniquement à bord des menues embarcations.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Une attestation annuelle de vidange délivrée par le gestionnaire de la voie d'eau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2297,17 +2456,20 @@
         {
           "text": "Se conformer aux ordres donnés par le conducteur dans l'intérêt de la sécurité de la navigation et de l'ordre à bord.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "N'obéir au conducteur que si elle fait partie de l'équipage rémunéré du bateau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Suivre uniquement les ordres relatifs à l'embarquement et au débarquement.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2340,17 +2502,20 @@
         {
           "text": "Prendre toutes les mesures nécessaires pour maîtriser le sinistre et prévenir sans délai le gestionnaire ou le propriétaire de la voie d'eau ainsi que le CODIS territorialement compétent.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Attendre l'arrivée des secours avant d'entreprendre toute action de lutte contre le sinistre.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Prévenir uniquement les autres bateaux naviguant à proximité, sans avertir d'autorité.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2383,17 +2548,20 @@
         {
           "text": "Aucun objet susceptible de compromettre la sécurité ne doit déborder sur les côtés, et les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Les objets peuvent déborder sur les côtés à condition d'être signalés par un pavillon de jour.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Les ancres relevées doivent rester au-dessus de la ligne de flottaison, mais peuvent dépasser la quille du bateau.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2426,17 +2594,20 @@
         {
           "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau, et s'employer à dégager la voie en cas d'obstruction.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "N'avertir les autorités que si le bateau transporte des marchandises dangereuses.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Laisser le bateau en place et attendre l'intervention obligatoire du gestionnaire sans intervenir.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2469,17 +2640,20 @@
         {
           "text": "Renforcer les amarres de son bateau, la glace étant brisée autour de la flottaison par lui ou sous sa responsabilité.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Détacher entièrement le bateau de la rive pour le laisser dériver librement avec les glaces.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Confier obligatoirement le brisage de la glace au gestionnaire de la voie d'eau, jamais au conducteur.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2512,17 +2686,20 @@
         {
           "text": "Apposée visiblement et lisiblement sur la coque",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Conservée uniquement dans les papiers du bord",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Facultative pour la plaisance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2555,17 +2732,20 @@
         {
           "text": "L'état du bateau, le matériel de sécurité et la météo",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Uniquement le niveau de carburant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Rien, la vérification incombe à l'écluse",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {

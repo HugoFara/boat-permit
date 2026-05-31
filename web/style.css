@@ -192,3 +192,74 @@ button:disabled { opacity: .5; cursor: default; }
 .dom-bar { flex: 1; height: 8px; background: var(--line); border-radius: 999px; overflow: hidden; }
 .dom-bar i { display: block; height: 100%; background: var(--ok); }
 .dom-score { flex: 0 0 3.2em; text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+
+/* --- Practice learning aids (recall-first, diagnostics, spacing, confidence) -
+ * Practice-only UI; exam mode never shows these. */
+
+/* Toggle pills for the practice options (on the start screen). */
+.study-settings .toggle {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 6px 12px; font-size: .85rem; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card); color: var(--muted);
+  cursor: pointer;
+}
+.study-settings .toggle:hover { border-color: var(--accent); color: var(--accent-dark); }
+.study-settings .toggle .tsw {
+  width: 26px; height: 15px; border-radius: 999px; background: var(--line);
+  position: relative; transition: background .15s;
+}
+.study-settings .toggle .tsw::after {
+  content: ""; position: absolute; top: 2px; left: 2px;
+  width: 11px; height: 11px; border-radius: 50%; background: #fff; transition: left .15s;
+}
+.study-settings .toggle.on {
+  background: var(--accent); border-color: var(--accent); color: #fff;
+}
+.study-settings .toggle.on .tsw { background: rgba(255, 255, 255, .55); }
+.study-settings .toggle.on .tsw::after { left: 13px; }
+
+/* Recall-first: keep the options unreadable until the learner commits. */
+#choices.veiled { filter: blur(7px); opacity: .5; pointer-events: none; user-select: none; }
+.recall-gate {
+  margin: 12px 0; padding: 12px 14px; border-left: 4px solid var(--accent);
+  background: #eef5f8; border-radius: 0 8px 8px 0;
+}
+.recall-gate p { margin: 0 0 8px; font-size: .92rem; }
+.recall-gate textarea {
+  width: 100%; resize: vertical; padding: 8px 10px; font: inherit;
+  border: 1px solid var(--line); border-radius: 8px;
+}
+.recall-gate.done { opacity: .7; }
+.recall-gate.done p { color: var(--muted); }
+
+/* Confidence picker. */
+.confidence { display: flex; align-items: center; gap: 8px; margin: 12px 0 0; flex-wrap: wrap; }
+.confidence .conf-q { color: var(--muted); font-size: .88rem; }
+.conf {
+  padding: 5px 14px; font-size: .85rem; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card); color: var(--muted); cursor: pointer;
+}
+.conf:hover { border-color: var(--accent); }
+.conf.on { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+.conf:disabled { cursor: default; opacity: .8; }
+
+/* Diagnostic distractor feedback. */
+.diag {
+  margin-top: 14px; padding: 10px 14px; border-radius: 8px;
+  background: var(--bad-bg); border: 1px solid #e9c4c1; font-size: .92rem;
+}
+.diag b { color: var(--bad); }
+.diag div + div { margin-top: 3px; }
+.choice-why {
+  margin: 6px 0 2px; padding: 6px 10px; border-radius: 6px;
+  font-size: .85rem; line-height: 1.4;
+}
+.choice-why.ok { background: var(--ok-bg); color: var(--ok); }
+.choice-why.no { background: var(--bad-bg); color: var(--bad); }
+.review-item .choice-why { margin-left: 0; }
+
+/* Hypercorrection flag in the results review. */
+.hc-flag {
+  margin: 8px 0; padding: 6px 10px; border-radius: 6px;
+  background: #fff3cd; border: 1px solid #f0d089; color: #7a5b00; font-size: .85rem; font-weight: 600;
+}

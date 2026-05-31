@@ -53,6 +53,11 @@ class Choice:
     text: str
     image: str | None = None      # repo-relative asset path, for figure options
     is_correct: bool = False
+    rationale: str = ""           # per-choice "why this is wrong/right" note, shown
+                                  # as diagnostic feedback in practice mode. Empty is
+                                  # fine — the player falls back to a chosen-vs-correct
+                                  # contrast. Authored at build time (figures fill it
+                                  # deterministically; prose later, behind review).
 
 
 @dataclass
@@ -297,7 +302,8 @@ CREATE TABLE IF NOT EXISTS choices (
     idx         INTEGER NOT NULL,
     text        TEXT,
     image       TEXT,
-    is_correct  INTEGER NOT NULL
+    is_correct  INTEGER NOT NULL,
+    rationale   TEXT NOT NULL DEFAULT ''
 );
 CREATE INDEX IF NOT EXISTS idx_q_theme   ON questions(theme);
 CREATE INDEX IF NOT EXISTS idx_q_review  ON questions(review_status);
@@ -320,6 +326,9 @@ def _migrate(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE questions ADD COLUMN lang TEXT NOT NULL DEFAULT 'fr'")
     if "block" not in cols:  # pre-block bank: backfill the exam-block column
         conn.execute("ALTER TABLE questions ADD COLUMN block TEXT NOT NULL DEFAULT ''")
+    ch_cols = {r[1] for r in conn.execute("PRAGMA table_info(choices)")}
+    if "rationale" not in ch_cols:   # pre-feedback bank: backfill the per-choice note
+        conn.execute("ALTER TABLE choices ADD COLUMN rationale TEXT NOT NULL DEFAULT ''")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_q_lang ON questions(lang)")
     conn.commit()
 
@@ -349,8 +358,9 @@ def write_questions(conn: sqlite3.Connection, questions: list[Question],
              q.block, p.unit_id, p.ref, p.source, p.url, p.as_of, p.licence))
         for i, c in enumerate(q.choices):
             cur.execute(
-                "INSERT INTO choices (question_id, idx, text, image, is_correct) "
-                "VALUES (?,?,?,?,?)", (q.id, i, c.text, c.image, int(c.is_correct)))
+                "INSERT INTO choices (question_id, idx, text, image, is_correct, rationale) "
+                "VALUES (?,?,?,?,?,?)",
+                (q.id, i, c.text, c.image, int(c.is_correct), c.rationale or ""))
     conn.commit()
 
 
@@ -380,9 +390,10 @@ def counts_by_status(conn: sqlite3.Connection) -> dict[str, int]:
 
 
 def _row_to_question(conn: sqlite3.Connection, r: sqlite3.Row) -> Question:
-    choices = [Choice(text=c["text"], image=c["image"], is_correct=bool(c["is_correct"]))
+    choices = [Choice(text=c["text"], image=c["image"], is_correct=bool(c["is_correct"]),
+                      rationale=(c["rationale"] if "rationale" in c.keys() else ""))
                for c in conn.execute(
-                   "SELECT text, image, is_correct FROM choices "
+                   "SELECT text, image, is_correct, rationale FROM choices "
                    "WHERE question_id=? ORDER BY idx", (r["id"],))]
     return Question(
         id=r["id"], theme=r["theme"], kind=r["kind"],

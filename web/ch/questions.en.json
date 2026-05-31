@@ -26,17 +26,20 @@
         {
           "text": "To the ordinance of 14 March 1994 on the construction of vessels (OCEB).",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "To the Inland Navigation Ordinance (ONI) itself.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "To the Navigation Regulations for Lake Geneva (RNL).",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -69,17 +72,20 @@
         {
           "text": "The \"duty of diligence\" is defined in ONI art. 142 without reference to another ordinance.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The \"safety report\" is a report within the meaning of art. 2, let. e, and art. 17, para. 3, OCEB.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The \"expert examination report\" is a report within the meaning of art. 2, let. f, OCEB.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -112,17 +118,20 @@
         {
           "text": "As the persons referred to in art. 5a, para. 1, let. a, OCEB.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "As the officers of the competent authority of the place of mooring.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "As the members of a recognized classification society.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -155,17 +164,20 @@
         {
           "text": "An assembly of non-propelled vessels joined together into a rigid unit, pushed by at least one motorised vessel",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An assembly of non-propelled vessels towed by at least one motorised vessel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Any group of pleasure craft navigating together",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -198,17 +210,20 @@
         {
           "text": "A vessel with mechanical propulsion",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A non-propelled vessel towed by another vessel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A floating device such as a dredger or a crane",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -241,17 +256,20 @@
         {
           "text": "Yes, it also covers any other conditions limiting visibility in the same manner.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No, only the conditions specifically cited (mist, fog, etc.) are covered.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Yes, but only conditions caused by smoke from a fire.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -284,17 +302,20 @@
         {
           "text": "Any navigation, by day as by night, in mist, fog, drizzle, snow or heavy squalls with rain.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Only navigation at night in thick fog.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Only navigation by day when the rain is accompanied by strong wind.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -327,17 +348,20 @@
         {
           "text": "Navigation in restricted visibility applies only to navigation at night.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Navigation in snowy weather is considered navigation in restricted visibility.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Navigation in drizzly weather is considered navigation in restricted visibility.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -370,17 +394,20 @@
         {
           "text": "When authorising an event, the authority may permit derogations from certain provisions of the Regulation provided that the safety of navigation is not affected",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Nautical events never require prior authorisation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "In the case of a binational event, a single authority decides without informing the other",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -413,17 +440,20 @@
         {
           "text": "If the prescribed civil liability insurance has been taken out",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "If the event takes place exclusively in Swiss waters",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "If all participants hold a category A permit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -456,17 +486,20 @@
         {
           "text": "Each turns to starboard so as to pass port to port",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Each turns to port so as to pass starboard to starboard",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Both maintain their course and speed without any manoeuvre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -499,17 +532,20 @@
         {
           "text": "The vessel that sees the other on its starboard side",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The vessel that sees the other on its port side",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The faster of the two vessels",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -542,17 +578,20 @@
         {
           "text": "Other vessels must give way to sailboards and kitesurfs",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Sailboards and kitesurfs give way to all other vessels",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Every vessel must give way to a vessel unable to manoeuvre that signals its presence",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -585,17 +624,20 @@
         {
           "text": "Keep clear of that vessel",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Maintain its course and speed",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Overtake it on the starboard side",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -628,17 +670,20 @@
         {
           "text": "Passenger vessels having right of way and towed convoys",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Cargo vessels",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Rowing boats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -672,17 +717,20 @@
         {
           "text": "Cargo vessels",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Pleasure craft",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Sailing sport boats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -715,17 +763,20 @@
         {
           "text": "Only at facilities permitted by the competent authority and after the operator has ensured that the vessel is properly moored",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "At any point on the shore as soon as the vessel slows down",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Without mooring if the safety of the passengers appears to be guaranteed",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -758,17 +809,20 @@
         {
           "text": "Boarding passengers may access the landing stage at the same time as passengers are disembarking",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A passenger may not board or disembark without the formal authorisation of the operator or their agent",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The waiting rule does not apply to landing stages equipped with independent entrances and exits",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -801,17 +855,20 @@
         {
           "text": "Channel 16",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Channel 12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Channel K",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -844,17 +901,20 @@
         {
           "text": "The radar device",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The rate-of-turn indicator",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The radio installation capable of transmitting on alert channel 16",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -888,17 +948,20 @@
         {
           "text": "At least 750 N per person",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "At least 500 N per person",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "At least 100 N per person",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -931,17 +994,20 @@
         {
           "text": "They must consist of at least two separate air compartments",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "They must maintain a stable trim even if only half of the air compartments are inflated",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "They must inflate only by manual command, never automatically",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -975,17 +1041,20 @@
         {
           "text": "At least 75 N.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "At least 100 N.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "At least 50 N.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1018,17 +1087,20 @@
         {
           "text": "A power output greater than 30 kW, or a sail area exceeding 15 m2 for sailing boats.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A power output greater than 15 kW, or a sail area exceeding 30 m2.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A power output greater than 50 kW, or a sail area exceeding 10 m2.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1061,17 +1133,20 @@
         {
           "text": "Lifejackets with collars",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Lifebuoys",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Boarding life rafts",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1105,17 +1180,20 @@
         {
           "text": "At least 75 N",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "At least 750 N",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "At least 50 N",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1148,17 +1226,20 @@
         {
           "text": "The heeling angle does not exceed 5 degrees and the side of the deck, at its lowest point, does not dip into the water.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The heeling angle does not exceed 15 degrees and the deck may dip up to 5 cm.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The heeling angle does not exceed 10 degrees, regardless of the position of the deck.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1191,17 +1272,20 @@
         {
           "text": "It must not be less than 1 m.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It must not be less than 0.5 m.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It must not exceed 1 m.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1234,17 +1318,20 @@
         {
           "text": "90 cm in zone 2 and 45 cm in zone 3.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "30 cm in zone 2 and 15 cm in zone 3.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "100 cm in zone 2 and 50 cm in zone 3.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1277,17 +1364,20 @@
         {
           "text": "100 cm.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "50 cm.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "30 cm.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1320,17 +1410,20 @@
         {
           "text": "It may include doors and hatches if they are watertight.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It must be watertight and built from one side of the hull to the other.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It must be built from the bottom of the hold up to the deck.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1363,17 +1456,20 @@
         {
           "text": "At least one collision bulkhead and two bulkheads for the engine room.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "At least three collision bulkheads at the bow.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "At least one bulkhead for the engine room only.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1406,17 +1502,20 @@
         {
           "text": "The obligation to affix the «CE» marking is not applicable, but if it has already been affixed in accordance with the EU provisions, it may remain affixed.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The «CE» marking is mandatory for all sport boats placed on the market.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The «CE» marking must be removed if it was affixed in accordance with the EU provisions.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1449,17 +1548,20 @@
         {
           "text": "In an official language of Switzerland or in English.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Exclusively in German.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Only in the manufacturer's language.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1492,17 +1594,20 @@
         {
           "text": "The travel time between the points of departure and arrival does not exceed 45 minutes.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The travel time between the points of departure and arrival does not exceed 90 minutes.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The boat must transport exclusively dangerous goods.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1535,17 +1640,20 @@
         {
           "text": "2 deckhands.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "1 deckhand.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "3 deckhands.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1578,17 +1686,20 @@
         {
           "text": "For boats that are not built by professionals.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "For all pleasure boats, without exception.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "For priority passenger boats.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1621,17 +1732,20 @@
         {
           "text": "The consent of the OFT.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The agreement of the Federal Council.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No additional authorization.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1664,17 +1778,20 @@
         {
           "text": "For breakdown-assistance and towing trips.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "For regular commercial passenger transport.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "For any private leisure trip of the owner.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1707,17 +1824,20 @@
         {
           "text": "Two million francs per accident.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "One million francs per accident.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Five million francs per accident.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1750,17 +1870,20 @@
         {
           "text": "It is easy to undo, even when wet and after having been subjected to a very strong pull or to tightening caused by drying out.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It becomes impossible to undo as soon as it gets wet.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It can only be adjusted by applying strong tension to the standing part.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1793,17 +1916,20 @@
         {
           "text": "The stronger the tension, the more it locks, while still untying just as easily.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The stronger the tension, the more it tends to slip and come undone.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Tension has no effect on its locking, which depends on an intermediate mechanical system.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1836,17 +1962,20 @@
         {
           "text": "Bowline knot (nœud de bouline).",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Clove hitch.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Hangman's knot.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1879,17 +2008,20 @@
         {
           "text": "It is a reliable loop knot that does not slip under tension and unties easily even after strong tension.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It is the only knot that is impossible to untie once tightened.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It can only be made with a specialized tool and with two hands.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1922,17 +2054,20 @@
         {
           "text": "It is a reliable loop knot that does not slip under tension and unties easily",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It tightens more and more under tension until it becomes impossible to untie",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It is used only to join two ropes of the same diameter",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1965,17 +2100,20 @@
         {
           "text": "There are several methods for making it, up to 18 including the variants.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Only two classic methods are recognized for teaching, knitted or prepared.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A single unique method of making it is accepted throughout the world.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2009,17 +2147,20 @@
         {
           "text": "It can be easily undone if the loop is free, but tightens around the restraint under the weight of the hanged person.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It can never be undone, whether the loop is free or restrained.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It loosens automatically as soon as weight is applied to the loop.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2052,17 +2193,20 @@
         {
           "text": "A curved portion of rope, with no crossing or overlapping.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A tight crossing of two rope ends.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A rope braided from three metal strands.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2095,17 +2239,20 @@
         {
           "text": "The bowline retains an exceptional strength of 89%, whereas the clove hitch halves it.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The clove hitch retains 89% of the strength, against half for the bowline.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Both knots reduce the rope's strength by exactly half.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2138,17 +2285,20 @@
         {
           "text": "The strength of the knot, in particular whether or not it weakens the rope in case of violent jerks.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The color of the rope used to make it.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The purchase price of the cord.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2181,17 +2331,20 @@
         {
           "text": "The art of knots mainly developed in sailing vessels and then in sport or leisure boating.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Knots have never been used outside the maritime domain.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Knowledge of knots has become completely useless since the appearance of specialized equipment.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2224,17 +2377,20 @@
         {
           "text": "The intertwining or interlacing of one or more ropes or other flexible, thread-like objects.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Exclusively the interlacing of two rigid metal cables.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An assembly of planks intended to reinforce a hull.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2267,17 +2423,20 @@
         {
           "text": "Its speed is between 3 and 9 Bf, and both its onset and its end are gradual.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It arises abruptly, like the föhn, and always precedes rain.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Summer bises last longer than winter ones.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2310,17 +2469,20 @@
         {
           "text": "High pressure over the British Isles and low pressure over Italy.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Low pressure over the British Isles and high pressure over Italy.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "High pressure over Italy and low pressure over Savoy.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2353,17 +2515,20 @@
         {
           "text": "In the first half of the year, particularly in spring",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "In high summer, from July to August",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Only during autumn nights",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2396,17 +2561,20 @@
         {
           "text": "It is cold: as soon as it appears, the temperature drops and the humidity rises.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It is warm and dry, raising the temperature as soon as it appears.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It occurs exclusively from December to March.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2439,17 +2607,20 @@
         {
           "text": "The föhn vaudaire appears mainly in March-April as well as in October-November.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The storm vaudaire appears from April to September.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The föhn vaudaire is a cold, humid wind laden with precipitation.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2482,17 +2653,20 @@
         {
           "text": "The build-up of large cumulus and cumulonimbus clouds over the high ground, particularly the Savoy Prealps.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A perfectly clear and stable sky above the Dent d'Oche.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The appearance of a roll cloud bordering the Jura.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2525,17 +2699,20 @@
         {
           "text": "It can reach 30 to 40 kt and its effects are felt mainly between Rolle and Lutry.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It is one of the most violent storm winds of Lake Geneva, occurring in summer.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It is a cold winter wind channelled by the Rhône valley.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2569,17 +2746,20 @@
         {
           "text": "It is a NW wind, relatively cold, that comes down from the Jura towards Lake Geneva.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It is a SE wind, warm, that comes up from the Rhône valley.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It is a NE wind that blows from the Vaud Prealps.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2612,17 +2792,20 @@
         {
           "text": "The storm joran is often dangerous because it is sudden and sometimes violent.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The gusts of the cold-front joran are clearly stronger than those of the storm joran.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The storm joran blows steadily and is appreciated by sailors.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2655,17 +2838,20 @@
         {
           "text": "The difference in temperature between the water, warmer at night, and the land, warmer during the day.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The arrival of an Atlantic disturbance over Lake Geneva.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The channelling of cold air coming down from the Jura.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2698,17 +2884,20 @@
         {
           "text": "Daytime breezes blow from the lake towards the shore.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Nighttime breezes generally rise between 5 and 7 p.m.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Nighttime breezes blow from the shore towards the lake and are very violent winds.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2742,17 +2931,20 @@
         {
           "text": "Low pressure over the British Isles and high pressure over southern Europe.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "High pressure over the British Isles and low pressure over southern Europe.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A NE bise channelled between the Jura and the Prealps.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2785,17 +2977,20 @@
         {
           "text": "Boat landing area",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The width of the passage is limited",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Strong wind warning",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2828,17 +3023,20 @@
         {
           "text": "Storm warning",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Dam",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Strong wind warning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2871,17 +3069,20 @@
         {
           "text": "Steady light visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Quick-flashing light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Blue quick-flashing light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2914,17 +3115,20 @@
         {
           "text": "A white masthead light, green and red side lights, and a white stern light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Only an ordinary white light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A white masthead light and a tricolour light combining the side lights and the stern light at the top of the mast",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2957,17 +3161,20 @@
         {
           "text": "A white masthead light, with the tricolour light placed at the top of the mast or near it",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A white masthead light, with the tricolour light placed on the stern at water level",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No masthead light, and a white stern light separate from the tricolour light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3000,17 +3207,20 @@
         {
           "text": "An ordinary white light visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A white masthead light with green and red side lights",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An ordinary yellow light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3043,17 +3253,20 @@
         {
           "text": "An ordinary white light visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Green and red side lights and a white stern light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A white masthead light and a tricolour light at the top of the mast",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3086,17 +3299,20 @@
         {
           "text": "Flashing light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Fixed light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Tricolour light placed at the top of the mast or near it",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3129,17 +3345,20 @@
         {
           "text": "The upper light red, the lower light green",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The upper light green, the lower light red",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Both lights white",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3172,17 +3391,20 @@
         {
           "text": "Blue quick-flashing light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Steady light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Quick-flashing light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3215,17 +3437,20 @@
         {
           "text": "By lighting that allows its outline to be made out",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "By an ordinary yellow light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "By a white masthead light and green and red side lights",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3258,17 +3483,20 @@
         {
           "text": "A bright green light visible from all sides, placed at least 1 m higher than the masthead light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A bright red light visible from all sides, placed at least 1 m higher than the masthead light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An ordinary yellow light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3301,17 +3529,20 @@
         {
           "text": "No mooring",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Green ball",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The clearance height of the passage is limited",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3344,17 +3575,20 @@
         {
           "text": "An ordinary red light visible from all sides above an ordinary white light visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An ordinary white light above an ordinary red light, both visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Two superimposed ordinary red lights visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3387,17 +3621,20 @@
         {
           "text": "A flag whose upper half is red and lower half white",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Swinging a red flag",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Two superimposed white flags",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3430,17 +3667,20 @@
         {
           "text": "Two flags, the upper red and the lower white",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Two superimposed white flags",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Swinging a red flag",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3473,17 +3713,20 @@
         {
           "text": "Mandatory stop under certain conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Two white flags one above the other",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Anchoring permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3516,17 +3759,20 @@
         {
           "text": "Yellow ball",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Police boats and boats of other services",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Yellow buoys marking each anchor",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3559,17 +3805,20 @@
         {
           "text": "No turning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Passage permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ball",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3602,17 +3851,20 @@
         {
           "text": "Yellow buoys marking each anchor",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No anchoring",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Police boats and boats of other services",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3645,17 +3897,20 @@
         {
           "text": "Quick-flashing light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Blue quick-flashing light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Steady light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3688,17 +3943,20 @@
         {
           "text": "The letter «K» flag, whose half on the staff side is yellow and the other half blue",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The letter «K» flag, whose upper half is red and the other half white",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An entirely red flag",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3731,17 +3989,20 @@
         {
           "text": "An ordinary yellow light visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An ordinary white light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An ordinary red light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3774,17 +4035,20 @@
         {
           "text": "Pass only in the direction indicated",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Yellow ball",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mandatory stop under certain conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3817,17 +4081,20 @@
         {
           "text": "A white ball",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A green ball visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An ordinary yellow light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3860,17 +4127,20 @@
         {
           "text": "The letter «A» board (a swallow-tailed pennant, half on the staff side white, the other half blue)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The letter «K» flag (half on the staff side yellow, the other half blue)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A white ball visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3903,17 +4173,20 @@
         {
           "text": "The letter «A» board (white/blue pennant) visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The letter «A» board facing only towards the shore",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A red flag visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3946,17 +4219,20 @@
         {
           "text": "Waving a red flag",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The width of the passage is limited",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pass only in the direction indicated",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3989,17 +4265,20 @@
         {
           "text": "A bright white masthead (or bow) light, bright green and bright red side lights, and an ordinary white stern light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Only an ordinary white light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A bright white light and a bright green light visible from all sides placed higher than the masthead light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4032,17 +4311,20 @@
         {
           "text": "By swinging a light in a circular motion",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "By swinging a light (without a circular motion)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "By showing two fixed superimposed red lights",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4075,17 +4357,20 @@
         {
           "text": "Swinging a red flag",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Swinging a red flag, or any other suitable object, in a circular motion",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Two superimposed white flags",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4118,17 +4403,20 @@
         {
           "text": "A slow, repeated up-and-down movement of the arms extended to each side",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Permission to moor",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "B. in the indicated direction only",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4161,17 +4449,20 @@
         {
           "text": "By an ordinary red light and an ordinary white light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "By an ordinary red light alone",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "By an ordinary green light and an ordinary white light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4204,17 +4495,20 @@
         {
           "text": "A red flag",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A flag whose upper half is red and lower half white",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An entirely white flag",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4247,17 +4541,20 @@
         {
           "text": "Two superimposed flags, the upper red and the lower white",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Two superimposed flags, the upper white and the lower red",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A single red flag",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4290,17 +4587,20 @@
         {
           "text": "On the leading vessel",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "On the pushing vessel, at the rear of the convoy",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "At the centre of the convoy, on the most visible vessel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4333,17 +4633,20 @@
         {
           "text": "A white light visible from all sides and green and red side lights",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A white masthead light, green/red side lights and a separate white stern light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Only an ordinary white light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4376,17 +4679,20 @@
         {
           "text": "Side by side in the forward area, or as a bicolour light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Combined with the stern light into a tricolour light at the top of the mast",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Replaced by a single ordinary yellow light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4419,17 +4725,20 @@
         {
           "text": "Two lights one above the other",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Peals of a bell",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Yellow buoys marking each anchor",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4462,17 +4771,20 @@
         {
           "text": "No passage",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The channel is limited to a certain distance from the shore",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Recommended passage for crossing under a bridge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4505,17 +4817,20 @@
         {
           "text": "No anchoring",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "End of a prohibition or an obligation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Water-skiing prohibited",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4548,17 +4863,20 @@
         {
           "text": "No passage for motorized boats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No overtaking",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No mooring",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4591,17 +4909,20 @@
         {
           "text": "No passage for motorized boats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No turning",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "End of a prohibition or an obligation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4634,17 +4955,20 @@
         {
           "text": "No creating harmful wash or suction effects",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No anchoring",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No turning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4677,17 +5001,20 @@
         {
           "text": "No turning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No mooring",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No navigating outside the indicated limits",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4720,17 +5047,20 @@
         {
           "text": "No mooring",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No windsurfing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No navigating outside the indicated limits",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4763,17 +5093,20 @@
         {
           "text": "Passage prohibited, but prepare to get under way",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Place for landing vessels",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Wailing of a siren",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4806,17 +5139,20 @@
         {
           "text": "Ferry not moving freely",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Swimming prohibited",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Recommended direction",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4849,17 +5185,20 @@
         {
           "text": "Obligation to keep a particular lookout",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Obligation to take the direction indicated by the arrow",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation to sound a whistle",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4892,17 +5231,20 @@
         {
           "text": "Mandatory to exercise particular vigilance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mandatory stop under certain conditions",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mandatory to sound the whistle",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4935,17 +5277,20 @@
         {
           "text": "Recommended direction",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Two lights one above the other",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No berthing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4978,17 +5323,20 @@
         {
           "text": "Obligation not to exceed the speed indicated in km/h",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation to keep a particular lookout",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Obligation to stop under certain conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5021,17 +5369,20 @@
         {
           "text": "Mandatory stop under certain conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mandatory to sound the whistle",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mandatory to exercise particular vigilance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5064,17 +5415,20 @@
         {
           "text": "Mandatory stop under certain conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mandatory to exercise particular vigilance",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mandatory to sound the whistle",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5107,17 +5461,20 @@
         {
           "text": "Kitesurfing permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Recommended direction",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The clearance height of the passage is limited",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5150,17 +5507,20 @@
         {
           "text": "The width of the passage is limited",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Storm warning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Recommended direction",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5193,17 +5553,20 @@
         {
           "text": "The distance, in metres, at which vessels must keep clear of the shore",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The maximum permitted speed in km/h",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The minimum water depth in metres",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5236,17 +5599,20 @@
         {
           "text": "The draught is limited",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Strong-wind warning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Storm warning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5279,17 +5645,20 @@
         {
           "text": "A recommended passage for crossing under the bridge in both directions",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A recommended passage in one direction only",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A prohibition on crossing under the bridge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5322,17 +5691,20 @@
         {
           "text": "The width of the passage is limited",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Boat landing place",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pass only in the direction indicated",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5365,17 +5737,20 @@
         {
           "text": "Recommended direction",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pass only in the direction indicated",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The draught is limited",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5408,17 +5783,20 @@
         {
           "text": "End of a prohibition or an obligation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No passage for motorized boats",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No turning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5451,17 +5829,20 @@
         {
           "text": "Obligation to stop under certain conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Recommendation to keep within the space indicated in «green»",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Permission to pass",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5494,17 +5875,20 @@
         {
           "text": "No meeting or overtaking of any kind",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Recommendation to keep within the space indicated in «green»",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "End of a prohibition or an obligation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5537,17 +5921,20 @@
         {
           "text": "Mooring permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Passage permitted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Anchoring permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5580,17 +5967,20 @@
         {
           "text": "Berthing permitted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Water-skiing permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Passage permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5623,17 +6013,20 @@
         {
           "text": "Anchoring permitted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Water-skiing permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Berthing permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5666,17 +6059,20 @@
         {
           "text": "Anchoring permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Passage permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mooring permitted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5709,17 +6105,20 @@
         {
           "text": "Water-skiing permitted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mooring permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Windsurfing permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5752,17 +6151,20 @@
         {
           "text": "Mooring permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Windsurfing permitted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Berthing permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5795,17 +6197,20 @@
         {
           "text": "Kitesurfing permitted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Storm warning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Swimming prohibited",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5838,17 +6243,20 @@
         {
           "text": "Pass only in the direction indicated",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Storm warning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Recommended direction",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5881,17 +6289,20 @@
         {
           "text": "No passage for motorized boats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Water-skiing prohibited",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No anchoring",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5924,17 +6335,20 @@
         {
           "text": "Recommended direction",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Kitesurfing permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ferry not moving freely",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5967,17 +6381,20 @@
         {
           "text": "Dam",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The draught is limited",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "High-voltage overhead lines",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6010,17 +6427,20 @@
         {
           "text": "Strong-wind warning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pass only in the direction indicated",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Boat launching place",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6053,17 +6473,20 @@
         {
           "text": "Boat launching place",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Dam",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Boat landing place",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6096,17 +6519,20 @@
         {
           "text": "No passage for sailing boats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No passage for motorized boats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "End of a prohibition or an obligation",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6139,17 +6565,20 @@
         {
           "text": "High-voltage overhead lines",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Dam",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Kitesurfing permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6182,17 +6611,20 @@
         {
           "text": "An obligation not to exceed 12 km/h starting from a distance of 1000 m",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A minimum distance of 12 m to be maintained over 1000 km",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A depth of 12 m over a channel length of 1000 m",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6225,17 +6657,20 @@
         {
           "text": "By a cone point down, painted red or unpainted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "By a cone point up, painted green or unpainted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "By a cylinder painted red or unpainted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6268,17 +6703,20 @@
         {
           "text": "No passage for sailing boats",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No turning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No passage for motorized boats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6311,17 +6749,20 @@
         {
           "text": "Cylinders painted red and cones point up painted green",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Cones point down painted red and green cylinders",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Yellow floats fitted with radar reflectors",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6354,17 +6795,20 @@
         {
           "text": "Open-water side: cylinders; shore side: cones",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Open-water side: cones; shore side: cylinders",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Open-water side and shore side: yellow floats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6397,17 +6841,20 @@
         {
           "text": "Right side: green cones; left side: red cylinders",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Right side: red cylinders; left side: green cones",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Both sides: cones point down painted red",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6440,17 +6887,20 @@
         {
           "text": "Two cones one above the other, both points up",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Two cones one above the other, both points down",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Two cones one above the other, the lower cone point down and the upper cone point up",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6483,17 +6933,20 @@
         {
           "text": "That the deep water lies in the North and West quadrants",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "That the obstacle lies in the North and West quadrants",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "That passage is prohibited in the North and West quadrants",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6526,17 +6979,20 @@
         {
           "text": "No passage for motorized boats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "End of a prohibition or an obligation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No windsurfing",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6569,17 +7025,20 @@
         {
           "text": "Continuous peals of a bell",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mandatory stop under certain conditions",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No anchoring",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6612,17 +7071,20 @@
         {
           "text": "Swimming prohibited",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Wailing of a siren",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Pass only in the direction indicated",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6655,17 +7117,20 @@
         {
           "text": "No turning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No overtaking",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No meeting or overtaking",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6698,17 +7163,20 @@
         {
           "text": "No passage for sailing boats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Water-skiing prohibited",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No meeting or overtaking",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6741,17 +7209,20 @@
         {
           "text": "No turning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No berthing",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "End of a prohibition or an obligation",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6784,17 +7255,20 @@
         {
           "text": "A white masthead light, green and red side lights, and a white stern light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A white light visible from all sides and green and red side lights, without a masthead light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Only an ordinary white light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6827,17 +7301,20 @@
         {
           "text": "A tricolour light combining the side lights and the stern light, placed at the top of the mast or near it",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A bicolour light placed in the forward area, with the stern light remaining separate",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A white light visible from all sides placed at the stern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6870,17 +7347,20 @@
         {
           "text": "An ordinary white masthead light and an ordinary white stern light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A white masthead light, green and red side lights, and a white stern light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A single ordinary white light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6913,17 +7393,20 @@
         {
           "text": "By an ordinary white light visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "By a white masthead light and green and red side lights",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "By an ordinary yellow light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6956,17 +7439,20 @@
         {
           "text": "An ordinary white light visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A white masthead light accompanied by green and red side lights",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A tricolour light placed at the top of the mast",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6999,17 +7485,20 @@
         {
           "text": "Green and red side lights and a white stern light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Green and red side lights, a white stern light and a white masthead light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An ordinary yellow light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7042,17 +7531,20 @@
         {
           "text": "Tricolour light placed at the top of the mast or near it",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Either a red flag and a white flag",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Vessels navigating alone or tugs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7085,17 +7577,20 @@
         {
           "text": "Additional night marking of priority passenger vessels under way",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Pushed convoys",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Vessels navigating alone or tugs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7128,17 +7623,20 @@
         {
           "text": "By swinging a red light and/or by sounding the prescribed sound signal",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "By swinging a white light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "By showing a green ball visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7171,17 +7669,20 @@
         {
           "text": "Two red lights one above the other, about 1 m apart, visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Two white lights one above the other about 1 m apart",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A red light above a white light, both visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7214,17 +7715,20 @@
         {
           "text": "Lit in such a way that its contours are recognisable",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "By an ordinary red light above an ordinary white light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "By a black ball visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7257,17 +7761,20 @@
         {
           "text": "Free side: ordinary red light above an ordinary white light; non-free side: ordinary red light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Free side: ordinary white light alone; non-free side: ordinary white light above a red light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Free side: green light; non-free side: red light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7300,17 +7807,20 @@
         {
           "text": "By buoys carrying an ordinary white light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "By buoys carrying an ordinary red light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "By black balls visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7343,17 +7853,20 @@
         {
           "text": "A green ball, visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A yellow ball, visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A white ball, visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7386,17 +7899,20 @@
         {
           "text": "By swinging a red flag and/or by sounding the prescribed sound signal",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "By swinging a white flag visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "By hoisting a green ball visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7429,17 +7945,20 @@
         {
           "text": "Two black balls one above the other, about 1 m apart, visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Two green balls one above the other visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A white ball visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7472,17 +7991,20 @@
         {
           "text": "Free side: a red and white flag (or a red flag and a white flag); non-free side: a red flag",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Free side: a red flag; non-free side: a red and white flag",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Free side: a green ball; non-free side: a black ball",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7515,17 +8037,20 @@
         {
           "text": "By an ordinary red light above an ordinary white light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "By an ordinary white light above an ordinary red light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "By two red lights one above the other visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7558,17 +8083,20 @@
         {
           "text": "Either a red flag and a white flag",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No passage outside the area indicated",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Boats navigating alone or tugboats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7601,17 +8129,20 @@
         {
           "text": "A scintillating blue light",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A bright green light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A scintillating yellow light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7644,17 +8175,20 @@
         {
           "text": "The letter \"K\" flag",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The letter \"A\" board",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A red flag",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7687,17 +8221,20 @@
         {
           "text": "At night: a red light swung in a circle; by day: a red flag or other object swung in a circle",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "At night: a white light swung; by day: a green ball hoisted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "At night: two red lights one above the other; by day: two black balls one above the other",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7730,17 +8267,20 @@
         {
           "text": "Pushed convoys",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Boats navigating alone or tugboats",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Pleasure boats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7773,17 +8313,20 @@
         {
           "text": "A board bearing the letter \"A\"",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A flag bearing the letter \"K\"",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A yellow ball visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7816,17 +8359,20 @@
         {
           "text": "A board bearing the letter \"A\"",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A white ball visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A flag bearing the letter \"K\"",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7859,17 +8405,20 @@
         {
           "text": "A white ball, visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A yellow ball, visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A green ball, visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7902,17 +8451,20 @@
         {
           "text": "A yellow ball, visible from all sides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A white ball, visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A green ball, visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7945,17 +8497,20 @@
         {
           "text": "Pleasure boats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Boats navigating alone or tugboats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pushed convoys",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7988,17 +8543,20 @@
         {
           "text": "Pushed convoys",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Pleasure boats",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Boats navigating alone or tugboats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8031,17 +8589,20 @@
         {
           "text": "Pushed convoys",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Vessels navigating alone or tugs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Professional fishing vessels, motorised pleasure craft",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8074,17 +8635,20 @@
         {
           "text": "A white light visible from all sides and green and red side lights",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A white masthead light, green and red side lights and a separate white stern light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An ordinary yellow light visible from all sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8117,17 +8681,20 @@
         {
           "text": "No anchoring",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No passage",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No berthing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8160,17 +8727,20 @@
         {
           "text": "No passage outside the area indicated",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No windsurfing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No berthing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8203,17 +8773,20 @@
         {
           "text": "No passage",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No windsurfing",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No berthing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8246,17 +8819,20 @@
         {
           "text": "No windsurfing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No swimming",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No passage",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8289,17 +8865,20 @@
         {
           "text": "No kitesurfing",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No windsurfing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No berthing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8332,17 +8911,20 @@
         {
           "text": "Obligation to take the direction indicated by the arrow",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obligation to exercise particular vigilance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Permission to moor",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8375,17 +8957,20 @@
         {
           "text": "Obligation not to exceed the speed indicated (in km/h",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Prohibition of all overtaking",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Permission to anchor",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8418,17 +9003,20 @@
         {
           "text": "Anchoring permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No windsurfing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mandatory to exercise particular vigilance",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8461,17 +9049,20 @@
         {
           "text": "Permission for water skiing or the use of similar equipment",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Permission to make fast",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Permission to anchor",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8504,17 +9095,20 @@
         {
           "text": "Anchoring permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Berthing permitted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Windsurfing permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8547,17 +9141,20 @@
         {
           "text": "Berthing permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Anchoring permitted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mooring permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8590,17 +9187,20 @@
         {
           "text": "Two light signals",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Anchoring permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Boats navigating alone or tugboats",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8633,17 +9233,20 @@
         {
           "text": "Berthing permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Anchoring permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mooring permitted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8676,17 +9279,20 @@
         {
           "text": "Windsurfing permitted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Anchoring permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Berthing permitted",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8719,17 +9325,20 @@
         {
           "text": "Kitesurfing permitted",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mandatory to exercise particular vigilance",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No passage",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8762,17 +9371,20 @@
         {
           "text": "No passage for motorized boats",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No windsurfing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No swimming",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8805,17 +9417,20 @@
         {
           "text": "Prohibition of windsurfing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Prohibition of water skiing or the use of similar equipment",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Prohibition of parking",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8848,17 +9463,20 @@
         {
           "text": "No overtaking",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No anchoring",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No passage",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8891,17 +9509,20 @@
         {
           "text": "No mooring",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No kitesurfing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No berthing",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8934,17 +9555,20 @@
         {
           "text": "No passage outside the area indicated",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No anchoring",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No swimming",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8977,17 +9601,20 @@
         {
           "text": "No passage",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No mooring",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No kitesurfing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9020,17 +9647,20 @@
         {
           "text": "No kitesurfing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No anchoring",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No passage outside the area indicated",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -9052,6 +9682,328 @@
       "block": "",
       "correct": [
         2
+      ]
+    },
+    {
+      "id": "q-voilewp-voilealluremarineleventarrière-e-3ffa3208",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "What is observed on a running point of sail (dead downwind)?",
+      "choices": [
+        {
+          "text": "Rolling increases and an (accidental) gybe threatens",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Speed becomes maximal, higher than on a broad reach",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The sailboat can no longer make headway because it is head to wind",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__allure_marine__le_vent_arrière-e1125cb6",
+        "ref": "Voile — Allure (marine) : Le vent arrière",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Allure_(marine)",
+        "as_of": "223790627",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "On a run the airflow over the sails is disturbed: speed drops compared with a broad reach, rolling increases and an accidental gybe threatens.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilealluremarineleventdebout-b2-13f2a3f2",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "On the head-to-wind point of sail, what must the sailboat do to make headway under sail?",
+      "choices": [
+        {
+          "text": "Bear away about 45° from the wind axis (30° on the highest-performance racing yachts)",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Hold its course exactly head to wind, sheeting its sails in fully",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Set the spinnaker to catch the wind coming from ahead",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__allure_marine__le_vent_debout-b2feba4f",
+        "ref": "Voile — Allure (marine) : Le vent debout",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Allure_(marine)",
+        "as_of": "223790627",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Head to wind the sailboat cannot make headway: it must bear away about 45° from the wind axis (30° in racing) and beat to windward (tack).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilealluremarinetribordamuresbâ-dfe53188",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "When is a sailboat said to be «on starboard tack»?",
+      "choices": [
+        {
+          "text": "When the wind comes from the right relative to the boat's axis",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "When it sails downwind with the sails wing-on-wing (in scissors)",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "When it has right of way over every other boat on the water",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__allure_marine__tribord_amures_bâbord_amur-d3eab947",
+        "ref": "Voile — Allure (marine) : Tribord amures, bâbord amures",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Allure_(marine)",
+        "as_of": "223790627",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "A sailboat is on starboard tack when the wind comes from the right (starboard), and on port tack in the opposite case. These distinctions underlie the right-of-way rules between sailboats.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilechaviragesourceduphénomène--afe43868",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "On a light sport dinghy, what is a capsize commonly called and what is its nature?",
+      "choices": [
+        {
+          "text": "A «capsize»: it is common and harmless",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "A «shipwreck»: it almost always leads to the loss of the boat",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A «rounding up»: it occurs only when close-hauled",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__chavirage__source_du_phénomène-8caa9d29",
+        "ref": "Voile — Chavirage : Source du phénomène",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Chavirage",
+        "as_of": "231891130",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "On a light dinghy the capsize is common and harmless; it results from seeking excessive speed or from poor crew placement.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voileempannagedéfinition-34dc964-475707cc",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "What characterises the gybe (empannage) compared with tacking?",
+      "choices": [
+        {
+          "text": "The change of tack is made by passing through the wind astern (downwind)",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "The change of tack is made by passing head to wind",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "It does not change the set of the sails",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__empannage__définition-34dc9648",
+        "ref": "Voile — Empannage : Définition",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Empannage",
+        "as_of": "236265378",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "A gybe changes tack by passing through the wind astern (downwind); passing head to wind is instead a tack (virement de bord).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilefocprésentation-30eec01b-ee50d7a3",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "What is the jib on a sailboat?",
+      "choices": [
+        {
+          "text": "A triangular headsail, held to the forestay (stay) by its luff",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "The mainsail, rigged abaft the mast",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A standing-rigging wire that holds the mast up",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__foc__présentation-30eec01b",
+        "ref": "Voile — Foc : Présentation",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Foc",
+        "as_of": "227846382",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "The jib is a triangular headsail held to the stay by its luff; it plays a key role in the success of the tack.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilevirementdebordprincipe-90e4-40419c62",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "What happens during a tack (virement de bord)?",
+      "choices": [
+        {
+          "text": "The side of the boat that was leeward becomes windward, and vice versa",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "The sailboat keeps the same tack throughout the manoeuvre",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The manoeuvre is necessarily made by passing through the wind astern",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__virement_de_bord__principe-90e4d950",
+        "ref": "Voile — Virement de bord : Principe",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Virement_de_bord",
+        "as_of": "220344446",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "In a tack, the side that was leeward becomes windward (a change of tack made by passing head to wind).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
       ]
     }
   ]

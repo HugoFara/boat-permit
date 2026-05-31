@@ -26,17 +26,20 @@
         {
           "text": "Auf eine Analyse im Sinne von Artikel 2 Buchstabe d der Schiffbauverordnung (SBV)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Auf einen Bericht im Sinne von Artikel 17 Absatz 3 SBV",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Auf Regeln im Sinne von Artikel 5 SBV",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -69,17 +72,20 @@
         {
           "text": "Die Sorgfaltsregeln sind Regeln im Sinne von Artikel 2 Buchstabe d SBV",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Der Sicherheitsbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe e und 17 Absatz 3 SBV",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Der Sachverständigenprüfbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe f SBV",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -112,17 +118,20 @@
         {
           "text": "Als eine Person im Sinne von Artikel 5a Absatz 1 Buchstabe a SBV",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Als ein Bericht im Sinne von Artikel 2 Buchstabe f SBV",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Als eine Analyse im Sinne von Artikel 2 Buchstabe d SBV",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -155,17 +164,20 @@
         {
           "text": "Schifffahrt bei Tag und bei Nacht bei Nebel, Dunst, Schneetreiben oder schwerem Regenfall",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Schifffahrt ausschliesslich bei Tageslicht unter eingeschränkter Sicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Schifffahrt nur bei Nacht ohne ausreichende Beleuchtung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -198,17 +210,20 @@
         {
           "text": "Nebel und Schneetreiben",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Starker Wind und hoher Wellengang",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Gewitter und Blitzschlag",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -241,17 +256,20 @@
         {
           "text": "Eine Bewilligung der zuständigen Behörde",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Nur eine mündliche Anmeldung bei der Hafenmeisterei",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Keine Bewilligung, solange weniger als zehn Schiffe teilnehmen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -284,17 +302,20 @@
         {
           "text": "Wenn die vorgeschriebene Haftpflichtversicherung abgeschlossen ist.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Wenn die Veranstaltung ausschliesslich auf schweizerischem Gebiet stattfindet.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Wenn ausschliesslich motorlose Schiffe teilnehmen.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -327,17 +348,20 @@
         {
           "text": "Die Sprechfunkanlage nach Art. 86a auf Kanal 16 (Seenot) auf Empfang geschaltet halten",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Die Sprechfunkanlage auf Kanal 12 (Betrieb) auf Empfang geschaltet halten",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Die Sprechfunkanlage ausgeschaltet lassen, um Ablenkung zu vermeiden",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -370,17 +394,20 @@
         {
           "text": "Jedes Schiff hält nach Steuerbord, sodass sie Backbord an Backbord aneinander vorbeifahren.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Jedes Schiff hält nach Backbord, sodass sie Steuerbord an Steuerbord vorbeifahren.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Beide Schiffe müssen sofort anhalten und das jeweils andere passieren lassen.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -413,17 +440,20 @@
         {
           "text": "Das Schiff, das das andere auf seiner Steuerbordseite hat",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Das Schiff, das das andere auf seiner Backbordseite hat",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Das jeweils grössere und schnellere Schiff",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -456,17 +486,20 @@
         {
           "text": "Segelbretter und Drachensegelbretter haben Vorrang vor allen anderen Schiffen.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Den Fahrgastschiffen mit Vorrang und den Schleppverbänden müssen alle anderen Schiffe ausweichen.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ruderboote müssen allen Schiffen mit Maschinenantrieb ausweichen, ausgenommen bestimmten vorrangigen Schiffen.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -499,17 +532,20 @@
         {
           "text": "Alle Schiffe",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Nur die Segelschiffe und Ruderboote",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nur die Güterschiffe und Schleppverbände",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -542,17 +578,20 @@
         {
           "text": "Kanal 16",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Kanal 12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Kanal K",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -585,17 +624,20 @@
         {
           "text": "Die Pflicht zur Ausrüstung mit Radargerät und Wendeanzeiger gilt nur für Schiffe in internationaler Fahrt.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Das Radargerät und der Wendeanzeiger sind für alle Fahrgastschiffe ausnahmslos vorgeschrieben.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Die interne Sprechverbindung darf von allen Fahrgästen frei benutzt werden.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -628,17 +670,20 @@
         {
           "text": "Sie müssen resistent gegen Öl und Erdölderivate sein und Temperaturen bis einschliesslich 50 °C aushalten.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Sie müssen mit einer Leine am Schiff befestigt werden können, damit sie nicht abtreiben.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Sie müssen ausschliesslich leuchtend gelb gefärbt sein und dürfen keine Beschriftung tragen.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -672,17 +717,20 @@
         {
           "text": "Mindestens 750 N pro Person",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mindestens 75 N pro Person",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mindestens 100 N pro Person",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -715,17 +763,20 @@
         {
           "text": "Mindestens 75 N.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mindestens 100 N.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mindestens 750 N.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -758,17 +809,20 @@
         {
           "text": "Aufblasbare Rettungswesten werden nicht anerkannt.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Vergnügungsschiffe und Sportboote mit mehr als 30 kW Antriebsleistung benötigen zusätzlich ein Rettungswurfgerät.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Auf Schiffen muss für jede Person ein Einzelrettungsmittel oder ein Platz in einem Sammelrettungsmittel vorhanden sein.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -801,17 +855,20 @@
         {
           "text": "Wenn der Krängungswinkel 5 Grad nicht übersteigt und Seite Deck an der tiefsten Stelle nicht eintaucht.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Wenn der Krängungswinkel 15 Grad nicht übersteigt.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Wenn die metazentrische Höhe 0,50 m nicht unterschreitet.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -844,17 +901,20 @@
         {
           "text": "1,00 m.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "0,25 m.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "5,00 m.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -887,17 +947,20 @@
         {
           "text": "30 cm.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "15 cm.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "100 cm.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -930,17 +993,20 @@
         {
           "text": "Ein seitlicher Winddruck von 0,25 kN/m².",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein seitlicher Winddruck von 2,5 kN/m².",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein seitlicher Winddruck von 0,05 kN/m².",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -973,17 +1039,20 @@
         {
           "text": "Es muss wasserdicht sein, von Bordwand zu Bordwand reichen und darf keine Türen oder Öffnungen enthalten.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Es darf mit verschliessbaren wasserdichten Türen versehen sein.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Es muss nur bis zur halben Schiffshöhe geführt werden.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1016,17 +1085,20 @@
         {
           "text": "Mit einem Kollisionsschott und zwei Maschinenraumschotten.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mit zwei Kollisionsschotten und einem Maschinenraumschott.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mit einem einzigen Kollisionsschott und keinem Maschinenraumschott.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1059,17 +1131,20 @@
         {
           "text": "In einer schweizerischen Amtssprache oder in Englisch.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ausschliesslich in Deutsch.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "In einer beliebigen EU-Amtssprache.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1102,17 +1177,20 @@
         {
           "text": "Die Pflicht zum Anbringen der CE-Kennzeichnung gilt nicht; eine bereits vorschriftsgemäss angebrachte darf belassen werden.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Die CE-Kennzeichnung muss zwingend an jedem Sportboot angebracht werden.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Eine bereits angebrachte CE-Kennzeichnung muss vor Inverkehrbringen entfernt werden.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1145,17 +1223,20 @@
         {
           "text": "Die Fahrzeit zwischen Abgangs- und Zielort darf höchstens 90 Minuten betragen.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Das Schiff hat eine Tragfähigkeit von weniger als 350 t und es herrschen gute Sichtverhältnisse bei Tag.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Im Steuerstand befindet sich ein betriebsbereites Funkgerät mit ständigem Kontakt zu einer Landstelle.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1188,17 +1269,20 @@
         {
           "text": "1 Matrose.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "2 Matrosen.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "3 Matrosen.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1231,17 +1315,20 @@
         {
           "text": "Bei 0,25 mg/l und mehr, aber weniger als 0,40 mg/l.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Bei 0,25 mg/l und mehr, aber weniger als 0,55 mg/l.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Bei 0,05 mg/l und mehr, aber weniger als 0,40 mg/l.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1274,17 +1361,20 @@
         {
           "text": "Frühestens 20 Minuten nach dem Trinkende oder nach einer Mundspülung gemäss Herstellerangaben.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Frühestens 60 Minuten nach dem Trinkende, ohne Ausnahme.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Sofort, sobald die kontrollierte Person das Trinken beendet hat.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1317,17 +1407,20 @@
         {
           "text": "Die medizinischen Voraussetzungen nach Art. 82 sowie das Mindestalter für die jeweilige Kategorie.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Eine erneute theoretische und praktische Prüfung in allen Fällen.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ausschliesslich den Nachweis eines Wohnsitzes im Ausstellerstaat.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1360,17 +1453,20 @@
         {
           "text": "Personen, die seit mehr als zwölf Monaten in der Schweiz Wohnsitz haben.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Alle Touristen, die ein Schiff für einen Tag mieten.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Personen, die seit mehr als drei Monaten in der Schweiz Wohnsitz haben.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1403,17 +1499,20 @@
         {
           "text": "Beim Verbinden von Leinen ungleicher Stärke neigt er zum Kippen in den Ankerstich",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Statt seiner sollte ein Schotstek verwendet werden",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Nach Belastung lässt er sich stets mühelos von Hand lösen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1447,17 +1546,20 @@
         {
           "text": "Aus der Feuerwehr-Dienstvorschrift",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Aus dem Ashley-Buch der Knoten",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Aus der Berufsfischerei-Verordnung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1490,17 +1592,20 @@
         {
           "text": "Er sollte unter keinen Umständen zum Verbinden von Seilen verwendet werden",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Er ist der sicherste Knoten zum Zusammenbinden zweier Enden",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Er kippt bei Seilen mit ungleichem Durchmesser besonders selten um",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1533,17 +1638,20 @@
         {
           "text": "Durch Zusammenschieben der Enden oder durch Auseinanderziehen zweier Enden derselben Bucht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Nur mit Hilfe eines Werkzeugs",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ausschliesslich durch Erhitzen des Seils",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1576,17 +1684,20 @@
         {
           "text": "Sie beträgt etwa 45 %",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Bei geschlagenem Polypropylen-Tauwerk liegt sie bei etwa 36 bis 42 %",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Bei geflochtenem Polypropylen-Seil erreicht sie rund 90 %",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1620,17 +1731,20 @@
         {
           "text": "Als Bindeknoten zum Verschnüren von Paketen oder Bündeln",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Zum Verbinden zweier Kletter- oder Sicherungsseile",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Als alleiniger Anseilknoten beim Klettern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1663,17 +1777,20 @@
         {
           "text": "Nach dem Weltcup 1992 in St. Pölten durfte weiterhin uneingeschränkt mit dem Palstek angeseilt werden",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Der Palstek diente bis Anfang der 1970er Jahre als verlässlicher Anseilknoten",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Doppelter Palstek und Bulin 1.5 werden zum Anseilen häufig verwendet",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1706,17 +1823,20 @@
         {
           "text": "Er öffnet sich bei mehreren ungleich gerichteten Kräften an der Schlaufe bei 1,5 bis 1,6 kN",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Er hält jeder Ringbelastung ohne Aufziehen stand",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Er wird unter Ringbelastung fester und lässt sich danach nicht mehr lösen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1749,17 +1869,20 @@
         {
           "text": "Der Achterknoten",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Der Kreuzknoten",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Der Schotstek",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1792,17 +1915,20 @@
         {
           "text": "Im Genferseeraum, mit Mittelwinden um 60 km/h und Böen über 100 km/h (bise noire).",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Am Bodensee, wo sie regelmässig über 8 Beaufort erreicht.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "In den Hochalpen, wo sie als warmer Talwind auftritt.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1835,17 +1961,20 @@
         {
           "text": "Am Bodensee ist die Bise stärker als im Genferseeraum.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Im Sommer bedeutet eine Bisenlage meist schönes Wetter mit kühlen Temperaturen.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Im Winter liegt in niederen Lagen häufig Hochnebel oder starker Dunst.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1878,17 +2007,20 @@
         {
           "text": "Aus Norden, Nordosten oder Osten, schneidend kalt, trocken und aufhellend.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Aus Südwesten, warm, feucht und bewölkungsbringend.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Aus Westen, mild und mit anhaltendem Regen verbunden.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1921,17 +2053,20 @@
         {
           "text": "Auflösung tiefer Wolkenschichten bei deutlich verbesserter Sicht und höheren Temperaturen.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Starke Zunahme der Windgeschwindigkeit auf Sturmstärke.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Bildung dichten Nebels und deutliches Absinken der Temperatur.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1964,17 +2099,20 @@
         {
           "text": "Die Windgeschwindigkeit nimmt dabei stark zu.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Die Effekte treten grossräumig auf und sind nicht auf einzelne Täler begrenzt.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Es bildet sich eine starke, aber nur wenige hundert Meter flache Temperaturinversion.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2007,17 +2145,20 @@
         {
           "text": "Bei starker Warmluftadvektion in den Wintermonaten.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Bei starker Sonneneinstrahlung an heissen Sommertagen.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ausschliesslich bei Gewittern im Frühling.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2050,17 +2191,20 @@
         {
           "text": "Er beginnt mit schweren Böen aus wechselnder Richtung.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Er verstetigt sich nach einiger Zeit bei drei bis sechs Beaufort aus Nordwest.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Er weht von Beginn an gleichmässig und konstant aus Süden.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2094,17 +2238,20 @@
         {
           "text": "Meist zwischen Mai und Juli am frühen Abend.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Vor allem im Hochwinter (Dezember bis Februar) am Morgen.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ganzjährig vorwiegend um die Mittagszeit.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2137,17 +2284,20 @@
         {
           "text": "Bei Bise (Ostwind) kommt es häufiger zu Joran.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Er entsteht meistens, wenn tagsüber ruhige, schwachwindige Wetterlagen vorherrschten.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Der betroffene Südfuss des Jura erstreckt sich über 170 km.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2180,17 +2330,20 @@
         {
           "text": "Durch drei verschiedene meteorologische Ursachen.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Durch genau eine einzige Ursache, nämlich Föhn.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Durch fünf verschiedene Ursachen.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2223,17 +2376,20 @@
         {
           "text": "Aus südlicher Richtung aus den Alpen durch das Rhonetal und das Chablais über das Seebecken.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Aus nördlicher Richtung über den Jura ins Mittelland.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Aus östlicher Richtung entlang des Bodensees.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2266,17 +2422,20 @@
         {
           "text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Topplicht weiss sowie Seitenlichter und Hecklicht vereint in einem Dreifarben-Topplicht an der Mastspitze",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nur ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2309,17 +2468,20 @@
         {
           "text": "Ein weisses Topplicht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein grünes helles Rundumlicht mindestens 1 m über dem Topplicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2352,17 +2514,20 @@
         {
           "text": "Ein weisses gewöhnliches Licht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Topplicht weiss hell, Seitenlichter grün und rot hell sowie Hecklicht weiss",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2395,17 +2560,20 @@
         {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Topplicht weiss hell sowie Seitenlichter grün und rot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2438,17 +2606,20 @@
         {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2481,17 +2652,20 @@
         {
           "text": "Das obere Licht ist rot, das untere grün",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Das obere Licht ist grün, das untere rot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Beide Lichter sind weiss",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2524,17 +2698,20 @@
         {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein rotes gewöhnliches Rundumlicht über einem weissen Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2567,17 +2744,20 @@
         {
           "text": "Ein grünes helles Rundumlicht mindestens 1 m höher als das Topplicht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein rotes gewöhnliches Rundumlicht über einem weissen Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2610,17 +2790,20 @@
         {
           "text": "Ein rotes gewöhnliches Rundumlicht über einem weissen gewöhnlichen Rundumlicht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein grünes helles Rundumlicht über dem Topplicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein weisses gewöhnliches Rundumlicht über einem weissen Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2653,17 +2836,20 @@
         {
           "text": "Eine Flagge, deren obere Hälfte rot und deren untere Hälfte weiss ist",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Eine Flagge, deren obere Hälfte weiss und deren untere Hälfte rot ist",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Zwei weisse Flaggen übereinander",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2696,17 +2882,20 @@
         {
           "text": "Ein weisses gewöhnliches Rundumlicht über dem weissen Rundumlicht des stillliegenden Schiffes",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein rotes gewöhnliches Rundumlicht über einem weissen Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2739,17 +2928,20 @@
         {
           "text": "Durch weisse Rundumlichter",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Durch rote Rundumlichter",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Durch gelbe Rundumlichter",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2782,17 +2974,20 @@
         {
           "text": "Stelle zum Auswassern von Schiffen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 43."
         },
         {
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 24."
         },
         {
           "text": "Gelbe Schwimmkörper als Bezeichnung der einzelnen Verankerungen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2825,17 +3020,20 @@
         {
           "text": "Blaues Blinklicht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 24."
         },
         {
           "text": "Wehr",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 41."
         }
       ],
       "provenance": {
@@ -2868,17 +3066,20 @@
         {
           "text": "Die Flagge «K», deren Hälfte am Stock gelb und deren andere Hälfte blau ist",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Eine Flagge, deren obere Hälfte rot und deren untere Hälfte weiss ist",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Den Doppelstander «A», dessen eine Hälfte weiss und dessen andere blau ist",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2911,17 +3112,20 @@
         {
           "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein rotes gewöhnliches Rundumlicht über einem weissen Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2954,17 +3158,20 @@
         {
           "text": "Die Tafel «A» (Doppelstander, eine Hälfte am Stock weiss, die andere blau)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Die Flagge «K» (Hälfte am Stock gelb, die andere blau)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein weisser Ball",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2997,17 +3204,20 @@
         {
           "text": "Durch die von allen Seiten sichtbare Tafel «A» (Doppelstander, eine Hälfte weiss, die andere blau)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Durch einen weissen Ball",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Durch eine rote Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3040,17 +3250,20 @@
         {
           "text": "Durch das Schwenken eines Lichtes",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Durch das kreisförmige Schwenken eines Lichtes",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Durch ein rotes Rundumlicht über einem weissen Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3083,17 +3296,20 @@
         {
           "text": "Schwenken einer roten Flagge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Empfohlene Fahrrichtung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 39."
         },
         {
           "text": "Stelle zum Einwassern von Schiffen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 42."
         }
       ],
       "provenance": {
@@ -3126,17 +3342,20 @@
         {
           "text": "Topp- oder Buglicht weiss hell, Seitenlichter grün und rot hell, Hecklicht weiss gewöhnlich",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Weisses Rundumlicht mit Seitenlichtern grün und rot, ohne Hecklicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3169,17 +3388,20 @@
         {
           "text": "Durch das kreisförmige Schwenken eines Lichtes",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Durch das Schwenken eines Lichtes hin und her",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Durch ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3212,17 +3434,20 @@
         {
           "text": "Kreisförmiges Schwenken einer roten Flagge oder eines sonstigen geeigneten Gegenstandes",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot des Fahrens mit Segelschiffen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 5."
         },
         {
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 33."
         }
       ],
       "provenance": {
@@ -3255,17 +3480,20 @@
         {
           "text": "Langsames und wiederholtes Heben und Senken der ausgestreckten Arme",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Kreisförmiges Schwenken eines Armes über dem Kopf",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Einmaliges Heben beider Arme",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3298,17 +3526,20 @@
         {
           "text": "Vorbei: rotes und weisses gewöhnliches Licht; nicht vorbei: rotes gewöhnliches Licht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Vorbei: nur weisses Licht; nicht vorbei: grünes Licht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Vorbei: rotes Licht; nicht vorbei: rotes und weisses Licht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3341,17 +3572,20 @@
         {
           "text": "Vorbei: Flagge oben rot, unten weiss; nicht vorbei: rote Flagge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Vorbei: rote Flagge; nicht vorbei: Flagge oben rot, unten weiss",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Vorbei: weisse Flagge; nicht vorbei: zwei weisse Flaggen übereinander",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3384,17 +3618,20 @@
         {
           "text": "Auf dem vordersten Schiff",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Auf dem hintersten Schiff",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Auf jedem Schiff des Verbandes",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3427,17 +3664,20 @@
         {
           "text": "Seitenlichter grün und rot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Einem zusätzlichen weissen Hecklicht und keinen Seitenlichtern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Einem gelben Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3470,17 +3710,20 @@
         {
           "text": "Verbot der Durchfahrt",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Gebot, unter bestimmten Bedingungen anzuhalten",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Empfohlene Durchfahrt für Verkehr in beiden Richtungen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3513,17 +3756,20 @@
         {
           "text": "Schwenken einer roten Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 39."
         },
         {
           "text": "Ankerverbot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 13."
         }
       ],
       "provenance": {
@@ -3556,17 +3802,20 @@
         {
           "text": "Festmacheverbot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbotenes Stillliegen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 9."
         },
         {
           "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 3."
         }
       ],
       "provenance": {
@@ -3599,17 +3848,20 @@
         {
           "text": "Wendeverbot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Überholverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 7."
         },
         {
           "text": "Oder",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 28."
         }
       ],
       "provenance": {
@@ -3642,17 +3894,20 @@
         {
           "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Schwenken einer roten Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 39."
         },
         {
           "text": "Blaues Blinklicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 31."
         }
       ],
       "provenance": {
@@ -3685,17 +3940,20 @@
         {
           "text": "Überholverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 7."
         },
         {
           "text": "Verbot, ausserhalb der angezeigten Begrenzungen zu fahren",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Schwenken einer roten Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 39."
         }
       ],
       "provenance": {
@@ -3728,17 +3986,20 @@
         {
           "text": "Verbot, ausserhalb der angezeigten Begrenzungen zu fahren",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Festmachen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 35."
         },
         {
           "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 38."
         }
       ],
       "provenance": {
@@ -3771,17 +4032,20 @@
         {
           "text": "Noch nicht durchfahren, aber die Weiterfahrt vorbereiten",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Sofort und endgültig anhalten, jede Weiterfahrt ist untersagt",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Die Durchfahrt ist frei, ohne Einschränkung weiterfahren",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3814,17 +4078,20 @@
         {
           "text": "Badeverbot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Ankern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 34."
         },
         {
           "text": "Verbotenes Stillliegen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 9."
         }
       ],
       "provenance": {
@@ -3857,17 +4124,20 @@
         {
           "text": "Verbot des Wasserskifahrens",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 4."
         },
         {
           "text": "Gebot, die durch den Pfeil angegebene Richtung einzuschlagen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Empfohlene Fahrrichtung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 39."
         }
       ],
       "provenance": {
@@ -3900,17 +4170,20 @@
         {
           "text": "Gebot, unter bestimmten Bedingungen anzuhalten",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot der Durchfahrt für alle Schiffe",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Empfohlene Durchfahrt bei Brücken",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3943,17 +4216,20 @@
         {
           "text": "Verbot des Wasserskifahrens",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 4."
         },
         {
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 33."
         },
         {
           "text": "Gebot, die in Stundenkilometern (km/h) angegebene Geschwindigkeit nicht zu überschreiten",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3986,17 +4262,20 @@
         {
           "text": "Verbotenes Stillliegen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 9."
         },
         {
           "text": "Erlaubnis zur Durchfahrt",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 32."
         },
         {
           "text": "Gebot, ein Schallzeichen zu geben",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4029,17 +4308,20 @@
         {
           "text": "Gebot, besondere Vorsicht walten zu lassen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Nicht freifahrende Fähre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 40."
         },
         {
           "text": "Stelle zum Auswassern von Schiffen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 43."
         }
       ],
       "provenance": {
@@ -4072,17 +4354,20 @@
         {
           "text": "Gebot, besondere Vorsicht walten zu lassen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 22."
         },
         {
           "text": "Stelle zum Auswassern von Schiffen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 43."
         },
         {
           "text": "Beschränkung der Durchfahrtshöhe (über dem Wasserspiegel)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4115,17 +4400,20 @@
         {
           "text": "Erlaubnis zum Fahren mit Segelbrettern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 37."
         },
         {
           "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 3."
         },
         {
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4158,17 +4446,20 @@
         {
           "text": "Den Abstand in Metern, in dem sich Schiffe vom Ufer entfernt halten sollen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Die höchstzulässige Geschwindigkeit in km/h",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Die Wassertiefe in Metern im eingeengten Bereich",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4201,17 +4492,20 @@
         {
           "text": "Sturmwarnung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 61."
         },
         {
           "text": "Begrenzte Wassertiefe",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 38."
         }
       ],
       "provenance": {
@@ -4244,17 +4538,20 @@
         {
           "text": "Empfohlene Durchfahrt bei Brücken für Verkehr in beiden Richtungen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot der Durchfahrt unter der Brücke",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Empfohlene Durchfahrt nur für Verkehr in einer Richtung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4287,17 +4584,20 @@
         {
           "text": "Oder",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 38."
         },
         {
           "text": "Überholverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 7."
         }
       ],
       "provenance": {
@@ -4330,17 +4630,20 @@
         {
           "text": "Sturmwarnung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 61."
         },
         {
           "text": "Oder",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Wendeverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 12."
         }
       ],
       "provenance": {
@@ -4373,17 +4676,20 @@
         {
           "text": "Blaues Blinklicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 31."
         },
         {
           "text": "Überholverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 7."
         },
         {
           "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4416,17 +4722,20 @@
         {
           "text": "Verbot des Wasserskifahrens",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 4."
         },
         {
           "text": "Stelle zum Auswassern von Schiffen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 43."
         },
         {
           "text": "Empfehlung, sich auf der mit «grün» bezeichneten Fahrwasserseite zu halten",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4459,17 +4768,20 @@
         {
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 24."
         },
         {
           "text": "Empfehlung, sich auf der mit «grün» bezeichneten Fahrwasserseite zu halten",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 38."
         }
       ],
       "provenance": {
@@ -4502,17 +4814,20 @@
         {
           "text": "Erlaubnis zur Durchfahrt",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Festmacheverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 11."
         },
         {
           "text": "Erlaubnis zum Ankern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 34."
         }
       ],
       "provenance": {
@@ -4545,17 +4860,20 @@
         {
           "text": "Stelle zum Einwassern von Schiffen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 42."
         },
         {
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 24."
         },
         {
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4588,17 +4906,20 @@
         {
           "text": "Schwenken einer roten Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 39."
         },
         {
           "text": "Erlaubnis zum Ankern",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ankerverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 10."
         }
       ],
       "provenance": {
@@ -4631,17 +4952,20 @@
         {
           "text": "Gebot, ein Schallzeichen zu geben",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 21."
         },
         {
           "text": "Festmacheverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 11."
         },
         {
           "text": "Erlaubnis zum Festmachen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4674,17 +4998,20 @@
         {
           "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 13."
         },
         {
           "text": "Überholverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 7."
         },
         {
           "text": "Erlaubnis zum Wasserskifahren",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4717,17 +5044,20 @@
         {
           "text": "Erlaubnis zum Fahren mit Segelbrettern",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Festmachen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 35."
         },
         {
           "text": "Verbot des Fahrens mit Segelschiffen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 5."
         }
       ],
       "provenance": {
@@ -4760,17 +5090,20 @@
         {
           "text": "Gebot, ein Schallzeichen zu geben",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 21."
         },
         {
           "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot des Begegnens und Überholens",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 8."
         }
       ],
       "provenance": {
@@ -4803,17 +5136,20 @@
         {
           "text": "Verbot des Wasserskifahrens",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 4."
         },
         {
           "text": "Empfohlene Fahrrichtung",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ankerverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 10."
         }
       ],
       "provenance": {
@@ -4846,17 +5182,20 @@
         {
           "text": "Ankerverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 10."
         },
         {
           "text": "Verbot des Wasserskifahrens",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Starkwindwarnung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 60."
         }
       ],
       "provenance": {
@@ -4889,17 +5228,20 @@
         {
           "text": "Badeverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 17."
         },
         {
           "text": "Nicht freifahrende Fähre",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Begrenzte Wassertiefe",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 26."
         }
       ],
       "provenance": {
@@ -4932,17 +5274,20 @@
         {
           "text": "Überholverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 7."
         },
         {
           "text": "Sturmwarnung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 61."
         },
         {
           "text": "Wehr",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4975,17 +5320,20 @@
         {
           "text": "Stelle zum Einwassern von Schiffen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Sturmwarnung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 61."
         },
         {
           "text": "Erlaubnis zum Ankern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 34."
         }
       ],
       "provenance": {
@@ -5018,17 +5366,20 @@
         {
           "text": "Wehr",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 41."
         },
         {
           "text": "Stelle zum Auswassern von Schiffen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Ankern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 34."
         }
       ],
       "provenance": {
@@ -5061,17 +5412,20 @@
         {
           "text": "Sturmwarnung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 61."
         },
         {
           "text": "Ankerverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 10."
         },
         {
           "text": "Ende eines Verbotes oder Gebotes",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5104,17 +5458,20 @@
         {
           "text": "Erlaubnis zum Wasserskifahren",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 36."
         },
         {
           "text": "Hochspannungs-Freileitung",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Oder",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 28."
         }
       ],
       "provenance": {
@@ -5147,17 +5504,20 @@
         {
           "text": "Anhalten zwecks Zollabfertigung",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot der Durchfahrt",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Empfohlene Durchfahrt bei Brücken",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5190,17 +5550,20 @@
         {
           "text": "Durch einen Kegel mit der Spitze nach unten, rot bemalt oder unbemalt",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Durch einen Kegel mit der Spitze nach oben, grün bemalt",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Durch einen Zylinder, rot bemalt",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5233,17 +5596,20 @@
         {
           "text": "Verbot des Fahrens mit Segelschiffen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zur Durchfahrt",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 32."
         },
         {
           "text": "Festmacheverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 11."
         }
       ],
       "provenance": {
@@ -5276,17 +5642,20 @@
         {
           "text": "Roter Zylinder und grüner Kegel mit der Spitze nach oben",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Grüner Zylinder und roter Kegel mit der Spitze nach unten",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Roter Kegel mit der Spitze nach unten und grüner Zylinder",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5319,17 +5688,20 @@
         {
           "text": "Ein Zylinder",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein Kegel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein Kegel mit der Spitze nach unten",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5362,17 +5734,20 @@
         {
           "text": "Grüne Kegel",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Rote Zylinder",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Rote Kegel mit der Spitze nach unten",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5405,17 +5780,20 @@
         {
           "text": "Zwei übereinander angebrachte Kegel, beide mit der Spitze nach oben",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Zwei übereinander angebrachte Kegel, beide mit der Spitze nach unten",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Zwei Kegel, der untere mit der Spitze nach unten, der obere mit der Spitze nach oben",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5448,17 +5826,20 @@
         {
           "text": "Im nördlichen und im westlichen Quadrant",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Im östlichen und im südlichen Quadrant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Im nördlichen und im östlichen Quadrant",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5491,17 +5872,20 @@
         {
           "text": "Hochspannungs-Freileitung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 45."
         },
         {
           "text": "Verbot des Fahrens mit Segelbrettern",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 33."
         }
       ],
       "provenance": {
@@ -5534,17 +5918,20 @@
         {
           "text": "Gebot, ein Schallzeichen zu geben",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 21."
         },
         {
           "text": "Hochspannungs-Freileitung",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 45."
         },
         {
           "text": "Starkwindwarnung",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5577,17 +5964,20 @@
         {
           "text": "Erlaubnis zum Wasserskifahren",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 36."
         },
         {
           "text": "Sturmwarnung",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Gebot, ein Schallzeichen zu geben",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 21."
         }
       ],
       "provenance": {
@@ -5620,17 +6010,20 @@
         {
           "text": "Ende eines Verbotes oder Gebotes",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 44."
         },
         {
           "text": "Blaues Blinklicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 31."
         },
         {
           "text": "Überholverbot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5663,17 +6056,20 @@
         {
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 24."
         },
         {
           "text": "Verbot des Begegnens und Überholens",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Stelle zum Einwassern von Schiffen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 42."
         }
       ],
       "provenance": {
@@ -5706,17 +6102,20 @@
         {
           "text": "Verbotenes Stillliegen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Blaues Blinklicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 31."
         },
         {
           "text": "Verbot des Fahrens mit Segelbrettern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 6."
         }
       ],
       "provenance": {
@@ -5749,17 +6148,20 @@
         {
           "text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Nur ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Seitenlichter und Hecklicht in einem Dreifarben-Topplicht an der Mastspitze",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5792,17 +6194,20 @@
         {
           "text": "Topplicht weiss; Seitenlichter und Hecklicht vereint in einem Dreifarben-Topplicht an oder nahe der Mastspitze",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Topplicht weiss, getrennte Seitenlichter grün und rot, separates weisses Hecklicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nur ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5835,17 +6240,20 @@
         {
           "text": "Ein weisses gewöhnliches Licht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein Dreifarben-Topplicht an der Mastspitze",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5878,17 +6286,20 @@
         {
           "text": "Topplicht und Hecklicht, je ein weisses gewöhnliches Licht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Seitenlichter grün und rot sowie ein weisses Hecklicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5921,17 +6332,20 @@
         {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5964,17 +6378,20 @@
         {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein grüner Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein blaues Blitzlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6007,17 +6424,20 @@
         {
           "text": "Seitenlichter grün und rot, Hecklicht weiss",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Seitenlichter rot und weiss, Hecklicht grün",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Seitenlichter grün und rot, Hecklicht ebenfalls grün",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6050,17 +6470,20 @@
         {
           "text": "Ein Dreifarben-Topplicht an oder nahe an der Mastspitze",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Getrennte Seitenlichter grün und rot mit weissem Topplicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6093,17 +6516,20 @@
         {
           "text": "Zusätzliche Nachtbezeichung der Fahrgastschiffe mit Vorrang in Fahrt",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Liegeverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 6."
         },
         {
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 18."
         }
       ],
       "provenance": {
@@ -6136,17 +6562,20 @@
         {
           "text": "Schwenken eines roten Lichtes und/oder Abgabe des vorgeschriebenen Schallzeichens",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Zwei schwarze Bälle übereinander, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein blaues Blitzlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6179,17 +6608,20 @@
         {
           "text": "Zwei rote Rundumlichter mindestens 1 m übereinander, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Schwenken eines weissen Lichtes",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein grüner Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6222,17 +6654,20 @@
         {
           "text": "Ein weisses gewöhnliches Licht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein rotes gewöhnliches Licht über einem weissen gewöhnlichen Licht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein gelber Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6265,17 +6700,20 @@
         {
           "text": "Ein rotes gewöhnliches Licht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein rotes und ein weisses gewöhnliches Licht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6308,17 +6746,20 @@
         {
           "text": "Bojen mit weissem gewöhnlichem Licht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Bojen mit gelbem gewöhnlichem Licht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Bojen mit rotem gewöhnlichem Licht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6351,17 +6792,20 @@
         {
           "text": "Grüner Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Gelber Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Zwei schwarze Bälle übereinander",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6394,17 +6838,20 @@
         {
           "text": "Schwenken einer roten Flagge und/oder Abgabe des vorgeschriebenen Schallzeichens",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Zwei schwarze Bälle im Abstand von etwa 1 m übereinander",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Grüner Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6437,17 +6884,20 @@
         {
           "text": "Zwei schwarze Bälle im Abstand von etwa 1 m übereinander, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Zwei rote Rundumlichter übereinander",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Schwenken einer roten Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6480,17 +6930,20 @@
         {
           "text": "Eine rote Flagge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Eine rot-weisse Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Eine rote und eine weisse Flagge nebeneinander",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6523,17 +6976,20 @@
         {
           "text": "Ein rotes gewöhnliches Licht und ein weisses gewöhnliches Licht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Nur ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Zwei rote Rundumlichter übereinander",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6566,17 +7022,20 @@
         {
           "text": "Eine rot-weisse Flagge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Eine rote Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Zwei schwarze Bälle übereinander",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6609,17 +7068,20 @@
         {
           "text": "Oder eine rote und eine weisse Flagge",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Festmachen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 20."
         },
         {
           "text": "Erlaubnis zum Segelbrettfahren",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 21."
         }
       ],
       "provenance": {
@@ -6652,17 +7114,20 @@
         {
           "text": "Ein blaues Blitzlicht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein grünes helles Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6695,17 +7160,20 @@
         {
           "text": "Mit der Flagge, Buchstabe «K»",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mit einem blauen Blitzlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mit einer rot-weissen Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6738,17 +7206,20 @@
         {
           "text": "Rotes, kreisförmig geschwenktes Licht",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Schwenken einer roten Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Ein blaues Blitzlicht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6781,17 +7252,20 @@
         {
           "text": "Mit der Tafel, Buchstabe «A»",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mit einem weissen Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mit einer roten Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6824,17 +7298,20 @@
         {
           "text": "Mit der Tafel, Buchstabe «A»",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mit einem gelben Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mit zwei schwarzen Bällen übereinander",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6867,17 +7344,20 @@
         {
           "text": "Weisser Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Gelber Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Grüner Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6910,17 +7390,20 @@
         {
           "text": "Gelber Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Weisser Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Grüner Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6953,17 +7436,20 @@
         {
           "text": "Ein weisses Rundumlicht sowie Seitenlichter grün und rot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Topplicht weiss, Hecklicht weiss, ohne Seitenlichter",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nur ein Dreifarben-Topplicht an der Mastspitze",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6996,17 +7482,20 @@
         {
           "text": "Ein weisses Rundumlicht sowie Seitenlichter grün und rot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ein einzelnes weisses gewöhnliches Licht",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Topplicht weiss und ein weisses Hecklicht ohne Seitenlichter",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7039,17 +7528,20 @@
         {
           "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 10."
         },
         {
           "text": "Gebot, besondere Vorsicht walten zu lassen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 16."
         },
         {
           "text": "Verbot der Durchfahrt",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7082,17 +7574,20 @@
         {
           "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot des Drachensegelbrettfahrens",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 13."
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
         }
       ],
       "provenance": {
@@ -7125,17 +7620,20 @@
         {
           "text": "Erlaubnis zum Ankern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 19."
         },
         {
           "text": "Verbot des Segelbrettfahrens",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
         }
       ],
       "provenance": {
@@ -7168,17 +7666,20 @@
         {
           "text": "Verbot des Segelbrettfahrens",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 11."
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
         },
         {
           "text": "Badeverbot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7211,17 +7712,20 @@
         {
           "text": "Erlaubnis zum Ankern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 19."
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
         },
         {
           "text": "Verbot des Drachensegelbrettfahrens",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7254,17 +7758,20 @@
         {
           "text": "Liegeverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 6."
         },
         {
           "text": "Gebot, die durch den Pfeil angezeigte Richtung einzuschlagen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Festmachen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 20."
         }
       ],
       "provenance": {
@@ -7297,17 +7804,20 @@
         {
           "text": "Erlaubnis zum Ankern",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 19."
         },
         {
           "text": "Erlaubnis zum Drachensegelbrettfahren",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 22."
         },
         {
           "text": "Gebot, die in km/h angegebene Geschwindigkeit nicht zu überschreiten",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7340,17 +7850,20 @@
         {
           "text": "Gebot, besondere Vorsicht walten zu lassen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Liegeverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 6."
         },
         {
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 18."
         }
       ],
       "provenance": {
@@ -7383,17 +7896,20 @@
         {
           "text": "Erlaubnis zum Fahren mit Wasserskis oder ähnlichen Geräten",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Oder eine rote und eine weisse Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang I – fig. 34."
         },
         {
           "text": "Ankerverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 7."
         }
       ],
       "provenance": {
@@ -7426,17 +7942,20 @@
         {
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot der Durchfahrt",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 1."
         },
         {
           "text": "Überholverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 5."
         }
       ],
       "provenance": {
@@ -7469,17 +7988,20 @@
         {
           "text": "Erlaubnis zum Ankern",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Oder eine rote und eine weisse Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang I – fig. 34."
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
         }
       ],
       "provenance": {
@@ -7512,17 +8034,20 @@
         {
           "text": "Erlaubnis zum Festmachen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 20."
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Festmacheverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 8."
         }
       ],
       "provenance": {
@@ -7555,17 +8080,20 @@
         {
           "text": "Erlaubnis zum Festmachen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot des Drachensegelbrettfahrens",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 13."
         },
         {
           "text": "Erlaubnis zum Segelbrettfahren",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 21."
         }
       ],
       "provenance": {
@@ -7598,17 +8126,20 @@
         {
           "text": "Liegeverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 6."
         },
         {
           "text": "Erlaubnis zum Segelbrettfahren",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Festmachen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 20."
         }
       ],
       "provenance": {
@@ -7641,17 +8172,20 @@
         {
           "text": "Erlaubnis zum Drachensegelbrettfahren",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 10."
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
         }
       ],
       "provenance": {
@@ -7684,17 +8218,20 @@
         {
           "text": "Oder eine rote und eine weisse Flagge",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang I – fig. 34."
         },
         {
           "text": "A. 2 Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Liegeverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 6."
         }
       ],
       "provenance": {
@@ -7727,17 +8264,20 @@
         {
           "text": "Badeverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 12."
         },
         {
           "text": "Verbot des Wasserskifahrens oder des Fahrens mit ähnlichen Geräten",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Drachensegelbrettfahren",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 22."
         }
       ],
       "provenance": {
@@ -7770,17 +8310,20 @@
         {
           "text": "Überholverbot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 10."
         },
         {
           "text": "Erlaubnis zum Segelbrettfahren",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 21."
         }
       ],
       "provenance": {
@@ -7813,17 +8356,20 @@
         {
           "text": "Überholverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 5."
         },
         {
           "text": "Liegeverbot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot des Segelbrettfahrens",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 11."
         }
       ],
       "provenance": {
@@ -7856,17 +8402,20 @@
         {
           "text": "Ankerverbot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
         },
         {
           "text": "Gebot, besondere Vorsicht walten zu lassen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 16."
         }
       ],
       "provenance": {
@@ -7899,17 +8448,20 @@
         {
           "text": "Verbot des Segelbrettfahrens",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 11."
         },
         {
           "text": "Festmacheverbot",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Verbot des Drachensegelbrettfahrens",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 13."
         }
       ],
       "provenance": {
@@ -7942,17 +8494,20 @@
         {
           "text": "Gebot, besondere Vorsicht walten zu lassen",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 16."
         },
         {
           "text": "Liegeverbot",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 6."
         },
         {
           "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7985,17 +8540,20 @@
         {
           "text": "Bei der Halse geht das Fahrzeug mit dem Heck durch den Wind",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Bei der Halse geht das Fahrzeug mit dem Bug durch den Wind",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Die Halse ist immer ohne Kursänderung möglich",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8028,17 +8586,20 @@
         {
           "text": "Auf dem Tragflächeneffekt, ähnlich wie bei den Tragflächen eines Flugzeugs",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Allein auf dem Widerstand des Windes auf die Segel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Auf dem Rückstoß des am Segel vorbeiströmenden Windes",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8071,17 +8632,20 @@
         {
           "text": "Es wird kein Vortrieb mehr erzeugt und die Segel killen (flattern)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Das Boot erreicht vor dem Wind seine Höchstgeschwindigkeit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Es wird automatisch eine Patenthalse ausgelöst",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8114,17 +8678,20 @@
         {
           "text": "Sofort die Spinnakerschoten loswerfen, um den Druck zu reduzieren",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Einen Achtknoten in die Spinnakerschoten stecken",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Das Ruder hart anluven und den Kurs halten",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8157,17 +8724,20 @@
         {
           "text": "Das Schiff geht mit dem Bug durch den Wind; der Wind kommt kurzzeitig von vorne",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Das Schiff geht mit dem Heck durch den Wind",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Der Kurs bleibt während des Manövers unverändert",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {

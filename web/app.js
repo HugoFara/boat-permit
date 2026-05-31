@@ -28,6 +28,88 @@ let state = null;          // current run
 
 const T = (key, vars) => t(LANG, key, vars);
 
+/* --- Practice learning aids (recall-first, diagnostics, spacing, confidence) --
+ * Everything here is client-side and offline: the toggles and the per-question
+ * history live in localStorage. EXAM MODE IS UNTOUCHED — these only shape the
+ * free-practice experience, so the timed mock keeps mirroring the real test. */
+let PRACTICE = { recallFirst: false, confidence: false, spaced: false };
+let HISTORY = {};          // qid -> {box, seen, ok, ko, last, hc}
+
+function loadPractice() {
+  try { PRACTICE = Object.assign(PRACTICE, JSON.parse(localStorage.getItem("practice") || "{}")); }
+  catch (e) { /* keep defaults */ }
+}
+function togglePractice(key) {
+  PRACTICE[key] = !PRACTICE[key];
+  try { localStorage.setItem("practice", JSON.stringify(PRACTICE)); } catch (e) {}
+  renderStudySettings();
+}
+
+function loadHistory() {
+  try { HISTORY = JSON.parse(localStorage.getItem("history") || "{}") || {}; }
+  catch (e) { HISTORY = {}; }
+}
+function saveHistory() {
+  try { localStorage.setItem("history", JSON.stringify(HISTORY)); } catch (e) {}
+}
+
+/* Leitner schedule: a card sits in a box whose interval (days) grows as it's
+ * answered right; a wrong answer drops it back to box 0 (daily). box index ->
+ * days until due. */
+const LEITNER_DAYS = [0, 1, 3, 7, 16, 35];
+const DAY_MS = 86400000;
+
+/* Fold one answered question into the history. `sure` flags a *confident* answer:
+ * a confident-but-wrong card becomes a "leech" (hc) and jumps the review queue —
+ * those are the dangerous-on-the-water errors and they stick once corrected. */
+function recordResult(qid, correct, sure) {
+  const h = HISTORY[qid] || { box: 0, seen: 0, ok: 0, ko: 0, last: 0, hc: false };
+  h.seen++;
+  if (correct) { h.ok++; h.box = Math.min(h.box + 1, LEITNER_DAYS.length - 1); h.hc = false; }
+  else { h.ko++; h.box = 0; if (sure) h.hc = true; }
+  h.last = Date.now();
+  HISTORY[qid] = h;
+}
+
+/* Review urgency for spaced ordering. Higher = sooner. New cards sit mid-pack
+ * (learn new material, but resurface confident errors first); not-yet-due cards
+ * sink below new ones. */
+function dueScore(q) {
+  const h = HISTORY[q.id];
+  if (!h || !h.seen) return 100;                       // never seen
+  const overdueDays = (Date.now() - (h.last + LEITNER_DAYS[h.box] * DAY_MS)) / DAY_MS;
+  let s = overdueDays >= 0 ? 200 + overdueDays : -50 + overdueDays;  // due rank above new
+  if (h.hc) s += 1000;                                 // confident-wrong leech: first
+  else if (h.box === 0 && h.ko) s += 60;               // recently wrong
+  return s;
+}
+
+/* Spaced + interleaved practice order: rank the whole pool by urgency, then round-
+ * robin across themes so consecutive questions rarely share a theme (interleaving
+ * sharpens the signal discrimination this domain lives on). */
+function drawSpaced(questions) {
+  const ranked = questions.slice().sort((a, b) => dueScore(b) - dueScore(a));
+  const byTheme = {};
+  for (const q of ranked) (byTheme[q.theme] ||= []).push(q);   // preserves urgency order
+  const themes = Object.keys(byTheme);
+  const out = [];
+  let progress = true;
+  while (out.length < ranked.length && progress) {
+    progress = false;
+    for (const tk of themes) {
+      if (byTheme[tk].length) { out.push(byTheme[tk].shift()); progress = true; }
+    }
+  }
+  return out;
+}
+
+/* How many practice questions are due right now (drives the start-screen hint). */
+function dueCount(questions) {
+  let n = 0;
+  for (const q of questions) if (dueScore(q) >= 100) n++;
+  return n;
+}
+
 /* Country/option-specific chrome (title, subtitle, banners…) can override the
  * built-in Swiss UI strings via the bank meta (ui_* keys), so one shared player
  * serves Switzerland and France. Falls back to the i18n table when absent. */
@@ -291,6 +373,37 @@ function renderAnki() {
     <span class="fine">${T("ankiHint")}</span>`;
 }
 
+/* Practice-learning toggles, built in JS and inserted into the start screen so no
+ * per-country index.html needs to change. Each toggle persists in localStorage
+ * and only affects free practice (labelled as such). */
+function renderStudySettings() {
+  let box = $("study-settings");
+  if (!box) {
+    const start = $("screen-start");
+    const anchor = start.querySelector(".actions");
+    if (!start || !anchor) return;
+    box = document.createElement("div");
+    box.id = "study-settings";
+    box.className = "domains-block study-settings";
+    start.insertBefore(box, anchor);
+  }
+  const opt = (key, label, hint) =>
+    `<button class="toggle ${PRACTICE[key] ? "on" : ""}" data-key="${key}"
+      aria-pressed="${PRACTICE[key]}" title="${escapeHtml(hint)}">
+      <span class="tsw"></span>${escapeHtml(label)}</button>`;
+  box.innerHTML =
+    `<span class="domains-label">${escapeHtml(T("studySettings"))}</span>
+     <div class="domains">
+       ${opt("recallFirst", T("optRecall"), T("optRecallHint"))}
+       ${opt("confidence", T("optConfidence"), T("optConfidenceHint"))}
+       ${opt("spaced", T("optSpaced"), T("optSpacedHint"))}
+     </div>
+     <p class="fine">${escapeHtml(T("practiceOnly"))}</p>`;
+  box.querySelectorAll(".toggle").forEach((b) => {
+    b.onclick = () => togglePractice(b.dataset.key);
+  });
+}
+
 /* --- Per-canton variance ----------------------------------------------------
  * The exam is intercantonally standardised (VKS): only the time limit varies by
  * canton. The build stamps a default; here the learner can pick their canton so
@@ -529,6 +642,7 @@ function renderStart() {
   renderDomains();
   if (blocksMode()) renderPermits(); else renderCantons();
   renderPermitPicker();                 // CH: own slot, no-op for DE/FR/INT
+  renderStudySettings();                // practice-learning toggles
   renderAnki();
 
   const avail = bankForRun().length;          // questions in the chosen domains
@@ -543,7 +657,8 @@ function renderStart() {
       <div><b>${T("cfgDuration")}</b> ${examMinutes()} ${T("minUnit")}</div>
       <div><b>${T("cfgSuccess")}</b> ${CFG.passPoints}/${CFG.totalPoints} ${T("points")}</div>
       <div><b>${T("cfgScale")}</b> ${T("ptsPerQuestion", { n: CFG.pointsPer })} · ${escapeHtml(cantonLabel())}</div>
-      <div><b>${T("cfgAvailable")}</b> ${T("availableQuestions", { n: avail })}</div>`;
+      <div><b>${T("cfgAvailable")}</b> ${T("availableQuestions", { n: avail })}</div>
+      ${PRACTICE.spaced ? `<div><b>${T("cfgDue")}</b> ${T("dueQuestions", { n: dueCount(bankForRun()) })}</div>` : ""}`;
   }
   $("meta-foot").textContent =
     `${META.generated || ""} · KB ${META.kb_version || ""} · ${T("availableQuestions", { n: BANK.length })}`;
@@ -558,6 +673,8 @@ async function boot() {
   LANG = detectLang();
   document.documentElement.lang = LANG;
   document.addEventListener("keydown", onKeydown);
+  loadPractice();
+  loadHistory();
   await loadManifest();
   restorePool();                        // POOL must be set before loadContent reads it
   // Clamp to a language this build actually offers (France ships only FR/EN).
@@ -620,11 +737,15 @@ function startRun(mode) {
       if (ext.size) pool = pool.filter((q) => !ext.has(q.theme));
     }
     const n = Math.min(CFG.questions, pool.length);
-    questions = mode === "practice" ? shuffle(pool.slice()) : drawBalanced(pool.slice(), n);
+    questions = mode === "practice"
+      ? (PRACTICE.spaced ? drawSpaced(pool.slice()) : shuffle(pool.slice()))
+      : drawBalanced(pool.slice(), n);
   }
   state = {
     mode, questions, i: 0,
     answers: {},               // id -> array of selected indices
+    committed: {},             // id -> true once options revealed (recall-first)
+    confidence: {},            // id -> "sure" | "unsure" (confidence capture)
     revealed: false,
     startedAt: Date.now(),
     deadline: mode === "exam" ? Date.now() + examMinutes() * 60000 : null,
@@ -655,10 +776,20 @@ function renderQuestion() {
     </label>`;
   }).join("");
 
+  // Recall-first (practice): keep the options veiled until the learner commits,
+  // turning recognition into active recall (the generation effect). Confidence
+  // capture rides alongside, feeding the hypercorrection queue.
+  const practiceMode = state.mode === "practice";
+  const gated = practiceMode && PRACTICE.recallFirst && !state.committed[q.id];
+  const showConf = practiceMode && PRACTICE.confidence;
+
   $("question").innerHTML = `${fig}
     <div class="stem">${escapeHtml(q.stem)}</div>
+    ${gated ? `<div class="recall-gate"><p>${escapeHtml(T("recallPrompt"))}</p>
+      <textarea id="recall-jot" rows="2" placeholder="${escapeHtml(T("recallJot"))}"></textarea></div>` : ""}
     <div class="hint">${escapeHtml(S("ui_multihint", "multiHint"))} ${escapeHtml(T("kbdHint"))}</div>
-    <div id="choices">${choices}</div>
+    <div id="choices" class="${gated ? "veiled" : ""}">${choices}</div>
+    ${showConf ? confidenceHtml(q) : ""}
     <div id="explain-slot"></div>`;
 
   state.revealed = false;
@@ -666,13 +797,49 @@ function renderQuestion() {
     el.querySelector("input").onchange = (ev) =>
       applySelection(q, +el.dataset.idx, ev.target.checked);
   });
+  if (showConf) wireConfidence(q);
 
   const last = state.i === total - 1;
-  if (state.mode === "practice") {
+  if (gated) {
+    setAction(T("recallReveal"));
+  } else if (practiceMode) {
     setAction(T("btnValidate"));
   } else {
     setAction(last ? T("btnFinish") : T("btnNext"));
   }
+}
+
+/* Confidence picker (practice): a quick "sure / not sure" before validating.
+ * Confident-but-wrong answers are flagged as leeches and resurface first. */
+function confidenceHtml(q) {
+  const c = state.confidence[q.id];
+  const btn = (v, lbl) =>
+    `<button type="button" class="conf ${c === v ? "on" : ""}" data-conf="${v}"
+       aria-pressed="${c === v}">${escapeHtml(lbl)}</button>`;
+  return `<div class="confidence"><span class="conf-q">${escapeHtml(T("confAsk"))}</span>
+    ${btn("sure", T("confSure"))}${btn("unsure", T("confUnsure"))}</div>`;
+}
+function wireConfidence(q) {
+  $("question").querySelectorAll(".conf").forEach((b) => {
+    b.onclick = () => {
+      if (state.revealed) return;
+      state.confidence[q.id] = b.dataset.conf;
+      $("question").querySelectorAll(".conf").forEach((x) => {
+        const on = x.dataset.conf === b.dataset.conf;
+        x.classList.toggle("on", on); x.setAttribute("aria-pressed", on);
+      });
+    };
+  });
+}
+
+/* Reveal the options the learner committed to (recall-first), without scoring. */
+function commitRecall(q) {
+  state.committed[q.id] = true;
+  const ch = $("choices");
+  if (ch) ch.classList.remove("veiled");
+  const gate = $("question").querySelector(".recall-gate");
+  if (gate) gate.classList.add("done");
+  setAction(T("btnValidate"));
 }
 
 /* Update the selected-index list + the checkbox for one choice. Shared by the
@@ -688,6 +855,8 @@ function applySelection(q, idx, checked) {
 function toggleChoice(idx) {
   if (!state || state.revealed) return;
   const q = state.questions[state.i];
+  // No toggling while the options are still veiled behind the recall gate.
+  if (state.mode === "practice" && PRACTICE.recallFirst && !state.committed[q.id]) return;
   if (idx < 0 || idx >= q.choices.length) return;
   const el = $("question").querySelector(`.choice[data-idx="${idx}"]`);
   if (!el) return;
@@ -713,6 +882,11 @@ function onKeydown(e) {
 
 function onAction() {
   const q = state.questions[state.i];
+  // Recall-first: the first action reveals the options, not the answer.
+  if (state.mode === "practice" && PRACTICE.recallFirst && !state.committed[q.id]) {
+    commitRecall(q);
+    return;
+  }
   if (state.mode === "practice" && !state.revealed) {
     revealAnswer(q);
     state.revealed = true;
@@ -737,7 +911,44 @@ function revealAnswer(q) {
     if (correct.has(idx)) el.classList.add("correct");
     else if (sel.has(idx)) el.classList.add("wrong");
   });
-  $("explain-slot").innerHTML = explainHtml(q);
+  annotateChoices(q, sel, correct);
+  $("question").querySelectorAll(".conf").forEach((b) => (b.disabled = true));
+  // Learn from this answer: a confident-but-wrong pick becomes a leech (hc).
+  recordResult(q.id, scoreQuestion(q) > 0, state.confidence[q.id] === "sure");
+  saveHistory();
+  $("explain-slot").innerHTML = diagnosticHtml(q, sel, correct) + explainHtml(q);
+}
+
+/* Diagnostic distractor feedback: attach each choice's authored rationale (why
+ * that option is what it is) under the correct answer and any option the learner
+ * picked. Figures ship a sourced pointer per distractor; prose may be empty, in
+ * which case the chosen-vs-correct contrast below still teaches the difference. */
+function annotateChoices(q, sel, correct) {
+  $("question").querySelectorAll(".choice").forEach((el) => {
+    const idx = +el.dataset.idx;
+    const c = q.choices[idx] || {};
+    const isC = correct.has(idx), picked = sel.has(idx);
+    if (c.rationale && (isC || picked)) {
+      const d = document.createElement("div");
+      d.className = "choice-why " + (isC ? "ok" : "no");
+      d.textContent = c.rationale;
+      el.appendChild(d);
+    }
+  });
+}
+
+/* The "you chose X, the answer is Y" contrast — the highest-value, zero-data part
+ * of diagnostic feedback. Only shown when the learner missed it. */
+function diagnosticHtml(q, sel, correct) {
+  if (!correct.size) return "";
+  const wrong = [...sel].filter((i) => !correct.has(i));
+  const missed = [...correct].filter((i) => !sel.has(i));
+  if (!wrong.length && !missed.length) return "";          // fully correct
+  const txt = (i) => "« " + escapeHtml((q.choices[i] || {}).text || T("figureTag")) + " »";
+  const yours = wrong.length
+    ? `<div><b>${escapeHtml(T("diagYouChose"))}</b> ${wrong.map(txt).join(", ")}</div>` : "";
+  const good = `<div><b>${escapeHtml(T("diagCorrect"))}</b> ${[...correct].map(txt).join(", ")}</div>`;
+  return `<div class="diag">${yours}${good}</div>`;
 }
 
 function explainHtml(q) {
@@ -760,6 +971,12 @@ function scoreQuestion(q) {
 
 function finish() {
   if (blocksMode()) return finishBlocks();
+  // Practice records each answer at reveal; an exam reveals nothing, so fold its
+  // results into the spaced-repetition history here (confidence unknown → not hc).
+  if (state.mode === "exam") {
+    for (const q of state.questions) recordResult(q.id, scoreQuestion(q) > 0, false);
+    saveHistory();
+  }
   let earned = 0, total = 0;
   for (const q of state.questions) { earned += scoreQuestion(q); total += (q.points || CFG.pointsPer); }
   // The pass mark is the configured threshold for a full sitting, but scaled to
@@ -821,7 +1038,9 @@ function finishBlocks() {
     const ok = scoreQuestion(q) > 0;
     const b = (byBlock[q.block] ||= { ok: 0, n: 0 });
     b.n++; if (ok) { b.ok++; correct++; }
+    if (state.mode === "exam") recordResult(q.id, ok, false);  // practice records at reveal
   }
+  if (state.mode === "exam") saveHistory();
   const mins = Math.round((Date.now() - state.startedAt) / 60000);
 
   let badge = "", rows = "";
@@ -875,14 +1094,19 @@ function reviewItem(q, n) {
   const ok = scoreQuestion(q) > 0;
   const opts = q.choices.map((c, idx) => {
     const isC = (q.correct || []).includes(idx);
-    const cls = isC ? "c" : (sel.has(idx) ? "x" : "");
-    const tag = isC ? " ✓" : (sel.has(idx) ? " ✗ " + T("yourChoice") : "");
-    return `<li class="${cls}">${escapeHtml(c.text || T("figureTag"))}${tag}</li>`;
+    const picked = sel.has(idx);
+    const cls = isC ? "c" : (picked ? "x" : "");
+    const tag = isC ? " ✓" : (picked ? " ✗ " + T("yourChoice") : "");
+    const why = c.rationale && (isC || picked)
+      ? `<div class="choice-why ${isC ? "ok" : "no"}">${escapeHtml(c.rationale)}</div>` : "";
+    return `<li class="${cls}">${escapeHtml(c.text || T("figureTag"))}${tag}${why}</li>`;
   }).join("");
+  const h = HISTORY[q.id];
+  const hc = h && h.hc ? `<div class="hc-flag">${escapeHtml(T("hcError"))}</div>` : "";
   return `<div class="review-item">
     <span class="mark ${ok ? "ok" : "no"}">${ok ? "✓" : "✗"}</span>
     <div class="q">${n + 1}. ${escapeHtml(q.stem)}</div>
-    <ul>${opts}</ul>${explainHtml(q)}</div>`;
+    <ul>${opts}</ul>${hc}${explainHtml(q)}</div>`;
 }
 
 function tick() {

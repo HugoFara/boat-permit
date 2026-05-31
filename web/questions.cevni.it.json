@@ -17,17 +17,20 @@
         {
           "text": "Al ponte o fuori bordo.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Direttamente nel compartimento delle macchine.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nella sentina, sotto la linea di galleggiamento.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -60,17 +63,20 @@
         {
           "text": "Isolati, fissati solidamente e, se necessario, muniti di paratie frangiflutti.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Liberi di muoversi nello scafo per compensare il rollio.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Privi di raccordi accessibili per ragioni di sicurezza.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -103,17 +109,20 @@
         {
           "text": "Sulle imbarcazioni da diporto e sportive motorizzate con potenza di propulsione superiore a 30 kW.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Su tutti i battelli a remi senza eccezioni.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Solo sui battelli a vela con superficie velica inferiore a 15 m2.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -146,17 +155,20 @@
         {
           "text": "Almeno 75 N.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Almeno 750 N.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Almeno 100 N.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -189,17 +201,20 @@
         {
           "text": "Non inferiore a 1,00 m.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Non inferiore a 0,50 m.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Non inferiore a 2,50 m.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -232,17 +247,20 @@
         {
           "text": "L'angolo d'inclinazione trasversale a pieno carico con i carichi esterni indicati può superare liberamente i 15 gradi.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La stabilità è comprovata se l'angolo d'inclinazione trasversale non supera 5 gradi.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Per i momenti di sbandamento deve valere una pressione laterale del vento di 0,25 kN/m2.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -275,17 +293,20 @@
         {
           "text": "Almeno una paratia di collisione e due paratie per il compartimento delle macchine.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Almeno cinque paratie stagne lungo tutto lo scafo.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nessuna paratia, salvo richiesta dell'autorità.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -318,17 +339,20 @@
         {
           "text": "La paratia di collisione può avere porte e boccaporti per facilitare il passaggio.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La paratia di collisione deve essere stagna e andare da sponda a sponda.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La paratia di collisione deve estendersi dal fondo del natante al ponte.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -361,17 +385,20 @@
         {
           "text": "Devono disporre di un piano d'emergenza per mettere tempestivamente in sicurezza le persone a bordo.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Devono rinunciare a trasportare qualsiasi merce a bordo.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Sono esonerate da qualsiasi misura di sicurezza per i passeggeri.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -404,17 +431,20 @@
         {
           "text": "Le disposizioni dell'ordinanza del 14 marzo 1994.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Esclusivamente le norme tecniche della direttiva UE sulle imbarcazioni da diporto.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nessuna disposizione specifica oltre alle regole generali di navigazione.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -447,17 +477,20 @@
         {
           "text": "In una lingua ufficiale svizzera o in inglese.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Esclusivamente nella lingua del Paese di fabbricazione dell'imbarcazione.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Solo in francese o in tedesco, mai in inglese.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -490,17 +523,20 @@
         {
           "text": "L'obbligo di apporre la marcatura CE non viene applicato, ma se è già stata apposta secondo le prescrizioni UE può essere mantenuta.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La marcatura CE è obbligatoria su tutte le imbarcazioni sportive immesse in commercio in Svizzera.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La marcatura CE già apposta secondo le prescrizioni UE deve essere obbligatoriamente rimossa.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -533,17 +569,20 @@
         {
           "text": "Non più di 45 minuti.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Non più di 90 minuti.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Non più di 30 minuti.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -576,17 +615,20 @@
         {
           "text": "2 marinai.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "1 marinaio.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "3 marinai.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -619,17 +661,20 @@
         {
           "text": "In determinati settori a scopo di allenamento.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ovunque sul lago durante il fine settimana.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Soltanto di notte e con buona visibilità.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -662,17 +707,20 @@
         {
           "text": "Possono essere consentite soltanto con l'accordo dell'Ufficio federale dei trasporti.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Possono essere decise autonomamente dal conduttore del natante.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Sono sempre vietate in qualsiasi circostanza.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -705,17 +753,20 @@
         {
           "text": "Fanale d'albero bianco, fanali laterali verde e rosso, fanale di poppa bianco",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Solo un fanale ordinario a luce bianca visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Fanali laterali verde e rosso e fanale di poppa bianco, senza fanale d'albero",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -748,17 +799,20 @@
         {
           "text": "Un fanale d'albero tricolore, collocato sulla punta dell'albero o nelle sue vicinanze",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fanale laterale combinato, collocato nella parte anteriore del natante",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un fanale ordinario a luce bianca, visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -791,17 +845,20 @@
         {
           "text": "Un fanale ordinario a luce bianca",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fanale d'albero tricolore sulla punta dell'albero",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Fanale d'albero bianco con fanali laterali verde e rosso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -834,17 +891,20 @@
         {
           "text": "Un fanale ordinario a luce bianca visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Fanali laterali verde e rosso e un fanale di poppa bianco",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un fanale ordinario a luce gialla visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -877,17 +937,20 @@
         {
           "text": "Un fanale ordinario a luce bianca visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fanale d'albero bianco con fanali laterali verde e rosso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Due fanali visibili per tutto l'orizzonte, uno rosso e uno verde, sovrapposti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -920,17 +983,20 @@
         {
           "text": "Il fanale superiore a luce rossa, quello inferiore a luce verde",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Il fanale superiore a luce verde, quello inferiore a luce rossa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Entrambi i fanali a luce bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -963,17 +1029,20 @@
         {
           "text": "Una luce ordinaria bianca, visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una luce ordinaria rossa sopra una luce ordinaria bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Una luce ordinaria gialla, visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1006,17 +1075,20 @@
         {
           "text": "Un fanale chiaro a luce verde visibile per tutto l'orizzonte, almeno 1 m più in alto del fanale d'albero",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fanale chiaro a luce rossa visibile per tutto l'orizzonte, almeno 1 m più in alto del fanale d'albero",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Una luce ordinaria gialla visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1049,17 +1121,20 @@
         {
           "text": "Una luce ordinaria rossa visibile per tutto l'orizzonte, collocata sopra la luce ordinaria bianca visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una luce ordinaria bianca visibile per tutto l'orizzonte, collocata sopra un'altra luce bianca visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Una luce ordinaria verde visibile per tutto l'orizzonte, collocata sopra la luce bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1092,17 +1167,20 @@
         {
           "text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una bandiera con la metà superiore bianca e la metà inferiore rossa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Due bandiere bianche sovrapposte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1135,17 +1213,20 @@
         {
           "text": "Due bandiere, quella superiore rossa e quella inferiore bianca",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Due bandiere bianche sovrapposte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Due bandiere, quella superiore bianca e quella inferiore rossa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1178,17 +1259,20 @@
         {
           "text": "Una luce ordinaria bianca visibile per tutto l'orizzonte, collocata sopra la luce bianca di stazionamento visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una luce ordinaria rossa visibile per tutto l'orizzonte, collocata sopra la luce bianca di stazionamento",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Una sola luce ordinaria gialla visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1221,17 +1305,20 @@
         {
           "text": "Due bandiere bianche sovrapposte",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Due bandiere, quella superiore rossa e quella inferiore bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1264,17 +1351,20 @@
         {
           "text": "Con luci bianche visibili da tutti i lati che contrassegnano ciascun ancoraggio",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Con luci rosse visibili da tutti i lati che contrassegnano ciascun ancoraggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Con palloni bianchi posti su ciascun ancoraggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1307,17 +1397,20 @@
         {
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 22."
         },
         {
           "text": "Boe gialle che segnalino ciascun ancoraggio",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto per i natanti motorizzati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 3."
         }
       ],
       "provenance": {
@@ -1350,17 +1443,20 @@
         {
           "text": "Luce blu intermittente",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Larghezza limitata del passaggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 24."
         },
         {
           "text": "Obbligo di fermarsi in determinate condizioni",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 19."
         }
       ],
       "provenance": {
@@ -1393,17 +1489,20 @@
         {
           "text": "La bandiera della lettera «K», con la metà lato asta gialla e l'altra metà blu",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La bandiera della lettera «A», con la metà lato asta bianca e l'altra metà blu",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1436,17 +1535,20 @@
         {
           "text": "Una luce ordinaria gialla visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una luce ordinaria bianca visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Una luce ordinaria rossa sopra una luce ordinaria bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1479,17 +1581,20 @@
         {
           "text": "Un pallone bianco",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una bandiera della lettera «A», metà bianca e metà blu",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Due bandiere bianche sovrapposte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1522,17 +1627,20 @@
         {
           "text": "Una tavola della lettera «A» (a due punte), con la metà lato asta bianca e l'altra metà blu",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una bandiera della lettera «K», con la metà lato asta gialla e l'altra metà blu",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1565,17 +1673,20 @@
         {
           "text": "Con una tavola della lettera «A» (metà bianca, metà blu) visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Con un pallone bianco visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Con una luce ordinaria gialla visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1608,17 +1719,20 @@
         {
           "text": "Agitando un fanale",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Agitando un fanale con movimento rotatorio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mostrando una luce ordinaria rossa sopra una bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1651,17 +1765,20 @@
         {
           "text": "Agitare una bandiera rossa",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto per i natanti motorizzati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 3."
         },
         {
           "text": "Fine di un divieto o di un obbligo",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 44."
         }
       ],
       "provenance": {
@@ -1694,17 +1811,20 @@
         {
           "text": "Fanale d'albero (o di prua) bianco, fanali laterali verde e rosso, fanale di poppa bianco",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Solo un fanale ordinario a luce bianca visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Fanale d'albero bianco e, almeno 1 m più in alto, un fanale verde visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1737,17 +1857,20 @@
         {
           "text": "Agitando un fanale con movimento rotatorio",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Agitando un fanale senza movimento rotatorio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mostrando una luce ordinaria rossa fissa visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1780,17 +1903,20 @@
         {
           "text": "Chiusa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 41."
         },
         {
           "text": "Boe gialle che segnalino ciascun ancoraggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 29."
         },
         {
           "text": "Agitare una bandiera rossa oppure un altro oggetto appropriato con movimento rotatorio",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1823,17 +1949,20 @@
         {
           "text": "Alzare e abbassare lentamente le braccia allargate",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Agitare un fanale con movimento rotatorio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Tenere entrambe le braccia immobili sopra la testa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1866,17 +1995,20 @@
         {
           "text": "Lato libero: un fanale ordinario rosso e un fanale ordinario bianco; lato ostacolato: un fanale ordinario rosso",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Lato libero: un fanale ordinario rosso; lato ostacolato: un fanale ordinario rosso e uno bianco",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Lato libero: due fanali ordinari bianchi; lato ostacolato: un fanale ordinario rosso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1909,17 +2041,20 @@
         {
           "text": "Lato libero: bandiera con metà superiore rossa e metà inferiore bianca; lato ostacolato: bandiera rossa",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Lato libero: bandiera rossa; lato ostacolato: bandiera con metà rossa e metà bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Lato libero: bandiera bianca; lato ostacolato: due bandiere bianche sovrapposte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1952,17 +2087,20 @@
         {
           "text": "Lato libero: due bandiere sovrapposte, quella superiore rossa e quella inferiore bianca; lato ostacolato: bandiera rossa",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Lato libero: due bandiere bianche sovrapposte; lato ostacolato: bandiera rossa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Lato libero: bandiera rossa; lato ostacolato: due bandiere rossa e bianca sovrapposte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1995,17 +2133,20 @@
         {
           "text": "Fanale d'albero bianco sul natante di testa, fanali laterali verde e rosso, fanale di poppa bianco",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fanale ordinario a luce bianca visibile per tutto l'orizzonte sul natante di testa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Fanale d'albero tricolore sulla punta dell'albero del natante di testa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2038,17 +2179,20 @@
         {
           "text": "Fanali laterali verde e rosso",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fanale di poppa bianco e un fanale d'albero bianco",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un fanale verde visibile per tutto l'orizzonte posto più in alto",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2081,17 +2225,20 @@
         {
           "text": "Possono essere collocati nella parte anteriore uno accanto all'altro oppure riuniti in un fanale laterale combinato",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Devono essere riuniti in un fanale d'albero tricolore sulla punta dell'albero",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Devono essere sostituiti da un'unica luce ordinaria gialla visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2124,17 +2271,20 @@
         {
           "text": "Divieto di passaggio",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obbligo di ridurre la velocità",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Passaggio raccomandato in entrambi i sensi",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2167,17 +2317,20 @@
         {
           "text": "Divieto d’ancorare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obbligo di fermarsi in determinate condizioni",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 19."
         },
         {
           "text": "Tavole a vela autorizzate",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 37."
         }
       ],
       "provenance": {
@@ -2210,17 +2363,20 @@
         {
           "text": "Divieto d’ormeggiare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di incrociare e sorpassare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 8."
         },
         {
           "text": "Autorizzazione di passaggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
         }
       ],
       "provenance": {
@@ -2253,17 +2409,20 @@
         {
           "text": "Tavole a vela autorizzate",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 37."
         },
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
         },
         {
           "text": "Divieto di virare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2296,17 +2455,20 @@
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Tavole a vela autorizzate",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 37."
         },
         {
           "text": "Divieto di incrociare e sorpassare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 8."
         }
       ],
       "provenance": {
@@ -2339,17 +2501,20 @@
         {
           "text": "Kite surf autorizzati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 38."
         },
         {
           "text": "Divieto di navigare fuori dei limiti indicati",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 11."
         }
       ],
       "provenance": {
@@ -2382,17 +2547,20 @@
         {
           "text": "Divieto d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 11."
         },
         {
           "text": "Divieto di navigare fuori dei limiti indicati",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorizzazione di passaggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
         }
       ],
       "provenance": {
@@ -2425,17 +2593,20 @@
         {
           "text": "Divieto d’accesso, ancorché occorra preparare il proseguimento della rotta",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obbligo di fermarsi in determinate condizioni",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 19."
         },
         {
           "text": "Divieto per i natanti motorizzati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 3."
         }
       ],
       "provenance": {
@@ -2468,17 +2639,20 @@
         {
           "text": "Posto per toglieredall'acqua i natanti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 43."
         },
         {
           "text": "Linea ad alta tensione",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 45."
         },
         {
           "text": "Divieto di balneazione",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2511,17 +2685,20 @@
         {
           "text": "Agitare una bandiera rossa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 39."
         },
         {
           "text": "Raccomandazione di dirigersi nel senso della freccia",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 39."
         },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2554,17 +2731,20 @@
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
         },
         {
           "text": "Luce blu intermittente",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
         },
         {
           "text": "Obbligo di fermarsi in determinate condizioni",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2597,17 +2777,20 @@
         {
           "text": "Divieto di navigare fuori dei limiti indicati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 14."
         },
         {
           "text": "Agitare una bandiera rossa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 39."
         },
         {
           "text": "Obbligo di non superare la velocità indicata in chilometri orari km/h",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2640,17 +2823,20 @@
         {
           "text": "Obbligo di emettere un segnale acustico",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Tavole a vela autorizzate",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 37."
         },
         {
           "text": "Divieto di incrociare e sorpassare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 8."
         }
       ],
       "provenance": {
@@ -2683,17 +2869,20 @@
         {
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 35."
         },
         {
           "text": "Autorizzazione di stazionare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 33."
         }
       ],
       "provenance": {
@@ -2726,17 +2915,20 @@
         {
           "text": "Linea ad alta tensione",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 45."
         },
         {
           "text": "Altezza del passaggio limitata (al di sopra del pelo d’acqua)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Posto per mettere in acqua i natanti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 42."
         }
       ],
       "provenance": {
@@ -2769,17 +2961,20 @@
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 35."
         },
         {
           "text": "Avviso di tempesta",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 60."
         },
         {
           "text": "Larghezza limitata del passaggio",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2812,17 +3007,20 @@
         {
           "text": "La distanza in metri dalla riva alla quale devono tenersi i natanti",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "La velocità massima ammessa in chilometri orari",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La profondità minima dell'acqua in metri",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2855,17 +3053,20 @@
         {
           "text": "Profondità limitata dell’acqua",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
         },
         {
           "text": "Avviso di tempesta",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 60."
         }
       ],
       "provenance": {
@@ -2898,17 +3099,20 @@
         {
           "text": "Passaggio raccomandato sotto i ponti, per la navigazione nei due sensi",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Passaggio raccomandato sotto i ponti, riservato a un solo senso di marcia",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Divieto di passaggio sotto i ponti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2941,17 +3145,20 @@
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 18."
         },
         {
           "text": "Autorizzazione di passaggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
         },
         {
           "text": "Per la navigazione solo nel senso dal quale il segnale è visibile",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2984,17 +3191,20 @@
         {
           "text": "Divieto di stazionare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 9."
         },
         {
           "text": "Per la navigazione solo nel senso dal quale il segnale è visibile",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Fine di un divieto o di un obbligo",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 44."
         }
       ],
       "provenance": {
@@ -3027,17 +3237,20 @@
         {
           "text": "Tavole a vela autorizzate",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 37."
         },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 18."
         },
         {
           "text": "Divieto per i natanti motorizzati",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3070,17 +3283,20 @@
         {
           "text": "Divieto per lo sci nautico",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 4."
         },
         {
           "text": "Raccomandazione di tenersi entro lo spazio indicato con il colore «verde»",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di balneazione",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 17."
         }
       ],
       "provenance": {
@@ -3113,17 +3329,20 @@
         {
           "text": "Obbligo di emettere un segnale acustico",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 21."
         },
         {
           "text": "Posto per mettere in acqua i natanti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 42."
         },
         {
           "text": "Raccomandazione di tenersi entro lo spazio indicato con il colore «verde»",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3156,17 +3375,20 @@
         {
           "text": "Autorizzazione di praticare lo sci nautico",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 36."
         },
         {
           "text": "Autorizzazione di passaggio",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obbligo di fermarsi in determinate condizioni",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 19."
         }
       ],
       "provenance": {
@@ -3199,17 +3421,20 @@
         {
           "text": "Autorizzazione di stazionare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 11."
         },
         {
           "text": "Posto per mettere in acqua i natanti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 42."
         }
       ],
       "provenance": {
@@ -3242,17 +3467,20 @@
         {
           "text": "Autorizzazione di gettare l’ancora",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 18."
         },
         {
           "text": "Luce blu intermittente",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
         }
       ],
       "provenance": {
@@ -3285,17 +3513,20 @@
         {
           "text": "Kite surf autorizzati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 38."
         },
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Fine di un divieto o di un obbligo",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 44."
         }
       ],
       "provenance": {
@@ -3328,17 +3559,20 @@
         {
           "text": "Larghezza limitata del passaggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 24."
         },
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
         },
         {
           "text": "Autorizzazione di praticare lo sci nautico",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3371,17 +3605,20 @@
         {
           "text": "Tavole a vela autorizzate",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Luce blu intermittente",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
         },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 18."
         }
       ],
       "provenance": {
@@ -3414,17 +3651,20 @@
         {
           "text": "Autorizzazione di praticare lo sci nautico",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 36."
         },
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
         },
         {
           "text": "Kite surf autorizzati",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3457,17 +3697,20 @@
         {
           "text": "Raccomandazione di dirigersi nel senso della freccia",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Luce blu intermittente",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
         },
         {
           "text": "Larghezza limitata del passaggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 24."
         }
       ],
       "provenance": {
@@ -3500,17 +3743,20 @@
         {
           "text": "Autorizzazione di passaggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
         },
         {
           "text": "Divieto per lo sci nautico",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 18."
         }
       ],
       "provenance": {
@@ -3543,17 +3789,20 @@
         {
           "text": "Divieto per lo sci nautico",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 4."
         },
         {
           "text": "Autorizzazione di passaggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
         },
         {
           "text": "Chiatta di traghetto che non naviga liberamente",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3586,17 +3835,20 @@
         {
           "text": "Autorizzazione di passaggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
         },
         {
           "text": "Fine di un divieto o di un obbligo",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 44."
         },
         {
           "text": "Chiusa",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3629,17 +3881,20 @@
         {
           "text": "Autorizzazione di stazionare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 33."
         },
         {
           "text": "Posto per mettere in acqua i natanti",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Chiatta di traghetto che non naviga liberamente",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 40."
         }
       ],
       "provenance": {
@@ -3672,17 +3927,20 @@
         {
           "text": "Posto per toglieredall'acqua i natanti",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Avviso di tempesta",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 60."
         },
         {
           "text": "Luce blu intermittente",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
         }
       ],
       "provenance": {
@@ -3715,17 +3973,20 @@
         {
           "text": "Fine di un divieto o di un obbligo",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto per i natanti motorizzati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 3."
         },
         {
           "text": "Posto per mettere in acqua i natanti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 42."
         }
       ],
       "provenance": {
@@ -3758,17 +4019,20 @@
         {
           "text": "Autorizzazione di passaggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
         },
         {
           "text": "Divieto di balneazione",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 17."
         },
         {
           "text": "Linea ad alta tensione",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3801,17 +4065,20 @@
         {
           "text": "Autorizzazione di stazionamento",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di stazionamento",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Obbligo di stazionamento",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3844,17 +4111,20 @@
         {
           "text": "Con un cono con il vertice verso il basso, verniciato in rosso o non verniciato",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Con un cono con il vertice verso l'alto, verniciato in verde",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Con un cilindro verniciato in rosso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3887,17 +4157,20 @@
         {
           "text": "Divieto per i battelli a vela",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di incrociare e sorpassare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 8."
         },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 18."
         }
       ],
       "provenance": {
@@ -3930,17 +4203,20 @@
         {
           "text": "Cilindri verniciati in rosso e coni con il vertice verso l'alto verniciati in verde",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Cilindri verniciati in verde e coni con il vertice verso il basso verniciati in rosso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Coni verniciati in rosso e cilindri verniciati in verde",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3973,17 +4249,20 @@
         {
           "text": "Cilindri sul lato verso il largo e coni sul lato verso terra",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Coni sul lato verso il largo e cilindri sul lato verso terra",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Cilindri su entrambi i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4016,17 +4295,20 @@
         {
           "text": "Coni verdi sul lato destro e cilindri rossi sul lato sinistro, visti dal largo",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Cilindri rossi sul lato destro e coni verdi sul lato sinistro, visti dal largo",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Coni verdi su entrambi i lati, visti dal largo",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4059,17 +4341,20 @@
         {
           "text": "Due coni sovrapposti con i due vertici rivolti verso il basso",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Due coni sovrapposti con i due vertici rivolti verso l'alto",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un solo cono con il vertice rivolto verso il basso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4102,17 +4387,20 @@
         {
           "text": "Due coni sovrapposti con i due vertici rivolti verso l'alto",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Due coni sovrapposti con i due vertici rivolti verso il basso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Due coni sovrapposti con i vertici contrapposti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4145,17 +4433,20 @@
         {
           "text": "Avviso di vento forte",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Boe gialle che segnalino ciascun ancoraggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 29."
         },
         {
           "text": "Luce blu intermittente",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
         }
       ],
       "provenance": {
@@ -4188,17 +4479,20 @@
         {
           "text": "Divieto di navigare con le tavole a vela",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
         },
         {
           "text": "Avviso di tempesta",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 60."
         }
       ],
       "provenance": {
@@ -4231,17 +4525,20 @@
         {
           "text": "Posto per toglieredall'acqua i natanti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 43."
         },
         {
           "text": "Raccomandazione di dirigersi nel senso della freccia",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 39."
         },
         {
           "text": "Avviso di tempesta",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4274,17 +4571,20 @@
         {
           "text": "Divieto di navigare fuori dei limiti indicati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 14."
         },
         {
           "text": "Divieto di sorpasso",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
         }
       ],
       "provenance": {
@@ -4317,17 +4617,20 @@
         {
           "text": "Divieto di incrociare e sorpassare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di stazionare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 9."
         },
         {
           "text": "Luce blu intermittente",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
         }
       ],
       "provenance": {
@@ -4360,17 +4663,20 @@
         {
           "text": "Divieto di stazionare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Raccomandazione di dirigersi nel senso della freccia",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 39."
         },
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 35."
         }
       ],
       "provenance": {
@@ -4403,17 +4709,20 @@
         {
           "text": "Fuoco d'albero bianco, fuochi laterali verde e rosso, fuoco di poppa bianco",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un solo fuoco d'albero tricolore sulla punta dell'albero",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un unico fuoco ordinario bianco visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4446,17 +4755,20 @@
         {
           "text": "In un fuoco d'albero tricolore collocato sulla punta dell'albero o nelle sue vicinanze",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "In un unico fuoco di poppa bianco visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "In un fuoco ordinario bianco a prua",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4489,17 +4801,20 @@
         {
           "text": "Un fuoco ordinario bianco",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fuoco d'albero tricolore",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Fuochi laterali verde e rosso più un fuoco di poppa bianco",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4532,17 +4847,20 @@
         {
           "text": "Un fuoco d'albero bianco ordinario e un fuoco di poppa bianco ordinario",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Fuochi laterali verde e rosso e un fuoco di poppa bianco",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un fuoco d'albero tricolore",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4575,17 +4893,20 @@
         {
           "text": "Un fuoco ordinario bianco visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fuoco d'albero bianco con fuochi laterali verde e rosso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un fuoco ordinario rosso visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4618,17 +4939,20 @@
         {
           "text": "Un fuoco ordinario bianco visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fuoco d'albero tricolore sulla punta dell'albero",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un fuoco d'albero bianco con fuoco di poppa bianco",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4661,17 +4985,20 @@
         {
           "text": "Un fuoco di poppa bianco",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fuoco d'albero bianco",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un fuoco di poppa rosso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4704,17 +5031,20 @@
         {
           "text": "Sulla punta dell'albero o nelle sue vicinanze",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A poppa, sopra il fuoco di poppa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A prua, al livello della coperta",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4747,17 +5077,20 @@
         {
           "text": "Divieto d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 8."
         },
         {
           "text": "Autorizzazione di stazionare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 18."
         },
         {
           "text": "Segnaletica notturna supplementare per le navi passeggeri prioritarie in servizio",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4790,17 +5123,20 @@
         {
           "text": "Due fuochi rossi sovrapposti a distanza di almeno 1 m, visibili da tutti i lati",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un solo fuoco rosso agitato",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Due palloni neri sovrapposti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4833,17 +5169,20 @@
         {
           "text": "Un fuoco ordinario bianco",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fuoco ordinario rosso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un fuoco d'albero tricolore",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4876,17 +5215,20 @@
         {
           "text": "Un fuoco ordinario rosso e un fuoco ordinario bianco",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un solo fuoco ordinario rosso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Due fuochi rossi sovrapposti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4919,17 +5261,20 @@
         {
           "text": "Con boe che portano un fuoco ordinario bianco",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Con boe che portano un fuoco ordinario rosso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Con palloni gialli visibili da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4962,17 +5307,20 @@
         {
           "text": "Un pallone verde visibile da tutti i lati",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un pallone bianco visibile da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pallone giallo visibile da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5005,17 +5353,20 @@
         {
           "text": "Una bandiera rossa agitata e/o il segnale acustico regolamentare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Due palloni neri sovrapposti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pallone verde visibile da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5048,17 +5399,20 @@
         {
           "text": "Due palloni neri sovrapposti a circa 1 m di distanza, visibili da tutti i lati",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un pallone verde visibile da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Una bandiera rossa agitata",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5091,17 +5445,20 @@
         {
           "text": "Con una bandiera rossa",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Con una bandiera rossa e bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Con una bandiera bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5134,17 +5491,20 @@
         {
           "text": "Un fuoco ordinario rosso e un fuoco ordinario bianco",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Due fuochi rossi sovrapposti",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un solo fuoco ordinario bianco",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5177,17 +5537,20 @@
         {
           "text": "O una bandiera rossa e una bandiera bianca",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di balneazione",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 12."
         },
         {
           "text": "Autorizzazione di stazionare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 18."
         }
       ],
       "provenance": {
@@ -5220,17 +5583,20 @@
         {
           "text": "Un fuoco intermittente azzurro",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fuoco intermittente rosso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un fuoco ordinario giallo visibile da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5263,17 +5629,20 @@
         {
           "text": "La bandiera della lettera «K»",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una bandiera rossa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "La tavola della lettera «A»",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5306,17 +5675,20 @@
         {
           "text": "Un fuoco rosso agitato circolarmente",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una bandiera rossa agitata circolarmente",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un fuoco intermittente azzurro",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5349,17 +5721,20 @@
         {
           "text": "Una bandiera rossa o altro oggetto agitati circolarmente",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fuoco rosso agitato circolarmente",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pallone nero visibile da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5392,17 +5767,20 @@
         {
           "text": "Una tavola secondo la lettera «A»",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Una bandiera secondo la lettera «K»",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pallone bianco visibile da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5435,17 +5813,20 @@
         {
           "text": "Una tavola secondo la lettera «A»",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un pallone giallo visibile da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Una bandiera rossa",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5478,17 +5859,20 @@
         {
           "text": "Un pallone bianco visibile da tutti i lati",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un pallone giallo visibile da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pallone verde visibile da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5521,17 +5905,20 @@
         {
           "text": "Un pallone giallo visibile da tutti i lati",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un pallone bianco visibile da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un pallone verde visibile da tutti i lati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5564,17 +5951,20 @@
         {
           "text": "Un fuoco bianco visibile per tutto l'orizzonte più fuochi laterali verde e rosso",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un fuoco d'albero bianco, fuochi laterali e un fuoco di poppa bianco",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un solo fuoco d'albero tricolore",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5607,17 +5997,20 @@
         {
           "text": "Un fuoco bianco visibile per tutto l'orizzonte più fuochi laterali verde e rosso",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Un solo fuoco ordinario bianco visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Un fuoco d'albero bianco e un fuoco di poppa bianco senza fuochi laterali",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5650,17 +6043,20 @@
         {
           "text": "Divieto d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 8."
         },
         {
           "text": "Divieto di passaggio",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Kite surf autorizzati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 22."
         }
       ],
       "provenance": {
@@ -5693,17 +6089,20 @@
         {
           "text": "Autorizzazione di stazionare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 18."
         },
         {
           "text": "Divieto di navigare fuori dai limiti indicati",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto per il kite surf",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 13."
         }
       ],
       "provenance": {
@@ -5736,17 +6135,20 @@
         {
           "text": "Obbligo di non superare la velocità indicata (in km/h",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 15."
         },
         {
           "text": "O una bandiera rossa e una bandiera bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato I – fig. 34."
         },
         {
           "text": "Divieto per le tavole a vela",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5779,17 +6181,20 @@
         {
           "text": "Divieto di balneazione",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Tavole a vela autorizzate",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 21."
         },
         {
           "text": "Autorizzazione di gettare l’ancora",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 19."
         }
       ],
       "provenance": {
@@ -5822,17 +6227,20 @@
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 14."
         },
         {
           "text": "Divieto per il kite surf",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto per le tavole a vela",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 11."
         }
       ],
       "provenance": {
@@ -5865,17 +6273,20 @@
         {
           "text": "Divieto d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 8."
         },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obbligo di non superare la velocità indicata (in km/h",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 15."
         }
       ],
       "provenance": {
@@ -5908,17 +6319,20 @@
         {
           "text": "Divieto di stazionare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 6."
         },
         {
           "text": "Obbligo di non superare la velocità indicata (in km/h",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 20."
         }
       ],
       "provenance": {
@@ -5951,17 +6365,20 @@
         {
           "text": "Divieto per le tavole a vela",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 11."
         },
         {
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Kite surf autorizzati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 22."
         }
       ],
       "provenance": {
@@ -5994,17 +6411,20 @@
         {
           "text": "Autorizzazione di praticare lo sci nautico o di usare apparecchi analoghi",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di balneazione",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 12."
         },
         {
           "text": "Divieto per le navi motorizzate",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 3."
         }
       ],
       "provenance": {
@@ -6037,17 +6457,20 @@
         {
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 16."
         },
         {
           "text": "Autorizzazione di stazionare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obbligo di non superare la velocità indicata (in km/h",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 15."
         }
       ],
       "provenance": {
@@ -6080,17 +6503,20 @@
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 14."
         },
         {
           "text": "Divieto di stazionare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 6."
         },
         {
           "text": "Autorizzazione di gettare l’ancora",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6123,17 +6549,20 @@
         {
           "text": "Due segnali luminosi",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di balneazione",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 12."
         },
         {
           "text": "Divieto per le navi motorizzate",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 3."
         }
       ],
       "provenance": {
@@ -6166,17 +6595,20 @@
         {
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 16."
         },
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di passaggio",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 1."
         }
       ],
       "provenance": {
@@ -6209,17 +6641,20 @@
         {
           "text": "Divieto di gettare l’ancora",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 7."
         },
         {
           "text": "Divieto di balneazione",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 12."
         },
         {
           "text": "Tavole a vela autorizzate",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6252,17 +6687,20 @@
         {
           "text": "Kite surf autorizzati",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Tavole a vela autorizzate",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 21."
         },
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 20."
         }
       ],
       "provenance": {
@@ -6295,17 +6733,20 @@
         {
           "text": "Divieto di balneazione",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 12."
         },
         {
           "text": "Divieto per le navi motorizzate",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "O una bandiera rossa e una bandiera bianca",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato I – fig. 34."
         }
       ],
       "provenance": {
@@ -6338,17 +6779,20 @@
         {
           "text": "Tavole a vela autorizzate",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 21."
         },
         {
           "text": "Kite surf autorizzati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 22."
         },
         {
           "text": "Divieto di praticare lo sci nautico o di usare apparecchi analoghi",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6381,17 +6825,20 @@
         {
           "text": "Autorizzazione di stazionare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 18."
         },
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 20."
         },
         {
           "text": "Divieto di sorpasso",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6424,17 +6871,20 @@
         {
           "text": "Divieto di stazionare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 20."
         },
         {
           "text": "Divieto di navigare fuori dai limiti indicati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 10."
         }
       ],
       "provenance": {
@@ -6467,17 +6917,20 @@
         {
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 16."
         },
         {
           "text": "Divieto di gettare l’ancora",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di sorpasso",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 5."
         }
       ],
       "provenance": {
@@ -6510,17 +6963,20 @@
         {
           "text": "Divieto d’ormeggiare",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 20."
         },
         {
           "text": "Divieto per il kite surf",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 13."
         }
       ],
       "provenance": {
@@ -6553,17 +7009,20 @@
         {
           "text": "Divieto di gettare l’ancora",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 7."
         },
         {
           "text": "Divieto di navigare fuori dai limiti indicati",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Kite surf autorizzati",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 22."
         }
       ],
       "provenance": {

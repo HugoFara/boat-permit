@@ -17,17 +17,20 @@
         {
           "text": "To the ordinance of 14 March 1994 on the construction of vessels (OCEB).",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "To the Inland Navigation Ordinance (ONI) itself.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "To the Navigation Regulations for Lake Geneva (RNL).",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -60,17 +63,20 @@
         {
           "text": "The \"duty of diligence\" is defined in ONI art. 142 without reference to another ordinance.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The \"safety report\" is a report within the meaning of art. 2, let. e, and art. 17, para. 3, OCEB.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The \"expert examination report\" is a report within the meaning of art. 2, let. f, OCEB.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -103,17 +109,20 @@
         {
           "text": "As the persons referred to in art. 5a, para. 1, let. a, OCEB.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "As the officers of the competent authority of the place of mooring.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "As the members of a recognized classification society.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -146,17 +155,20 @@
         {
           "text": "An assembly of non-propelled vessels joined together into a rigid unit, pushed by at least one motorised vessel",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An assembly of non-propelled vessels towed by at least one motorised vessel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Any group of pleasure craft navigating together",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -189,17 +201,20 @@
         {
           "text": "A vessel with mechanical propulsion",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A non-propelled vessel towed by another vessel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A floating device such as a dredger or a crane",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -232,17 +247,20 @@
         {
           "text": "Yes, it also covers any other conditions limiting visibility in the same manner.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No, only the conditions specifically cited (mist, fog, etc.) are covered.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Yes, but only conditions caused by smoke from a fire.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -275,17 +293,20 @@
         {
           "text": "Any navigation, by day as by night, in mist, fog, drizzle, snow or heavy squalls with rain.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Only navigation at night in thick fog.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Only navigation by day when the rain is accompanied by strong wind.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -318,17 +339,20 @@
         {
           "text": "Navigation in restricted visibility applies only to navigation at night.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Navigation in snowy weather is considered navigation in restricted visibility.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Navigation in drizzly weather is considered navigation in restricted visibility.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -361,17 +385,20 @@
         {
           "text": "It is easy to undo, even when wet and after having been subjected to a very strong pull or to tightening caused by drying out.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It becomes impossible to undo as soon as it gets wet.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It can only be adjusted by applying strong tension to the standing part.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -404,17 +431,20 @@
         {
           "text": "The stronger the tension, the more it locks, while still untying just as easily.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The stronger the tension, the more it tends to slip and come undone.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Tension has no effect on its locking, which depends on an intermediate mechanical system.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -447,17 +477,20 @@
         {
           "text": "Bowline knot (nœud de bouline).",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Clove hitch.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Hangman's knot.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -490,17 +523,20 @@
         {
           "text": "It is a reliable loop knot that does not slip under tension and unties easily even after strong tension.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It is the only knot that is impossible to untie once tightened.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It can only be made with a specialized tool and with two hands.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -533,17 +569,20 @@
         {
           "text": "It is a reliable loop knot that does not slip under tension and unties easily",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It tightens more and more under tension until it becomes impossible to untie",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It is used only to join two ropes of the same diameter",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -576,17 +615,20 @@
         {
           "text": "There are several methods for making it, up to 18 including the variants.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Only two classic methods are recognized for teaching, knitted or prepared.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A single unique method of making it is accepted throughout the world.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -620,17 +662,20 @@
         {
           "text": "It can be easily undone if the loop is free, but tightens around the restraint under the weight of the hanged person.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It can never be undone, whether the loop is free or restrained.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It loosens automatically as soon as weight is applied to the loop.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -663,17 +708,20 @@
         {
           "text": "A curved portion of rope, with no crossing or overlapping.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A tight crossing of two rope ends.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A rope braided from three metal strands.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -706,17 +754,20 @@
         {
           "text": "The bowline retains an exceptional strength of 89%, whereas the clove hitch halves it.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The clove hitch retains 89% of the strength, against half for the bowline.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Both knots reduce the rope's strength by exactly half.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -749,17 +800,20 @@
         {
           "text": "The strength of the knot, in particular whether or not it weakens the rope in case of violent jerks.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The color of the rope used to make it.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The purchase price of the cord.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -792,17 +846,20 @@
         {
           "text": "The art of knots mainly developed in sailing vessels and then in sport or leisure boating.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Knots have never been used outside the maritime domain.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Knowledge of knots has become completely useless since the appearance of specialized equipment.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -835,17 +892,20 @@
         {
           "text": "The intertwining or interlacing of one or more ropes or other flexible, thread-like objects.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Exclusively the interlacing of two rigid metal cables.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An assembly of planks intended to reinforce a hull.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -878,17 +938,20 @@
         {
           "text": "Boat landing area",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The width of the passage is limited",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Strong wind warning",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -921,17 +984,20 @@
         {
           "text": "Storm warning",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Dam",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Strong wind warning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -956,6 +1022,328 @@
       ]
     },
     {
+      "id": "q-voilewp-voilealluremarineleventarrière-e-3ffa3208",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "What is observed on a running point of sail (dead downwind)?",
+      "choices": [
+        {
+          "text": "Rolling increases and an (accidental) gybe threatens",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Speed becomes maximal, higher than on a broad reach",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The sailboat can no longer make headway because it is head to wind",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__allure_marine__le_vent_arrière-e1125cb6",
+        "ref": "Voile — Allure (marine) : Le vent arrière",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Allure_(marine)",
+        "as_of": "223790627",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "On a run the airflow over the sails is disturbed: speed drops compared with a broad reach, rolling increases and an accidental gybe threatens.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilealluremarineleventdebout-b2-13f2a3f2",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "On the head-to-wind point of sail, what must the sailboat do to make headway under sail?",
+      "choices": [
+        {
+          "text": "Bear away about 45° from the wind axis (30° on the highest-performance racing yachts)",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Hold its course exactly head to wind, sheeting its sails in fully",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Set the spinnaker to catch the wind coming from ahead",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__allure_marine__le_vent_debout-b2feba4f",
+        "ref": "Voile — Allure (marine) : Le vent debout",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Allure_(marine)",
+        "as_of": "223790627",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Head to wind the sailboat cannot make headway: it must bear away about 45° from the wind axis (30° in racing) and beat to windward (tack).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilealluremarinetribordamuresbâ-dfe53188",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "When is a sailboat said to be «on starboard tack»?",
+      "choices": [
+        {
+          "text": "When the wind comes from the right relative to the boat's axis",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "When it sails downwind with the sails wing-on-wing (in scissors)",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "When it has right of way over every other boat on the water",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__allure_marine__tribord_amures_bâbord_amur-d3eab947",
+        "ref": "Voile — Allure (marine) : Tribord amures, bâbord amures",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Allure_(marine)",
+        "as_of": "223790627",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "A sailboat is on starboard tack when the wind comes from the right (starboard), and on port tack in the opposite case. These distinctions underlie the right-of-way rules between sailboats.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilechaviragesourceduphénomène--afe43868",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "On a light sport dinghy, what is a capsize commonly called and what is its nature?",
+      "choices": [
+        {
+          "text": "A «capsize»: it is common and harmless",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "A «shipwreck»: it almost always leads to the loss of the boat",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A «rounding up»: it occurs only when close-hauled",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__chavirage__source_du_phénomène-8caa9d29",
+        "ref": "Voile — Chavirage : Source du phénomène",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Chavirage",
+        "as_of": "231891130",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "On a light dinghy the capsize is common and harmless; it results from seeking excessive speed or from poor crew placement.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voileempannagedéfinition-34dc964-475707cc",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "What characterises the gybe (empannage) compared with tacking?",
+      "choices": [
+        {
+          "text": "The change of tack is made by passing through the wind astern (downwind)",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "The change of tack is made by passing head to wind",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "It does not change the set of the sails",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__empannage__définition-34dc9648",
+        "ref": "Voile — Empannage : Définition",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Empannage",
+        "as_of": "236265378",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "A gybe changes tack by passing through the wind astern (downwind); passing head to wind is instead a tack (virement de bord).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilefocprésentation-30eec01b-ee50d7a3",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "What is the jib on a sailboat?",
+      "choices": [
+        {
+          "text": "A triangular headsail, held to the forestay (stay) by its luff",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "The mainsail, rigged abaft the mast",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A standing-rigging wire that holds the mast up",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__foc__présentation-30eec01b",
+        "ref": "Voile — Foc : Présentation",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Foc",
+        "as_of": "227846382",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "The jib is a triangular headsail held to the stay by its luff; it plays a key role in the success of the tack.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilevirementdebordprincipe-90e4-40419c62",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "What happens during a tack (virement de bord)?",
+      "choices": [
+        {
+          "text": "The side of the boat that was leeward becomes windward, and vice versa",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "The sailboat keeps the same tack throughout the manoeuvre",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The manoeuvre is necessarily made by passing through the wind astern",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__virement_de_bord__principe-90e4d950",
+        "ref": "Voile — Virement de bord : Principe",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Virement_de_bord",
+        "as_of": "220344446",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "In a tack, the side that was leeward becomes windward (a change of tack made by passing head to wind).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-fr-codeenvironnement-29-741717c9",
       "theme": "environnement",
       "kind": "rule_mc",
@@ -964,17 +1352,20 @@
         {
           "text": "It is prohibited",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It is free beyond 3 miles",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It is allowed at night",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1007,17 +1398,20 @@
         {
           "text": "Bring it ashore to harbour facilities",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Throw it overboard offshore",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Burn it aboard",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1050,17 +1444,20 @@
         {
           "text": "Regulated, even prohibited (protected beds)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Free and harmless",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Recommended because the anchor holds well there",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1093,17 +1490,20 @@
         {
           "text": "12",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "10",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "100",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1136,17 +1536,20 @@
         {
           "text": "Chart datum (lowest tides)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mean sea level",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "High-water level",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1179,17 +1582,20 @@
         {
           "text": "The height difference between high and low water",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The speed of the tidal stream",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The duration of a tide",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1222,17 +1628,20 @@
         {
           "text": "Between 20 and 120",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Between 0 and 100",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Between 1 and 12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1265,17 +1674,20 @@
         {
           "text": "To estimate the water height at a given hour of the tide",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "To calculate the wind force",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "To measure drift from the current",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1308,17 +1720,20 @@
         {
           "text": "When the water level stops changing (slack of the level)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "When the current is strongest",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The difference between high and low water",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1351,17 +1766,20 @@
         {
           "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "2/12, 2/12, 2/12, 2/12, 2/12, 2/12",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1394,17 +1812,20 @@
         {
           "text": "The ebb (jusant)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The flood (flot)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Slack water",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1437,17 +1858,20 @@
         {
           "text": "Macrotidal",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Mesotidal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Microtidal",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1480,17 +1904,20 @@
         {
           "text": "Two high waters and two low waters",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "One high water and one low water",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Three high waters and three low waters",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1523,17 +1950,20 @@
         {
           "text": "Coefficient 95",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Coefficient 120",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Coefficient 45",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1566,17 +1996,20 @@
         {
           "text": "Spring tides (large range)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Neap tides (small range)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "No tide (permanent slack water)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1609,17 +2042,20 @@
         {
           "text": "Near the lowest astronomical tides",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "At mean sea level",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Near the highest astronomical tides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1652,17 +2088,20 @@
         {
           "text": "6 nautical miles",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "2 nautical miles",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "With no distance limit",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1695,17 +2134,20 @@
         {
           "text": "Inshore (force 6, 2 m waves)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Unrestricted ocean",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Sheltered waters only",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1738,17 +2180,20 @@
         {
           "text": "Hold it in a tank and empty it ashore",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Discharge it discreetly at night",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Discharge it far from the banks",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1781,17 +2226,20 @@
         {
           "text": "Prohibited",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Allowed in small amounts",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Free outside harbours",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1824,17 +2272,20 @@
         {
           "text": "Reduce speed and wash near the banks",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Run at full speed in the centre",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Moor in the reed beds",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1867,17 +2318,20 @@
         {
           "text": "Avoid any overflow (do not fill to the brim)",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Fill as fast as possible",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Rinse the tank with canal water",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1910,17 +2364,20 @@
         {
           "text": "Notify without delay the navigation police authority and the manager, indicating the nature and location of the discharge.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Report nothing as long as the discharge does not fully obstruct the water section.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Warn only the other boats by a sound signal, without notifying any authority.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1953,17 +2410,20 @@
         {
           "text": "A valid waste-oil control logbook, on board every motorized boat or floating craft (except small craft).",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A waste-oil control logbook, required only on board small craft.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An annual oil-change certificate issued by the waterway manager.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1996,17 +2456,20 @@
         {
           "text": "Comply with the orders given by the boatmaster in the interest of the safety of navigation and order on board.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Obey the boatmaster only if she is part of the vessel's paid crew.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Follow only the orders relating to boarding and disembarking.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2039,17 +2502,20 @@
         {
           "text": "Take all necessary measures to control the incident and immediately notify the waterway manager or owner as well as the territorially competent CODIS.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Wait for the rescue services to arrive before undertaking any action to fight the incident.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Warn only the other vessels navigating nearby, without alerting any authority.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2082,17 +2548,20 @@
         {
           "text": "No object liable to compromise safety may protrude from the sides, and raised anchors must not extend below the bottom or keel of the vessel.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Objects may protrude from the sides provided they are marked by a flag during the day.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Raised anchors must stay above the waterline but may extend below the keel of the vessel.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2125,17 +2594,20 @@
         {
           "text": "Immediately notify the navigation policing authority and the waterway manager, and endeavour to clear the waterway in case of obstruction.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Notify the authorities only if the vessel is carrying dangerous goods.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Leave the vessel in place and wait for the manager's mandatory intervention without acting.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2168,17 +2640,20 @@
         {
           "text": "Strengthen his vessel's mooring lines, the ice being broken around the waterline by him or under his responsibility.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Completely detach the vessel from the bank to let it drift freely with the ice.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Mandatorily entrust the ice-breaking to the waterway manager, never to the boatmaster.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2211,17 +2686,20 @@
         {
           "text": "Displayed visibly and legibly on the hull",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Kept only in the boat's papers",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Optional for pleasure craft",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2254,17 +2732,20 @@
         {
           "text": "The boat's condition, the safety gear and the weather",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Only the fuel level",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Nothing — checks are the lock's job",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2297,17 +2778,20 @@
         {
           "text": "One white light over one red light in a vertical line",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Two white lights in a vertical line",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Two red lights in a vertical line",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2340,17 +2824,20 @@
         {
           "text": "The lights shall be at least 0.9 meter apart and visible all around the horizon at a distance of at least 1 mile",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The lights shall be at least 1.5 meters apart and visible at a distance of at least 2 miles",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The lights shall be placed at the same level as the lights prescribed in Rule 26(b)(i) and (c)(i)",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2383,17 +2870,20 @@
         {
           "text": "The requirements for sound signal appliances prescribed in Annex III",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The repositioning of masthead lights on vessels of less than 150 meters in length",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The installation of lights with ranges prescribed in Rule 22",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2426,17 +2916,20 @@
         {
           "text": "The repositioning of lights as a result of conversion from Imperial to metric units and rounding off measurement figures",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The installation of lights with ranges prescribed in Rule 22",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The requirements for sound signal appliances prescribed in Annex III",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2469,17 +2962,20 @@
         {
           "text": "Special rules made by an appropriate authority for harbors, rivers or inland waterways shall conform as closely as possible to these Rules",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A Government may make special rules for ships of war with respect to additional station or signal lights",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Traffic separation schemes may only be adopted by individual coastal States, not by the Organization",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2513,17 +3009,20 @@
         {
           "text": "The high seas and all waters connected therewith navigable by seagoing vessels",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The high seas only, excluding all inland waterways",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "All waters within 200 nautical miles of any coastline",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2556,17 +3055,20 @@
         {
           "text": "No vessel, owner, master or crew is exonerated from the consequences of any neglect to comply",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The owner of a vessel is exonerated if the master was solely at fault",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A vessel is exonerated if the collision occurred in restricted visibility",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2599,17 +3101,20 @@
         {
           "text": "When special circumstances, including the limitations of the vessels involved, make a departure necessary to avoid immediate danger",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "When the master decides that strict compliance would slow the vessel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "When operating in harbor waters governed by port authority regulations",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2642,17 +3147,20 @@
         {
           "text": "Rules in this Part shall be complied with in all weathers.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The Rules concerning shapes shall be complied with by day.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "No lights may be shown between sunrise and sunset under any circumstances.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2686,17 +3194,20 @@
         {
           "text": "An unbroken light over an arc of the horizon of 135 degrees, showing 67.5 degrees from right aft on each side of the vessel.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An unbroken light over an arc of the horizon of 225 degrees, showing from right ahead to 22.5 degrees abaft the beam on either side.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "An unbroken light over an arc of the horizon of 360 degrees.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2729,17 +3240,20 @@
         {
           "text": "A red light showing an unbroken light over an arc of 112.5 degrees from right ahead to 22.5 degrees abaft the beam on the port side.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A green light showing an unbroken light over an arc of 112.5 degrees from right ahead to 22.5 degrees abaft the beam on the port side.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A white light showing an unbroken light over an arc of 135 degrees on the port side.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2772,17 +3286,20 @@
         {
           "text": "6 miles.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "5 miles.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "3 miles.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2815,17 +3332,20 @@
         {
           "text": "A sidelight and a sternlight.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A towing light and a sternlight.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A masthead light on a vessel of 18 meters in length.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2859,17 +3379,20 @@
         {
           "text": "A masthead light forward and sidelights",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A sternlight",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An all-round flashing yellow light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2903,17 +3426,20 @@
         {
           "text": "An all-round white light and, if practicable, sidelights",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A masthead light forward and a sternlight only",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Sidelights and a sternlight only, with no white light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2946,17 +3472,20 @@
         {
           "text": "An electric torch or lighted lantern showing a white light to be exhibited in sufficient time to prevent collision",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A red flare to be discharged when another vessel approaches",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A bell to be sounded at one-minute intervals",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2989,17 +3518,20 @@
         {
           "text": "A conical shape, apex downwards, forward where it can best be seen",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A ball shape at or near the top of the mast",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Two cones with apexes together in a vertical line",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3032,17 +3564,20 @@
         {
           "text": "An all-round white light or a cone apex upwards in the direction of the gear",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A second masthead light abaft the first",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Two all-round red lights in a vertical line",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3075,17 +3610,20 @@
         {
           "text": "Two all-round lights in a vertical line, the upper being green and the lower white",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Sidelights and a sternlight",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An all-round red light at the masthead",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3119,17 +3657,20 @@
         {
           "text": "Three all-round red lights in a vertical line, or a cylinder.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Two all-round red lights in a vertical line, or a ball.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Three all-round white lights in a vertical line.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3162,17 +3703,20 @@
         {
           "text": "Two all-round lights in a vertical line, the upper being white and the lower red.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Two all-round lights in a vertical line, the upper being red and the lower white.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A single all-round white light at the masthead.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3205,17 +3749,20 @@
         {
           "text": "Sidelights and a sternlight, in addition to the masthead all-round lights.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An all-round flashing yellow light.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A second masthead light abaft of and higher than the forward one.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3248,17 +3795,20 @@
         {
           "text": "Two all-round red lights in a vertical line",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Three balls in a vertical line",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An all-round flashing yellow light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3292,17 +3842,20 @@
         {
           "text": "A vessel of less than 7 meters in length, when at anchor not in or near a narrow channel, fairway or anchorage, or where other vessels normally navigate",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A vessel of less than 50 meters in length at anchor",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A vessel of 100 meters or more in length at anchor",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3335,17 +3888,20 @@
         {
           "text": "Exhibit lights and shapes as closely similar in characteristics and position as is possible.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Extinguish all lights until conditions permit full compliance.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Display only a single all-round white light until full compliance is restored.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3378,17 +3934,20 @@
         {
           "text": "A seaplane and a WIG craft.",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A seaplane only.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Any vessel less than 12 meters in length.",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3421,17 +3980,20 @@
         {
           "text": "A short blast is about one second's duration; a whistle is any sound signaling appliance capable of producing the prescribed blasts",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A short blast is about one second's duration; a whistle must produce only high-pitched tones",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A short blast is from four to six seconds' duration; a whistle is any sound signaling appliance capable of producing the prescribed blasts",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3464,17 +4026,20 @@
         {
           "text": "From four to six seconds",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "About one second",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "From two to three seconds",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3507,17 +4072,20 @@
         {
           "text": "She is not obliged to carry the prescribed sound signaling appliances but shall be provided with some other means of making an efficient sound signal if she does not carry them",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "She is required to carry a whistle but not a bell",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "She is exempt from all sound signal requirements",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3550,17 +4118,20 @@
         {
           "text": "A whistle, a bell, and a gong",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A whistle and a bell only",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A whistle and a gong only",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3593,17 +4164,20 @@
         {
           "text": "It shall be such that it cannot be mistaken for any aid to navigation",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It must be a fixed white light",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It shall not be used in conjunction with sound signals",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3636,17 +4210,20 @@
         {
           "text": "The use of high intensity intermittent or revolving lights, such as strobe lights",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Directing a searchlight toward the danger",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Using sound signals that cannot be mistaken for authorized signals",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3679,17 +4256,20 @@
         {
           "text": "The side on which the mainsail is carried",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The side opposite to that on which the mainsail is carried or, in the case of a square-rigged vessel, the side opposite to that on which the largest fore-and-aft sail is carried",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The side from which the wind is blowing as measured by compass bearing",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3722,17 +4302,20 @@
         {
           "text": "The vessel which has the wind on the port side shall keep out of the way of the other",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The vessel which is to leeward shall keep out of the way",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The larger vessel shall keep out of the way",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3765,17 +4348,20 @@
         {
           "text": "From a direction more than 22.5 degrees abaft the beam of the vessel being overtaken",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "From a direction forward of the beam of the vessel being overtaken",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "From a direction abeam of the vessel being overtaken",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3808,17 +4394,20 @@
         {
           "text": "Any subsequent alteration of the bearing between the two vessels relieves the overtaking vessel of her duty to keep clear",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "When a vessel is in any doubt as to whether she is overtaking another, she shall assume that this is the case and act accordingly",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Any vessel overtaking any other shall keep out of the way of the vessel being overtaken until she is finally past and clear",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3852,17 +4441,20 @@
         {
           "text": "A vessel could see the masthead lights of the other in a line or nearly in a line and/or both sidelights",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A vessel can see only the sternlight of the other vessel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "A vessel sees the other ahead or nearly ahead",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3896,17 +4488,20 @@
         {
           "text": "Each shall alter her course to starboard so that each shall pass on the port side of the other",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The vessel on the starboard side shall keep out of the way",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Each shall reduce speed and maintain her course",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3939,17 +4534,20 @@
         {
           "text": "The vessel which has the other on her own starboard side",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The vessel which has the other on her own port side",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The faster of the two vessels",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3982,17 +4580,20 @@
         {
           "text": "Crossing ahead of the other vessel",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Altering course to starboard",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Reducing speed",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4025,17 +4626,20 @@
         {
           "text": "Altering course to starboard for a vessel on her port side",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Altering course to port for a vessel on her own port side",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Reducing speed to allow the give-way vessel to pass",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4068,17 +4672,20 @@
         {
           "text": "As soon as it becomes apparent that the vessel required to keep out of the way is not taking appropriate action in compliance with these Rules",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Only after the give-way vessel has altered course",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Immediately upon sighting the give-way vessel",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4111,17 +4718,20 @@
         {
           "text": "She shall keep well clear of all vessels and avoid impeding their navigation",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "She has priority over all surface vessels and need not keep clear",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "She shall comply with the Rules of this Part only when underway at taxiing speed",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4154,17 +4764,20 @@
         {
           "text": "A vessel not under command and a vessel restricted in her ability to maneuver",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A sailing vessel and a vessel engaged in fishing",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Any vessel that is anchored or moored",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4198,17 +4811,20 @@
         {
           "text": "Every vessel shall proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Every vessel shall proceed at half her normal service speed",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Every vessel shall stop and wait until visibility improves",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4241,17 +4857,20 @@
         {
           "text": "An alteration of course to port for a vessel forward of the beam, other than for a vessel being overtaken",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An alteration of course towards a vessel abeam or abaft the beam",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An alteration of course to starboard for a vessel forward of the beam",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4285,17 +4904,20 @@
         {
           "text": "By sight and hearing as well as by all available means appropriate in the prevailing circumstances and conditions",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "By sight alone during daylight hours",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "By radar only when in restricted visibility",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4328,17 +4950,20 @@
         {
           "text": "To make a full appraisal of the situation and of the risk of collision",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "To identify vessels by name and flag state",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "To log all vessels within a 5-mile radius",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4371,17 +4996,20 @@
         {
           "text": "The state of visibility and the traffic density including concentrations of fishing vessels or any other vessels",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "The characteristics, efficiency and limitations of radar equipment",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "The maneuverability of the vessel with special reference to stopping distance and turning ability in the prevailing conditions",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4415,17 +5043,20 @@
         {
           "text": "Take proper and effective action to avoid collision and be stopped within a distance appropriate to the prevailing circumstances and conditions",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Maintain a steady course regardless of visibility",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Continuously monitor radar to detect vessels at long range",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4458,17 +5089,20 @@
         {
           "text": "If the compass bearing of an approaching vessel does not appreciably change",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Only when two vessels are on a reciprocal course",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "If there is any doubt as to whether risk of collision exists",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4502,17 +5136,20 @@
         {
           "text": "Using long-range radar scanning to obtain early warning",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "Making assumptions on the basis of scanty information, especially scanty radar information",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Conducting radar plotting or equivalent systematic observation of detected objects",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4545,17 +5182,20 @@
         {
           "text": "The alteration shall, if circumstances admit, be large enough to be readily apparent to another vessel observing visually or by radar",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A succession of small alterations of course and/or speed should be avoided",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "An alteration of speed alone is always preferable to an alteration of course",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4589,17 +5229,20 @@
         {
           "text": "It shall be positive, made in ample time and with due regard to the observance of good seamanship",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "It shall always consist of a reduction in speed rather than an alteration of course",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "It shall be communicated to the other vessel by radio before being executed",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4632,17 +5275,20 @@
         {
           "text": "As near to the outer limit of the channel or fairway which lies on her starboard side as is safe and practicable",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "In the center of the channel to maintain maximum sea room on both sides",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         },
         {
           "text": "As near to the outer limit on her port side as is safe and practicable",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4675,17 +5321,20 @@
         {
           "text": "A vessel of less than 20 meters in length",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A sailing vessel",
           "image": null,
-          "is_correct": true
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "A power-driven vessel of 20 meters or more in length",
           "image": null,
-          "is_correct": false
+          "is_correct": false,
+          "rationale": ""
         }
       ],
       "provenance": {
