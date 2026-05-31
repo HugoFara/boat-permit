@@ -1,4 +1,4 @@
-# Boat-permit — Bootsführerschein-Regeln aus geprüften Quellen lernen
+# Boating-licence — Bootsführerschein-Regeln aus geprüften Quellen lernen
 
 **Sprachen:** [English](README.md) · [Français](README.fr.md) · **Deutsch** · [Italiano](README.it.md)
 

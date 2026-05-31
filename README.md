@@ -1,4 +1,4 @@
-# Boat-permit — learn boating rules from verified sources
+# Boating-licence — learn boating rules from verified sources
 
 **Languages:** [English](README.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md)
 
@@ -287,9 +287,15 @@ All offline; no network or API key needed.
 
 ## Licence
 
-Tooling in this repo is open for reuse. Ingested content keeps its own licence,
-recorded per unit and per question: Swiss/French federal law and the COLREG (USCG) are
-public-domain; French open data is Licence Ouverte / Etalab; German law is §5(1) UrhG
-and the ELWIS catalogue §5(2) UrhG (cite www.elwis.de, unmodified); Wikipedia matelotage
-material is CC BY-SA 4.0; météo/cantonal pages are official sources used with
-attribution.
+See [`LICENSE`](LICENSE) for the full terms. In short:
+
+- **Tooling (code)** — **MIT**.
+- **Generated content** (knowledge bases, question banks, Anki/GIFT exports) —
+  **CC BY-SA 4.0**, because parts are derived from CC BY-SA Wikipedia and the
+  share-alike obligation is viral; attribute and re-share alike.
+- **Ingested upstream content** keeps its own licence, recorded per unit and per
+  question: Swiss/French federal law and the COLREG (USCG) are public-domain;
+  French open data is Licence Ouverte / Etalab; German law is §5(1) UrhG and the
+  ELWIS catalogue §5(2) UrhG (cite www.elwis.de, unmodified); Wikipedia matelotage
+  material is CC BY-SA 4.0; météo/cantonal pages are official sources used with
+  attribution.

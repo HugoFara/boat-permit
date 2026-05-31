@@ -1,6 +1,6 @@
 # Deutschland — Sportbootführerschein (Erweiterung des Lerntools)
 
-Dieses Dokument beschreibt den Deutschland-Teil des boat-permit-Lerntools. Die
+Dieses Dokument beschreibt den Deutschland-Teil des boating-licence-Lerntools. Die
 juristische und redaktionelle Grenze ist **dieselbe wie beim Schweizer Kern**: Jede
 Frage ist *aus Primärquellen abgeleitet* und trägt eine Quellenangabe zurück zum
 Text, aus dem sie stammt. Eine Besonderheit gegenüber der Schweiz: Für die

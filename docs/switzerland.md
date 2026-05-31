@@ -1,6 +1,6 @@
 # Suisse — permis cat-A motorboat (cœur d'origine de l'outil)
 
-Ce document décrit le cœur **suisse** de l'outil de révision boat-permit — la portée
+Ce document décrit le cœur **suisse** de l'outil de révision boating-licence — la portée
 d'origine du projet, dont les autres pays sont des extensions. La limite juridique et
 éditoriale est la **règle de référence** de tout le projet : chaque question est
 *dérivée de sources primaires* (le droit public) et porte une citation renvoyant à

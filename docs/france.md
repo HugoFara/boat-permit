@@ -1,6 +1,6 @@
 # France — *permis plaisance* (extension de l'outil de révision)
 
-Ce document décrit l'extension France de l'outil de révision boat-permit. La limite
+Ce document décrit l'extension France de l'outil de révision boating-licence. La limite
 juridique et éditoriale est **la même que pour le cœur suisse** : chaque question est
 *dérivée de sources primaires* et porte une citation renvoyant au texte dont elle est
 issue. Nous ne récupérons, ne stockons ni ne reproduisons **aucune** banque d'examen

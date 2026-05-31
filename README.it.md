@@ -1,4 +1,4 @@
-# Boat-permit — impara le regole della navigazione da fonti verificate
+# Boating-licence — impara le regole della navigazione da fonti verificate
 
 **Lingue:** [English](README.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · **Italiano**
 
