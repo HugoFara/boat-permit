@@ -96,6 +96,12 @@ def test_tagger_classifies_each_family():
         "Was bedeutet dieses Tafelzeichen am Ufer?": "waterway-signs",
         "Wer hat Vorfahrt beim Kreuzen zweier Boote?": "give-way",
         "Combien de gilets faut-il à bord ?": "",   # not in pilot scope
+        # German declension / generic light-config phrasing the catalogue uses,
+        # which the nominative/part-specific keys used to miss:
+        "Wie lang ist die Dauer eines kurzen Tons?": "sound-signals",
+        "Welches optische Zeichen ersetzt vier kurze Töne?": "sound-signals",
+        "Welches Fahrzeug führt diese Lichter?": "nav-lights",
+        "Was bedeuten zwei blaue Lichter übereinander?": "nav-lights",
     }
     for stem, expected in cases.items():
         assert principles.tag_for(stem) == expected, stem

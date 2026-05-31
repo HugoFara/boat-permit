@@ -46,6 +46,10 @@ _KEYWORDS: list[tuple[str, tuple[str, ...]]] = [
         "coups", "sifflet",
         "sound signal", "short blast", "long blast", "prolonged blast", "whistle",
         "schallsignal", "kurzer ton", "langer ton", "pfeife", "glocke",
+        # declined German forms the nominative keys miss: "Dauer eines kurzen Tons",
+        # "vier kurze/kurzen Töne(n)" — the catalogue asks blast questions in the
+        # genitive/plural, where "kurzer ton" never substring-matches.
+        "kurzen ton", "langen ton", "kurze tone", "lange tone",
         "segnale sonoro", "suono breve", "suono prolungato", "fischio",
     )),
     ("day-shapes", (
@@ -60,6 +64,12 @@ _KEYWORDS: list[tuple[str, tuple[str, ...]]] = [
         "navigation light", "masthead light", "sidelight", "sternlight",
         "all-round light", "all round light", "stern light",
         "topplicht", "seitenlicht", "hecklicht", "rundumlicht", "lichterfuhrung",
+        # generic German light-configuration phrasing the part-specific keys miss:
+        # "Was bedeuten diese Lichter", "Welches Fahrzeug führt diese Lichter",
+        # "zwei blaue Lichter übereinander". Discriminating — these are light-signal
+        # questions, not sound/shape (which run first in this table anyway).
+        "diese lichter", "blaue lichter", "lichter ubereinander",
+        "lichter fuhren", "lichter gefuhrt", "lichter zeigen", "lichter gezeigt",
         "fanale", "luce di", "luci di", "luce bianca",
     )),
     ("iala-buoyage", (
