@@ -27,9 +27,23 @@ _REGIONS = {
     for c in cantons.CANTONS.values()
 }
 
+# Per-category fact note (the threshold that makes the permit mandatory, plus the
+# A↔D relationship). Switzerland runs ONE theory exam for every recreational
+# category — cat-A and cat-D sit the identical paper — so what actually
+# distinguishes the categories is the craft threshold and a separate *practical*
+# exam, not the theory. (Confirmed against the cantonal navigation offices / VKS.)
+_PERMIT_NOTES = {
+    "A": "Bateau à moteur dont la puissance dépasse 6 kW "
+         "(4,4 kW sur le lac de Constance).",
+    "D": "Bateau à voile dont la surface vélique dépasse 15 m² "
+         "(12 m² sur le lac de Constance). Examen théorique identique au "
+         "permis A ; seule l’épreuve pratique diffère.",
+}
+
 _PERMITS = {
     code: Permit(code=cfg.permis, label=cfg.label, themes=tuple(cfg.themes),
-                 exam=_exam(cfg), drive=("sail" if code == "D" else "motor"))
+                 exam=_exam(cfg), drive=("sail" if code == "D" else "motor"),
+                 note=_PERMIT_NOTES.get(code, ""))
     for code, cfg in schema.PROFILES.items()
 }
 

@@ -397,6 +397,46 @@ function renderPermits() {
   });
 }
 
+/* CH-style permit picker (point-scored banks). Distinct from renderPermits above,
+ * which is the German blocks picker reusing the canton slot: Switzerland runs ONE
+ * theory paper for every recreational category, so this picker lives in its OWN
+ * slot alongside the canton picker and is informational — choosing cat-A vs cat-D
+ * changes the named category + its threshold note, not the question pool (the two
+ * pools coincide until the cat-D `voile` study theme is sourced). Labels/notes are
+ * localised by code (i18n `permit_<code>` / `permitNote_<code>`), falling back to
+ * the manifest's FR string when a key is absent. */
+function permitLabel(p) {
+  const k = "permit_" + p.code, s = T(k);
+  return s === k ? (p.label || p.code) : s;
+}
+function permitNote(p) {
+  const k = "permitNote_" + p.code, s = T(k);
+  return s === k ? (p.note || "") : s;
+}
+function renderPermitPicker() {
+  const box = $("permits"), label = $("t-permit"), noteEl = $("permit-note");
+  if (!box) return;
+  const list = permitList();
+  // Blocks banks (DE) render permits into the canton slot; this slot stays empty.
+  if (blocksMode() || list.length <= 1) {
+    box.innerHTML = "";
+    if (label) label.textContent = "";
+    if (noteEl) noteEl.textContent = "";
+    return;
+  }
+  const active = currentPermit();
+  if (label) label.textContent = T("choosePermit");
+  box.innerHTML = list.map((p) => {
+    const on = active && p.code === active.code;
+    return `<button class="chip ${on ? "on" : ""}" data-permit="${p.code}"
+      aria-pressed="${on}" title="${escapeHtml(permitNote(p))}">${escapeHtml(permitLabel(p))}</button>`;
+  }).join("");
+  box.querySelectorAll(".chip").forEach((b) => {
+    b.onclick = () => selectPermit(b.dataset.permit);
+  });
+  if (noteEl) noteEl.textContent = active ? permitNote(active) : "";
+}
+
 /* --- Question pool (national bank vs harmonised common core) ----------------
  * The common core is the cross-country/cross-track portable subset: universal
  * seamanship + the harmonised traffic code(s) (CEVNI inland, COLREGS at sea). The
@@ -465,6 +505,7 @@ function renderStart() {
   renderPools();
   renderDomains();
   if (blocksMode()) renderPermits(); else renderCantons();
+  renderPermitPicker();                 // CH: own slot, no-op for DE/FR/INT
   renderAnki();
 
   const avail = bankForRun().length;          // questions in the chosen domains

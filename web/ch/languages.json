@@ -24,6 +24,26 @@
       "unofficial": false
     }
   },
+  "permits": [
+    {
+      "code": "A",
+      "drive": "motor",
+      "track": "inland",
+      "label": "Permis A — bateau à moteur",
+      "note": "Bateau à moteur dont la puissance dépasse 6 kW (4,4 kW sur le lac de Constance).",
+      "questions": 60,
+      "mandatory": true
+    },
+    {
+      "code": "D",
+      "drive": "sail",
+      "track": "inland",
+      "label": "Permis D — voile",
+      "note": "Bateau à voile dont la surface vélique dépasse 15 m² (12 m² sur le lac de Constance). Examen théorique identique au permis A ; seule l’épreuve pratique diffère.",
+      "questions": 60,
+      "mandatory": true
+    }
+  ],
   "cantons": [
     {
       "code": "GE",

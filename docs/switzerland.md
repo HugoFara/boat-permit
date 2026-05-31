@@ -15,18 +15,31 @@ préparation payantes.
 
 ## Types de permis
 
-La portée pleinement étayée est le permis **catégorie A** (bateau à moteur). Le permis
-**catégorie D** (voile) est amorcé. Modélisés dans `src/questions/schema.py`
-(`PROFILES`) et `src/themes.py` (`PERMIS_THEMES`) :
+La Suisse fait passer **un seul examen théorique** pour toutes les catégories de
+plaisance : le candidat cat-A (moteur) et le candidat cat-D (voile) composent le
+*même* sujet. Ce qui distingue réellement les catégories, c'est le **seuil** qui rend
+le permis obligatoire et une **épreuve pratique distincte**, et non la théorie.
+Modélisés dans `src/questions/schema.py` (`PROFILES`) et `src/themes.py`
+(`PERMIS_THEMES`) :
 
-| Code | Permis | Contenu |
-|------|--------|---------|
-| `A` | Permis catégorie A — bateau à moteur | cible étayée à six thèmes |
-| `D` | Permis catégorie D — voile | partage tout le tronc cat-A + ajoute le thème `voile` |
+| Code | Permis | Seuil d'obligation | Contenu théorique |
+|------|--------|--------------------|-------------------|
+| `A` | Permis catégorie A — bateau à moteur | moteur > 6 kW (4,4 kW sur le lac de Constance) | les six thèmes étayés |
+| `D` | Permis catégorie D — voile | surface vélique > 15 m² (12 m² sur le lac de Constance) | **théorie identique à la cat-A** + thème `voile` (étude, optionnel) |
+
+Le lecteur web expose les deux catégories via un **sélecteur de permis** (à côté du
+sélecteur de canton) : `run.py:_build_ch_web` émet le tableau `permits` dans
+`web/ch/languages.json` (clés `code`/`drive`/`track`/`note`…), et les libellés/notes
+sont localisés côté lecteur par code (`permit_<code>` / `permitNote_<code>` dans
+`web/i18n.js`, fr/de/it/en). Comme la théorie est commune, choisir cat-A ou cat-D
+**ne change pas** le pool de questions aujourd'hui ; le sélecteur affiche la catégorie
+ciblée et son seuil. Le pool ne divergera qu'une fois le thème `voile` alimenté.
 
 Le `voile` n'a **aucune source de droit relevant du domaine public** (la technique de
 voile n'est pas du texte d'ordonnance) — il ne porte donc aucune question tant qu'une
-source librement licenciée n'est pas rédigée derrière la barrière de relecture. La
+source librement licenciée n'est pas rédigée derrière la barrière de relecture (c'est
+l'objet de l'extension « contenu d'étude voile »). Il s'agit d'un **complément
+d'étude** pour l'épreuve pratique, pas d'une partie du sujet théorique officiel. La
 règle de tag est volontairement de haute précision, de sorte que le droit cat-A de
 priorité qui mentionne « bateau à voile » reste dans `lois`, et un build cat-A
 standard n'avertit pas du thème vide.

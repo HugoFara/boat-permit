@@ -449,6 +449,11 @@ def _player_html(lang: str, nav: str, title: str) -> str:
       <div id="domains" class="domains"></div>
     </div>
     <div class="domains-block">
+      <span id="t-permit" class="domains-label"></span>
+      <div id="permits" class="domains"></div>
+      <p id="permit-note" class="fine"></p>
+    </div>
+    <div class="domains-block">
       <span id="t-canton" class="domains-label"></span>
       <div id="cantons" class="domains"></div>
     </div>
@@ -657,12 +662,31 @@ def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
             gift_avail[lg] = {"gift": f"gift/boat-permit.{lg}.gift", "count": ng}
     conn.close()
 
+    # Recreational categories (cat-A motorboat, cat-D sailing). Unlike Germany's
+    # block-scored SBF permits, these share ONE point-scored theory paper, so the
+    # picker is informational: it names the category + its mandatory threshold (the
+    # note) without changing the pool — until the cat-D `voile` study theme lands.
+    # Labels/notes are localised player-side by code (i18n permit_<code>); the
+    # `label`/`note` here are the FR fallback. The player honours these only when
+    # the bank is point-scored, so emitting them is harmless for the canton picker.
+    from src import jurisdictions
+    ch_permits = countries.get("CH").permits
+    permits = [{
+        "code": p.code,
+        "drive": p.drive,
+        "track": jurisdictions.permit_track(p),
+        "label": p.label,
+        "note": p.note,
+        "questions": p.exam.questions,
+        "mandatory": p.mandatory,
+    } for p in ch_permits.values()]
     manifest = {
         "default": qschema.DEFAULT_LANG,
         "supported": sorted(qschema.LANGS),
         "available": {lg: {"count": per_lang[lg],
                            "unofficial": lg not in qschema.GROUNDED_LANGS}
                       for lg in langs},
+        "permits": permits,
         "cantons": cantons.as_manifest(),
         "canton_default": cantons.DEFAULT_CANTON,
         "core": _core_refs(core_avail, sorted(qschema.LANGS)),

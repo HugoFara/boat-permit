@@ -162,6 +162,13 @@ const STRINGS = {
     chooseCanton: "Canton (durée de l’examen) :",
     choosePermit: "Permis (épreuve) :",
     cfgPermit: "Permis",
+    permit_A: "Permis A — bateau à moteur",
+    permit_D: "Permis D — voile",
+    permitNote_A: "Bateau à moteur dont la puissance dépasse 6 kW " +
+      "(4,4 kW sur le lac de Constance).",
+    permitNote_D: "Bateau à voile dont la surface vélique dépasse 15 m² " +
+      "(12 m² sur le lac de Constance). Examen théorique identique au permis A ; " +
+      "seule l’épreuve pratique diffère.",
     scoreLineCount: "{correct} / {total} bonnes réponses",
     blkMin: "(min. {n})",
     blk_basis: "Questions de base",
@@ -243,6 +250,13 @@ const STRINGS = {
     chooseDomains: "Nach Themen üben:",
     chooseCanton: "Kanton (Prüfungsdauer):",
     choosePermit: "Führerscheinart:",
+    permit_A: "Kat. A — Motorboot",
+    permit_D: "Kat. D — Segelboot",
+    permitNote_A: "Motorboot mit einer Leistung über 6 kW " +
+      "(4,4 kW auf dem Bodensee).",
+    permitNote_D: "Segelboot mit einer Segelfläche über 15 m² " +
+      "(12 m² auf dem Bodensee). Theorieprüfung identisch mit Kat. A; " +
+      "nur die praktische Prüfung unterscheidet sich.",
     cfgPermit: "Führerschein",
     scoreLineCount: "{correct} / {total} richtig",
     blkMin: "(mind. {n})",
@@ -324,6 +338,14 @@ const STRINGS = {
     footTagline: "Strumento di studio libero · costruito da fonti giuridiche primarie",
     chooseDomains: "Ripassa per tema:",
     chooseCanton: "Cantone (durata dell’esame):",
+    choosePermit: "Categoria (esame):",
+    permit_A: "Cat. A — barca a motore",
+    permit_D: "Cat. D — barca a vela",
+    permitNote_A: "Barca a motore di potenza superiore a 6 kW " +
+      "(4,4 kW sul Lago di Costanza).",
+    permitNote_D: "Barca a vela con superficie velica superiore a 15 m² " +
+      "(12 m² sul Lago di Costanza). Esame teorico identico alla cat. A; " +
+      "solo la prova pratica è diversa.",
     poolLabel: "Banca delle domande:",
     poolNational: "Banca nazionale",
     poolCore: "Tronco comune",
@@ -396,6 +418,14 @@ const STRINGS = {
     footTagline: "Free study tool · built from primary legal sources",
     chooseDomains: "Study by topic:",
     chooseCanton: "Canton (exam duration):",
+    choosePermit: "Category (exam):",
+    permit_A: "Cat. A — motorboat",
+    permit_D: "Cat. D — sailing",
+    permitNote_A: "Motorboat with more than 6 kW of power " +
+      "(4.4 kW on Lake Constance).",
+    permitNote_D: "Sailboat with a sail area over 15 m² " +
+      "(12 m² on Lake Constance). Theory exam identical to cat. A; " +
+      "only the practical test differs.",
     poolLabel: "Question pool:",
     poolNational: "National bank",
     poolCore: "Common core",

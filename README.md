@@ -149,7 +149,7 @@ Germany's **Sportbootführerschein**, with the richest catalogue of the three.
 - **Player:** the countrybar's **🇩🇪 Deutschland** opens `web/de/`, where a permit picker
   drives the real **block-structured exam**.
 
-### 🇨🇭 Switzerland — cat-A motorboat (+ cat-D scaffold)
+### 🇨🇭 Switzerland — cat-A motorboat + cat-D sailing
 
 The **category-A motorboat** theory exam, standardized intercantonally by the **VKS**
 (Geneva's OCV administers the national standard on Lac Léman).
@@ -163,10 +163,15 @@ The **category-A motorboat** theory exam, standardized intercantonally by the **
   has 3 answers of which **1–2 are correct** (multi-select), scored **all-or-nothing**.
   The only per-canton variance is the **time limit** (50 min GE/VD · 45 min Bern),
   modelled in `src/cantons.py` and surfaced as a **canton picker** in the player.
-- **Permits:** **cat-A** is the fully-grounded six-theme target (Définitions,
-  Météorologie, Lois, Signalisation, Matelotage, Eaux frontalières). **cat-D** (voile)
-  is scaffolded — it shares the cat-A core and adds a `voile` theme, awaiting a
-  freely-licensed sailing-technique source.
+- **Permits:** Switzerland runs **one theory exam for every recreational category**, so
+  **cat-A** (motor, >6 kW / 4.4 kW on Lake Constance) and **cat-D** (sail, >15 m² /
+  12 m²) sit the *identical* paper — only the craft threshold and a separate *practical*
+  exam differ. Both are surfaced via a **permit picker** alongside the canton picker
+  (localized fr/de/it/en); since the theory is shared, the picker is informational and
+  the question pool is the same for A and D today. cat-A is the fully-grounded six-theme
+  target (Définitions, Météorologie, Lois, Signalisation, Matelotage, Eaux frontalières);
+  cat-D adds an optional `voile` **study** theme (sailing technique — for the practical,
+  not the official theory paper) that awaits a freely-licensed source.
 - **Build:** `python run.py build` + `python run.py questions` → `web/` (the default,
   so a bare build is the Swiss build).
 
